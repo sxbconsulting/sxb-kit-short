@@ -20,11 +20,20 @@ git clone https://github.com/sxbconsulting/sxb-kit-short ~/sxb-kit-short && cd ~
 ```
 
 `setup.sh` checks Node 20+, ffmpeg, Python 3.10+ and numpy, and prints the install command for whatever is missing.
+
+**Free-only install, in one command** (macOS or Linux; on Windows, inside WSL). It installs Node, ffmpeg, Python, numpy,
+yt-dlp, HyperFrames and its Chrome, plus WhisperX for free local transcription, then runs `setup.sh`. No paid API, no account;
+you can skip step 2.
+
+```bash
+git clone https://github.com/sxbconsulting/sxb-kit-short ~/sxb-kit-short && cd ~/sxb-kit-short && ./install-free.sh
+```
+
 No terminal? Open Claude Code or Codex in any folder and paste this instead:
 
 > Clone https://github.com/sxbconsulting/sxb-kit-short into ~/sxb-kit-short, run ./setup.sh, and walk me through whatever is missing.
 
-**2. Add a transcription key.** In the kit folder:
+**2. Add a transcription key** (skip it if you ran `install-free.sh`). In the kit folder:
 
 ```bash
 ./setup.sh --key
