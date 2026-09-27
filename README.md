@@ -1,4 +1,4 @@
-# SB kit short
+# sxb-kit-short
 
 Edit a talking-head reel with an AI agent (Claude Code or Codex), from the rush to the final render.
 The agent does the work; you say "ok" at seven gates. Rendering is HyperFrames (HTML → video), the playbook is

@@ -1,4 +1,4 @@
-# SB kit short — Visual direction
+# sxb-kit-short — Visual direction
 
 > Validated 16/09/2026. Derived from the "paper" style of Nate Herk's HyperFrames Student Kit
 > (MIT, `style-library/01-vox-explainer`), AIS accent replaced with orange, adapted to 9:16.

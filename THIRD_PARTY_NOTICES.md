@@ -1,6 +1,6 @@
 # Third-party notices
 
-SB kit short is MIT-licensed (see `LICENSE`). It is derived from reel-kit by Antoine Blanco
+sxb-kit-short is MIT-licensed (see `LICENSE`). It is derived from reel-kit by Antoine Blanco
 (https://github.com/antoineblc99/reel-kit, MIT) with the PlugKit publishing step removed, and bundles or builds on the following:
 
 - **Nate Herk's HyperFrames Student Kit** (https://github.com/nateherkai/hyperframes-student-kit, MIT). The skills

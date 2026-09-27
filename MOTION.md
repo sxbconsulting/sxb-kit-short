@@ -1,4 +1,4 @@
-# SB kit short — Editing rules for the agent
+# sxb-kit-short — Editing rules for the agent
 
 > Read before planning a reel's scenes. DESIGN.md says what it looks like; this file says how it moves
 > and how we verify. The technical rules come from Nate Herk's kit (MOTION_PHILOSOPHY.md, MIT).

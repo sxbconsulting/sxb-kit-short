@@ -1,4 +1,4 @@
-# SB kit short — the map (Claude Code and Codex)
+# sxb-kit-short — the map (Claude Code and Codex)
 
 One video = one folder cloned from this kit. `CLAUDE.md` is a symlink to this file, so both agents read the same map.
 **The playbook is Nate Herk's `short-form-edit` skill, kept verbatim in `.claude/skills/`** (Codex mirror: `.agents/skills/`).

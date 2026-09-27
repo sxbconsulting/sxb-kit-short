@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SB kit short setup: checks the tools the kit needs, warms up HyperFrames, and tells you what is missing.
+# sxb-kit-short setup: checks the tools the kit needs, warms up HyperFrames, and tells you what is missing.
 # Run once per machine, from the kit folder:  ./setup.sh
 # Optional: ./setup.sh --whisperx   (local transcription fallback, ~2 GB of models)
 set -uo pipefail
@@ -10,7 +10,7 @@ need() { # need <cmd> <hint>
   if command -v "$1" >/dev/null 2>&1; then say "ok   $1 ($(command -v "$1"))"; else say "MISSING $1  →  $2"; ok=0; fi
 }
 
-echo "SB kit short setup"
+echo "sxb-kit-short setup"
 need node   "install Node 20+ from https://nodejs.org"
 need npx    "comes with Node"
 need ffmpeg "macOS: brew install ffmpeg · Linux: apt install ffmpeg"
