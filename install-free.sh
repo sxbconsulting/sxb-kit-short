@@ -19,10 +19,10 @@ case "$(uname -s)" in
       /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     fi
     for b in /opt/homebrew/bin/brew /usr/local/bin/brew; do [ -x "$b" ] && eval "$("$b" shellenv)" && break; done
-    # keep brew on the PATH of every new terminal
-    if ! grep -qs 'brew shellenv' "$HOME/.zprofile"; then
-      echo "eval \"\$($(command -v brew) shellenv)\"" >> "$HOME/.zprofile"
-    fi
+    # keep brew on the PATH of every new terminal, zsh (macOS default) and bash alike
+    for rc in "$HOME/.zprofile" "$HOME/.bash_profile"; do
+      grep -qs 'brew shellenv' "$rc" || echo "eval \"\$($(command -v brew) shellenv)\"" >> "$rc"
+    done
     step "node, ffmpeg, python, uv, yt-dlp"
     brew install node ffmpeg python uv yt-dlp
     ;;
