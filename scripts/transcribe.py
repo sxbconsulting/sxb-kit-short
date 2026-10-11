@@ -92,7 +92,7 @@ def run_whisperx(model):
         print(f"language detected: {lang}")
     global LANG
     LANG = lang
-    align_model, meta = whisperx.load_align_model(language_code=lang, device=args.device)
+    align_model, meta = whisperx.load_align_model(language_code=lang, device=args.device, model_name=os.environ.get("WHISPERX_ALIGN_MODEL") or None)
     words = []
     for t0, t1, k in (slices or [(0.0, dur, None)]):
         part = audio[int(t0 * 16000): int(t1 * 16000)]
