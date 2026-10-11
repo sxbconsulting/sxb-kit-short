@@ -39,14 +39,25 @@ for s in segs:
     fa, fb = round(s["in"] * FPS), round(s["out"] * FPS)
     plan.append({"name": s["name"], "fa": fa, "fb": fb, "offset": frames})
     frames += fb - fa
-trims = ";".join(f"[0:v]trim=start_frame={p['fa']}:end_frame={p['fb']},setpts=PTS-STARTPTS[v{i}];"
-                 f"[0:a]atrim=start={p['fa'] / FPS}:end={p['fb'] / FPS},asetpts=PTS-STARTPTS[a{i}]" for i, p in enumerate(plan))
-concat = "".join(f"[v{i}][a{i}]" for i in range(len(plan))) + f"concat=n={len(plan)}:v=1:a=1[v0][a0];[v0]{sdr_vf(raw)}[v];[a0]loudnorm=I=-16:TP=-1.5:LRA=11[a]"
 print(f"cut: {len(plan)} takes → {frames} frames ({frames / FPS:.2f} s) · order {' · '.join(p['name'] for p in plan)}")
-subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(raw), "-filter_complex", f"{trims};{concat}",
-                "-map", "[v]", *SDR_TAGS, "-c:v", "libx264", "-preset", "fast", "-crf", "18", "-r", str(FPS),
-                "-g", str(FPS), "-keyint_min", str(FPS), "-movflags", "+faststart", "-an", str(ASSETS / "speaker.mp4"),
-                "-map", "[a]", "-ac", "2", "-ar", "48000", "-c:a", "pcm_s16le", str(ASSETS / "reel-audio.wav")], check=True)
+# one take at a time, then a concat: a single trim/concat graph buffers every pending frame of the source and runs out
+# of memory on a long 4K rush with many takes
+import tempfile
+with tempfile.TemporaryDirectory(prefix="stage-") as tmp:
+    parts = []
+    for i, p in enumerate(plan):
+        part = Path(tmp) / f"p{i:03d}.mkv"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{p['fa'] / FPS:.3f}", "-i", str(raw),
+                        "-frames:v", str(p["fb"] - p["fa"]), "-t", f"{(p['fb'] - p['fa']) / FPS:.3f}", "-r", str(FPS),
+                        "-c:v", "libx264", "-preset", "ultrafast", "-crf", "10", "-c:a", "pcm_s16le", "-ar", "48000", "-ac", "2",
+                        str(part)], check=True)
+        parts.append(part)
+    (Path(tmp) / "list.txt").write_text("".join(f"file '{q}'\n" for q in parts))
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(Path(tmp) / "list.txt"),
+                    "-filter_complex", f"[0:v]{sdr_vf(raw)}[v];[0:a]loudnorm=I=-16:TP=-1.5:LRA=11[a]",
+                    "-map", "[v]", *SDR_TAGS, "-c:v", "libx264", "-preset", "fast", "-crf", "18", "-r", str(FPS),
+                    "-g", str(FPS), "-keyint_min", str(FPS), "-movflags", "+faststart", "-an", str(ASSETS / "speaker.mp4"),
+                    "-map", "[a]", "-ac", "2", "-ar", "48000", "-c:a", "pcm_s16le", str(ASSETS / "reel-audio.wav")], check=True)
 duration = round(float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
                                                 str(ASSETS / "speaker.mp4")]).decode().strip()), 3)
 
