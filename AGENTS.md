@@ -21,7 +21,7 @@ key appears in the chat, tell them to revoke it); option B, `./setup.sh --whispe
 1. `RUN.md` of the project: state, gates ticked, decisions.
 2. `.claude/skills/short-form-edit/SKILL.md` (the playbook) and its references: `quality-gates.md`, `plan-schema.md`,
    `curiosity-and-entertainment.md`, `reference-analysis.md`, `premium-motion-and-footage.md`.
-3. `DESIGN.md` (the kit's default paper look) and `MOTION.md` (motion rules and verification). A brand brief supplied by the
+3. `DA-SXB.md` (the SXB look: black, white, #FECA8A, Ludo-style short narration; it is the default for every project), then `DESIGN.md` (the kit's paper look) and `MOTION.md` (motion rules and verification). A brand brief supplied by the
    user (tokens from a site capture, a logo, fonts) replaces the kit's look for that project.
 4. `hyperframes-core` before writing any composition; `hyperframes-video-beats` and `video-storytelling` to plan beats.
 
