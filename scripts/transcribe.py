@@ -86,7 +86,7 @@ def run_whisperx(model):
     audio = whisperx.load_audio(str(src))
     dur = len(audio) / 16000
     lang = None if args.lang == "auto" else args.lang
-    asr = whisperx.load_model(model, args.device, compute_type="int8", language=lang, vad_method="silero", threads=args.threads)
+    asr = whisperx.load_model(model, args.device, compute_type="int8", language=lang, vad_method=os.environ.get("WHISPERX_VAD", "silero"), threads=args.threads)
     if lang is None:  # detect on the first 30 s, then keep it for every slice
         lang = asr.detect_language(audio[: 16000 * 30]) if hasattr(asr, "detect_language") else asr.transcribe(audio[: 16000 * 30], batch_size=8)["language"]
         print(f"language detected: {lang}")
