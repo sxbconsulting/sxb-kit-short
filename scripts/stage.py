@@ -49,6 +49,7 @@ with tempfile.TemporaryDirectory(prefix="stage-") as tmp:
         part = Path(tmp) / f"p{i:03d}.mkv"
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{p['fa'] / FPS:.3f}", "-i", str(raw),
                         "-frames:v", str(p["fb"] - p["fa"]), "-t", f"{(p['fb'] - p['fa']) / FPS:.3f}", "-r", str(FPS),
+                        "-af", f"afade=t=in:d=0.008,afade=t=out:st={max(0, (p['fb'] - p['fa']) / FPS - 0.008):.3f}:d=0.008",  # no click at the joins
                         "-c:v", "libx264", "-preset", "ultrafast", "-crf", "10", "-c:a", "pcm_s16le", "-ar", "48000", "-ac", "2",
                         str(part)], check=True)
         parts.append(part)
