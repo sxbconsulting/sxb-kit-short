@@ -310,13 +310,18 @@
   "endMs": 26327
  },
  {
-  "text": " 1 000 000",
+  "text": " millions",
   "startMs": 26347,
   "endMs": 26528
  },
  {
-  "text": " d'éditeurs",
+  "text": " de",
   "startMs": 26548,
+  "endMs": 26648
+ },
+ {
+  "text": " visiteurs",
+  "startMs": 26648,
   "endMs": 26849
  },
  {
@@ -1455,7 +1460,7 @@
   "endMs": 130408
  },
  {
-  "text": " 1 000 000",
+  "text": " millions",
   "startMs": 130570,
   "endMs": 131253
  },
@@ -1640,7 +1645,7 @@
   "endMs": 149270
  },
  {
-  "text": " 1 000 000",
+  "text": " millions",
   "startMs": 149431,
   "endMs": 149672
  },
@@ -1850,7 +1855,7 @@
   "endMs": 162225
  },
  {
-  "text": " 1 000 000",
+  "text": " millions",
   "startMs": 162345,
   "endMs": 162526
  },
@@ -2620,13 +2625,8 @@
   "endMs": 215059
  },
  {
-  "text": " 150",
+  "text": " 150 000",
   "startMs": 215080,
-  "endMs": 215221
- },
- {
-  "text": " 000",
-  "startMs": 215301,
   "endMs": 216168
  },
  {
@@ -3040,7 +3040,7 @@
   "endMs": 256789
  },
  {
-  "text": " commerce",
+  "text": " e-commerce",
   "startMs": 256810,
   "endMs": 257517
  },

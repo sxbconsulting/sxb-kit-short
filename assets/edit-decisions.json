@@ -1,0 +1,162 @@
+{
+ "duration": 113.9,
+ "fps": 30,
+ "keeps": [
+  {
+   "sourceStart": 6.933,
+   "sourceEnd": 12.267,
+   "start": 0.0,
+   "end": 5.333
+  },
+  {
+   "sourceStart": 20.2,
+   "sourceEnd": 29.2,
+   "start": 5.333,
+   "end": 14.333
+  },
+  {
+   "sourceStart": 60.4,
+   "sourceEnd": 70.433,
+   "start": 14.333,
+   "end": 24.367
+  },
+  {
+   "sourceStart": 71.333,
+   "sourceEnd": 74.8,
+   "start": 24.367,
+   "end": 27.833
+  },
+  {
+   "sourceStart": 79.3,
+   "sourceEnd": 92.467,
+   "start": 27.833,
+   "end": 41.0
+  },
+  {
+   "sourceStart": 108.667,
+   "sourceEnd": 117.233,
+   "start": 41.0,
+   "end": 49.567
+  },
+  {
+   "sourceStart": 153.567,
+   "sourceEnd": 163.967,
+   "start": 49.567,
+   "end": 59.967
+  },
+  {
+   "sourceStart": 164.067,
+   "sourceEnd": 178.867,
+   "start": 59.967,
+   "end": 74.767
+  },
+  {
+   "sourceStart": 192.067,
+   "sourceEnd": 206.067,
+   "start": 74.767,
+   "end": 88.767
+  },
+  {
+   "sourceStart": 212.733,
+   "sourceEnd": 218.967,
+   "start": 88.767,
+   "end": 95.0
+  },
+  {
+   "sourceStart": 219.6,
+   "sourceEnd": 220.633,
+   "start": 95.0,
+   "end": 96.033
+  },
+  {
+   "sourceStart": 234.133,
+   "sourceEnd": 245.6,
+   "start": 96.033,
+   "end": 107.5
+  },
+  {
+   "sourceStart": 251.233,
+   "sourceEnd": 253.933,
+   "start": 107.5,
+   "end": 110.2
+  },
+  {
+   "sourceStart": 254.867,
+   "sourceEnd": 258.567,
+   "start": 110.2,
+   "end": 113.9
+  }
+ ],
+ "removals": [
+  {
+   "sourceStart": 0.0,
+   "sourceEnd": 6.933,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 12.267,
+   "sourceEnd": 20.2,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 29.2,
+   "sourceEnd": 60.4,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 70.433,
+   "sourceEnd": 71.333,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 74.8,
+   "sourceEnd": 79.3,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 92.467,
+   "sourceEnd": 108.667,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 117.233,
+   "sourceEnd": 153.567,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 163.967,
+   "sourceEnd": 164.067,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 178.867,
+   "sourceEnd": 192.067,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 206.067,
+   "sourceEnd": 212.733,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 218.967,
+   "sourceEnd": 219.6,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 220.633,
+   "sourceEnd": 234.133,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 245.6,
+   "sourceEnd": 251.233,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 253.933,
+   "sourceEnd": 254.867,
+   "reason": "silence or retake (takes.py)"
+  }
+ ]
+}

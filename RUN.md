@@ -75,3 +75,8 @@ l'action en milieu de vidéo. Proposition (≈114 s) :
 
 Corrections de transcription à confirmer : « 4 millions d'éditeurs » → « visiteurs » ? ; « 220 1 000 000 » → « 220 millions »
 (bug de conversion des nombres) ; « conseils commerce » → « e-commerce ».
+
+Validé par l'utilisateur (« ok, c'est bien visiteurs »). Corrections appliquées dans `raw.captions.json` : « d'éditeurs » →
+« de visiteurs », « 1 000 000 » → « millions » (×4), « commerce » → « e-commerce », « 150 » + « 000 » → « 150 000 ».
+Prises 19 + 20 fusionnées (parole continue, chevauchement 0,38 s). stage.py : 14 segments, **113,9 s**, voix −16,9 LUFS,
+crête −1,5 dBFS. Aperçu : `renders/concurrence-cut-v1.mp4` (720p, hors git). En attente du « ok » sur la vidéo coupée.
