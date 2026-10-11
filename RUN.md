@@ -35,3 +35,43 @@ Transcription : pas de clé ElevenLabs dans cet environnement cloud → WhisperX
 - Durée cible : **90–120 s** (choix utilisateur). Il faudra donc sélectionner l'argument, pas seulement retirer les silences.
 - Cadrage : l'utilisateur veut **serrer davantage**. Deux propositions envoyées : A ×1,25 / B ×1,4, ancrage vertical 30 %.
   **Choix : B ×1,4**, ancrage vertical 30 % (`face_zoom_f` 1.4, `face_pos_f` "50% 30%"). Gate 1 validée.
+
+## Environnement de transcription (cloud)
+
+Le proxy bloque `github.com/.../tree` (torch.hub Silero) et `download.pytorch.org` (modèle d'alignement FR par défaut).
+Commande qui marche ici :
+`WHISPERX_VAD=pyannote WHISPERX_ALIGN_MODEL=jonatasgrosman/wav2vec2-large-xlsr-53-french python3 scripts/takes.py assets/derush/raw.mp4`
+(+ une fois : `NLTK_ALLOW_PROXIED_URLOPEN=1 ~/.reel-kit/venv/bin/python -c "import nltk; nltk.download('punkt_tab')"`).
+
+## Gate 2 — dérush
+
+takes.py : 22 prises, 20 gardées par l'outil (≈150 s). Relecture manuelle : encore 5 reprises à retirer et 1 appel à
+l'action en milieu de vidéo. Proposition (≈114 s) :
+
+| # | Source | Décision | Raison |
+|---|---|---|---|
+| 01 | 6.9–12.3 | garde | accroche « croyance démontée » |
+| 02 | 20.2–29.2 | garde | boucle ouverte : bouchons d'oreilles, 4 M de visiteurs |
+| 03 | 36.8–42.8 | **coupe** | CTA milieu (« like, sauvegarde… ») : casse le rythme d'un short |
+| 04 | 58.8–60.6 | coupe (outil) | faux départ |
+| 05 | 60.4–70.4 | garde | l'objection |
+| 06 | 71.3–74.8 | garde | promesse d'explication |
+| 07 | 79.3–92.2 | garde, **fin coupée** | « d'où proviennent… problématiques etc » retiré (redite, −2,8 s) |
+| 08 | 99.9–107.6 | **coupe** | reprise inachevée de 09 |
+| 09 | 108.7–117.2 | garde | public déjà éduqué |
+| 10 | 127.1–132.5 | **coupe** | 1re reprise de l'exemple Loop |
+| 11 | 141.5–150.7 | **coupe** | 2e reprise (dit « euros ») |
+| 12 | 153.6–164.0 | garde | version complète de l'exemple Loop |
+| 13 | 164.1–178.9 | garde | le changement : génération Z, produit lifestyle |
+| 14 | 184.9–190.3 | **coupe** | reprise inachevée de 15 |
+| 15 | 192.1–206.1 | garde | coussin en U |
+| 16 | 212.8–219.0 | garde | 400 ads, 150 000 $ / 30 jours |
+| 17 | 219.6–220.6 | garde | « Si ça ce n'est pas une preuve » |
+| 18 | 229.7–233.3 | coupe (outil) | reprise de 19 |
+| 19 | 234.1–238.0 | garde | l'action : analyse-la |
+| 20 | 237.6–245.6 | garde | tunnel, acquisition, conversion |
+| 21 | 251.2–253.9 | garde | l'angle qui manque |
+| 22 | 254.9–258.6 | garde | CTA final |
+
+Corrections de transcription à confirmer : « 4 millions d'éditeurs » → « visiteurs » ? ; « 220 1 000 000 » → « 220 millions »
+(bug de conversion des nombres) ; « conseils commerce » → « e-commerce ».

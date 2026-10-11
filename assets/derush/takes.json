@@ -1,0 +1,4029 @@
+[
+ {
+  "in": 6.92,
+  "out": 12.25,
+  "words": [
+   {
+    "text": "L'erreur",
+    "start": 6.971,
+    "end": 7.233
+   },
+   {
+    "text": "que",
+    "start": 7.253,
+    "end": 7.313
+   },
+   {
+    "text": "je",
+    "start": 7.334,
+    "end": 7.374
+   },
+   {
+    "text": "vois",
+    "start": 7.394,
+    "end": 7.475
+   },
+   {
+    "text": "le",
+    "start": 7.495,
+    "end": 7.535
+   },
+   {
+    "text": "plus",
+    "start": 7.555,
+    "end": 7.736
+   },
+   {
+    "text": "avec",
+    "start": 7.756,
+    "end": 7.897
+   },
+   {
+    "text": "les",
+    "start": 7.918,
+    "end": 7.978
+   },
+   {
+    "text": "débutants",
+    "start": 7.998,
+    "end": 8.28
+   },
+   {
+    "text": "en",
+    "start": 8.3,
+    "end": 8.34
+   },
+   {
+    "text": "e-commerce",
+    "start": 8.381,
+    "end": 9.025
+   },
+   {
+    "text": "c'est",
+    "start": 9.045,
+    "end": 9.166
+   },
+   {
+    "text": "de",
+    "start": 9.186,
+    "end": 9.226
+   },
+   {
+    "text": "fuir",
+    "start": 9.247,
+    "end": 9.448
+   },
+   {
+    "text": "un",
+    "start": 9.488,
+    "end": 9.528
+   },
+   {
+    "text": "marché",
+    "start": 9.549,
+    "end": 9.75
+   },
+   {
+    "text": "parce",
+    "start": 9.77,
+    "end": 9.871
+   },
+   {
+    "text": "qu'il",
+    "start": 9.911,
+    "end": 10.052
+   },
+   {
+    "text": "y",
+    "start": 10.092,
+    "end": 10.112
+   },
+   {
+    "text": "a",
+    "start": 10.133,
+    "end": 10.193
+   },
+   {
+    "text": "de",
+    "start": 10.213,
+    "end": 10.274
+   },
+   {
+    "text": "la",
+    "start": 10.294,
+    "end": 10.374
+   },
+   {
+    "text": "concurrence",
+    "start": 10.394,
+    "end": 10.898
+   },
+   {
+    "text": "alors",
+    "start": 10.918,
+    "end": 11.019
+   },
+   {
+    "text": "que",
+    "start": 11.039,
+    "end": 11.099
+   },
+   {
+    "text": "c'est",
+    "start": 11.119,
+    "end": 11.22
+   },
+   {
+    "text": "justement",
+    "start": 11.24,
+    "end": 11.562
+   },
+   {
+    "text": "un",
+    "start": 11.603,
+    "end": 11.663
+   },
+   {
+    "text": "bon",
+    "start": 11.683,
+    "end": 11.804
+   },
+   {
+    "text": "signal",
+    "start": 11.824,
+    "end": 12.267
+   }
+  ],
+  "text": "L'erreur que je vois le plus avec les débutants en e-commerce c'est de fuir un marché parce qu'il y a de la concurrence alors que c'est justement un bon signal",
+  "norm": [
+   "l'erreur",
+   "que",
+   "je",
+   "voi",
+   "le",
+   "plu",
+   "avec",
+   "les",
+   "debutant",
+   "en",
+   "e",
+   "commerce",
+   "c'est",
+   "de",
+   "fuir",
+   "un",
+   "marche",
+   "parce",
+   "qu'il",
+   "y",
+   "a",
+   "de",
+   "la",
+   "concurrence",
+   "alor",
+   "que",
+   "c'est",
+   "justement",
+   "un",
+   "bon",
+   "signal"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 20.2,
+  "out": 29.2,
+  "words": [
+   {
+    "text": "Les",
+    "start": 20.271,
+    "end": 20.351
+   },
+   {
+    "text": "bouchons",
+    "start": 20.371,
+    "end": 20.572
+   },
+   {
+    "text": "d'oreille",
+    "start": 20.592,
+    "end": 20.833
+   },
+   {
+    "text": "on",
+    "start": 20.853,
+    "end": 20.893
+   },
+   {
+    "text": "est",
+    "start": 20.913,
+    "end": 20.973
+   },
+   {
+    "text": "d'accord",
+    "start": 20.993,
+    "end": 21.214
+   },
+   {
+    "text": "pour",
+    "start": 21.234,
+    "end": 21.334
+   },
+   {
+    "text": "dire",
+    "start": 21.354,
+    "end": 21.494
+   },
+   {
+    "text": "que",
+    "start": 21.534,
+    "end": 21.635
+   },
+   {
+    "text": "c'est",
+    "start": 21.675,
+    "end": 21.775
+   },
+   {
+    "text": "un",
+    "start": 21.815,
+    "end": 21.855
+   },
+   {
+    "text": "des",
+    "start": 21.875,
+    "end": 21.956
+   },
+   {
+    "text": "produits",
+    "start": 21.976,
+    "end": 22.176
+   },
+   {
+    "text": "les",
+    "start": 22.196,
+    "end": 22.256
+   },
+   {
+    "text": "plus",
+    "start": 22.297,
+    "end": 22.497
+   },
+   {
+    "text": "basiques",
+    "start": 22.517,
+    "end": 22.818
+   },
+   {
+    "text": "qui",
+    "start": 22.838,
+    "end": 22.978
+   },
+   {
+    "text": "soient",
+    "start": 22.998,
+    "end": 23.58
+   },
+   {
+    "text": "Pourtant",
+    "start": 23.6,
+    "end": 23.981
+   },
+   {
+    "text": "il",
+    "start": 24.001,
+    "end": 24.202
+   },
+   {
+    "text": "y",
+    "start": 24.222,
+    "end": 24.242
+   },
+   {
+    "text": "a",
+    "start": 24.262,
+    "end": 24.282
+   },
+   {
+    "text": "une",
+    "start": 24.302,
+    "end": 24.462
+   },
+   {
+    "text": "marque",
+    "start": 24.482,
+    "end": 24.703
+   },
+   {
+    "text": "qui",
+    "start": 24.723,
+    "end": 24.823
+   },
+   {
+    "text": "a",
+    "start": 24.843,
+    "end": 24.883
+   },
+   {
+    "text": "réussi",
+    "start": 24.904,
+    "end": 25.164
+   },
+   {
+    "text": "à",
+    "start": 25.204,
+    "end": 25.244
+   },
+   {
+    "text": "attirer",
+    "start": 25.285,
+    "end": 25.686
+   },
+   {
+    "text": "plus",
+    "start": 25.706,
+    "end": 25.786
+   },
+   {
+    "text": "de",
+    "start": 25.826,
+    "end": 26.027
+   },
+   {
+    "text": "4",
+    "start": 26.267,
+    "end": 26.327
+   },
+   {
+    "text": "1 000 000",
+    "start": 26.347,
+    "end": 26.528
+   },
+   {
+    "text": "d'éditeurs",
+    "start": 26.548,
+    "end": 26.849
+   },
+   {
+    "text": "sur",
+    "start": 26.869,
+    "end": 26.989
+   },
+   {
+    "text": "sa",
+    "start": 27.009,
+    "end": 27.089
+   },
+   {
+    "text": "boutique",
+    "start": 27.109,
+    "end": 27.851
+   },
+   {
+    "text": "juste",
+    "start": 27.892,
+    "end": 28.273
+   },
+   {
+    "text": "en",
+    "start": 28.313,
+    "end": 28.353
+   },
+   {
+    "text": "changeant",
+    "start": 28.373,
+    "end": 28.573
+   },
+   {
+    "text": "son",
+    "start": 28.593,
+    "end": 28.694
+   },
+   {
+    "text": "positionnement",
+    "start": 28.714,
+    "end": 29.175
+   }
+  ],
+  "text": "Les bouchons d'oreille on est d'accord pour dire que c'est un des produits les plus basiques qui soient Pourtant il y a une marque qui a réussi à attirer plus de 4 1 000 000 d'éditeurs sur sa boutique juste en changeant son positionnement",
+  "norm": [
+   "les",
+   "bouchon",
+   "d'oreille",
+   "on",
+   "est",
+   "d'accord",
+   "pour",
+   "dire",
+   "que",
+   "c'est",
+   "un",
+   "des",
+   "produit",
+   "les",
+   "plu",
+   "basique",
+   "qui",
+   "soient",
+   "pourtant",
+   "il",
+   "y",
+   "a",
+   "une",
+   "marque",
+   "qui",
+   "a",
+   "reussi",
+   "a",
+   "attirer",
+   "plu",
+   "de",
+   "4",
+   "1",
+   "000",
+   "000",
+   "d'editeur",
+   "sur",
+   "sa",
+   "boutique",
+   "juste",
+   "en",
+   "changeant",
+   "son",
+   "positionnement"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 36.8,
+  "out": 42.84,
+  "words": [
+   {
+    "text": "Mais",
+    "start": 36.831,
+    "end": 36.911
+   },
+   {
+    "text": "avant",
+    "start": 36.931,
+    "end": 37.152
+   },
+   {
+    "text": "ça",
+    "start": 37.172,
+    "end": 37.735
+   },
+   {
+    "text": "like",
+    "start": 37.775,
+    "end": 38.096
+   },
+   {
+    "text": "sauvegarde",
+    "start": 38.116,
+    "end": 38.779
+   },
+   {
+    "text": "abonne-toi",
+    "start": 38.839,
+    "end": 39.421
+   },
+   {
+    "text": "et",
+    "start": 39.441,
+    "end": 39.522
+   },
+   {
+    "text": "surtout",
+    "start": 39.542,
+    "end": 40.184
+   },
+   {
+    "text": "partage",
+    "start": 40.204,
+    "end": 40.526
+   },
+   {
+    "text": "cette",
+    "start": 40.546,
+    "end": 40.666
+   },
+   {
+    "text": "vidéo",
+    "start": 40.686,
+    "end": 40.827
+   },
+   {
+    "text": "avec",
+    "start": 40.847,
+    "end": 40.967
+   },
+   {
+    "text": "une",
+    "start": 41.008,
+    "end": 41.088
+   },
+   {
+    "text": "personne",
+    "start": 41.108,
+    "end": 41.289
+   },
+   {
+    "text": "qui",
+    "start": 41.309,
+    "end": 41.369
+   },
+   {
+    "text": "est",
+    "start": 41.389,
+    "end": 41.449
+   },
+   {
+    "text": "en",
+    "start": 41.469,
+    "end": 41.51
+   },
+   {
+    "text": "train",
+    "start": 41.53,
+    "end": 41.63
+   },
+   {
+    "text": "de",
+    "start": 41.65,
+    "end": 41.69
+   },
+   {
+    "text": "lancer",
+    "start": 41.71,
+    "end": 41.971
+   },
+   {
+    "text": "son",
+    "start": 42.012,
+    "end": 42.112
+   },
+   {
+    "text": "projet",
+    "start": 42.132,
+    "end": 42.333
+   },
+   {
+    "text": "e-commerce",
+    "start": 42.373,
+    "end": 42.855
+   }
+  ],
+  "text": "Mais avant ça like sauvegarde abonne-toi et surtout partage cette vidéo avec une personne qui est en train de lancer son projet e-commerce",
+  "norm": [
+   "mai",
+   "avant",
+   "ca",
+   "like",
+   "sauvegarde",
+   "abonne",
+   "toi",
+   "et",
+   "surtout",
+   "partage",
+   "cette",
+   "video",
+   "avec",
+   "une",
+   "personne",
+   "qui",
+   "est",
+   "en",
+   "train",
+   "de",
+   "lancer",
+   "son",
+   "projet",
+   "e",
+   "commerce"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 58.83,
+  "out": 60.6,
+  "words": [
+   {
+    "text": "Dans",
+    "start": 58.922,
+    "end": 59.023
+   },
+   {
+    "text": "l'idée",
+    "start": 59.043,
+    "end": 59.307
+   },
+   {
+    "text": "je",
+    "start": 59.327,
+    "end": 59.408
+   },
+   {
+    "text": "comprends",
+    "start": 59.448,
+    "end": 59.975
+   }
+  ],
+  "text": "Dans l'idée je comprends",
+  "norm": [
+   "dan",
+   "l'idee",
+   "je",
+   "comprend"
+  ],
+  "keep": false,
+  "why": "contained in the next one"
+ },
+ {
+  "in": 60.4,
+  "out": 70.43,
+  "words": [
+   {
+    "text": "Dans",
+    "start": 60.712,
+    "end": 60.793
+   },
+   {
+    "text": "l'idée",
+    "start": 60.813,
+    "end": 60.993
+   },
+   {
+    "text": "je",
+    "start": 61.014,
+    "end": 61.074
+   },
+   {
+    "text": "comprends",
+    "start": 61.094,
+    "end": 61.315
+   },
+   {
+    "text": "l'objection",
+    "start": 61.335,
+    "end": 61.897
+   },
+   {
+    "text": "parce",
+    "start": 62.038,
+    "end": 62.159
+   },
+   {
+    "text": "que",
+    "start": 62.179,
+    "end": 62.299
+   },
+   {
+    "text": "forcément",
+    "start": 62.319,
+    "end": 62.681
+   },
+   {
+    "text": "on",
+    "start": 62.701,
+    "end": 62.741
+   },
+   {
+    "text": "se",
+    "start": 62.761,
+    "end": 62.801
+   },
+   {
+    "text": "dit",
+    "start": 62.821,
+    "end": 62.902
+   },
+   {
+    "text": "ok",
+    "start": 62.922,
+    "end": 63.344
+   },
+   {
+    "text": "vu",
+    "start": 63.384,
+    "end": 63.444
+   },
+   {
+    "text": "qu'il",
+    "start": 63.464,
+    "end": 63.565
+   },
+   {
+    "text": "y",
+    "start": 63.585,
+    "end": 63.605
+   },
+   {
+    "text": "a",
+    "start": 63.625,
+    "end": 63.645
+   },
+   {
+    "text": "beaucoup",
+    "start": 63.665,
+    "end": 63.826
+   },
+   {
+    "text": "de",
+    "start": 63.846,
+    "end": 63.906
+   },
+   {
+    "text": "concurrents",
+    "start": 63.926,
+    "end": 64.408
+   },
+   {
+    "text": "je",
+    "start": 64.429,
+    "end": 64.469
+   },
+   {
+    "text": "ne",
+    "start": 64.489,
+    "end": 64.529
+   },
+   {
+    "text": "vais",
+    "start": 64.549,
+    "end": 64.629
+   },
+   {
+    "text": "pas",
+    "start": 64.65,
+    "end": 64.71
+   },
+   {
+    "text": "réussir",
+    "start": 64.73,
+    "end": 64.87
+   },
+   {
+    "text": "à",
+    "start": 64.891,
+    "end": 64.911
+   },
+   {
+    "text": "faire",
+    "start": 64.931,
+    "end": 65.112
+   },
+   {
+    "text": "ma",
+    "start": 65.132,
+    "end": 65.212
+   },
+   {
+    "text": "place",
+    "start": 65.232,
+    "end": 65.835
+   },
+   {
+    "text": "ils",
+    "start": 65.895,
+    "end": 65.955
+   },
+   {
+    "text": "sont",
+    "start": 65.975,
+    "end": 66.096
+   },
+   {
+    "text": "déjà",
+    "start": 66.116,
+    "end": 66.578
+   },
+   {
+    "text": "trop",
+    "start": 66.618,
+    "end": 66.839
+   },
+   {
+    "text": "solidement",
+    "start": 66.859,
+    "end": 67.241
+   },
+   {
+    "text": "implantés",
+    "start": 67.281,
+    "end": 67.964
+   },
+   {
+    "text": "alors",
+    "start": 67.984,
+    "end": 68.145
+   },
+   {
+    "text": "ce",
+    "start": 68.245,
+    "end": 68.306
+   },
+   {
+    "text": "serait",
+    "start": 68.346,
+    "end": 68.567
+   },
+   {
+    "text": "plus",
+    "start": 68.587,
+    "end": 68.768
+   },
+   {
+    "text": "simple",
+    "start": 68.788,
+    "end": 68.989
+   },
+   {
+    "text": "de",
+    "start": 69.009,
+    "end": 69.069
+   },
+   {
+    "text": "partir",
+    "start": 69.089,
+    "end": 69.39
+   },
+   {
+    "text": "vers",
+    "start": 69.41,
+    "end": 69.531
+   },
+   {
+    "text": "un",
+    "start": 69.571,
+    "end": 69.631
+   },
+   {
+    "text": "marché",
+    "start": 69.651,
+    "end": 69.993
+   },
+   {
+    "text": "vierge",
+    "start": 70.013,
+    "end": 70.455
+   }
+  ],
+  "text": "Dans l'idée je comprends l'objection parce que forcément on se dit ok vu qu'il y a beaucoup de concurrents je ne vais pas réussir à faire ma place ils sont déjà trop solidement implantés alors ce serait plus simple de partir vers un marché vierge",
+  "norm": [
+   "dan",
+   "l'idee",
+   "je",
+   "comprend",
+   "l'objection",
+   "parce",
+   "que",
+   "forcement",
+   "on",
+   "se",
+   "dit",
+   "ok",
+   "vu",
+   "qu'il",
+   "y",
+   "a",
+   "beaucoup",
+   "de",
+   "concurrent",
+   "je",
+   "ne",
+   "vai",
+   "pas",
+   "reussir",
+   "a",
+   "faire",
+   "ma",
+   "place",
+   "ils",
+   "sont",
+   "deja",
+   "trop",
+   "solidement",
+   "implante",
+   "alor",
+   "ce",
+   "serait",
+   "plu",
+   "simple",
+   "de",
+   "partir",
+   "ver",
+   "un",
+   "marche",
+   "vierge"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 71.32,
+  "out": 74.8,
+  "words": [
+   {
+    "text": "Alors",
+    "start": 71.371,
+    "end": 71.533
+   },
+   {
+    "text": "que",
+    "start": 71.553,
+    "end": 71.654
+   },
+   {
+    "text": "je",
+    "start": 71.674,
+    "end": 71.715
+   },
+   {
+    "text": "vais",
+    "start": 71.735,
+    "end": 71.816
+   },
+   {
+    "text": "t'expliquer",
+    "start": 71.836,
+    "end": 72.301
+   },
+   {
+    "text": "exactement",
+    "start": 72.422,
+    "end": 73.049
+   },
+   {
+    "text": "en",
+    "start": 73.069,
+    "end": 73.129
+   },
+   {
+    "text": "fait",
+    "start": 73.17,
+    "end": 73.655
+   },
+   {
+    "text": "pourquoi",
+    "start": 73.675,
+    "end": 73.918
+   },
+   {
+    "text": "ce",
+    "start": 73.938,
+    "end": 73.978
+   },
+   {
+    "text": "n'est",
+    "start": 73.998,
+    "end": 74.12
+   },
+   {
+    "text": "pas",
+    "start": 74.14,
+    "end": 74.201
+   },
+   {
+    "text": "une",
+    "start": 74.221,
+    "end": 74.322
+   },
+   {
+    "text": "si",
+    "start": 74.342,
+    "end": 74.423
+   },
+   {
+    "text": "bonne",
+    "start": 74.443,
+    "end": 74.625
+   },
+   {
+    "text": "idée",
+    "start": 74.645,
+    "end": 74.827
+   }
+  ],
+  "text": "Alors que je vais t'expliquer exactement en fait pourquoi ce n'est pas une si bonne idée",
+  "norm": [
+   "alor",
+   "que",
+   "je",
+   "vai",
+   "t'expliquer",
+   "exactement",
+   "en",
+   "fait",
+   "pourquoi",
+   "ce",
+   "n'est",
+   "pas",
+   "une",
+   "si",
+   "bonne",
+   "idee"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 79.31,
+  "out": 94.88,
+  "words": [
+   {
+    "text": "Déjà",
+    "start": 79.771,
+    "end": 80.052
+   },
+   {
+    "text": "la",
+    "start": 80.072,
+    "end": 80.112
+   },
+   {
+    "text": "présence",
+    "start": 80.152,
+    "end": 80.352
+   },
+   {
+    "text": "de",
+    "start": 80.372,
+    "end": 80.433
+   },
+   {
+    "text": "concurrent",
+    "start": 80.453,
+    "end": 80.713
+   },
+   {
+    "text": "ça",
+    "start": 80.733,
+    "end": 80.773
+   },
+   {
+    "text": "veut",
+    "start": 80.793,
+    "end": 80.873
+   },
+   {
+    "text": "dire",
+    "start": 80.893,
+    "end": 80.974
+   },
+   {
+    "text": "un",
+    "start": 80.994,
+    "end": 81.034
+   },
+   {
+    "text": "truc",
+    "start": 81.054,
+    "end": 81.174
+   },
+   {
+    "text": "simple",
+    "start": 81.214,
+    "end": 81.575
+   },
+   {
+    "text": "c'est",
+    "start": 81.615,
+    "end": 81.715
+   },
+   {
+    "text": "que",
+    "start": 81.735,
+    "end": 81.815
+   },
+   {
+    "text": "la",
+    "start": 81.835,
+    "end": 81.975
+   },
+   {
+    "text": "demande",
+    "start": 81.996,
+    "end": 82.416
+   },
+   {
+    "text": "est",
+    "start": 82.436,
+    "end": 82.496
+   },
+   {
+    "text": "éprouvée",
+    "start": 82.557,
+    "end": 82.877
+   },
+   {
+    "text": "c'est",
+    "start": 82.897,
+    "end": 82.997
+   },
+   {
+    "text": "que",
+    "start": 83.017,
+    "end": 83.098
+   },
+   {
+    "text": "la",
+    "start": 83.118,
+    "end": 83.278
+   },
+   {
+    "text": "demande",
+    "start": 83.298,
+    "end": 83.579
+   },
+   {
+    "text": "est",
+    "start": 83.619,
+    "end": 83.739
+   },
+   {
+    "text": "présente",
+    "start": 83.759,
+    "end": 84.48
+   },
+   {
+    "text": "C'est-à-dire",
+    "start": 84.56,
+    "end": 84.861
+   },
+   {
+    "text": "que",
+    "start": 84.901,
+    "end": 84.981
+   },
+   {
+    "text": "toi",
+    "start": 85.001,
+    "end": 85.081
+   },
+   {
+    "text": "tu",
+    "start": 85.101,
+    "end": 85.141
+   },
+   {
+    "text": "n'auras",
+    "start": 85.162,
+    "end": 85.402
+   },
+   {
+    "text": "pas",
+    "start": 85.442,
+    "end": 85.622
+   },
+   {
+    "text": "besoin",
+    "start": 85.662,
+    "end": 85.923
+   },
+   {
+    "text": "d'arriver",
+    "start": 85.943,
+    "end": 86.484
+   },
+   {
+    "text": "et",
+    "start": 86.544,
+    "end": 86.704
+   },
+   {
+    "text": "d'expliquer",
+    "start": 86.745,
+    "end": 87.807
+   },
+   {
+    "text": "d'éduquer",
+    "start": 87.827,
+    "end": 88.828
+   },
+   {
+    "text": "comment",
+    "start": 88.869,
+    "end": 89.069
+   },
+   {
+    "text": "fonctionne",
+    "start": 89.089,
+    "end": 89.39
+   },
+   {
+    "text": "ton",
+    "start": 89.41,
+    "end": 89.55
+   },
+   {
+    "text": "produit",
+    "start": 89.57,
+    "end": 90.171
+   },
+   {
+    "text": "quelle",
+    "start": 90.211,
+    "end": 90.391
+   },
+   {
+    "text": "est",
+    "start": 90.411,
+    "end": 90.472
+   },
+   {
+    "text": "la",
+    "start": 90.492,
+    "end": 90.572
+   },
+   {
+    "text": "solution",
+    "start": 90.612,
+    "end": 90.993
+   },
+   {
+    "text": "justement",
+    "start": 91.013,
+    "end": 91.213
+   },
+   {
+    "text": "que",
+    "start": 91.233,
+    "end": 91.313
+   },
+   {
+    "text": "tu",
+    "start": 91.333,
+    "end": 91.433
+   },
+   {
+    "text": "proposes",
+    "start": 91.474,
+    "end": 92.315
+   },
+   {
+    "text": "d'où",
+    "start": 92.335,
+    "end": 92.556
+   },
+   {
+    "text": "proviennent",
+    "start": 92.576,
+    "end": 92.896
+   },
+   {
+    "text": "justement",
+    "start": 92.916,
+    "end": 93.157
+   },
+   {
+    "text": "les",
+    "start": 93.177,
+    "end": 93.237
+   },
+   {
+    "text": "différentes",
+    "start": 93.257,
+    "end": 93.537
+   },
+   {
+    "text": "problématiques",
+    "start": 93.557,
+    "end": 94.078
+   },
+   {
+    "text": "etc",
+    "start": 94.098,
+    "end": 94.439
+   }
+  ],
+  "text": "Déjà la présence de concurrent ça veut dire un truc simple c'est que la demande est éprouvée c'est que la demande est présente C'est-à-dire que toi tu n'auras pas besoin d'arriver et d'expliquer d'éduquer comment fonctionne ton produit quelle est la solution justement que tu proposes d'où proviennent justement les différentes problématiques etc",
+  "norm": [
+   "deja",
+   "la",
+   "presence",
+   "de",
+   "concurrent",
+   "ca",
+   "veut",
+   "dire",
+   "un",
+   "truc",
+   "simple",
+   "c'est",
+   "que",
+   "la",
+   "demande",
+   "est",
+   "eprouvee",
+   "c'est",
+   "que",
+   "la",
+   "demande",
+   "est",
+   "presente",
+   "c'est",
+   "a",
+   "dire",
+   "que",
+   "toi",
+   "tu",
+   "n'aura",
+   "pas",
+   "besoin",
+   "d'arriver",
+   "et",
+   "d'expliquer",
+   "d'eduquer",
+   "comment",
+   "fonctionne",
+   "ton",
+   "produit",
+   "quelle",
+   "est",
+   "la",
+   "solution",
+   "justement",
+   "que",
+   "tu",
+   "propose",
+   "d'ou",
+   "proviennent",
+   "justement",
+   "les",
+   "differente",
+   "problematique",
+   "etc"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 99.86,
+  "out": 107.6,
+  "words": [
+   {
+    "text": "Là",
+    "start": 99.951,
+    "end": 100.433
+   },
+   {
+    "text": "tu",
+    "start": 100.453,
+    "end": 100.493
+   },
+   {
+    "text": "arrives",
+    "start": 100.513,
+    "end": 100.754
+   },
+   {
+    "text": "sur",
+    "start": 100.774,
+    "end": 100.895
+   },
+   {
+    "text": "un",
+    "start": 100.935,
+    "end": 101.015
+   },
+   {
+    "text": "marché",
+    "start": 101.035,
+    "end": 101.638
+   },
+   {
+    "text": "où",
+    "start": 101.678,
+    "end": 101.798
+   },
+   {
+    "text": "justement",
+    "start": 101.818,
+    "end": 102.16
+   },
+   {
+    "text": "le",
+    "start": 102.36,
+    "end": 102.42
+   },
+   {
+    "text": "public",
+    "start": 102.441,
+    "end": 102.621
+   },
+   {
+    "text": "a",
+    "start": 102.641,
+    "end": 102.782
+   },
+   {
+    "text": "déjà",
+    "start": 102.802,
+    "end": 103.043
+   },
+   {
+    "text": "été",
+    "start": 103.083,
+    "end": 103.224
+   },
+   {
+    "text": "éduqué",
+    "start": 103.264,
+    "end": 103.645
+   },
+   {
+    "text": "ils",
+    "start": 103.705,
+    "end": 103.786
+   },
+   {
+    "text": "ont",
+    "start": 103.826,
+    "end": 103.886
+   },
+   {
+    "text": "déjà",
+    "start": 103.926,
+    "end": 104.207
+   },
+   {
+    "text": "compris",
+    "start": 104.227,
+    "end": 104.709
+   },
+   {
+    "text": "un",
+    "start": 104.749,
+    "end": 104.789
+   },
+   {
+    "text": "petit",
+    "start": 104.83,
+    "end": 104.99
+   },
+   {
+    "text": "peu",
+    "start": 105.01,
+    "end": 105.131
+   },
+   {
+    "text": "les",
+    "start": 105.171,
+    "end": 105.673
+   },
+   {
+    "text": "mécaniques",
+    "start": 105.693,
+    "end": 106.556
+   },
+   {
+    "text": "sur",
+    "start": 106.596,
+    "end": 106.857
+   },
+   {
+    "text": "en",
+    "start": 106.897,
+    "end": 106.937
+   },
+   {
+    "text": "fait",
+    "start": 106.958,
+    "end": 107.098
+   },
+   {
+    "text": "en",
+    "start": 107.138,
+    "end": 107.198
+   },
+   {
+    "text": "gros",
+    "start": 107.218,
+    "end": 107.62
+   }
+  ],
+  "text": "Là tu arrives sur un marché où justement le public a déjà été éduqué ils ont déjà compris un petit peu les mécaniques sur en fait en gros",
+  "norm": [
+   "la",
+   "tu",
+   "arrive",
+   "sur",
+   "un",
+   "marche",
+   "ou",
+   "justement",
+   "le",
+   "public",
+   "a",
+   "deja",
+   "ete",
+   "eduque",
+   "ils",
+   "ont",
+   "deja",
+   "compri",
+   "un",
+   "petit",
+   "peu",
+   "les",
+   "mecanique",
+   "sur",
+   "en",
+   "fait",
+   "en",
+   "gro"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 108.65,
+  "out": 117.24,
+  "words": [
+   {
+    "text": "Alors",
+    "start": 109.888,
+    "end": 110.089
+   },
+   {
+    "text": "que",
+    "start": 110.109,
+    "end": 110.21
+   },
+   {
+    "text": "dès",
+    "start": 110.23,
+    "end": 110.33
+   },
+   {
+    "text": "qu'il",
+    "start": 110.351,
+    "end": 110.471
+   },
+   {
+    "text": "y",
+    "start": 110.491,
+    "end": 110.511
+   },
+   {
+    "text": "a",
+    "start": 110.532,
+    "end": 110.612
+   },
+   {
+    "text": "des",
+    "start": 110.652,
+    "end": 110.713
+   },
+   {
+    "text": "concurrents",
+    "start": 110.753,
+    "end": 111.155
+   },
+   {
+    "text": "tu",
+    "start": 111.175,
+    "end": 111.215
+   },
+   {
+    "text": "arrives",
+    "start": 111.236,
+    "end": 111.457
+   },
+   {
+    "text": "sur",
+    "start": 111.477,
+    "end": 111.598
+   },
+   {
+    "text": "un",
+    "start": 111.618,
+    "end": 111.678
+   },
+   {
+    "text": "marché",
+    "start": 111.698,
+    "end": 112.02
+   },
+   {
+    "text": "où",
+    "start": 112.06,
+    "end": 112.101
+   },
+   {
+    "text": "le",
+    "start": 112.121,
+    "end": 112.161
+   },
+   {
+    "text": "public",
+    "start": 112.181,
+    "end": 112.402
+   },
+   {
+    "text": "est",
+    "start": 112.442,
+    "end": 112.543
+   },
+   {
+    "text": "déjà",
+    "start": 112.563,
+    "end": 112.865
+   },
+   {
+    "text": "éduqué",
+    "start": 112.925,
+    "end": 113.167
+   },
+   {
+    "text": "Donc",
+    "start": 113.187,
+    "end": 113.428
+   },
+   {
+    "text": "il",
+    "start": 113.468,
+    "end": 113.529
+   },
+   {
+    "text": "n'y",
+    "start": 113.549,
+    "end": 113.649
+   },
+   {
+    "text": "a",
+    "start": 113.669,
+    "end": 113.69
+   },
+   {
+    "text": "pas",
+    "start": 113.71,
+    "end": 113.83
+   },
+   {
+    "text": "besoin",
+    "start": 113.85,
+    "end": 113.991
+   },
+   {
+    "text": "de",
+    "start": 114.011,
+    "end": 114.052
+   },
+   {
+    "text": "leur",
+    "start": 114.072,
+    "end": 114.152
+   },
+   {
+    "text": "expliquer",
+    "start": 114.213,
+    "end": 114.514
+   },
+   {
+    "text": "ta",
+    "start": 114.534,
+    "end": 114.595
+   },
+   {
+    "text": "solution",
+    "start": 114.615,
+    "end": 115.077
+   },
+   {
+    "text": "juste",
+    "start": 115.098,
+    "end": 115.279
+   },
+   {
+    "text": "de",
+    "start": 115.299,
+    "end": 115.359
+   },
+   {
+    "text": "leur",
+    "start": 115.379,
+    "end": 115.52
+   },
+   {
+    "text": "montrer",
+    "start": 115.54,
+    "end": 116.204
+   },
+   {
+    "text": "en",
+    "start": 116.244,
+    "end": 116.345
+   },
+   {
+    "text": "quoi",
+    "start": 116.365,
+    "end": 116.526
+   },
+   {
+    "text": "tu",
+    "start": 116.546,
+    "end": 116.646
+   },
+   {
+    "text": "te",
+    "start": 116.667,
+    "end": 116.727
+   },
+   {
+    "text": "différences",
+    "start": 116.747,
+    "end": 117.27
+   }
+  ],
+  "text": "Alors que dès qu'il y a des concurrents tu arrives sur un marché où le public est déjà éduqué Donc il n'y a pas besoin de leur expliquer ta solution juste de leur montrer en quoi tu te différences",
+  "norm": [
+   "alor",
+   "que",
+   "des",
+   "qu'il",
+   "y",
+   "a",
+   "des",
+   "concurrent",
+   "tu",
+   "arrive",
+   "sur",
+   "un",
+   "marche",
+   "ou",
+   "le",
+   "public",
+   "est",
+   "deja",
+   "eduque",
+   "donc",
+   "il",
+   "n'y",
+   "a",
+   "pas",
+   "besoin",
+   "de",
+   "leur",
+   "expliquer",
+   "ta",
+   "solution",
+   "juste",
+   "de",
+   "leur",
+   "montrer",
+   "en",
+   "quoi",
+   "tu",
+   "te",
+   "difference"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 127.1,
+  "out": 132.46,
+  "words": [
+   {
+    "text": "Et",
+    "start": 127.191,
+    "end": 127.252
+   },
+   {
+    "text": "l'Huperplug",
+    "start": 127.272,
+    "end": 127.855
+   },
+   {
+    "text": "c'est",
+    "start": 127.875,
+    "end": 127.976
+   },
+   {
+    "text": "justement",
+    "start": 127.996,
+    "end": 128.237
+   },
+   {
+    "text": "en",
+    "start": 128.257,
+    "end": 128.297
+   },
+   {
+    "text": "fait",
+    "start": 128.317,
+    "end": 128.418
+   },
+   {
+    "text": "un",
+    "start": 128.458,
+    "end": 128.519
+   },
+   {
+    "text": "très",
+    "start": 128.539,
+    "end": 128.74
+   },
+   {
+    "text": "bon",
+    "start": 128.76,
+    "end": 128.88
+   },
+   {
+    "text": "exemple",
+    "start": 128.921,
+    "end": 129.363
+   },
+   {
+    "text": "Ils",
+    "start": 129.423,
+    "end": 129.504
+   },
+   {
+    "text": "font",
+    "start": 129.524,
+    "end": 129.725
+   },
+   {
+    "text": "plus",
+    "start": 129.745,
+    "end": 130.067
+   },
+   {
+    "text": "de",
+    "start": 130.087,
+    "end": 130.268
+   },
+   {
+    "text": "220",
+    "start": 130.288,
+    "end": 130.409
+   },
+   {
+    "text": "1 000 000",
+    "start": 130.57,
+    "end": 131.253
+   },
+   {
+    "text": "de",
+    "start": 131.294,
+    "end": 131.434
+   },
+   {
+    "text": "dollars",
+    "start": 131.454,
+    "end": 131.716
+   },
+   {
+    "text": "de",
+    "start": 131.736,
+    "end": 131.796
+   },
+   {
+    "text": "chiffre",
+    "start": 131.816,
+    "end": 131.997
+   },
+   {
+    "text": "d'affaires",
+    "start": 132.017,
+    "end": 132.48
+   }
+  ],
+  "text": "Et l'Huperplug c'est justement en fait un très bon exemple Ils font plus de 220 1 000 000 de dollars de chiffre d'affaires",
+  "norm": [
+   "et",
+   "l'huperplug",
+   "c'est",
+   "justement",
+   "en",
+   "fait",
+   "un",
+   "tre",
+   "bon",
+   "exemple",
+   "ils",
+   "font",
+   "plu",
+   "de",
+   "220",
+   "1",
+   "000",
+   "000",
+   "de",
+   "dollar",
+   "de",
+   "chiffre",
+   "d'affaire"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 141.52,
+  "out": 150.67,
+  "words": [
+   {
+    "text": "Et",
+    "start": 141.591,
+    "end": 141.692
+   },
+   {
+    "text": "Louperplug",
+    "start": 141.712,
+    "end": 142.194
+   },
+   {
+    "text": "c'est",
+    "start": 142.214,
+    "end": 142.315
+   },
+   {
+    "text": "justement",
+    "start": 142.335,
+    "end": 142.516
+   },
+   {
+    "text": "un",
+    "start": 142.556,
+    "end": 142.616
+   },
+   {
+    "text": "très",
+    "start": 142.636,
+    "end": 142.837
+   },
+   {
+    "text": "bon",
+    "start": 142.878,
+    "end": 142.998
+   },
+   {
+    "text": "exemple",
+    "start": 143.018,
+    "end": 143.561
+   },
+   {
+    "text": "Ils",
+    "start": 143.621,
+    "end": 143.682
+   },
+   {
+    "text": "sont",
+    "start": 143.702,
+    "end": 143.843
+   },
+   {
+    "text": "sur",
+    "start": 143.863,
+    "end": 143.963
+   },
+   {
+    "text": "un",
+    "start": 143.983,
+    "end": 144.044
+   },
+   {
+    "text": "marché",
+    "start": 144.084,
+    "end": 144.446
+   },
+   {
+    "text": "ultra",
+    "start": 144.526,
+    "end": 144.827
+   },
+   {
+    "text": "concurrentiel",
+    "start": 144.848,
+    "end": 145.27
+   },
+   {
+    "text": "parce",
+    "start": 145.29,
+    "end": 145.41
+   },
+   {
+    "text": "qu'ils",
+    "start": 145.431,
+    "end": 145.571
+   },
+   {
+    "text": "proposent",
+    "start": 145.591,
+    "end": 146.034
+   },
+   {
+    "text": "des",
+    "start": 146.054,
+    "end": 146.134
+   },
+   {
+    "text": "bouchons",
+    "start": 146.154,
+    "end": 146.737
+   },
+   {
+    "text": "d'oreilles",
+    "start": 146.777,
+    "end": 147.461
+   },
+   {
+    "text": "et",
+    "start": 147.501,
+    "end": 147.782
+   },
+   {
+    "text": "ils",
+    "start": 147.823,
+    "end": 147.883
+   },
+   {
+    "text": "ont",
+    "start": 147.903,
+    "end": 147.963
+   },
+   {
+    "text": "réussi",
+    "start": 147.983,
+    "end": 148.225
+   },
+   {
+    "text": "tout",
+    "start": 148.245,
+    "end": 148.325
+   },
+   {
+    "text": "de",
+    "start": 148.345,
+    "end": 148.385
+   },
+   {
+    "text": "même",
+    "start": 148.405,
+    "end": 148.526
+   },
+   {
+    "text": "à",
+    "start": 148.546,
+    "end": 148.586
+   },
+   {
+    "text": "faire",
+    "start": 148.606,
+    "end": 149.089
+   },
+   {
+    "text": "220",
+    "start": 149.109,
+    "end": 149.27
+   },
+   {
+    "text": "1 000 000",
+    "start": 149.431,
+    "end": 149.672
+   },
+   {
+    "text": "d'euros",
+    "start": 149.692,
+    "end": 150.295
+   }
+  ],
+  "text": "Et Louperplug c'est justement un très bon exemple Ils sont sur un marché ultra concurrentiel parce qu'ils proposent des bouchons d'oreilles et ils ont réussi tout de même à faire 220 1 000 000 d'euros",
+  "norm": [
+   "et",
+   "louperplug",
+   "c'est",
+   "justement",
+   "un",
+   "tre",
+   "bon",
+   "exemple",
+   "ils",
+   "sont",
+   "sur",
+   "un",
+   "marche",
+   "ultra",
+   "concurrentiel",
+   "parce",
+   "qu'il",
+   "proposent",
+   "des",
+   "bouchon",
+   "d'oreille",
+   "et",
+   "ils",
+   "ont",
+   "reussi",
+   "tout",
+   "de",
+   "meme",
+   "a",
+   "faire",
+   "220",
+   "1",
+   "000",
+   "000",
+   "d'euro"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 153.58,
+  "out": 164.27,
+  "words": [
+   {
+    "text": "Et",
+    "start": 153.651,
+    "end": 153.691
+   },
+   {
+    "text": "Loop",
+    "start": 153.711,
+    "end": 153.852
+   },
+   {
+    "text": "Airplug",
+    "start": 153.872,
+    "end": 154.193
+   },
+   {
+    "text": "c'est",
+    "start": 154.213,
+    "end": 154.334
+   },
+   {
+    "text": "justement",
+    "start": 154.354,
+    "end": 154.655
+   },
+   {
+    "text": "en",
+    "start": 154.675,
+    "end": 154.715
+   },
+   {
+    "text": "fait",
+    "start": 154.735,
+    "end": 154.836
+   },
+   {
+    "text": "un",
+    "start": 154.856,
+    "end": 154.896
+   },
+   {
+    "text": "très",
+    "start": 154.916,
+    "end": 155.057
+   },
+   {
+    "text": "bon",
+    "start": 155.077,
+    "end": 155.197
+   },
+   {
+    "text": "exemple",
+    "start": 155.237,
+    "end": 155.8
+   },
+   {
+    "text": "Parce",
+    "start": 155.82,
+    "end": 155.92
+   },
+   {
+    "text": "que",
+    "start": 155.94,
+    "end": 156.241
+   },
+   {
+    "text": "eux",
+    "start": 156.322,
+    "end": 156.563
+   },
+   {
+    "text": "ils",
+    "start": 156.603,
+    "end": 156.663
+   },
+   {
+    "text": "vendent",
+    "start": 156.683,
+    "end": 156.824
+   },
+   {
+    "text": "donc",
+    "start": 156.844,
+    "end": 156.964
+   },
+   {
+    "text": "des",
+    "start": 156.984,
+    "end": 157.044
+   },
+   {
+    "text": "bouchons",
+    "start": 157.065,
+    "end": 157.306
+   },
+   {
+    "text": "d'oreilles",
+    "start": 157.326,
+    "end": 157.948
+   },
+   {
+    "text": "mais",
+    "start": 157.968,
+    "end": 158.39
+   },
+   {
+    "text": "ils",
+    "start": 158.43,
+    "end": 158.51
+   },
+   {
+    "text": "sont",
+    "start": 158.53,
+    "end": 158.631
+   },
+   {
+    "text": "sur",
+    "start": 158.651,
+    "end": 158.731
+   },
+   {
+    "text": "un",
+    "start": 158.771,
+    "end": 158.811
+   },
+   {
+    "text": "marché",
+    "start": 158.832,
+    "end": 159.012
+   },
+   {
+    "text": "où",
+    "start": 159.032,
+    "end": 159.093
+   },
+   {
+    "text": "il",
+    "start": 159.113,
+    "end": 159.153
+   },
+   {
+    "text": "y",
+    "start": 159.173,
+    "end": 159.333
+   },
+   {
+    "text": "a",
+    "start": 159.354,
+    "end": 159.374
+   },
+   {
+    "text": "énormément",
+    "start": 159.454,
+    "end": 159.835
+   },
+   {
+    "text": "de",
+    "start": 159.876,
+    "end": 159.936
+   },
+   {
+    "text": "concurrence",
+    "start": 159.976,
+    "end": 160.799
+   },
+   {
+    "text": "Pourtant",
+    "start": 160.819,
+    "end": 161.121
+   },
+   {
+    "text": "ils",
+    "start": 161.161,
+    "end": 161.241
+   },
+   {
+    "text": "ont",
+    "start": 161.261,
+    "end": 161.321
+   },
+   {
+    "text": "réussi",
+    "start": 161.341,
+    "end": 161.542
+   },
+   {
+    "text": "à",
+    "start": 161.562,
+    "end": 161.602
+   },
+   {
+    "text": "faire",
+    "start": 161.643,
+    "end": 161.884
+   },
+   {
+    "text": "220",
+    "start": 161.904,
+    "end": 162.225
+   },
+   {
+    "text": "1 000 000",
+    "start": 162.345,
+    "end": 162.526
+   },
+   {
+    "text": "de",
+    "start": 162.546,
+    "end": 162.586
+   },
+   {
+    "text": "dollars",
+    "start": 162.606,
+    "end": 162.827
+   },
+   {
+    "text": "de",
+    "start": 162.847,
+    "end": 162.908
+   },
+   {
+    "text": "chiffre",
+    "start": 162.928,
+    "end": 163.169
+   },
+   {
+    "text": "d'affaires",
+    "start": 163.189,
+    "end": 163.871
+   },
+   {
+    "text": "En",
+    "start": 164.012,
+    "end": 164.052
+   },
+   {
+    "text": "fait",
+    "start": 164.152,
+    "end": 164.151
+   }
+  ],
+  "text": "Et Loop Airplug c'est justement en fait un très bon exemple Parce que eux ils vendent donc des bouchons d'oreilles mais ils sont sur un marché où il y a énormément de concurrence Pourtant ils ont réussi à faire 220 1 000 000 de dollars de chiffre d'affaires En fait",
+  "norm": [
+   "et",
+   "loop",
+   "airplug",
+   "c'est",
+   "justement",
+   "en",
+   "fait",
+   "un",
+   "tre",
+   "bon",
+   "exemple",
+   "parce",
+   "que",
+   "eux",
+   "ils",
+   "vendent",
+   "donc",
+   "des",
+   "bouchon",
+   "d'oreille",
+   "mai",
+   "ils",
+   "sont",
+   "sur",
+   "un",
+   "marche",
+   "ou",
+   "il",
+   "y",
+   "a",
+   "enormement",
+   "de",
+   "concurrence",
+   "pourtant",
+   "ils",
+   "ont",
+   "reussi",
+   "a",
+   "faire",
+   "220",
+   "1",
+   "000",
+   "000",
+   "de",
+   "dollar",
+   "de",
+   "chiffre",
+   "d'affaire",
+   "en",
+   "fait"
+  ],
+  "keep": true,
+  "why": "end trimmed: « En fait » repeated at the start of the next one",
+  "trim_out": 163.96
+ },
+ {
+  "in": 164.08,
+  "out": 178.88,
+  "words": [
+   {
+    "text": "En",
+    "start": 164.151,
+    "end": 164.211
+   },
+   {
+    "text": "fait",
+    "start": 164.231,
+    "end": 164.332
+   },
+   {
+    "text": "ils",
+    "start": 164.352,
+    "end": 164.432
+   },
+   {
+    "text": "ont",
+    "start": 164.472,
+    "end": 164.532
+   },
+   {
+    "text": "changé",
+    "start": 164.552,
+    "end": 164.973
+   },
+   {
+    "text": "une",
+    "start": 165.033,
+    "end": 165.174
+   },
+   {
+    "text": "seule",
+    "start": 165.194,
+    "end": 165.354
+   },
+   {
+    "text": "chose",
+    "start": 165.394,
+    "end": 165.916
+   },
+   {
+    "text": "C'est",
+    "start": 165.936,
+    "end": 166.036
+   },
+   {
+    "text": "pendant",
+    "start": 166.136,
+    "end": 166.678
+   },
+   {
+    "text": "que",
+    "start": 166.718,
+    "end": 166.938
+   },
+   {
+    "text": "la",
+    "start": 166.959,
+    "end": 167.039
+   },
+   {
+    "text": "majeure",
+    "start": 167.059,
+    "end": 167.239
+   },
+   {
+    "text": "partie",
+    "start": 167.259,
+    "end": 167.44
+   },
+   {
+    "text": "des",
+    "start": 167.46,
+    "end": 167.52
+   },
+   {
+    "text": "concurrents",
+    "start": 167.54,
+    "end": 168.081
+   },
+   {
+    "text": "parlaient",
+    "start": 168.102,
+    "end": 168.322
+   },
+   {
+    "text": "au",
+    "start": 168.342,
+    "end": 168.402
+   },
+   {
+    "text": "mass",
+    "start": 168.442,
+    "end": 168.603
+   },
+   {
+    "text": "market",
+    "start": 168.623,
+    "end": 169.204
+   },
+   {
+    "text": "eux",
+    "start": 169.265,
+    "end": 169.345
+   },
+   {
+    "text": "ils",
+    "start": 169.365,
+    "end": 169.445
+   },
+   {
+    "text": "ont",
+    "start": 169.465,
+    "end": 169.565
+   },
+   {
+    "text": "ciblé",
+    "start": 169.605,
+    "end": 169.926
+   },
+   {
+    "text": "la",
+    "start": 169.946,
+    "end": 170.027
+   },
+   {
+    "text": "génération",
+    "start": 170.047,
+    "end": 170.508
+   },
+   {
+    "text": "Z",
+    "start": 170.548,
+    "end": 171.15
+   },
+   {
+    "text": "Et",
+    "start": 171.21,
+    "end": 171.47
+   },
+   {
+    "text": "pour",
+    "start": 171.51,
+    "end": 171.751
+   },
+   {
+    "text": "que",
+    "start": 171.771,
+    "end": 171.851
+   },
+   {
+    "text": "ce",
+    "start": 171.871,
+    "end": 171.912
+   },
+   {
+    "text": "soit",
+    "start": 171.932,
+    "end": 172.072
+   },
+   {
+    "text": "pertinent",
+    "start": 172.112,
+    "end": 172.633
+   },
+   {
+    "text": "ils",
+    "start": 172.674,
+    "end": 172.854
+   },
+   {
+    "text": "ont",
+    "start": 172.894,
+    "end": 173.375
+   },
+   {
+    "text": "customisé",
+    "start": 173.395,
+    "end": 174.157
+   },
+   {
+    "text": "leurs",
+    "start": 174.178,
+    "end": 174.298
+   },
+   {
+    "text": "produits",
+    "start": 174.318,
+    "end": 174.659
+   },
+   {
+    "text": "pour",
+    "start": 174.679,
+    "end": 174.759
+   },
+   {
+    "text": "que",
+    "start": 174.779,
+    "end": 174.839
+   },
+   {
+    "text": "ce",
+    "start": 174.859,
+    "end": 174.899
+   },
+   {
+    "text": "soit",
+    "start": 174.919,
+    "end": 175.06
+   },
+   {
+    "text": "assez",
+    "start": 175.08,
+    "end": 175.321
+   },
+   {
+    "text": "lifestyle",
+    "start": 175.361,
+    "end": 175.902
+   },
+   {
+    "text": "assez",
+    "start": 175.922,
+    "end": 176.183
+   },
+   {
+    "text": "cool",
+    "start": 176.203,
+    "end": 176.444
+   },
+   {
+    "text": "pour",
+    "start": 176.464,
+    "end": 176.564
+   },
+   {
+    "text": "qu'eux",
+    "start": 176.604,
+    "end": 177.025
+   },
+   {
+    "text": "aussi",
+    "start": 177.065,
+    "end": 177.627
+   },
+   {
+    "text": "aient",
+    "start": 177.707,
+    "end": 177.847
+   },
+   {
+    "text": "envie",
+    "start": 177.887,
+    "end": 178.048
+   },
+   {
+    "text": "de",
+    "start": 178.068,
+    "end": 178.128
+   },
+   {
+    "text": "se",
+    "start": 178.168,
+    "end": 178.228
+   },
+   {
+    "text": "montrer",
+    "start": 178.248,
+    "end": 178.509
+   },
+   {
+    "text": "avec",
+    "start": 178.549,
+    "end": 178.91
+   }
+  ],
+  "text": "En fait ils ont changé une seule chose C'est pendant que la majeure partie des concurrents parlaient au mass market eux ils ont ciblé la génération Z Et pour que ce soit pertinent ils ont customisé leurs produits pour que ce soit assez lifestyle assez cool pour qu'eux aussi aient envie de se montrer avec",
+  "norm": [
+   "en",
+   "fait",
+   "ils",
+   "ont",
+   "change",
+   "une",
+   "seule",
+   "chose",
+   "c'est",
+   "pendant",
+   "que",
+   "la",
+   "majeure",
+   "partie",
+   "des",
+   "concurrent",
+   "parlaient",
+   "au",
+   "ma",
+   "market",
+   "eux",
+   "ils",
+   "ont",
+   "cible",
+   "la",
+   "generation",
+   "z",
+   "et",
+   "pour",
+   "que",
+   "ce",
+   "soit",
+   "pertinent",
+   "ils",
+   "ont",
+   "customise",
+   "leur",
+   "produit",
+   "pour",
+   "que",
+   "ce",
+   "soit",
+   "assez",
+   "lifestyle",
+   "assez",
+   "cool",
+   "pour",
+   "qu'eux",
+   "aussi",
+   "aient",
+   "envie",
+   "de",
+   "se",
+   "montrer",
+   "avec"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 184.92,
+  "out": 190.31,
+  "words": [
+   {
+    "text": "Et",
+    "start": 185.072,
+    "end": 185.737
+   },
+   {
+    "text": "c'est",
+    "start": 185.757,
+    "end": 185.858
+   },
+   {
+    "text": "la",
+    "start": 185.878,
+    "end": 185.919
+   },
+   {
+    "text": "même",
+    "start": 185.939,
+    "end": 186.02
+   },
+   {
+    "text": "logique",
+    "start": 186.04,
+    "end": 186.261
+   },
+   {
+    "text": "en",
+    "start": 186.282,
+    "end": 186.342
+   },
+   {
+    "text": "France",
+    "start": 186.362,
+    "end": 186.725
+   },
+   {
+    "text": "Il",
+    "start": 186.806,
+    "end": 186.846
+   },
+   {
+    "text": "y",
+    "start": 186.866,
+    "end": 186.907
+   },
+   {
+    "text": "a",
+    "start": 186.927,
+    "end": 186.987
+   },
+   {
+    "text": "quelques",
+    "start": 187.007,
+    "end": 187.27
+   },
+   {
+    "text": "vidéos",
+    "start": 187.29,
+    "end": 187.552
+   },
+   {
+    "text": "je",
+    "start": 187.572,
+    "end": 187.612
+   },
+   {
+    "text": "vous",
+    "start": 187.632,
+    "end": 187.713
+   },
+   {
+    "text": "ai",
+    "start": 187.733,
+    "end": 187.774
+   },
+   {
+    "text": "expliqué",
+    "start": 187.794,
+    "end": 188.157
+   },
+   {
+    "text": "qu'il",
+    "start": 188.177,
+    "end": 188.278
+   },
+   {
+    "text": "y",
+    "start": 188.298,
+    "end": 188.318
+   },
+   {
+    "text": "avait",
+    "start": 188.338,
+    "end": 188.439
+   },
+   {
+    "text": "une",
+    "start": 188.459,
+    "end": 188.52
+   },
+   {
+    "text": "marque",
+    "start": 188.54,
+    "end": 188.741
+   },
+   {
+    "text": "qui",
+    "start": 188.761,
+    "end": 188.842
+   },
+   {
+    "text": "proposait",
+    "start": 188.862,
+    "end": 189.487
+   },
+   {
+    "text": "un",
+    "start": 189.568,
+    "end": 189.608
+   }
+  ],
+  "text": "Et c'est la même logique en France Il y a quelques vidéos je vous ai expliqué qu'il y avait une marque qui proposait un",
+  "norm": [
+   "et",
+   "c'est",
+   "la",
+   "meme",
+   "logique",
+   "en",
+   "france",
+   "il",
+   "y",
+   "a",
+   "quelque",
+   "video",
+   "je",
+   "vou",
+   "ai",
+   "explique",
+   "qu'il",
+   "y",
+   "avait",
+   "une",
+   "marque",
+   "qui",
+   "proposait",
+   "un"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 192.07,
+  "out": 206.05,
+  "words": [
+   {
+    "text": "Et",
+    "start": 192.101,
+    "end": 192.141
+   },
+   {
+    "text": "c'est",
+    "start": 192.161,
+    "end": 192.281
+   },
+   {
+    "text": "la",
+    "start": 192.301,
+    "end": 192.341
+   },
+   {
+    "text": "même",
+    "start": 192.361,
+    "end": 192.461
+   },
+   {
+    "text": "logique",
+    "start": 192.482,
+    "end": 192.662
+   },
+   {
+    "text": "qu'en",
+    "start": 192.682,
+    "end": 192.782
+   },
+   {
+    "text": "France",
+    "start": 192.802,
+    "end": 193.082
+   },
+   {
+    "text": "Il",
+    "start": 193.122,
+    "end": 193.162
+   },
+   {
+    "text": "y",
+    "start": 193.182,
+    "end": 193.203
+   },
+   {
+    "text": "a",
+    "start": 193.223,
+    "end": 193.243
+   },
+   {
+    "text": "quelques",
+    "start": 193.263,
+    "end": 193.483
+   },
+   {
+    "text": "vidéos",
+    "start": 193.503,
+    "end": 193.743
+   },
+   {
+    "text": "je",
+    "start": 193.783,
+    "end": 193.843
+   },
+   {
+    "text": "vous",
+    "start": 193.863,
+    "end": 193.944
+   },
+   {
+    "text": "ai",
+    "start": 193.964,
+    "end": 194.024
+   },
+   {
+    "text": "parlé",
+    "start": 194.064,
+    "end": 194.284
+   },
+   {
+    "text": "d'une",
+    "start": 194.304,
+    "end": 194.424
+   },
+   {
+    "text": "marque",
+    "start": 194.464,
+    "end": 194.705
+   },
+   {
+    "text": "qui",
+    "start": 194.945,
+    "end": 195.045
+   },
+   {
+    "text": "proposait",
+    "start": 195.065,
+    "end": 195.406
+   },
+   {
+    "text": "en",
+    "start": 195.426,
+    "end": 195.466
+   },
+   {
+    "text": "fait",
+    "start": 195.486,
+    "end": 195.586
+   },
+   {
+    "text": "un",
+    "start": 195.646,
+    "end": 195.726
+   },
+   {
+    "text": "coussin",
+    "start": 195.786,
+    "end": 196.447
+   },
+   {
+    "text": "en",
+    "start": 196.507,
+    "end": 196.607
+   },
+   {
+    "text": "forme",
+    "start": 196.627,
+    "end": 196.888
+   },
+   {
+    "text": "de",
+    "start": 196.908,
+    "end": 197.068
+   },
+   {
+    "text": "U",
+    "start": 197.188,
+    "end": 197.568
+   },
+   {
+    "text": "que",
+    "start": 197.588,
+    "end": 197.709
+   },
+   {
+    "text": "tout",
+    "start": 197.729,
+    "end": 197.809
+   },
+   {
+    "text": "le",
+    "start": 197.829,
+    "end": 197.869
+   },
+   {
+    "text": "monde",
+    "start": 197.889,
+    "end": 197.989
+   },
+   {
+    "text": "peut",
+    "start": 198.009,
+    "end": 198.089
+   },
+   {
+    "text": "trouver",
+    "start": 198.109,
+    "end": 198.329
+   },
+   {
+    "text": "plus",
+    "start": 198.35,
+    "end": 198.45
+   },
+   {
+    "text": "ou",
+    "start": 198.49,
+    "end": 198.53
+   },
+   {
+    "text": "moins",
+    "start": 198.55,
+    "end": 198.89
+   },
+   {
+    "text": "sur",
+    "start": 198.91,
+    "end": 199.091
+   },
+   {
+    "text": "AliExpress",
+    "start": 199.111,
+    "end": 199.992
+   },
+   {
+    "text": "Et",
+    "start": 200.032,
+    "end": 200.212
+   },
+   {
+    "text": "pourtant",
+    "start": 200.232,
+    "end": 200.793
+   },
+   {
+    "text": "ils",
+    "start": 200.873,
+    "end": 200.993
+   },
+   {
+    "text": "ont",
+    "start": 201.033,
+    "end": 201.113
+   },
+   {
+    "text": "réussi",
+    "start": 201.133,
+    "end": 201.514
+   },
+   {
+    "text": "justement",
+    "start": 201.554,
+    "end": 201.874
+   },
+   {
+    "text": "à",
+    "start": 201.894,
+    "end": 201.934
+   },
+   {
+    "text": "partir",
+    "start": 201.954,
+    "end": 202.255
+   },
+   {
+    "text": "sur",
+    "start": 202.275,
+    "end": 202.615
+   },
+   {
+    "text": "un",
+    "start": 202.675,
+    "end": 202.776
+   },
+   {
+    "text": "certain",
+    "start": 202.796,
+    "end": 203.056
+   },
+   {
+    "text": "positionnement",
+    "start": 203.096,
+    "end": 204.037
+   },
+   {
+    "text": "et",
+    "start": 204.077,
+    "end": 204.398
+   },
+   {
+    "text": "réussir",
+    "start": 204.438,
+    "end": 204.818
+   },
+   {
+    "text": "en",
+    "start": 204.858,
+    "end": 204.898
+   },
+   {
+    "text": "fait",
+    "start": 204.918,
+    "end": 205.039
+   },
+   {
+    "text": "à",
+    "start": 205.059,
+    "end": 205.099
+   },
+   {
+    "text": "faire",
+    "start": 205.139,
+    "end": 205.299
+   },
+   {
+    "text": "péter",
+    "start": 205.319,
+    "end": 205.559
+   },
+   {
+    "text": "la",
+    "start": 205.579,
+    "end": 205.68
+   },
+   {
+    "text": "marque",
+    "start": 205.7,
+    "end": 206.04
+   }
+  ],
+  "text": "Et c'est la même logique qu'en France Il y a quelques vidéos je vous ai parlé d'une marque qui proposait en fait un coussin en forme de U que tout le monde peut trouver plus ou moins sur AliExpress Et pourtant ils ont réussi justement à partir sur un certain positionnement et réussir en fait à faire péter la marque",
+  "norm": [
+   "et",
+   "c'est",
+   "la",
+   "meme",
+   "logique",
+   "qu'en",
+   "france",
+   "il",
+   "y",
+   "a",
+   "quelque",
+   "video",
+   "je",
+   "vou",
+   "ai",
+   "parle",
+   "d'une",
+   "marque",
+   "qui",
+   "proposait",
+   "en",
+   "fait",
+   "un",
+   "coussin",
+   "en",
+   "forme",
+   "de",
+   "u",
+   "que",
+   "tout",
+   "le",
+   "monde",
+   "peut",
+   "trouver",
+   "plu",
+   "ou",
+   "moin",
+   "sur",
+   "aliexpre",
+   "et",
+   "pourtant",
+   "ils",
+   "ont",
+   "reussi",
+   "justement",
+   "a",
+   "partir",
+   "sur",
+   "un",
+   "certain",
+   "positionnement",
+   "et",
+   "reussir",
+   "en",
+   "fait",
+   "a",
+   "faire",
+   "peter",
+   "la",
+   "marque"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 212.75,
+  "out": 218.96,
+  "words": [
+   {
+    "text": "Ils",
+    "start": 212.801,
+    "end": 212.862
+   },
+   {
+    "text": "avaient",
+    "start": 212.902,
+    "end": 213.063
+   },
+   {
+    "text": "plus",
+    "start": 213.083,
+    "end": 213.184
+   },
+   {
+    "text": "de",
+    "start": 213.225,
+    "end": 213.346
+   },
+   {
+    "text": "400",
+    "start": 213.366,
+    "end": 213.729
+   },
+   {
+    "text": "ads",
+    "start": 213.789,
+    "end": 213.91
+   },
+   {
+    "text": "actives",
+    "start": 213.971,
+    "end": 214.475
+   },
+   {
+    "text": "et",
+    "start": 214.515,
+    "end": 214.636
+   },
+   {
+    "text": "surtout",
+    "start": 214.656,
+    "end": 215.059
+   },
+   {
+    "text": "150",
+    "start": 215.08,
+    "end": 215.221
+   },
+   {
+    "text": "000",
+    "start": 215.301,
+    "end": 216.168
+   },
+   {
+    "text": "dollars",
+    "start": 216.188,
+    "end": 216.713
+   },
+   {
+    "text": "de",
+    "start": 216.733,
+    "end": 216.793
+   },
+   {
+    "text": "chiffre",
+    "start": 216.813,
+    "end": 217.096
+   },
+   {
+    "text": "d'affaires",
+    "start": 217.116,
+    "end": 217.801
+   },
+   {
+    "text": "sur",
+    "start": 217.822,
+    "end": 218.064
+   },
+   {
+    "text": "les",
+    "start": 218.084,
+    "end": 218.164
+   },
+   {
+    "text": "30",
+    "start": 218.205,
+    "end": 218.386
+   },
+   {
+    "text": "derniers",
+    "start": 218.406,
+    "end": 218.628
+   },
+   {
+    "text": "jours",
+    "start": 218.648,
+    "end": 218.991
+   }
+  ],
+  "text": "Ils avaient plus de 400 ads actives et surtout 150 000 dollars de chiffre d'affaires sur les 30 derniers jours",
+  "norm": [
+   "ils",
+   "avaient",
+   "plu",
+   "de",
+   "400",
+   "ads",
+   "active",
+   "et",
+   "surtout",
+   "150",
+   "000",
+   "dollar",
+   "de",
+   "chiffre",
+   "d'affaire",
+   "sur",
+   "les",
+   "30",
+   "dernier",
+   "jour"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 219.61,
+  "out": 220.63,
+  "words": [
+   {
+    "text": "Si",
+    "start": 219.662,
+    "end": 219.724
+   },
+   {
+    "text": "ça",
+    "start": 219.744,
+    "end": 219.806
+   },
+   {
+    "text": "ce",
+    "start": 219.827,
+    "end": 219.868
+   },
+   {
+    "text": "n'est",
+    "start": 219.889,
+    "end": 219.992
+   },
+   {
+    "text": "pas",
+    "start": 220.013,
+    "end": 220.075
+   },
+   {
+    "text": "une",
+    "start": 220.095,
+    "end": 220.157
+   },
+   {
+    "text": "preuve",
+    "start": 220.178,
+    "end": 220.653
+   }
+  ],
+  "text": "Si ça ce n'est pas une preuve",
+  "norm": [
+   "si",
+   "ca",
+   "ce",
+   "n'est",
+   "pas",
+   "une",
+   "preuve"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 229.7,
+  "out": 233.27,
+  "words": [
+   {
+    "text": "Alors",
+    "start": 229.751,
+    "end": 230.032
+   },
+   {
+    "text": "au",
+    "start": 230.092,
+    "end": 230.172
+   },
+   {
+    "text": "lieu",
+    "start": 230.192,
+    "end": 230.533
+   },
+   {
+    "text": "d'essayer",
+    "start": 230.553,
+    "end": 230.814
+   },
+   {
+    "text": "de",
+    "start": 230.834,
+    "end": 230.914
+   },
+   {
+    "text": "fuir",
+    "start": 230.954,
+    "end": 231.195
+   },
+   {
+    "text": "la",
+    "start": 231.215,
+    "end": 231.315
+   },
+   {
+    "text": "concurrence",
+    "start": 231.335,
+    "end": 231.877
+   },
+   {
+    "text": "justement",
+    "start": 231.897,
+    "end": 232.318
+   },
+   {
+    "text": "analyse",
+    "start": 232.398,
+    "end": 233.14
+   }
+  ],
+  "text": "Alors au lieu d'essayer de fuir la concurrence justement analyse",
+  "norm": [
+   "alor",
+   "au",
+   "lieu",
+   "d'essayer",
+   "de",
+   "fuir",
+   "la",
+   "concurrence",
+   "justement",
+   "analyse"
+  ],
+  "keep": false,
+  "why": "retake, keeping the next one"
+ },
+ {
+  "in": 234.12,
+  "out": 238.02,
+  "words": [
+   {
+    "text": "Au",
+    "start": 234.474,
+    "end": 234.535
+   },
+   {
+    "text": "lieu",
+    "start": 234.555,
+    "end": 234.717
+   },
+   {
+    "text": "d'essayer",
+    "start": 234.737,
+    "end": 234.959
+   },
+   {
+    "text": "de",
+    "start": 234.979,
+    "end": 235.04
+   },
+   {
+    "text": "fuir",
+    "start": 235.08,
+    "end": 235.242
+   },
+   {
+    "text": "la",
+    "start": 235.262,
+    "end": 235.322
+   },
+   {
+    "text": "concurrence",
+    "start": 235.343,
+    "end": 236.09
+   },
+   {
+    "text": "essaye",
+    "start": 236.11,
+    "end": 236.312
+   },
+   {
+    "text": "de",
+    "start": 236.332,
+    "end": 236.413
+   },
+   {
+    "text": "l'analyser",
+    "start": 236.433,
+    "end": 236.878
+   },
+   {
+    "text": "plutôt",
+    "start": 236.898,
+    "end": 237.731
+   }
+  ],
+  "text": "Au lieu d'essayer de fuir la concurrence essaye de l'analyser plutôt",
+  "norm": [
+   "au",
+   "lieu",
+   "d'essayer",
+   "de",
+   "fuir",
+   "la",
+   "concurrence",
+   "essaye",
+   "de",
+   "l'analyser",
+   "plutot"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 237.64,
+  "out": 245.6,
+  "words": [
+   {
+    "text": "Essayez",
+    "start": 237.731,
+    "end": 237.972
+   },
+   {
+    "text": "de",
+    "start": 237.992,
+    "end": 238.052
+   },
+   {
+    "text": "comprendre",
+    "start": 238.072,
+    "end": 238.313
+   },
+   {
+    "text": "c'est",
+    "start": 238.333,
+    "end": 238.434
+   },
+   {
+    "text": "quoi",
+    "start": 238.454,
+    "end": 238.534
+   },
+   {
+    "text": "leur",
+    "start": 238.554,
+    "end": 238.634
+   },
+   {
+    "text": "tunnel",
+    "start": 238.675,
+    "end": 238.875
+   },
+   {
+    "text": "de",
+    "start": 238.895,
+    "end": 238.976
+   },
+   {
+    "text": "conversion",
+    "start": 238.996,
+    "end": 239.738
+   },
+   {
+    "text": "comment",
+    "start": 239.758,
+    "end": 239.979
+   },
+   {
+    "text": "est-ce",
+    "start": 239.999,
+    "end": 240.12
+   },
+   {
+    "text": "qu'ils",
+    "start": 240.14,
+    "end": 240.26
+   },
+   {
+    "text": "gèrent",
+    "start": 240.28,
+    "end": 240.401
+   },
+   {
+    "text": "leur",
+    "start": 240.421,
+    "end": 240.521
+   },
+   {
+    "text": "acquisition",
+    "start": 240.541,
+    "end": 241.344
+   },
+   {
+    "text": "comment",
+    "start": 241.364,
+    "end": 241.545
+   },
+   {
+    "text": "est-ce",
+    "start": 241.565,
+    "end": 241.685
+   },
+   {
+    "text": "qu'ils",
+    "start": 241.705,
+    "end": 241.826
+   },
+   {
+    "text": "font",
+    "start": 241.846,
+    "end": 242.247
+   },
+   {
+    "text": "leur",
+    "start": 242.287,
+    "end": 242.508
+   },
+   {
+    "text": "vente",
+    "start": 242.528,
+    "end": 242.889
+   },
+   {
+    "text": "et",
+    "start": 242.909,
+    "end": 242.97
+   },
+   {
+    "text": "leur",
+    "start": 243.01,
+    "end": 243.17
+   },
+   {
+    "text": "conversion",
+    "start": 243.19,
+    "end": 243.572
+   },
+   {
+    "text": "sur",
+    "start": 243.612,
+    "end": 243.672
+   },
+   {
+    "text": "leur",
+    "start": 243.692,
+    "end": 243.793
+   },
+   {
+    "text": "boutique",
+    "start": 243.813,
+    "end": 244.094
+   },
+   {
+    "text": "en",
+    "start": 244.114,
+    "end": 244.154
+   },
+   {
+    "text": "ligne",
+    "start": 244.174,
+    "end": 244.334
+   },
+   {
+    "text": "au",
+    "start": 244.355,
+    "end": 244.395
+   },
+   {
+    "text": "travers",
+    "start": 244.415,
+    "end": 244.636
+   },
+   {
+    "text": "de",
+    "start": 244.656,
+    "end": 244.736
+   },
+   {
+    "text": "quels",
+    "start": 244.756,
+    "end": 244.957
+   },
+   {
+    "text": "mécanismes",
+    "start": 244.977,
+    "end": 245.619
+   }
+  ],
+  "text": "Essayez de comprendre c'est quoi leur tunnel de conversion comment est-ce qu'ils gèrent leur acquisition comment est-ce qu'ils font leur vente et leur conversion sur leur boutique en ligne au travers de quels mécanismes",
+  "norm": [
+   "essayez",
+   "de",
+   "comprendre",
+   "c'est",
+   "quoi",
+   "leur",
+   "tunnel",
+   "de",
+   "conversion",
+   "comment",
+   "est",
+   "ce",
+   "qu'il",
+   "gerent",
+   "leur",
+   "acquisition",
+   "comment",
+   "est",
+   "ce",
+   "qu'il",
+   "font",
+   "leur",
+   "vente",
+   "et",
+   "leur",
+   "conversion",
+   "sur",
+   "leur",
+   "boutique",
+   "en",
+   "ligne",
+   "au",
+   "traver",
+   "de",
+   "quel",
+   "mecanisme"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 251.23,
+  "out": 253.92,
+  "words": [
+   {
+    "text": "Et",
+    "start": 251.342,
+    "end": 251.383
+   },
+   {
+    "text": "toi",
+    "start": 251.403,
+    "end": 251.505
+   },
+   {
+    "text": "tu",
+    "start": 251.546,
+    "end": 251.586
+   },
+   {
+    "text": "auras",
+    "start": 251.607,
+    "end": 251.708
+   },
+   {
+    "text": "juste",
+    "start": 251.728,
+    "end": 251.83
+   },
+   {
+    "text": "à",
+    "start": 251.85,
+    "end": 251.891
+   },
+   {
+    "text": "trouver",
+    "start": 251.911,
+    "end": 252.155
+   },
+   {
+    "text": "l'angle",
+    "start": 252.176,
+    "end": 252.582
+   },
+   {
+    "text": "qui",
+    "start": 252.623,
+    "end": 252.765
+   },
+   {
+    "text": "manque",
+    "start": 252.806,
+    "end": 253.009
+   },
+   {
+    "text": "justement",
+    "start": 253.029,
+    "end": 253.334
+   },
+   {
+    "text": "sur",
+    "start": 253.355,
+    "end": 253.477
+   },
+   {
+    "text": "ce",
+    "start": 253.497,
+    "end": 253.578
+   },
+   {
+    "text": "marché",
+    "start": 253.598,
+    "end": 253.944
+   }
+  ],
+  "text": "Et toi tu auras juste à trouver l'angle qui manque justement sur ce marché",
+  "norm": [
+   "et",
+   "toi",
+   "tu",
+   "aura",
+   "juste",
+   "a",
+   "trouver",
+   "l'angle",
+   "qui",
+   "manque",
+   "justement",
+   "sur",
+   "ce",
+   "marche"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 254.86,
+  "out": 258.57,
+  "words": [
+   {
+    "text": "Et",
+    "start": 254.931,
+    "end": 254.972
+   },
+   {
+    "text": "si",
+    "start": 254.992,
+    "end": 255.113
+   },
+   {
+    "text": "tu",
+    "start": 255.154,
+    "end": 255.356
+   },
+   {
+    "text": "veux",
+    "start": 255.457,
+    "end": 256.345
+   },
+   {
+    "text": "plus",
+    "start": 256.365,
+    "end": 256.466
+   },
+   {
+    "text": "de",
+    "start": 256.487,
+    "end": 256.547
+   },
+   {
+    "text": "conseils",
+    "start": 256.567,
+    "end": 256.789
+   },
+   {
+    "text": "commerce",
+    "start": 256.81,
+    "end": 257.517
+   },
+   {
+    "text": "abonne-toi",
+    "start": 257.557,
+    "end": 258.062
+   },
+   {
+    "text": "Allez",
+    "start": 258.082,
+    "end": 258.223
+   },
+   {
+    "text": "ciao",
+    "start": 258.244,
+    "end": 258.506
+   }
+  ],
+  "text": "Et si tu veux plus de conseils commerce abonne-toi Allez ciao",
+  "norm": [
+   "et",
+   "si",
+   "tu",
+   "veux",
+   "plu",
+   "de",
+   "conseil",
+   "commerce",
+   "abonne",
+   "toi",
+   "allez",
+   "ciao"
+  ],
+  "keep": true,
+  "why": ""
+ }
+]
