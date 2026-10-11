@@ -748,7 +748,10 @@ def build():
                 continue
             default_pos = {"C": sb.get("face_pos_c", "50% 62%"), "B": sb.get("face_pos_b", "50% 45%"), "F": sb.get("face_pos_f", "50% 50%"), "S": sb.get("face_pos_s", "50% 50%")}[lay]
             pos = sc.get("face_pos", default_pos)
-            face_clips.append(f'<div class="{wrap}" id="{sid}-face-wrap"><video id="{sid}-face" class="clip" src="{esc(SPEAKER)}" data-start="{r3(start)}" data-duration="{r3(dur)}" data-media-start="{r3(start)}" data-track-index="0" muted playsinline style="object-position:{pos}"></video></div>')
+            # face_zoom (scene) or face_zoom_f / face_zoom_s (storyboard): a punch-in that keeps the face at `pos`
+            zoom = float(sc.get("face_zoom", sb.get(f"face_zoom_{lay.lower()}", 1)))
+            zstyle = f";transform:scale({zoom});transform-origin:{pos}" if zoom != 1 else ""
+            face_clips.append(f'<div class="{wrap}" id="{sid}-face-wrap"><video id="{sid}-face" class="clip" src="{esc(SPEAKER)}" data-start="{r3(start)}" data-duration="{r3(dur)}" data-media-start="{r3(start)}" data-track-index="0" muted playsinline style="object-position:{pos}{zstyle}"></video></div>')
             last_wrap, last_pos = wrap, pos
     tail = float(sb.get("freeze_tail", 0))
     if tail > 0:

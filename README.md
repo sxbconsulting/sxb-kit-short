@@ -19,7 +19,7 @@ Four steps, about ten minutes the first time. You never write code.
 git clone https://github.com/sxbconsulting/sxb-kit-short ~/sxb-kit-short && cd ~/sxb-kit-short && ./setup.sh
 ```
 
-`setup.sh` checks Node 20+, ffmpeg, Python 3.10+ and numpy, and prints the install command for whatever is missing.
+`setup.sh` checks Node 20+, ffmpeg, Python 3.12+ and numpy, and prints the install command for whatever is missing.
 
 **Free-only install, in one command** (macOS or Linux; on Windows, inside WSL). It installs Node, ffmpeg, Python, numpy,
 yt-dlp, HyperFrames and its Chrome, plus WhisperX for free local transcription, then runs `setup.sh`. No paid API, no account;

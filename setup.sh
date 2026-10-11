@@ -15,10 +15,11 @@ need node   "install Node 20+ from https://nodejs.org"
 need npx    "comes with Node"
 need ffmpeg "macOS: brew install ffmpeg · Linux: apt install ffmpeg"
 need ffprobe "comes with ffmpeg"
-need python3 "install Python 3.10+"
+need python3 "install Python 3.12+"
 if command -v yt-dlp >/dev/null 2>&1; then say "ok   yt-dlp"; else say "note yt-dlp not found: only needed for scripts/footage.py with URLs (brew install yt-dlp / pipx install yt-dlp)"; fi
 
 if node -e 'process.exit(parseInt(process.versions.node) >= 20 ? 0 : 1)' 2>/dev/null; then say "ok   node $(node -v)"; else say "MISSING node >= 20 (found $(node -v 2>/dev/null || echo none))"; ok=0; fi
+if python3 -c 'import sys; sys.exit(0 if sys.version_info >= (3, 12) else 1)' 2>/dev/null; then say "ok   python $(python3 -c 'import platform; print(platform.python_version())') (3.12+ for build-reel.py)"; else say "MISSING python 3.12+ (found $(python3 -V 2>&1)): build-reel.py needs it"; ok=0; fi
 if python3 -c 'import numpy' 2>/dev/null; then say "ok   python numpy"; else say "MISSING python module numpy  →  python3 -m pip install numpy"; ok=0; fi
 
 if [ -z "${ELEVENLABS_API_KEY:-}" ] && [ -f .env ]; then
