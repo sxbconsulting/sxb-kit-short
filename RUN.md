@@ -7,7 +7,7 @@ Brief : l'importance de la concurrence en e-commerce. Split screen et motion des
 
 ## Gates
 
-- [ ] 1. Cadrage
+- [x] 1. Cadrage — B ×1,4
 - [ ] 2. Dérush (liste des prises, puis vidéo coupée)
 - [ ] 3. Sous-titres
 - [ ] 4. Beats et assets
@@ -34,4 +34,4 @@ Transcription : pas de clé ElevenLabs dans cet environnement cloud → WhisperX
 
 - Durée cible : **90–120 s** (choix utilisateur). Il faudra donc sélectionner l'argument, pas seulement retirer les silences.
 - Cadrage : l'utilisateur veut **serrer davantage**. Deux propositions envoyées : A ×1,25 / B ×1,4, ancrage vertical 30 %.
-  En attente du choix A / B.
+  **Choix : B ×1,4**, ancrage vertical 30 % (`face_zoom_f` 1.4, `face_pos_f` "50% 30%"). Gate 1 validée.
