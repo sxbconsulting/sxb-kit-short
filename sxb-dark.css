@@ -18,3 +18,4 @@
 .zglass.dark { background: #141414; border: 1.5px solid #2a2a2a; }
 .zimg { border-radius: 22px; overflow: hidden; box-shadow: 0 24px 60px rgba(0,0,0,.6); }
 .zimg .hl { background: rgba(254,202,138,.35); border: 3px solid #FECA8A; border-radius: 8px; }
+.zpill { min-width: 420px; justify-content: center; }
