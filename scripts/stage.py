@@ -22,6 +22,7 @@ from sdr import sdr_vf, SDR_TAGS
 ap = argparse.ArgumentParser()
 ap.add_argument("--derush", default="assets/derush")
 ap.add_argument("--fps", type=int, default=30)
+ap.add_argument("--punch", type=float, default=0, help="zoom every other take by this factor (e.g. 1.12): hides jump cuts")
 args = ap.parse_args()
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -47,7 +48,9 @@ with tempfile.TemporaryDirectory(prefix="stage-") as tmp:
     parts = []
     for i, p in enumerate(plan):
         part = Path(tmp) / f"p{i:03d}.mkv"
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{p['fa'] / FPS:.3f}", "-i", str(raw),
+        z = args.punch if (args.punch and i % 2) else 0
+        punch = ["-vf", f"scale=trunc(iw*{z}/2)*2:trunc(ih*{z}/2)*2,crop=iw/{z}:ih/{z}:(iw-iw/{z})/2:(ih-ih/{z})*0.35"] if z else []
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{p['fa'] / FPS:.3f}", "-i", str(raw), *punch,
                         "-frames:v", str(p["fb"] - p["fa"]), "-t", f"{(p['fb'] - p['fa']) / FPS:.3f}", "-r", str(FPS),
                         "-af", f"afade=t=in:d=0.008,afade=t=out:st={max(0, (p['fb'] - p['fa']) / FPS - 0.008):.3f}:d=0.008",  # no click at the joins
                         "-c:v", "libx264", "-preset", "ultrafast", "-crf", "10", "-c:a", "pcm_s16le", "-ar", "48000", "-ac", "2",
