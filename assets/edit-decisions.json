@@ -1,5 +1,5 @@
 {
- "duration": 113.9,
+ "duration": 110.733,
  "fps": 30,
  "keeps": [
   {
@@ -28,63 +28,69 @@
   },
   {
    "sourceStart": 79.3,
-   "sourceEnd": 92.467,
+   "sourceEnd": 92.233,
    "start": 27.833,
-   "end": 41.0
+   "end": 40.767
   },
   {
-   "sourceStart": 108.667,
+   "sourceStart": 109.767,
    "sourceEnd": 117.233,
-   "start": 41.0,
-   "end": 49.567
+   "start": 40.767,
+   "end": 48.233
   },
   {
    "sourceStart": 153.567,
    "sourceEnd": 163.967,
-   "start": 49.567,
-   "end": 59.967
+   "start": 48.233,
+   "end": 58.633
   },
   {
    "sourceStart": 164.067,
    "sourceEnd": 178.867,
-   "start": 59.967,
-   "end": 74.767
+   "start": 58.633,
+   "end": 73.433
   },
   {
    "sourceStart": 192.067,
+   "sourceEnd": 194.567,
+   "start": 73.433,
+   "end": 75.933
+  },
+  {
+   "sourceStart": 194.967,
    "sourceEnd": 206.067,
-   "start": 74.767,
-   "end": 88.767
+   "start": 75.933,
+   "end": 87.033
   },
   {
    "sourceStart": 212.733,
    "sourceEnd": 218.967,
-   "start": 88.767,
-   "end": 95.0
+   "start": 87.033,
+   "end": 93.267
   },
   {
    "sourceStart": 219.6,
    "sourceEnd": 220.633,
-   "start": 95.0,
-   "end": 96.033
+   "start": 93.267,
+   "end": 94.3
   },
   {
-   "sourceStart": 234.133,
+   "sourceStart": 234.367,
    "sourceEnd": 245.6,
-   "start": 96.033,
-   "end": 107.5
+   "start": 94.3,
+   "end": 105.533
   },
   {
    "sourceStart": 251.233,
    "sourceEnd": 253.933,
-   "start": 107.5,
-   "end": 110.2
+   "start": 105.533,
+   "end": 108.233
   },
   {
-   "sourceStart": 254.867,
+   "sourceStart": 256.067,
    "sourceEnd": 258.567,
-   "start": 110.2,
-   "end": 113.9
+   "start": 108.233,
+   "end": 110.733
   }
  ],
  "removals": [
@@ -114,8 +120,8 @@
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 92.467,
-   "sourceEnd": 108.667,
+   "sourceStart": 92.233,
+   "sourceEnd": 109.767,
    "reason": "silence or retake (takes.py)"
   },
   {
@@ -134,6 +140,11 @@
    "reason": "silence or retake (takes.py)"
   },
   {
+   "sourceStart": 194.567,
+   "sourceEnd": 194.967,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
    "sourceStart": 206.067,
    "sourceEnd": 212.733,
    "reason": "silence or retake (takes.py)"
@@ -145,7 +156,7 @@
   },
   {
    "sourceStart": 220.633,
-   "sourceEnd": 234.133,
+   "sourceEnd": 234.367,
    "reason": "silence or retake (takes.py)"
   },
   {
@@ -155,7 +166,7 @@
   },
   {
    "sourceStart": 253.933,
-   "sourceEnd": 254.867,
+   "sourceEnd": 256.067,
    "reason": "silence or retake (takes.py)"
   }
  ]

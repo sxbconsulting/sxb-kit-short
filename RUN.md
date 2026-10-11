@@ -79,4 +79,11 @@ Corrections de transcription à confirmer : « 4 millions d'éditeurs » → « 
 Validé par l'utilisateur (« ok, c'est bien visiteurs »). Corrections appliquées dans `raw.captions.json` : « d'éditeurs » →
 « de visiteurs », « 1 000 000 » → « millions » (×4), « commerce » → « e-commerce », « 150 » + « 000 » → « 150 000 ».
 Prises 19 + 20 fusionnées (parole continue, chevauchement 0,38 s). stage.py : 14 segments, **113,9 s**, voix −16,9 LUFS,
-crête −1,5 dBFS. Aperçu : `renders/concurrence-cut-v1.mp4` (720p, hors git). En attente du « ok » sur la vidéo coupée.
+crête −1,5 dBFS. Aperçu : `renders/concurrence-cut-v1.mp4` (720p, hors git). Retour utilisateur v1 : « 2-3 bugs, vers 42 s ».
+
+v2, après une transcription neuve de l'audio monté et un profil d'énergie à chaque raccord :
+- ~40 s : fin de 07 coupée en plein « d'où » → sortie 92.22 ; début de 09 avec un « euh » non transcrit (108.70–109.25) → entrée 109.76.
+- ~75 s : « une marque qui… qui proposait » → 15 scindée (192.07–194.58 + 194.96–206.05).
+- ~94 s : « Alors » parasite avant « au lieu » → entrée 19 à 234.38.
+- ~108 s : « Et si tu veux plus de conseils » dit deux fois (prouvé en transcrivant chaque morceau isolé) → 22 démarre sur la 2e prise (256.08), mots retimés.
+Résultat : 15 segments, **110,7 s**. Aperçu `renders/concurrence-cut-v2.mp4`. En attente du « ok ».
