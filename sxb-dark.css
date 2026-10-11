@@ -1,0 +1,20 @@
+/* sxb-dark.css — zone items on the black SXB background (DA-SXB.md). Load with "css": ["sxb-dark.css"] in storyboard.json. */
+.zc { background: #141414; border: 1.5px solid #2a2a2a; box-shadow: 0 24px 60px rgba(0,0,0,.5); color: #fff; }
+.zc .ttl { color: #fff; }
+.zc .num { color: #FECA8A; }
+.zc .lab { color: #bdbdbd; }
+.zc .bar { background: #FECA8A; }
+.zcheck { background: #141414; border: 1.5px solid #2a2a2a; color: #fff; box-shadow: none; }
+.zcheck em { font-style: normal; color: #FECA8A; }
+.zcheck .n { color: #FECA8A; }
+.zcheck .ck { background: #FECA8A; color: #000; }
+.zbadge { width: auto; height: auto; padding: 18px 34px; border-radius: 999px; background: #FECA8A; color: #000; font-style: normal; font-size: 46px; white-space: nowrap; box-shadow: 0 16px 40px rgba(254,202,138,.25); }
+.zst .big em, .zst em { font-style: normal; color: #FECA8A; }
+.zst .kick { color: #bdbdbd; }
+.zst .sub2 { color: #d9d9d9; }
+.zpill { background: #141414; border: 2px solid #FECA8A; color: #fff; font-size: 46px; padding: 22px 38px; box-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none; }
+.zstamp { background: #FECA8A; color: #000; border-color: #FECA8A; }
+.ztag { background: #141414; color: #fff; border: 1.5px solid #FECA8A; }
+.zglass.dark { background: #141414; border: 1.5px solid #2a2a2a; }
+.zimg { border-radius: 22px; overflow: hidden; box-shadow: 0 24px 60px rgba(0,0,0,.6); }
+.zimg .hl { background: rgba(254,202,138,.35); border: 3px solid #FECA8A; border-radius: 8px; }

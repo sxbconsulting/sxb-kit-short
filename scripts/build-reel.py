@@ -298,7 +298,7 @@ def zone_items(sid, z, t0, t1, tl):
         x, y = it.get("x", 60), it.get("y", 120)
         if typ == "card":
             logos = "".join(f'<img src="{esc(l)}" alt="">' for l in it.get("logos", []))
-            num = f'<div class="num" id="{iid}-num" data-value="{it["value"]}" data-suffix="{esc(it.get("suffix", " €"))}">{"0" + esc(it.get("suffix", " €")) if it.get("count") else esc(it.get("number", ""))}</div>' if (it.get("value") is not None or it.get("number")) else ""
+            num = f'<div class="num" id="{iid}-num" data-value="{it.get("value", "")}" data-suffix="{esc(it.get("suffix", " €"))}">{"0" + esc(it.get("suffix", " €")) if it.get("count") else esc(it.get("number", ""))}</div>' if (it.get("value") is not None or it.get("number")) else ""
             items_html.append(f'<div class="zc" id="{iid}" style="left:{x}px;top:{y}px;width:{it.get("w", 460)}px;{"height:" + str(it["h"]) + "px;" if it.get("h") else ""}"><div class="bar"></div>{("<div class=\"ttl\">" + rich(it["title"]) + "</div>") if it.get("title") else ""}{num}{("<div class=\"lab\">" + esc(it["label"]) + "</div>") if it.get("label") else ""}{("<div class=\"logos\" style=\"--cols:" + str(it.get("cols", 3)) + ";--lh:" + str(it.get("logo_h", 96)) + "px\">" + logos + "</div>") if logos else ""}</div>')
             frm = it.get("from", "up")
             if frm != "none":
@@ -473,12 +473,16 @@ def scene_html(sid, sc):
         z = sc.get("zone", {})
         brand = sb.get("brand", {})
         t0, t1 = float(sc["start"]), float(sc["end"])
-        body.append(f'<style>#root {{ --z-bg: {brand.get("bg", "#F3F1EE")}; --z-ink: {brand.get("ink", "#0F0D0D")}; --z-accent: {brand.get("accent", "#D40F30")}; --z-font: {brand.get("font", "\"Helvetica Neue\", Helvetica, Arial, sans-serif")}; }}</style>')
+        body.append(f'<style>#root {{ --z-bg: {brand.get("bg", "#F3F1EE")}; --z-ink: {brand.get("ink", "#0F0D0D")}; --z-accent: {brand.get("accent", "#D40F30")}; --z-accent-ink: {brand.get("accent_text", brand.get("accent", "#D3553F"))}; --z-font: {brand.get("font", "\"Helvetica Neue\", Helvetica, Arial, sans-serif")}; }}</style>')
+        for css in sb.get("css", []):  # extra stylesheets (e.g. sxb-dark.css), loaded inside each scene after the defaults
+            body.append(f'<style>{(ROOT / css).read_text()}</style>')
         def rel(t):
             return r3(max(0, resolve_at(t, t0, t1) - t0))
         items_html = zone_items(sid, z, t0, t1, tl)
         zh = 1920 if z.get("full") else int(z.get("height", 880))
         zbg = f'background: linear-gradient(135deg, {brand.get("bg", "#F3F1EE")} 0%, {brand.get("bg", "#F3F1EE")} 55%, {brand.get("soft", "#FDEAE6")} 78%, {brand.get("soft2", "#F5C2C9")} 100%);' if z.get("gradient") else ""
+        if not sb.get("zone_sheen", True):  # flat brand background, no white highlight at the top of the zone
+            body.append('<style>#zone::after { display: none; }</style>')
         body.append(f'<div id="zone" style="height:{zh}px;{zbg}">{"".join(items_html)}</div>')
         if z.get("in") is not None:
             tl.append(f'tl.fromTo("#zone", {{ clipPath: "inset(0px 0px 1040px 0px)" }}, {{ clipPath: "inset(0px 0px 0px 0px)", duration: 0.55, ease: "power4.inOut" }}, {rel(z["in"])});')

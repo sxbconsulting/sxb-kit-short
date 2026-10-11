@@ -55,8 +55,13 @@ Texte noir sur l'accent (`#000`) quand l'accent sert de fond (pastille, bouton C
 "caption_accent": "#FECA8A",
 "brand": { "bg": "#000000", "ink": "#FFFFFF", "accent": "#FECA8A", "accent_ink": "#000000",
            "font": "\"Archivo\", \"Helvetica Neue\", Helvetica, Arial, sans-serif" },
-"locale": "fr-FR"
+"locale": "fr-FR",
+"css": ["sxb-dark.css"], "zone_sheen": false,
+"face_zoom_f": 1.2, "face_pos_f": "50% 38%", "face_zoom_s": 1.1, "face_pos_s": "50% 32%"
 ```
+
+`sxb-dark.css` restyle les éléments de la zone écran (cartes, liste #1 #2 #3, pastilles, badges, tampons, surlignages)
+pour le fond noir ; sans lui ces éléments sont pensés pour un fond clair (cartes blanches, accent rouge).
 
 Mises en page conseillées : **S** (écran noir en haut, visage en bas) pour les passages avec une donnée ou une capture,
 **F** (plein visage) pour l'accroche et les phrases d'émotion, écran de fin `zone.full` noir avec le CTA en pêche.
