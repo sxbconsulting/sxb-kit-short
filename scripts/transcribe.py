@@ -36,7 +36,7 @@ if not os.environ.get("ELEVENLABS_API_KEY") and (ROOT / ".env").exists():  # .en
             os.environ["ELEVENLABS_API_KEY"] = line.split("=", 1)[1].strip().strip('"').strip("'")
 VENV = Path.home() / ".reel-kit/venv/bin/python"
 engine = args.engine or ("scribe" if os.environ.get("ELEVENLABS_API_KEY") else "whisperx")
-if engine == "whisperx" and Path(sys.executable).resolve() != VENV.resolve():
+if engine == "whisperx" and Path(sys.prefix).resolve() != VENV.parent.parent.resolve():  # a venv python is a symlink to the base one: compare prefixes
     if not VENV.exists():
         sys.exit("neither an ELEVENLABS_API_KEY key (Scribe) nor ~/.reel-kit/venv (WhisperX, scripts/setup-whisperx.sh)")
     os.execv(str(VENV), [str(VENV), __file__, *sys.argv[1:], "--engine", "whisperx"])
