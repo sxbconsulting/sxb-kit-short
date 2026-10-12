@@ -130,3 +130,6 @@ tampon « À ÉDUQUER » (40.0), boutiques « DES CONCURRENTS » (41.8), foule �
 carte « Expliquer ta solution » (45.2) barrée sur « juste » (46.1), puis la liste #1 #2 revient cochée et #3 (47.4–47.8).
 Corrections `build-reel.py` : `crowd` sans point à éteindre (sélecteur vide), barre de `strike` qui suit le `out_at` de sa carte.
 Animatic v4 : `renders/concurrence-animatic-v4.mp4`.
+
+Animatic v4 **validé** (« ok c'est bon »). **Pas de musique ni de SFX** (choix utilisateur). Rendu final lancé : `npx hyperframes render --sdr -q delivery -o renders/concurrence-ecom.mp4`.
+Passe Studio (`npm run dev`) non faite : la session tourne dans un conteneur cloud, l'URL locale n'est pas joignable par l'utilisateur ; les 4 animatics ont servi de relecture.
