@@ -70,6 +70,10 @@
 .zstrike { position: absolute; height: 12px; background: var(--z-accent, #D40F30); transform-origin: 0 50%; border-radius: 6px; }
 .zphoto { position: absolute; overflow: hidden; border-radius: 28px; box-shadow: 0 30px 80px rgba(15,13,13,.22), 0 2px 0 rgba(255,255,255,.6) inset; background: #fff; }
 .zphoto img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.zcrowd { position: absolute; }
+.zcrowd .cd { position: absolute; border-radius: 50%; background: #fff; }
+.zcrowd.shop .cd { border-radius: 12px; background: #1d1d1d; border: 2px solid #3a3a3a; border-top: 12px solid var(--z-accent, #D40F30); }
+.zcrowd .ring { position: absolute; border: 6px solid var(--z-accent, #D40F30); border-radius: 50%; }
 .zchevs { position: absolute; left: 0; right: 0; text-align: center; line-height: .55; }
 .zchev { display: block; font-size: 150px; font-weight: 900; color: var(--z-accent, #D40F30); }
 /* layout Y (16:9): the speaker lives in the scene and moves; the zone is the whole frame, transparent */
@@ -157,19 +161,41 @@
 .zpill { min-width: 420px; justify-content: center; }
 </style>
 <style>#zone::after { display: none; }</style>
-<div id="zone" style="height:880px;"><div class="zcheck" id="s05-s-z0" style="left:60px;top:110px;width:960px"><span class="n">#1</span><span>La <em>demande</em> existe déjà</span><span class="ck" id="s05-s-z0-ck">✓</span></div><div class="zcheck" id="s05-s-z1" style="left:60px;top:300px;width:960px"><span class="n">#2</span><span>Pas besoin d&#x27;<em>éduquer</em></span><span class="ck" id="s05-s-z1-ck">✓</span><span class="ul" id="s05-s-z1-ul"></span></div><div class="zcheck" id="s05-s-z2" style="left:60px;top:490px;width:960px"><span class="n">#3</span><span>Tu montres ta <em>différence</em></span><span class="ck" id="s05-s-z2-ck">✓</span></div></div>
+<div id="zone" style="height:880px;"><div class="zcrowd shop" id="s05-s-z0" style="left:60px;top:130px;width:554px;height:206px"><div class="cd" id="s05-s-z0-c0" style="left:0px;top:0px;width:90px;height:90px"></div><div class="cd" id="s05-s-z0-c1" style="left:116px;top:0px;width:90px;height:90px"></div><div class="cd" id="s05-s-z0-c2" style="left:232px;top:0px;width:90px;height:90px"></div><div class="cd" id="s05-s-z0-c3" style="left:348px;top:0px;width:90px;height:90px"></div><div class="cd" id="s05-s-z0-c4" style="left:464px;top:0px;width:90px;height:90px"></div><div class="cd" id="s05-s-z0-c5" style="left:0px;top:116px;width:90px;height:90px"></div><div class="cd" id="s05-s-z0-c6" style="left:116px;top:116px;width:90px;height:90px"></div><div class="cd" id="s05-s-z0-c7" style="left:232px;top:116px;width:90px;height:90px"></div><div class="cd" id="s05-s-z0-c8" style="left:348px;top:116px;width:90px;height:90px"></div><div class="cd" id="s05-s-z0-c9" style="left:464px;top:116px;width:90px;height:90px"></div></div><div class="zline" id="s05-s-z1" style="left:60px;top:370px;font-size:30px;color:#8F8B85;font-weight:800;letter-spacing:.12em;">DES CONCURRENTS PARTOUT</div><div class="zglass dark" id="s05-s-z2" style="left:690px;top:110px;width:330px;"><div class="ttl">DEMANDE</div><div class="bars"><i id="s05-s-z2-b0" style="height:22%"></i><i id="s05-s-z2-b1" style="height:38%"></i><i id="s05-s-z2-b2" style="height:55%"></i><i id="s05-s-z2-b3" style="height:76%"></i><i id="s05-s-z2-b4" style="height:96%"></i></div></div><div class="zstamp" id="s05-s-z3" style="left:300px;top:520px">PROUVÉE ✓</div><div class="zcheck" id="s05-s-z4" style="left:60px;top:110px;width:960px"><span class="n">#1</span><span>La <em>demande</em> existe déjà</span><span class="ck" id="s05-s-z4-ck">✓</span></div><div class="zcheck" id="s05-s-z5" style="left:60px;top:300px;width:960px"><span class="n">#2</span><span>Pas besoin d&#x27;<em>éduquer</em></span><span class="ck" id="s05-s-z5-ck">✓</span><span class="ul" id="s05-s-z5-ul"></span></div><div class="zcheck" id="s05-s-z6" style="left:60px;top:490px;width:960px"><span class="n">#3</span><span>Tu montres ta <em>différence</em></span><span class="ck" id="s05-s-z6-ck">✓</span></div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
 (function () {
   const tl = gsap.timeline({ paused: true });
-    tl.from("#s05-s-z0", { x: -300, opacity: 0, duration: 0.45, ease: "back.out(1.4)" }, 2.396);
-  tl.from("#s05-s-z0-ck", { scale: 0, duration: 0.35, ease: "back.out(2.6)" }, 4.159);
-  tl.from("#s05-s-z1", { x: -300, opacity: 0, duration: 0.45, ease: "back.out(1.4)" }, 6.062);
-  tl.from("#s05-s-z1-ck", { scale: 0, duration: 0.35, ease: "back.out(2.6)" }, 8.227);
-  tl.from("#s05-s-z1-ul", { scaleX: 0, duration: 0.3, ease: "power3.out" }, 15.792);
-  tl.from("#s05-s-z2", { x: -300, opacity: 0, duration: 0.45, ease: "back.out(1.4)" }, 18.407);
-  tl.from("#s05-s-z2-ck", { scale: 0, duration: 0.35, ease: "back.out(2.6)" }, 19.614);
+    tl.from("#s05-s-z0-c0", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 0.552);
+  tl.from("#s05-s-z0-c3", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 0.612);
+  tl.from("#s05-s-z0-c6", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 0.672);
+  tl.from("#s05-s-z0-c9", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 0.732);
+  tl.from("#s05-s-z0-c2", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 0.792);
+  tl.from("#s05-s-z0-c5", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 0.852);
+  tl.from("#s05-s-z0-c8", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 0.912);
+  tl.from("#s05-s-z0-c1", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 0.972);
+  tl.from("#s05-s-z0-c4", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 1.032);
+  tl.from("#s05-s-z0-c7", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 1.092);
+  tl.to("#s05-s-z0", { opacity: 0, duration: 0.25 }, 4.96);
+  tl.from("#s05-s-z1", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 0.853);
+  tl.to("#s05-s-z1", { opacity: 0, duration: 0.25 }, 4.96);
+  tl.from("#s05-s-z2", { y: 90, opacity: 0, scale: 0.94, duration: 0.55, ease: "back.out(1.5)" }, 2.396);
+  tl.from("#s05-s-z2-b0", { scaleY: 0, duration: 0.45, ease: "back.out(1.6)" }, 2.646);
+  tl.from("#s05-s-z2-b1", { scaleY: 0, duration: 0.45, ease: "back.out(1.6)" }, 2.726);
+  tl.from("#s05-s-z2-b2", { scaleY: 0, duration: 0.45, ease: "back.out(1.6)" }, 2.806);
+  tl.from("#s05-s-z2-b3", { scaleY: 0, duration: 0.45, ease: "back.out(1.6)" }, 2.886);
+  tl.from("#s05-s-z2-b4", { scaleY: 0, duration: 0.45, ease: "back.out(1.6)" }, 2.966);
+  tl.to("#s05-s-z2", { opacity: 0, duration: 0.25 }, 4.96);
+  tl.from("#s05-s-z3", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 2.957);
+  tl.to("#s05-s-z3", { opacity: 0, duration: 0.25 }, 4.96);
+  tl.from("#s05-s-z4", { x: -300, opacity: 0, duration: 0.45, ease: "back.out(1.4)" }, 4.96);
+  tl.from("#s05-s-z4-ck", { scale: 0, duration: 0.35, ease: "back.out(2.6)" }, 5.401);
+  tl.from("#s05-s-z5", { x: -300, opacity: 0, duration: 0.45, ease: "back.out(1.4)" }, 6.062);
+  tl.from("#s05-s-z5-ck", { scale: 0, duration: 0.35, ease: "back.out(2.6)" }, 8.227);
+  tl.from("#s05-s-z5-ul", { scaleX: 0, duration: 0.3, ease: "power3.out" }, 15.792);
+  tl.from("#s05-s-z6", { x: -300, opacity: 0, duration: 0.45, ease: "back.out(1.4)" }, 18.407);
+  tl.from("#s05-s-z6-ck", { scale: 0, duration: 0.35, ease: "back.out(2.6)" }, 19.614);
   tl.from("#zone", { y: -40, opacity: 0, duration: 0.35, ease: "power3.out" }, 0);
   tl.to({}, { duration: 20.1 }, 0);
   window.__timelines["s05-s"] = tl;

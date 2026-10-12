@@ -147,6 +147,10 @@ SCENE_CSS = """
 .zstrike { position: absolute; height: 12px; background: var(--z-accent, #D40F30); transform-origin: 0 50%; border-radius: 6px; }
 .zphoto { position: absolute; overflow: hidden; border-radius: 28px; box-shadow: 0 30px 80px rgba(15,13,13,.22), 0 2px 0 rgba(255,255,255,.6) inset; background: #fff; }
 .zphoto img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.zcrowd { position: absolute; }
+.zcrowd .cd { position: absolute; border-radius: 50%; background: #fff; }
+.zcrowd.shop .cd { border-radius: 12px; background: #1d1d1d; border: 2px solid #3a3a3a; border-top: 12px solid var(--z-accent, #D40F30); }
+.zcrowd .ring { position: absolute; border: 6px solid var(--z-accent, #D40F30); border-radius: 50%; }
 .zchevs { position: absolute; left: 0; right: 0; text-align: center; line-height: .55; }
 .zchev { display: block; font-size: 150px; font-weight: 900; color: var(--z-accent, #D40F30); }
 /* layout Y (16:9): the speaker lives in the scene and moves; the zone is the whole frame, transparent */
@@ -412,6 +416,34 @@ def zone_items(sid, z, t0, t1, tl):
             tl.append(f'tl.from("#{iid}", {{ y: 120, opacity: 0, rotation: {it.get("rotate", 0) - 6}, duration: 0.6, ease: "back.out(1.4)" }}, {at});')
             if it.get("drift"):
                 tl.append(f'tl.to("#{iid} img", {{ scale: 1.08, duration: {r3(t1 - t0)}, ease: "none" }}, 0);')
+        elif typ == "crowd":
+            # a crowd of tiles (shape "dot" = people, "shop" = stores) popping in; focus_at dims all but `focus` and rings them
+            cols, rows = it.get("cols", 6), it.get("rows", 4)
+            sz, gap = it.get("size", 44), it.get("gap", 18)
+            n = cols * rows
+            focus = it.get("focus", [])
+            cells = []
+            for k in range(n):
+                cx, cy = (k % cols) * (sz + gap), (k // cols) * (sz + gap)
+                cells.append(f'<div class="cd" id="{iid}-c{k}" style="left:{cx}px;top:{cy}px;width:{sz}px;height:{sz}px"></div>')
+            ring = ""
+            if focus and it.get("focus_at") is not None:
+                xs = [(k % cols) * (sz + gap) for k in focus]; ys = [(k // cols) * (sz + gap) for k in focus]
+                pad = it.get("ring_pad", 22)
+                rx, ry = min(xs) - pad, min(ys) - pad
+                rw, rh = max(xs) + sz + pad - rx, max(ys) + sz + pad - ry
+                ring = f'<div class="ring" id="{iid}-ring" style="left:{rx}px;top:{ry}px;width:{rw}px;height:{rh}px"></div>'
+            items_html.append(f'<div class="zcrowd{" shop" if it.get("shape") == "shop" else ""}" id="{iid}" style="left:{x}px;top:{y}px;width:{cols * (sz + gap) - gap}px;height:{rows * (sz + gap) - gap}px">{"".join(cells)}{ring}</div>')
+            st = it.get("stagger", 0.04)
+            for rank, k in enumerate(sorted(range(n), key=lambda q: (q * 7) % n)):
+                tl.append(f'tl.from("#{iid}-c{k}", {{ scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }}, {r3(float(at) + st * rank)});')
+            if ring:
+                fa = rel(it["focus_at"])
+                others = ", ".join(f"#{iid}-c{k}" for k in range(n) if k not in focus)
+                mine = ", ".join(f"#{iid}-c{k}" for k in focus)
+                tl.append(f'tl.to("{others}", {{ opacity: 0.16, scale: 0.8, duration: 0.4, ease: "power2.out" }}, {fa});')
+                tl.append(f'tl.to("{mine}", {{ backgroundColor: "{sb.get("brand", {}).get("accent", "#FECA8A")}", scale: 1.15, duration: 0.35, ease: "back.out(2)" }}, {fa});')
+                tl.append(f'tl.from("#{iid}-ring", {{ scale: 0.3, opacity: 0, duration: 0.4, ease: "back.out(2)" }}, {r3(float(fa) + 0.2)});')
         elif typ == "chevrons":
             chs = "".join(f'<span class="zchev" id="{iid}-c{k}" data-layout-allow-overlap>⌄</span>' for k in range(it.get("n", 3)))
             items_html.append(f'<div class="zchevs" id="{iid}" style="top:{y}px">{chs}</div>')

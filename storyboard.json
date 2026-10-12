@@ -204,14 +204,64 @@
    "zone": {
     "items": [
      {
+      "type": "crowd",
+      "shape": "shop",
+      "cols": 5,
+      "rows": 2,
+      "size": 90,
+      "gap": 26,
+      "x": 60,
+      "y": 130,
+      "at": "w:présence",
+      "stagger": 0.06,
+      "out_at": "w:C'est-à-dire"
+     },
+     {
+      "type": "line",
+      "text": "DES CONCURRENTS PARTOUT",
+      "x": 60,
+      "y": 370,
+      "size": 30,
+      "weight": 800,
+      "color": "#8F8B85",
+      "tracking": ".12em",
+      "at": "w:concurrent",
+      "out_at": "w:C'est-à-dire"
+     },
+     {
+      "type": "glass",
+      "dark": true,
+      "title": "DEMANDE",
+      "bars": [
+       22,
+       38,
+       55,
+       76,
+       96
+      ],
+      "x": 690,
+      "y": 110,
+      "w": 330,
+      "at": "w:demande",
+      "out_at": "w:C'est-à-dire"
+     },
+     {
+      "type": "stamp",
+      "text": "PROUVÉE ✓",
+      "x": 300,
+      "y": 520,
+      "at": "w:éprouvée",
+      "out_at": "w:C'est-à-dire"
+     },
+     {
       "type": "check",
       "n": "#1",
       "text": "La <em>demande</em> existe déjà",
       "x": 60,
       "y": 110,
       "w": 960,
-      "at": "w:demande",
-      "check_at": "w:présente"
+      "at": "w:C'est-à-dire",
+      "check_at": "w:toi"
      },
      {
       "type": "check",
@@ -236,7 +286,7 @@
      }
     ]
    },
-   "holdReason": "liste qui se construit mot à mot ; le #2 se souligne à « éduqué »"
+   "holdReason": "concurrents → demande prouvée, puis la liste se construit mot à mot"
   },
   {
    "layout": "S",
@@ -249,24 +299,34 @@
       "kicker": "LA MARQUE",
       "text": "Loop <em>Earplugs</em>",
       "x": 80,
-      "y": 80,
+      "y": 60,
       "w": 920,
       "at": "w:Loop"
+     },
+     {
+      "type": "image",
+      "src": "assets/captures/loop/products-row.png",
+      "x": 40,
+      "y": 250,
+      "w": 1000,
+      "at": "w:vendent",
+      "out_at": "w:Pourtant"
      },
      {
       "type": "stamp",
       "text": "ÉNORMÉMENT DE CONCURRENCE",
       "x": 110,
-      "y": 280,
-      "at": "w:énormément"
+      "y": 520,
+      "at": "w:énormément",
+      "out_at": "w:Pourtant"
      },
      {
       "type": "big",
       "value": 220,
       "suffix": " M$",
       "label": "DE CHIFFRE D'AFFAIRES · FORBES",
-      "y": 500,
-      "size": 160,
+      "y": 330,
+      "size": 170,
       "at": "w:220",
       "count": 0.8,
       "circle_at": "w:d'affaires"
@@ -285,57 +345,130 @@
       "type": "stamp",
       "text": "UNE SEULE CHOSE",
       "x": 290,
-      "y": 70,
-      "at": "w:seule"
+      "y": 300,
+      "at": "w:seule",
+      "out_at": "w:concurrents"
      },
      {
-      "type": "card",
-      "title": "Les concurrents",
-      "label": "MASS MARKET",
-      "x": 40,
-      "y": 240,
-      "w": 470,
-      "h": 180,
-      "from": "left",
-      "at": "w:mass",
-      "strike_at": "w:eux",
-      "strike_y": 150
+      "type": "line",
+      "text": "Les concurrents",
+      "x": 60,
+      "y": 60,
+      "size": 46,
+      "weight": 800,
+      "color": "#FFFFFF",
+      "at": "w:concurrents"
      },
      {
-      "type": "card",
-      "title": "Loop",
-      "label": "GÉNÉRATION Z",
-      "x": 570,
-      "y": 240,
-      "w": 470,
-      "h": 180,
-      "from": "right",
-      "at": "w:génération"
+      "type": "crowd",
+      "shape": "dot",
+      "cols": 6,
+      "rows": 4,
+      "size": 40,
+      "gap": 16,
+      "x": 60,
+      "y": 150,
+      "at": "w:parlaient",
+      "stagger": 0.02
+     },
+     {
+      "type": "line",
+      "text": "MASS MARKET",
+      "x": 60,
+      "y": 385,
+      "size": 30,
+      "weight": 800,
+      "color": "#8F8B85",
+      "tracking": ".12em",
+      "at": "w:mass"
+     },
+     {
+      "type": "image",
+      "src": "assets/captures/aliexpress/foam.png",
+      "x": 60,
+      "y": 440,
+      "w": 300,
+      "at": "w:market"
      },
      {
       "type": "tag",
-      "text": "customisé",
+      "text": "produit basique",
+      "x": 60,
+      "y": 690,
+      "at": "w:market"
+     },
+     {
+      "type": "line",
+      "text": "Loop",
+      "x": 580,
+      "y": 60,
+      "size": 46,
+      "weight": 800,
+      "color": "#FECA8A",
+      "at": "w:eux"
+     },
+     {
+      "type": "crowd",
+      "shape": "dot",
+      "cols": 6,
+      "rows": 4,
+      "size": 40,
+      "gap": 16,
+      "x": 580,
+      "y": 150,
+      "at": "w:eux",
+      "stagger": 0.015,
+      "focus": [
+       8,
+       9,
+       14,
+       15
+      ],
+      "focus_at": "w:génération"
+     },
+     {
+      "type": "line",
+      "text": "GÉNÉRATION Z",
+      "x": 580,
+      "y": 385,
+      "size": 30,
+      "weight": 800,
+      "color": "#FECA8A",
+      "tracking": ".12em",
+      "at": "w:génération"
+     },
+     {
+      "type": "image",
+      "src": "assets/captures/loop/p1.png",
       "x": 580,
       "y": 440,
+      "w": 270,
       "at": "w:customisé"
      },
      {
       "type": "tag",
       "text": "lifestyle",
-      "x": 580,
-      "y": 520,
+      "x": 860,
+      "y": 470,
       "at": "w:lifestyle"
      },
      {
       "type": "tag",
       "text": "cool",
-      "x": 850,
-      "y": 520,
+      "x": 860,
+      "y": 550,
       "at": "w:cool"
+     },
+     {
+      "type": "tag",
+      "text": "produit design",
+      "x": 580,
+      "y": 690,
+      "at": "w:produits"
      }
     ]
    },
-   "holdReason": "le duel se construit puis Loop se pare de ses attributs"
+   "holdReason": "duel : la foule mass market contre la cible Gen Z, puis les deux produits"
   },
   {
    "layout": "S",
@@ -353,43 +486,34 @@
      },
      {
       "type": "image",
-      "src": "assets/captures/aliexpress/grid.png",
+      "src": "assets/captures/aliexpress/grid-noprice.png",
       "x": 40,
-      "y": 150,
+      "y": 160,
       "w": 1000,
       "at": "w:coussin",
-      "highlights": [
-       [
-        684,
-        383,
-        95,
-        38
-       ]
-      ],
-      "highlight_at": "w:AliExpress",
+      "out_at": "w:positionnement"
+     },
+     {
+      "type": "tag",
+      "text": "Sur AliExpress",
+      "x": 60,
+      "y": 520,
+      "at": "w:AliExpress",
       "out_at": "w:positionnement"
      },
      {
       "type": "image",
-      "src": "assets/captures/chillow/hero.png",
-      "x": 440,
-      "y": 60,
+      "src": "assets/captures/chillow/hero-noprice.png",
+      "x": 300,
+      "y": 70,
       "w": 480,
-      "h": 660,
-      "at": "w:positionnement"
-     },
-     {
-      "type": "tag",
-      "text": "AliExpress : 21,19 €",
-      "x": 40,
-      "y": 330,
       "at": "w:positionnement"
      },
      {
       "type": "badge",
-      "text": "Chillow : 99 €",
-      "x": 620,
-      "y": 600,
+      "text": "Chillow",
+      "x": 680,
+      "y": 500,
       "at": "w:péter"
      }
     ]

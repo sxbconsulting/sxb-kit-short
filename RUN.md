@@ -110,3 +110,10 @@ Recommandation : C. **Choix utilisateur : C.** Demande en plus : moins de plafon
 ## Gate 6 — animatic (en cours)
 
 `storyboard.json` : 13 scènes (beats de `DESIGN.md`). Noms propres corrigés dans `raw.captions.json` (Earplugs, différencies) au lieu du `lexicon`, pour que les sous-titres restent identiques au transcript (validate-plan).
+
+### Animatic v1 → retours utilisateur
+1. ~30 s : animation sur la présence de concurrents → boutiques qui apparaissent + barres « DEMANDE » + tampon « PROUVÉE ✓ », puis la liste.
+2. ~50 s : produits Loop → capture réelle de loopearplugs.com/collections/all (4 visuels, sans prix).
+3. ~59 s : concurrents mass market + produit basique vs Loop cible précise + produit sophistiqué → foule de points / foule ciblée (anneau pêche sur Gen Z), bouchons mousse AliExpress vs Loop Experience.
+4. ~1:21 : prix retirés (tags et captures recadrées).
+Nouvel élément `crowd` ajouté à `scripts/build-reel.py`. Animatic v2 : `renders/concurrence-animatic-v2.mp4`.
