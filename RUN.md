@@ -9,7 +9,7 @@ Brief : l'importance de la concurrence en e-commerce. Split screen et motion des
 
 - [x] 1. Cadrage — B ×1,4
 - [x] 2. Dérush — 110,7 s, 15 segments (v2)
-- [ ] 3. Sous-titres
+- [x] 3. Sous-titres — style SXB par défaut
 - [ ] 4. Beats et assets
 - [ ] 5. Ouverture A / B / C
 - [ ] 6. Animatic → final
@@ -93,3 +93,5 @@ Résultat : 15 segments, **110,7 s**. Aperçu `renders/concurrence-cut-v2.mp4`. 
 Style SXB par défaut (`pop`, Archivo, blanc, 3 mots max, mots-clés ×1,55 en `#FECA8A`), une scène F plein cadre ×1,4.
 `lexicon` : Airplug → Earplugs, différences → différencies. « qui » (194.945) retimé à 194.975 pour rester dans le segment.
 `npm run check` : 0 erreur, contraste 11/11. Rendu brouillon : `renders/concurrence-captions-v1.mp4`.
+
+Validé (« Oui good »).
