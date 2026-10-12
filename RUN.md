@@ -12,8 +12,8 @@ Brief : l'importance de la concurrence en e-commerce. Split screen et motion des
 - [x] 3. Sous-titres — style SXB par défaut
 - [x] 4. Beats et assets — 13 beats, Loop + Chillow, sources Trendtrack / Forbes
 - [x] 5. Ouverture — C (Forbes + 220 M$)
-- [ ] 6. Animatic → final
-- [ ] 7. Livraison
+- [x] 6. Animatic → final — v4 validé, rendu delivery
+- [x] 7. Livraison — `renders/concurrence-ecom.mp4`, voir `VERIFY.md`
 
 ## Gate 1 — sonde
 
@@ -133,3 +133,7 @@ Animatic v4 : `renders/concurrence-animatic-v4.mp4`.
 
 Animatic v4 **validé** (« ok c'est bon »). **Pas de musique ni de SFX** (choix utilisateur). Rendu final lancé : `npx hyperframes render --sdr -q delivery -o renders/concurrence-ecom.mp4`.
 Passe Studio (`npm run dev`) non faite : la session tourne dans un conteneur cloud, l'URL locale n'est pas joignable par l'utilisateur ; les 4 animatics ont servi de relecture.
+
+## Gate 7 — livraison
+
+Rendu final refait après correction du flash crème. Hash et contrôles : `VERIFY.md`. Légende et couverture proposées dans le chat. L'agent ne publie rien.
