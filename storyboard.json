@@ -126,13 +126,6 @@
       "size": 150,
       "at": "w:4",
       "count": 0.9
-     },
-     {
-      "type": "stamp",
-      "text": "POSITIONNEMENT",
-      "x": 250,
-      "y": 600,
-      "at": "w:positionnement"
      }
     ]
    },
@@ -151,7 +144,7 @@
       "x": 40,
       "y": 90,
       "w": 470,
-      "h": 380,
+      "h": 250,
       "from": "left",
       "at": "w:l'objection"
      },
@@ -159,7 +152,7 @@
       "type": "stamp",
       "text": "TROP TARD ?",
       "x": 90,
-      "y": 520,
+      "y": 400,
       "at": "w:implantés"
      },
      {
@@ -176,7 +169,7 @@
       "x": 570,
       "y": 90,
       "w": 470,
-      "h": 380,
+      "h": 250,
       "from": "right",
       "at": "w:vierge"
      }
@@ -188,7 +181,7 @@
    "layout": "F",
    "start": 24.37,
    "end": 28.15,
-   "face_zoom": 1.75,
+   "face_zoom": 1.6,
    "overlay": {
     "items": [
      {
@@ -201,7 +194,8 @@
      }
     ]
    },
-   "holdReason": "punch-in de conviction"
+   "holdReason": "punch-in de conviction",
+   "face_pos": "50% 40%"
   },
   {
    "layout": "S",
@@ -301,7 +295,7 @@
       "x": 40,
       "y": 240,
       "w": 470,
-      "h": 300,
+      "h": 180,
       "from": "left",
       "at": "w:mass",
       "strike_at": "w:eux",
@@ -314,7 +308,7 @@
       "x": 570,
       "y": 240,
       "w": 470,
-      "h": 300,
+      "h": 180,
       "from": "right",
       "at": "w:génération"
      },
@@ -322,21 +316,21 @@
       "type": "tag",
       "text": "customisé",
       "x": 580,
-      "y": 590,
+      "y": 440,
       "at": "w:customisé"
      },
      {
       "type": "tag",
       "text": "lifestyle",
       "x": 580,
-      "y": 670,
+      "y": 520,
       "at": "w:lifestyle"
      },
      {
       "type": "tag",
       "text": "cool",
       "x": 850,
-      "y": 670,
+      "y": 520,
       "at": "w:cool"
      }
     ]
@@ -354,7 +348,8 @@
       "text": "France · coussin en U",
       "x": 60,
       "y": 60,
-      "at": "w:France"
+      "at": "w:France",
+      "out_at": "w:positionnement"
      },
      {
       "type": "image",
@@ -377,7 +372,7 @@
      {
       "type": "image",
       "src": "assets/captures/chillow/hero.png",
-      "x": 300,
+      "x": 440,
       "y": 60,
       "w": 480,
       "h": 660,
@@ -386,15 +381,15 @@
      {
       "type": "tag",
       "text": "AliExpress : 21,19 €",
-      "x": 60,
-      "y": 200,
+      "x": 40,
+      "y": 330,
       "at": "w:positionnement"
      },
      {
       "type": "badge",
       "text": "Chillow : 99 €",
-      "x": 720,
-      "y": 560,
+      "x": 620,
+      "y": 600,
       "at": "w:péter"
      }
     ]
@@ -435,7 +430,8 @@
    "layout": "F",
    "start": 93.27,
    "end": 94.3,
-   "face_zoom": 1.8
+   "face_zoom": 1.6,
+   "face_pos": "50% 40%"
   },
   {
    "layout": "S",
@@ -490,8 +486,9 @@
    "layout": "F",
    "start": 105.53,
    "end": 108.23,
-   "face_zoom": 1.75,
-   "holdReason": "conviction : trouver l'angle qui manque"
+   "face_zoom": 1.6,
+   "holdReason": "conviction : trouver l'angle qui manque",
+   "face_pos": "50% 40%"
   },
   {
    "layout": "S",

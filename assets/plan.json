@@ -202,12 +202,6 @@
   },
   {
    "time": 13.847,
-   "type": "overlay-pop",
-   "visual": "s02-s",
-   "anchor": "w:positionnement"
-  },
-  {
-   "time": 13.847,
    "type": "caption-emphasis",
    "visual": "s02-s",
    "anchor": "positionnement"
