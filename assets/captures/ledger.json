@@ -1,0 +1,8 @@
+[
+  {"file": "assets/captures/loop/forbes-mobile.png", "kind": "screenshot",
+   "source": "https://www.forbes.com/sites/simonemelvin/2025/10/25/how-loop-earplugs-turned-down-the-volume-for-gen-z-and-dialed-up-massive-revenue/",
+   "via": "Firecrawl scrape screenshot, mobile 430×932, 2026-10-12", "supports": "220 M$ de CA (« brings in $220 million »), cible Gen Z",
+   "rights": "capture d'article de presse, citation courte avec source à l'écran"},
+  {"file": "assets/captures/loop/home-mobile.png", "kind": "screenshot", "source": "https://www.loopearplugs.com",
+   "via": "Firecrawl, 2026-10-12", "usable": false, "why": "popup de sélection de pays au premier plan, inutilisable"}
+]
