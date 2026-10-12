@@ -377,7 +377,8 @@
       "y": 110,
       "w": 960,
       "at": "w:C'est-à-dire",
-      "check_at": "w:toi"
+      "check_at": "w:toi",
+      "out_at": "w:comment"
      },
      {
       "type": "check",
@@ -388,7 +389,135 @@
       "w": 960,
       "at": "w:besoin",
       "check_at": "w:d'éduquer",
-      "underline_at": "w:éduqué"
+      "out_at": "w:comment"
+     },
+     {
+      "type": "tag",
+      "text": "comment fonctionne ton produit ?",
+      "x": 60,
+      "y": 110,
+      "at": "w:comment",
+      "out_at": "w:concurrents"
+     },
+     {
+      "type": "tag",
+      "text": "quelle est la solution ?",
+      "x": 60,
+      "y": 190,
+      "at": "w:solution",
+      "out_at": "w:concurrents"
+     },
+     {
+      "type": "stamp",
+      "text": "À ÉDUQUER",
+      "x": 470,
+      "y": 230,
+      "at": "w:proposes",
+      "out_at": "w:concurrents"
+     },
+     {
+      "type": "crowd",
+      "shape": "shop",
+      "cols": 4,
+      "rows": 1,
+      "size": 70,
+      "gap": 18,
+      "x": 60,
+      "y": 110,
+      "at": "w:concurrents",
+      "stagger": 0.05,
+      "out_at": "w:montrer"
+     },
+     {
+      "type": "line",
+      "text": "DES CONCURRENTS",
+      "x": 440,
+      "y": 130,
+      "size": 32,
+      "weight": 800,
+      "color": "#8F8B85",
+      "tracking": ".1em",
+      "at": "w:concurrents",
+      "out_at": "w:montrer"
+     },
+     {
+      "type": "crowd",
+      "shape": "dot",
+      "cols": 8,
+      "rows": 2,
+      "size": 36,
+      "gap": 14,
+      "x": 60,
+      "y": 250,
+      "at": "w:public",
+      "stagger": 0.02,
+      "focus": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15
+      ],
+      "focus_at": "w:éduqué",
+      "ring_pad": 16,
+      "out_at": "w:montrer"
+     },
+     {
+      "type": "line",
+      "text": "PUBLIC DÉJÀ ÉDUQUÉ",
+      "x": 480,
+      "y": 280,
+      "size": 32,
+      "weight": 800,
+      "color": "#FECA8A",
+      "tracking": ".1em",
+      "at": "w:éduqué",
+      "out_at": "w:montrer"
+     },
+     {
+      "type": "card",
+      "title": "Expliquer ta solution",
+      "label": "PLUS BESOIN",
+      "x": 60,
+      "y": 440,
+      "w": 620,
+      "h": 170,
+      "from": "left",
+      "at": "w:expliquer",
+      "strike_at": "w:juste",
+      "strike_y": 60,
+      "out_at": "w:montrer"
+     },
+     {
+      "type": "check",
+      "n": "#1",
+      "text": "La <em>demande</em> existe déjà",
+      "x": 60,
+      "y": 110,
+      "w": 960,
+      "at": "w:montrer",
+      "check_at": "w:montrer"
+     },
+     {
+      "type": "check",
+      "n": "#2",
+      "text": "Pas besoin d'<em>éduquer</em>",
+      "x": 60,
+      "y": 300,
+      "w": 960,
+      "at": "w:montrer",
+      "check_at": "w:montrer"
      },
      {
       "type": "check",
@@ -397,7 +526,7 @@
       "x": 60,
       "y": 490,
       "w": 960,
-      "at": "w:montrer",
+      "at": "w:quoi",
       "check_at": "w:différencies"
      }
     ]

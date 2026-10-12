@@ -345,8 +345,44 @@
    "anchor": "w:besoin"
   },
   {
+   "time": 37.402,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:comment"
+  },
+  {
+   "time": 39.145,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:solution"
+  },
+  {
+   "time": 40.007,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:proposes"
+  },
+  {
+   "time": 41.753,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:concurrents"
+  },
+  {
+   "time": 41.753,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:concurrents"
+  },
+  {
+   "time": 43.181,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:public"
+  },
+  {
    "time": 43.925,
-   "type": "underline",
+   "type": "overlay-pop",
    "visual": "s05-s",
    "anchor": "w:éduqué"
   },
@@ -357,10 +393,34 @@
    "anchor": "éduqué"
   },
   {
+   "time": 45.213,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:expliquer"
+  },
+  {
+   "time": 46.098,
+   "type": "strike",
+   "visual": "s05-s",
+   "anchor": "w:juste"
+  },
+  {
    "time": 46.54,
    "type": "overlay-pop",
    "visual": "s05-s",
    "anchor": "w:montrer"
+  },
+  {
+   "time": 46.54,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:montrer"
+  },
+  {
+   "time": 47.365,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:quoi"
   },
   {
    "time": 48.377,

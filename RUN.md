@@ -123,3 +123,10 @@ Nouvel élément `crowd` ajouté à `scripts/build-reel.py`. Animatic v2 : `rend
 2. 6–10 s : bouchons mousse (AliExpress) + « bouchons d'oreilles » + « un des produits les plus basiques » + tampon « BASIQUE », puis la marque mystère « ? » et 4 000 000.
 3. 15–21 s : un événement toutes les ~2 s : carte saturée (15.3), boutiques (16.3), boutiques (17.9), « toi » qui tente sa place et rebondit (18.7–19.8), « TROP TARD ? » (21.2), VS (21.9), marché vierge (22.7), « plus simple ? » (24.0).
 Option `moves` ajoutée aux éléments de zone dans `scripts/build-reel.py`. Animatic v3 : `renders/concurrence-animatic-v3.mp4`.
+
+### Animatic v3 → retour utilisateur (3e et dernier tour)
+35–47 s manquait d'animation → séquence mot à mot : « comment fonctionne ton produit ? » (37.4), « quelle est la solution ? » (39.2),
+tampon « À ÉDUQUER » (40.0), boutiques « DES CONCURRENTS » (41.8), foule « public » (43.2) qui s'allume « PUBLIC DÉJÀ ÉDUQUÉ » (43.9),
+carte « Expliquer ta solution » (45.2) barrée sur « juste » (46.1), puis la liste #1 #2 revient cochée et #3 (47.4–47.8).
+Corrections `build-reel.py` : `crowd` sans point à éteindre (sélecteur vide), barre de `strike` qui suit le `out_at` de sa carte.
+Animatic v4 : `renders/concurrence-animatic-v4.mp4`.

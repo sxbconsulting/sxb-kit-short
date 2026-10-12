@@ -441,7 +441,8 @@ def zone_items(sid, z, t0, t1, tl):
                 fa = rel(it["focus_at"])
                 others = ", ".join(f"#{iid}-c{k}" for k in range(n) if k not in focus)
                 mine = ", ".join(f"#{iid}-c{k}" for k in focus)
-                tl.append(f'tl.to("{others}", {{ opacity: 0.16, scale: 0.8, duration: 0.4, ease: "power2.out" }}, {fa});')
+                if others:
+                    tl.append(f'tl.to("{others}", {{ opacity: 0.16, scale: 0.8, duration: 0.4, ease: "power2.out" }}, {fa});')
                 tl.append(f'tl.to("{mine}", {{ backgroundColor: "{sb.get("brand", {}).get("accent", "#FECA8A")}", scale: 1.15, duration: 0.35, ease: "back.out(2)" }}, {fa});')
                 tl.append(f'tl.from("#{iid}-ring", {{ scale: 0.3, opacity: 0, duration: 0.4, ease: "back.out(2)" }}, {r3(float(fa) + 0.2)});')
         elif typ == "chevrons":
@@ -458,7 +459,8 @@ def zone_items(sid, z, t0, t1, tl):
         for mv in it.get("moves", []):  # relative moves (px), e.g. a character fleeing or bouncing off a wall
             tl.append(f'tl.to("#{iid}", {{ x: {mv.get("x", 0)}, y: {mv.get("y", 0)}, rotation: {mv.get("rotate", 0)}, duration: {mv.get("dur", 0.5)}, ease: "{mv.get("ease", "power3.inOut")}" }}, {rel(mv["at"])});')
         if it.get("out_at") is not None:
-            tl.append(f'tl.to("#{iid}", {{ opacity: 0, duration: 0.25 }}, {rel(it["out_at"])});')
+            sel = f"#{iid}, #{iid}-strike" if (typ == "card" and it.get("strike_at") is not None) else f"#{iid}"
+            tl.append(f'tl.to("{sel}", {{ opacity: 0, duration: 0.25 }}, {rel(it["out_at"])});')
     return items_html
 
 
