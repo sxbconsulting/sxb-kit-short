@@ -95,3 +95,14 @@ Style SXB par défaut (`pop`, Archivo, blanc, 3 mots max, mots-clés ×1,55 en `
 `npm run check` : 0 erreur, contraste 11/11. Rendu brouillon : `renders/concurrence-captions-v1.mp4`.
 
 Validé (« Oui good »).
+
+## Gate 4 — beats et assets
+
+Tableau des beats validé (« Go »). Réponses utilisateur : coussin en U = **mychillow.fr** ; source des chiffres = **Trendtrack** ;
+CTA final = **« abonne-toi »** (pas de mot-clé en commentaire). Vérifié dans Trendtrack le 12/10/2026 : Loop 4 233 809 visites/mois,
+Chillow 407 ads actives et 150 358 $ / 30 j. Captures réelles et provenance : `assets/captures/ledger.json`. Voir `DESIGN.md`, `OPEN-LOOPS.json`.
+
+## Gate 5 — ouverture
+
+Trois maquettes (`review/openings/`, hors git) : A plein visage + texte barré, B split « Trop de concurrence ? », C split Forbes + 220 M$.
+Recommandation : C. En attente du choix.
