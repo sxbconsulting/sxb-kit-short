@@ -822,7 +822,7 @@ def build():
       * {{ box-sizing: border-box; margin: 0; padding: 0; }}
       html, body {{ width: {W}px; height: {H}px; overflow: hidden; background: #000; }}
       #root {{ position: relative; width: {W}px; height: {H}px; overflow: hidden; }}
-      #root-bg {{ position: absolute; inset: 0; background: var(--paper); }}
+      #root-bg {{ position: absolute; inset: 0; background: {sb.get("brand", {}).get("bg", "var(--paper)")}; }}
       .face-c {{ position: absolute; left: 0; top: 0; width: 1080px; height: 1000px; overflow: hidden; z-index: 0; }}
       .face-f {{ position: absolute; inset: 0; overflow: hidden; z-index: 0; }}
       .face-s {{ position: absolute; left: 0; top: 880px; width: 1080px; height: 1040px; overflow: hidden; z-index: 0; }}
