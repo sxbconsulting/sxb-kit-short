@@ -455,6 +455,8 @@ def zone_items(sid, z, t0, t1, tl):
             pos = 'left:0;right:0;text-align:center;' if x == "center" else f'left:{x}px;'
             items_html.append(f'<div class="zline" id="{iid}" style="{pos}top:{y}px;{"font-size:" + str(it["size"]) + "px;" if it.get("size") else ""}{"color:" + it["color"] + ";" if it.get("color") else ""}{"font-weight:" + str(it["weight"]) + ";" if it.get("weight") else ""}{"letter-spacing:" + it["tracking"] + ";" if it.get("tracking") else ""}">{rich(it["text"])}</div>')
             tl.append(f'tl.from("#{iid}", {{ opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }}, {at});')
+        for mv in it.get("moves", []):  # relative moves (px), e.g. a character fleeing or bouncing off a wall
+            tl.append(f'tl.to("#{iid}", {{ x: {mv.get("x", 0)}, y: {mv.get("y", 0)}, rotation: {mv.get("rotate", 0)}, duration: {mv.get("dur", 0.5)}, ease: "{mv.get("ease", "power3.inOut")}" }}, {rel(mv["at"])});')
         if it.get("out_at") is not None:
             tl.append(f'tl.to("#{iid}", {{ opacity: 0, duration: 0.25 }}, {rel(it["out_at"])});')
     return items_html

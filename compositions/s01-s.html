@@ -161,17 +161,24 @@
 .zpill { min-width: 420px; justify-content: center; }
 </style>
 <style>#zone::after { display: none; }</style>
-<div id="zone" style="height:880px;"><div class="zimg" id="s01-s-z0" style="left:60px;top:60px;width:400px;height:680px;"><div id="s01-s-z0-in" style="position:relative;transform-origin:50% 50%"><img src="assets/captures/loop/forbes-mobile.png" alt=""></div></div><div class="zbig" id="s01-s-z1" style="top:230px;left:470px;right:auto;width:580px;font-size:150px;"><span id="s01-s-z1-t" style="display:inline-block;position:relative;padding:0 30px">0 M$</span><div style="font-size:30px;letter-spacing:.14em;color:#8F8B85;margin-top:18px;font-weight:700">AVEC DES BOUCHONS D&#x27;OREILLES</div></div><div class="zline" id="s01-s-z2" style="left:560px;top:470px;font-size:26px;color:#8F8B85;">Source : Forbes, oct. 2025</div><div class="zstamp" id="s01-s-z3" style="left:560px;top:560px">SATURÉ ?</div></div>
+<div id="zone" style="height:880px;"><div class="zst" id="s01-s-z0" style="left:60px;top:50px;width:960px;"><div class="kick" id="s01-s-z0-k">L&#x27;ERREUR N°1</div><div class="big" id="s01-s-z0-t">des <em>débutants</em></div></div><div class="ztag" id="s01-s-z1" style="left:400px;top:420px"><span class="dot"></span>toi, débutant</div><div class="zcrowd shop" id="s01-s-z2" style="left:680px;top:300px;width:296px;height:190px"><div class="cd" id="s01-s-z2-c0" style="left:0px;top:0px;width:84px;height:84px"></div><div class="cd" id="s01-s-z2-c1" style="left:106px;top:0px;width:84px;height:84px"></div><div class="cd" id="s01-s-z2-c2" style="left:212px;top:0px;width:84px;height:84px"></div><div class="cd" id="s01-s-z2-c3" style="left:0px;top:106px;width:84px;height:84px"></div><div class="cd" id="s01-s-z2-c4" style="left:106px;top:106px;width:84px;height:84px"></div><div class="cd" id="s01-s-z2-c5" style="left:212px;top:106px;width:84px;height:84px"></div></div><div class="zline" id="s01-s-z3" style="left:60px;top:560px;font-size:34px;color:#8F8B85;font-weight:800;letter-spacing:.1em;">FUIR LA CONCURRENCE</div><div class="zstamp" id="s01-s-z4" style="left:500px;top:610px">BON SIGNAL</div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
 (function () {
   const tl = gsap.timeline({ paused: true });
-    tl.from("#s01-s-z0", { y: 80, opacity: 0, duration: 0.45, ease: "power3.out" }, 0);
-  tl.from("#s01-s-z1", { scale: 0.6, opacity: 0, duration: 0.4, ease: "back.out(2)" }, 0.05);
-  (function(){ const el = document.getElementById("s01-s-z1-t").childNodes[0]; const o = { v: 0 }; tl.to(o, { v: 220, duration: 0.9, ease: "power2.out", onUpdate: () => { el.textContent = Math.round(o.v).toLocaleString("fr-FR").replace(/ | /g, " ") + " M$"; } }, 0.05); })();
-  tl.from("#s01-s-z2", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 0);
-  tl.from("#s01-s-z3", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 3.461);
+    tl.from("#s01-s-z0-k", { y: 42, opacity: 0, duration: 0.5, ease: "power3.out" }, 0.05);
+  tl.from("#s01-s-z0-t", { y: 42, opacity: 0, duration: 0.5, ease: "power3.out" }, 0.17);
+  tl.from("#s01-s-z1", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 1.065);
+  tl.to("#s01-s-z1", { x: -340, y: 0, rotation: 0, duration: 0.45, ease: "power3.in" }, 2.616);
+  tl.from("#s01-s-z2-c0", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 2.314);
+  tl.from("#s01-s-z2-c1", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 2.354);
+  tl.from("#s01-s-z2-c2", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 2.394);
+  tl.from("#s01-s-z2-c3", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 2.434);
+  tl.from("#s01-s-z2-c4", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 2.474);
+  tl.from("#s01-s-z2-c5", { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(2.2)" }, 2.514);
+  tl.from("#s01-s-z3", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 3.461);
+  tl.from("#s01-s-z4", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 4.891);
   tl.from("#zone", { y: -40, opacity: 0, duration: 0.35, ease: "power3.out" }, 0);
   tl.to({}, { duration: 5.333 }, 0);
   window.__timelines["s01-s"] = tl;

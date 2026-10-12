@@ -10,7 +10,7 @@
    "kind": "hook",
    "anchor": "L'erreur",
    "anchorTime": 0.038,
-   "holdReason": "ouverture C : la preuve reste à l'écran pendant que la question se pose"
+   "holdReason": "l'erreur se pose, le débutant fuit, la concurrence devient un bon signal"
   },
   {
    "id": "s02-s",
@@ -30,7 +30,7 @@
    "kind": "beat",
    "anchor": "Dans",
    "anchorTime": 14.645,
-   "holdReason": "l'objection se déroule sur la carte « marché saturé »"
+   "holdReason": "la scène saturée se remplit, le débutant rebondit, puis le marché vierge"
   },
   {
    "id": "s04-f",
@@ -135,22 +135,22 @@
  ],
  "events": [
   {
-   "time": 0.0,
-   "type": "overlay-pop",
-   "visual": "s01-s",
-   "anchor": "0.0"
-  },
-  {
-   "time": 0.0,
-   "type": "overlay-pop",
-   "visual": "s01-s",
-   "anchor": ""
-  },
-  {
    "time": 0.05,
    "type": "overlay-pop",
    "visual": "s01-s",
    "anchor": "0.05"
+  },
+  {
+   "time": 1.065,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "w:débutants"
+  },
+  {
+   "time": 2.314,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "w:fuir"
   },
   {
    "time": 3.461,
@@ -166,6 +166,12 @@
   },
   {
    "time": 4.891,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "w:signal"
+  },
+  {
+   "time": 4.891,
    "type": "caption-emphasis",
    "visual": "s01-s",
    "anchor": "signal"
@@ -177,10 +183,34 @@
    "anchor": "w:bouchons"
   },
   {
+   "time": 5.725,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "w:d'oreille"
+  },
+  {
+   "time": 7.109,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "w:produits"
+  },
+  {
+   "time": 7.65,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "w:basiques"
+  },
+  {
    "time": 7.65,
    "type": "caption-emphasis",
    "visual": "s02-s",
    "anchor": "basiques"
+  },
+  {
+   "time": 9.615,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "w:marque"
   },
   {
    "time": 9.615,
@@ -202,6 +232,12 @@
   },
   {
    "time": 13.847,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "w:positionnement"
+  },
+  {
+   "time": 13.847,
    "type": "caption-emphasis",
    "visual": "s02-s",
    "anchor": "positionnement"
@@ -211,6 +247,24 @@
    "type": "overlay-pop",
    "visual": "s03-s",
    "anchor": "w:l'objection"
+  },
+  {
+   "time": 16.252,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:forcément"
+  },
+  {
+   "time": 17.859,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:concurrents"
+  },
+  {
+   "time": 18.663,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:réussir"
   },
   {
    "time": 21.214,
@@ -223,6 +277,12 @@
    "type": "overlay-pop",
    "visual": "s03-s",
    "anchor": "w:alors"
+  },
+  {
+   "time": 22.721,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:simple"
   },
   {
    "time": 23.946,
@@ -325,6 +385,18 @@
    "type": "caption-emphasis",
    "visual": "s06-s",
    "anchor": "concurrence"
+  },
+  {
+   "time": 55.485,
+   "type": "overlay-pop",
+   "visual": "s06-s",
+   "anchor": "w:Pourtant"
+  },
+  {
+   "time": 56.57,
+   "type": "overlay-pop",
+   "visual": "s06-s",
+   "anchor": "w:220"
   },
   {
    "time": 56.57,

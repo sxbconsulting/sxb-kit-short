@@ -117,3 +117,9 @@ Recommandation : C. **Choix utilisateur : C.** Demande en plus : moins de plafon
 3. ~59 s : concurrents mass market + produit basique vs Loop cible précise + produit sophistiqué → foule de points / foule ciblée (anneau pêche sur Gen Z), bouchons mousse AliExpress vs Loop Experience.
 4. ~1:21 : prix retirés (tags et captures recadrées).
 Nouvel élément `crowd` ajouté à `scripts/build-reel.py`. Animatic v2 : `renders/concurrence-animatic-v2.mp4`.
+
+### Animatic v2 → retours utilisateur (2e tour)
+1. 0–5 s : animation qui illustre la phrase, sans Loop → « L'ERREUR N°1 des débutants », « toi, débutant » qui fuit à gauche quand les boutiques apparaissent, « FUIR LA CONCURRENCE », tampon « BON SIGNAL ». L'animation Forbes + 220 M$ est reprise à ~56 s (scène Loop).
+2. 6–10 s : bouchons mousse (AliExpress) + « bouchons d'oreilles » + « un des produits les plus basiques » + tampon « BASIQUE », puis la marque mystère « ? » et 4 000 000.
+3. 15–21 s : un événement toutes les ~2 s : carte saturée (15.3), boutiques (16.3), boutiques (17.9), « toi » qui tente sa place et rebondit (18.7–19.8), « TROP TARD ? » (21.2), VS (21.9), marché vierge (22.7), « plus simple ? » (24.0).
+Option `moves` ajoutée aux éléments de zone dans `scripts/build-reel.py`. Animatic v3 : `renders/concurrence-animatic-v3.mp4`.

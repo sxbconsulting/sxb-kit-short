@@ -161,16 +161,25 @@
 .zpill { min-width: 420px; justify-content: center; }
 </style>
 <style>#zone::after { display: none; }</style>
-<div id="zone" style="height:880px;"><div class="zc" id="s02-s-z0" style="left:60px;top:70px;width:760px;"><div class="bar"></div><div class="ttl">Une marque de<br>bouchons d&#x27;oreilles</div><div class="lab">UN DES PRODUITS LES PLUS BASIQUES</div></div><div class="zbadge" id="s02-s-z1" style="left:860px;top:110px">?</div><div class="zbig" id="s02-s-z2" style="top:380px;font-size:150px;"><span id="s02-s-z2-t" style="display:inline-block;position:relative;padding:0 30px">0</span><div style="font-size:30px;letter-spacing:.14em;color:#8F8B85;margin-top:18px;font-weight:700">VISITEURS PAR MOIS · TRENDTRACK</div></div></div>
+<div id="zone" style="height:880px;"><div class="zimg" id="s02-s-z0" style="left:60px;top:90px;width:380px;"><div id="s02-s-z0-in" style="position:relative;transform-origin:50% 50%"><img src="assets/captures/aliexpress/foam.png" alt=""></div></div><div class="ztag" id="s02-s-z1" style="left:480px;top:130px"><span class="dot"></span>bouchons d&#x27;oreilles</div><div class="ztag" id="s02-s-z2" style="left:480px;top:210px"><span class="dot"></span>un des produits les plus basiques</div><div class="zstamp" id="s02-s-z3" style="left:560px;top:330px">BASIQUE</div><div class="zc" id="s02-s-z4" style="left:60px;top:70px;width:760px;"><div class="bar"></div><div class="ttl">Une marque de<br>bouchons d&#x27;oreilles</div><div class="lab">MÊME PRODUIT BASIQUE</div></div><div class="zbadge" id="s02-s-z5" style="left:860px;top:110px">?</div><div class="zbig" id="s02-s-z6" style="top:380px;font-size:150px;"><span id="s02-s-z6-t" style="display:inline-block;position:relative;padding:0 30px">0</span><div style="font-size:30px;letter-spacing:.14em;color:#8F8B85;margin-top:18px;font-weight:700">VISITEURS PAR MOIS · TRENDTRACK</div></div><div class="ztag" id="s02-s-z7" style="left:190px;top:640px"><span class="dot"></span>juste en changeant son positionnement</div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
 (function () {
   const tl = gsap.timeline({ paused: true });
-    tl.from("#s02-s-z0", { x: -520, rotation: -4, opacity: 0, duration: 0.55, ease: "back.out(1.5)" }, 0.171);
-  tl.from("#s02-s-z1", { scale: 0, rotation: -30, duration: 0.45, ease: "back.out(2.4)" }, 4.282);
-  tl.from("#s02-s-z2", { scale: 0.6, opacity: 0, duration: 0.4, ease: "back.out(2)" }, 6.067);
-  (function(){ const el = document.getElementById("s02-s-z2-t").childNodes[0]; const o = { v: 0 }; tl.to(o, { v: 4000000, duration: 0.9, ease: "power2.out", onUpdate: () => { el.textContent = Math.round(o.v).toLocaleString("fr-FR").replace(/ | /g, " ") + ""; } }, 6.067); })();
+    tl.from("#s02-s-z0", { y: 80, opacity: 0, duration: 0.45, ease: "power3.out" }, 0.171);
+  tl.to("#s02-s-z0", { opacity: 0, duration: 0.25 }, 3.4);
+  tl.from("#s02-s-z1", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 0.392);
+  tl.to("#s02-s-z1", { opacity: 0, duration: 0.25 }, 3.4);
+  tl.from("#s02-s-z2", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 1.776);
+  tl.to("#s02-s-z2", { opacity: 0, duration: 0.25 }, 3.4);
+  tl.from("#s02-s-z3", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 2.317);
+  tl.to("#s02-s-z3", { opacity: 0, duration: 0.25 }, 3.4);
+  tl.from("#s02-s-z4", { x: -520, rotation: -4, opacity: 0, duration: 0.55, ease: "back.out(1.5)" }, 4.282);
+  tl.from("#s02-s-z5", { scale: 0, rotation: -30, duration: 0.45, ease: "back.out(2.4)" }, 4.282);
+  tl.from("#s02-s-z6", { scale: 0.6, opacity: 0, duration: 0.4, ease: "back.out(2)" }, 6.067);
+  (function(){ const el = document.getElementById("s02-s-z6-t").childNodes[0]; const o = { v: 0 }; tl.to(o, { v: 4000000, duration: 0.9, ease: "power2.out", onUpdate: () => { el.textContent = Math.round(o.v).toLocaleString("fr-FR").replace(/ | /g, " ") + ""; } }, 6.067); })();
+  tl.from("#s02-s-z7", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 8.514);
   tl.from("#zone", { y: -40, opacity: 0, duration: 0.35, ease: "power3.out" }, 0);
   tl.to({}, { duration: 9.2 }, 0);
   window.__timelines["s02-s"] = tl;
