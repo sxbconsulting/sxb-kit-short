@@ -10,7 +10,7 @@ Brief : l'importance de la concurrence en e-commerce. Split screen et motion des
 - [x] 1. Cadrage — B ×1,4
 - [x] 2. Dérush — 110,7 s, 15 segments (v2)
 - [x] 3. Sous-titres — style SXB par défaut
-- [ ] 4. Beats et assets
+- [x] 4. Beats et assets — 13 beats, Loop + Chillow, sources Trendtrack / Forbes
 - [ ] 5. Ouverture A / B / C
 - [ ] 6. Animatic → final
 - [ ] 7. Livraison
