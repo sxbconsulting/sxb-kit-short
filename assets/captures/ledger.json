@@ -1,8 +1,39 @@
 [
-  {"file": "assets/captures/loop/forbes-mobile.png", "kind": "screenshot",
-   "source": "https://www.forbes.com/sites/simonemelvin/2025/10/25/how-loop-earplugs-turned-down-the-volume-for-gen-z-and-dialed-up-massive-revenue/",
-   "via": "Firecrawl scrape screenshot, mobile 430×932, 2026-10-12", "supports": "220 M$ de CA (« brings in $220 million »), cible Gen Z",
-   "rights": "capture d'article de presse, citation courte avec source à l'écran"},
-  {"file": "assets/captures/loop/home-mobile.png", "kind": "screenshot", "source": "https://www.loopearplugs.com",
-   "via": "Firecrawl, 2026-10-12", "usable": false, "why": "popup de sélection de pays au premier plan, inutilisable"}
+ {
+  "file": "assets/captures/loop/forbes-mobile.png",
+  "kind": "screenshot",
+  "source": "https://www.forbes.com/sites/simonemelvin/2025/10/25/how-loop-earplugs-turned-down-the-volume-for-gen-z-and-dialed-up-massive-revenue/",
+  "via": "Firecrawl scrape screenshot, mobile 430×932, 2026-10-12",
+  "supports": "220 M$ de CA (« brings in $220 million »), cible Gen Z",
+  "rights": "capture d'article de presse, citation courte avec source à l'écran",
+  "sha256": "02f1d24b16e1545e2972c2efbed782ccf877a9b57445ffa1fc5466bb706752f4"
+ },
+ {
+  "file": "assets/captures/chillow/hero.png",
+  "kind": "screenshot",
+  "source": "https://mychillow.fr",
+  "via": "Firecrawl screenshot mobile 430×932, recadré (bandeau retiré), 2026-10-12",
+  "supports": "la marque du coussin en U, prix 99 €",
+  "rights": "capture du site public de la marque, citée à l'écran",
+  "sha256": "f9bb590436668ad897f6b8bfb9f781560a6f2275698f93fc01fbd3b26ad80527"
+ },
+ {
+  "file": "assets/captures/aliexpress/grid.png",
+  "kind": "screenshot",
+  "source": "https://fr.aliexpress.com/w/wholesale-coussin-de-grossesse-en-u.html",
+  "via": "Firecrawl screenshot desktop 1280×1100, recadré sur la grille produits, 2026-10-12",
+  "supports": "le même type de coussin en U à 21,19 € sur AliExpress",
+  "rights": "capture de résultats de recherche publics",
+  "sha256": "e4ae713231c4d6c7d016493a81c6720dad364ea06ae04ac95436c5b3e0e4a63e"
+ },
+ {
+  "kind": "data",
+  "source": "Trendtrack, shop loopearplugs.com, 2026-10-12",
+  "supports": "4 233 809 visites mensuelles (sept. 2026) → « 4 millions de visiteurs »"
+ },
+ {
+  "kind": "data",
+  "source": "Trendtrack, shop mychillow.fr / page Facebook Chillow 127610173586333, 2026-10-12",
+  "supports": "407 ads actives, 150 358 $ de CA estimé sur 30 jours → « 400 ads, 150 000 $ »"
+ }
 ]

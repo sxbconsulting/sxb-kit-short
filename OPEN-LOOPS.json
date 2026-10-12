@@ -1,0 +1,29 @@
+{
+  "opening": {
+    "benefit": "Arrêter de fuir les marchés concurrentiels : comprendre pourquoi la concurrence est un bon signal",
+    "evidenceBy3": "« fuir un marché parce qu'il y a de la concurrence » posé à l'écran et à l'oral avant 3 s",
+    "payoffTime": 48.23
+  },
+  "loops": [
+    {
+      "id": "main",
+      "question": "Quelle marque a attiré 4 millions de visiteurs avec un produit aussi basique que des bouchons d'oreilles, et comment ?",
+      "object": "Carte « UNE MARQUE · BOUCHONS D'OREILLES » avec un logo masqué « ? » et le compteur 4 000 000",
+      "setup": 9.62,
+      "updates": [{"time": 28.30, "state": "Partielle : la concurrence prouve la demande (checklist)"}],
+      "closure": 64.61,
+      "resolution": "Le « ? » devient Loop Earplugs (capture Forbes, 220 M$), puis le changement : cibler la génération Z",
+      "supportingSpeech": "ils ont ciblé la génération Z"
+    },
+    {
+      "id": "proof-fr",
+      "question": "Est-ce que ça marche aussi en France, avec un produit qu'on trouve sur AliExpress ?",
+      "object": "Capture AliExpress du coussin en U à 21,19 €",
+      "setup": 74.17,
+      "updates": [{"time": 80.08, "state": "Le même coussin existe à 21,19 € sur AliExpress"}],
+      "closure": 93.84,
+      "resolution": "Chillow, 99 €, 400 ads actives et 150 000 $ sur 30 jours",
+      "supportingSpeech": "Si ça ce n'est pas une preuve"
+    }
+  ]
+}
