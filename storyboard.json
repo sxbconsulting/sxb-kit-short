@@ -1,0 +1,28 @@
+{
+  "id": "concurrence-ecom",
+  "title": "La concurrence en e-commerce",
+  "duration": 110.733,
+  "fps": 30,
+  "speaker": "assets/speaker.mp4",
+  "audio": "assets/reel-audio.wav",
+  "caption_style": "pop",
+  "caption_font": "\"Archivo\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+  "caption_accent": "#FECA8A",
+  "caption_size": 64,
+  "caption_max_words": 3,
+  "keywords": ["concurrence", "signal", "basiques", "millions", "positionnement", "vierge", "éprouvée", "éduqué",
+               "génération", "lifestyle", "AliExpress", "400", "150 000", "preuve", "analyser", "tunnel", "acquisition", "angle"],
+  "lexicon": {"Airplug": "Earplugs", "différences": "différencies"},
+  "brand": {"bg": "#000000", "ink": "#FFFFFF", "accent": "#FECA8A", "accent_ink": "#000000",
+            "font": "\"Archivo\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"},
+  "locale": "fr-FR",
+  "css": ["sxb-dark.css"],
+  "zone_sheen": false,
+  "face_zoom_f": 1.4,
+  "face_pos_f": "50% 30%",
+  "face_zoom_s": 1.1,
+  "face_pos_s": "50% 32%",
+  "scenes": [
+    { "layout": "F", "start": 0, "end": 110.733, "holdReason": "gate 3 : brouillon sous-titres seul, une scène plein visage" }
+  ]
+}

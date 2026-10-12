@@ -8,7 +8,7 @@ Brief : l'importance de la concurrence en e-commerce. Split screen et motion des
 ## Gates
 
 - [x] 1. Cadrage — B ×1,4
-- [ ] 2. Dérush (liste des prises, puis vidéo coupée)
+- [x] 2. Dérush — 110,7 s, 15 segments (v2)
 - [ ] 3. Sous-titres
 - [ ] 4. Beats et assets
 - [ ] 5. Ouverture A / B / C
@@ -86,4 +86,10 @@ v2, après une transcription neuve de l'audio monté et un profil d'énergie à 
 - ~75 s : « une marque qui… qui proposait » → 15 scindée (192.07–194.58 + 194.96–206.05).
 - ~94 s : « Alors » parasite avant « au lieu » → entrée 19 à 234.38.
 - ~108 s : « Et si tu veux plus de conseils » dit deux fois (prouvé en transcrivant chaque morceau isolé) → 22 démarre sur la 2e prise (256.08), mots retimés.
-Résultat : 15 segments, **110,7 s**. Aperçu `renders/concurrence-cut-v2.mp4`. En attente du « ok ».
+Résultat : 15 segments, **110,7 s**. Aperçu `renders/concurrence-cut-v2.mp4`. **Validé (« Ok »).**
+
+## Gate 3 — sous-titres (brouillon v1)
+
+Style SXB par défaut (`pop`, Archivo, blanc, 3 mots max, mots-clés ×1,55 en `#FECA8A`), une scène F plein cadre ×1,4.
+`lexicon` : Airplug → Earplugs, différences → différencies. « qui » (194.945) retimé à 194.975 pour rester dans le segment.
+`npm run check` : 0 erreur, contraste 11/11. Rendu brouillon : `renders/concurrence-captions-v1.mp4`.
