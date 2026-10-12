@@ -43,7 +43,7 @@ Les chiffres comptent (count-up), les listes se cochent sur le mot prononcé, le
 
 ## Ouverture (gate 5)
 
-À remplir après le choix A / B / C.
+**C retenue** (12/10/2026) : split, capture Forbes + 220 M$ qui compte « avec des bouchons d'oreilles », tampon « SATURÉ ? » sur « concurrence ». Raison : seule ouverture qui montre un résultat réel dès la 1re image et pose la question « comment, sur un marché saturé ? », payée à 48 s (Loop). A écartée (texte redondant avec les sous-titres), B écartée (1re image vide).
 
 ---
 

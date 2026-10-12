@@ -11,7 +11,7 @@ Brief : l'importance de la concurrence en e-commerce. Split screen et motion des
 - [x] 2. Dérush — 110,7 s, 15 segments (v2)
 - [x] 3. Sous-titres — style SXB par défaut
 - [x] 4. Beats et assets — 13 beats, Loop + Chillow, sources Trendtrack / Forbes
-- [ ] 5. Ouverture A / B / C
+- [x] 5. Ouverture — C (Forbes + 220 M$)
 - [ ] 6. Animatic → final
 - [ ] 7. Livraison
 
@@ -105,4 +105,8 @@ Chillow 407 ads actives et 150 358 $ / 30 j. Captures réelles et provenance : `
 ## Gate 5 — ouverture
 
 Trois maquettes (`review/openings/`, hors git) : A plein visage + texte barré, B split « Trop de concurrence ? », C split Forbes + 220 M$.
-Recommandation : C. En attente du choix.
+Recommandation : C. **Choix utilisateur : C.** Demande en plus : moins de plafond → plein visage ×1,55 ancré à 70 % (`face_zoom_f` 1.55, `face_pos_f` "50% 70%"), split `face_pos_s` "50% 40%".
+
+## Gate 6 — animatic (en cours)
+
+`storyboard.json` : 13 scènes (beats de `DESIGN.md`). Noms propres corrigés dans `raw.captions.json` (Earplugs, différencies) au lieu du `lexicon`, pour que les sous-titres restent identiques au transcript (validate-plan).

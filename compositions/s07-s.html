@@ -132,15 +132,47 @@
 .keyword { margin: 30px 0 0; font: 900 118px/1 var(--font-display); letter-spacing: var(--track-tight); text-transform: uppercase; }
 .keyword em { display: inline-block; color: var(--accent); text-shadow: 0 3px 0 rgba(23,19,14,.25); }
 </style>
-<div id="root" data-composition-id="s01-f" data-width="1080" data-height="1920">
-
+<div id="root" data-composition-id="s07-s" data-width="1080" data-height="1920">
+<style>#root { --z-bg: #000000; --z-ink: #FFFFFF; --z-accent: #FECA8A; --z-accent-ink: #FECA8A; --z-font: "Archivo", "Helvetica Neue", Helvetica, Arial, sans-serif; }</style>
+<style>/* sxb-dark.css — zone items on the black SXB background (DA-SXB.md). Load with "css": ["sxb-dark.css"] in storyboard.json. */
+.zc { background: #141414; border: 1.5px solid #2a2a2a; box-shadow: 0 24px 60px rgba(0,0,0,.5); color: #fff; }
+.zc .ttl { color: #fff; }
+.zc .num { color: #FECA8A; }
+.zc .lab { color: #bdbdbd; }
+.zc .bar { background: #FECA8A; }
+.zcheck { background: #141414; border: 1.5px solid #2a2a2a; color: #fff; box-shadow: none; }
+.zcheck em { font-style: normal; color: #FECA8A; }
+.zcheck .n { color: #FECA8A; }
+.zcheck .ck { background: #FECA8A; color: #000; }
+.zbadge { width: auto; height: auto; padding: 18px 34px; border-radius: 999px; background: #FECA8A; color: #000; font-style: normal; font-size: 46px; white-space: nowrap; box-shadow: 0 16px 40px rgba(254,202,138,.25); }
+.zst .big em, .zst em { font-style: normal; color: #FECA8A; }
+.zst .kick { color: #bdbdbd; }
+.zst .sub2 { color: #d9d9d9; }
+.zpill { background: #141414; border: 2px solid #FECA8A; color: #fff; font-size: 46px; padding: 22px 38px; box-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none; }
+.zstamp { background: #FECA8A; color: #000; border-color: #FECA8A; }
+.ztag { background: #141414; color: #fff; border: 1.5px solid #FECA8A; }
+.zglass.dark { background: #141414; border: 1.5px solid #2a2a2a; }
+.zimg { border-radius: 22px; overflow: hidden; box-shadow: 0 24px 60px rgba(0,0,0,.6); }
+.zimg .hl { background: rgba(254,202,138,.35); border: 3px solid #FECA8A; border-radius: 8px; }
+.zpill { min-width: 420px; justify-content: center; }
+</style>
+<style>#zone::after { display: none; }</style>
+<div id="zone" style="height:880px;"><div class="zstamp" id="s07-s-z0" style="left:290px;top:70px">UNE SEULE CHOSE</div><div class="zc" id="s07-s-z1" style="left:40px;top:240px;width:470px;height:300px;"><div class="bar"></div><div class="ttl">Les concurrents</div><div class="lab">MASS MARKET</div></div><div class="zstrike" id="s07-s-z1-strike" style="left:64px;top:390px;width:422px;transform:rotate(-6deg)"></div><div class="zc" id="s07-s-z2" style="left:570px;top:240px;width:470px;height:300px;"><div class="bar"></div><div class="ttl">Loop</div><div class="lab">GÉNÉRATION Z</div></div><div class="ztag" id="s07-s-z3" style="left:580px;top:590px"><span class="dot"></span>customisé</div><div class="ztag" id="s07-s-z4" style="left:580px;top:670px"><span class="dot"></span>lifestyle</div><div class="ztag" id="s07-s-z5" style="left:850px;top:670px"><span class="dot"></span>cool</div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
 (function () {
   const tl = gsap.timeline({ paused: true });
-    tl.to({}, { duration: 110.733 }, 0);
-  window.__timelines["s01-f"] = tl;
+    tl.from("#s07-s-z0", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 1.127);
+  tl.from("#s07-s-z1", { x: -520, rotation: -4, opacity: 0, duration: 0.55, ease: "back.out(1.5)" }, 4.375);
+  tl.from("#s07-s-z1-strike", { scaleX: 0, duration: 0.3, ease: "power3.out" }, 5.198);
+  tl.from("#s07-s-z2", { x: 520, rotation: 4, opacity: 0, duration: 0.55, ease: "back.out(1.5)" }, 5.98);
+  tl.from("#s07-s-z3", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 9.328);
+  tl.from("#s07-s-z4", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 11.294);
+  tl.from("#s07-s-z5", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 12.136);
+  tl.from("#zone", { y: -40, opacity: 0, duration: 0.35, ease: "power3.out" }, 0);
+  tl.to({}, { duration: 14.8 }, 0);
+  window.__timelines["s07-s"] = tl;
 })();
 </script>
 </template></body></html>

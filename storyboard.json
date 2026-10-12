@@ -1,28 +1,533 @@
 {
-  "id": "concurrence-ecom",
-  "title": "La concurrence en e-commerce",
-  "duration": 110.733,
-  "fps": 30,
-  "speaker": "assets/speaker.mp4",
-  "audio": "assets/reel-audio.wav",
-  "caption_style": "pop",
-  "caption_font": "\"Archivo\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
-  "caption_accent": "#FECA8A",
-  "caption_size": 64,
-  "caption_max_words": 3,
-  "keywords": ["concurrence", "signal", "basiques", "millions", "positionnement", "vierge", "éprouvée", "éduqué",
-               "génération", "lifestyle", "AliExpress", "400", "150 000", "preuve", "analyser", "tunnel", "acquisition", "angle"],
-  "lexicon": {"Airplug": "Earplugs", "différences": "différencies"},
-  "brand": {"bg": "#000000", "ink": "#FFFFFF", "accent": "#FECA8A", "accent_ink": "#000000",
-            "font": "\"Archivo\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"},
-  "locale": "fr-FR",
-  "css": ["sxb-dark.css"],
-  "zone_sheen": false,
-  "face_zoom_f": 1.4,
-  "face_pos_f": "50% 30%",
-  "face_zoom_s": 1.1,
-  "face_pos_s": "50% 32%",
-  "scenes": [
-    { "layout": "F", "start": 0, "end": 110.733, "holdReason": "gate 3 : brouillon sous-titres seul, une scène plein visage" }
-  ]
+ "id": "concurrence-ecom",
+ "title": "La concurrence en e-commerce",
+ "duration": 110.733,
+ "fps": 30,
+ "speaker": "assets/speaker.mp4",
+ "audio": "assets/reel-audio.wav",
+ "caption_style": "pop",
+ "caption_font": "\"Archivo\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+ "caption_accent": "#FECA8A",
+ "caption_size": 64,
+ "caption_max_words": 3,
+ "keywords": [
+  "concurrence",
+  "signal",
+  "basiques",
+  "millions",
+  "positionnement",
+  "vierge",
+  "éprouvée",
+  "éduqué",
+  "génération",
+  "lifestyle",
+  "AliExpress",
+  "400",
+  "150 000",
+  "preuve",
+  "analyser",
+  "tunnel",
+  "acquisition",
+  "angle"
+ ],
+ "lexicon": {},
+ "brand": {
+  "bg": "#000000",
+  "ink": "#FFFFFF",
+  "accent": "#FECA8A",
+  "accent_ink": "#000000",
+  "font": "\"Archivo\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+ },
+ "locale": "fr-FR",
+ "css": [
+  "sxb-dark.css"
+ ],
+ "zone_sheen": false,
+ "face_zoom_f": 1.55,
+ "face_pos_f": "50% 70%",
+ "face_zoom_s": 1.1,
+ "face_pos_s": "50% 40%",
+ "scenes": [
+  {
+   "layout": "S",
+   "start": 0,
+   "end": 5.33,
+   "zone": {
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/captures/loop/forbes-mobile.png",
+      "x": 60,
+      "y": 60,
+      "w": 400,
+      "h": 680,
+      "at": 0.0
+     },
+     {
+      "type": "big",
+      "value": 220,
+      "suffix": " M$",
+      "x": 470,
+      "w": 580,
+      "y": 230,
+      "size": 150,
+      "label": "AVEC DES BOUCHONS D'OREILLES",
+      "at": 0.05,
+      "count": 0.9
+     },
+     {
+      "type": "line",
+      "text": "Source : Forbes, oct. 2025",
+      "x": 560,
+      "y": 470,
+      "size": 26,
+      "color": "#8F8B85"
+     },
+     {
+      "type": "stamp",
+      "text": "SATURÉ ?",
+      "x": 560,
+      "y": 560,
+      "at": "w:concurrence"
+     }
+    ]
+   },
+   "holdReason": "ouverture C : la preuve reste à l'écran pendant que la question se pose"
+  },
+  {
+   "layout": "S",
+   "start": 5.33,
+   "end": 14.55,
+   "zone": {
+    "items": [
+     {
+      "type": "card",
+      "title": "Une marque de<br>bouchons d'oreilles",
+      "label": "UN DES PRODUITS LES PLUS BASIQUES",
+      "x": 60,
+      "y": 70,
+      "w": 760,
+      "from": "left",
+      "at": "w:bouchons"
+     },
+     {
+      "type": "badge",
+      "text": "?",
+      "x": 860,
+      "y": 110,
+      "at": "w:marque"
+     },
+     {
+      "type": "big",
+      "value": 4000000,
+      "suffix": "",
+      "label": "VISITEURS PAR MOIS · TRENDTRACK",
+      "y": 380,
+      "size": 150,
+      "at": "w:4",
+      "count": 0.9
+     },
+     {
+      "type": "stamp",
+      "text": "POSITIONNEMENT",
+      "x": 250,
+      "y": 600,
+      "at": "w:positionnement"
+     }
+    ]
+   },
+   "holdReason": "la carte et le compteur restent jusqu'au mot positionnement"
+  },
+  {
+   "layout": "S",
+   "start": 14.55,
+   "end": 24.37,
+   "zone": {
+    "items": [
+     {
+      "type": "card",
+      "title": "Marché<br>saturé",
+      "label": "BEAUCOUP DE CONCURRENTS",
+      "x": 40,
+      "y": 90,
+      "w": 470,
+      "h": 380,
+      "from": "left",
+      "at": "w:l'objection"
+     },
+     {
+      "type": "stamp",
+      "text": "TROP TARD ?",
+      "x": 90,
+      "y": 520,
+      "at": "w:implantés"
+     },
+     {
+      "type": "badge",
+      "text": "VS",
+      "x": 480,
+      "y": 230,
+      "at": "w:alors"
+     },
+     {
+      "type": "card",
+      "title": "Marché<br>vierge",
+      "label": "ZÉRO CONCURRENT",
+      "x": 570,
+      "y": 90,
+      "w": 470,
+      "h": 380,
+      "from": "right",
+      "at": "w:vierge"
+     }
+    ]
+   },
+   "holdReason": "l'objection se déroule sur la carte « marché saturé »"
+  },
+  {
+   "layout": "F",
+   "start": 24.37,
+   "end": 28.15,
+   "face_zoom": 1.75,
+   "overlay": {
+    "items": [
+     {
+      "text": "FAUSSE BONNE IDÉE",
+      "top": 330,
+      "size": 92,
+      "weight": 900,
+      "color": "#FECA8A",
+      "at": "w:bonne"
+     }
+    ]
+   },
+   "holdReason": "punch-in de conviction"
+  },
+  {
+   "layout": "S",
+   "start": 28.15,
+   "end": 48.23,
+   "zone": {
+    "items": [
+     {
+      "type": "check",
+      "n": "#1",
+      "text": "La <em>demande</em> existe déjà",
+      "x": 60,
+      "y": 110,
+      "w": 960,
+      "at": "w:demande",
+      "check_at": "w:présente"
+     },
+     {
+      "type": "check",
+      "n": "#2",
+      "text": "Pas besoin d'<em>éduquer</em>",
+      "x": 60,
+      "y": 300,
+      "w": 960,
+      "at": "w:besoin",
+      "check_at": "w:d'éduquer",
+      "underline_at": "w:éduqué"
+     },
+     {
+      "type": "check",
+      "n": "#3",
+      "text": "Tu montres ta <em>différence</em>",
+      "x": 60,
+      "y": 490,
+      "w": 960,
+      "at": "w:montrer",
+      "check_at": "w:différencies"
+     }
+    ]
+   },
+   "holdReason": "liste qui se construit mot à mot ; le #2 se souligne à « éduqué »"
+  },
+  {
+   "layout": "S",
+   "start": 48.23,
+   "end": 58.63,
+   "zone": {
+    "items": [
+     {
+      "type": "statement",
+      "kicker": "LA MARQUE",
+      "text": "Loop <em>Earplugs</em>",
+      "x": 80,
+      "y": 80,
+      "w": 920,
+      "at": "w:Loop"
+     },
+     {
+      "type": "stamp",
+      "text": "ÉNORMÉMENT DE CONCURRENCE",
+      "x": 110,
+      "y": 280,
+      "at": "w:énormément"
+     },
+     {
+      "type": "big",
+      "value": 220,
+      "suffix": " M$",
+      "label": "DE CHIFFRE D'AFFAIRES · FORBES",
+      "y": 500,
+      "size": 160,
+      "at": "w:220",
+      "count": 0.8,
+      "circle_at": "w:d'affaires"
+     }
+    ]
+   },
+   "holdReason": "la marque nommée reste à l'écran jusqu'au chiffre"
+  },
+  {
+   "layout": "S",
+   "start": 58.63,
+   "end": 73.43,
+   "zone": {
+    "items": [
+     {
+      "type": "stamp",
+      "text": "UNE SEULE CHOSE",
+      "x": 290,
+      "y": 70,
+      "at": "w:seule"
+     },
+     {
+      "type": "card",
+      "title": "Les concurrents",
+      "label": "MASS MARKET",
+      "x": 40,
+      "y": 240,
+      "w": 470,
+      "h": 300,
+      "from": "left",
+      "at": "w:mass",
+      "strike_at": "w:eux",
+      "strike_y": 150
+     },
+     {
+      "type": "card",
+      "title": "Loop",
+      "label": "GÉNÉRATION Z",
+      "x": 570,
+      "y": 240,
+      "w": 470,
+      "h": 300,
+      "from": "right",
+      "at": "w:génération"
+     },
+     {
+      "type": "tag",
+      "text": "customisé",
+      "x": 580,
+      "y": 590,
+      "at": "w:customisé"
+     },
+     {
+      "type": "tag",
+      "text": "lifestyle",
+      "x": 580,
+      "y": 670,
+      "at": "w:lifestyle"
+     },
+     {
+      "type": "tag",
+      "text": "cool",
+      "x": 850,
+      "y": 670,
+      "at": "w:cool"
+     }
+    ]
+   },
+   "holdReason": "le duel se construit puis Loop se pare de ses attributs"
+  },
+  {
+   "layout": "S",
+   "start": 73.43,
+   "end": 87.03,
+   "zone": {
+    "items": [
+     {
+      "type": "tag",
+      "text": "France · coussin en U",
+      "x": 60,
+      "y": 60,
+      "at": "w:France"
+     },
+     {
+      "type": "image",
+      "src": "assets/captures/aliexpress/grid.png",
+      "x": 40,
+      "y": 150,
+      "w": 1000,
+      "at": "w:coussin",
+      "highlights": [
+       [
+        684,
+        383,
+        95,
+        38
+       ]
+      ],
+      "highlight_at": "w:AliExpress",
+      "out_at": "w:positionnement"
+     },
+     {
+      "type": "image",
+      "src": "assets/captures/chillow/hero.png",
+      "x": 300,
+      "y": 60,
+      "w": 480,
+      "h": 660,
+      "at": "w:positionnement"
+     },
+     {
+      "type": "tag",
+      "text": "AliExpress : 21,19 €",
+      "x": 60,
+      "y": 200,
+      "at": "w:positionnement"
+     },
+     {
+      "type": "badge",
+      "text": "Chillow : 99 €",
+      "x": 720,
+      "y": 560,
+      "at": "w:péter"
+     }
+    ]
+   },
+   "holdReason": "même produit : AliExpress puis la marque"
+  },
+  {
+   "layout": "S",
+   "start": 87.03,
+   "end": 93.27,
+   "zone": {
+    "items": [
+     {
+      "type": "big",
+      "value": 400,
+      "suffix": "",
+      "label": "ADS ACTIVES · TRENDTRACK",
+      "y": 110,
+      "size": 160,
+      "at": "w:400",
+      "count": 0.6
+     },
+     {
+      "type": "big",
+      "value": 150000,
+      "suffix": " $",
+      "label": "CA SUR 30 JOURS · TRENDTRACK",
+      "y": 420,
+      "size": 160,
+      "at": "w:150 000",
+      "count": 0.8
+     }
+    ]
+   },
+   "holdReason": "les deux chiffres restent jusqu'à la conclusion"
+  },
+  {
+   "layout": "F",
+   "start": 93.27,
+   "end": 94.3,
+   "face_zoom": 1.8
+  },
+  {
+   "layout": "S",
+   "start": 94.3,
+   "end": 105.53,
+   "zone": {
+    "items": [
+     {
+      "type": "statement",
+      "kicker": "AU LIEU DE LA FUIR",
+      "text": "<em>Analyse</em>-la",
+      "x": 80,
+      "y": 60,
+      "w": 920,
+      "at": "w:l'analyser"
+     },
+     {
+      "type": "check",
+      "n": "1",
+      "text": "Leur <em>tunnel</em> de conversion",
+      "x": 60,
+      "y": 280,
+      "w": 960,
+      "at": "w:tunnel",
+      "check_at": "w:conversion"
+     },
+     {
+      "type": "check",
+      "n": "2",
+      "text": "Leur <em>acquisition</em>",
+      "x": 60,
+      "y": 440,
+      "w": 960,
+      "at": "w:acquisition",
+      "check_at": "w:gèrent"
+     },
+     {
+      "type": "check",
+      "n": "3",
+      "text": "Leur <em>conversion</em> boutique",
+      "x": 60,
+      "y": 600,
+      "w": 960,
+      "at": "w:boutique",
+      "check_at": "w:mécanismes"
+     }
+    ]
+   },
+   "holdReason": "checklist d'analyse mot à mot"
+  },
+  {
+   "layout": "F",
+   "start": 105.53,
+   "end": 108.23,
+   "face_zoom": 1.75,
+   "holdReason": "conviction : trouver l'angle qui manque"
+  },
+  {
+   "layout": "S",
+   "start": 108.23,
+   "end": 110.733,
+   "kind": "cta",
+   "holdReason": "écran de fin",
+   "zone": {
+    "full": true,
+    "in": 108.3,
+    "items": [
+     {
+      "type": "line",
+      "text": "+ de conseils e-commerce",
+      "x": "center",
+      "y": 620,
+      "size": 64,
+      "weight": 800,
+      "color": "#FFFFFF",
+      "at": 108.45
+     },
+     {
+      "type": "pill",
+      "text": "Abonne-toi",
+      "x": 330,
+      "y": 980,
+      "at": "w:abonne-toi",
+      "arrow": false
+     },
+     {
+      "type": "chevrons",
+      "y": 1220,
+      "at": 109.9
+     }
+    ]
+   }
+  }
+ ]
 }

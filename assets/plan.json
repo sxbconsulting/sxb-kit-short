@@ -3,148 +3,520 @@
  "fps": 30,
  "scenes": [
   {
-   "id": "s01-f",
+   "id": "s01-s",
    "start": 0.0,
-   "end": 110.733,
-   "layout": "face",
+   "end": 5.333,
+   "layout": "split",
    "kind": "hook",
    "anchor": "L'erreur",
    "anchorTime": 0.038,
-   "holdReason": "gate 3 : brouillon sous-titres seul, une scène plein visage"
+   "holdReason": "ouverture C : la preuve reste à l'écran pendant que la question se pose"
+  },
+  {
+   "id": "s02-s",
+   "start": 5.333,
+   "end": 14.533,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Les",
+   "anchorTime": 5.404,
+   "holdReason": "la carte et le compteur restent jusqu'au mot positionnement"
+  },
+  {
+   "id": "s03-s",
+   "start": 14.533,
+   "end": 24.367,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Dans",
+   "anchorTime": 14.645,
+   "holdReason": "l'objection se déroule sur la carte « marché saturé »"
+  },
+  {
+   "id": "s04-f",
+   "start": 24.367,
+   "end": 28.133,
+   "layout": "face",
+   "kind": "beat",
+   "anchor": "Alors",
+   "anchorTime": 24.405,
+   "holdReason": "punch-in de conviction"
+  },
+  {
+   "id": "s05-s",
+   "start": 28.133,
+   "end": 48.233,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Déjà",
+   "anchorTime": 28.304,
+   "holdReason": "liste qui se construit mot à mot ; le #2 se souligne à « éduqué »"
+  },
+  {
+   "id": "s06-s",
+   "start": 48.233,
+   "end": 58.633,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Et",
+   "anchorTime": 48.317,
+   "holdReason": "la marque nommée reste à l'écran jusqu'au chiffre"
+  },
+  {
+   "id": "s07-s",
+   "start": 58.633,
+   "end": 73.433,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "En",
+   "anchorTime": 58.717,
+   "holdReason": "le duel se construit puis Loop se pare de ses attributs"
+  },
+  {
+   "id": "s08-s",
+   "start": 73.433,
+   "end": 87.033,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Et",
+   "anchorTime": 73.467,
+   "holdReason": "même produit : AliExpress puis la marque"
+  },
+  {
+   "id": "s09-s",
+   "start": 87.033,
+   "end": 93.267,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Ils",
+   "anchorTime": 87.101,
+   "holdReason": "les deux chiffres restent jusqu'à la conclusion"
+  },
+  {
+   "id": "s10-f",
+   "start": 93.267,
+   "end": 94.3,
+   "layout": "face",
+   "kind": "beat",
+   "anchor": "Si",
+   "anchorTime": 93.329,
+   "holdReason": "face only, the viewer follows the speech"
+  },
+  {
+   "id": "s11-s",
+   "start": 94.3,
+   "end": 105.533,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Au",
+   "anchorTime": 94.407,
+   "holdReason": "checklist d'analyse mot à mot"
+  },
+  {
+   "id": "s12-f",
+   "start": 105.533,
+   "end": 108.233,
+   "layout": "face",
+   "kind": "beat",
+   "anchor": "Et",
+   "anchorTime": 105.642,
+   "holdReason": "conviction : trouver l'angle qui manque"
+  },
+  {
+   "id": "s13-s",
+   "start": 108.233,
+   "end": 110.733,
+   "layout": "split",
+   "kind": "cta",
+   "anchor": "Et",
+   "anchorTime": 108.266,
+   "holdReason": "écran de fin"
   }
  ],
  "events": [
   {
+   "time": 0.0,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "0.0"
+  },
+  {
+   "time": 0.0,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": ""
+  },
+  {
+   "time": 0.05,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "0.05"
+  },
+  {
+   "time": 3.461,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "w:concurrence"
+  },
+  {
    "time": 3.461,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s01-s",
    "anchor": "concurrence"
   },
   {
    "time": 4.891,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s01-s",
    "anchor": "signal"
+  },
+  {
+   "time": 5.504,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "w:bouchons"
   },
   {
    "time": 7.65,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s02-s",
    "anchor": "basiques"
+  },
+  {
+   "time": 9.615,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "w:marque"
+  },
+  {
+   "time": 11.4,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "w:4"
   },
   {
    "time": 11.48,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s02-s",
    "anchor": "millions"
   },
   {
    "time": 13.847,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "w:positionnement"
+  },
+  {
+   "time": 13.847,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s02-s",
    "anchor": "positionnement"
+  },
+  {
+   "time": 15.268,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:l'objection"
+  },
+  {
+   "time": 21.214,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:implantés"
+  },
+  {
+   "time": 21.917,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:alors"
+  },
+  {
+   "time": 23.946,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:vierge"
   },
   {
    "time": 23.946,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s03-s",
    "anchor": "vierge"
+  },
+  {
+   "time": 27.477,
+   "type": "overlay-pop",
+   "visual": "s04-f",
+   "anchor": "w:bonne"
+  },
+  {
+   "time": 30.529,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:demande"
   },
   {
    "time": 31.09,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s05-s",
    "anchor": "éprouvée"
+  },
+  {
+   "time": 34.195,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:besoin"
+  },
+  {
+   "time": 43.925,
+   "type": "underline",
+   "visual": "s05-s",
+   "anchor": "w:éduqué"
   },
   {
    "time": 43.925,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s05-s",
    "anchor": "éduqué"
+  },
+  {
+   "time": 46.54,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:montrer"
+  },
+  {
+   "time": 48.377,
+   "type": "overlay-pop",
+   "visual": "s06-s",
+   "anchor": "w:Loop"
+  },
+  {
+   "time": 54.12,
+   "type": "overlay-pop",
+   "visual": "s06-s",
+   "anchor": "w:énormément"
   },
   {
    "time": 54.642,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s06-s",
    "anchor": "concurrence"
+  },
+  {
+   "time": 56.57,
+   "type": "overlay-pop",
+   "visual": "s06-s",
+   "anchor": "w:220"
   },
   {
    "time": 57.011,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s06-s",
    "anchor": "millions"
+  },
+  {
+   "time": 57.855,
+   "type": "circle",
+   "visual": "s06-s",
+   "anchor": "w:d'affaires"
+  },
+  {
+   "time": 59.76,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:seule"
+  },
+  {
+   "time": 63.008,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:mass"
+  },
+  {
+   "time": 63.831,
+   "type": "strike",
+   "visual": "s07-s",
+   "anchor": "w:eux"
+  },
+  {
+   "time": 64.613,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:génération"
   },
   {
    "time": 64.613,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s07-s",
    "anchor": "génération"
+  },
+  {
+   "time": 67.961,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:customisé"
+  },
+  {
+   "time": 69.927,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:lifestyle"
   },
   {
    "time": 69.927,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s07-s",
    "anchor": "lifestyle"
+  },
+  {
+   "time": 70.769,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:cool"
+  },
+  {
+   "time": 74.168,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:France"
+  },
+  {
+   "time": 76.752,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:coussin"
   },
   {
    "time": 80.077,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s08-s",
    "anchor": "AliExpress"
   },
   {
    "time": 84.062,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:positionnement"
+  },
+  {
+   "time": 84.062,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:positionnement"
+  },
+  {
+   "time": 84.062,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s08-s",
    "anchor": "positionnement"
+  },
+  {
+   "time": 86.285,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:péter"
+  },
+  {
+   "time": 87.666,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:400"
   },
   {
    "time": 87.666,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s09-s",
    "anchor": "400"
   },
   {
    "time": 89.38,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:150 000"
+  },
+  {
+   "time": 89.38,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s09-s",
    "anchor": "150 000"
   },
   {
    "time": 93.845,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s10-f",
    "anchor": "preuve"
   },
   {
    "time": 95.276,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s11-s",
    "anchor": "concurrence"
   },
   {
    "time": 96.366,
+   "type": "overlay-pop",
+   "visual": "s11-s",
+   "anchor": "w:l'analyser"
+  },
+  {
+   "time": 96.366,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s11-s",
    "anchor": "l'analyser"
   },
   {
    "time": 98.608,
+   "type": "overlay-pop",
+   "visual": "s11-s",
+   "anchor": "w:tunnel"
+  },
+  {
+   "time": 98.608,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s11-s",
    "anchor": "tunnel"
   },
   {
    "time": 100.474,
+   "type": "overlay-pop",
+   "visual": "s11-s",
+   "anchor": "w:acquisition"
+  },
+  {
+   "time": 100.474,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s11-s",
    "anchor": "acquisition"
+  },
+  {
+   "time": 103.746,
+   "type": "overlay-pop",
+   "visual": "s11-s",
+   "anchor": "w:boutique"
   },
   {
    "time": 106.476,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s12-f",
    "anchor": "l'angle"
+  },
+  {
+   "time": 108.45,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "108.45"
+  },
+  {
+   "time": 109.723,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "w:abonne-toi"
+  },
+  {
+   "time": 109.9,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "109.9"
   }
  ],
  "captions": [
@@ -2132,8 +2504,8 @@
      "text": "différencies",
      "start": 47.747,
      "end": 48.233,
-     "sourceStart": null,
-     "sourceEnd": null
+     "sourceStart": 116.747,
+     "sourceEnd": 117.233
     }
    ]
   },
@@ -2171,8 +2543,8 @@
      "text": "Earplugs",
      "start": 48.538,
      "end": 48.859,
-     "sourceStart": null,
-     "sourceEnd": null
+     "sourceStart": 153.872,
+     "sourceEnd": 154.193
     },
     {
      "text": "c'est",
