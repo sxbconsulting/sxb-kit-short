@@ -113,6 +113,18 @@ and elisions ("d'ingénieur" matches "ingénieur", "40 825" matches "40 825"). `
 count-ups and sets the HTML `lang`; `lang` overrides the latter. Transcription detects the language on its own
 (`transcribe.py --lang xx` forces it); only French spelled-out numbers are converted to digits.
 
+## Kit updates (17/10/2026)
+
+- **HyperFrames 0.8.168** (was 0.8.42): regression-tested on short-06, SSIM 0.996 vs the 0.8.42 render, same loudness.
+  New useful commands: `hyperframes audio` (where sounds land, loudness), `normalize-audio`, `compare`, `benchmark`, `doctor`,
+  `transcribe`, `remove-background`. New skills: `talking-head-recut` (graphic overlays on a talking head), `embedded-captions`.
+- **Fonts**: only fonts declared in `tokens.css` (Archivo, Poppins, Fraunces, Caveat, all local). Any other name — such as
+  « Helvetica Neue » — is silently swapped by HyperFrames for a font downloaded from Google (Inter); `build-reel.py` now
+  defaults to `var(--font-display)`.
+- **Overlays**: `overlays/` renders transparent, parameterised cards (WebM/MOV alpha) from a JSON file with word timings,
+  in the DA-SXB look (black, white, #FECA8A) — see `overlays/README.md`. The avatar kit (`sxb-shorts`, its own cream/red brand)
+  composites them with `OVERLAY_CLIPS` in `scenes.py`.
+
 ## Commands
 
 ```bash

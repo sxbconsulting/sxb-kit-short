@@ -34,7 +34,7 @@ One accent per frame. Never two oranges fighting each other. Never pure white or
 - **Card body**: Archivo 900 for rows, Archivo 700 for times and metadata, 40 to 44 px.
 - **Captions**: Archivo 900, 62 px, white, black outline, on an 80% ink pill (assumes a light background), orange keyword. On EVERY frame, centered, at the video/paper junction.
 
-Fonts are local in `assets/fonts/` (OFL). No Google Fonts call at render time.
+Fonts are local in `assets/fonts/` (OFL): Archivo, Poppins, Fraunces, Caveat. No Google Fonts call at render time — never name a font that is not declared in `tokens.css` (« Helvetica Neue » makes HyperFrames download Inter from Google).
 
 ## Layout (1080×1920)
 
@@ -62,6 +62,6 @@ Hard cut by default, the entrance stutter does the transition. Horizontal whip 0
 
 ## Forbidden
 
-Pure white, pure black, decorative gradients, glows, perfectly centered layouts, Helvetica, half-empty card,
+Pure white, pure black, decorative gradients, glows, perfectly centered layouts, Helvetica or any font not declared in tokens.css, half-empty card,
 text unreadable at phone size, invented mockup when the real thing exists, the creator's own logo (unless the brand brief asks for it), two accents per frame,
 the AIS blue `#37BDF8` (property of AIS, not licensed).

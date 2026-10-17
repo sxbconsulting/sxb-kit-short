@@ -22,6 +22,18 @@
   font-style: italic;
 }
 @font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 800 900;
+  font-style: normal;
+}
+@font-face {
   font-family: "Caveat";
   src: url("assets/fonts/Caveat.ttf") format("truetype");
   font-weight: 400 700;
@@ -40,7 +52,7 @@
   --line: rgba(23, 19, 14, 0.25);
 
   /* typo */
-  --font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Archivo", "Poppins", sans-serif;   /* polices locales uniquement : un nom non déclaré ici est remplacé par une police Google au rendu */
   --font-serif: "Fraunces", Georgia, serif;
   --font-hand: "Caveat", "Bradley Hand", cursive;
 

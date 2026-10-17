@@ -18,7 +18,7 @@ Texte noir sur l'accent (`#000`) quand l'accent sert de fond (pastille, bouton C
 
 ## Typo
 
-- Sous-titres et titres : sans-serif très grasse (Archivo du kit en 800–900, ou Helvetica Neue Bold).
+- Sous-titres et titres : sans-serif très grasse, Archivo du kit en 800–900 (ou Poppins 800, aussi en local). Pas de Helvetica Neue : non déclarée dans `tokens.css`, HyperFrames la remplace par Inter téléchargée.
 - Chiffres : même famille, très gros (180–220 px), en accent `#FECA8A`, avec un count-up.
 - Pas de serif, pas de manuscrit (Caveat) sauf clin d'œil ponctuel.
 
@@ -51,10 +51,10 @@ Texte noir sur l'accent (`#000`) quand l'accent sert de fond (pastille, bouton C
 
 ```json
 "caption_style": "pop",
-"caption_font": "\"Archivo\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+"caption_font": "\"Archivo\", sans-serif",
 "caption_accent": "#FECA8A",
 "brand": { "bg": "#000000", "ink": "#FFFFFF", "accent": "#FECA8A", "accent_ink": "#000000",
-           "font": "\"Archivo\", \"Helvetica Neue\", Helvetica, Arial, sans-serif" },
+           "font": "\"Archivo\", sans-serif" },
 "locale": "fr-FR",
 "css": ["sxb-dark.css"], "zone_sheen": false,
 "face_zoom_f": 1.2, "face_pos_f": "50% 38%", "face_zoom_s": 1.1, "face_pos_s": "50% 32%"

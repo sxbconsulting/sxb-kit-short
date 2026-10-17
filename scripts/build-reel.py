@@ -40,8 +40,8 @@ LOCALE = sb.get("locale", "en-US")   # number formatting in count-ups: "40 825" 
 LANG = sb.get("lang", LOCALE.split("-")[0])
 CAP_TOP = {"C": 850, "B": 940, "D": 1690, "F": 1500, "S": 780, "Y": 930}
 CAP_MAX_WORDS = int(sb.get("caption_max_words", 4))
-CAP_STYLE = sb.get("caption_style", "pop")          # "pop" = Helvetica Neue Bold, keyword enlarged · "kit" = ink pill, uppercase · "nate" = dark pill
-CAP_FONT = sb.get("caption_font", '"Helvetica Neue", Helvetica, Arial, sans-serif')
+CAP_STYLE = sb.get("caption_style", "pop")          # "pop" = police display du kit (tokens.css), keyword enlarged · "kit" = ink pill, uppercase · "nate" = dark pill
+CAP_FONT = sb.get("caption_font", 'var(--font-display)')
 # pop keeps its keywords in the caption color unless the storyboard asks for an accent; nate needs one for its keyword box
 CAP_ACCENT = sb.get("caption_accent", "var(--accent)" if CAP_STYLE == "nate" else "currentColor")
 CAP_SIZE = int(sb.get("caption_size", 64))
@@ -110,7 +110,7 @@ SCENE_CSS = """
 .mega .l { display: block; }
 .circle { position: absolute; border: 6px solid var(--alarm); border-radius: 50%; transform: rotate(-4deg); }
 .tag { position: absolute; background: var(--ink); color: var(--paper); font: 700 26px/1 var(--font-display); letter-spacing: .14em; text-transform: uppercase; padding: 16px 22px; transform: rotate(-2deg); z-index: 2; }
-.ov { position: absolute; left: 0; right: 0; text-align: center; line-height: 1; font-family: var(--ov-font, "Helvetica Neue", Helvetica, Arial, sans-serif); font-weight: 800; color: #fff; letter-spacing: -.03em; text-shadow: 0 4px 10px rgba(0,0,0,.55), 0 10px 30px rgba(0,0,0,.4); }
+.ov { position: absolute; left: 0; right: 0; text-align: center; line-height: 1; font-family: var(--ov-font, var(--font-display)); font-weight: 800; color: #fff; letter-spacing: -.03em; text-shadow: 0 4px 10px rgba(0,0,0,.55), 0 10px 30px rgba(0,0,0,.4); }
 .ov .it { display: block; line-height: 1.16; }
 .ov .it.inline { display: inline-block; position: relative; }
 .ov .lab { display: block; font-size: 34px; letter-spacing: .14em; font-weight: 700; margin-top: .22em; color: var(--ov-grey, #d9d5cf); }
@@ -122,7 +122,7 @@ SCENE_CSS = """
 .ovimg { position: absolute; left: 0; width: 1080px; height: auto; box-shadow: 0 30px 80px rgba(0,0,0,.6); }
 .ovbg { position: absolute; inset: 0; background: #0F0D0D; }
 /* layout S : zone écran 0→980, marque via variables --z-* */
-#zone { position: absolute; left: 0; top: 0; width: 1080px; height: 880px; overflow: hidden; background: var(--z-bg, #F3F1EE); font-family: var(--z-font, "Helvetica Neue", Helvetica, Arial, sans-serif); color: var(--z-ink, #0F0D0D); }
+#zone { position: absolute; left: 0; top: 0; width: 1080px; height: 880px; overflow: hidden; background: var(--z-bg, #F3F1EE); font-family: var(--z-font, var(--font-display)); color: var(--z-ink, #0F0D0D); }
 #zone::after { content: ""; position: absolute; inset: 0; background: radial-gradient(120% 80% at 50% 0%, rgba(255,255,255,.55), transparent 60%); pointer-events: none; }
 .zc { position: absolute; background: #fff; border-radius: 26px; box-shadow: 0 2px 0 rgba(15,13,13,.06), 0 24px 60px rgba(15,13,13,.16); overflow: hidden; }
 .zc .bar { height: 14px; background: var(--z-accent, #D40F30); }
@@ -166,9 +166,9 @@ SCENE_CSS = """
 .zglass { position: absolute; border-radius: 30px; padding: 30px 34px 32px; background: rgba(255,255,255,.62); border: 1.5px solid rgba(255,255,255,.88); box-shadow: 0 30px 70px rgba(23,19,14,.16); backdrop-filter: blur(22px); -webkit-backdrop-filter: blur(22px); }
 .zglass.dark { background: rgba(24,26,32,.74); border-color: rgba(255,255,255,.16); color: #fff; }
 .zglass .ico { width: 82px; height: 82px; border-radius: 22px; display: grid; place-items: center; font-size: 40px; font-weight: 800; background: var(--z-accent, #E2604A); color: #fff; box-shadow: 0 14px 32px rgba(226,96,74,.38); }
-.zglass .ttl { margin-top: 22px; font-family: inherit; font-style: normal; font-weight: 800; font-size: 52px; letter-spacing: -.025em; line-height: 1.02; }
+.zglass .ttl { margin-top: 22px; font-family: var(--z-font, var(--font-display)); font-style: normal; font-weight: 800; font-size: 52px; letter-spacing: -.025em; line-height: 1.02; }
 .zglass .num2 { margin-top: 18px; font-weight: 800; font-size: 96px; letter-spacing: -.04em; line-height: 1; color: var(--z-accent, #E2604A); font-variant-numeric: tabular-nums; }
-.zglass .sub { margin-top: 12px; font-family: inherit; font-style: normal; font-weight: 700; font-size: 20px; letter-spacing: .16em; text-transform: uppercase; color: #8a857f; }
+.zglass .sub { margin-top: 12px; font-family: var(--z-font, var(--font-display)); font-style: normal; font-weight: 700; font-size: 20px; letter-spacing: .16em; text-transform: uppercase; color: #8a857f; }
 .zglass.dark .sub { color: rgba(255,255,255,.62); }
 .zglass .bars { margin-top: 24px; height: 150px; display: flex; align-items: flex-end; gap: 14px; }
 .zglass .bars i { display: block; flex: 1; background: var(--z-accent, #E2604A); border-radius: 8px 8px 3px 3px; transform-origin: 50% 100%; }
@@ -473,7 +473,7 @@ def scene_html(sid, sc):
         z = sc.get("zone", {})
         brand = sb.get("brand", {})
         t0, t1 = float(sc["start"]), float(sc["end"])
-        body.append(f'<style>#root {{ --z-bg: {brand.get("bg", "#F3F1EE")}; --z-ink: {brand.get("ink", "#0F0D0D")}; --z-accent: {brand.get("accent", "#D40F30")}; --z-accent-ink: {brand.get("accent_text", brand.get("accent", "#D3553F"))}; --z-font: {brand.get("font", "\"Helvetica Neue\", Helvetica, Arial, sans-serif")}; }}</style>')
+        body.append(f'<style>#root {{ --z-bg: {brand.get("bg", "#F3F1EE")}; --z-ink: {brand.get("ink", "#0F0D0D")}; --z-accent: {brand.get("accent", "#D40F30")}; --z-accent-ink: {brand.get("accent_text", brand.get("accent", "#D3553F"))}; --z-font: {brand.get("font", "var(--font-display)")}; }}</style>')
         for css in sb.get("css", []):  # extra stylesheets (e.g. sxb-dark.css), loaded inside each scene after the defaults
             body.append(f'<style>{(ROOT / css).read_text()}</style>')
         def rel(t):
@@ -494,7 +494,7 @@ def scene_html(sid, sc):
         z = sc.get("zone", {})
         brand = sb.get("brand", {})
         t0, t1 = float(sc["start"]), float(sc["end"])
-        body.append(f'<style>#root {{ --z-bg: {brand.get("bg", "#FBFAF8")}; --z-ink: {brand.get("ink", "#17130e")}; --z-accent: {brand.get("accent", "#E2604A")}; --z-accent-ink: {brand.get("accent_ink", brand.get("accent", "#E2604A"))}; --z-font: {brand.get("font", "\"Helvetica Neue\", Helvetica, Arial, sans-serif")}; }}</style>')
+        body.append(f'<style>#root {{ --z-bg: {brand.get("bg", "#FBFAF8")}; --z-ink: {brand.get("ink", "#17130e")}; --z-accent: {brand.get("accent", "#E2604A")}; --z-accent-ink: {brand.get("accent_ink", brand.get("accent", "#E2604A"))}; --z-font: {brand.get("font", "var(--font-display)")}; }}</style>')
         def rel(t):
             return r3(max(0, resolve_at(t, t0, t1) - t0))
         # the world: a mesh gradient or an image, drifting slowly so the frame is never frozen
@@ -549,7 +549,7 @@ def scene_html(sid, sc):
         if ov:
             t0 = float(sc["start"])
             accent = sb.get("caption_accent", "#D40F30")
-            body.append(f'<style>#root {{ --ov-accent: {accent}; --ov-font: {sb.get("caption_font", "Helvetica Neue")}; }}</style>')
+            body.append(f'<style>#root {{ --ov-accent: {accent}; --ov-font: {sb.get("caption_font", "var(--font-display)")}; }}</style>')
             if ov.get("bg"):
                 body.append(f'<div class="ovbg" id="{sid}-ovbg"></div>')
                 tl.append(f'tl.from("#{sid}-ovbg", {{ opacity: 0, duration: 0.2 }}, 0);')
