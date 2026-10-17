@@ -64,9 +64,9 @@ if [ "$WHISPERX" = 1 ]; then
   bash scripts/setup-whisperx.sh
 fi
 
-step "HyperFrames 0.8.42 and its Chrome (renderer, downloaded once)"
-npx --yes hyperframes@0.8.42 --version
-npx --yes hyperframes@0.8.42 browser ensure || echo "note: Chrome will be downloaded on the first render instead"
+step "HyperFrames 0.8.168 and its Chrome (renderer, downloaded once)"
+npx --yes hyperframes@0.8.168 --version
+npx --yes hyperframes@0.8.168 browser ensure || echo "note: Chrome will be downloaded on the first render instead"
 
 step "final check"
 ./setup.sh

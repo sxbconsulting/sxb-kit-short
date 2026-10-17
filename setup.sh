@@ -62,8 +62,8 @@ if [ "${1:-}" = "--whisperx" ]; then
   bash scripts/setup-whisperx.sh
 fi
 
-echo "warming up HyperFrames (pinned 0.8.42, downloaded once by npx)"
-if npx --yes hyperframes@0.8.42 --version >/dev/null 2>&1; then say "ok   hyperframes $(npx --yes hyperframes@0.8.42 --version 2>/dev/null | head -1)"; else say "MISSING hyperframes could not run through npx (check your network / Node install)"; ok=0; fi
+echo "warming up HyperFrames (pinned 0.8.168, downloaded once by npx)"
+if npx --yes hyperframes@0.8.168 --version >/dev/null 2>&1; then say "ok   hyperframes $(npx --yes hyperframes@0.8.168 --version 2>/dev/null | head -1)"; else say "MISSING hyperframes could not run through npx (check your network / Node install)"; ok=0; fi
 
 if [ "$ok" = 1 ]; then
   echo "all good. Start a project: cp -R . ~/videos/<slug> && cd ~/videos/<slug> && claude   (or codex)"

@@ -9,7 +9,7 @@ sxb-kit-short is MIT-licensed (see `LICENSE`). It is derived from reel-kit by An
   lightly adapted (headers point to this kit's tools). Licenses: `licenses/NATE-HERK-STUDENT-KIT-LICENSE` and
   `licenses/PIPELINE-USE-PERMISSION.txt`. Nothing here is endorsed by Nate Herk.
 - **HyperFrames** (https://github.com/heygen-com/hyperframes, Apache-2.0): the renderer, installed on demand with
-  `npx hyperframes@0.8.42`, and the `hyperframes*`, `media-use` and `motion-graphics` skills in `.claude/skills/`, bundled from
+  `npx hyperframes@0.8.168`, and the `hyperframes*`, `media-use` and `motion-graphics` skills in `.claude/skills/`, bundled from
   the HyperFrames skill ecosystem. License: `licenses/HYPERFRAMES-LICENSE`.
 - **GSAP** (`assets/gsap.min.js`), used under the GSAP Standard License (https://gsap.com/community/standard-license/).
 - **Fonts**: Archivo, Fraunces and Caveat in `assets/fonts/`, SIL Open Font License 1.1 (`assets/fonts/OFL-*.txt`).

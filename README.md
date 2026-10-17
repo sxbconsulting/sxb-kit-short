@@ -71,7 +71,7 @@ on screen. `"locale"` in `storyboard.json` sets number formatting (`en-US` by de
 - `scripts/`: `takes.py` (rough cut per take, retakes detected), `transcribe.py` (Scribe or WhisperX, numbers as digits),
   `stage.py` (cut → assets in Nate's schema), `footage.py` (B-roll with provenance), `build-reel.py`
   (storyboard.json → HyperFrames compositions, captions, plan.json), plus Nate's validators.
-- `.claude/skills/`: HyperFrames 0.8.42 skills + Nate's `short-form-edit`, `video-storytelling`, `hyperframes-video-beats`.
+- `.claude/skills/`: HyperFrames 0.8.168 skills + Nate's `short-form-edit`, `video-storytelling`, `hyperframes-video-beats`.
   `.agents/skills/` is the same set for Codex.
 - `assets/fonts/` (Archivo, Fraunces, Caveat, OFL), `references/` (Nate's motion philosophy and storytelling workbook).
 
