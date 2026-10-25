@@ -1,0 +1,109 @@
+<!doctype html>
+<!-- Liste numérotée 1-2-3 : chaque ligne arrive sur son mot et se coche.
+     Thèmes : dark (DA-SXB) / cream (kit avatar). Rendu : node overlays/render-overlay.mjs <params.json> (voir overlays/README.md). -->
+<html lang="fr" data-composition-variables='[
+ {
+  "id": "kicker",
+  "type": "string",
+  "label": "Sur-titre",
+  "default": "3 LEVIERS"
+ },
+ {
+  "id": "title",
+  "type": "string",
+  "label": "Titre",
+  "default": "Pour monter ton panier moyen"
+ },
+ {
+  "id": "items",
+  "type": "string",
+  "label": "Lignes (JSON : text, at, check_at)",
+  "default": "[{\"text\":\"Le bundle avec cadeau\",\"at\":0.6,\"check_at\":1.1},{\"text\":\"Le cross-sell au panier\",\"at\":1.6,\"check_at\":2.1},{\"text\":\"Le palier de livraison\",\"at\":2.6,\"check_at\":3.1}]"
+ },
+ {
+  "id": "source",
+  "type": "string",
+  "label": "Source (vide = aucune)",
+  "default": ""
+ },
+ {
+  "id": "theme",
+  "type": "enum",
+  "label": "Thème",
+  "default": "dark",
+  "options": [
+   {
+    "value": "dark",
+    "label": "DA-SXB noir / pêche"
+   },
+   {
+    "value": "cream",
+    "label": "Avatar crème / rouge"
+   }
+  ]
+ },
+ {
+  "id": "top",
+  "type": "number",
+  "label": "Position haute (px)",
+  "default": 280
+ },
+ {
+  "id": "duration",
+  "type": "number",
+  "label": "Durée (s)",
+  "default": 5
+ },
+ {
+  "id": "words",
+  "type": "string",
+  "label": "Mots (JSON, rempli par render-overlay)",
+  "default": "[]"
+ },
+ {
+  "id": "highlight",
+  "type": "string",
+  "label": "Instants de pulsation (JSON)",
+  "default": "[]"
+ }
+]'>
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<link rel="stylesheet" href="../../tokens.css" />
+<link rel="stylesheet" href="_sxb.css" />
+<script src="../../assets/gsap.min.js"></script>
+<style>
+.list { margin-top: 30px; display: flex; flex-direction: column; gap: 22px; }
+.it { display: flex; align-items: center; gap: 26px; padding: 18px 22px; border-radius: 20px; background: var(--soft); border: var(--soft-bd); }
+.n { flex: none; width: 74px; height: 74px; border-radius: 50%; background: var(--ac); color: var(--on-ac); display: grid; place-items: center; font-weight: 900; font-size: 40px; border: var(--pill-bd); box-sizing: border-box; }
+.tx { flex: 1; font-weight: 800; font-size: 42px; line-height: 1.1; }
+.ck { flex: none; width: 66px; height: 66px; }
+</style>
+</head>
+<body>
+  <div id="root" data-composition-id="steps" data-start="0" data-width="1080" data-height="1920">
+<div class="card" id="card">
+      <div class="kicker" id="kicker"></div>
+      <div class="title" id="title"></div>
+      <div class="list" id="list"></div>
+      <div class="source" id="source"></div>
+    </div>
+  </div>
+  <script src="_sxb.js"></script>
+  <script>
+const S = SXB, v = S.v, $ = S.$;
+    $("#kicker").textContent = v.kicker; $("#title").textContent = v.title;
+    if (v.source) $("#source").textContent = v.source; else $("#source").remove();
+    S.enter();
+    S.J(v.items, []).forEach((it, k) => {
+      const row = S.el("div", "it", null, $("#list"));
+      S.el("div", "n", String(k + 1), row); S.el("div", "tx", it.text, row);
+      const ck = S.el("div", "ck", null, row);
+      ck.innerHTML = `<svg viewBox="0 0 66 66"><rect x="3" y="3" width="60" height="60" rx="14" fill="none" stroke="currentColor" stroke-width="4" opacity=".5"/><path d="M15 34 L28 47 L52 19" fill="none" stroke="var(--ac)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+      S.rise(row, it.at, 40);
+      if (it.check_at != null) S.draw(ck.querySelector("path"), it.check_at, 0.3); else ck.querySelector("path").remove();
+    });
+    S.finish("steps");
+  </script>
+</body>
+</html>

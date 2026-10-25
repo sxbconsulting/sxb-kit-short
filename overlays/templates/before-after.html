@@ -1,0 +1,151 @@
+<!doctype html>
+<!-- Avant / après : deux colonnes, l’après se dévoile par un balayage. Textes (séparés par |) ou images.
+     Thèmes : dark (DA-SXB) / cream (kit avatar). Rendu : node overlays/render-overlay.mjs <params.json> (voir overlays/README.md). -->
+<html lang="fr" data-composition-variables='[
+ {
+  "id": "kicker",
+  "type": "string",
+  "label": "Sur-titre",
+  "default": "TA FICHE PRODUIT"
+ },
+ {
+  "id": "before_label",
+  "type": "string",
+  "label": "Étiquette avant",
+  "default": "AVANT"
+ },
+ {
+  "id": "after_label",
+  "type": "string",
+  "label": "Étiquette après",
+  "default": "APRÈS"
+ },
+ {
+  "id": "before",
+  "type": "string",
+  "label": "Lignes avant (séparées par |)",
+  "default": "1 photo|Prix seul|Pas d’avis"
+ },
+ {
+  "id": "after",
+  "type": "string",
+  "label": "Lignes après (séparées par |)",
+  "default": "Vidéo produit|Pack x2 + cadeau|4,8/5 · 6 578 avis"
+ },
+ {
+  "id": "before_img",
+  "type": "string",
+  "label": "Image avant (optionnelle)",
+  "default": ""
+ },
+ {
+  "id": "after_img",
+  "type": "string",
+  "label": "Image après (optionnelle)",
+  "default": ""
+ },
+ {
+  "id": "before_at",
+  "type": "number",
+  "label": "Avant à (s)",
+  "default": 0.3
+ },
+ {
+  "id": "after_at",
+  "type": "number",
+  "label": "Après à (s)",
+  "default": 1.8
+ },
+ {
+  "id": "source",
+  "type": "string",
+  "label": "Source (vide = aucune)",
+  "default": ""
+ },
+ {
+  "id": "theme",
+  "type": "enum",
+  "label": "Thème",
+  "default": "dark",
+  "options": [
+   {
+    "value": "dark",
+    "label": "DA-SXB noir / pêche"
+   },
+   {
+    "value": "cream",
+    "label": "Avatar crème / rouge"
+   }
+  ]
+ },
+ {
+  "id": "top",
+  "type": "number",
+  "label": "Position haute (px)",
+  "default": 280
+ },
+ {
+  "id": "duration",
+  "type": "number",
+  "label": "Durée (s)",
+  "default": 5
+ },
+ {
+  "id": "words",
+  "type": "string",
+  "label": "Mots (JSON, rempli par render-overlay)",
+  "default": "[]"
+ },
+ {
+  "id": "highlight",
+  "type": "string",
+  "label": "Instants de pulsation (JSON)",
+  "default": "[]"
+ }
+]'>
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<link rel="stylesheet" href="../../tokens.css" />
+<link rel="stylesheet" href="_sxb.css" />
+<script src="../../assets/gsap.min.js"></script>
+<style>
+.cols { display: flex; gap: 24px; margin-top: 26px; }
+.col { flex: 1; box-sizing: border-box; padding: 26px; border-radius: 18px; background: var(--soft); border: var(--soft-bd); min-height: 330px; }
+.col.after { border-color: var(--ac); border-width: 4px; border-style: solid; }
+.col .pill { font-size: 30px; padding: 8px 22px; }
+.col.before .pill { background: transparent; color: var(--mu); border: 3px solid var(--mu); }
+.col img { display: block; width: 100%; height: 300px; object-fit: cover; border-radius: 12px; margin-top: 18px; }
+.ln { margin-top: 18px; font-weight: 800; font-size: 40px; line-height: 1.15; }
+.before .ln { color: var(--mu); }
+</style>
+</head>
+<body>
+  <div id="root" data-composition-id="before-after" data-start="0" data-width="1080" data-height="1920">
+<div class="card" id="card">
+      <div class="kicker" id="kicker"></div>
+      <div class="cols">
+        <div class="col before" id="before"><span class="pill" id="bl"></span></div>
+        <div class="col after" id="after"><span class="pill" id="al"></span></div>
+      </div>
+      <div class="source" id="source"></div>
+    </div>
+  </div>
+  <script src="_sxb.js"></script>
+  <script>
+const S = SXB, v = S.v, $ = S.$;
+    $("#kicker").textContent = v.kicker; $("#bl").textContent = v.before_label; $("#al").textContent = v.after_label;
+    if (v.source) $("#source").textContent = v.source; else $("#source").remove();
+    function fill(col, img, lines, at) {
+      if (img) { const i = S.el("img", "", null, col); i.src = img; S.rise(i, at + 0.15); return; }
+      lines.split("|").filter(Boolean).forEach((t, k) => S.rise(S.el("div", "ln", t, col), at + 0.15 + k * 0.12));
+    }
+    fill($("#before"), v.before_img, v.before, v.before_at);
+    fill($("#after"), v.after_img, v.after, v.after_at);
+    S.enter();
+    S.rise("#before", v.before_at);
+    S.tl.set("#after", { clipPath: "inset(0 100% 0 0)" }, 0);
+    S.tl.to("#after", { clipPath: "inset(0 0% 0 0)", duration: 0.5, ease: "power3.inOut" }, v.after_at);
+    S.finish("before-after");
+  </script>
+</body>
+</html>

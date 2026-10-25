@@ -1,0 +1,138 @@
+<!doctype html>
+<!-- Avis client : étoiles qui se remplissent, citation mot par mot, auteur et source.
+     Thèmes : dark (DA-SXB) / cream (kit avatar). Rendu : node overlays/render-overlay.mjs <params.json> (voir overlays/README.md). -->
+<html lang="fr" data-composition-variables='[
+ {
+  "id": "rating",
+  "type": "number",
+  "label": "Note (sur 5)",
+  "default": 4.8
+ },
+ {
+  "id": "count",
+  "type": "string",
+  "label": "Nombre d’avis (vide = aucun)",
+  "default": "6 578 avis"
+ },
+ {
+  "id": "quote",
+  "type": "string",
+  "label": "Citation",
+  "default": "Trois balades. C’est tout ce qu’il a fallu."
+ },
+ {
+  "id": "quote_at",
+  "type": "number",
+  "label": "Citation à (s)",
+  "default": 0.9
+ },
+ {
+  "id": "author",
+  "type": "string",
+  "label": "Auteur",
+  "default": "Alice K."
+ },
+ {
+  "id": "meta",
+  "type": "string",
+  "label": "Mention",
+  "default": "Achat vérifié"
+ },
+ {
+  "id": "source",
+  "type": "string",
+  "label": "Source",
+  "default": "avis affichés sur le site · date"
+ },
+ {
+  "id": "theme",
+  "type": "enum",
+  "label": "Thème",
+  "default": "dark",
+  "options": [
+   {
+    "value": "dark",
+    "label": "DA-SXB noir / pêche"
+   },
+   {
+    "value": "cream",
+    "label": "Avatar crème / rouge"
+   }
+  ]
+ },
+ {
+  "id": "top",
+  "type": "number",
+  "label": "Position haute (px)",
+  "default": 280
+ },
+ {
+  "id": "duration",
+  "type": "number",
+  "label": "Durée (s)",
+  "default": 5
+ },
+ {
+  "id": "words",
+  "type": "string",
+  "label": "Mots (JSON, rempli par render-overlay)",
+  "default": "[]"
+ },
+ {
+  "id": "highlight",
+  "type": "string",
+  "label": "Instants de pulsation (JSON)",
+  "default": "[]"
+ }
+]'>
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<link rel="stylesheet" href="../../tokens.css" />
+<link rel="stylesheet" href="_sxb.css" />
+<script src="../../assets/gsap.min.js"></script>
+<style>
+.stars { display: flex; align-items: center; gap: 10px; }
+.st { position: relative; width: 62px; height: 62px; }
+.st svg { position: absolute; inset: 0; width: 62px; height: 62px; }
+.st .fill { clip-path: inset(0 100% 0 0); }
+.rt { margin-left: 18px; font-weight: 900; font-size: 46px; }
+.ct { margin-left: 12px; font-weight: 700; font-size: 30px; color: var(--mu); }
+.q { margin-top: 30px; font-weight: 800; font-size: 60px; line-height: 1.12; letter-spacing: -.01em; }
+.q .w { display: inline-block; margin-right: .26em; }
+.au { display: flex; align-items: center; gap: 18px; margin-top: 30px; }
+.au .av { width: 64px; height: 64px; border-radius: 50%; background: var(--ac); color: var(--on-ac); display: grid; place-items: center; font-weight: 900; font-size: 30px; }
+.au .n { font-weight: 900; font-size: 34px; }
+.au .m { font-weight: 700; font-size: 26px; color: var(--good); }
+</style>
+</head>
+<body>
+  <div id="root" data-composition-id="testimonial" data-start="0" data-width="1080" data-height="1920">
+<div class="card" id="card">
+      <div class="stars" id="stars"></div>
+      <div class="q" id="q"></div>
+      <div class="au" id="au"><div class="av" id="av"></div><div><div class="n" id="an"></div><div class="m" id="am"></div></div></div>
+      <div class="source" id="source"></div>
+    </div>
+  </div>
+  <script src="_sxb.js"></script>
+  <script>
+const S = SXB, v = S.v, $ = S.$;
+    const STAR = "M31 4 L38.6 21.4 L57.5 23.2 L43.2 35.8 L47.4 54.3 L31 44.6 L14.6 54.3 L18.8 35.8 L4.5 23.2 L23.4 21.4 Z";
+    for (let i = 0; i < 5; i++) {
+      const s = S.el("div", "st", null, $("#stars"));
+      s.innerHTML = `<svg viewBox="0 0 62 62"><path d="${STAR}" fill="none" stroke="currentColor" stroke-width="3" opacity=".35"/></svg>` +
+                    `<svg class="fill" viewBox="0 0 62 62"><path d="${STAR}" fill="var(--ac)" stroke="var(--line)" stroke-width="${S.dark ? 0 : 3}"/></svg>`;
+      const part = Math.max(0, Math.min(1, v.rating - i));
+      S.tl.to(s.querySelector(".fill"), { clipPath: `inset(0 ${100 - part * 100}% 0 0)`, duration: 0.18, ease: "none" }, 0.35 + i * 0.1);
+    }
+    S.el("span", "rt", v.rating.toLocaleString("fr-FR") + "/5", $("#stars"));
+    if (v.count) S.el("span", "ct", "· " + v.count, $("#stars"));
+    v.quote.split(/\s+/).forEach((w, k) => S.rise(S.el("span", "w", w, $("#q")), v.quote_at + k * 0.07, 20));
+    $("#an").textContent = v.author; $("#am").textContent = v.meta; $("#av").textContent = (v.author || "?")[0];
+    $("#source").textContent = v.source;
+    S.enter();
+    S.rise("#au", v.quote_at + v.quote.split(/\s+/).length * 0.07 + 0.2);
+    S.finish("testimonial");
+  </script>
+</body>
+</html>

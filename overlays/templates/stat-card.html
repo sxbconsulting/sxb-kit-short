@@ -1,71 +1,139 @@
 <!doctype html>
-<!-- Carte chiffre SxB (DA-SXB : noir, blanc, pêche #FECA8A), fond transparent. Paramètres : voir data-composition-variables.
-     Timings en secondes depuis le début de la carte ; "words" = [{"w":"62","s":0.42}, …] (instants des mots). -->
+<!-- Carte chiffre : sur-titre, chiffre qui compte, pastille, légende, source.
+     Thèmes : dark (DA-SXB) / cream (kit avatar). Rendu : node overlays/render-overlay.mjs <params.json> (voir overlays/README.md). -->
 <html lang="fr" data-composition-variables='[
-  {"id":"kicker","type":"string","label":"Sur-titre","default":"PANIER MOYEN EN FRANCE"},
-  {"id":"value","type":"number","label":"Chiffre","default":62},
-  {"id":"decimals","type":"number","label":"Décimales","default":0},
-  {"id":"prefix","type":"string","label":"Préfixe","default":""},
-  {"id":"suffix","type":"string","label":"Suffixe","default":" €"},
-  {"id":"value_at","type":"number","label":"Compteur à (s)","default":0.5},
-  {"id":"badge","type":"string","label":"Pastille","default":"−3 %"},
-  {"id":"badge_at","type":"number","label":"Pastille à (s)","default":1.6},
-  {"id":"label","type":"string","label":"Légende","default":"en 2025"},
-  {"id":"source","type":"string","label":"Source","default":"Fevad, bilan e-commerce 2025"},
-  {"id":"duration","type":"number","label":"Durée (s)","default":4},
-  {"id":"words","type":"string","label":"Mots (JSON)","default":"[]"},
-  {"id":"highlight","type":"string","label":"Mots qui pulsent la carte (JSON)","default":"[]"}
+ {
+  "id": "kicker",
+  "type": "string",
+  "label": "Sur-titre",
+  "default": "PANIER MOYEN EN FRANCE"
+ },
+ {
+  "id": "value",
+  "type": "number",
+  "label": "Chiffre",
+  "default": 62
+ },
+ {
+  "id": "decimals",
+  "type": "number",
+  "label": "Décimales",
+  "default": 0
+ },
+ {
+  "id": "prefix",
+  "type": "string",
+  "label": "Préfixe",
+  "default": ""
+ },
+ {
+  "id": "suffix",
+  "type": "string",
+  "label": "Suffixe",
+  "default": " €"
+ },
+ {
+  "id": "value_at",
+  "type": "number",
+  "label": "Compteur à (s)",
+  "default": 0.5
+ },
+ {
+  "id": "badge",
+  "type": "string",
+  "label": "Pastille (vide = aucune)",
+  "default": "−3 %"
+ },
+ {
+  "id": "badge_at",
+  "type": "number",
+  "label": "Pastille à (s)",
+  "default": 1.6
+ },
+ {
+  "id": "label",
+  "type": "string",
+  "label": "Légende",
+  "default": "en 2025"
+ },
+ {
+  "id": "source",
+  "type": "string",
+  "label": "Source",
+  "default": "Fevad, bilan e-commerce 2025"
+ },
+ {
+  "id": "theme",
+  "type": "enum",
+  "label": "Thème",
+  "default": "dark",
+  "options": [
+   {
+    "value": "dark",
+    "label": "DA-SXB noir / pêche"
+   },
+   {
+    "value": "cream",
+    "label": "Avatar crème / rouge"
+   }
+  ]
+ },
+ {
+  "id": "top",
+  "type": "number",
+  "label": "Position haute (px)",
+  "default": 280
+ },
+ {
+  "id": "duration",
+  "type": "number",
+  "label": "Durée (s)",
+  "default": 5
+ },
+ {
+  "id": "words",
+  "type": "string",
+  "label": "Mots (JSON, rempli par render-overlay)",
+  "default": "[]"
+ },
+ {
+  "id": "highlight",
+  "type": "string",
+  "label": "Instants de pulsation (JSON)",
+  "default": "[]"
+ }
 ]'>
 <head>
 <meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
 <link rel="stylesheet" href="../../tokens.css" />
+<link rel="stylesheet" href="_sxb.css" />
 <script src="../../assets/gsap.min.js"></script>
 <style>
-  body { margin: 0; background: transparent; font-family: var(--font-display); }
-  #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: transparent; }
-  :root { --sx-bg: #141414; --sx-line: #2a2a2a; --sx-text: #FFFFFF; --sx-accent: #FECA8A; --sx-muted: #bdbdbd; }  /* DA-SXB.md */
-  .card { position: absolute; left: 90px; top: 300px; width: 900px; height: 560px; box-sizing: border-box; padding: 44px 48px;
-          background: var(--sx-bg); color: var(--sx-text); border: 1.5px solid var(--sx-line); border-radius: 22px;
-          box-shadow: 0 24px 60px rgba(0,0,0,.5); }
-  .kicker { font-weight: 800; font-size: 40px; letter-spacing: .06em; color: var(--sx-muted); }
-  .value { margin-top: 30px; font-weight: 900; font-size: 200px; line-height: 1; letter-spacing: -.04em; font-variant-numeric: tabular-nums;
-           color: var(--sx-accent); text-shadow: 0 0 60px rgba(254,202,138,.18); }
-  .label { margin-top: 14px; font-weight: 700; font-size: 40px; color: var(--sx-text); }
-  .badge { position: absolute; right: 48px; top: 190px; padding: 18px 34px; border-radius: 999px;
-           background: var(--sx-accent); color: #000; font-weight: 900; font-size: 70px; box-shadow: 0 16px 40px rgba(254,202,138,.25); }
-  .source { position: absolute; left: 48px; bottom: 30px; font-weight: 700; font-size: 26px; color: var(--sx-muted); }
+.row { display: flex; align-items: center; justify-content: space-between; margin-top: 22px; }
+.value { font-weight: 900; font-size: 190px; line-height: 1; letter-spacing: -.04em; font-variant-numeric: tabular-nums; color: var(--ac); text-shadow: var(--glow); }
+html[data-theme="cream"] .value { color: var(--tx); }
+.badge { font-size: 64px; }
+.label { margin-top: 12px; font-weight: 700; font-size: 40px; }
 </style>
 </head>
 <body>
   <div id="root" data-composition-id="stat-card" data-start="0" data-width="1080" data-height="1920">
-    <div id="card" class="card clip" data-start="0" data-track-index="1">
+<div class="card" id="card">
       <div class="kicker" id="kicker"></div>
-      <div class="value" id="value"></div>
+      <div class="row"><div class="value" id="value"></div><div class="pill badge" id="badge"></div></div>
       <div class="label" id="label"></div>
-      <div class="badge" id="badge"></div>
       <div class="source" id="source"></div>
     </div>
   </div>
+  <script src="_sxb.js"></script>
   <script>
-    const v = window.__hyperframes.getVariables();
-    const $ = (id) => document.getElementById(id);
-    $("kicker").textContent = v.kicker; $("label").textContent = v.label; $("source").textContent = v.source;
-    $("badge").textContent = v.badge; if (!v.badge) $("badge").style.display = "none";
-    const fmt = (n) => v.prefix + n.toLocaleString("fr-FR", { minimumFractionDigits: v.decimals, maximumFractionDigits: v.decimals }) + v.suffix;
-    const o = { n: 0 }; $("value").textContent = fmt(0);
-    const tl = gsap.timeline({ paused: true });
-    tl.fromTo("#card", { y: 120, opacity: 0, rotationX: 18, transformPerspective: 900 }, { y: 0, opacity: 1, rotationX: 0, duration: 0.45, ease: "power3.out" }, 0);   // DA-SXB : easing net, pas de rebond
-    tl.to(o, { n: v.value, duration: 0.8, ease: "power2.out", onUpdate: () => { $("value").textContent = fmt(o.n); } }, v.value_at);
-    if (v.badge) {
-      tl.set("#badge", { opacity: 0 }, 0);           // invisible jusqu'à son mot
-      tl.fromTo("#badge", { opacity: 1, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.3, ease: "power3.out", immediateRender: false }, v.badge_at);
-    }
-    // pulsation sur les mots demandés (instants venant du transcript)
-    JSON.parse(v.highlight || "[]").forEach((t) => tl.fromTo("#card", { scale: 1 }, { scale: 1.04, duration: 0.12, yoyo: true, repeat: 1, ease: "power1.inOut" }, t));
-    // sortie rapide (0,3 s), jamais de fondu lent
-    tl.to("#card", { y: -80, opacity: 0, duration: 0.3, ease: "power3.in" }, v.duration - 0.3);
-    tl.to({}, { duration: v.duration }, 0);
-    window.__timelines["stat-card"] = tl;
+const S = SXB, v = S.v, $ = S.$;
+    $("#kicker").textContent = v.kicker; $("#label").textContent = v.label; $("#source").textContent = v.source;
+    const o = { n: 0 }, val = $("#value"); val.textContent = S.fmt(0, v.decimals, v.prefix, v.suffix);
+    S.enter();
+    S.tl.to(o, { n: v.value, duration: 0.8, ease: "power2.out", onUpdate: () => { val.textContent = S.fmt(o.n, v.decimals, v.prefix, v.suffix); } }, v.value_at);
+    if (v.badge) { $("#badge").textContent = v.badge; S.pop("#badge", v.badge_at, { rotation: -10 }); } else $("#badge").style.display = "none";
+    S.finish("stat-card");
   </script>
 </body>
 </html>

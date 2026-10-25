@@ -1,0 +1,135 @@
+<!doctype html>
+<!-- Notifications qui s’empilent (ventes, messages). Illustration : les montants doivent être réels et sourcés.
+     Thèmes : dark (DA-SXB) / cream (kit avatar). Rendu : node overlays/render-overlay.mjs <params.json> (voir overlays/README.md). -->
+<html lang="fr" data-composition-variables='[
+ {
+  "id": "kicker",
+  "type": "string",
+  "label": "Sur-titre",
+  "default": "PENDANT CE TEMPS"
+ },
+ {
+  "id": "app",
+  "type": "string",
+  "label": "Nom affiché",
+  "default": "Ta boutique"
+ },
+ {
+  "id": "items",
+  "type": "string",
+  "label": "Notifications (JSON : title, body, at)",
+  "default": "[{\"title\":\"Nouvelle commande\",\"body\":\"1 article · 39,90 €\",\"at\":0.5},{\"title\":\"Nouvelle commande\",\"body\":\"2 articles · 79,80 €\",\"at\":1.3},{\"title\":\"Nouvelle commande\",\"body\":\"1 article · 49,80 €\",\"at\":2.1}]"
+ },
+ {
+  "id": "total",
+  "type": "string",
+  "label": "Total (vide = aucun)",
+  "default": "169,50 €"
+ },
+ {
+  "id": "total_at",
+  "type": "number",
+  "label": "Total à (s)",
+  "default": 3.0
+ },
+ {
+  "id": "source",
+  "type": "string",
+  "label": "Source",
+  "default": "illustration"
+ },
+ {
+  "id": "theme",
+  "type": "enum",
+  "label": "Thème",
+  "default": "dark",
+  "options": [
+   {
+    "value": "dark",
+    "label": "DA-SXB noir / pêche"
+   },
+   {
+    "value": "cream",
+    "label": "Avatar crème / rouge"
+   }
+  ]
+ },
+ {
+  "id": "top",
+  "type": "number",
+  "label": "Position haute (px)",
+  "default": 280
+ },
+ {
+  "id": "duration",
+  "type": "number",
+  "label": "Durée (s)",
+  "default": 5
+ },
+ {
+  "id": "words",
+  "type": "string",
+  "label": "Mots (JSON, rempli par render-overlay)",
+  "default": "[]"
+ },
+ {
+  "id": "highlight",
+  "type": "string",
+  "label": "Instants de pulsation (JSON)",
+  "default": "[]"
+ }
+]'>
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<link rel="stylesheet" href="../../tokens.css" />
+<link rel="stylesheet" href="_sxb.css" />
+<script src="../../assets/gsap.min.js"></script>
+<style>
+.stack { position: relative; height: 510px; margin-top: 22px; }
+.nt { position: absolute; left: 0; right: 0; top: 0; display: flex; gap: 22px; align-items: center; box-sizing: border-box; padding: 22px 26px; border-radius: 26px; background: var(--soft); border: var(--soft-bd); }
+.ico { flex: none; width: 74px; height: 74px; border-radius: 18px; background: var(--ac); position: relative; }
+.ico::before { content: ""; position: absolute; left: 20px; right: 20px; top: 26px; bottom: 16px; border-radius: 5px; background: var(--on-ac); }
+.ico::after { content: ""; position: absolute; left: 27px; right: 27px; top: 16px; height: 18px; border: 5px solid var(--on-ac); border-bottom: none; border-radius: 12px 12px 0 0; }
+.nt .h { display: flex; justify-content: space-between; font-weight: 700; font-size: 24px; color: var(--mu); }
+.nt .t { font-weight: 900; font-size: 38px; margin-top: 2px; }
+.nt .b { font-weight: 700; font-size: 32px; }
+.nt .tx { flex: 1; }
+.tot { display: flex; justify-content: space-between; align-items: center; margin-top: 18px; font-weight: 800; font-size: 40px; }
+.tot .pill { font-size: 56px; }
+</style>
+</head>
+<body>
+  <div id="root" data-composition-id="sales-notifs" data-start="0" data-width="1080" data-height="1920">
+<div class="card" id="card">
+      <div class="kicker" id="kicker"></div>
+      <div class="stack" id="stack"></div>
+      <div class="tot" id="tot"><span>Total</span><span class="pill" id="total"></span></div>
+      <div class="source" id="source"></div>
+    </div>
+  </div>
+  <script src="_sxb.js"></script>
+  <script>
+const S = SXB, v = S.v, $ = S.$;
+    $("#kicker").textContent = v.kicker; $("#source").textContent = v.source;
+    const items = S.J(v.items, []), STEP = 172, MAX = 3;
+    const nodes = items.map((it) => {
+      const n = S.el("div", "nt", null, $("#stack"));
+      S.el("div", "ico", null, n);
+      const tx = S.el("div", "tx", null, n), h = S.el("div", "h", null, tx);
+      S.el("span", "", v.app, h); S.el("span", "", "maintenant", h);
+      S.el("div", "t", it.title, tx); S.el("div", "b", it.body, tx);
+      S.hide(n); return n;
+    });
+    S.enter();
+    items.forEach((it, j) => {                                      // la nouvelle arrive en haut, les autres descendent
+      S.tl.fromTo(nodes[j], { opacity: 1, y: -60, scale: 0.92 }, { opacity: 1, y: 0, scale: 1, duration: 0.35, ease: S.dark ? "power3.out" : "back.out(1.8)", immediateRender: false }, it.at);
+      for (let i = 0; i < j; i++) {
+        const depth = j - i;
+        S.tl.to(nodes[i], { y: depth * STEP, opacity: depth >= MAX ? 0 : 1 - depth * 0.18, duration: 0.35, ease: "power3.out" }, it.at);
+      }
+    });
+    if (v.total) { $("#total").textContent = v.total; S.rise("#tot", v.total_at); } else $("#tot").remove();
+    S.finish("sales-notifs");
+  </script>
+</body>
+</html>

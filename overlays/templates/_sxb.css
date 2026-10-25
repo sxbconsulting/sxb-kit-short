@@ -1,0 +1,28 @@
+/* Base commune des cartes overlays SxB. Deux thèmes, choisis par la variable « theme » :
+   dark  = DA-SXB.md (noir #141414, blanc, pêche #FECA8A, Archivo) — shorts face caméra
+   cream = kit avatar sxb-shorts (blanc bord encre, rouge #E2482E, Poppins) — shorts no face */
+html, body { margin: 0; background: transparent; }
+#root { position: relative; width: 100%; height: 100%; overflow: hidden; background: transparent; }
+:root, html[data-theme="dark"] {
+  --bg: #141414; --bd: 1.5px solid #2a2a2a; --tx: #FFFFFF; --ac: #FECA8A; --on-ac: #000000; --mu: #BDBDBD;
+  --soft: #1F1F1F; --soft-bd: 1.5px solid #2f2f2f; --line: #2a2a2a; --good: #7BD88F; --bad: #FF8A7A;
+  --font: "Archivo", "Poppins", sans-serif; --hand: "Caveat", cursive;
+  --sh: 0 24px 60px rgba(0,0,0,.5); --glow: 0 0 60px rgba(254,202,138,.18); --pill-bd: 0px solid transparent;
+}
+html[data-theme="cream"] {
+  --bg: #FFFFFF; --bd: 6px solid #111111; --tx: #111111; --ac: #E2482E; --on-ac: #FFFFFF; --mu: #4D4D4D;
+  --soft: #FDF3E6; --soft-bd: 4px solid #111111; --line: #111111; --good: #2EA05A; --bad: #E2482E;
+  --font: "Poppins", "Archivo", sans-serif; --hand: "Caveat", cursive;
+  --sh: 12px 12px 0 #111111; --glow: none; --pill-bd: 5px solid #111111;
+}
+body { font-family: var(--font); color: var(--tx); }
+.card { position: absolute; left: 90px; top: 280px; width: 900px; box-sizing: border-box; padding: 44px 48px;
+        background: var(--bg); border: var(--bd); border-radius: 22px; box-shadow: var(--sh); }
+.kicker { font-weight: 800; font-size: 34px; letter-spacing: .06em; text-transform: uppercase; color: var(--mu); }
+.title { margin-top: 10px; font-weight: 900; font-size: 60px; line-height: 1.05; letter-spacing: -.02em; }
+.source { margin-top: 24px; font-weight: 700; font-size: 24px; color: var(--mu); }
+.pill { display: inline-block; padding: 12px 28px; border-radius: 999px; background: var(--ac); color: var(--on-ac);
+        font-weight: 900; border: var(--pill-bd); white-space: nowrap; }
+.accent { color: var(--ac); }
+html[data-theme="cream"] .accent-ink { color: var(--ac); }
+.hand { font-family: var(--hand); font-weight: 700; color: var(--ac); }

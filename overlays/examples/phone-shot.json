@@ -1,0 +1,16 @@
+{
+  "template": "phone-shot",
+  "variables": {
+    "src": "assets/page-produit-exemple.png",
+    "focus_x": 0.5,
+    "focus_y": 0.88,
+    "zoom": 1.9,
+    "zoom_at": 1.0,
+    "click_at": 2.1,
+    "tag": "+9,90 €",
+    "tag_at": 2.3,
+    "title": "L’accessoire proposé dans le panier",
+    "source": "capture d’exemple",
+    "duration": 4.0
+  }
+}

@@ -1,0 +1,101 @@
+<!doctype html>
+<!-- Conversation (DM, SMS) : les bulles arrivent sur leurs instants.
+     Thèmes : dark (DA-SXB) / cream (kit avatar). Rendu : node overlays/render-overlay.mjs <params.json> (voir overlays/README.md). -->
+<html lang="fr" data-composition-variables='[
+ {
+  "id": "name",
+  "type": "string",
+  "label": "Nom de l’interlocuteur",
+  "default": "Cliente"
+ },
+ {
+  "id": "messages",
+  "type": "string",
+  "label": "Messages (JSON : from me|them, text, at)",
+  "default": "[{\"from\":\"them\",\"text\":\"Il marche vraiment pour un gros chien ?\",\"at\":0.5},{\"from\":\"me\",\"text\":\"Oui, du S au XL, de 4 à 45 kg\",\"at\":1.6},{\"from\":\"them\",\"text\":\"Je prends le pack de 2 alors\",\"at\":2.8}]"
+ },
+ {
+  "id": "source",
+  "type": "string",
+  "label": "Source (vide = aucune)",
+  "default": ""
+ },
+ {
+  "id": "theme",
+  "type": "enum",
+  "label": "Thème",
+  "default": "dark",
+  "options": [
+   {
+    "value": "dark",
+    "label": "DA-SXB noir / pêche"
+   },
+   {
+    "value": "cream",
+    "label": "Avatar crème / rouge"
+   }
+  ]
+ },
+ {
+  "id": "top",
+  "type": "number",
+  "label": "Position haute (px)",
+  "default": 280
+ },
+ {
+  "id": "duration",
+  "type": "number",
+  "label": "Durée (s)",
+  "default": 5
+ },
+ {
+  "id": "words",
+  "type": "string",
+  "label": "Mots (JSON, rempli par render-overlay)",
+  "default": "[]"
+ },
+ {
+  "id": "highlight",
+  "type": "string",
+  "label": "Instants de pulsation (JSON)",
+  "default": "[]"
+ }
+]'>
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<link rel="stylesheet" href="../../tokens.css" />
+<link rel="stylesheet" href="_sxb.css" />
+<script src="../../assets/gsap.min.js"></script>
+<style>
+.head { display: flex; align-items: center; gap: 20px; padding-bottom: 22px; border-bottom: 2px solid var(--line); }
+.av { width: 72px; height: 72px; border-radius: 50%; background: var(--soft); border: var(--soft-bd); display: grid; place-items: center; font-weight: 900; font-size: 34px; }
+.nm { font-weight: 900; font-size: 40px; }
+.thread { display: flex; flex-direction: column; gap: 18px; margin-top: 26px; }
+.bb { max-width: 76%; padding: 20px 28px; border-radius: 30px; font-weight: 700; font-size: 38px; line-height: 1.2; }
+.them { align-self: flex-start; background: var(--soft); border: var(--soft-bd); border-bottom-left-radius: 8px; }
+.me { align-self: flex-end; background: var(--ac); color: var(--on-ac); border-bottom-right-radius: 8px; border: var(--pill-bd); }
+</style>
+</head>
+<body>
+  <div id="root" data-composition-id="chat-thread" data-start="0" data-width="1080" data-height="1920">
+<div class="card" id="card">
+      <div class="head"><div class="av" id="av"></div><div class="nm" id="nm"></div></div>
+      <div class="thread" id="thread"></div>
+      <div class="source" id="source"></div>
+    </div>
+  </div>
+  <script src="_sxb.js"></script>
+  <script>
+const S = SXB, v = S.v, $ = S.$;
+    $("#nm").textContent = v.name; $("#av").textContent = (v.name || "?").trim()[0].toUpperCase();
+    if (v.source) $("#source").textContent = v.source; else $("#source").remove();
+    S.enter();
+    S.J(v.messages, []).forEach((m) => {
+      const b = S.el("div", "bb " + (m.from === "me" ? "me" : "them"), m.text, $("#thread"));
+      b.style.transformOrigin = m.from === "me" ? "100% 100%" : "0% 100%";
+      S.pop(b, m.at);
+    });
+    S.finish("chat-thread");
+  </script>
+</body>
+</html>

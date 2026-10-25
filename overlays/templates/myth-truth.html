@@ -1,0 +1,132 @@
+<!doctype html>
+<!-- Mythe → vérité : la phrase reçue est rayée, la vraie réponse arrive.
+     Thèmes : dark (DA-SXB) / cream (kit avatar). Rendu : node overlays/render-overlay.mjs <params.json> (voir overlays/README.md). -->
+<html lang="fr" data-composition-variables='[
+ {
+  "id": "kicker",
+  "type": "string",
+  "label": "Sur-titre du mythe",
+  "default": "ON TE DIT"
+ },
+ {
+  "id": "myth",
+  "type": "string",
+  "label": "Mythe",
+  "default": "Il faut plus de trafic"
+ },
+ {
+  "id": "myth_at",
+  "type": "number",
+  "label": "Mythe à (s)",
+  "default": 0.3
+ },
+ {
+  "id": "strike_at",
+  "type": "number",
+  "label": "Rature à (s)",
+  "default": 1.4
+ },
+ {
+  "id": "truth_kicker",
+  "type": "string",
+  "label": "Sur-titre de la vérité",
+  "default": "EN VRAI"
+ },
+ {
+  "id": "truth",
+  "type": "string",
+  "label": "Vérité",
+  "default": "Vends plus à tes clients actuels"
+ },
+ {
+  "id": "truth_at",
+  "type": "number",
+  "label": "Vérité à (s)",
+  "default": 2.0
+ },
+ {
+  "id": "source",
+  "type": "string",
+  "label": "Source (vide = aucune)",
+  "default": ""
+ },
+ {
+  "id": "theme",
+  "type": "enum",
+  "label": "Thème",
+  "default": "dark",
+  "options": [
+   {
+    "value": "dark",
+    "label": "DA-SXB noir / pêche"
+   },
+   {
+    "value": "cream",
+    "label": "Avatar crème / rouge"
+   }
+  ]
+ },
+ {
+  "id": "top",
+  "type": "number",
+  "label": "Position haute (px)",
+  "default": 280
+ },
+ {
+  "id": "duration",
+  "type": "number",
+  "label": "Durée (s)",
+  "default": 5
+ },
+ {
+  "id": "words",
+  "type": "string",
+  "label": "Mots (JSON, rempli par render-overlay)",
+  "default": "[]"
+ },
+ {
+  "id": "highlight",
+  "type": "string",
+  "label": "Instants de pulsation (JSON)",
+  "default": "[]"
+ }
+]'>
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<link rel="stylesheet" href="../../tokens.css" />
+<link rel="stylesheet" href="_sxb.css" />
+<script src="../../assets/gsap.min.js"></script>
+<style>
+.myth { position: relative; display: inline-block; margin-top: 14px; font-weight: 800; font-size: 60px; line-height: 1.1; }
+.strike { position: absolute; left: -12px; right: -12px; top: 50%; height: 12px; margin-top: -6px; background: var(--bad); border-radius: 6px; transform-origin: 0 50%; transform: rotate(-3deg) scaleX(0); }
+.sep { height: 2px; background: var(--line); margin: 34px 0 28px; opacity: .6; }
+.tk { font-weight: 800; font-size: 34px; letter-spacing: .06em; color: var(--ac); }
+.truth { margin-top: 12px; font-weight: 900; font-size: 74px; line-height: 1.05; letter-spacing: -.02em; }
+</style>
+</head>
+<body>
+  <div id="root" data-composition-id="myth-truth" data-start="0" data-width="1080" data-height="1920">
+<div class="card" id="card">
+      <div class="kicker" id="kicker"></div>
+      <div class="myth" id="myth"><span id="myth-t"></span><div class="strike" id="strike"></div></div>
+      <div class="sep"></div>
+      <div class="tk" id="tk"></div>
+      <div class="truth" id="truth"></div>
+      <div class="source" id="source"></div>
+    </div>
+  </div>
+  <script src="_sxb.js"></script>
+  <script>
+const S = SXB, v = S.v, $ = S.$;
+    $("#kicker").textContent = v.kicker; $("#myth-t").textContent = v.myth; $("#tk").textContent = v.truth_kicker;
+    $("#truth").textContent = v.truth; if (v.source) $("#source").textContent = v.source; else $("#source").remove();
+    S.enter();
+    S.rise("#myth", v.myth_at);
+    S.tl.to("#strike", { scaleX: 1, rotation: -3, duration: 0.3, ease: "power3.out" }, v.strike_at);
+    S.tl.to("#myth-t", { opacity: 0.45, duration: 0.3 }, v.strike_at + 0.1);
+    S.rise("#tk", v.truth_at - 0.1);
+    S.pop("#truth", v.truth_at, { rotation: S.dark ? 0 : -2 });
+    S.finish("myth-truth");
+  </script>
+</body>
+</html>

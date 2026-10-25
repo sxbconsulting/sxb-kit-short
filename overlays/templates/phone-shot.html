@@ -1,0 +1,162 @@
+<!doctype html>
+<!-- Capture dans un téléphone : zoom sur une zone, curseur qui clique, texte à côté.
+     Thèmes : dark (DA-SXB) / cream (kit avatar). Rendu : node overlays/render-overlay.mjs <params.json> (voir overlays/README.md). -->
+<html lang="fr" data-composition-variables='[
+ {
+  "id": "kicker",
+  "type": "string",
+  "label": "Sur-titre",
+  "default": "EXEMPLE"
+ },
+ {
+  "id": "title",
+  "type": "string",
+  "label": "Titre",
+  "default": "Le gant proposé dans le panier"
+ },
+ {
+  "id": "src",
+  "type": "string",
+  "label": "Capture (portrait)",
+  "default": ""
+ },
+ {
+  "id": "focus_x",
+  "type": "number",
+  "label": "Zone visée X (0-1 de l’écran)",
+  "default": 0.5
+ },
+ {
+  "id": "focus_y",
+  "type": "number",
+  "label": "Zone visée Y (0-1 de l’écran)",
+  "default": 0.6
+ },
+ {
+  "id": "zoom",
+  "type": "number",
+  "label": "Zoom",
+  "default": 1.8
+ },
+ {
+  "id": "zoom_at",
+  "type": "number",
+  "label": "Zoom à (s)",
+  "default": 1.2
+ },
+ {
+  "id": "click_at",
+  "type": "number",
+  "label": "Clic à (s, -1 = aucun)",
+  "default": 2.2
+ },
+ {
+  "id": "tag",
+  "type": "string",
+  "label": "Pastille (vide = aucune)",
+  "default": "+9,90 €"
+ },
+ {
+  "id": "tag_at",
+  "type": "number",
+  "label": "Pastille à (s)",
+  "default": 2.4
+ },
+ {
+  "id": "source",
+  "type": "string",
+  "label": "Source",
+  "default": "capture du site · date"
+ },
+ {
+  "id": "theme",
+  "type": "enum",
+  "label": "Thème",
+  "default": "dark",
+  "options": [
+   {
+    "value": "dark",
+    "label": "DA-SXB noir / pêche"
+   },
+   {
+    "value": "cream",
+    "label": "Avatar crème / rouge"
+   }
+  ]
+ },
+ {
+  "id": "top",
+  "type": "number",
+  "label": "Position haute (px)",
+  "default": 200
+ },
+ {
+  "id": "duration",
+  "type": "number",
+  "label": "Durée (s)",
+  "default": 5
+ },
+ {
+  "id": "words",
+  "type": "string",
+  "label": "Mots (JSON, rempli par render-overlay)",
+  "default": "[]"
+ },
+ {
+  "id": "highlight",
+  "type": "string",
+  "label": "Instants de pulsation (JSON)",
+  "default": "[]"
+ }
+]'>
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<link rel="stylesheet" href="../../tokens.css" />
+<link rel="stylesheet" href="_sxb.css" />
+<script src="../../assets/gsap.min.js"></script>
+<style>
+.card { display: flex; gap: 40px; align-items: center; }
+.phone { position: relative; flex: none; width: 320px; height: 650px; box-sizing: border-box; padding: 14px; border-radius: 52px; background: #0b0b0b; box-shadow: 0 0 0 3px #3a3a3a inset; }
+html[data-theme="cream"] .phone { box-shadow: 0 0 0 5px #111 inset; }
+.screen { position: relative; width: 100%; height: 100%; overflow: hidden; border-radius: 40px; background: #fff; }
+.screen img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.notch { position: absolute; left: 50%; top: 8px; width: 96px; height: 26px; margin-left: -48px; border-radius: 14px; background: #0b0b0b; z-index: 3; }
+.ring { position: absolute; width: 90px; height: 90px; margin: -45px 0 0 -45px; border-radius: 50%; border: 8px solid var(--ac); opacity: 0; z-index: 4; }
+.cursor { position: absolute; width: 58px; height: 74px; z-index: 5; }
+.side { flex: 1; }
+.side .title { font-size: 56px; }
+.side .pill { margin-top: 30px; font-size: 52px; }
+</style>
+</head>
+<body>
+  <div id="root" data-composition-id="phone-shot" data-start="0" data-width="1080" data-height="1920">
+<div class="card" id="card">
+      <div class="phone"><div class="screen" id="screen"><img id="shot" alt="" /><div class="ring" id="ring"></div></div><div class="notch"></div>
+        <svg class="cursor" id="cursor" viewBox="0 0 36 46"><path d="M2 2 L2 38 L11 30 L17 44 L23 41 L17 28 L30 28 Z" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round"/></svg></div>
+      <div class="side"><div class="kicker" id="kicker"></div><div class="title" id="title"></div><div class="pill" id="tag"></div><div class="source" id="source"></div></div>
+    </div>
+  </div>
+  <script src="_sxb.js"></script>
+  <script>
+const S = SXB, v = S.v, $ = S.$;
+    $("#kicker").textContent = v.kicker; $("#title").textContent = v.title; $("#source").textContent = v.source;
+    if (v.src) $("#shot").src = v.src;
+    const fx = v.focus_x * 100 + "%", fy = v.focus_y * 100 + "%";
+    $("#shot").style.transformOrigin = fx + " " + fy;
+    $("#ring").style.left = fx; $("#ring").style.top = fy;
+    S.enter();
+    S.rise(".side", 0.35);
+    S.tl.to("#shot", { scale: v.zoom, duration: 0.9, ease: "power2.inOut" }, v.zoom_at);
+    if (v.click_at >= 0) {
+      const sx = 14 + v.focus_x * 292, sy = 14 + v.focus_y * 622;           // position du point visé dans le téléphone
+      S.tl.set("#cursor", { left: sx + 160, top: sy + 260, opacity: 0 }, 0);
+      S.tl.to("#cursor", { opacity: 1, duration: 0.15 }, v.click_at - 0.7);
+      S.tl.to("#cursor", { left: sx - 4, top: sy - 4, duration: 0.6, ease: "power3.out" }, v.click_at - 0.65);
+      S.tl.to("#cursor", { scale: 0.85, duration: 0.08, yoyo: true, repeat: 1 }, v.click_at);
+      S.tl.fromTo("#ring", { opacity: 1, scale: 0.4 }, { opacity: 0, scale: 1.8, duration: 0.5, ease: "power2.out", immediateRender: false }, v.click_at);
+    } else $("#cursor").style.display = "none";
+    if (v.tag) { $("#tag").textContent = v.tag; S.pop("#tag", v.tag_at, { rotation: -6 }); } else $("#tag").remove();
+    S.finish("phone-shot");
+  </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!doctype html>
+<!-- Appel à l’action « commente MOT » : mot-clé en grand, commentaire qui se tape, promesse.
+     Thèmes : dark (DA-SXB) / cream (kit avatar). Rendu : node overlays/render-overlay.mjs <params.json> (voir overlays/README.md). -->
+<html lang="fr" data-composition-variables='[
+ {
+  "id": "lead",
+  "type": "string",
+  "label": "Accroche",
+  "default": "Commente"
+ },
+ {
+  "id": "keyword",
+  "type": "string",
+  "label": "Mot-clé",
+  "default": "PANIER"
+ },
+ {
+  "id": "keyword_at",
+  "type": "number",
+  "label": "Mot-clé à (s)",
+  "default": 0.5
+ },
+ {
+  "id": "handle",
+  "type": "string",
+  "label": "Pseudo affiché",
+  "default": "toi"
+ },
+ {
+  "id": "type_at",
+  "type": "number",
+  "label": "Frappe du commentaire à (s)",
+  "default": 1.3
+ },
+ {
+  "id": "promise",
+  "type": "string",
+  "label": "Promesse",
+  "default": "et je t’envoie les 3 leviers"
+ },
+ {
+  "id": "promise_at",
+  "type": "number",
+  "label": "Promesse à (s)",
+  "default": 2.4
+ },
+ {
+  "id": "theme",
+  "type": "enum",
+  "label": "Thème",
+  "default": "dark",
+  "options": [
+   {
+    "value": "dark",
+    "label": "DA-SXB noir / pêche"
+   },
+   {
+    "value": "cream",
+    "label": "Avatar crème / rouge"
+   }
+  ]
+ },
+ {
+  "id": "top",
+  "type": "number",
+  "label": "Position haute (px)",
+  "default": 280
+ },
+ {
+  "id": "duration",
+  "type": "number",
+  "label": "Durée (s)",
+  "default": 5
+ },
+ {
+  "id": "words",
+  "type": "string",
+  "label": "Mots (JSON, rempli par render-overlay)",
+  "default": "[]"
+ },
+ {
+  "id": "highlight",
+  "type": "string",
+  "label": "Instants de pulsation (JSON)",
+  "default": "[]"
+ }
+]'>
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<link rel="stylesheet" href="../../tokens.css" />
+<link rel="stylesheet" href="_sxb.css" />
+<script src="../../assets/gsap.min.js"></script>
+<style>
+.lead { font-weight: 900; font-size: 64px; }
+.kw { margin-top: 18px; font-size: 120px; padding: 18px 46px; letter-spacing: .02em; }
+.box { display: flex; align-items: center; gap: 20px; margin-top: 40px; padding: 18px 22px; border-radius: 999px; background: var(--soft); border: var(--soft-bd); }
+.box .av { flex: none; width: 66px; height: 66px; border-radius: 50%; background: var(--ac); }
+.box .in { flex: 1; font-weight: 800; font-size: 40px; }
+.box .in .ph { color: var(--mu); font-weight: 700; }
+.box .caret { display: inline-block; width: 4px; height: 44px; background: var(--tx); vertical-align: -6px; margin-left: 4px; }
+.box .send { flex: none; width: 66px; height: 66px; border-radius: 50%; background: var(--ac); color: var(--on-ac); display: grid; place-items: center; font-weight: 900; font-size: 34px; }
+.pr { margin-top: 30px; font-weight: 800; font-size: 44px; }
+</style>
+</head>
+<body>
+  <div id="root" data-composition-id="cta-comment" data-start="0" data-width="1080" data-height="1920">
+<div class="card" id="card">
+      <div class="lead" id="lead"></div>
+      <div class="pill kw" id="kw"></div>
+      <div class="box" id="box"><div class="av"></div><div class="in"><span class="ph" id="ph"></span><span id="typed"></span><span class="caret" id="caret"></span></div><div class="send" id="send">↑</div></div>
+      <div class="pr" id="pr"></div>
+    </div>
+  </div>
+  <script src="_sxb.js"></script>
+  <script>
+const S = SXB, v = S.v, $ = S.$;
+    $("#lead").textContent = v.lead; $("#kw").textContent = v.keyword; $("#pr").textContent = v.promise;
+    $("#ph").textContent = "Ajoute un commentaire…";
+    S.enter();
+    S.pop("#kw", v.keyword_at, { rotation: S.dark ? 0 : -6 });
+    S.rise("#box", v.keyword_at + 0.4);
+    const typed = $("#typed"), o = { n: 0 }, K = v.keyword;
+    S.tl.set("#ph", { display: "none" }, v.type_at);
+    S.tl.to(o, { n: K.length, duration: 0.09 * K.length, ease: "none", onUpdate: () => { typed.textContent = K.slice(0, Math.round(o.n)); } }, v.type_at);
+    for (let t = 0; t < (Number(v.duration) || 5); t += 0.5) S.tl.set("#caret", { opacity: t % 1 < 0.5 ? 1 : 0 }, t);
+    S.tl.fromTo("#send", { scale: 1 }, { scale: 1.25, duration: 0.14, yoyo: true, repeat: 1, ease: "power1.inOut" }, v.type_at + 0.09 * K.length + 0.1);
+    S.rise("#pr", v.promise_at);
+    S.finish("cta-comment");
+  </script>
+</body>
+</html>

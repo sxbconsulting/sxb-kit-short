@@ -1,0 +1,29 @@
+{
+  "template": "annotate",
+  "variables": {
+    "src": "assets/dashboard-exemple.png",
+    "img_h": 520,
+    "source": "capture d’exemple",
+    "marks": [
+      {
+        "type": "circle",
+        "x": 0.68,
+        "y": 0.17,
+        "w": 0.28,
+        "h": 0.2,
+        "at": 0.8,
+        "label": "le panier moyen"
+      },
+      {
+        "type": "underline",
+        "x": 0.05,
+        "y": 0.86,
+        "w": 0.6,
+        "h": 0.02,
+        "at": 1.8,
+        "label": ""
+      }
+    ],
+    "duration": 3.8
+  }
+}
