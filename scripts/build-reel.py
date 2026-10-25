@@ -40,7 +40,7 @@ LOCALE = sb.get("locale", "en-US")   # number formatting in count-ups: "40 825" 
 LANG = sb.get("lang", LOCALE.split("-")[0])
 CAP_TOP = {"C": 850, "B": 940, "D": 1690, "F": 1500, "S": 780, "Y": 930}
 CAP_MAX_WORDS = int(sb.get("caption_max_words", 4))
-CAP_STYLE = sb.get("caption_style", "pop")          # "pop" = police display du kit (tokens.css), keyword enlarged · "kit" = ink pill, uppercase · "nate" = dark pill
+CAP_STYLE = sb.get("caption_style", "highlight")    # défaut DA-SXB depuis le 25/10/2026 · "pop" = police display du kit (tokens.css), keyword enlarged · "kit" = ink pill, uppercase · "nate" = dark pill
 # DA-SXB : "highlight" = aplat accent sous le mot dit (TikTok) · "karaoke" = pilule sombre, les mots s'allument · "editorial" = mot-clé géant en accent
 CAP_FONT = sb.get("caption_font", 'var(--font-display)')
 # pop keeps its keywords in the caption color unless the storyboard asks for an accent; nate needs one for its keyword box

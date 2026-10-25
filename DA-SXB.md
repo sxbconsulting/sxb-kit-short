@@ -24,7 +24,7 @@ Texte noir sur l'accent (`#000`) quand l'accent sert de fond (pastille, bouton C
 
 ## Sous-titres
 
-- Trois styles au DA-SXB, au choix dans `storyboard.json` (`caption_style`) : `highlight` (aplat pêche sous le mot dit, majuscules), `karaoke` (pilule sombre, les mots s'allument en pêche puis passent en blanc), `editorial` (mots qui montent, mot-clé géant en pêche sur sa ligne). Le style `pop` reste disponible.
+- Trois styles au DA-SXB (`caption_style`) : `highlight` **par défaut** (aplat pêche sous le mot dit, majuscules), `karaoke` (pilule sombre, les mots s'allument en pêche puis passent en blanc), `editorial` (mots qui montent, mot-clé géant en pêche sur sa ligne). Le style `pop` reste disponible.
 
 - Style `pop` : mot par mot, blanc, 2 à 3 mots par ligne, mot-clé ×1.5 en `#FECA8A`.
 - Placés au tiers bas, jamais sur la bouche. Ombre portée légère pour la lisibilité.
@@ -52,7 +52,7 @@ Texte noir sur l'accent (`#000`) quand l'accent sert de fond (pastille, bouton C
 ## Réglages storyboard.json
 
 ```json
-"caption_style": "pop",
+"caption_style": "highlight",
 "caption_font": "\"Archivo\", sans-serif",
 "caption_accent": "#FECA8A",
 "brand": { "bg": "#000000", "ink": "#FFFFFF", "accent": "#FECA8A", "accent_ink": "#000000",
