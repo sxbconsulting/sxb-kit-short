@@ -41,9 +41,11 @@ LANG = sb.get("lang", LOCALE.split("-")[0])
 CAP_TOP = {"C": 850, "B": 940, "D": 1690, "F": 1500, "S": 780, "Y": 930}
 CAP_MAX_WORDS = int(sb.get("caption_max_words", 4))
 CAP_STYLE = sb.get("caption_style", "pop")          # "pop" = police display du kit (tokens.css), keyword enlarged · "kit" = ink pill, uppercase · "nate" = dark pill
+# DA-SXB : "highlight" = aplat accent sous le mot dit (TikTok) · "karaoke" = pilule sombre, les mots s'allument · "editorial" = mot-clé géant en accent
 CAP_FONT = sb.get("caption_font", 'var(--font-display)')
 # pop keeps its keywords in the caption color unless the storyboard asks for an accent; nate needs one for its keyword box
-CAP_ACCENT = sb.get("caption_accent", "var(--accent)" if CAP_STYLE == "nate" else "currentColor")
+CAP_ACCENT = sb.get("caption_accent", "var(--accent)" if CAP_STYLE in ("nate", "highlight", "karaoke", "editorial") else "currentColor")
+CAP_ON_ACCENT = sb.get("caption_on_accent", sb.get("brand", {}).get("accent_ink", "#000"))   # texte posé sur l'accent
 CAP_SIZE = int(sb.get("caption_size", 64))
 
 # ----------------------------------------------------------------------------- helpers
@@ -653,6 +655,7 @@ def apply_lexicon(words):
 
 
 kw_tl = []   # (id, start) of the keywords, animated by the host timeline
+cap_words = []   # (id, start, next_start, is_kw) of every caption word, for the word-by-word styles
 
 
 def captions(scenes):
@@ -702,6 +705,8 @@ def captions(scenes):
                 kws.append((wid, w["start"], False))
         txt = " ".join(parts)
         kw_tl.extend(kws)
+        for j, (wid, ws, is_kw) in enumerate(kws):
+            cap_words.append((wid, ws, kws[j + 1][1] if j + 1 < len(kws) else end, is_kw))
         out.append(f'<div id="cap-{i}" class="cap clip{on_zone}" data-start="{r3(start)}" data-duration="{r3(end - start)}" data-track-index="{20 + (i % 4)}" style="top:{top}px"><span>{txt}</span></div>')
     return out
 
@@ -723,7 +728,20 @@ CAP_CSS_NATE = f""".cap {{ position: absolute; left: {80 if W < H else 200}px; r
       .cap span {{ display: inline-block; max-width: {880 if W < H else 1380}px; background: rgba(20,20,24,.86); padding: 14px 30px 16px; border-radius: 20px; box-shadow: 0 18px 44px rgba(0,0,0,.28); }}
       .cap b {{ font-weight: inherit; display: inline-block; }}
       .cap em {{ font-style: normal; display: inline-block; background: {CAP_ACCENT}; color: #fff; border-radius: 12px; padding: 2px 14px 4px; margin: 0 2px; }}"""
-CAP_CSS = {"pop": CAP_CSS_POP, "nate": CAP_CSS_NATE}.get(CAP_STYLE, CAP_CSS_KIT)
+CAP_CSS_HIGHLIGHT = f""".cap {{ position: absolute; left: {70 if W < H else 220}px; right: {70 if W < H else 220}px; z-index: 5; text-align: center; font: 900 {round(CAP_SIZE * 0.88)}px/1.18 {CAP_FONT}; color: #fff; letter-spacing: -.015em; text-transform: uppercase; text-shadow: 0 4px 14px rgba(0,0,0,.6); }}
+      .cap span {{ display: inline-block; max-width: {940 if W < H else 1400}px; }}
+      .cap b, .cap em {{ display: inline-block; font-weight: inherit; font-style: normal; padding: 0 .16em; border-radius: .2em; }}
+      .cap em {{ color: {CAP_ACCENT}; }}"""
+CAP_CSS_KARAOKE = f""".cap {{ position: absolute; left: {80 if W < H else 220}px; right: {80 if W < H else 220}px; z-index: 5; text-align: center; font: 800 {CAP_SIZE}px/1.16 {CAP_FONT}; letter-spacing: -.015em; }}
+      .cap span {{ display: inline-block; max-width: {900 if W < H else 1380}px; background: rgba(20,20,20,.86); padding: 14px 32px 16px; border-radius: 28px; box-shadow: 0 18px 44px rgba(0,0,0,.35); }}
+      .cap b, .cap em {{ display: inline-block; font-weight: inherit; font-style: normal; color: #7c7c7c; }}"""
+CAP_CSS_EDITORIAL = f""".cap {{ position: absolute; left: {70 if W < H else 220}px; right: {70 if W < H else 220}px; z-index: 5; text-align: center; transform: translateY(-62%); font: 700 {round(CAP_SIZE * 0.86)}px/1.1 {CAP_FONT}; color: #fff; letter-spacing: -.01em; text-shadow: 0 3px 10px rgba(0,0,0,.6), 0 10px 28px rgba(0,0,0,.4); }}
+      .cap span {{ display: inline-block; max-width: {920 if W < H else 1400}px; }}
+      .cap b {{ display: inline-block; font-weight: inherit; }}
+      .cap em {{ display: block; font-style: normal; font-weight: 900; font-size: 2.1em; line-height: .98; letter-spacing: -.035em; color: {CAP_ACCENT}; text-transform: uppercase; margin: 4px 0; }}
+      .cap.on-zone {{ color: {sb.get("brand", {}).get("ink", "#0F0D0D")}; text-shadow: none; }}   /* translateY : le mot-clé géant grandit vers le haut, pas sur le visage */"""
+CAP_CSS = {"pop": CAP_CSS_POP, "nate": CAP_CSS_NATE, "highlight": CAP_CSS_HIGHLIGHT, "karaoke": CAP_CSS_KARAOKE,
+           "editorial": CAP_CSS_EDITORIAL}.get(CAP_STYLE, CAP_CSS_KIT)
 
 
 def build():
@@ -772,6 +790,21 @@ def build():
             [f'tl.from("#cap-{i} span", {{ scale: 0.92, opacity: 0, duration: 0.18, ease: "power3.out", transformOrigin: "50% 100%" }}, {r3(float(re.search(r"data-start=\"([0-9.]+)\"", c).group(1)))});' for i, c in enumerate(caps, 1)]
             + [(f'tl.from("#{kid}", {{ scale: 0.55, opacity: 0, duration: 0.28, ease: "back.out(2.4)" }}, {r3(max(0, kstart - 0.03))});' if is_kw
                 else f'tl.from("#{kid}", {{ opacity: 0, y: 8, duration: 0.12, ease: "power2.out" }}, {r3(max(0, kstart - 0.03))});') for kid, kstart, is_kw in kw_tl])
+    elif CAP_STYLE in ("highlight", "karaoke", "editorial"):
+        starts = [r3(float(re.search(r"data-start=\"([0-9.]+)\"", c).group(1))) for c in caps]
+        lines = [f'tl.from("#cap-{i} span", {{ scale: 0.94, opacity: 0, duration: 0.16, ease: "power3.out", transformOrigin: "50% 100%" }}, {t});' for i, t in enumerate(starts, 1)]
+        for wid, ws, nxt, is_kw in cap_words:
+            a, b = r3(max(0, ws - 0.03)), r3(max(0, nxt - 0.03))
+            if CAP_STYLE == "highlight":          # aplat accent sous le mot dit, puis retour au blanc
+                lines.append(f'tl.set("#{wid}", {{ backgroundColor: "{CAP_ACCENT}", color: "{CAP_ON_ACCENT}", textShadow: "none", scale: 1.06 }}, {a});')
+                lines.append(f'tl.set("#{wid}", {{ backgroundColor: "rgba(0,0,0,0)", color: "{CAP_ACCENT if is_kw else "#fff"}", textShadow: "0 4px 14px rgba(0,0,0,.6)", scale: 1 }}, {b});')
+            elif CAP_STYLE == "karaoke":          # gris → accent pendant le mot → blanc une fois dit
+                lines.append(f'tl.set("#{wid}", {{ color: "{CAP_ACCENT}" }}, {a});')
+                lines.append(f'tl.set("#{wid}", {{ color: "{CAP_ACCENT if is_kw else "#fff"}" }}, {b});')
+            else:                                 # editorial : mots qui montent, mot-clé qui s'écrase
+                lines.append(f'tl.from("#{wid}", {{ scale: 1.6, opacity: 0, duration: 0.26, ease: "power4.out" }}, {a});' if is_kw
+                             else f'tl.from("#{wid}", {{ opacity: 0, y: 14, duration: 0.14, ease: "power3.out" }}, {a});')
+        cap_tl = "\n      ".join(lines)
     CAP_TL = cap_tl
     index = f"""<!doctype html>
 <html lang="{LANG}">

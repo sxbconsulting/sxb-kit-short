@@ -108,7 +108,7 @@ button, `arrow`), `tag` (small rounded label), `cascade` (`src` list of clips fa
 Every timed value accepts a word anchor: `"at": "w:word"` = the start of that word in the transcript. Scenes must start on a
 word (Nate's validator wants an anchor within −0.15 / +0.2 s); a scene with no visual event for more than 2.2 s carries a
 `holdReason`. `caption_style`: `pop` by default (Helvetica Neue Bold, word-by-word reveal, keyword ×1.55 in the caption color;
-`caption_accent` colors the keywords), `kit` (pill, uppercase) or `nate`. `lexicon` fixes one word → one word (proper nouns). `keywords` are matched ignoring case, punctuation
+`caption_accent` colors the keywords), `kit` (pill, uppercase), `nate`, or the three DA-SXB styles: `highlight` (an accent block slides under the word being said, TikTok style), `karaoke` (dark pill, words light up in the accent as they are said, then turn white), `editorial` (words rise as they are said, keywords land huge in the accent on their own line, the block grows upwards so it never covers the face). They use `caption_accent` and `caption_on_accent` (text on the accent, default `brand.accent_ink`). `lexicon` fixes one word → one word (proper nouns). `keywords` are matched ignoring case, punctuation
 and elisions ("d'ingénieur" matches "ingénieur", "40 825" matches "40 825"). `locale` (default `en-US`) formats the numbers in
 count-ups and sets the HTML `lang`; `lang` overrides the latter. Transcription detects the language on its own
 (`transcribe.py --lang xx` forces it); only French spelled-out numbers are converted to digits.
