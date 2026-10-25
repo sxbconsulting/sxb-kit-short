@@ -121,6 +121,11 @@ count-ups and sets the HTML `lang`; `lang` overrides the latter. Transcription d
 - **Fonts**: only fonts declared in `tokens.css` (Archivo, Poppins, Fraunces, Caveat, all local). Any other name — such as
   « Helvetica Neue » — is silently swapped by HyperFrames for a font downloaded from Google (Inter); `build-reel.py` now
   defaults to `var(--font-display)`.
+- **SFX bank**: `python3 scripts/sfx-bank.py` builds `~/sxb-sfx` on this machine (37 sounds: the 19 Pixabay files bundled with
+  `media-use` plus 16 Mixkit sounds — coins, camera shutter, paper, pencil, scribble, swooshes, message pops, correct/wrong
+  tones), trimmed, mono 48 kHz, peak-aligned, described in `~/sxb-sfx/manifest.json` (category, use, duration, source, license).
+  Both licenses allow commercial use without credit; the raw files are **not** committed to this public repo. Copy the
+  sounds a project needs into its `assets/sfx/` and keep them 8–12 dB under the voice. The avatar kit uses the same bank.
 - **Overlays**: `overlays/` renders transparent, parameterised cards (WebM/MOV alpha) from a JSON file with word timings,
   in the DA-SXB look (black, white, #FECA8A) — see `overlays/README.md`. The avatar kit (`sxb-shorts`, its own cream/red brand)
   composites them with `OVERLAY_CLIPS` in `scenes.py`.
