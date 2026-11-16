@@ -79,6 +79,6 @@ Media never lives in git. See `THIRD_PARTY_NOTICES.md` for what comes from where
 
 ## Credits
 
-Based on [reel-kit](https://github.com/antoineblc99/reel-kit) by Antoine Blanco (MIT), without its PlugKit publishing step.
+
 Built on Nate Herk's [HyperFrames Student Kit](https://github.com/nateherkai/hyperframes-student-kit) (MIT) and
 [HyperFrames](https://github.com/heygen-com/hyperframes) (Apache-2.0). MIT license.
