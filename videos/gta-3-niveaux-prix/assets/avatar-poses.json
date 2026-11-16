@@ -1,0 +1,23 @@
+{
+ "avatar_dir": "assets/brand/avatar",
+ "poses": [
+  {"pose": "reflexion", "at": 0},
+  {"pose": "pointe", "at": "w:Devine"},
+  {"pose": "double-pouce", "at": "w:celle"},
+  {"pose": "neutre-rondes", "at": "w:patron"},
+  {"pose": "ok", "at": "w:Juste"},
+  {"pose": "pointe", "at": "w:copier"},
+  {"pose": "coeur", "at": "w:boulangerie."},
+  {"pose": "pouce", "at": "w:Toi,"},
+  {"pose": "reflexion-2", "at": "w:Parce"},
+  {"pose": "surpris", "at": "w:baisse,"},
+  {"pose": "peace", "at": "w:trois"},
+  {"pose": "poing", "at": "w:surtout,"},
+  {"pose": "appelle", "at": "w:bonus#2"},
+  {"pose": "poings", "at": "w:complète"},
+  {"pose": "double-pouce-langue", "at": "w:abonne-toi"},
+  {"pose": "pointe", "at": "w:Bootcamp"},
+  {"pose": "appelle", "at": "w:commentes"},
+  {"pose": "mains-jointes", "at": "w:Allez,"}
+ ]
+}

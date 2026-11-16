@@ -14,9 +14,9 @@ vérification en 2 passes avant chaque envoi.
 ## Gates
 
 - [x] 1. Cadrage — sans objet (audio seul)
-- [ ] 2. Dérush — proposé (64,5 s, 19 plages), montage coupé `review/gate2-cut.mp4`, en attente du ok
-- [ ] 3. Sous-titres (highlight GTA validé sur la vidéo 1)
-- [ ] 4. Beats et assets
+- [x] 2. Dérush — validé (« ok pour tout »), t04 retirée, CTA BOOTCAMP confirmé
+- [x] 3. Sous-titres — style highlight GTA validé sur la vidéo 1, repris tel quel
+- [ ] 4. Beats et assets — proposés (`DESIGN.md`, `review/gate4-assets.png`)
 - [ ] 5. Ouverture
 - [ ] 6. Animatic → final
 - [ ] 7. Livraison
@@ -43,3 +43,11 @@ Vérif : passe 1 (`verify-cut.py`) 0 problème ; passe 2 (fenêtre ±1,2 s, blan
 `assets/derush/cut-fixes.json` : Tech2 → Take-Two, précompte → précommande.
 Fait vérifié : Strauss Zelnick (PDG Take-Two) sur CNBC, résultats d'août : précommandes « skewing more to the premium edition »
 (99,99 $ vs 79,99 $ standard).
+
+## Gate 4 — assets
+
+Faits vérifiés et capturés (Firecrawl) : éditions 79,99 $ / 99,99 $ (xbox.com « Compare editions » ; la page Rockstar /VI/editions
+s'affiche sans prix en capture), interview CNBC 10/08/2026, bilan FEVAD 2025 (LSA, 11/02/2026 : panier moyen 62 €, −3 %).
+Trailer 2 : `gta-beach` (38,45–41,5, recoupé : une coupe à 38,37 détectée), `gta-logo-vi` (158,0–159,7). Maquettes `scripts/mockups-prix.mjs`
+(passe 1 : « PACK PETIT-DÉJ » sur 2 lignes → corrigé). Monde avatar : `assets/avatar-poses.json` (contrôle à blanc : « w:bonus, »
+tombait sur le 1er « bonus » → `bonus#2`).

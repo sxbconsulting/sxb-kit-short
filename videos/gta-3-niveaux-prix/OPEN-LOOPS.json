@@ -1,0 +1,7 @@
+{
+ "opening": {"benefit": "Augmenter son panier moyen en copiant la stratégie de prix de GTA 6", "evidenceBy3": "« 80 $ ou 100 $ ? » posé à l'écran et à l'oral avant 3 s", "payoffTime": 4.16},
+ "loops": [
+  {"id": "quiz", "question": "Quelle édition de GTA 6 se précommande le plus ?", "object": "Les deux prix 80 $ / 100 $ avec un « ? »", "setup": 2.67, "updates": [], "closure": 4.16, "resolution": "Tampon « 100 $ ✓ », puis la source CNBC", "supportingSpeech": "C'est celle à 100 dollars"},
+  {"id": "main", "question": "Comment copier ça dans sa boutique ?", "object": "« COPIE ÇA » puis 3 cases d'offre vides", "setup": 13.11, "updates": [{"time": 14.79, "state": "L'analogie de la boulangerie"}, {"time": 30.97, "state": "Trois offres, pas une"}, {"time": 41.62, "state": "Celle du milieu en avant"}, {"time": 44.14, "state": "Les bonus"}], "closure": 51.20, "resolution": "Récap : 3 offres + bonus → panier moyen ↑", "supportingSpeech": "tu auras construit une offre complète qui te permettra de faire monter la valeur de ton panier moyen"}
+ ]
+}
