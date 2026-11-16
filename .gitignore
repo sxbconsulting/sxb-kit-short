@@ -24,3 +24,5 @@ node_modules/
 renders/overlays/
 .hyperframes/
 overlays/.media/
+assets/derush/*.m4a
+__pycache__/
