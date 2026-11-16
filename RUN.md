@@ -24,7 +24,7 @@ DA inspirée de GTA 6.
 - [x] 3. Sous-titres — validés (« Good on continue »)
 - [x] 4. Beats et assets — validés, extraits du trailer gardés (« ok garde les extraits »)
 - [x] 5. Ouverture — **A, le tampon** (« À »)
-- [ ] 6. Animatic → final — v1 envoyée (`review/gate6-animatic-v1.mp4`), en attente des retours (3 tours max)
+- [ ] 6. Animatic → final — v1 : retour 1/3 « pas que du split, du plein écran avec ma tête en bas à gauche » → **v2** envoyée (`review/gate6-animatic-v2.mp4`)
 - [ ] 7. Livraison
 
 ## Environnement de transcription (cloud)
@@ -123,3 +123,14 @@ Passe 2 : image 0 grise et vide dans les 3 (fondu d'entrée de la zone) → `no_
   cinémascope dans les cartes postales → hauteur 0,44 × largeur (image utile 1920×864) ; flash gris à chaque jointure (fondu
   d'entrée de la zone) → `no_intro` sur toutes les scènes S ; écran de fin qui se chevauchait → checklist compacte (`.zcheck.sm`).
   Rendu final : −16,3 LUFS / −1,3 dBTP, 92,8 s, chaque extrait non noir pendant sa fenêtre, 19 jointures nettes.
+
+### Retour 1/3 → v2
+
+« Ne pas faire que du split screen, du plein écran avec les illustrations et ma tête en bas à gauche avec mes expressions. »
+- Nouveau type d'item `cam` dans `build-reel.py` : bulle ronde qui lit `assets/speaker.mp4` au temps de la scène (les poses suivent).
+- 6 beats en plein écran illustré (`zone.full`, bulle 410 px en bas à gauche, sous-titres à 1220) : GTA 6 sort jeudi, t-shirts /
+  casquettes / briquets, néons / palmiers, les références, le jeu concours, « GTA 6 à gagner / leur logo ». Rythme : S / plein / S / F.
+- Vérif : illustrations trop petites (40 % haut de l'écran) → étalées jusqu'aux sous-titres ; « OU » masqué par une carte qui rebondit ;
+  bug `build-reel.py` : un sous-titre qui commence 0,01 s avant sa scène (scène arrondie à l'image) prenait la position de la scène
+  précédente (« ET » sur le visage à 9,6 s) → choix de la scène à début + 0,06 s ; contrôle : 0 sous-titre mal placé, 0 débordement.
+  17 jointures de format revues en pleine résolution, 0 extrait noir, −16,3 LUFS.

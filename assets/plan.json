@@ -250,6 +250,12 @@
    "anchor": "7.36"
   },
   {
+   "time": 7.36,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "7.36"
+  },
+  {
    "time": 8.696,
    "type": "overlay-pop",
    "visual": "s02-s",
@@ -296,6 +302,12 @@
    "type": "overlay-pop",
    "visual": "s03-s",
    "anchor": "w:dérivés"
+  },
+  {
+   "time": 12.4,
+   "type": "overlay-pop",
+   "visual": "s04-s",
+   "anchor": "12.4"
   },
   {
    "time": 12.4,
@@ -458,6 +470,12 @@
    "type": "overlay-pop",
    "visual": "s07-s",
    "anchor": "w:Pas"
+  },
+  {
+   "time": 30.43,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "30.43"
   },
   {
    "time": 30.568,
@@ -670,6 +688,12 @@
    "anchor": "w:Utilise"
   },
   {
+   "time": 55.81,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "55.81"
+  },
+  {
    "time": 57.327,
    "type": "overlay-pop",
    "visual": "s13-s",
@@ -784,6 +808,12 @@
    "anchor": "w:Enfin"
   },
   {
+   "time": 68.95,
+   "type": "overlay-pop",
+   "visual": "s16-s",
+   "anchor": "68.95"
+  },
+  {
    "time": 69.832,
    "type": "overlay-pop",
    "visual": "s16-s",
@@ -842,6 +872,12 @@
    "type": "caption-emphasis",
    "visual": "s16-s",
    "anchor": "concours."
+  },
+  {
+   "time": 76.89,
+   "type": "overlay-pop",
+   "visual": "s17-s",
+   "anchor": "76.89"
   },
   {
    "time": 77.068,

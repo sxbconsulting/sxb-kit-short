@@ -53,3 +53,8 @@
 .zstamp.big { font-size: 150px; padding: 10px 46px 18px; border-width: 9px; }
 .zcheck.sm { font-size: 44px; padding: 14px 26px; }
 .zcheck.sm .ck { width: 46px; height: 46px; font-size: 28px; }
+/* speaker bubble on full-frame illustration scenes */
+.zcam { position: absolute; border-radius: 50%; overflow: hidden; border: 8px solid #fff; background: #14082A;
+  box-shadow: 0 0 0 5px #FF2E88, 0 0 40px rgba(255,46,136,.6), 0 24px 60px rgba(0,0,0,.6); }
+.ztag.xl { font-size: 56px; padding: 18px 34px; }
+.ztag.xl .dot { width: 18px; height: 18px; }

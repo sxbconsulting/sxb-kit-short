@@ -336,6 +336,10 @@ def zone_items(sid, z, t0, t1, tl):
             frm = it.get("from", "up")
             start_pos = {"left": "x: -400", "right": "x: 400", "up": "y: 120", "down": "y: -120", "far": "z: -900"}.get(frm, "y: 120")
             tl.append(f'tl.from("#{iid}", {{ {start_pos}, opacity: 0, duration: 0.55, ease: "back.out(1.4)" }}, {at});')
+        elif typ == "cam":   # picture-in-picture of the speaker (round bubble), in sync with the voice: media time = scene time
+            size = it.get("w", 380)
+            items_html.append(f'<div class="zcam" id="{iid}" style="left:{x}px;top:{y}px;width:{size}px;height:{size}px"><video id="{iid}-v" class="clip" src="{esc(SPEAKER)}" data-start="{at}" data-duration="{r3(t1 - t0 - float(at))}" data-media-start="{r3(t0 + float(at))}" data-track-index="{40 + j}" muted playsinline style="width:100%;height:100%;object-fit:cover;object-position:{it.get("pos", "50% 46%")};transform:scale({it.get("zoom", 1)});transform-origin:{it.get("pos", "50% 46%")}"></video></div>')
+            tl.append(f'tl.from("#{iid}", {{ scale: 0.4, opacity: 0, duration: 0.4, ease: "back.out(2)" }}, {at});')
         elif typ == "glass":
             ico = f'<div class="ico">{esc(it["icon"])}</div>' if it.get("icon") else ""
             ttl = f'<div class="ttl">{rich(it["title"])}</div>' if it.get("title") else ""
@@ -693,7 +697,9 @@ def captions(scenes):
         start, end = ch[0]["start"], max(ch[-1]["end"], ch[0]["start"] + 0.5)
         if i < len(chunks):
             end = min(end + 0.25, chunks[i][0]["start"])
-        scene = next((s for s in scenes if float(s["start"]) <= start < float(s["end"])), {"layout": "F"})
+        # +0.06: a scene start is snapped to a frame and can land a hair after the word that opens it;
+        # the caption must take the layout of the scene it is shown in, not the one that just ended
+        scene = next((s for s in scenes if float(s["start"]) <= start + 0.06 < float(s["end"])), {"layout": "F"})
         layout = scene["layout"]
         top = scene.get("cap_top", 1140 if (layout == "F" and scene.get("keyword")) else CAP_TOP[layout])
         zz = scene.get("zone") or {}
