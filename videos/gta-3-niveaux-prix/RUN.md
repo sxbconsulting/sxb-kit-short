@@ -18,7 +18,7 @@ vérification en 2 passes avant chaque envoi.
 - [x] 3. Sous-titres — style highlight GTA validé sur la vidéo 1, repris tel quel
 - [x] 4. Beats et assets — validés (« A & go »), carte texte Bootcamp (pas de visuel fourni)
 - [x] 5. Ouverture — **A, le duel** (choisie sans rendu comparatif, à la demande de l'utilisateur)
-- [ ] 6. Animatic → final — v1 envoyée (`review/gate6-animatic-v1.mp4`)
+- [ ] 6. Animatic → final — retour 1/3 « dynamiser » → **v2** envoyée (`review/gate6-animatic-v2.mp4`)
 - [ ] 7. Livraison
 
 ## Gate 2 — dérush (méthode corrigée depuis la vidéo 1)
@@ -61,3 +61,15 @@ Vérif : 1er mot à 0,41 s → plage t01 démarre 0,1 s avant « GTA » (validat
 sur leur mot (−0,3 s) ; `build-reel.py` (ici et à la racine) : temps de scène à 4 décimales (« not frame aligned ») ; « ? » sur le
 badge 100 $ ; « + 2E À −20 % » et « ③ COMPLET + BONUS » qui se chevauchaient ; tags CNBC sur la capture → colonne à gauche ;
 zoom sur l'offre du milieu trop fort (texte coupé) → ×1,18 ; 4 scènes vides 0,5 s à leur début → premier élément dès l'image 0.
+
+### Retour 1/3 → v2 « tu peux dynamiser encore + la vidéo ? »
+
+Nouveaux réglages de `build-reel.py` (aussi à la racine, désactivés par défaut) :
+- `"punch": {"zoom": 1.12, "min_gap": 1.4}` : zoom sec sur l'avatar (couche `.fpunch` dans le cadre, le cadre garde son découpage)
+  sur les mots-clés des sous-titres → 11 punch-ins.
+- `"wipes": {"sfx": "whoosh-short", "sfx_db": -20}` : bande néon rose/soleil inclinée qui balaie l'écran 0,32 s à chaque changement de
+  format (split / plein écran / avatar) → 10 balayages, whoosh mesuré à −19 dB sous la voix.
+- `"shake_on_stamp": true` : la zone tremble 0,14 s quand un tampon claque (x absolu, retour à 0).
+- Titres des scènes F : respiration continue (×1,06) jusqu'à la coupe.
+Vérif : captures aux instants des effets (punch 2,4 s, balayage 12,34 s, tampon 4,4 s), rendu complet, −16,3 LUFS, crête −1,45 dBFS,
+plan ok, check 0 erreur (8 avertissements de structure).

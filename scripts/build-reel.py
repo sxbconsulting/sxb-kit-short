@@ -432,6 +432,9 @@ def zone_items(sid, z, t0, t1, tl):
             tl.append(f'tl.from("#{iid}", {{ opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }}, {at});')
         if it.get("instant") and len(tl) > n_tl and tl[n_tl].startswith(f'tl.from("#{iid}"'):
             del tl[n_tl]
+        if sb.get("shake_on_stamp") and typ == "stamp":   # the whole zone takes the hit (absolute x, back to 0)
+            tl.append(f'tl.to("#zone", {{ x: 9, duration: 0.035, yoyo: true, repeat: 3, ease: "none" }}, {r3(float(at) + 0.12)});')
+            tl.append(f'tl.set("#zone", {{ x: 0 }}, {r3(float(at) + 0.27)});')
         if it.get("sfx"):   # a sound on the pop: absolute time, played by the host page (assets/sfx/<name>.wav)
             SFX.append({"name": it["sfx"], "t": t0 + float(rel(it.get("sfx_at", it.get("at", t0)))), "db": float(it.get("sfx_db", -12))})
         if sb.get("idle_motion"):   # life after the entrance: slow push-in, stamp knock, float, breathing bubble
@@ -623,6 +626,10 @@ def scene_html(sid, sc):
                     tl.append(f'tl.to("#{iid}", {{ opacity: {it.get("dim_to", 0.55)}, scale: {it.get("dim_scale", 0.72)}, y: {it.get("dim_y", 0)}, duration: 0.4, ease: "power2.inOut", transformOrigin: "50% 50%" }}, {r3(max(0, resolve_at(it["dim_at"], t0, float(sc["end"])) - t0))});')
                 if it.get("out_at") is not None:
                     tl.append(f'tl.to("#{iid}", {{ opacity: 0, duration: 0.25 }}, {r3(max(0, resolve_at(it["out_at"], t0, float(sc["end"])) - t0))});')
+                elif sb.get("idle_motion"):   # the title keeps breathing until the cut
+                    life = float(sc["end"]) - t0 - max(0, at) - 0.4
+                    if life > 0.5:
+                        tl.append(f'tl.to("#{iid}", {{ scale: 1.06, y: -8, duration: {r3(life)}, ease: "sine.inOut" }}, {r3(max(0, at) + 0.4)});')
             body += html
             if ov.get("out") is not None:
                 tl.append(f'tl.to("#root .ov, #root .ovimg, #root .ovbg", {{ opacity: 0, duration: 0.3, ease: "power2.in" }}, {r3(max(0, float(ov["out"]) - t0))});')
@@ -684,6 +691,7 @@ def apply_lexicon(words):
     return out
 
 
+FACE_WINDOWS = []   # (sid, start, end, layout) of every speaker clip, for the punch-ins
 SFX = []     # {"name", "t", "db"}: sounds on pops, collected from the zone items ("sfx": "pop"), mixed by the host page
 kw_tl = []   # (id, start) of the keywords, animated by the host timeline
 cap_words = []   # (id, start, next_start, is_kw) of every caption word, for the word-by-word styles
@@ -807,7 +815,8 @@ def build():
             # face_zoom (scene) or face_zoom_f / face_zoom_s (storyboard): a punch-in that keeps the face at `pos`
             zoom = float(sc.get("face_zoom", sb.get(f"face_zoom_{lay.lower()}", 1)))
             zstyle = f";transform:scale({zoom});transform-origin:{pos}" if zoom != 1 else ""
-            face_clips.append(f'<div class="{wrap}" id="{sid}-face-wrap"><video id="{sid}-face" class="clip" src="{esc(SPEAKER)}" data-start="{r3(start)}" data-duration="{r3(dur)}" data-media-start="{r3(start)}" data-track-index="0" muted playsinline style="object-position:{pos}{zstyle}"></video></div>')
+            face_clips.append(f'<div class="{wrap}" id="{sid}-face-wrap"><div class="fpunch" id="{sid}-fp"><video id="{sid}-face" class="clip" src="{esc(SPEAKER)}" data-start="{r3(start)}" data-duration="{r3(dur)}" data-media-start="{r3(start)}" data-track-index="0" muted playsinline style="object-position:{pos}{zstyle}"></video></div></div>')
+            FACE_WINDOWS.append((sid, start, start + dur, lay))
             last_wrap, last_pos = wrap, pos
     tail = float(sb.get("freeze_tail", 0))
     if tail > 0:
@@ -839,6 +848,37 @@ def build():
                 lines.append(f'tl.from("#{wid}", {{ scale: 1.6, opacity: 0, duration: 0.26, ease: "power4.out" }}, {a});' if is_kw
                              else f'tl.from("#{wid}", {{ opacity: 0, y: 14, duration: 0.14, ease: "power3.out" }}, {a});')
         cap_tl = "\n      ".join(lines)
+    extra_tl, wipe_html = [], []
+    pc = sb.get("punch")
+    if pc:   # zoom cut on the speaker on keywords: 1 → zoom in 0.08 s, back to 1 over 0.45 s; min gap between two punches
+        last = -9
+        for kid, kstart, is_kw in kw_tl:
+            if not is_kw or kstart - last < float(pc.get("min_gap", 1.4)):
+                continue
+            win = next((w for w in FACE_WINDOWS if w[1] + 0.25 <= kstart <= w[2] - 0.6), None)
+            if not win:
+                continue
+            extra_tl.append(f'tl.fromTo("#{win[0]}-fp", {{ scale: 1 }}, {{ scale: {pc.get("zoom", 1.12)}, duration: 0.08, ease: "power2.out", immediateRender: false }}, {r3(kstart - 0.02)});')
+            extra_tl.append(f'tl.to("#{win[0]}-fp", {{ scale: 1, duration: 0.45, ease: "power3.out" }}, {r3(kstart + 0.06)});')
+            last = kstart
+    if sb.get("wipes"):   # neon band sweeping across the cut when the format changes (split / full / face)
+        def fmt(sc):
+            return "full" if (sc.get("zone") or {}).get("full") else sc["layout"]
+        sc_list = sb["scenes"]
+        k = 0
+        for a, b in zip(sc_list, sc_list[1:]):
+            if fmt(a) == fmt(b):
+                continue
+            t = float(b["start"])
+            wipe_html.append(f'<div class="wipe clip" id="wipe-{k}" data-start="{r3(t - 0.16)}" data-duration="0.32" data-track-index="{30 + k % 2}"></div>')
+            extra_tl.append(f'tl.fromTo("#wipe-{k}", {{ xPercent: -160, skewX: -14 }}, {{ xPercent: 160, skewX: -14, duration: 0.32, ease: "power2.inOut" }}, {r3(t - 0.16)});')
+            if sb["wipes"].get("sfx"):
+                SFX.append({"name": sb["wipes"]["sfx"], "t": max(0, t - 0.16), "db": float(sb["wipes"].get("sfx_db", -18))})
+            k += 1
+        print(f"{k} wipes")
+    if extra_tl:
+        print(f"{sum(1 for l in extra_tl if l.startswith('tl.fromTo') and '-fp' in l)} punch-ins")
+    cap_tl += "\n      " + "\n      ".join(extra_tl)
     CAP_TL = cap_tl
     sfx_html = []
     if SFX:
@@ -880,6 +920,9 @@ def build():
       /* rayon et ombre sur la vidéo (un clip, donc cachée hors de sa fenêtre), jamais sur le wrapper non timé */
       .face-b video {{ border-radius: var(--radius-face); box-shadow: var(--shadow-face); }}
       .scene {{ position: absolute; inset: 0; z-index: 1; }}
+      .fpunch {{ width: 100%; height: 100%; transform-origin: 50% 42%; }}
+      .wipe {{ position: absolute; top: -10%; bottom: -10%; left: -20%; width: 140%; z-index: 4; pointer-events: none;
+        background: linear-gradient(90deg, rgba(255,46,136,0) 0%, #FF2E88 18%, #FFC861 50%, #FF2E88 82%, rgba(255,46,136,0) 100%); }}
       {CAP_CSS}
     </style>
   </head>
@@ -892,6 +935,8 @@ def build():
       {chr(10).join("      " + x for x in sfx_html)}
       <!-- scenes -->
       {chr(10).join("      " + x for x in scene_clips)}
+      <!-- format-change wipes -->
+      {chr(10).join("      " + x for x in wipe_html)}
       <!-- captions -->
       {chr(10).join("      " + x for x in caps)}
     </div>

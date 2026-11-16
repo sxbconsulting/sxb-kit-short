@@ -206,6 +206,8 @@ window.__timelines = window.__timelines || {};
     tl.from("#s16-s-z0", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 0.202);
   tl.to("#s16-s-z0", { y: -7, duration: 1.607, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.752);
   tl.from("#s16-s-z1", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 0.622);
+  tl.to("#zone", { x: 9, duration: 0.035, yoyo: true, repeat: 3, ease: "none" }, 0.742);
+  tl.set("#zone", { x: 0 }, 0.892);
   tl.to("#s16-s-z1", { rotation: -3, duration: 0.1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 1.122);
   tl.to("#s16-s-z1", { y: -10, duration: 1.397, yoyo: true, repeat: 1, ease: "sine.inOut" }, 1.172);
   tl.from("#s16-s-z2", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 1.704);

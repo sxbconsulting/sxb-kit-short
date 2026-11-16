@@ -786,5 +786,14 @@
     ]
    }
   }
- ]
+ ],
+ "punch": {
+  "zoom": 1.12,
+  "min_gap": 1.4
+ },
+ "wipes": {
+  "sfx": "whoosh-short",
+  "sfx_db": -20
+ },
+ "shake_on_stamp": true
 }

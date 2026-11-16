@@ -208,6 +208,8 @@ window.__timelines = window.__timelines || {};
   tl.from("#s15-s-z1", { y: 90, opacity: 0, duration: 0.55, ease: "back.out(1.5)" }, 1.686);
   tl.to("#s15-s-z1", { y: -7, duration: 0.665, yoyo: true, repeat: 1, ease: "sine.inOut" }, 2.236);
   tl.from("#s15-s-z2", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 2.627);
+  tl.to("#zone", { x: 9, duration: 0.035, yoyo: true, repeat: 3, ease: "none" }, 2.747);
+  tl.set("#zone", { x: 0 }, 2.897);
   tl.fromTo("#s15-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 164px, 0px 0px", duration: 3.567, ease: "none" }, 0);
   tl.to({}, { duration: 3.567 }, 0);
   window.__timelines["s15-s"] = tl;
