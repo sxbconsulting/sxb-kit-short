@@ -24,8 +24,8 @@ DA inspirée de GTA 6.
 - [x] 3. Sous-titres — validés (« Good on continue »)
 - [x] 4. Beats et assets — validés, extraits du trailer gardés (« ok garde les extraits »)
 - [x] 5. Ouverture — **A, le tampon** (« À »)
-- [ ] 6. Animatic → final — retour 1/3 → v2 (plein écran + bulle) ; retour 2/3 → **v3** (sons parcimonieux + animation continue), envoyée (`review/gate6-animatic-v3.mp4`, rendu plein format `renders/animatic-v3.mp4`)
-- [ ] 7. Livraison
+- [x] 6. Animatic → final — v3 validée (« ok »)
+- [x] 7. Livraison — `renders/gta-propriete-intellectuelle.mp4` (SHA-256 da11e555…), `VERIFY.md`, `ENTERTAINMENT-REVIEW.md`, légende `review/gta-propriete-intellectuelle-legende.md`
 
 ## Environnement de transcription (cloud)
 
