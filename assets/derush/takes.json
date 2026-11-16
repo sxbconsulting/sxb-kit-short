@@ -1,0 +1,3055 @@
+[
+ {
+  "in": 2.01,
+  "out": 9.31,
+  "words": [
+   {
+    "text": "Mettre",
+    "start": 2.121,
+    "end": 2.443
+   },
+   {
+    "text": "GTA",
+    "start": 2.463,
+    "end": 3.025
+   },
+   {
+    "text": "sur",
+    "start": 3.045,
+    "end": 3.166
+   },
+   {
+    "text": "ton",
+    "start": 3.186,
+    "end": 3.346
+   },
+   {
+    "text": "produit",
+    "start": 3.366,
+    "end": 3.788
+   },
+   {
+    "text": "et",
+    "start": 3.828,
+    "end": 3.909
+   },
+   {
+    "text": "surtout",
+    "start": 3.929,
+    "end": 4.17
+   },
+   {
+    "text": "dans",
+    "start": 4.21,
+    "end": 4.351
+   },
+   {
+    "text": "tes",
+    "start": 4.371,
+    "end": 4.471
+   },
+   {
+    "text": "publicités",
+    "start": 4.491,
+    "end": 5.495
+   },
+   {
+    "text": "pour",
+    "start": 5.515,
+    "end": 5.676
+   },
+   {
+    "text": "surfer",
+    "start": 5.716,
+    "end": 6.058
+   },
+   {
+    "text": "un",
+    "start": 6.098,
+    "end": 6.158
+   },
+   {
+    "text": "peu",
+    "start": 6.178,
+    "end": 6.339
+   },
+   {
+    "text": "sur",
+    "start": 6.379,
+    "end": 6.479
+   },
+   {
+    "text": "la",
+    "start": 6.519,
+    "end": 6.58
+   },
+   {
+    "text": "hype",
+    "start": 6.6,
+    "end": 6.781
+   },
+   {
+    "text": "du",
+    "start": 6.801,
+    "end": 6.861
+   },
+   {
+    "text": "moment",
+    "start": 6.881,
+    "end": 7.202
+   },
+   {
+    "text": "c'est",
+    "start": 7.242,
+    "end": 7.383
+   },
+   {
+    "text": "le",
+    "start": 7.403,
+    "end": 7.483
+   },
+   {
+    "text": "meilleur",
+    "start": 7.524,
+    "end": 7.825
+   },
+   {
+    "text": "moyen",
+    "start": 7.845,
+    "end": 8.066
+   },
+   {
+    "text": "de",
+    "start": 8.086,
+    "end": 8.166
+   },
+   {
+    "text": "risquer",
+    "start": 8.206,
+    "end": 8.447
+   },
+   {
+    "text": "son",
+    "start": 8.488,
+    "end": 8.608
+   },
+   {
+    "text": "compte",
+    "start": 8.628,
+    "end": 8.769
+   },
+   {
+    "text": "publicitaire",
+    "start": 8.789,
+    "end": 9.331
+   }
+  ],
+  "text": "Mettre GTA sur ton produit et surtout dans tes publicités pour surfer un peu sur la hype du moment c'est le meilleur moyen de risquer son compte publicitaire",
+  "norm": [
+   "mettre",
+   "gta",
+   "sur",
+   "ton",
+   "produit",
+   "et",
+   "surtout",
+   "dan",
+   "tes",
+   "publicite",
+   "pour",
+   "surfer",
+   "un",
+   "peu",
+   "sur",
+   "la",
+   "hype",
+   "du",
+   "moment",
+   "c'est",
+   "le",
+   "meilleur",
+   "moyen",
+   "de",
+   "risquer",
+   "son",
+   "compte",
+   "publicitaire"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 9.97,
+  "out": 15.02,
+  "words": [
+   {
+    "text": "GTA",
+    "start": 10.041,
+    "end": 10.243
+   },
+   {
+    "text": "6",
+    "start": 10.263,
+    "end": 10.485
+   },
+   {
+    "text": "sort",
+    "start": 10.526,
+    "end": 10.687
+   },
+   {
+    "text": "jeudi",
+    "start": 10.707,
+    "end": 11.03
+   },
+   {
+    "text": "le",
+    "start": 11.051,
+    "end": 11.151
+   },
+   {
+    "text": "19",
+    "start": 11.293,
+    "end": 11.515
+   },
+   {
+    "text": "novembre",
+    "start": 11.535,
+    "end": 12.221
+   },
+   {
+    "text": "et",
+    "start": 12.262,
+    "end": 12.363
+   },
+   {
+    "text": "Rockstar",
+    "start": 12.403,
+    "end": 12.907
+   },
+   {
+    "text": "a",
+    "start": 12.948,
+    "end": 13.029
+   },
+   {
+    "text": "déjà",
+    "start": 13.049,
+    "end": 13.21
+   },
+   {
+    "text": "ouvert",
+    "start": 13.23,
+    "end": 13.412
+   },
+   {
+    "text": "sa",
+    "start": 13.452,
+    "end": 13.634
+   },
+   {
+    "text": "propre",
+    "start": 13.654,
+    "end": 13.997
+   },
+   {
+    "text": "boutique",
+    "start": 14.018,
+    "end": 14.3
+   },
+   {
+    "text": "de",
+    "start": 14.32,
+    "end": 14.381
+   },
+   {
+    "text": "produits",
+    "start": 14.401,
+    "end": 14.603
+   },
+   {
+    "text": "dérivés",
+    "start": 14.623,
+    "end": 15.047
+   }
+  ],
+  "text": "GTA 6 sort jeudi le 19 novembre et Rockstar a déjà ouvert sa propre boutique de produits dérivés",
+  "norm": [
+   "gta",
+   "6",
+   "sort",
+   "jeudi",
+   "le",
+   "19",
+   "novembre",
+   "et",
+   "rockstar",
+   "a",
+   "deja",
+   "ouvert",
+   "sa",
+   "propre",
+   "boutique",
+   "de",
+   "produit",
+   "derive"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 15.5,
+  "out": 20.66,
+  "words": [
+   {
+    "text": "Ils",
+    "start": 15.551,
+    "end": 15.652
+   },
+   {
+    "text": "ont",
+    "start": 15.672,
+    "end": 15.752
+   },
+   {
+    "text": "mis",
+    "start": 15.772,
+    "end": 15.873
+   },
+   {
+    "text": "des",
+    "start": 15.893,
+    "end": 15.973
+   },
+   {
+    "text": "t-shirts",
+    "start": 15.993,
+    "end": 16.375
+   },
+   {
+    "text": "des",
+    "start": 16.396,
+    "end": 16.496
+   },
+   {
+    "text": "casquettes",
+    "start": 16.536,
+    "end": 16.878
+   },
+   {
+    "text": "des",
+    "start": 16.898,
+    "end": 16.979
+   },
+   {
+    "text": "briquets",
+    "start": 16.999,
+    "end": 17.722
+   },
+   {
+    "text": "avec",
+    "start": 17.763,
+    "end": 17.964
+   },
+   {
+    "text": "le",
+    "start": 17.984,
+    "end": 18.125
+   },
+   {
+    "text": "nom",
+    "start": 18.145,
+    "end": 18.306
+   },
+   {
+    "text": "les",
+    "start": 18.326,
+    "end": 18.406
+   },
+   {
+    "text": "logos",
+    "start": 18.426,
+    "end": 18.728
+   },
+   {
+    "text": "l'univers",
+    "start": 18.768,
+    "end": 19.15
+   },
+   {
+    "text": "de",
+    "start": 19.17,
+    "end": 19.23
+   },
+   {
+    "text": "Vice",
+    "start": 19.251,
+    "end": 19.452
+   },
+   {
+    "text": "City",
+    "start": 19.472,
+    "end": 19.773
+   },
+   {
+    "text": "parce",
+    "start": 19.793,
+    "end": 19.914
+   },
+   {
+    "text": "que",
+    "start": 19.934,
+    "end": 20.035
+   },
+   {
+    "text": "ça",
+    "start": 20.075,
+    "end": 20.236
+   },
+   {
+    "text": "c'est",
+    "start": 20.256,
+    "end": 20.356
+   },
+   {
+    "text": "à",
+    "start": 20.376,
+    "end": 20.437
+   },
+   {
+    "text": "eux",
+    "start": 20.497,
+    "end": 20.678
+   }
+  ],
+  "text": "Ils ont mis des t-shirts des casquettes des briquets avec le nom les logos l'univers de Vice City parce que ça c'est à eux",
+  "norm": [
+   "ils",
+   "ont",
+   "mis",
+   "des",
+   "t",
+   "shirt",
+   "des",
+   "casquette",
+   "des",
+   "briquet",
+   "avec",
+   "le",
+   "nom",
+   "les",
+   "logo",
+   "l'univer",
+   "de",
+   "vice",
+   "city",
+   "parce",
+   "que",
+   "ca",
+   "c'est",
+   "a",
+   "eux"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 21.14,
+  "out": 28.65,
+  "words": [
+   {
+    "text": "Les",
+    "start": 21.231,
+    "end": 21.332
+   },
+   {
+    "text": "reprendre",
+    "start": 21.352,
+    "end": 23.365
+   },
+   {
+    "text": "c'est",
+    "start": 23.406,
+    "end": 23.506
+   },
+   {
+    "text": "un",
+    "start": 23.547,
+    "end": 23.607
+   },
+   {
+    "text": "risque",
+    "start": 23.647,
+    "end": 23.949
+   },
+   {
+    "text": "juridique",
+    "start": 23.989,
+    "end": 24.915
+   },
+   {
+    "text": "et",
+    "start": 24.976,
+    "end": 25.157
+   },
+   {
+    "text": "surtout",
+    "start": 25.197,
+    "end": 25.419
+   },
+   {
+    "text": "une",
+    "start": 25.439,
+    "end": 25.499
+   },
+   {
+    "text": "publicité",
+    "start": 25.519,
+    "end": 25.781
+   },
+   {
+    "text": "qui",
+    "start": 25.801,
+    "end": 25.862
+   },
+   {
+    "text": "va",
+    "start": 25.882,
+    "end": 25.922
+   },
+   {
+    "text": "être",
+    "start": 25.982,
+    "end": 26.123
+   },
+   {
+    "text": "refusée",
+    "start": 26.143,
+    "end": 26.486
+   },
+   {
+    "text": "voire",
+    "start": 26.506,
+    "end": 26.627
+   },
+   {
+    "text": "même",
+    "start": 26.647,
+    "end": 26.868
+   },
+   {
+    "text": "tout",
+    "start": 26.888,
+    "end": 27.11
+   },
+   {
+    "text": "un",
+    "start": 27.17,
+    "end": 27.271
+   },
+   {
+    "text": "compte",
+    "start": 27.291,
+    "end": 27.452
+   },
+   {
+    "text": "publicitaire",
+    "start": 27.472,
+    "end": 27.955
+   },
+   {
+    "text": "qui",
+    "start": 27.975,
+    "end": 28.056
+   },
+   {
+    "text": "va",
+    "start": 28.076,
+    "end": 28.157
+   },
+   {
+    "text": "être",
+    "start": 28.177,
+    "end": 28.257
+   },
+   {
+    "text": "bloqué",
+    "start": 28.277,
+    "end": 28.499
+   }
+  ],
+  "text": "Les reprendre c'est un risque juridique et surtout une publicité qui va être refusée voire même tout un compte publicitaire qui va être bloqué",
+  "norm": [
+   "les",
+   "reprendre",
+   "c'est",
+   "un",
+   "risque",
+   "juridique",
+   "et",
+   "surtout",
+   "une",
+   "publicite",
+   "qui",
+   "va",
+   "etre",
+   "refusee",
+   "voire",
+   "meme",
+   "tout",
+   "un",
+   "compte",
+   "publicitaire",
+   "qui",
+   "va",
+   "etre",
+   "bloque"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 29.32,
+  "out": 31.89,
+  "words": [
+   {
+    "text": "Mais",
+    "start": 29.351,
+    "end": 29.472
+   },
+   {
+    "text": "comment",
+    "start": 29.493,
+    "end": 29.675
+   },
+   {
+    "text": "tu",
+    "start": 29.695,
+    "end": 29.735
+   },
+   {
+    "text": "peux",
+    "start": 29.755,
+    "end": 29.836
+   },
+   {
+    "text": "faire",
+    "start": 29.857,
+    "end": 29.978
+   },
+   {
+    "text": "pour",
+    "start": 29.998,
+    "end": 30.14
+   },
+   {
+    "text": "surfer",
+    "start": 30.18,
+    "end": 30.463
+   },
+   {
+    "text": "dessus",
+    "start": 30.483,
+    "end": 30.645
+   },
+   {
+    "text": "quand",
+    "start": 30.665,
+    "end": 30.787
+   },
+   {
+    "text": "même",
+    "start": 30.807,
+    "end": 31.009
+   },
+   {
+    "text": "pour",
+    "start": 31.029,
+    "end": 31.131
+   },
+   {
+    "text": "ta",
+    "start": 31.171,
+    "end": 31.252
+   },
+   {
+    "text": "marque",
+    "start": 31.272,
+    "end": 31.434
+   },
+   {
+    "text": "e-commerce",
+    "start": 31.454,
+    "end": 31.859
+   }
+  ],
+  "text": "Mais comment tu peux faire pour surfer dessus quand même pour ta marque e-commerce",
+  "norm": [
+   "mai",
+   "comment",
+   "tu",
+   "peux",
+   "faire",
+   "pour",
+   "surfer",
+   "dessu",
+   "quand",
+   "meme",
+   "pour",
+   "ta",
+   "marque",
+   "e",
+   "commerce"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 32.7,
+  "out": 38.3,
+  "words": [
+   {
+    "text": "D'abord",
+    "start": 32.872,
+    "end": 33.776
+   },
+   {
+    "text": "tu",
+    "start": 33.796,
+    "end": 33.876
+   },
+   {
+    "text": "vas",
+    "start": 33.896,
+    "end": 34.057
+   },
+   {
+    "text": "retravailler",
+    "start": 34.117,
+    "end": 34.62
+   },
+   {
+    "text": "toute",
+    "start": 34.66,
+    "end": 34.861
+   },
+   {
+    "text": "ta",
+    "start": 34.901,
+    "end": 35.002
+   },
+   {
+    "text": "boutique",
+    "start": 35.022,
+    "end": 35.624
+   },
+   {
+    "text": "et",
+    "start": 35.665,
+    "end": 35.765
+   },
+   {
+    "text": "reprendre",
+    "start": 35.845,
+    "end": 36.288
+   },
+   {
+    "text": "l'ambiance",
+    "start": 36.308,
+    "end": 37.031
+   },
+   {
+    "text": "pas",
+    "start": 37.051,
+    "end": 37.172
+   },
+   {
+    "text": "la",
+    "start": 37.192,
+    "end": 37.292
+   },
+   {
+    "text": "marque",
+    "start": 37.312,
+    "end": 38.101
+   }
+  ],
+  "text": "D'abord tu vas retravailler toute ta boutique et reprendre l'ambiance pas la marque",
+  "norm": [
+   "d'abord",
+   "tu",
+   "vas",
+   "retravailler",
+   "toute",
+   "ta",
+   "boutique",
+   "et",
+   "reprendre",
+   "l'ambiance",
+   "pas",
+   "la",
+   "marque"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 38.07,
+  "out": 44.1,
+  "words": [
+   {
+    "text": "Que",
+    "start": 38.101,
+    "end": 38.161
+   },
+   {
+    "text": "ce",
+    "start": 38.181,
+    "end": 38.221
+   },
+   {
+    "text": "soit",
+    "start": 38.262,
+    "end": 38.402
+   },
+   {
+    "text": "des",
+    "start": 38.422,
+    "end": 38.502
+   },
+   {
+    "text": "néons",
+    "start": 38.522,
+    "end": 38.843
+   },
+   {
+    "text": "les",
+    "start": 38.863,
+    "end": 38.944
+   },
+   {
+    "text": "palmiers",
+    "start": 38.984,
+    "end": 39.526
+   },
+   {
+    "text": "le",
+    "start": 39.546,
+    "end": 39.626
+   },
+   {
+    "text": "délire",
+    "start": 39.646,
+    "end": 39.887
+   },
+   {
+    "text": "un",
+    "start": 39.927,
+    "end": 39.967
+   },
+   {
+    "text": "peu",
+    "start": 39.987,
+    "end": 40.067
+   },
+   {
+    "text": "années",
+    "start": 40.087,
+    "end": 40.248
+   },
+   {
+    "text": "80",
+    "start": 40.268,
+    "end": 40.348
+   },
+   {
+    "text": "il",
+    "start": 40.408,
+    "end": 40.509
+   },
+   {
+    "text": "n'y",
+    "start": 40.549,
+    "end": 40.83
+   },
+   {
+    "text": "aura",
+    "start": 40.89,
+    "end": 41.111
+   },
+   {
+    "text": "aucun",
+    "start": 41.191,
+    "end": 41.452
+   },
+   {
+    "text": "nom",
+    "start": 41.472,
+    "end": 41.733
+   },
+   {
+    "text": "aucun",
+    "start": 41.793,
+    "end": 41.994
+   },
+   {
+    "text": "logo",
+    "start": 42.014,
+    "end": 42.455
+   }
+  ],
+  "text": "Que ce soit des néons les palmiers le délire un peu années 80 il n'y aura aucun nom aucun logo",
+  "norm": [
+   "que",
+   "ce",
+   "soit",
+   "des",
+   "neon",
+   "les",
+   "palmier",
+   "le",
+   "delire",
+   "un",
+   "peu",
+   "annee",
+   "80",
+   "il",
+   "n'y",
+   "aura",
+   "aucun",
+   "nom",
+   "aucun",
+   "logo"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 43.76,
+  "out": 45.17,
+  "words": [
+   {
+    "text": "on",
+    "start": 44.603,
+    "end": 44.664
+   },
+   {
+    "text": "va",
+    "start": 44.684,
+    "end": 44.765
+   },
+   {
+    "text": "le",
+    "start": 44.786,
+    "end": 44.826
+   },
+   {
+    "text": "refaire",
+    "start": 44.846,
+    "end": 45.029
+   }
+  ],
+  "text": "on va le refaire",
+  "norm": [
+   "on",
+   "va",
+   "le",
+   "refaire"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 46.67,
+  "out": 52.45,
+  "words": [
+   {
+    "text": "Les",
+    "start": 48.445,
+    "end": 48.546
+   },
+   {
+    "text": "néons",
+    "start": 48.586,
+    "end": 49.049
+   },
+   {
+    "text": "les",
+    "start": 49.069,
+    "end": 49.17
+   },
+   {
+    "text": "palmiers",
+    "start": 49.19,
+    "end": 49.633
+   },
+   {
+    "text": "l'ambiance",
+    "start": 49.653,
+    "end": 49.955
+   },
+   {
+    "text": "années",
+    "start": 49.975,
+    "end": 50.136
+   },
+   {
+    "text": "80",
+    "start": 50.156,
+    "end": 50.358
+   },
+   {
+    "text": "Il",
+    "start": 50.398,
+    "end": 50.64
+   },
+   {
+    "text": "n'y",
+    "start": 50.66,
+    "end": 50.72
+   },
+   {
+    "text": "a",
+    "start": 50.761,
+    "end": 50.861
+   },
+   {
+    "text": "aucun",
+    "start": 50.942,
+    "end": 51.183
+   },
+   {
+    "text": "nom",
+    "start": 51.203,
+    "end": 51.707
+   },
+   {
+    "text": "aucun",
+    "start": 51.808,
+    "end": 52.049
+   },
+   {
+    "text": "logo",
+    "start": 52.069,
+    "end": 52.472
+   }
+  ],
+  "text": "Les néons les palmiers l'ambiance années 80 Il n'y a aucun nom aucun logo",
+  "norm": [
+   "les",
+   "neon",
+   "les",
+   "palmier",
+   "l'ambiance",
+   "annee",
+   "80",
+   "il",
+   "n'y",
+   "a",
+   "aucun",
+   "nom",
+   "aucun",
+   "logo"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 53.77,
+  "out": 59.95,
+  "words": [
+   {
+    "text": "Et",
+    "start": 53.902,
+    "end": 54.022
+   },
+   {
+    "text": "pourtant",
+    "start": 54.063,
+    "end": 54.364
+   },
+   {
+    "text": "dès",
+    "start": 54.384,
+    "end": 54.485
+   },
+   {
+    "text": "qu'on",
+    "start": 54.505,
+    "end": 54.606
+   },
+   {
+    "text": "va",
+    "start": 54.626,
+    "end": 54.706
+   },
+   {
+    "text": "arriver",
+    "start": 54.726,
+    "end": 54.867
+   },
+   {
+    "text": "sur",
+    "start": 54.887,
+    "end": 54.988
+   },
+   {
+    "text": "ta",
+    "start": 55.008,
+    "end": 55.068
+   },
+   {
+    "text": "boutique",
+    "start": 55.109,
+    "end": 55.33
+   },
+   {
+    "text": "en",
+    "start": 55.35,
+    "end": 55.41
+   },
+   {
+    "text": "ligne",
+    "start": 55.43,
+    "end": 55.893
+   },
+   {
+    "text": "on",
+    "start": 55.954,
+    "end": 56.054
+   },
+   {
+    "text": "va",
+    "start": 56.074,
+    "end": 56.215
+   },
+   {
+    "text": "comprendre",
+    "start": 56.235,
+    "end": 56.557
+   },
+   {
+    "text": "la",
+    "start": 56.577,
+    "end": 56.658
+   },
+   {
+    "text": "référence",
+    "start": 56.678,
+    "end": 57.322
+   },
+   {
+    "text": "et",
+    "start": 57.362,
+    "end": 57.724
+   },
+   {
+    "text": "ça",
+    "start": 57.744,
+    "end": 57.845
+   },
+   {
+    "text": "va",
+    "start": 57.885,
+    "end": 58.006
+   },
+   {
+    "text": "donner",
+    "start": 58.046,
+    "end": 58.529
+   },
+   {
+    "text": "justement",
+    "start": 58.569,
+    "end": 58.85
+   },
+   {
+    "text": "une",
+    "start": 58.891,
+    "end": 58.951
+   },
+   {
+    "text": "certaine",
+    "start": 58.971,
+    "end": 59.172
+   },
+   {
+    "text": "ambiance",
+    "start": 59.233,
+    "end": 59.494
+   },
+   {
+    "text": "à",
+    "start": 59.534,
+    "end": 59.555
+   },
+   {
+    "text": "ta",
+    "start": 59.575,
+    "end": 59.615
+   },
+   {
+    "text": "marque",
+    "start": 59.655,
+    "end": 59.977
+   }
+  ],
+  "text": "Et pourtant dès qu'on va arriver sur ta boutique en ligne on va comprendre la référence et ça va donner justement une certaine ambiance à ta marque",
+  "norm": [
+   "et",
+   "pourtant",
+   "des",
+   "qu'on",
+   "va",
+   "arriver",
+   "sur",
+   "ta",
+   "boutique",
+   "en",
+   "ligne",
+   "on",
+   "va",
+   "comprendre",
+   "la",
+   "reference",
+   "et",
+   "ca",
+   "va",
+   "donner",
+   "justement",
+   "une",
+   "certaine",
+   "ambiance",
+   "a",
+   "ta",
+   "marque"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 64.26,
+  "out": 74.27,
+  "words": [
+   {
+    "text": "Les",
+    "start": 64.351,
+    "end": 64.472
+   },
+   {
+    "text": "clients",
+    "start": 64.492,
+    "end": 64.773
+   },
+   {
+    "text": "vont",
+    "start": 64.793,
+    "end": 65.055
+   },
+   {
+    "text": "apprécier",
+    "start": 65.155,
+    "end": 65.597
+   },
+   {
+    "text": "le",
+    "start": 65.617,
+    "end": 65.698
+   },
+   {
+    "text": "clin",
+    "start": 65.718,
+    "end": 65.899
+   },
+   {
+    "text": "d'œil",
+    "start": 65.919,
+    "end": 66.481
+   },
+   {
+    "text": "et",
+    "start": 66.501,
+    "end": 66.622
+   },
+   {
+    "text": "surtout",
+    "start": 66.642,
+    "end": 66.863
+   },
+   {
+    "text": "ça",
+    "start": 66.883,
+    "end": 66.964
+   },
+   {
+    "text": "va",
+    "start": 66.984,
+    "end": 67.084
+   },
+   {
+    "text": "montrer",
+    "start": 67.124,
+    "end": 67.406
+   },
+   {
+    "text": "que",
+    "start": 67.446,
+    "end": 68.571
+   },
+   {
+    "text": "ta",
+    "start": 68.712,
+    "end": 69.053
+   },
+   {
+    "text": "marque",
+    "start": 69.073,
+    "end": 69.556
+   },
+   {
+    "text": "ta",
+    "start": 69.576,
+    "end": 70.038
+   },
+   {
+    "text": "boutique",
+    "start": 70.199,
+    "end": 70.882
+   },
+   {
+    "text": "elle",
+    "start": 71.264,
+    "end": 71.465
+   },
+   {
+    "text": "évolue",
+    "start": 71.545,
+    "end": 72.208
+   },
+   {
+    "text": "au",
+    "start": 72.248,
+    "end": 72.349
+   },
+   {
+    "text": "gré",
+    "start": 72.369,
+    "end": 72.61
+   },
+   {
+    "text": "des",
+    "start": 72.63,
+    "end": 72.731
+   },
+   {
+    "text": "actualités",
+    "start": 72.791,
+    "end": 73.293
+   },
+   {
+    "text": "qui",
+    "start": 73.313,
+    "end": 73.474
+   },
+   {
+    "text": "parlent",
+    "start": 73.494,
+    "end": 73.675
+   },
+   {
+    "text": "à",
+    "start": 73.715,
+    "end": 73.735
+   },
+   {
+    "text": "ton",
+    "start": 73.755,
+    "end": 73.856
+   },
+   {
+    "text": "audience",
+    "start": 73.896,
+    "end": 74.298
+   }
+  ],
+  "text": "Les clients vont apprécier le clin d'œil et surtout ça va montrer que ta marque ta boutique elle évolue au gré des actualités qui parlent à ton audience",
+  "norm": [
+   "les",
+   "client",
+   "vont",
+   "apprecier",
+   "le",
+   "clin",
+   "d'",
+   "il",
+   "et",
+   "surtout",
+   "ca",
+   "va",
+   "montrer",
+   "que",
+   "ta",
+   "marque",
+   "ta",
+   "boutique",
+   "elle",
+   "evolue",
+   "au",
+   "gre",
+   "des",
+   "actualite",
+   "qui",
+   "parlent",
+   "a",
+   "ton",
+   "audience"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 80.12,
+  "out": 83.93,
+  "words": [
+   {
+    "text": "Ensuite",
+    "start": 80.494,
+    "end": 80.918
+   },
+   {
+    "text": "surf",
+    "start": 80.959,
+    "end": 81.181
+   },
+   {
+    "text": "sur",
+    "start": 81.201,
+    "end": 81.282
+   },
+   {
+    "text": "l'actu",
+    "start": 81.302,
+    "end": 81.625
+   },
+   {
+    "text": "avec",
+    "start": 81.646,
+    "end": 81.827
+   },
+   {
+    "text": "ton",
+    "start": 81.848,
+    "end": 81.969
+   },
+   {
+    "text": "contenu",
+    "start": 81.989,
+    "end": 82.352
+   },
+   {
+    "text": "pas",
+    "start": 82.373,
+    "end": 82.534
+   },
+   {
+    "text": "avec",
+    "start": 82.554,
+    "end": 82.756
+   },
+   {
+    "text": "tes",
+    "start": 82.777,
+    "end": 82.857
+   },
+   {
+    "text": "produits",
+    "start": 82.878,
+    "end": 83.544
+   },
+   {
+    "text": "que",
+    "start": 83.584,
+    "end": 83.645
+   },
+   {
+    "text": "ce",
+    "start": 83.665,
+    "end": 83.726
+   },
+   {
+    "text": "soit",
+    "start": 83.746,
+    "end": 83.887
+   },
+   {
+    "text": "au",
+    "start": 83.908,
+    "end": 83.571
+   }
+  ],
+  "text": "Ensuite surf sur l'actu avec ton contenu pas avec tes produits que ce soit au",
+  "norm": [
+   "ensuite",
+   "surf",
+   "sur",
+   "l'actu",
+   "avec",
+   "ton",
+   "contenu",
+   "pas",
+   "avec",
+   "tes",
+   "produit",
+   "que",
+   "ce",
+   "soit",
+   "au"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 83.54,
+  "out": 93.45,
+  "words": [
+   {
+    "text": "que",
+    "start": 83.571,
+    "end": 83.631
+   },
+   {
+    "text": "ce",
+    "start": 83.651,
+    "end": 83.692
+   },
+   {
+    "text": "soit",
+    "start": 83.712,
+    "end": 83.832
+   },
+   {
+    "text": "au",
+    "start": 83.852,
+    "end": 83.913
+   },
+   {
+    "text": "travers",
+    "start": 83.933,
+    "end": 84.174
+   },
+   {
+    "text": "de",
+    "start": 84.194,
+    "end": 84.335
+   },
+   {
+    "text": "vidéos",
+    "start": 84.355,
+    "end": 84.696
+   },
+   {
+    "text": "pour",
+    "start": 84.716,
+    "end": 84.817
+   },
+   {
+    "text": "ton",
+    "start": 84.837,
+    "end": 84.957
+   },
+   {
+    "text": "contenu",
+    "start": 84.978,
+    "end": 85.219
+   },
+   {
+    "text": "en",
+    "start": 85.239,
+    "end": 85.299
+   },
+   {
+    "text": "ligne",
+    "start": 85.319,
+    "end": 85.781
+   },
+   {
+    "text": "soit",
+    "start": 85.801,
+    "end": 85.942
+   },
+   {
+    "text": "au",
+    "start": 85.962,
+    "end": 86.002
+   },
+   {
+    "text": "travers",
+    "start": 86.022,
+    "end": 86.223
+   },
+   {
+    "text": "de",
+    "start": 86.243,
+    "end": 86.304
+   },
+   {
+    "text": "tes",
+    "start": 86.324,
+    "end": 86.424
+   },
+   {
+    "text": "mails",
+    "start": 86.464,
+    "end": 86.746
+   },
+   {
+    "text": "ou",
+    "start": 86.786,
+    "end": 86.826
+   },
+   {
+    "text": "même",
+    "start": 86.846,
+    "end": 86.987
+   },
+   {
+    "text": "de",
+    "start": 87.007,
+    "end": 87.067
+   },
+   {
+    "text": "tes",
+    "start": 87.087,
+    "end": 87.168
+   },
+   {
+    "text": "stories",
+    "start": 87.188,
+    "end": 88.152
+   },
+   {
+    "text": "utilise",
+    "start": 88.233,
+    "end": 88.695
+   },
+   {
+    "text": "l'intégralité",
+    "start": 88.735,
+    "end": 89.318
+   },
+   {
+    "text": "de",
+    "start": 89.338,
+    "end": 89.398
+   },
+   {
+    "text": "cette",
+    "start": 89.418,
+    "end": 89.539
+   },
+   {
+    "text": "actualité",
+    "start": 89.559,
+    "end": 89.84
+   },
+   {
+    "text": "avec",
+    "start": 89.86,
+    "end": 90.021
+   },
+   {
+    "text": "GTA",
+    "start": 90.061,
+    "end": 90.704
+   },
+   {
+    "text": "et",
+    "start": 90.744,
+    "end": 90.825
+   },
+   {
+    "text": "de",
+    "start": 90.845,
+    "end": 91.106
+   },
+   {
+    "text": "nombreuses",
+    "start": 91.146,
+    "end": 91.548
+   },
+   {
+    "text": "références",
+    "start": 91.568,
+    "end": 92.171
+   },
+   {
+    "text": "auxquelles",
+    "start": 92.231,
+    "end": 93.015
+   },
+   {
+    "text": "t'appuies",
+    "start": 93.035,
+    "end": 93.477
+   }
+  ],
+  "text": "que ce soit au travers de vidéos pour ton contenu en ligne soit au travers de tes mails ou même de tes stories utilise l'intégralité de cette actualité avec GTA et de nombreuses références auxquelles t'appuies",
+  "norm": [
+   "que",
+   "ce",
+   "soit",
+   "au",
+   "traver",
+   "de",
+   "video",
+   "pour",
+   "ton",
+   "contenu",
+   "en",
+   "ligne",
+   "soit",
+   "au",
+   "traver",
+   "de",
+   "tes",
+   "mail",
+   "ou",
+   "meme",
+   "de",
+   "tes",
+   "storie",
+   "utilise",
+   "l'integralite",
+   "de",
+   "cette",
+   "actualite",
+   "avec",
+   "gta",
+   "et",
+   "de",
+   "nombreuse",
+   "reference",
+   "auxquelle",
+   "t'appuie"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 94.62,
+  "out": 99.56,
+  "words": [
+   {
+    "text": "utilise",
+    "start": 94.752,
+    "end": 94.973
+   },
+   {
+    "text": "cette",
+    "start": 94.993,
+    "end": 95.093
+   },
+   {
+    "text": "actualité",
+    "start": 95.114,
+    "end": 95.898
+   },
+   {
+    "text": "vis-à-vis",
+    "start": 95.918,
+    "end": 96.159
+   },
+   {
+    "text": "de",
+    "start": 96.179,
+    "end": 96.22
+   },
+   {
+    "text": "GTA",
+    "start": 96.24,
+    "end": 96.722
+   },
+   {
+    "text": "et",
+    "start": 96.763,
+    "end": 96.823
+   },
+   {
+    "text": "surtout",
+    "start": 96.843,
+    "end": 97.044
+   },
+   {
+    "text": "de",
+    "start": 97.064,
+    "end": 97.104
+   },
+   {
+    "text": "toutes",
+    "start": 97.145,
+    "end": 97.285
+   },
+   {
+    "text": "les",
+    "start": 97.306,
+    "end": 97.386
+   },
+   {
+    "text": "références",
+    "start": 97.406,
+    "end": 97.909
+   },
+   {
+    "text": "qui",
+    "start": 97.929,
+    "end": 98.07
+   },
+   {
+    "text": "peuvent",
+    "start": 98.09,
+    "end": 98.351
+   },
+   {
+    "text": "faire",
+    "start": 98.371,
+    "end": 98.854
+   },
+   {
+    "text": "justement",
+    "start": 98.894,
+    "end": 99.317
+   }
+  ],
+  "text": "utilise cette actualité vis-à-vis de GTA et surtout de toutes les références qui peuvent faire justement",
+  "norm": [
+   "utilise",
+   "cette",
+   "actualite",
+   "vis",
+   "a",
+   "vis",
+   "de",
+   "gta",
+   "et",
+   "surtout",
+   "de",
+   "toute",
+   "les",
+   "reference",
+   "qui",
+   "peuvent",
+   "faire",
+   "justement"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 107.38,
+  "out": 110.79,
+  "words": [
+   {
+    "text": "Nourris-toi",
+    "start": 107.814,
+    "end": 108.177
+   },
+   {
+    "text": "de",
+    "start": 108.197,
+    "end": 108.257
+   },
+   {
+    "text": "l'ambiance",
+    "start": 108.277,
+    "end": 108.64
+   },
+   {
+    "text": "un",
+    "start": 108.681,
+    "end": 108.721
+   },
+   {
+    "text": "peu",
+    "start": 108.741,
+    "end": 108.882
+   },
+   {
+    "text": "GTA",
+    "start": 108.902,
+    "end": 109.487
+   },
+   {
+    "text": "et",
+    "start": 109.527,
+    "end": 109.607
+   },
+   {
+    "text": "surtout",
+    "start": 109.628,
+    "end": 110.212
+   }
+  ],
+  "text": "Nourris-toi de l'ambiance un peu GTA et surtout",
+  "norm": [
+   "nourri",
+   "toi",
+   "de",
+   "l'ambiance",
+   "un",
+   "peu",
+   "gta",
+   "et",
+   "surtout"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 110.57,
+  "out": 112.05,
+  "words": [],
+  "text": "",
+  "norm": [],
+  "keep": false,
+  "why": "empty"
+ },
+ {
+  "in": 111.87,
+  "out": 117.86,
+  "words": [
+   {
+    "text": "nourris-toi",
+    "start": 112.062,
+    "end": 112.342
+   },
+   {
+    "text": "de",
+    "start": 112.363,
+    "end": 112.403
+   },
+   {
+    "text": "l'ambiance",
+    "start": 112.423,
+    "end": 112.884
+   },
+   {
+    "text": "de",
+    "start": 112.904,
+    "end": 113.005
+   },
+   {
+    "text": "GTA",
+    "start": 113.025,
+    "end": 113.707
+   },
+   {
+    "text": "et",
+    "start": 113.767,
+    "end": 114.108
+   },
+   {
+    "text": "surtout",
+    "start": 114.149,
+    "end": 114.991
+   },
+   {
+    "text": "nourris-toi",
+    "start": 115.132,
+    "end": 116.195
+   }
+  ],
+  "text": "nourris-toi de l'ambiance de GTA et surtout nourris-toi",
+  "norm": [
+   "nourri",
+   "toi",
+   "de",
+   "l'ambiance",
+   "de",
+   "gta",
+   "et",
+   "surtout",
+   "nourri",
+   "toi"
+  ],
+  "keep": true,
+  "why": "end trimmed: « surtout nourris-toi » repeated at the start of the next one",
+  "trim_out": 114.1
+ },
+ {
+  "in": 117.63,
+  "out": 127.46,
+  "words": [
+   {
+    "text": "nourris-toi",
+    "start": 117.741,
+    "end": 118.043
+   },
+   {
+    "text": "de",
+    "start": 118.063,
+    "end": 118.103
+   },
+   {
+    "text": "l'ambiance",
+    "start": 118.143,
+    "end": 118.505
+   },
+   {
+    "text": "à",
+    "start": 118.545,
+    "end": 118.585
+   },
+   {
+    "text": "la",
+    "start": 118.605,
+    "end": 118.725
+   },
+   {
+    "text": "GTA",
+    "start": 118.766,
+    "end": 119.448
+   },
+   {
+    "text": "et",
+    "start": 119.469,
+    "end": 119.589
+   },
+   {
+    "text": "surtout",
+    "start": 119.609,
+    "end": 120.171
+   },
+   {
+    "text": "montre",
+    "start": 120.192,
+    "end": 120.533
+   },
+   {
+    "text": "à",
+    "start": 120.573,
+    "end": 120.613
+   },
+   {
+    "text": "ton",
+    "start": 120.633,
+    "end": 120.754
+   },
+   {
+    "text": "audience",
+    "start": 120.854,
+    "end": 121.256
+   },
+   {
+    "text": "que",
+    "start": 121.276,
+    "end": 121.457
+   },
+   {
+    "text": "toi",
+    "start": 121.477,
+    "end": 121.678
+   },
+   {
+    "text": "aussi",
+    "start": 121.718,
+    "end": 121.919
+   },
+   {
+    "text": "tu",
+    "start": 121.939,
+    "end": 121.979
+   },
+   {
+    "text": "as",
+    "start": 121.999,
+    "end": 122.079
+   },
+   {
+    "text": "les",
+    "start": 122.1,
+    "end": 122.18
+   },
+   {
+    "text": "mêmes",
+    "start": 122.2,
+    "end": 122.341
+   },
+   {
+    "text": "références",
+    "start": 122.381,
+    "end": 122.762
+   },
+   {
+    "text": "que",
+    "start": 122.782,
+    "end": 122.883
+   },
+   {
+    "text": "tu",
+    "start": 122.903,
+    "end": 122.943
+   },
+   {
+    "text": "as",
+    "start": 122.983,
+    "end": 123.023
+   },
+   {
+    "text": "les",
+    "start": 123.064,
+    "end": 123.184
+   },
+   {
+    "text": "mêmes",
+    "start": 123.224,
+    "end": 123.465
+   },
+   {
+    "text": "codes",
+    "start": 123.485,
+    "end": 123.726
+   },
+   {
+    "text": "que",
+    "start": 123.746,
+    "end": 123.947
+   },
+   {
+    "text": "et",
+    "start": 123.967,
+    "end": 124.028
+   },
+   {
+    "text": "ça",
+    "start": 124.048,
+    "end": 124.128
+   },
+   {
+    "text": "fera",
+    "start": 124.148,
+    "end": 124.289
+   },
+   {
+    "text": "un",
+    "start": 124.309,
+    "end": 124.449
+   },
+   {
+    "text": "point",
+    "start": 124.469,
+    "end": 124.731
+   },
+   {
+    "text": "commun",
+    "start": 124.751,
+    "end": 125.052
+   },
+   {
+    "text": "qui",
+    "start": 125.072,
+    "end": 125.192
+   },
+   {
+    "text": "te",
+    "start": 125.213,
+    "end": 125.273
+   },
+   {
+    "text": "permettra",
+    "start": 125.293,
+    "end": 125.534
+   },
+   {
+    "text": "de",
+    "start": 125.554,
+    "end": 125.695
+   },
+   {
+    "text": "différencier",
+    "start": 125.715,
+    "end": 126.337
+   },
+   {
+    "text": "par",
+    "start": 126.357,
+    "end": 126.438
+   },
+   {
+    "text": "rapport",
+    "start": 126.458,
+    "end": 126.699
+   },
+   {
+    "text": "aux",
+    "start": 126.719,
+    "end": 126.819
+   },
+   {
+    "text": "autres",
+    "start": 126.879,
+    "end": 127.02
+   },
+   {
+    "text": "concurrents",
+    "start": 127.04,
+    "end": 127.482
+   }
+  ],
+  "text": "nourris-toi de l'ambiance à la GTA et surtout montre à ton audience que toi aussi tu as les mêmes références que tu as les mêmes codes que et ça fera un point commun qui te permettra de différencier par rapport aux autres concurrents",
+  "norm": [
+   "nourri",
+   "toi",
+   "de",
+   "l'ambiance",
+   "a",
+   "la",
+   "gta",
+   "et",
+   "surtout",
+   "montre",
+   "a",
+   "ton",
+   "audience",
+   "que",
+   "toi",
+   "aussi",
+   "tu",
+   "as",
+   "les",
+   "meme",
+   "reference",
+   "que",
+   "tu",
+   "as",
+   "les",
+   "meme",
+   "code",
+   "que",
+   "et",
+   "ca",
+   "fera",
+   "un",
+   "point",
+   "commun",
+   "qui",
+   "te",
+   "permettra",
+   "de",
+   "differencier",
+   "par",
+   "rapport",
+   "aux",
+   "autre",
+   "concurrent"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 132.39,
+  "out": 135.31,
+  "words": [
+   {
+    "text": "Enfin",
+    "start": 133.011,
+    "end": 133.172
+   },
+   {
+    "text": "si",
+    "start": 133.252,
+    "end": 133.293
+   },
+   {
+    "text": "ta",
+    "start": 133.313,
+    "end": 133.414
+   },
+   {
+    "text": "cible",
+    "start": 133.434,
+    "end": 133.837
+   },
+   {
+    "text": "joue",
+    "start": 133.877,
+    "end": 134.239
+   },
+   {
+    "text": "fais-lui",
+    "start": 134.26,
+    "end": 134.582
+   },
+   {
+    "text": "gagner",
+    "start": 134.602,
+    "end": 134.824
+   },
+   {
+    "text": "le",
+    "start": 134.844,
+    "end": 134.884
+   },
+   {
+    "text": "jeu",
+    "start": 134.924,
+    "end": 135.025
+   }
+  ],
+  "text": "Enfin si ta cible joue fais-lui gagner le jeu",
+  "norm": [
+   "enfin",
+   "si",
+   "ta",
+   "cible",
+   "joue",
+   "fai",
+   "lui",
+   "gagner",
+   "le",
+   "jeu"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 135.97,
+  "out": 137.14,
+  "words": [
+   {
+    "text": "Un",
+    "start": 136.062,
+    "end": 136.163
+   },
+   {
+    "text": "vrai",
+    "start": 136.204,
+    "end": 136.528
+   },
+   {
+    "text": "GTA",
+    "start": 136.568,
+    "end": 136.791
+   }
+  ],
+  "text": "Un vrai GTA",
+  "norm": [
+   "un",
+   "vrai",
+   "gta"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 141.03,
+  "out": 146.48,
+  "words": [
+   {
+    "text": "le",
+    "start": 141.101,
+    "end": 141.162
+   },
+   {
+    "text": "vrai",
+    "start": 141.202,
+    "end": 141.363
+   },
+   {
+    "text": "jeu",
+    "start": 141.383,
+    "end": 141.484
+   },
+   {
+    "text": "GTA",
+    "start": 141.524,
+    "end": 142.128
+   },
+   {
+    "text": "acheté",
+    "start": 142.188,
+    "end": 142.49
+   },
+   {
+    "text": "en",
+    "start": 142.55,
+    "end": 142.651
+   },
+   {
+    "text": "magasin",
+    "start": 142.671,
+    "end": 143.295
+   },
+   {
+    "text": "ou",
+    "start": 143.335,
+    "end": 143.516
+   },
+   {
+    "text": "sinon",
+    "start": 143.557,
+    "end": 143.738
+   },
+   {
+    "text": "que",
+    "start": 143.758,
+    "end": 143.818
+   },
+   {
+    "text": "tu",
+    "start": 143.838,
+    "end": 143.899
+   },
+   {
+    "text": "peux",
+    "start": 143.919,
+    "end": 144.04
+   },
+   {
+    "text": "offrir",
+    "start": 144.06,
+    "end": 144.664
+   },
+   {
+    "text": "avec",
+    "start": 144.724,
+    "end": 145.328
+   },
+   {
+    "text": "les",
+    "start": 145.871,
+    "end": 145.992
+   },
+   {
+    "text": "codes",
+    "start": 146.012,
+    "end": 146.495
+   }
+  ],
+  "text": "le vrai jeu GTA acheté en magasin ou sinon que tu peux offrir avec les codes",
+  "norm": [
+   "le",
+   "vrai",
+   "jeu",
+   "gta",
+   "achete",
+   "en",
+   "magasin",
+   "ou",
+   "sinon",
+   "que",
+   "tu",
+   "peux",
+   "offrir",
+   "avec",
+   "les",
+   "code"
+  ],
+  "keep": false,
+  "why": "retake, keeping the next one"
+ },
+ {
+  "in": 155.9,
+  "out": 162.52,
+  "words": [
+   {
+    "text": "le",
+    "start": 155.991,
+    "end": 156.072
+   },
+   {
+    "text": "vrai",
+    "start": 156.092,
+    "end": 156.293
+   },
+   {
+    "text": "jeu",
+    "start": 156.313,
+    "end": 156.454
+   },
+   {
+    "text": "GTA",
+    "start": 156.474,
+    "end": 157.037
+   },
+   {
+    "text": "acheté",
+    "start": 157.077,
+    "end": 157.298
+   },
+   {
+    "text": "en",
+    "start": 157.338,
+    "end": 157.419
+   },
+   {
+    "text": "magasin",
+    "start": 157.439,
+    "end": 158.002
+   },
+   {
+    "text": "ou",
+    "start": 158.062,
+    "end": 158.404
+   },
+   {
+    "text": "le",
+    "start": 158.605,
+    "end": 159.711
+   },
+   {
+    "text": "code",
+    "start": 159.731,
+    "end": 159.952
+   },
+   {
+    "text": "du",
+    "start": 159.972,
+    "end": 160.093
+   },
+   {
+    "text": "jeu",
+    "start": 160.113,
+    "end": 160.616
+   },
+   {
+    "text": "offert",
+    "start": 160.696,
+    "end": 160.958
+   },
+   {
+    "text": "dans",
+    "start": 160.978,
+    "end": 161.078
+   },
+   {
+    "text": "un",
+    "start": 161.118,
+    "end": 161.159
+   },
+   {
+    "text": "jeu",
+    "start": 161.179,
+    "end": 161.299
+   },
+   {
+    "text": "concours",
+    "start": 161.32,
+    "end": 162.281
+   }
+  ],
+  "text": "le vrai jeu GTA acheté en magasin ou le code du jeu offert dans un jeu concours",
+  "norm": [
+   "le",
+   "vrai",
+   "jeu",
+   "gta",
+   "achete",
+   "en",
+   "magasin",
+   "ou",
+   "le",
+   "code",
+   "du",
+   "jeu",
+   "offert",
+   "dan",
+   "un",
+   "jeu",
+   "concour"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 162.23,
+  "out": 165.25,
+  "words": [
+   {
+    "text": "Tu",
+    "start": 162.281,
+    "end": 162.342
+   },
+   {
+    "text": "peux",
+    "start": 162.362,
+    "end": 162.463
+   },
+   {
+    "text": "écrire",
+    "start": 162.483,
+    "end": 162.705
+   },
+   {
+    "text": "GTA",
+    "start": 162.745,
+    "end": 163.148
+   },
+   {
+    "text": "6",
+    "start": 163.209,
+    "end": 163.269
+   },
+   {
+    "text": "à",
+    "start": 163.33,
+    "end": 163.41
+   },
+   {
+    "text": "gagner",
+    "start": 163.43,
+    "end": 163.975
+   },
+   {
+    "text": "c'est",
+    "start": 163.995,
+    "end": 164.116
+   },
+   {
+    "text": "le",
+    "start": 164.136,
+    "end": 164.217
+   },
+   {
+    "text": "lot",
+    "start": 164.237,
+    "end": 164.317
+   }
+  ],
+  "text": "Tu peux écrire GTA 6 à gagner c'est le lot",
+  "norm": [
+   "tu",
+   "peux",
+   "ecrire",
+   "gta",
+   "6",
+   "a",
+   "gagner",
+   "c'est",
+   "le",
+   "lot"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 164.87,
+  "out": 166.28,
+  "words": [
+   {
+    "text": "Leur",
+    "start": 164.941,
+    "end": 165.083
+   },
+   {
+    "text": "logo",
+    "start": 165.103,
+    "end": 165.691
+   },
+   {
+    "text": "toujours",
+    "start": 165.711,
+    "end": 165.994
+   },
+   {
+    "text": "pas",
+    "start": 166.015,
+    "end": 166.217
+   }
+  ],
+  "text": "Leur logo toujours pas",
+  "norm": [
+   "leur",
+   "logo",
+   "toujour",
+   "pas"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 169.7,
+  "out": 175.21,
+  "words": [
+   {
+    "text": "Pour",
+    "start": 169.751,
+    "end": 169.871
+   },
+   {
+    "text": "participer",
+    "start": 169.891,
+    "end": 170.212
+   },
+   {
+    "text": "tu",
+    "start": 170.232,
+    "end": 170.292
+   },
+   {
+    "text": "leur",
+    "start": 170.332,
+    "end": 170.452
+   },
+   {
+    "text": "dis",
+    "start": 170.472,
+    "end": 170.593
+   },
+   {
+    "text": "voilà",
+    "start": 170.613,
+    "end": 170.953
+   },
+   {
+    "text": "dis-moi",
+    "start": 170.994,
+    "end": 171.194
+   },
+   {
+    "text": "quel",
+    "start": 171.214,
+    "end": 171.394
+   },
+   {
+    "text": "produit",
+    "start": 171.414,
+    "end": 171.575
+   },
+   {
+    "text": "de",
+    "start": 171.595,
+    "end": 171.655
+   },
+   {
+    "text": "ma",
+    "start": 171.675,
+    "end": 171.815
+   },
+   {
+    "text": "boutique",
+    "start": 171.835,
+    "end": 172.096
+   },
+   {
+    "text": "tu",
+    "start": 172.116,
+    "end": 172.216
+   },
+   {
+    "text": "prendrais",
+    "start": 172.236,
+    "end": 172.998
+   },
+   {
+    "text": "L'objectif",
+    "start": 173.018,
+    "end": 173.278
+   },
+   {
+    "text": "c'est",
+    "start": 173.298,
+    "end": 173.398
+   },
+   {
+    "text": "d'attirer",
+    "start": 173.418,
+    "end": 173.699
+   },
+   {
+    "text": "des",
+    "start": 173.739,
+    "end": 173.819
+   },
+   {
+    "text": "clients",
+    "start": 173.859,
+    "end": 174.24
+   },
+   {
+    "text": "pas",
+    "start": 174.26,
+    "end": 174.38
+   },
+   {
+    "text": "des",
+    "start": 174.42,
+    "end": 174.501
+   },
+   {
+    "text": "chasseurs",
+    "start": 174.521,
+    "end": 174.781
+   },
+   {
+    "text": "de",
+    "start": 174.801,
+    "end": 174.881
+   },
+   {
+    "text": "cadeaux",
+    "start": 174.901,
+    "end": 175.182
+   }
+  ],
+  "text": "Pour participer tu leur dis voilà dis-moi quel produit de ma boutique tu prendrais L'objectif c'est d'attirer des clients pas des chasseurs de cadeaux",
+  "norm": [
+   "pour",
+   "participer",
+   "tu",
+   "leur",
+   "dis",
+   "voila",
+   "dis",
+   "moi",
+   "quel",
+   "produit",
+   "de",
+   "ma",
+   "boutique",
+   "tu",
+   "prendrai",
+   "l'objectif",
+   "c'est",
+   "d'attirer",
+   "des",
+   "client",
+   "pas",
+   "des",
+   "chasseur",
+   "de",
+   "cadeaux"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 177.36,
+  "out": 179.84,
+  "words": [
+   {
+    "text": "Et",
+    "start": 177.431,
+    "end": 177.471
+   },
+   {
+    "text": "si",
+    "start": 177.511,
+    "end": 177.572
+   },
+   {
+    "text": "tu",
+    "start": 177.592,
+    "end": 177.632
+   },
+   {
+    "text": "veux",
+    "start": 177.652,
+    "end": 177.732
+   },
+   {
+    "text": "apprendre",
+    "start": 177.752,
+    "end": 178.013
+   },
+   {
+    "text": "un",
+    "start": 178.033,
+    "end": 178.073
+   },
+   {
+    "text": "peu",
+    "start": 178.093,
+    "end": 178.153
+   },
+   {
+    "text": "plus",
+    "start": 178.173,
+    "end": 178.274
+   },
+   {
+    "text": "e-commerce",
+    "start": 178.354,
+    "end": 178.695
+   },
+   {
+    "text": "chaque",
+    "start": 178.715,
+    "end": 178.895
+   },
+   {
+    "text": "jour",
+    "start": 178.935,
+    "end": 179.196
+   },
+   {
+    "text": "abonne-toi",
+    "start": 179.256,
+    "end": 179.838
+   }
+  ],
+  "text": "Et si tu veux apprendre un peu plus e-commerce chaque jour abonne-toi",
+  "norm": [
+   "et",
+   "si",
+   "tu",
+   "veux",
+   "apprendre",
+   "un",
+   "peu",
+   "plu",
+   "e",
+   "commerce",
+   "chaque",
+   "jour",
+   "abonne",
+   "toi"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 188.1,
+  "out": 192.73,
+  "words": [
+   {
+    "text": "et",
+    "start": 188.434,
+    "end": 188.494
+   },
+   {
+    "text": "commande",
+    "start": 188.515,
+    "end": 188.757
+   },
+   {
+    "text": "GTA",
+    "start": 188.797,
+    "end": 189.04
+   },
+   {
+    "text": "pour",
+    "start": 189.06,
+    "end": 189.141
+   },
+   {
+    "text": "que",
+    "start": 189.161,
+    "end": 189.221
+   },
+   {
+    "text": "je",
+    "start": 189.242,
+    "end": 189.282
+   },
+   {
+    "text": "t'envoie",
+    "start": 189.302,
+    "end": 189.504
+   },
+   {
+    "text": "ma",
+    "start": 189.544,
+    "end": 189.605
+   },
+   {
+    "text": "checklist",
+    "start": 189.645,
+    "end": 190.009
+   },
+   {
+    "text": "pour",
+    "start": 190.029,
+    "end": 190.17
+   },
+   {
+    "text": "surfer",
+    "start": 190.191,
+    "end": 190.695
+   },
+   {
+    "text": "sur",
+    "start": 190.716,
+    "end": 190.837
+   },
+   {
+    "text": "l'actu",
+    "start": 190.857,
+    "end": 191.301
+   },
+   {
+    "text": "sans",
+    "start": 191.342,
+    "end": 191.483
+   },
+   {
+    "text": "aucun",
+    "start": 191.543,
+    "end": 191.745
+   },
+   {
+    "text": "risque",
+    "start": 191.766,
+    "end": 192.493
+   },
+   {
+    "text": "Allez",
+    "start": 192.533,
+    "end": 192.694
+   }
+  ],
+  "text": "et commande GTA pour que je t'envoie ma checklist pour surfer sur l'actu sans aucun risque Allez",
+  "norm": [
+   "et",
+   "commande",
+   "gta",
+   "pour",
+   "que",
+   "je",
+   "t'envoie",
+   "ma",
+   "checklist",
+   "pour",
+   "surfer",
+   "sur",
+   "l'actu",
+   "san",
+   "aucun",
+   "risque",
+   "allez"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 192.45,
+  "out": 193.19,
+  "words": [
+   {
+    "text": "Allez",
+    "start": 192.501,
+    "end": 192.767
+   },
+   {
+    "text": "ciao",
+    "start": 192.788,
+    "end": 192.89
+   }
+  ],
+  "text": "Allez ciao",
+  "norm": [
+   "allez",
+   "ciao"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 193.95,
+  "out": 195.35,
+  "words": [],
+  "text": "",
+  "norm": [],
+  "keep": true,
+  "why": ""
+ }
+]
