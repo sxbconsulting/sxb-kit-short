@@ -36,24 +36,6 @@
   "addedAt": "2026-11-16T16:07:49"
  },
  {
-  "sourceSceneId": "gta-logo-vi",
-  "asset": "assets/broll/gta-logo-vi.mp4",
-  "sha256": "1a9945d35bd48742321d6fdfd011ddc588da47d054c24fb0adcee087105ee952",
-  "sourceStart": 0.0,
-  "sourceEnd": 3.4,
-  "duration": 3.4,
-  "provenance": {
-   "source": "assets/broll/src/x-trailer2.mp4",
-   "file": "assets/broll/src/x-trailer2.mp4",
-   "in": 158.0,
-   "out": 161.4,
-   "url": "https://x.com/RockstarGames/status/1919746311382851812"
-  },
-  "why": "le nom, les logos (ce qui est à eux) puis barré : leur logo, toujours pas",
-  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub.",
-  "addedAt": "2026-11-16T16:08:00"
- },
- {
   "sourceSceneId": "gta-skyline",
   "asset": "assets/broll/gta-skyline.mp4",
   "sha256": "77633b1047b8f26ce29c09377a808833ae78882597d32eaa7439cac405ef2a5d",
@@ -142,5 +124,41 @@
   "why": "si ta cible joue : action en jeu",
   "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub.",
   "addedAt": "2026-11-16T16:09:10"
+ },
+ {
+  "sourceSceneId": "gta-logo-vi-a",
+  "asset": "assets/broll/gta-logo-vi-a.mp4",
+  "sha256": "69c908ce113a0190d7255d9fcb7d5d5ff6d5fde21c95a6fe633d76b20253dbd5",
+  "sourceStart": 0.0,
+  "sourceEnd": 1.7,
+  "duration": 1.7,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 158.0,
+   "out": 159.7,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "le nom, les logos : le VI qui s'allume (ce qui est à eux)",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub.",
+  "addedAt": "2026-11-16T16:49:20"
+ },
+ {
+  "sourceSceneId": "gta-logo-vi-b",
+  "asset": "assets/broll/gta-logo-vi-b.mp4",
+  "sha256": "827b1a07d845aca17bac61d270718e149c350a044811fcf4d34664e0f42c7b30",
+  "sourceStart": 0.0,
+  "sourceEnd": 1.7,
+  "duration": 1.7,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 159.7,
+   "out": 161.4,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "leur logo, toujours pas : le logo complet, barré",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub.",
+  "addedAt": "2026-11-16T16:49:22"
  }
 ]

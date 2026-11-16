@@ -23,8 +23,8 @@ DA inspirée de GTA 6.
 - [x] 2. Dérush — v2 92,7 s validée (« continue la suite »)
 - [x] 3. Sous-titres — validés (« Good on continue »)
 - [x] 4. Beats et assets — validés, extraits du trailer gardés (« ok garde les extraits »)
-- [ ] 5. Ouverture — A / B / C rendues (`review/openings/`, storyboards dans `openings/`), en attente du choix
-- [ ] 6. Animatic → final
+- [x] 5. Ouverture — **A, le tampon** (« À »)
+- [ ] 6. Animatic → final — v1 envoyée (`review/gate6-animatic-v1.mp4`), en attente des retours (3 tours max)
 - [ ] 7. Livraison
 
 ## Environnement de transcription (cloud)
@@ -109,3 +109,17 @@ Droits : © Rockstar/Take-Two, extraits courts crédités, usage organique uniqu
 Vérif passe 1 : surlignage Meta coupé (« rejected or re… ») et zoom trop tardif (B), C muet avant 2,5 s → corrigés.
 Passe 2 : image 0 grise et vide dans les 3 (fondu d'entrée de la zone) → `no_intro` + premier élément `instant` ; lint 0 erreur
 (@font-face ajoutés dans gta.css). 3 rendus de 7,3 s + `review/openings/comparatif-ABC.mp4`.
+
+## Gate 6 — animatic v1
+
+- `storyboard.json` : 20 scènes (18 beats, F aux questions / émotions, S partout ailleurs), ouverture A, 7 extraits du trailer
+  (logo coupé en `gta-logo-vi-a` / `-b` : le validateur refuse un même extrait deux fois), captures Rockstar / Meta, maquettes
+  `scripts/mockups-gta.mjs` → `assets/mockups/` (boutique avant / après, Reel, mail, story, post concours, commentaires, toutes « EXEMPLE »).
+- Transcript : `assets/derush/cut-fixes.json` (commande → commente, t'emmètra → te permettra) appliqué par `cut-transcript.py`, qui borne
+  aussi chaque mot à sa plage (le validateur refusait 19 mots « à cheval » sur une coupe). `lexicon` vidé.
+- Validateurs : plan ok (138 événements, écart max 2,1 s), footage ok, `npm run check` 0 erreur, contraste 38/38.
+- Vérification (2 passes et plus) : fontes absentes des maquettes (page about:blank) → fichiers file:// + contrôle des fontes ;
+  sortie du jet-ski ancrée sur « le » (tombait sur « gagner le jeu ») → « vrai » ; cartes du jeu trop petites ; bandes noires
+  cinémascope dans les cartes postales → hauteur 0,44 × largeur (image utile 1920×864) ; flash gris à chaque jointure (fondu
+  d'entrée de la zone) → `no_intro` sur toutes les scènes S ; écran de fin qui se chevauchait → checklist compacte (`.zcheck.sm`).
+  Rendu final : −16,3 LUFS / −1,3 dBTP, 92,8 s, chaque extrait non noir pendant sa fenêtre, 19 jointures nettes.

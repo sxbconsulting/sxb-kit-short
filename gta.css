@@ -44,3 +44,12 @@
 .zpill .arw { background: #fff; color: #FF2E88; }
 .ztag { background: rgba(20,8,42,.85); color: #fff; border: 3px solid #FF2E88; font-family: "Anton", sans-serif; font-weight: 400; font-size: 40px; backdrop-filter: none; -webkit-backdrop-filter: none; }
 .ztag .dot { background: #FFC861; }
+.ztag.dim { border-color: rgba(255,255,255,.35); color: rgba(255,255,255,.55); background: rgba(40,30,60,.75); }
+.ztag.dim .dot { background: rgba(255,255,255,.35); }
+.zline.sun { color: #FFC861; }
+.zc .ttl { font-size: 58px; line-height: 1; padding: 24px 28px 0; }
+.zc .lab { font-size: 24px; padding: 12px 28px 26px; letter-spacing: .12em; }
+.zc .num { font-size: 70px; white-space: nowrap; padding: 14px 28px 26px; }
+.zstamp.big { font-size: 150px; padding: 10px 46px 18px; border-width: 9px; }
+.zcheck.sm { font-size: 44px; padding: 14px 26px; }
+.zcheck.sm .ck { width: 46px; height: 46px; font-size: 28px; }

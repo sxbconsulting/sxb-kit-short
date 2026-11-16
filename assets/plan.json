@@ -3,171 +3,1018 @@
  "fps": 30,
  "scenes": [
   {
-   "id": "s01-f",
+   "id": "s01-s",
    "start": 0.0,
-   "end": 92.767,
-   "layout": "face",
+   "end": 7.367,
+   "layout": "split",
    "kind": "hook",
    "anchor": "Mettre",
-   "anchorTime": 0.151,
-   "holdReason": "gate 3 : brouillon des sous-titres sur le monde avatar, les beats viennent à la gate 4"
+   "anchorTime": 0.151
+  },
+  {
+   "id": "s02-s",
+   "start": 7.367,
+   "end": 9.567,
+   "layout": "broll-split",
+   "kind": "broll/gta-vice-aerial",
+   "anchor": "GTA",
+   "anchorTime": 7.355
+  },
+  {
+   "id": "s03-s",
+   "start": 9.567,
+   "end": 12.4,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Et",
+   "anchorTime": 9.556
+  },
+  {
+   "id": "s04-s",
+   "start": 12.4,
+   "end": 17.567,
+   "layout": "broll-split",
+   "kind": "broll/gta-logo-vi-a",
+   "anchor": "Ils",
+   "anchorTime": 12.378
+  },
+  {
+   "id": "s05-s",
+   "start": 17.567,
+   "end": 22.933,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Les",
+   "anchorTime": 17.56
+  },
+  {
+   "id": "s06-f",
+   "start": 22.933,
+   "end": 25.633,
+   "layout": "face",
+   "kind": "beat",
+   "anchor": "Mais",
+   "anchorTime": 22.923,
+   "holdReason": "question centrale : le visage porte le doute, la question s'écrit en néon"
+  },
+  {
+   "id": "s07-s",
+   "start": 25.633,
+   "end": 30.433,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "D'abord,",
+   "anchorTime": 25.625
+  },
+  {
+   "id": "s08-s",
+   "start": 30.433,
+   "end": 34.5,
+   "layout": "broll-split",
+   "kind": "broll/gta-neon-club",
+   "anchor": "Les",
+   "anchorTime": 30.428
+  },
+  {
+   "id": "s09-s",
+   "start": 34.5,
+   "end": 40.533,
+   "layout": "broll-split",
+   "kind": "broll/gta-sunset-city",
+   "anchor": "Et",
+   "anchorTime": 34.512
+  },
+  {
+   "id": "s10-f",
+   "start": 40.533,
+   "end": 42.7,
+   "layout": "face",
+   "kind": "beat",
+   "anchor": "Les",
+   "anchorTime": 40.537,
+   "holdReason": "face only, the viewer follows the speech"
+  },
+  {
+   "id": "s11-s",
+   "start": 42.7,
+   "end": 48.6,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "et",
+   "anchorTime": 42.699
+  },
+  {
+   "id": "s12-s",
+   "start": 48.6,
+   "end": 55.8,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Ensuite,",
+   "anchorTime": 48.585
+  },
+  {
+   "id": "s13-s",
+   "start": 55.8,
+   "end": 59.1,
+   "layout": "broll-split",
+   "kind": "broll/gta-skyline",
+   "anchor": "Utilise",
+   "anchorTime": 55.807
+  },
+  {
+   "id": "s14-f",
+   "start": 59.1,
+   "end": 62.667,
+   "layout": "face",
+   "kind": "beat",
+   "anchor": "Nourris-toi",
+   "anchorTime": 59.108,
+   "holdReason": "face only, the viewer follows the speech"
+  },
+  {
+   "id": "s15-s",
+   "start": 62.667,
+   "end": 68.933,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "que",
+   "anchorTime": 62.668
+  },
+  {
+   "id": "s16-s",
+   "start": 68.933,
+   "end": 76.9,
+   "layout": "broll-split",
+   "kind": "broll/gta-jetski",
+   "anchor": "Enfin,",
+   "anchorTime": 68.95
+  },
+  {
+   "id": "s17-s",
+   "start": 76.9,
+   "end": 80.433,
+   "layout": "broll-split",
+   "kind": "broll/gta-logo-vi-b",
+   "anchor": "Tu",
+   "anchorTime": 76.888
+  },
+  {
+   "id": "s18-s",
+   "start": 80.433,
+   "end": 85.967,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Pour",
+   "anchorTime": 80.435
+  },
+  {
+   "id": "s19-f",
+   "start": 85.967,
+   "end": 88.4,
+   "layout": "face",
+   "kind": "beat",
+   "anchor": "Et",
+   "anchorTime": 85.967,
+   "holdReason": "face only, the viewer follows the speech"
+  },
+  {
+   "id": "s20-s",
+   "start": 88.4,
+   "end": 92.767,
+   "layout": "split",
+   "kind": "cta",
+   "anchor": "Et",
+   "anchorTime": 88.413,
+   "holdReason": "écran de fin : le mot-clé et la checklist restent lisibles jusqu'au ciao"
   }
  ],
  "events": [
   {
+   "time": 0.0,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "0"
+  },
+  {
+   "time": 0.491,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "w:GTA"
+  },
+  {
    "time": 0.491,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s01-s",
    "anchor": "GTA"
+  },
+  {
+   "time": 2.532,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "w:publicités"
+  },
+  {
+   "time": 4.633,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "w:hype"
+  },
+  {
+   "time": 6.214,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "w:risquer"
+  },
+  {
+   "time": 6.635,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "w:compte"
   },
   {
    "time": 7.355,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s01-s",
    "anchor": "GTA"
+  },
+  {
+   "time": 7.36,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "7.36"
+  },
+  {
+   "time": 7.36,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "7.36"
+  },
+  {
+   "time": 8.696,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "w:19"
+  },
+  {
+   "time": 8.696,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "w:19"
+  },
+  {
+   "time": 8.836,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "w:novembre"
+  },
+  {
+   "time": 9.696,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:Rockstar"
+  },
+  {
+   "time": 9.696,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:Rockstar"
   },
   {
    "time": 9.696,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s03-s",
    "anchor": "Rockstar"
+  },
+  {
+   "time": 11.297,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:boutique"
+  },
+  {
+   "time": 11.897,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:dérivés"
+  },
+  {
+   "time": 12.4,
+   "type": "overlay-pop",
+   "visual": "s04-s",
+   "anchor": "12.4"
+  },
+  {
+   "time": 12.818,
+   "type": "overlay-pop",
+   "visual": "s04-s",
+   "anchor": "w:t-shirts"
+  },
+  {
+   "time": 13.338,
+   "type": "overlay-pop",
+   "visual": "s04-s",
+   "anchor": "w:casquettes"
+  },
+  {
+   "time": 13.818,
+   "type": "overlay-pop",
+   "visual": "s04-s",
+   "anchor": "w:briquets"
+  },
+  {
+   "time": 14.959,
+   "type": "overlay-pop",
+   "visual": "s04-s",
+   "anchor": "w:nom"
+  },
+  {
+   "time": 14.959,
+   "type": "overlay-pop",
+   "visual": "s04-s",
+   "anchor": "w:nom"
+  },
+  {
+   "time": 16.06,
+   "type": "overlay-pop",
+   "visual": "s04-s",
+   "anchor": "w:Vice"
   },
   {
    "time": 16.06,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s04-s",
    "anchor": "Vice"
+  },
+  {
+   "time": 17.06,
+   "type": "overlay-pop",
+   "visual": "s04-s",
+   "anchor": "w:c'est"
+  },
+  {
+   "time": 17.681,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:reprendre"
   },
   {
    "time": 18.321,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s05-s",
    "anchor": "risque"
   },
   {
    "time": 18.661,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s05-s",
    "anchor": "juridique."
+  },
+  {
+   "time": 19.742,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:publicité"
+  },
+  {
+   "time": 19.742,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:publicité"
+  },
+  {
+   "time": 20.382,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:refusée"
+  },
+  {
+   "time": 21.503,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:compte"
+  },
+  {
+   "time": 22.483,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:bloqué"
   },
   {
    "time": 22.483,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s05-s",
    "anchor": "bloqué."
+  },
+  {
+   "time": 23.063,
+   "type": "overlay-pop",
+   "visual": "s06-f",
+   "anchor": "w:comment"
+  },
+  {
+   "time": 24.844,
+   "type": "overlay-pop",
+   "visual": "s06-f",
+   "anchor": "w:marque"
+  },
+  {
+   "time": 25.625,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:D'abord"
+  },
+  {
+   "time": 26.845,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:retravailler"
+  },
+  {
+   "time": 27.766,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:boutique"
+  },
+  {
+   "time": 29.027,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:l'ambiance"
+  },
+  {
+   "time": 29.027,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:l'ambiance"
   },
   {
    "time": 29.027,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s07-s",
    "anchor": "l'ambiance."
+  },
+  {
+   "time": 29.767,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:Pas"
+  },
+  {
+   "time": 30.568,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:néons"
+  },
+  {
+   "time": 30.568,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:néons"
   },
   {
    "time": 30.568,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s08-s",
    "anchor": "néons,"
   },
   {
    "time": 31.168,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:palmiers"
+  },
+  {
+   "time": 31.168,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s08-s",
    "anchor": "palmiers,"
   },
   {
    "time": 31.649,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s08-s",
    "anchor": "l'ambiance"
+  },
+  {
+   "time": 31.969,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:années"
+  },
+  {
+   "time": 33.19,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:nom"
+  },
+  {
+   "time": 34.051,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:logo"
+  },
+  {
+   "time": 34.652,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:pourtant"
+  },
+  {
+   "time": 35.693,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:boutique"
+  },
+  {
+   "time": 36.834,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:comprendre"
+  },
+  {
+   "time": 37.274,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:référence"
+  },
+  {
+   "time": 37.274,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:référence"
+  },
+  {
+   "time": 38.636,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:donner"
+  },
+  {
+   "time": 39.777,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:ambiance"
   },
   {
    "time": 39.777,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s09-s",
    "anchor": "ambiance"
   },
   {
    "time": 40.658,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s10-f",
    "anchor": "clients"
+  },
+  {
+   "time": 41.879,
+   "type": "overlay-pop",
+   "visual": "s10-f",
+   "anchor": "w:clin"
+  },
+  {
+   "time": 43.26,
+   "type": "overlay-pop",
+   "visual": "s11-s",
+   "anchor": "w:montrer"
+  },
+  {
+   "time": 43.961,
+   "type": "overlay-pop",
+   "visual": "s11-s",
+   "anchor": "w:marque"
+  },
+  {
+   "time": 44.381,
+   "type": "overlay-pop",
+   "visual": "s11-s",
+   "anchor": "w:boutique"
+  },
+  {
+   "time": 45.082,
+   "type": "overlay-pop",
+   "visual": "s11-s",
+   "anchor": "w:fait"
+  },
+  {
+   "time": 46.964,
+   "type": "overlay-pop",
+   "visual": "s11-s",
+   "anchor": "w:actualités"
+  },
+  {
+   "time": 48.065,
+   "type": "overlay-pop",
+   "visual": "s11-s",
+   "anchor": "w:audience"
+  },
+  {
+   "time": 48.585,
+   "type": "overlay-pop",
+   "visual": "s12-s",
+   "anchor": "w:Ensuite"
+  },
+  {
+   "time": 50.065,
+   "type": "overlay-pop",
+   "visual": "s12-s",
+   "anchor": "w:contenu"
   },
   {
    "time": 50.065,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s12-s",
    "anchor": "contenu,"
+  },
+  {
+   "time": 50.946,
+   "type": "overlay-pop",
+   "visual": "s12-s",
+   "anchor": "w:produits"
+  },
+  {
+   "time": 52.446,
+   "type": "overlay-pop",
+   "visual": "s12-s",
+   "anchor": "w:vidéos"
   },
   {
    "time": 53.066,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s12-s",
    "anchor": "contenu"
+  },
+  {
+   "time": 54.546,
+   "type": "overlay-pop",
+   "visual": "s12-s",
+   "anchor": "w:mails"
+  },
+  {
+   "time": 55.287,
+   "type": "overlay-pop",
+   "visual": "s12-s",
+   "anchor": "w:stories"
+  },
+  {
+   "time": 55.807,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "w:Utilise"
+  },
+  {
+   "time": 55.807,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "w:Utilise"
+  },
+  {
+   "time": 57.327,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "w:GTA"
   },
   {
    "time": 57.327,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s13-s",
    "anchor": "GTA"
+  },
+  {
+   "time": 57.927,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "w:surtout"
+  },
+  {
+   "time": 58.207,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "w:toutes"
+  },
+  {
+   "time": 58.467,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "w:références"
+  },
+  {
+   "time": 59.108,
+   "type": "overlay-pop",
+   "visual": "s14-f",
+   "anchor": "w:Nourris-toi"
   },
   {
    "time": 59.528,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s14-f",
    "anchor": "l'ambiance"
   },
   {
    "time": 60.148,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s14-f",
    "anchor": "GTA"
+  },
+  {
+   "time": 61.568,
+   "type": "overlay-pop",
+   "visual": "s14-f",
+   "anchor": "w:montre"
+  },
+  {
+   "time": 62.849,
+   "type": "overlay-pop",
+   "visual": "s15-s",
+   "anchor": "w:toi"
+  },
+  {
+   "time": 63.089,
+   "type": "overlay-pop",
+   "visual": "s15-s",
+   "anchor": "w:aussi"
+  },
+  {
+   "time": 63.749,
+   "type": "overlay-pop",
+   "visual": "s15-s",
+   "anchor": "w:références"
+  },
+  {
+   "time": 64.849,
+   "type": "overlay-pop",
+   "visual": "s15-s",
+   "anchor": "w:codes"
+  },
+  {
+   "time": 65.829,
+   "type": "overlay-pop",
+   "visual": "s15-s",
+   "anchor": "w:point"
+  },
+  {
+   "time": 67.09,
+   "type": "overlay-pop",
+   "visual": "s15-s",
+   "anchor": "w:différencier"
+  },
+  {
+   "time": 67.83,
+   "type": "overlay-pop",
+   "visual": "s15-s",
+   "anchor": "w:rapport"
+  },
+  {
+   "time": 68.25,
+   "type": "overlay-pop",
+   "visual": "s15-s",
+   "anchor": "w:autres"
+  },
+  {
+   "time": 68.39,
+   "type": "overlay-pop",
+   "visual": "s15-s",
+   "anchor": "w:concurrents"
+  },
+  {
+   "time": 68.95,
+   "type": "overlay-pop",
+   "visual": "s16-s",
+   "anchor": "w:Enfin"
+  },
+  {
+   "time": 69.832,
+   "type": "overlay-pop",
+   "visual": "s16-s",
+   "anchor": "w:joue"
+  },
+  {
+   "time": 69.832,
+   "type": "overlay-pop",
+   "visual": "s16-s",
+   "anchor": "w:joue"
+  },
+  {
+   "time": 70.554,
+   "type": "overlay-pop",
+   "visual": "s16-s",
+   "anchor": "w:gagner"
+  },
+  {
+   "time": 71.436,
+   "type": "overlay-pop",
+   "visual": "s16-s",
+   "anchor": "w:vrai"
   },
   {
    "time": 71.796,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s16-s",
    "anchor": "GTA"
+  },
+  {
+   "time": 72.759,
+   "type": "overlay-pop",
+   "visual": "s16-s",
+   "anchor": "w:magasin"
+  },
+  {
+   "time": 73.781,
+   "type": "overlay-pop",
+   "visual": "s16-s",
+   "anchor": "w:également"
+  },
+  {
+   "time": 75.044,
+   "type": "overlay-pop",
+   "visual": "s16-s",
+   "anchor": "w:code"
+  },
+  {
+   "time": 76.627,
+   "type": "overlay-pop",
+   "visual": "s16-s",
+   "anchor": "w:concours"
   },
   {
    "time": 76.627,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s16-s",
    "anchor": "concours."
+  },
+  {
+   "time": 77.068,
+   "type": "overlay-pop",
+   "visual": "s17-s",
+   "anchor": "w:écrire"
+  },
+  {
+   "time": 77.349,
+   "type": "overlay-pop",
+   "visual": "s17-s",
+   "anchor": "w:GTA"
   },
   {
    "time": 77.349,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s17-s",
    "anchor": "GTA"
+  },
+  {
+   "time": 78.832,
+   "type": "overlay-pop",
+   "visual": "s17-s",
+   "anchor": "w:lot"
+  },
+  {
+   "time": 79.253,
+   "type": "overlay-pop",
+   "visual": "s17-s",
+   "anchor": "w:logo"
+  },
+  {
+   "time": 79.253,
+   "type": "overlay-pop",
+   "visual": "s17-s",
+   "anchor": "w:logo"
+  },
+  {
+   "time": 79.854,
+   "type": "overlay-pop",
+   "visual": "s17-s",
+   "anchor": "w:toujours"
+  },
+  {
+   "time": 80.135,
+   "type": "overlay-pop",
+   "visual": "s17-s",
+   "anchor": "w:pas"
+  },
+  {
+   "time": 80.596,
+   "type": "overlay-pop",
+   "visual": "s18-s",
+   "anchor": "w:participer"
+  },
+  {
+   "time": 81.678,
+   "type": "overlay-pop",
+   "visual": "s18-s",
+   "anchor": "w:dis-moi"
+  },
+  {
+   "time": 82.119,
+   "type": "overlay-pop",
+   "visual": "s18-s",
+   "anchor": "w:produit"
+  },
+  {
+   "time": 83.702,
+   "type": "overlay-pop",
+   "visual": "s18-s",
+   "anchor": "w:L'objectif"
+  },
+  {
+   "time": 84.544,
+   "type": "overlay-pop",
+   "visual": "s18-s",
+   "anchor": "w:clients"
   },
   {
    "time": 84.544,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s18-s",
    "anchor": "clients,"
+  },
+  {
+   "time": 85.226,
+   "type": "overlay-pop",
+   "visual": "s18-s",
+   "anchor": "w:chasseurs"
+  },
+  {
+   "time": 85.606,
+   "type": "overlay-pop",
+   "visual": "s18-s",
+   "anchor": "w:cadeaux"
+  },
+  {
+   "time": 86.308,
+   "type": "overlay-pop",
+   "visual": "s19-f",
+   "anchor": "w:apprendre"
+  },
+  {
+   "time": 87.811,
+   "type": "overlay-pop",
+   "visual": "s19-f",
+   "anchor": "w:abonne-toi"
+  },
+  {
+   "time": 87.811,
+   "type": "underline",
+   "visual": "s19-f",
+   "anchor": "w:abonne-toi"
+  },
+  {
+   "time": 88.513,
+   "type": "overlay-pop",
+   "visual": "s20-s",
+   "anchor": "w:commente"
   },
   {
    "time": 88.513,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s20-s",
    "anchor": "commente"
   },
   {
    "time": 88.793,
+   "type": "overlay-pop",
+   "visual": "s20-s",
+   "anchor": "w:GTA"
+  },
+  {
+   "time": 88.793,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s20-s",
    "anchor": "GTA"
   },
   {
    "time": 89.635,
+   "type": "overlay-pop",
+   "visual": "s20-s",
+   "anchor": "w:checklist"
+  },
+  {
+   "time": 89.635,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s20-s",
    "anchor": "checklist"
+  },
+  {
+   "time": 89.95,
+   "type": "overlay-pop",
+   "visual": "s20-s",
+   "anchor": "89.95"
+  },
+  {
+   "time": 90.25,
+   "type": "overlay-pop",
+   "visual": "s20-s",
+   "anchor": "90.25"
+  },
+  {
+   "time": 91.72,
+   "type": "overlay-pop",
+   "visual": "s20-s",
+   "anchor": "w:risque"
   },
   {
    "time": 91.72,
    "type": "caption-emphasis",
-   "visual": "s01-f",
+   "visual": "s20-s",
    "anchor": "risque."
   }
  ],
@@ -417,14 +1264,14 @@
   },
   {
    "start": 6.795,
-   "end": 7.335,
+   "end": 7.267,
    "words": [
     {
      "text": "publicitaire.",
      "start": 6.795,
-     "end": 7.335,
+     "end": 7.267,
      "sourceStart": 8.762,
-     "sourceEnd": 10.001
+     "sourceEnd": 9.234
     }
    ]
   },
@@ -591,14 +1438,14 @@
   },
   {
    "start": 11.897,
-   "end": 12.338,
+   "end": 12.267,
    "words": [
     {
      "text": "dérivés.",
      "start": 11.897,
-     "end": 12.338,
+     "end": 12.267,
      "sourceStart": 14.563,
-     "sourceEnd": 15.504
+     "sourceEnd": 14.933
     }
    ]
   },
@@ -819,14 +1666,14 @@
   },
   {
    "start": 17.28,
-   "end": 17.54,
+   "end": 17.467,
    "words": [
     {
      "text": "eux.",
      "start": 17.28,
-     "end": 17.54,
+     "end": 17.467,
      "sourceStart": 20.446,
-     "sourceEnd": 22.84
+     "sourceEnd": 20.633
     }
    ]
   },
@@ -859,7 +1706,7 @@
   },
   {
    "start": 18.221,
-   "end": 19.161,
+   "end": 19.133,
    "words": [
     {
      "text": "un",
@@ -878,9 +1725,9 @@
     {
      "text": "juridique.",
      "start": 18.661,
-     "end": 19.161,
+     "end": 19.133,
      "sourceStart": 23.961,
-     "sourceEnd": 24.895
+     "sourceEnd": 24.433
     }
    ]
   },
@@ -1021,7 +1868,7 @@
   },
   {
    "start": 22.303,
-   "end": 22.903,
+   "end": 22.867,
    "words": [
     {
      "text": "va",
@@ -1040,9 +1887,9 @@
     {
      "text": "bloqué.",
      "start": 22.483,
-     "end": 22.903,
+     "end": 22.867,
      "sourceStart": 28.217,
-     "sourceEnd": 29.303
+     "sourceEnd": 28.601
     }
    ]
   },
@@ -1156,7 +2003,7 @@
   },
   {
    "start": 24.844,
-   "end": 25.465,
+   "end": 25.433,
    "words": [
     {
      "text": "marque",
@@ -1168,9 +2015,9 @@
     {
      "text": "e-commerce",
      "start": 25.045,
-     "end": 25.465,
+     "end": 25.433,
      "sourceStart": 31.445,
-     "sourceEnd": 32.699
+     "sourceEnd": 31.833
     }
    ]
   },
@@ -1284,7 +2131,7 @@
   },
   {
    "start": 29.767,
-   "end": 30.408,
+   "end": 30.3,
    "words": [
     {
      "text": "Pas",
@@ -1303,9 +2150,9 @@
     {
      "text": "marque.",
      "start": 30.027,
-     "end": 30.408,
+     "end": 30.3,
      "sourceStart": 37.261,
-     "sourceEnd": 48.375
+     "sourceEnd": 37.534
     }
    ]
   },
@@ -1432,14 +2279,14 @@
   },
   {
    "start": 34.051,
-   "end": 34.472,
+   "end": 34.433,
    "words": [
     {
      "text": "logo.",
      "start": 34.051,
-     "end": 34.472,
+     "end": 34.433,
      "sourceStart": 52.018,
-     "sourceEnd": 53.839
+     "sourceEnd": 52.4
     }
    ]
   },
@@ -1661,7 +2508,7 @@
   },
   {
    "start": 40.097,
-   "end": 40.497,
+   "end": 40.433,
    "words": [
     {
      "text": "à",
@@ -1680,9 +2527,9 @@
     {
      "text": "marque.",
      "start": 40.217,
-     "end": 40.497,
+     "end": 40.433,
      "sourceStart": 59.584,
-     "sourceEnd": 64.297
+     "sourceEnd": 59.8
     }
    ]
   },
@@ -1742,14 +2589,14 @@
   },
   {
    "start": 42.079,
-   "end": 42.659,
+   "end": 42.633,
    "words": [
     {
      "text": "d'œil",
      "start": 42.079,
-     "end": 42.659,
+     "end": 42.633,
      "sourceStart": 65.879,
-     "sourceEnd": 68.426
+     "sourceEnd": 66.433
     }
    ]
   },
@@ -1917,7 +2764,7 @@
   },
   {
    "start": 47.484,
-   "end": 47.903999999999996,
+   "end": 47.904,
    "words": [
     {
      "text": "qui",
@@ -1936,7 +2783,7 @@
     {
      "text": "à",
      "start": 47.864,
-     "end": 47.903999999999996,
+     "end": 47.904,
      "sourceStart": 73.631,
      "sourceEnd": 73.671
     }
@@ -2254,7 +3101,7 @@
   },
   {
    "start": 55.147,
-   "end": 55.747,
+   "end": 55.733,
    "words": [
     {
      "text": "tes",
@@ -2266,9 +3113,9 @@
     {
      "text": "stories.",
      "start": 55.287,
-     "end": 55.747,
+     "end": 55.733,
      "sourceStart": 87.153,
-     "sourceEnd": 94.614
+     "sourceEnd": 87.599
     }
    ]
   },
@@ -2355,7 +3202,7 @@
   },
   {
    "start": 58.207,
-   "end": 59.088,
+   "end": 59.033,
    "words": [
     {
      "text": "toutes",
@@ -2374,9 +3221,9 @@
     {
      "text": "références.",
      "start": 58.467,
-     "end": 59.088,
+     "end": 59.033,
      "sourceStart": 97.334,
-     "sourceEnd": 117.655
+     "sourceEnd": 97.9
     }
    ]
   },
@@ -2576,7 +3423,7 @@
     {
      "text": "tu",
      "start": 64.269,
-     "end": 64.30900000000001,
+     "end": 64.309,
      "sourceStart": 122.836,
      "sourceEnd": 122.876
     },
@@ -2692,8 +3539,8 @@
      "text": "te permettra",
      "start": 66.569,
      "end": 66.89,
-     "sourceStart": null,
-     "sourceEnd": null
+     "sourceStart": 125.136,
+     "sourceEnd": 125.457
     },
     {
      "text": "de",
@@ -2841,14 +3688,14 @@
   },
   {
    "start": 70.854,
-   "end": 71.295,
+   "end": 71.233,
    "words": [
     {
      "text": "jeu.",
      "start": 70.854,
-     "end": 71.295,
+     "end": 71.233,
      "sourceStart": 134.854,
-     "sourceEnd": 155.929
+     "sourceEnd": 135.233
     }
    ]
   },
@@ -3043,28 +3890,34 @@
   },
   {
    "start": 76.888,
-   "end": 76.92800000000001,
+   "end": 76.927,
    "words": [
     {
      "text": "Tu",
      "start": 76.888,
-     "end": 76.92800000000001,
+     "end": 76.927,
      "sourceStart": 161.522,
-     "sourceEnd": 161.562
+     "sourceEnd": 161.561
     }
    ]
   },
   {
-   "start": 76.948,
-   "end": 77.729,
+   "start": 76.927,
+   "end": 76.967,
    "words": [
     {
      "text": "peux",
-     "start": 76.948,
-     "end": 77.048,
-     "sourceStart": 161.582,
-     "sourceEnd": 162.414
-    },
+     "start": 76.927,
+     "end": 76.967,
+     "sourceStart": 161.561,
+     "sourceEnd": 161.601
+    }
+   ]
+  },
+  {
+   "start": 77.068,
+   "end": 77.87,
+   "words": [
     {
      "text": "écrire",
      "start": 77.068,
@@ -3078,20 +3931,20 @@
      "end": 77.729,
      "sourceStart": 162.715,
      "sourceEnd": 163.095
-    }
-   ]
-  },
-  {
-   "start": 77.81,
-   "end": 78.571,
-   "words": [
+    },
     {
      "text": "6",
      "start": 77.81,
      "end": 77.87,
      "sourceStart": 163.176,
      "sourceEnd": 163.236
-    },
+    }
+   ]
+  },
+  {
+   "start": 77.93,
+   "end": 78.691,
+   "words": [
     {
      "text": "à",
      "start": 77.93,
@@ -3105,20 +3958,20 @@
      "end": 78.571,
      "sourceStart": 163.396,
      "sourceEnd": 163.937
-    }
-   ]
-  },
-  {
-   "start": 78.591,
-   "end": 79.052,
-   "words": [
+    },
     {
      "text": "c'est",
      "start": 78.591,
      "end": 78.691,
      "sourceStart": 163.957,
      "sourceEnd": 164.057
-    },
+    }
+   ]
+  },
+  {
+   "start": 78.711,
+   "end": 79.033,
+   "words": [
     {
      "text": "le",
      "start": 78.711,
@@ -3129,9 +3982,9 @@
     {
      "text": "lot.",
      "start": 78.832,
-     "end": 79.052,
+     "end": 79.033,
      "sourceStart": 164.198,
-     "sourceEnd": 164.886
+     "sourceEnd": 164.399
     }
    ]
   },
@@ -3157,7 +4010,7 @@
   },
   {
    "start": 79.854,
-   "end": 80.415,
+   "end": 80.4,
    "words": [
     {
      "text": "toujours",
@@ -3169,9 +4022,9 @@
     {
      "text": "pas.",
      "start": 80.135,
-     "end": 80.415,
+     "end": 80.4,
      "sourceStart": 165.969,
-     "sourceEnd": 169.682
+     "sourceEnd": 166.234
     }
    ]
   },
@@ -3386,14 +4239,14 @@
   },
   {
    "start": 85.606,
-   "end": 85.947,
+   "end": 85.9,
    "words": [
     {
      "text": "cadeaux.",
      "start": 85.606,
-     "end": 85.947,
+     "end": 85.9,
      "sourceStart": 174.873,
-     "sourceEnd": 177.38
+     "sourceEnd": 175.167
     }
    ]
   },
@@ -3426,7 +4279,7 @@
   },
   {
    "start": 86.208,
-   "end": 86.60900000000001,
+   "end": 86.609,
    "words": [
     {
      "text": "veux",
@@ -3445,7 +4298,7 @@
     {
      "text": "un",
      "start": 86.569,
-     "end": 86.60900000000001,
+     "end": 86.609,
      "sourceStart": 178.002,
      "sourceEnd": 178.042
     }
@@ -3480,7 +4333,7 @@
   },
   {
    "start": 87.25,
-   "end": 88.393,
+   "end": 88.333,
    "words": [
     {
      "text": "chaque",
@@ -3499,9 +4352,9 @@
     {
      "text": "abonne-toi.",
      "start": 87.811,
-     "end": 88.393,
+     "end": 88.333,
      "sourceStart": 179.244,
-     "sourceEnd": 188.393
+     "sourceEnd": 179.766
     }
    ]
   },
@@ -3520,8 +4373,8 @@
      "text": "commente",
      "start": 88.513,
      "end": 88.753,
-     "sourceStart": null,
-     "sourceEnd": null
+     "sourceStart": 188.513,
+     "sourceEnd": 188.753
     },
     {
      "text": "GTA",
@@ -3642,14 +4495,14 @@
   },
   {
    "start": 91.72,
-   "end": 92.081,
+   "end": 92.067,
    "words": [
     {
      "text": "risque.",
      "start": 91.72,
-     "end": 92.081,
+     "end": 92.067,
      "sourceStart": 191.72,
-     "sourceEnd": 192.447
+     "sourceEnd": 192.067
     }
    ]
   },

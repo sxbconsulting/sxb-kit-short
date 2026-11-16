@@ -1,1 +1,121 @@
-[]
+[
+ {
+  "scene": "s02-s",
+  "sourceSceneId": "gta-vice-aerial",
+  "asset": "assets/broll/gta-vice-aerial.mp4",
+  "sha256": "10d0d5a1a003bcb195b081522057d692b93420ab5bc1bfa67116fe87e1f99729",
+  "sourceStart": 0.0,
+  "sourceEnd": 1.39,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 6.6,
+   "out": 8.08,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "GTA 6 sort jeudi : Vice City vue du ciel",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub."
+ },
+ {
+  "scene": "s04-s",
+  "sourceSceneId": "gta-logo-vi-a",
+  "asset": "assets/broll/gta-logo-vi-a.mp4",
+  "sha256": "69c908ce113a0190d7255d9fcb7d5d5ff6d5fde21c95a6fe633d76b20253dbd5",
+  "sourceStart": 0.0,
+  "sourceEnd": 1.101,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 158.0,
+   "out": 159.7,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "le nom, les logos : le VI qui s'allume (ce qui est à eux)",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub."
+ },
+ {
+  "scene": "s08-s",
+  "sourceSceneId": "gta-neon-club",
+  "asset": "assets/broll/gta-neon-club.mp4",
+  "sha256": "5329d29550ba181d78e84749cf6ef467e918d67bdfe3664d7ad5be6506c95d38",
+  "sourceStart": 0.0,
+  "sourceEnd": 1.822,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 100.0,
+   "out": 102.9,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "les néons : club violet",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub."
+ },
+ {
+  "scene": "s09-s",
+  "sourceSceneId": "gta-sunset-city",
+  "asset": "assets/broll/gta-sunset-city.mp4",
+  "sha256": "1ccb245480d73f376e80109ae670829bcf885c96dd3c197f813f566afabea064",
+  "sourceStart": 0.0,
+  "sourceEnd": 3.259,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 153.6,
+   "out": 155.8,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "on va comprendre la référence : la ville au coucher de soleil",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub."
+ },
+ {
+  "scene": "s13-s",
+  "sourceSceneId": "gta-skyline",
+  "asset": "assets/broll/gta-skyline.mp4",
+  "sha256": "77633b1047b8f26ce29c09377a808833ae78882597d32eaa7439cac405ef2a5d",
+  "sourceStart": 0.0,
+  "sourceEnd": 3.293,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 34.8,
+   "out": 37.95,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "nourris-toi de l'ambiance à la GTA : skyline, palmiers, autoroute",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub."
+ },
+ {
+  "scene": "s16-s",
+  "sourceSceneId": "gta-jetski",
+  "asset": "assets/broll/gta-jetski.mp4",
+  "sha256": "d3443533b9003cebb45ee36b5a587d0569b47c9147393aa540ce4a026c9cfc9f",
+  "sourceStart": 0.0,
+  "sourceEnd": 1.604,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 140.1,
+   "out": 141.78,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "si ta cible joue : action en jeu",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub."
+ },
+ {
+  "scene": "s17-s",
+  "sourceSceneId": "gta-logo-vi-b",
+  "asset": "assets/broll/gta-logo-vi-b.mp4",
+  "sha256": "827b1a07d845aca17bac61d270718e149c350a044811fcf4d34664e0f42c7b30",
+  "sourceStart": 0.0,
+  "sourceEnd": 1.18,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 159.7,
+   "out": 161.4,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "leur logo, toujours pas : le logo complet, barré",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub."
+ }
+]

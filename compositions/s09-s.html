@@ -132,15 +132,79 @@
 .keyword { margin: 30px 0 0; font: 900 118px/1 var(--font-display); letter-spacing: var(--track-tight); text-transform: uppercase; }
 .keyword em { display: inline-block; color: var(--accent); text-shadow: 0 3px 0 rgba(23,19,14,.25); }
 </style>
-<div id="root" data-composition-id="s01-f" data-width="1080" data-height="1920">
-
+<div id="root" data-composition-id="s09-s" data-width="1080" data-height="1920">
+<style>#root { --z-bg: #14082A; --z-ink: #FFFFFF; --z-accent: #FF2E88; --z-accent-ink: #FF2E88; --z-font: "Anton", "Archivo", sans-serif; }</style>
+<style>/* gta.css — zone items in a Vice-City-inspired look (no Rockstar logo or artwork). Load with "css": ["gta.css"] in storyboard.json.
+   Palette: night #14082A, neon pink #FF2E88, sun #FFC861, teal #19E3D2 (validations), red #FF3B3B (forbidden only). Fonts: Anton, Kaushan Script. */
+@font-face { font-family: "Anton"; src: url("assets/fonts/Anton.ttf") format("truetype"); font-weight: 400 900; }
+@font-face { font-family: "Kaushan Script"; src: url("assets/fonts/KaushanScript.ttf") format("truetype"); font-weight: 400 900; }
+@font-face { font-family: "Archivo"; src: url("assets/fonts/Archivo.ttf") format("truetype"); font-weight: 100 900; font-stretch: 62% 125%; }
+#zone { background:
+  radial-gradient(120% 60% at 50% 112%, rgba(255,90,120,.55), rgba(255,138,76,.18) 38%, transparent 62%),
+  linear-gradient(180deg, #0E0624 0%, #1C0A3E 55%, #3A0F55 100%); color: #fff; font-family: "Anton", var(--font-display); }
+#zone::before { content: ""; position: absolute; left: -10%; right: -10%; bottom: 0; height: 300px; pointer-events: none;
+  background-image: linear-gradient(rgba(255,46,136,.28) 2px, transparent 2px), linear-gradient(90deg, rgba(255,46,136,.22) 2px, transparent 2px);
+  background-size: 100% 46px, 90px 100%; transform: perspective(500px) rotateX(58deg); transform-origin: 50% 100%; opacity: .55; }
+#zone::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 6px; background: linear-gradient(90deg, #FF2E88, #FFC861, #19E3D2); box-shadow: 0 0 24px rgba(255,46,136,.8); }
+/* trailer excerpts: postcard with a white border, slightly tilted (collage) */
+.zvideo { border-radius: 10px; border: 10px solid #fff; box-shadow: 0 26px 70px rgba(0,0,0,.6), 0 0 0 2px rgba(255,46,136,.6); background: #000; }
+.zimg { border-radius: 16px; border: 6px solid #fff; box-shadow: 0 26px 70px rgba(0,0,0,.6); background: #fff; }
+.zimg .hl { border: 5px solid #FF2E88; border-radius: 6px; background: rgba(255,46,136,.22); box-shadow: 0 0 22px rgba(255,46,136,.55); }
+.zstamp { font-family: "Anton", sans-serif; font-weight: 400; font-size: 78px; letter-spacing: .01em; line-height: 1; text-transform: uppercase; color: #fff; background: #FF2E88; border: 7px solid #fff; border-radius: 14px; padding: 14px 30px 18px; transform: rotate(-6deg); box-shadow: 0 18px 50px rgba(0,0,0,.55), 0 0 40px rgba(255,46,136,.6); white-space: nowrap; }
+.zstamp.no { background: #FF3B3B; box-shadow: 0 18px 50px rgba(0,0,0,.55), 0 0 40px rgba(255,59,59,.6); }
+.zbadge { width: auto; height: auto; padding: 14px 30px 18px; border-radius: 999px; background: #FFC861; color: #14082A; font-family: "Anton", sans-serif; font-style: normal; font-weight: 400; font-size: 48px; white-space: nowrap; box-shadow: 0 16px 40px rgba(255,200,97,.35); }
+.zline { font-family: "Anton", sans-serif; font-weight: 400; color: #fff; letter-spacing: .02em; text-shadow: 0 4px 16px rgba(0,0,0,.6); }
+.zline em { font-style: normal; color: #FF2E88; }
+.zline.neon { font-family: "Kaushan Script", cursive; color: #FF6FB5; text-shadow: 0 0 10px #FF2E88, 0 0 30px #FF2E88, 0 4px 10px rgba(0,0,0,.6); }
+.zline.credit { font-family: "Archivo", sans-serif; font-weight: 700; font-size: 22px; letter-spacing: .08em; text-transform: uppercase; color: rgba(255,255,255,.75); text-shadow: 0 2px 6px rgba(0,0,0,.8); }
+.zline.no { color: #FF3B3B; text-shadow: 0 0 18px rgba(255,59,59,.7), 0 6px 18px rgba(0,0,0,.7); }
+.zline.ok { color: #19E3D2; text-shadow: 0 0 18px rgba(25,227,210,.6), 0 6px 18px rgba(0,0,0,.7); }
+.zcheck { background: rgba(20,8,42,.82); border: 3px solid rgba(255,255,255,.9); color: #fff; font-family: "Anton", sans-serif; font-weight: 400; font-size: 52px; box-shadow: 0 18px 44px rgba(0,0,0,.5); }
+.zcheck em { font-style: normal; color: #FF2E88; }
+.zcheck .n { color: #FFC861; font-size: 44px; }
+.zcheck .ck { background: #19E3D2; color: #14082A; }
+.zc { background: rgba(20,8,42,.86); border: 3px solid #fff; color: #fff; box-shadow: 0 24px 60px rgba(0,0,0,.55); }
+.zc .bar { background: linear-gradient(90deg, #FF2E88, #FFC861); }
+.zc .ttl { color: #fff; font-family: "Anton", sans-serif; font-weight: 400; }
+.zc .num { color: #FF2E88; font-family: "Anton", sans-serif; font-weight: 400; }
+.zc .lab { color: rgba(255,255,255,.7); }
+.zstrike { background: #FF3B3B; height: 16px; box-shadow: 0 0 20px rgba(255,59,59,.7); }
+.zst .kick { color: #FFC861; font-family: "Anton", sans-serif; font-weight: 400; letter-spacing: .12em; }
+.zst .big { color: #fff; font-family: "Anton", sans-serif; font-weight: 400; letter-spacing: 0; text-transform: uppercase; }
+.zst .big em { color: #FF2E88; font-style: normal; }
+.zst .sub2 { color: rgba(255,255,255,.85); }
+.zphoto { border-radius: 10px; border: 10px solid #fff; background: #fff; box-shadow: 0 26px 70px rgba(0,0,0,.6); }
+.zphoto img { object-fit: contain; background: transparent; }
+.zlogo img { filter: drop-shadow(0 20px 40px rgba(0,0,0,.6)); }
+.zpill { background: #FF2E88; border: 4px solid #fff; color: #fff; font-family: "Anton", sans-serif; font-weight: 400; font-size: 56px; box-shadow: 0 0 40px rgba(255,46,136,.6); backdrop-filter: none; -webkit-backdrop-filter: none; }
+.zpill .arw { background: #fff; color: #FF2E88; }
+.ztag { background: rgba(20,8,42,.85); color: #fff; border: 3px solid #FF2E88; font-family: "Anton", sans-serif; font-weight: 400; font-size: 40px; backdrop-filter: none; -webkit-backdrop-filter: none; }
+.ztag .dot { background: #FFC861; }
+.ztag.dim { border-color: rgba(255,255,255,.35); color: rgba(255,255,255,.55); background: rgba(40,30,60,.75); }
+.ztag.dim .dot { background: rgba(255,255,255,.35); }
+.zline.sun { color: #FFC861; }
+.zc .ttl { font-size: 58px; line-height: 1; padding: 24px 28px 0; }
+.zc .lab { font-size: 24px; padding: 12px 28px 26px; letter-spacing: .12em; }
+.zc .num { font-size: 70px; white-space: nowrap; padding: 14px 28px 26px; }
+.zstamp.big { font-size: 150px; padding: 10px 46px 18px; border-width: 9px; }
+.zcheck.sm { font-size: 44px; padding: 14px 26px; }
+.zcheck.sm .ck { width: 46px; height: 46px; font-size: 28px; }
+</style>
+<div id="zone" style="height:880px;"><div class="ztag" id="s09-s-z0" style="left:600px;top:70px"><span class="dot"></span>ZÉRO LOGO GTA</div><div class="zphoto" id="s09-s-z1" style="left:100px;top:60px;width:300px;height:649px;transform:rotate(-3deg)"><img src="assets/mockups/boutique-apres.png" alt="" style="object-position:50% 50%"></div><div class="zline" id="s09-s-z2" style="left:425px;top:300px;font-size:140px;"><em>=</em></div><div class="zvideo" id="s09-s-z3" style="left:500px;top:190px;width:530px;height:233px;"><video id="s09-s-z3-v" class="clip" src="assets/broll/gta-sunset-city.mp4" data-start="2.774" data-duration="3.259" data-media-start="0" data-track-index="43" muted playsinline style="width:100%;height:100%;object-fit:cover;object-position:50% 50%"></video></div><div class="credit zline" id="s09-s-z4" style="left:505px;top:445px;">Images : Rockstar Games — GTA VI Trailer 2</div><div class="zbadge" id="s09-s-z5" style="left:620px;top:560px">MÊME VIBE</div><div class="ok zline" id="s09-s-z6" style="left:500px;top:670px;font-size:40px;">✓ RÉFÉRENCE COMPRISE</div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
 (function () {
   const tl = gsap.timeline({ paused: true });
-    tl.to({}, { duration: 92.767 }, 0);
-  window.__timelines["s01-f"] = tl;
+    tl.from("#s09-s-z0", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 0.152);
+  tl.from("#s09-s-z1", { y: 120, opacity: 0, rotation: -9, duration: 0.6, ease: "back.out(1.4)" }, 1.193);
+  tl.from("#s09-s-z2", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 2.334);
+  tl.from("#s09-s-z3", { x: 400, opacity: 0, duration: 0.55, ease: "back.out(1.4)" }, 2.774);
+  tl.from("#s09-s-z4", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 2.774);
+  tl.from("#s09-s-z5", { scale: 0, rotation: -30, duration: 0.45, ease: "back.out(2.4)" }, 4.136);
+  tl.from("#s09-s-z6", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 5.277);
+  tl.to({}, { duration: 6.033 }, 0);
+  window.__timelines["s09-s"] = tl;
 })();
 </script>
 </template></body></html>
