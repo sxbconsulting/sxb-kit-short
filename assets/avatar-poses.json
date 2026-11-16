@@ -1,0 +1,28 @@
+{
+ "avatar_dir": "assets/brand/avatar",
+ "poses": [
+  {"pose": "neutre", "at": 0},
+  {"pose": "surpris", "at": "w:risquer"},
+  {"pose": "pointe", "at": "w:GTA#2"},
+  {"pose": "reflexion", "at": "w:Rockstar"},
+  {"pose": "neutre-rondes", "at": "w:t-shirts"},
+  {"pose": "surpris", "at": "w:risque"},
+  {"pose": "reflexion-2", "at": "w:Mais"},
+  {"pose": "ok", "at": "w:D'abord"},
+  {"pose": "peace", "at": "w:néons"},
+  {"pose": "pouce", "at": "w:pourtant"},
+  {"pose": "coeur", "at": "w:clients"},
+  {"pose": "double-pouce", "at": "w:Ensuite"},
+  {"pose": "appelle", "at": "w:mails"},
+  {"pose": "poing", "at": "w:Nourris-toi"},
+  {"pose": "neutre", "at": "w:point"},
+  {"pose": "poings", "at": "w:gagner"},
+  {"pose": "pouce", "at": "w:écrire"},
+  {"pose": "ok", "at": "w:Leur"},
+  {"pose": "reflexion", "at": "w:participer"},
+  {"pose": "pointe", "at": "w:L'objectif"},
+  {"pose": "double-pouce-langue", "at": "w:abonne-toi"},
+  {"pose": "appelle", "at": "w:commande"},
+  {"pose": "mains-jointes", "at": "w:Allez"}
+ ]
+}

@@ -39,6 +39,19 @@
   font-weight: 400 700;
   font-style: normal;
 }
+/* titres d'affiche condensés (OFL) et script néon (OFL) — projets à DA « affiche / néon », ex. GTA */
+@font-face {
+  font-family: "Anton";
+  src: url("assets/fonts/Anton.ttf") format("truetype");
+  font-weight: 400 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Kaushan Script";
+  src: url("assets/fonts/KaushanScript.ttf") format("truetype");
+  font-weight: 400 900;
+  font-style: normal;
+}
 
 :root {
   /* palette */

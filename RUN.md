@@ -20,8 +20,8 @@ DA inspirée de GTA 6.
 ## Gates
 
 - [x] 1. Cadrage — sans objet (audio seul), 1080×1920
-- [ ] 2. Dérush — liste validée ; v1 (103,3 s) refusée (4 bugs) ; **v2 92,7 s** en écoute (`review/gate2-cut-v2.mp4`)
-- [ ] 3. Sous-titres
+- [x] 2. Dérush — v2 92,7 s validée (« continue la suite »)
+- [ ] 3. Sous-titres — brouillon envoyé (`review/gate3-sous-titres.mp4`), en attente du ok
 - [ ] 4. Beats et assets
 - [ ] 5. Ouverture
 - [ ] 6. Animatic → final
@@ -79,3 +79,18 @@ Erreurs ASR à corriger à la gate 3 : « commande » → « commente », « t'e
 Téléchargées dans `assets/brand/avatar/src/`, détourées (contour blanc du sticker gardé) dans `assets/brand/avatar/<pose>.png`, hors git :
 pouce, neutre, reflexion, ok, reflexion-2, coeur, pointe, appelle, neutre-rondes, poing, poings, peace, double-pouce,
 double-pouce-langue, mains-jointes, surpris.
+
+## Gate 3 — sous-titres et monde avatar
+
+- `scripts/avatar-world.py` → `assets/speaker.mp4` (à relancer APRÈS `stage.py`, qui réécrit speaker.mp4) : ciel coucher de soleil
+  violet → magenta → orange, soleil rayé façon Vice City sur l'horizon (y 1500), reflets, 3 palmiers qui ondulent, étoiles, avatar 760 px
+  qui respire devant le soleil avec halo rose ; pop (0,86 → 1, back-out) à chaque pose. Poses calées sur les mots dans
+  `assets/avatar-poses.json` (22 changements ; ancrage = mot exact d'abord, sinon début de mot — bug corrigé : « w:risque » tombait sur « risquer »).
+- Polices ajoutées (OFL, locales, déclarées dans `tokens.css`) : Anton (affiche condensée), Kaushan Script (script néon).
+- Sous-titres : `highlight` (défaut kit) aux couleurs GTA : Anton 92 → 81 px, aplat rose néon `#FF2E88`, texte blanc, contour noir 11 px
+  retiré pendant le surlignage (variable `--hl` posée par build-reel, `caption_extra_css`), `cap_top` 1590 sur l'eau sombre.
+  `lexicon` : commande → commente, t'emmètra → te permettra.
+- Vérif passe 1 : liseré parasite autour du mot surligné (contour dessiné dans l'aplat) → corrigé. Passe 2 : 12 instants, mot surligné =
+  mot dit ; −16,3 LUFS / −1,3 dBTP ; `npm run check` 0 erreur, contraste 15/15.
+- Faits vérifiés pour la gate 4 : sortie le jeudi 19 novembre 2026 (newswire Rockstar), boutique « GTA VI Collection » du Rockstar
+  Store (t-shirts, casquettes, Zippo Vice City). yt-dlp atteint la chaîne Rockstar Games (« Grand Theft Auto VI Trailer 1 »).

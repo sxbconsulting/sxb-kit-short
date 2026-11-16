@@ -1,0 +1,54 @@
+{
+ "id": "gta-propriete-intellectuelle",
+ "title": "GTA 6 : surfer sur la hype sans risque",
+ "duration": 92.767,
+ "fps": 30,
+ "speaker": "assets/speaker.mp4",
+ "audio": "assets/reel-audio.wav",
+ "caption_style": "highlight",
+ "caption_font": "\"Anton\", \"Archivo\", sans-serif",
+ "caption_size": 92,
+ "caption_max_words": 3,
+ "caption_accent": "#FF2E88",
+ "caption_on_accent": "#FFFFFF",
+ "keywords": [
+  "GTA",
+  "Rockstar",
+  "risque",
+  "juridique",
+  "bloqué",
+  "ambiance",
+  "néons",
+  "palmiers",
+  "contenu",
+  "concours",
+  "clients",
+  "checklist",
+  "commente",
+  "Vice"
+ ],
+ "lexicon": {
+  "commande": "commente",
+  "t'emmètra": "te permettra"
+ },
+ "brand": {
+  "bg": "#14082A",
+  "ink": "#FFFFFF",
+  "accent": "#FF2E88",
+  "accent_ink": "#FFFFFF",
+  "font": "\"Anton\", \"Archivo\", sans-serif"
+ },
+ "locale": "fr-FR",
+ "freeze_tail": 0,
+ "face_pos_f": "50% 50%",
+ "scenes": [
+  {
+   "layout": "F",
+   "start": 0,
+   "end": 92.767,
+   "holdReason": "gate 3 : brouillon des sous-titres sur le monde avatar, les beats viennent à la gate 4",
+   "cap_top": 1590
+  }
+ ],
+ "caption_extra_css": ".cap b, .cap em { --hl: 0; -webkit-text-stroke: calc(11px * (1 - var(--hl))) #0B0418; paint-order: stroke fill; }"
+}

@@ -41,7 +41,7 @@ LANG = sb.get("lang", LOCALE.split("-")[0])
 CAP_TOP = {"C": 850, "B": 940, "D": 1690, "F": 1500, "S": 780, "Y": 930}
 CAP_MAX_WORDS = int(sb.get("caption_max_words", 4))
 CAP_STYLE = sb.get("caption_style", "highlight")    # défaut DA-SXB depuis le 25/10/2026 · "pop" = police display du kit (tokens.css), keyword enlarged · "kit" = ink pill, uppercase · "nate" = dark pill
-# DA-SXB : "highlight" = aplat accent sous le mot dit (TikTok) · "karaoke" = pilule sombre, les mots s'allument · "editorial" = mot-clé géant en accent
+# DA-SXB : "highlight" = aplat accent sous le mot dit (TikTok) ; pendant le mot, la variable CSS --hl vaut 1 (caption_extra_css peut s'en servir) · "karaoke" = pilule sombre, les mots s'allument · "editorial" = mot-clé géant en accent
 CAP_FONT = sb.get("caption_font", 'var(--font-display)')
 # pop keeps its keywords in the caption color unless the storyboard asks for an accent; nate needs one for its keyword box
 CAP_ACCENT = sb.get("caption_accent", "var(--accent)" if CAP_STYLE in ("nate", "highlight", "karaoke", "editorial") else "currentColor")
@@ -742,6 +742,7 @@ CAP_CSS_EDITORIAL = f""".cap {{ position: absolute; left: {70 if W < H else 220}
       .cap.on-zone {{ color: {sb.get("brand", {}).get("ink", "#0F0D0D")}; text-shadow: none; }}   /* translateY : le mot-clé géant grandit vers le haut, pas sur le visage */"""
 CAP_CSS = {"pop": CAP_CSS_POP, "nate": CAP_CSS_NATE, "highlight": CAP_CSS_HIGHLIGHT, "karaoke": CAP_CSS_KARAOKE,
            "editorial": CAP_CSS_EDITORIAL}.get(CAP_STYLE, CAP_CSS_KIT)
+CAP_CSS += "\n      " + sb.get("caption_extra_css", "")   # project tweaks after the style, e.g. an outline for a busy background
 
 
 def build():
@@ -796,8 +797,8 @@ def build():
         for wid, ws, nxt, is_kw in cap_words:
             a, b = r3(max(0, ws - 0.03)), r3(max(0, nxt - 0.03))
             if CAP_STYLE == "highlight":          # aplat accent sous le mot dit, puis retour au blanc
-                lines.append(f'tl.set("#{wid}", {{ backgroundColor: "{CAP_ACCENT}", color: "{CAP_ON_ACCENT}", textShadow: "none", scale: 1.06 }}, {a});')
-                lines.append(f'tl.set("#{wid}", {{ backgroundColor: "rgba(0,0,0,0)", color: "{CAP_ACCENT if is_kw else "#fff"}", textShadow: "0 4px 14px rgba(0,0,0,.6)", scale: 1 }}, {b});')
+                lines.append(f'tl.set("#{wid}", {{ backgroundColor: "{CAP_ACCENT}", color: "{CAP_ON_ACCENT}", textShadow: "none", scale: 1.06, "--hl": 1 }}, {a});')
+                lines.append(f'tl.set("#{wid}", {{ backgroundColor: "rgba(0,0,0,0)", color: "{CAP_ACCENT if is_kw else "#fff"}", textShadow: "0 4px 14px rgba(0,0,0,.6)", scale: 1, "--hl": 0 }}, {b});')
             elif CAP_STYLE == "karaoke":          # gris → accent pendant le mot → blanc une fois dit
                 lines.append(f'tl.set("#{wid}", {{ color: "{CAP_ACCENT}" }}, {a});')
                 lines.append(f'tl.set("#{wid}", {{ color: "{CAP_ACCENT if is_kw else "#fff"}" }}, {b});')
