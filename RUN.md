@@ -20,7 +20,7 @@ DA inspirée de GTA 6.
 ## Gates
 
 - [x] 1. Cadrage — sans objet (audio seul), 1080×1920
-- [x] 2. Dérush — liste validée (21 prises), montage coupé 103,3 s en écoute (`review/gate2-cut.mp4`)
+- [ ] 2. Dérush — liste validée ; v1 (103,3 s) refusée (4 bugs) ; **v2 92,7 s** en écoute (`review/gate2-cut-v2.mp4`)
 - [ ] 3. Sous-titres
 - [ ] 4. Beats et assets
 - [ ] 5. Ouverture
@@ -52,9 +52,27 @@ Proposition dans `/tmp/.../scratchpad/segments.v1.json` (appliquée à `raw.segm
 
 Confirmé par l'utilisateur : t27 = « **commente** GTA » (WhisperX entend « commande ») → `lexicon` {"commande": "commente"}.
 
-Après le ok, recalages fins pour retirer les mots doublés aux jointures : t06 out 38,09 (avant « Que »), t12 out 83,56 (avant « que »),
-t14 out 97,91 (avant « qui »). `scripts/clean-transcript.py` (après `stage.py`) retire du transcript les mots hors des plages gardées
-et les doublons de prises qui se chevauchent. Résultat : 103,3 s, 373 mots.
+### v1 refusée — retours utilisateur et causes
+
+| Retour (temps du montage v1) | Cause | Correction v2 |
+|---|---|---|
+| bug à 17 s | faux départ « Les reprendre, c'est… » (src 21,2-22,1) avalé par WhisperX dans t04 | t04 démarre à 22,76 |
+| blanc à 33 s | 1,7 s de silence en tête de t09 | t09 démarre à 48,26 |
+| reprise à 47 s | « et surtout ça va montrer que tu as… » (src 66,5-67,8) puis la bonne version, fusionnées par WhisperX | t11 coupée en deux : 64,22-66,44 + 68,40-74,24 |
+| bugs 1:25-1:30 | les plages t22/t23/t24 (et t12/t13, t27/t28) **se chevauchaient dans la source** → audio rejoué | plages reconstruites sur l'énergie du signal, sans chevauchement (assert) |
+
+Leçon : ne jamais se fier aux bornes de takes.py ni aux mots alignés sur une prise entière. Les bornes viennent des zones de parole
+mesurées (énergie 20 ms) et chaque doute est retranscrit seul (faster-whisper sur la fenêtre, sans VAD).
+
+**Vérification obligatoire, 2 passes avant chaque envoi** (demande de l'utilisateur) :
+`python3 scripts/stage.py` → `transcribe.py assets/reel-audio.wav --out assets/derush/cut.json` → `~/.reel-kit/venv/bin/python scripts/verify-cut.py`
+(blancs > 0,55 s, groupes de 3 mots répétés, chaque jointure retranscrite seule) → corriger → repasser.
+Passe 1 v2 : t03 coupée trop tôt (« avec le nom… c'est à eux » perdu) → out 20,62 ; 3 pauses de 0,6 s réduites (t04, t23, t27 coupées
+dans le silence). Passe 2 : 0 blanc, répétitions restantes voulues (« qui va être refusée / bloqué », « que ce soit au travers… »,
+« tu as les mêmes références / codes »). Gardé : « D'abord, en gros, » (pas de silence pour couper proprement).
+
+`scripts/cut-transcript.py` : `assets/transcript.json` reconstruit depuis la transcription de l'audio coupé lui-même (381 mots).
+Erreurs ASR à corriger à la gate 3 : « commande » → « commente », « t'emmètra » → « te permettra ».
 
 ## Avatar — 16 poses (Google Drive, dossier partagé `1JkWMvBgWIWD39o05crLqM7veO003anYP`)
 

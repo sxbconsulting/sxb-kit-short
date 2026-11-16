@@ -1,218 +1,249 @@
 {
- "duration": 103.267,
+ "duration": 92.767,
  "fps": 30,
  "keeps": [
   {
-   "sourceStart": 2.0,
-   "sourceEnd": 9.3,
+   "sourceStart": 1.967,
+   "sourceEnd": 9.233,
    "start": 0.0,
-   "end": 7.3
+   "end": 7.267
   },
   {
-   "sourceStart": 9.967,
-   "sourceEnd": 15.033,
-   "start": 7.3,
-   "end": 12.367
+   "sourceStart": 9.933,
+   "sourceEnd": 14.933,
+   "start": 7.267,
+   "end": 12.267
   },
   {
-   "sourceStart": 15.5,
-   "sourceEnd": 20.667,
-   "start": 12.367,
-   "end": 17.533
+   "sourceStart": 15.433,
+   "sourceEnd": 20.633,
+   "start": 12.267,
+   "end": 17.467
   },
   {
-   "sourceStart": 21.133,
-   "sourceEnd": 28.667,
-   "start": 17.533,
-   "end": 25.067
+   "sourceStart": 22.767,
+   "sourceEnd": 24.433,
+   "start": 17.467,
+   "end": 19.133
   },
   {
-   "sourceStart": 29.333,
-   "sourceEnd": 31.9,
-   "start": 25.067,
-   "end": 27.633
+   "sourceStart": 24.867,
+   "sourceEnd": 28.6,
+   "start": 19.133,
+   "end": 22.867
   },
   {
-   "sourceStart": 32.7,
-   "sourceEnd": 38.1,
-   "start": 27.633,
-   "end": 33.033
+   "sourceStart": 29.267,
+   "sourceEnd": 31.833,
+   "start": 22.867,
+   "end": 25.433
   },
   {
-   "sourceStart": 46.667,
-   "sourceEnd": 52.467,
-   "start": 33.033,
-   "end": 38.833
+   "sourceStart": 32.667,
+   "sourceEnd": 37.533,
+   "start": 25.433,
+   "end": 30.3
   },
   {
-   "sourceStart": 53.767,
-   "sourceEnd": 59.933,
-   "start": 38.833,
-   "end": 45.0
+   "sourceStart": 48.267,
+   "sourceEnd": 52.4,
+   "start": 30.3,
+   "end": 34.433
   },
   {
-   "sourceStart": 64.267,
-   "sourceEnd": 74.267,
-   "start": 45.0,
-   "end": 55.0
+   "sourceStart": 53.8,
+   "sourceEnd": 59.8,
+   "start": 34.433,
+   "end": 40.433
   },
   {
-   "sourceStart": 80.133,
-   "sourceEnd": 83.567,
-   "start": 55.0,
-   "end": 58.433
+   "sourceStart": 64.233,
+   "sourceEnd": 66.433,
+   "start": 40.433,
+   "end": 42.633
   },
   {
-   "sourceStart": 83.533,
-   "sourceEnd": 88.2,
-   "start": 58.433,
-   "end": 63.1
+   "sourceStart": 68.4,
+   "sourceEnd": 74.233,
+   "start": 42.633,
+   "end": 48.467
   },
   {
-   "sourceStart": 94.633,
+   "sourceStart": 80.333,
+   "sourceEnd": 87.6,
+   "start": 48.467,
+   "end": 55.733
+  },
+  {
+   "sourceStart": 94.6,
    "sourceEnd": 97.9,
-   "start": 63.1,
-   "end": 66.367
+   "start": 55.733,
+   "end": 59.033
   },
   {
-   "sourceStart": 117.633,
-   "sourceEnd": 127.467,
-   "start": 66.367,
-   "end": 76.2
+   "sourceStart": 117.6,
+   "sourceEnd": 127.4,
+   "start": 59.033,
+   "end": 68.833
   },
   {
-   "sourceStart": 132.4,
-   "sourceEnd": 135.3,
-   "start": 76.2,
-   "end": 79.1
+   "sourceStart": 132.833,
+   "sourceEnd": 135.233,
+   "start": 68.833,
+   "end": 71.233
   },
   {
-   "sourceStart": 155.9,
-   "sourceEnd": 162.533,
-   "start": 79.1,
-   "end": 85.733
+   "sourceStart": 155.867,
+   "sourceEnd": 161.6,
+   "start": 71.233,
+   "end": 76.967
   },
   {
-   "sourceStart": 162.233,
-   "sourceEnd": 165.267,
-   "start": 85.733,
-   "end": 88.767
+   "sourceStart": 162.333,
+   "sourceEnd": 164.4,
+   "start": 76.967,
+   "end": 79.033
   },
   {
    "sourceStart": 164.867,
-   "sourceEnd": 166.267,
-   "start": 88.767,
-   "end": 90.167
+   "sourceEnd": 166.233,
+   "start": 79.033,
+   "end": 80.4
   },
   {
-   "sourceStart": 169.7,
-   "sourceEnd": 175.2,
-   "start": 90.167,
-   "end": 95.667
+   "sourceStart": 169.667,
+   "sourceEnd": 175.167,
+   "start": 80.4,
+   "end": 85.9
   },
   {
-   "sourceStart": 177.367,
-   "sourceEnd": 179.833,
-   "start": 95.667,
-   "end": 98.133
+   "sourceStart": 177.333,
+   "sourceEnd": 179.767,
+   "start": 85.9,
+   "end": 88.333
   },
   {
-   "sourceStart": 188.1,
-   "sourceEnd": 192.5,
-   "start": 98.133,
-   "end": 102.533
+   "sourceStart": 188.333,
+   "sourceEnd": 192.067,
+   "start": 88.333,
+   "end": 92.067
   },
   {
-   "sourceStart": 192.467,
-   "sourceEnd": 193.2,
-   "start": 102.533,
-   "end": 103.267
+   "sourceStart": 192.433,
+   "sourceEnd": 193.133,
+   "start": 92.067,
+   "end": 92.767
   }
  ],
  "removals": [
   {
    "sourceStart": 0.0,
-   "sourceEnd": 2.0,
+   "sourceEnd": 1.967,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 9.3,
-   "sourceEnd": 9.967,
+   "sourceStart": 9.233,
+   "sourceEnd": 9.933,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 15.033,
-   "sourceEnd": 15.5,
+   "sourceStart": 14.933,
+   "sourceEnd": 15.433,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 20.667,
-   "sourceEnd": 21.133,
+   "sourceStart": 20.633,
+   "sourceEnd": 22.767,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 28.667,
-   "sourceEnd": 29.333,
+   "sourceStart": 24.433,
+   "sourceEnd": 24.867,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 31.9,
-   "sourceEnd": 32.7,
+   "sourceStart": 28.6,
+   "sourceEnd": 29.267,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 38.1,
-   "sourceEnd": 46.667,
+   "sourceStart": 31.833,
+   "sourceEnd": 32.667,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 52.467,
-   "sourceEnd": 53.767,
+   "sourceStart": 37.533,
+   "sourceEnd": 48.267,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 59.933,
-   "sourceEnd": 64.267,
+   "sourceStart": 52.4,
+   "sourceEnd": 53.8,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 74.267,
-   "sourceEnd": 80.133,
+   "sourceStart": 59.8,
+   "sourceEnd": 64.233,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 88.2,
-   "sourceEnd": 94.633,
+   "sourceStart": 66.433,
+   "sourceEnd": 68.4,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 74.233,
+   "sourceEnd": 80.333,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 87.6,
+   "sourceEnd": 94.6,
    "reason": "silence or retake (takes.py)"
   },
   {
    "sourceStart": 97.9,
-   "sourceEnd": 117.633,
+   "sourceEnd": 117.6,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 127.467,
-   "sourceEnd": 132.4,
+   "sourceStart": 127.4,
+   "sourceEnd": 132.833,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 135.3,
-   "sourceEnd": 155.9,
+   "sourceStart": 135.233,
+   "sourceEnd": 155.867,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 166.267,
-   "sourceEnd": 169.7,
+   "sourceStart": 161.6,
+   "sourceEnd": 162.333,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 175.2,
-   "sourceEnd": 177.367,
+   "sourceStart": 164.4,
+   "sourceEnd": 164.867,
    "reason": "silence or retake (takes.py)"
   },
   {
-   "sourceStart": 179.833,
-   "sourceEnd": 188.1,
+   "sourceStart": 166.233,
+   "sourceEnd": 169.667,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 175.167,
+   "sourceEnd": 177.333,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 179.767,
+   "sourceEnd": 188.333,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 192.067,
+   "sourceEnd": 192.433,
    "reason": "silence or retake (takes.py)"
   }
  ]

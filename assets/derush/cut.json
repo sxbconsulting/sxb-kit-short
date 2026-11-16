@@ -1,0 +1,2306 @@
+{
+ "text": "Mettre GTA sur ton produit et surtout dans tes publicités, pour surfer un peu sur la hype du moment, c'est le meilleur moyen de risquer son compte publicitaire. GTA 6 sort jeudi, le 19 novembre. Et Rockstar a déjà ouvert sa propre boutique de produits dérivés. Ils ont mis des t-shirts, des casquettes, des briquets, avec le nom, les logos, l'univers de Vice City, parce que ça, c'est à eux. Les reprendre, c'est un risque juridique. Et surtout, une publicité qui va être refusée, voire même tout un compte publicitaire qui va être bloqué. Mais comment tu veux faire pour surfer dessus quand même pour ta marque e-commerce ? D'abord, en gros, tu vas retravailler toute ta boutique et reprendre l'ambiance. Pas la marque. Les néons, les palmiers, l'ambiance années 80. Il n'y a aucun nom, aucun logo. Et pourtant, dès qu'on va arriver sur ta boutique en ligne, on va comprendre la référence et ça va donner justement une certaine ambiance à ta marque. Les clients vont apprécier le clin d'œil et surtout, ça va montrer que ta marque, ta boutique, en fait, elle évolue au gré des actualités qui parlent à ton audience. Ensuite, surf sur l'actu avec ton contenu, pas avec tes produits. Que ce soit au travers de vidéos pour ton contenu en ligne, soit au travers de tes mails ou même de tes stories. Utilise cette actualité vis-à-vis de GTA et surtout de toutes les références. Nourris-toi de l'ambiance à la GTA et surtout montre à ton audience que toi aussi, tu as les mêmes références que, tu as les mêmes codes que et ça fera un point commun qui t'emmètra de différencier par rapport aux autres concurrents. Enfin, si ta cible joue, fais lui gagner le jeu. Le vrai jeu GTA acheté en magasin ou également juste en fait le code du jeu offert dans un jeu concours. Tu peux écrire GTA 6 à gagner, c'est le lot. Leur logo, toujours pas. Pour participer, tu leur dis voilà, dis-moi quel produit de ma boutique tu prendrais. L'objectif c'est attirer des clients, pas des chasseurs de cadeaux. Et si tu veux apprendre un peu plus e-commerce chaque jour, abonne-toi. Et commande GTA pour que je t'envoie ma checklist pour surfer sur l'actu sans aucun risque. Allez, ciao !",
+ "audio_duration_secs": 92.713,
+ "language": "fr",
+ "model": "whisperx/large-v3-turbo",
+ "words": [
+  {
+   "text": "Mettre",
+   "start": 0.151,
+   "end": 0.471,
+   "type": "word"
+  },
+  {
+   "text": "GTA",
+   "start": 0.491,
+   "end": 1.072,
+   "type": "word"
+  },
+  {
+   "text": "sur",
+   "start": 1.092,
+   "end": 1.212,
+   "type": "word"
+  },
+  {
+   "text": "ton",
+   "start": 1.232,
+   "end": 1.372,
+   "type": "word"
+  },
+  {
+   "text": "produit",
+   "start": 1.392,
+   "end": 1.812,
+   "type": "word"
+  },
+  {
+   "text": "et",
+   "start": 1.852,
+   "end": 1.932,
+   "type": "word"
+  },
+  {
+   "text": "surtout",
+   "start": 1.952,
+   "end": 2.192,
+   "type": "word"
+  },
+  {
+   "text": "dans",
+   "start": 2.232,
+   "end": 2.372,
+   "type": "word"
+  },
+  {
+   "text": "tes",
+   "start": 2.392,
+   "end": 2.492,
+   "type": "word"
+  },
+  {
+   "text": "publicités,",
+   "start": 2.532,
+   "end": 3.513,
+   "type": "word"
+  },
+  {
+   "text": "pour",
+   "start": 3.533,
+   "end": 3.713,
+   "type": "word"
+  },
+  {
+   "text": "surfer",
+   "start": 3.733,
+   "end": 4.093,
+   "type": "word"
+  },
+  {
+   "text": "un",
+   "start": 4.113,
+   "end": 4.173,
+   "type": "word"
+  },
+  {
+   "text": "peu",
+   "start": 4.193,
+   "end": 4.373,
+   "type": "word"
+  },
+  {
+   "text": "sur",
+   "start": 4.393,
+   "end": 4.513,
+   "type": "word"
+  },
+  {
+   "text": "la",
+   "start": 4.533,
+   "end": 4.593,
+   "type": "word"
+  },
+  {
+   "text": "hype",
+   "start": 4.633,
+   "end": 4.794,
+   "type": "word"
+  },
+  {
+   "text": "du",
+   "start": 4.814,
+   "end": 4.874,
+   "type": "word"
+  },
+  {
+   "text": "moment,",
+   "start": 4.894,
+   "end": 5.214,
+   "type": "word"
+  },
+  {
+   "text": "c'est",
+   "start": 5.254,
+   "end": 5.394,
+   "type": "word"
+  },
+  {
+   "text": "le",
+   "start": 5.434,
+   "end": 5.514,
+   "type": "word"
+  },
+  {
+   "text": "meilleur",
+   "start": 5.534,
+   "end": 5.854,
+   "type": "word"
+  },
+  {
+   "text": "moyen",
+   "start": 5.874,
+   "end": 6.094,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 6.114,
+   "end": 6.174,
+   "type": "word"
+  },
+  {
+   "text": "risquer",
+   "start": 6.214,
+   "end": 6.474,
+   "type": "word"
+  },
+  {
+   "text": "son",
+   "start": 6.494,
+   "end": 6.615,
+   "type": "word"
+  },
+  {
+   "text": "compte",
+   "start": 6.635,
+   "end": 6.775,
+   "type": "word"
+  },
+  {
+   "text": "publicitaire.",
+   "start": 6.795,
+   "end": 7.335,
+   "type": "word"
+  },
+  {
+   "text": "GTA",
+   "start": 7.355,
+   "end": 7.575,
+   "type": "word"
+  },
+  {
+   "text": "6",
+   "start": 7.715,
+   "end": 7.815,
+   "type": "word"
+  },
+  {
+   "text": "sort",
+   "start": 7.835,
+   "end": 7.995,
+   "type": "word"
+  },
+  {
+   "text": "jeudi,",
+   "start": 8.015,
+   "end": 8.335,
+   "type": "word"
+  },
+  {
+   "text": "le",
+   "start": 8.355,
+   "end": 8.456,
+   "type": "word"
+  },
+  {
+   "text": "19",
+   "start": 8.696,
+   "end": 8.816,
+   "type": "word"
+  },
+  {
+   "text": "novembre.",
+   "start": 8.836,
+   "end": 9.516,
+   "type": "word"
+  },
+  {
+   "text": "Et",
+   "start": 9.556,
+   "end": 9.676,
+   "type": "word"
+  },
+  {
+   "text": "Rockstar",
+   "start": 9.696,
+   "end": 10.196,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 10.237,
+   "end": 10.317,
+   "type": "word"
+  },
+  {
+   "text": "déjà",
+   "start": 10.337,
+   "end": 10.497,
+   "type": "word"
+  },
+  {
+   "text": "ouvert",
+   "start": 10.517,
+   "end": 10.717,
+   "type": "word"
+  },
+  {
+   "text": "sa",
+   "start": 10.737,
+   "end": 10.917,
+   "type": "word"
+  },
+  {
+   "text": "propre",
+   "start": 10.957,
+   "end": 11.277,
+   "type": "word"
+  },
+  {
+   "text": "boutique",
+   "start": 11.297,
+   "end": 11.577,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 11.597,
+   "end": 11.677,
+   "type": "word"
+  },
+  {
+   "text": "produits",
+   "start": 11.697,
+   "end": 11.877,
+   "type": "word"
+  },
+  {
+   "text": "dérivés.",
+   "start": 11.897,
+   "end": 12.338,
+   "type": "word"
+  },
+  {
+   "text": "Ils",
+   "start": 12.378,
+   "end": 12.458,
+   "type": "word"
+  },
+  {
+   "text": "ont",
+   "start": 12.498,
+   "end": 12.558,
+   "type": "word"
+  },
+  {
+   "text": "mis",
+   "start": 12.578,
+   "end": 12.678,
+   "type": "word"
+  },
+  {
+   "text": "des",
+   "start": 12.698,
+   "end": 12.798,
+   "type": "word"
+  },
+  {
+   "text": "t-shirts,",
+   "start": 12.818,
+   "end": 13.178,
+   "type": "word"
+  },
+  {
+   "text": "des",
+   "start": 13.198,
+   "end": 13.318,
+   "type": "word"
+  },
+  {
+   "text": "casquettes,",
+   "start": 13.338,
+   "end": 13.698,
+   "type": "word"
+  },
+  {
+   "text": "des",
+   "start": 13.718,
+   "end": 13.798,
+   "type": "word"
+  },
+  {
+   "text": "briquets,",
+   "start": 13.818,
+   "end": 14.539,
+   "type": "word"
+  },
+  {
+   "text": "avec",
+   "start": 14.559,
+   "end": 14.779,
+   "type": "word"
+  },
+  {
+   "text": "le",
+   "start": 14.799,
+   "end": 14.939,
+   "type": "word"
+  },
+  {
+   "text": "nom,",
+   "start": 14.959,
+   "end": 15.119,
+   "type": "word"
+  },
+  {
+   "text": "les",
+   "start": 15.139,
+   "end": 15.219,
+   "type": "word"
+  },
+  {
+   "text": "logos,",
+   "start": 15.239,
+   "end": 15.539,
+   "type": "word"
+  },
+  {
+   "text": "l'univers",
+   "start": 15.559,
+   "end": 15.94,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 15.96,
+   "end": 16.04,
+   "type": "word"
+  },
+  {
+   "text": "Vice",
+   "start": 16.06,
+   "end": 16.24,
+   "type": "word"
+  },
+  {
+   "text": "City,",
+   "start": 16.26,
+   "end": 16.6,
+   "type": "word"
+  },
+  {
+   "text": "parce",
+   "start": 16.62,
+   "end": 16.74,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 16.76,
+   "end": 16.86,
+   "type": "word"
+  },
+  {
+   "text": "ça,",
+   "start": 16.88,
+   "end": 17.04,
+   "type": "word"
+  },
+  {
+   "text": "c'est",
+   "start": 17.06,
+   "end": 17.16,
+   "type": "word"
+  },
+  {
+   "text": "à",
+   "start": 17.18,
+   "end": 17.22,
+   "type": "word"
+  },
+  {
+   "text": "eux.",
+   "start": 17.28,
+   "end": 17.54,
+   "type": "word"
+  },
+  {
+   "text": "Les",
+   "start": 17.56,
+   "end": 17.661,
+   "type": "word"
+  },
+  {
+   "text": "reprendre,",
+   "start": 17.681,
+   "end": 18.061,
+   "type": "word"
+  },
+  {
+   "text": "c'est",
+   "start": 18.081,
+   "end": 18.181,
+   "type": "word"
+  },
+  {
+   "text": "un",
+   "start": 18.221,
+   "end": 18.281,
+   "type": "word"
+  },
+  {
+   "text": "risque",
+   "start": 18.321,
+   "end": 18.641,
+   "type": "word"
+  },
+  {
+   "text": "juridique.",
+   "start": 18.661,
+   "end": 19.161,
+   "type": "word"
+  },
+  {
+   "text": "Et",
+   "start": 19.181,
+   "end": 19.401,
+   "type": "word"
+  },
+  {
+   "text": "surtout,",
+   "start": 19.421,
+   "end": 19.642,
+   "type": "word"
+  },
+  {
+   "text": "une",
+   "start": 19.662,
+   "end": 19.722,
+   "type": "word"
+  },
+  {
+   "text": "publicité",
+   "start": 19.742,
+   "end": 20.002,
+   "type": "word"
+  },
+  {
+   "text": "qui",
+   "start": 20.022,
+   "end": 20.102,
+   "type": "word"
+  },
+  {
+   "text": "va",
+   "start": 20.122,
+   "end": 20.202,
+   "type": "word"
+  },
+  {
+   "text": "être",
+   "start": 20.242,
+   "end": 20.342,
+   "type": "word"
+  },
+  {
+   "text": "refusée,",
+   "start": 20.382,
+   "end": 20.682,
+   "type": "word"
+  },
+  {
+   "text": "voire",
+   "start": 20.722,
+   "end": 20.842,
+   "type": "word"
+  },
+  {
+   "text": "même",
+   "start": 20.862,
+   "end": 21.082,
+   "type": "word"
+  },
+  {
+   "text": "tout",
+   "start": 21.102,
+   "end": 21.323,
+   "type": "word"
+  },
+  {
+   "text": "un",
+   "start": 21.403,
+   "end": 21.483,
+   "type": "word"
+  },
+  {
+   "text": "compte",
+   "start": 21.503,
+   "end": 21.663,
+   "type": "word"
+  },
+  {
+   "text": "publicitaire",
+   "start": 21.683,
+   "end": 22.183,
+   "type": "word"
+  },
+  {
+   "text": "qui",
+   "start": 22.203,
+   "end": 22.283,
+   "type": "word"
+  },
+  {
+   "text": "va",
+   "start": 22.303,
+   "end": 22.343,
+   "type": "word"
+  },
+  {
+   "text": "être",
+   "start": 22.363,
+   "end": 22.463,
+   "type": "word"
+  },
+  {
+   "text": "bloqué.",
+   "start": 22.483,
+   "end": 22.903,
+   "type": "word"
+  },
+  {
+   "text": "Mais",
+   "start": 22.923,
+   "end": 23.043,
+   "type": "word"
+  },
+  {
+   "text": "comment",
+   "start": 23.063,
+   "end": 23.204,
+   "type": "word"
+  },
+  {
+   "text": "tu",
+   "start": 23.224,
+   "end": 23.264,
+   "type": "word"
+  },
+  {
+   "text": "veux",
+   "start": 23.284,
+   "end": 23.384,
+   "type": "word"
+  },
+  {
+   "text": "faire",
+   "start": 23.404,
+   "end": 23.564,
+   "type": "word"
+  },
+  {
+   "text": "pour",
+   "start": 23.584,
+   "end": 23.724,
+   "type": "word"
+  },
+  {
+   "text": "surfer",
+   "start": 23.764,
+   "end": 24.044,
+   "type": "word"
+  },
+  {
+   "text": "dessus",
+   "start": 24.064,
+   "end": 24.224,
+   "type": "word"
+  },
+  {
+   "text": "quand",
+   "start": 24.244,
+   "end": 24.364,
+   "type": "word"
+  },
+  {
+   "text": "même",
+   "start": 24.384,
+   "end": 24.564,
+   "type": "word"
+  },
+  {
+   "text": "pour",
+   "start": 24.604,
+   "end": 24.704,
+   "type": "word"
+  },
+  {
+   "text": "ta",
+   "start": 24.724,
+   "end": 24.824,
+   "type": "word"
+  },
+  {
+   "text": "marque",
+   "start": 24.844,
+   "end": 24.984,
+   "type": "word"
+  },
+  {
+   "text": "e-commerce",
+   "start": 25.045,
+   "end": 25.465,
+   "type": "word"
+  },
+  {
+   "text": "?",
+   "start": 25.525,
+   "end": 25.605,
+   "type": "word"
+  },
+  {
+   "text": "D'abord,",
+   "start": 25.625,
+   "end": 26.145,
+   "type": "word"
+  },
+  {
+   "text": "en",
+   "start": 26.165,
+   "end": 26.225,
+   "type": "word"
+  },
+  {
+   "text": "gros,",
+   "start": 26.245,
+   "end": 26.525,
+   "type": "word"
+  },
+  {
+   "text": "tu",
+   "start": 26.545,
+   "end": 26.625,
+   "type": "word"
+  },
+  {
+   "text": "vas",
+   "start": 26.645,
+   "end": 26.805,
+   "type": "word"
+  },
+  {
+   "text": "retravailler",
+   "start": 26.845,
+   "end": 27.366,
+   "type": "word"
+  },
+  {
+   "text": "toute",
+   "start": 27.406,
+   "end": 27.626,
+   "type": "word"
+  },
+  {
+   "text": "ta",
+   "start": 27.646,
+   "end": 27.746,
+   "type": "word"
+  },
+  {
+   "text": "boutique",
+   "start": 27.766,
+   "end": 28.366,
+   "type": "word"
+  },
+  {
+   "text": "et",
+   "start": 28.406,
+   "end": 28.506,
+   "type": "word"
+  },
+  {
+   "text": "reprendre",
+   "start": 28.566,
+   "end": 29.007,
+   "type": "word"
+  },
+  {
+   "text": "l'ambiance.",
+   "start": 29.027,
+   "end": 29.647,
+   "type": "word"
+  },
+  {
+   "text": "Pas",
+   "start": 29.767,
+   "end": 29.887,
+   "type": "word"
+  },
+  {
+   "text": "la",
+   "start": 29.907,
+   "end": 29.987,
+   "type": "word"
+  },
+  {
+   "text": "marque.",
+   "start": 30.027,
+   "end": 30.408,
+   "type": "word"
+  },
+  {
+   "text": "Les",
+   "start": 30.428,
+   "end": 30.548,
+   "type": "word"
+  },
+  {
+   "text": "néons,",
+   "start": 30.568,
+   "end": 31.048,
+   "type": "word"
+  },
+  {
+   "text": "les",
+   "start": 31.068,
+   "end": 31.148,
+   "type": "word"
+  },
+  {
+   "text": "palmiers,",
+   "start": 31.168,
+   "end": 31.629,
+   "type": "word"
+  },
+  {
+   "text": "l'ambiance",
+   "start": 31.649,
+   "end": 31.949,
+   "type": "word"
+  },
+  {
+   "text": "années",
+   "start": 31.969,
+   "end": 32.129,
+   "type": "word"
+  },
+  {
+   "text": "80.",
+   "start": 32.149,
+   "end": 32.35,
+   "type": "word"
+  },
+  {
+   "text": "Il",
+   "start": 32.39,
+   "end": 32.63,
+   "type": "word"
+  },
+  {
+   "text": "n'y",
+   "start": 32.65,
+   "end": 32.71,
+   "type": "word"
+  },
+  {
+   "text": "a",
+   "start": 32.73,
+   "end": 32.85,
+   "type": "word"
+  },
+  {
+   "text": "aucun",
+   "start": 32.93,
+   "end": 33.17,
+   "type": "word"
+  },
+  {
+   "text": "nom,",
+   "start": 33.19,
+   "end": 33.691,
+   "type": "word"
+  },
+  {
+   "text": "aucun",
+   "start": 33.771,
+   "end": 34.031,
+   "type": "word"
+  },
+  {
+   "text": "logo.",
+   "start": 34.051,
+   "end": 34.472,
+   "type": "word"
+  },
+  {
+   "text": "Et",
+   "start": 34.512,
+   "end": 34.632,
+   "type": "word"
+  },
+  {
+   "text": "pourtant,",
+   "start": 34.652,
+   "end": 34.972,
+   "type": "word"
+  },
+  {
+   "text": "dès",
+   "start": 34.992,
+   "end": 35.092,
+   "type": "word"
+  },
+  {
+   "text": "qu'on",
+   "start": 35.112,
+   "end": 35.212,
+   "type": "word"
+  },
+  {
+   "text": "va",
+   "start": 35.232,
+   "end": 35.272,
+   "type": "word"
+  },
+  {
+   "text": "arriver",
+   "start": 35.292,
+   "end": 35.453,
+   "type": "word"
+  },
+  {
+   "text": "sur",
+   "start": 35.473,
+   "end": 35.553,
+   "type": "word"
+  },
+  {
+   "text": "ta",
+   "start": 35.573,
+   "end": 35.673,
+   "type": "word"
+  },
+  {
+   "text": "boutique",
+   "start": 35.693,
+   "end": 35.933,
+   "type": "word"
+  },
+  {
+   "text": "en",
+   "start": 35.953,
+   "end": 35.993,
+   "type": "word"
+  },
+  {
+   "text": "ligne,",
+   "start": 36.013,
+   "end": 36.474,
+   "type": "word"
+  },
+  {
+   "text": "on",
+   "start": 36.534,
+   "end": 36.634,
+   "type": "word"
+  },
+  {
+   "text": "va",
+   "start": 36.654,
+   "end": 36.814,
+   "type": "word"
+  },
+  {
+   "text": "comprendre",
+   "start": 36.834,
+   "end": 37.134,
+   "type": "word"
+  },
+  {
+   "text": "la",
+   "start": 37.174,
+   "end": 37.234,
+   "type": "word"
+  },
+  {
+   "text": "référence",
+   "start": 37.274,
+   "end": 37.895,
+   "type": "word"
+  },
+  {
+   "text": "et",
+   "start": 37.955,
+   "end": 38.315,
+   "type": "word"
+  },
+  {
+   "text": "ça",
+   "start": 38.335,
+   "end": 38.435,
+   "type": "word"
+  },
+  {
+   "text": "va",
+   "start": 38.455,
+   "end": 38.616,
+   "type": "word"
+  },
+  {
+   "text": "donner",
+   "start": 38.636,
+   "end": 39.116,
+   "type": "word"
+  },
+  {
+   "text": "justement",
+   "start": 39.136,
+   "end": 39.436,
+   "type": "word"
+  },
+  {
+   "text": "une",
+   "start": 39.456,
+   "end": 39.516,
+   "type": "word"
+  },
+  {
+   "text": "certaine",
+   "start": 39.536,
+   "end": 39.757,
+   "type": "word"
+  },
+  {
+   "text": "ambiance",
+   "start": 39.777,
+   "end": 40.077,
+   "type": "word"
+  },
+  {
+   "text": "à",
+   "start": 40.097,
+   "end": 40.117,
+   "type": "word"
+  },
+  {
+   "text": "ta",
+   "start": 40.137,
+   "end": 40.197,
+   "type": "word"
+  },
+  {
+   "text": "marque.",
+   "start": 40.217,
+   "end": 40.497,
+   "type": "word"
+  },
+  {
+   "text": "Les",
+   "start": 40.537,
+   "end": 40.638,
+   "type": "word"
+  },
+  {
+   "text": "clients",
+   "start": 40.658,
+   "end": 40.938,
+   "type": "word"
+  },
+  {
+   "text": "vont",
+   "start": 40.958,
+   "end": 41.238,
+   "type": "word"
+  },
+  {
+   "text": "apprécier",
+   "start": 41.318,
+   "end": 41.759,
+   "type": "word"
+  },
+  {
+   "text": "le",
+   "start": 41.779,
+   "end": 41.859,
+   "type": "word"
+  },
+  {
+   "text": "clin",
+   "start": 41.879,
+   "end": 42.059,
+   "type": "word"
+  },
+  {
+   "text": "d'œil",
+   "start": 42.079,
+   "end": 42.659,
+   "type": "word"
+  },
+  {
+   "text": "et",
+   "start": 42.699,
+   "end": 42.76,
+   "type": "word"
+  },
+  {
+   "text": "surtout,",
+   "start": 42.8,
+   "end": 43.02,
+   "type": "word"
+  },
+  {
+   "text": "ça",
+   "start": 43.04,
+   "end": 43.1,
+   "type": "word"
+  },
+  {
+   "text": "va",
+   "start": 43.12,
+   "end": 43.24,
+   "type": "word"
+  },
+  {
+   "text": "montrer",
+   "start": 43.26,
+   "end": 43.6,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 43.62,
+   "end": 43.74,
+   "type": "word"
+  },
+  {
+   "text": "ta",
+   "start": 43.761,
+   "end": 43.941,
+   "type": "word"
+  },
+  {
+   "text": "marque,",
+   "start": 43.961,
+   "end": 44.221,
+   "type": "word"
+  },
+  {
+   "text": "ta",
+   "start": 44.241,
+   "end": 44.361,
+   "type": "word"
+  },
+  {
+   "text": "boutique,",
+   "start": 44.381,
+   "end": 44.802,
+   "type": "word"
+  },
+  {
+   "text": "en",
+   "start": 45.002,
+   "end": 45.062,
+   "type": "word"
+  },
+  {
+   "text": "fait,",
+   "start": 45.082,
+   "end": 45.402,
+   "type": "word"
+  },
+  {
+   "text": "elle",
+   "start": 45.442,
+   "end": 45.642,
+   "type": "word"
+  },
+  {
+   "text": "évolue",
+   "start": 45.722,
+   "end": 46.383,
+   "type": "word"
+  },
+  {
+   "text": "au",
+   "start": 46.423,
+   "end": 46.523,
+   "type": "word"
+  },
+  {
+   "text": "gré",
+   "start": 46.543,
+   "end": 46.783,
+   "type": "word"
+  },
+  {
+   "text": "des",
+   "start": 46.803,
+   "end": 46.904,
+   "type": "word"
+  },
+  {
+   "text": "actualités",
+   "start": 46.964,
+   "end": 47.464,
+   "type": "word"
+  },
+  {
+   "text": "qui",
+   "start": 47.484,
+   "end": 47.624,
+   "type": "word"
+  },
+  {
+   "text": "parlent",
+   "start": 47.664,
+   "end": 47.844,
+   "type": "word"
+  },
+  {
+   "text": "à",
+   "start": 47.864,
+   "end": 47.884,
+   "type": "word"
+  },
+  {
+   "text": "ton",
+   "start": 47.925,
+   "end": 48.025,
+   "type": "word"
+  },
+  {
+   "text": "audience.",
+   "start": 48.065,
+   "end": 48.445,
+   "type": "word"
+  },
+  {
+   "text": "Ensuite,",
+   "start": 48.585,
+   "end": 49.025,
+   "type": "word"
+  },
+  {
+   "text": "surf",
+   "start": 49.045,
+   "end": 49.265,
+   "type": "word"
+  },
+  {
+   "text": "sur",
+   "start": 49.285,
+   "end": 49.385,
+   "type": "word"
+  },
+  {
+   "text": "l'actu",
+   "start": 49.405,
+   "end": 49.705,
+   "type": "word"
+  },
+  {
+   "text": "avec",
+   "start": 49.725,
+   "end": 49.885,
+   "type": "word"
+  },
+  {
+   "text": "ton",
+   "start": 49.905,
+   "end": 50.045,
+   "type": "word"
+  },
+  {
+   "text": "contenu,",
+   "start": 50.065,
+   "end": 50.445,
+   "type": "word"
+  },
+  {
+   "text": "pas",
+   "start": 50.465,
+   "end": 50.606,
+   "type": "word"
+  },
+  {
+   "text": "avec",
+   "start": 50.626,
+   "end": 50.806,
+   "type": "word"
+  },
+  {
+   "text": "tes",
+   "start": 50.826,
+   "end": 50.926,
+   "type": "word"
+  },
+  {
+   "text": "produits.",
+   "start": 50.946,
+   "end": 51.546,
+   "type": "word"
+  },
+  {
+   "text": "Que",
+   "start": 51.646,
+   "end": 51.706,
+   "type": "word"
+  },
+  {
+   "text": "ce",
+   "start": 51.726,
+   "end": 51.786,
+   "type": "word"
+  },
+  {
+   "text": "soit",
+   "start": 51.806,
+   "end": 51.926,
+   "type": "word"
+  },
+  {
+   "text": "au",
+   "start": 51.946,
+   "end": 52.006,
+   "type": "word"
+  },
+  {
+   "text": "travers",
+   "start": 52.026,
+   "end": 52.266,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 52.286,
+   "end": 52.426,
+   "type": "word"
+  },
+  {
+   "text": "vidéos",
+   "start": 52.446,
+   "end": 52.786,
+   "type": "word"
+  },
+  {
+   "text": "pour",
+   "start": 52.806,
+   "end": 52.906,
+   "type": "word"
+  },
+  {
+   "text": "ton",
+   "start": 52.926,
+   "end": 53.046,
+   "type": "word"
+  },
+  {
+   "text": "contenu",
+   "start": 53.066,
+   "end": 53.306,
+   "type": "word"
+  },
+  {
+   "text": "en",
+   "start": 53.346,
+   "end": 53.386,
+   "type": "word"
+  },
+  {
+   "text": "ligne,",
+   "start": 53.406,
+   "end": 53.886,
+   "type": "word"
+  },
+  {
+   "text": "soit",
+   "start": 53.906,
+   "end": 54.026,
+   "type": "word"
+  },
+  {
+   "text": "au",
+   "start": 54.066,
+   "end": 54.106,
+   "type": "word"
+  },
+  {
+   "text": "travers",
+   "start": 54.126,
+   "end": 54.306,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 54.326,
+   "end": 54.406,
+   "type": "word"
+  },
+  {
+   "text": "tes",
+   "start": 54.426,
+   "end": 54.506,
+   "type": "word"
+  },
+  {
+   "text": "mails",
+   "start": 54.546,
+   "end": 54.827,
+   "type": "word"
+  },
+  {
+   "text": "ou",
+   "start": 54.847,
+   "end": 54.907,
+   "type": "word"
+  },
+  {
+   "text": "même",
+   "start": 54.927,
+   "end": 55.067,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 55.087,
+   "end": 55.127,
+   "type": "word"
+  },
+  {
+   "text": "tes",
+   "start": 55.147,
+   "end": 55.247,
+   "type": "word"
+  },
+  {
+   "text": "stories.",
+   "start": 55.287,
+   "end": 55.747,
+   "type": "word"
+  },
+  {
+   "text": "Utilise",
+   "start": 55.807,
+   "end": 56.047,
+   "type": "word"
+  },
+  {
+   "text": "cette",
+   "start": 56.067,
+   "end": 56.167,
+   "type": "word"
+  },
+  {
+   "text": "actualité",
+   "start": 56.187,
+   "end": 56.967,
+   "type": "word"
+  },
+  {
+   "text": "vis-à-vis",
+   "start": 56.987,
+   "end": 57.247,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 57.267,
+   "end": 57.307,
+   "type": "word"
+  },
+  {
+   "text": "GTA",
+   "start": 57.327,
+   "end": 57.807,
+   "type": "word"
+  },
+  {
+   "text": "et",
+   "start": 57.847,
+   "end": 57.887,
+   "type": "word"
+  },
+  {
+   "text": "surtout",
+   "start": 57.927,
+   "end": 58.127,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 58.147,
+   "end": 58.187,
+   "type": "word"
+  },
+  {
+   "text": "toutes",
+   "start": 58.207,
+   "end": 58.347,
+   "type": "word"
+  },
+  {
+   "text": "les",
+   "start": 58.367,
+   "end": 58.447,
+   "type": "word"
+  },
+  {
+   "text": "références.",
+   "start": 58.467,
+   "end": 59.088,
+   "type": "word"
+  },
+  {
+   "text": "Nourris-toi",
+   "start": 59.108,
+   "end": 59.428,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 59.448,
+   "end": 59.508,
+   "type": "word"
+  },
+  {
+   "text": "l'ambiance",
+   "start": 59.528,
+   "end": 59.928,
+   "type": "word"
+  },
+  {
+   "text": "à",
+   "start": 59.948,
+   "end": 59.988,
+   "type": "word"
+  },
+  {
+   "text": "la",
+   "start": 60.008,
+   "end": 60.108,
+   "type": "word"
+  },
+  {
+   "text": "GTA",
+   "start": 60.148,
+   "end": 60.828,
+   "type": "word"
+  },
+  {
+   "text": "et",
+   "start": 60.868,
+   "end": 60.968,
+   "type": "word"
+  },
+  {
+   "text": "surtout",
+   "start": 60.988,
+   "end": 61.548,
+   "type": "word"
+  },
+  {
+   "text": "montre",
+   "start": 61.568,
+   "end": 61.948,
+   "type": "word"
+  },
+  {
+   "text": "à",
+   "start": 61.968,
+   "end": 62.008,
+   "type": "word"
+  },
+  {
+   "text": "ton",
+   "start": 62.028,
+   "end": 62.148,
+   "type": "word"
+  },
+  {
+   "text": "audience",
+   "start": 62.228,
+   "end": 62.628,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 62.668,
+   "end": 62.829,
+   "type": "word"
+  },
+  {
+   "text": "toi",
+   "start": 62.849,
+   "end": 63.049,
+   "type": "word"
+  },
+  {
+   "text": "aussi,",
+   "start": 63.089,
+   "end": 63.309,
+   "type": "word"
+  },
+  {
+   "text": "tu",
+   "start": 63.329,
+   "end": 63.369,
+   "type": "word"
+  },
+  {
+   "text": "as",
+   "start": 63.389,
+   "end": 63.449,
+   "type": "word"
+  },
+  {
+   "text": "les",
+   "start": 63.469,
+   "end": 63.549,
+   "type": "word"
+  },
+  {
+   "text": "mêmes",
+   "start": 63.569,
+   "end": 63.729,
+   "type": "word"
+  },
+  {
+   "text": "références",
+   "start": 63.749,
+   "end": 64.129,
+   "type": "word"
+  },
+  {
+   "text": "que,",
+   "start": 64.169,
+   "end": 64.249,
+   "type": "word"
+  },
+  {
+   "text": "tu",
+   "start": 64.269,
+   "end": 64.309,
+   "type": "word"
+  },
+  {
+   "text": "as",
+   "start": 64.329,
+   "end": 64.389,
+   "type": "word"
+  },
+  {
+   "text": "les",
+   "start": 64.409,
+   "end": 64.569,
+   "type": "word"
+  },
+  {
+   "text": "mêmes",
+   "start": 64.589,
+   "end": 64.829,
+   "type": "word"
+  },
+  {
+   "text": "codes",
+   "start": 64.849,
+   "end": 65.089,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 65.109,
+   "end": 65.309,
+   "type": "word"
+  },
+  {
+   "text": "et",
+   "start": 65.349,
+   "end": 65.409,
+   "type": "word"
+  },
+  {
+   "text": "ça",
+   "start": 65.429,
+   "end": 65.509,
+   "type": "word"
+  },
+  {
+   "text": "fera",
+   "start": 65.529,
+   "end": 65.669,
+   "type": "word"
+  },
+  {
+   "text": "un",
+   "start": 65.689,
+   "end": 65.809,
+   "type": "word"
+  },
+  {
+   "text": "point",
+   "start": 65.829,
+   "end": 66.089,
+   "type": "word"
+  },
+  {
+   "text": "commun",
+   "start": 66.109,
+   "end": 66.429,
+   "type": "word"
+  },
+  {
+   "text": "qui",
+   "start": 66.449,
+   "end": 66.549,
+   "type": "word"
+  },
+  {
+   "text": "t'emmètra",
+   "start": 66.569,
+   "end": 66.89,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 66.91,
+   "end": 67.07,
+   "type": "word"
+  },
+  {
+   "text": "différencier",
+   "start": 67.09,
+   "end": 67.69,
+   "type": "word"
+  },
+  {
+   "text": "par",
+   "start": 67.71,
+   "end": 67.79,
+   "type": "word"
+  },
+  {
+   "text": "rapport",
+   "start": 67.83,
+   "end": 68.05,
+   "type": "word"
+  },
+  {
+   "text": "aux",
+   "start": 68.09,
+   "end": 68.19,
+   "type": "word"
+  },
+  {
+   "text": "autres",
+   "start": 68.25,
+   "end": 68.37,
+   "type": "word"
+  },
+  {
+   "text": "concurrents.",
+   "start": 68.39,
+   "end": 68.79,
+   "type": "word"
+  },
+  {
+   "text": "Enfin,",
+   "start": 68.95,
+   "end": 69.131,
+   "type": "word"
+  },
+  {
+   "text": "si",
+   "start": 69.211,
+   "end": 69.251,
+   "type": "word"
+  },
+  {
+   "text": "ta",
+   "start": 69.271,
+   "end": 69.331,
+   "type": "word"
+  },
+  {
+   "text": "cible",
+   "start": 69.391,
+   "end": 69.792,
+   "type": "word"
+  },
+  {
+   "text": "joue,",
+   "start": 69.832,
+   "end": 70.173,
+   "type": "word"
+  },
+  {
+   "text": "fais",
+   "start": 70.193,
+   "end": 70.373,
+   "type": "word"
+  },
+  {
+   "text": "lui",
+   "start": 70.393,
+   "end": 70.534,
+   "type": "word"
+  },
+  {
+   "text": "gagner",
+   "start": 70.554,
+   "end": 70.754,
+   "type": "word"
+  },
+  {
+   "text": "le",
+   "start": 70.774,
+   "end": 70.834,
+   "type": "word"
+  },
+  {
+   "text": "jeu.",
+   "start": 70.854,
+   "end": 71.295,
+   "type": "word"
+  },
+  {
+   "text": "Le",
+   "start": 71.315,
+   "end": 71.396,
+   "type": "word"
+  },
+  {
+   "text": "vrai",
+   "start": 71.436,
+   "end": 71.636,
+   "type": "word"
+  },
+  {
+   "text": "jeu",
+   "start": 71.656,
+   "end": 71.776,
+   "type": "word"
+  },
+  {
+   "text": "GTA",
+   "start": 71.796,
+   "end": 72.378,
+   "type": "word"
+  },
+  {
+   "text": "acheté",
+   "start": 72.418,
+   "end": 72.638,
+   "type": "word"
+  },
+  {
+   "text": "en",
+   "start": 72.658,
+   "end": 72.738,
+   "type": "word"
+  },
+  {
+   "text": "magasin",
+   "start": 72.759,
+   "end": 73.32,
+   "type": "word"
+  },
+  {
+   "text": "ou",
+   "start": 73.38,
+   "end": 73.721,
+   "type": "word"
+  },
+  {
+   "text": "également",
+   "start": 73.781,
+   "end": 74.422,
+   "type": "word"
+  },
+  {
+   "text": "juste",
+   "start": 74.442,
+   "end": 74.583,
+   "type": "word"
+  },
+  {
+   "text": "en",
+   "start": 74.603,
+   "end": 74.643,
+   "type": "word"
+  },
+  {
+   "text": "fait",
+   "start": 74.663,
+   "end": 74.863,
+   "type": "word"
+  },
+  {
+   "text": "le",
+   "start": 74.883,
+   "end": 75.023,
+   "type": "word"
+  },
+  {
+   "text": "code",
+   "start": 75.044,
+   "end": 75.264,
+   "type": "word"
+  },
+  {
+   "text": "du",
+   "start": 75.284,
+   "end": 75.404,
+   "type": "word"
+  },
+  {
+   "text": "jeu",
+   "start": 75.424,
+   "end": 75.925,
+   "type": "word"
+  },
+  {
+   "text": "offert",
+   "start": 76.006,
+   "end": 76.266,
+   "type": "word"
+  },
+  {
+   "text": "dans",
+   "start": 76.286,
+   "end": 76.386,
+   "type": "word"
+  },
+  {
+   "text": "un",
+   "start": 76.427,
+   "end": 76.487,
+   "type": "word"
+  },
+  {
+   "text": "jeu",
+   "start": 76.507,
+   "end": 76.607,
+   "type": "word"
+  },
+  {
+   "text": "concours.",
+   "start": 76.627,
+   "end": 76.867,
+   "type": "word"
+  },
+  {
+   "text": "Tu",
+   "start": 76.888,
+   "end": 76.928,
+   "type": "word"
+  },
+  {
+   "text": "peux",
+   "start": 76.948,
+   "end": 77.048,
+   "type": "word"
+  },
+  {
+   "text": "écrire",
+   "start": 77.068,
+   "end": 77.328,
+   "type": "word"
+  },
+  {
+   "text": "GTA",
+   "start": 77.349,
+   "end": 77.729,
+   "type": "word"
+  },
+  {
+   "text": "6",
+   "start": 77.81,
+   "end": 77.87,
+   "type": "word"
+  },
+  {
+   "text": "à",
+   "start": 77.93,
+   "end": 78.01,
+   "type": "word"
+  },
+  {
+   "text": "gagner,",
+   "start": 78.03,
+   "end": 78.571,
+   "type": "word"
+  },
+  {
+   "text": "c'est",
+   "start": 78.591,
+   "end": 78.691,
+   "type": "word"
+  },
+  {
+   "text": "le",
+   "start": 78.711,
+   "end": 78.812,
+   "type": "word"
+  },
+  {
+   "text": "lot.",
+   "start": 78.832,
+   "end": 79.052,
+   "type": "word"
+  },
+  {
+   "text": "Leur",
+   "start": 79.072,
+   "end": 79.233,
+   "type": "word"
+  },
+  {
+   "text": "logo,",
+   "start": 79.253,
+   "end": 79.834,
+   "type": "word"
+  },
+  {
+   "text": "toujours",
+   "start": 79.854,
+   "end": 80.115,
+   "type": "word"
+  },
+  {
+   "text": "pas.",
+   "start": 80.135,
+   "end": 80.415,
+   "type": "word"
+  },
+  {
+   "text": "Pour",
+   "start": 80.435,
+   "end": 80.576,
+   "type": "word"
+  },
+  {
+   "text": "participer,",
+   "start": 80.596,
+   "end": 80.936,
+   "type": "word"
+  },
+  {
+   "text": "tu",
+   "start": 80.956,
+   "end": 81.017,
+   "type": "word"
+  },
+  {
+   "text": "leur",
+   "start": 81.037,
+   "end": 81.157,
+   "type": "word"
+  },
+  {
+   "text": "dis",
+   "start": 81.177,
+   "end": 81.237,
+   "type": "word"
+  },
+  {
+   "text": "voilà,",
+   "start": 81.257,
+   "end": 81.658,
+   "type": "word"
+  },
+  {
+   "text": "dis-moi",
+   "start": 81.678,
+   "end": 81.918,
+   "type": "word"
+  },
+  {
+   "text": "quel",
+   "start": 81.939,
+   "end": 82.099,
+   "type": "word"
+  },
+  {
+   "text": "produit",
+   "start": 82.119,
+   "end": 82.279,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 82.299,
+   "end": 82.359,
+   "type": "word"
+  },
+  {
+   "text": "ma",
+   "start": 82.379,
+   "end": 82.52,
+   "type": "word"
+  },
+  {
+   "text": "boutique",
+   "start": 82.54,
+   "end": 82.8,
+   "type": "word"
+  },
+  {
+   "text": "tu",
+   "start": 82.82,
+   "end": 82.921,
+   "type": "word"
+  },
+  {
+   "text": "prendrais.",
+   "start": 82.941,
+   "end": 83.682,
+   "type": "word"
+  },
+  {
+   "text": "L'objectif",
+   "start": 83.702,
+   "end": 84.023,
+   "type": "word"
+  },
+  {
+   "text": "c'est",
+   "start": 84.043,
+   "end": 84.143,
+   "type": "word"
+  },
+  {
+   "text": "attirer",
+   "start": 84.163,
+   "end": 84.404,
+   "type": "word"
+  },
+  {
+   "text": "des",
+   "start": 84.444,
+   "end": 84.524,
+   "type": "word"
+  },
+  {
+   "text": "clients,",
+   "start": 84.544,
+   "end": 84.945,
+   "type": "word"
+  },
+  {
+   "text": "pas",
+   "start": 84.965,
+   "end": 85.105,
+   "type": "word"
+  },
+  {
+   "text": "des",
+   "start": 85.125,
+   "end": 85.206,
+   "type": "word"
+  },
+  {
+   "text": "chasseurs",
+   "start": 85.226,
+   "end": 85.486,
+   "type": "word"
+  },
+  {
+   "text": "de",
+   "start": 85.506,
+   "end": 85.586,
+   "type": "word"
+  },
+  {
+   "text": "cadeaux.",
+   "start": 85.606,
+   "end": 85.947,
+   "type": "word"
+  },
+  {
+   "text": "Et",
+   "start": 85.967,
+   "end": 86.027,
+   "type": "word"
+  },
+  {
+   "text": "si",
+   "start": 86.067,
+   "end": 86.128,
+   "type": "word"
+  },
+  {
+   "text": "tu",
+   "start": 86.148,
+   "end": 86.188,
+   "type": "word"
+  },
+  {
+   "text": "veux",
+   "start": 86.208,
+   "end": 86.288,
+   "type": "word"
+  },
+  {
+   "text": "apprendre",
+   "start": 86.308,
+   "end": 86.549,
+   "type": "word"
+  },
+  {
+   "text": "un",
+   "start": 86.569,
+   "end": 86.609,
+   "type": "word"
+  },
+  {
+   "text": "peu",
+   "start": 86.629,
+   "end": 86.709,
+   "type": "word"
+  },
+  {
+   "text": "plus",
+   "start": 86.729,
+   "end": 86.849,
+   "type": "word"
+  },
+  {
+   "text": "e-commerce",
+   "start": 86.889,
+   "end": 87.23,
+   "type": "word"
+  },
+  {
+   "text": "chaque",
+   "start": 87.25,
+   "end": 87.45,
+   "type": "word"
+  },
+  {
+   "text": "jour,",
+   "start": 87.471,
+   "end": 87.751,
+   "type": "word"
+  },
+  {
+   "text": "abonne-toi.",
+   "start": 87.811,
+   "end": 88.393,
+   "type": "word"
+  },
+  {
+   "text": "Et",
+   "start": 88.413,
+   "end": 88.493,
+   "type": "word"
+  },
+  {
+   "text": "commande",
+   "start": 88.513,
+   "end": 88.753,
+   "type": "word"
+  },
+  {
+   "text": "GTA",
+   "start": 88.793,
+   "end": 88.914,
+   "type": "word"
+  },
+  {
+   "text": "pour",
+   "start": 88.934,
+   "end": 89.114,
+   "type": "word"
+  },
+  {
+   "text": "que",
+   "start": 89.134,
+   "end": 89.214,
+   "type": "word"
+  },
+  {
+   "text": "je",
+   "start": 89.234,
+   "end": 89.274,
+   "type": "word"
+  },
+  {
+   "text": "t'envoie",
+   "start": 89.295,
+   "end": 89.495,
+   "type": "word"
+  },
+  {
+   "text": "ma",
+   "start": 89.515,
+   "end": 89.575,
+   "type": "word"
+  },
+  {
+   "text": "checklist",
+   "start": 89.635,
+   "end": 89.976,
+   "type": "word"
+  },
+  {
+   "text": "pour",
+   "start": 89.996,
+   "end": 90.136,
+   "type": "word"
+  },
+  {
+   "text": "surfer",
+   "start": 90.176,
+   "end": 90.657,
+   "type": "word"
+  },
+  {
+   "text": "sur",
+   "start": 90.678,
+   "end": 90.798,
+   "type": "word"
+  },
+  {
+   "text": "l'actu",
+   "start": 90.818,
+   "end": 91.259,
+   "type": "word"
+  },
+  {
+   "text": "sans",
+   "start": 91.299,
+   "end": 91.459,
+   "type": "word"
+  },
+  {
+   "text": "aucun",
+   "start": 91.499,
+   "end": 91.7,
+   "type": "word"
+  },
+  {
+   "text": "risque.",
+   "start": 91.72,
+   "end": 92.081,
+   "type": "word"
+  },
+  {
+   "text": "Allez,",
+   "start": 92.141,
+   "end": 92.381,
+   "type": "word"
+  },
+  {
+   "text": "ciao",
+   "start": 92.401,
+   "end": 92.642,
+   "type": "word"
+  },
+  {
+   "text": "!",
+   "start": 92.722,
+   "end": 92.742,
+   "type": "word"
+  }
+ ]
+}

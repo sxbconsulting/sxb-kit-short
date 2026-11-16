@@ -1,107 +1,126 @@
 [
  {
   "name": "t01",
-  "in": 2.01,
-  "out": 9.31
+  "in": 1.98,
+  "out": 9.24,
+  "why": "accroche"
  },
  {
   "name": "t02",
-  "in": 9.97,
-  "out": 15.02
+  "in": 9.94,
+  "out": 14.94
  },
  {
   "name": "t03",
-  "in": 15.5,
-  "out": 20.66
+  "in": 15.44,
+  "out": 20.62,
+  "why": "« …Vice City, parce que ça c'est à eux »"
  },
  {
-  "name": "t04",
-  "in": 21.14,
-  "out": 28.65
+  "name": "t04a",
+  "in": 22.76,
+  "out": 24.42,
+  "why": "faux départ « Les reprendre, c'est… » (21.2-22.1) retiré"
+ },
+ {
+  "name": "t04b",
+  "in": 24.86,
+  "out": 28.6,
+  "why": "pause « juridique. / et surtout » réduite"
  },
  {
   "name": "t05",
-  "in": 29.32,
-  "out": 31.89
+  "in": 29.28,
+  "out": 31.84
  },
  {
   "name": "t06",
-  "in": 32.7,
-  "out": 38.09
+  "in": 32.68,
+  "out": 37.52,
+  "why": "fin après « marque », avant « Que » (t07)"
  },
  {
   "name": "t09",
-  "in": 46.67,
-  "out": 52.45
+  "in": 48.26,
+  "out": 52.4,
+  "why": "1,7 s de silence en tête retiré"
  },
  {
   "name": "t10",
-  "in": 53.77,
-  "out": 59.95
+  "in": 53.8,
+  "out": 59.8
  },
  {
-  "name": "t11",
-  "in": 64.26,
-  "out": 74.27
+  "name": "t11a",
+  "in": 64.22,
+  "out": 66.44,
+  "why": "« …le clin d'œil »"
+ },
+ {
+  "name": "t11b",
+  "in": 68.4,
+  "out": 74.24,
+  "why": "faux départ « et surtout ça va montrer que tu as… » (66.5-67.8) retiré"
  },
  {
   "name": "t12",
-  "in": 80.12,
-  "out": 83.56
- },
- {
-  "name": "t13",
-  "in": 83.54,
-  "out": 88.2
+  "in": 80.34,
+  "out": 87.6,
+  "why": "t12+t13 fusionnées (même « que ce soit au »), fin après « stories »"
  },
  {
   "name": "t14",
-  "in": 94.62,
-  "out": 97.91
+  "in": 94.6,
+  "out": 97.89,
+  "why": "fin après « références », avant « qui »"
  },
  {
   "name": "t18",
-  "in": 117.63,
-  "out": 127.46
+  "in": 117.6,
+  "out": 127.4
  },
  {
   "name": "t19",
-  "in": 132.39,
-  "out": 135.31
+  "in": 132.84,
+  "out": 135.24
  },
  {
   "name": "t22",
-  "in": 155.9,
-  "out": 162.52
+  "in": 155.88,
+  "out": 161.6,
+  "why": "t22-t24 se chevauchaient : une seule plage, coupée dans le silence 161.5-162.4"
  },
  {
-  "name": "t23",
-  "in": 162.23,
-  "out": 165.25
+  "name": "t23a",
+  "in": 162.32,
+  "out": 164.4
  },
  {
-  "name": "t24",
-  "in": 164.87,
-  "out": 166.28
+  "name": "t23b",
+  "in": 164.86,
+  "out": 166.24,
+  "why": "pause « c'est le lot. / Leur logo » réduite"
  },
  {
   "name": "t25",
-  "in": 169.7,
-  "out": 175.21
+  "in": 169.68,
+  "out": 175.16
  },
  {
   "name": "t26",
-  "in": 177.36,
-  "out": 179.84
+  "in": 177.34,
+  "out": 179.78
  },
  {
-  "name": "t27",
-  "in": 188.1,
-  "out": 192.5
+  "name": "t27a",
+  "in": 188.34,
+  "out": 192.06,
+  "why": "t27+t28 fusionnées : « …sans aucun risque. Allez ciao »"
  },
  {
-  "name": "t28",
-  "in": 192.45,
-  "out": 193.19
+  "name": "t27b",
+  "in": 192.44,
+  "out": 193.12,
+  "why": "pause « risque. / Allez ciao » réduite"
  }
 ]
