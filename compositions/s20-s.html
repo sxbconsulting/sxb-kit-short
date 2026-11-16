@@ -142,9 +142,11 @@
 #zone { background:
   radial-gradient(120% 60% at 50% 112%, rgba(255,90,120,.55), rgba(255,138,76,.18) 38%, transparent 62%),
   linear-gradient(180deg, #0E0624 0%, #1C0A3E 55%, #3A0F55 100%); color: #fff; font-family: "Anton", var(--font-display); }
-#zone::before { content: ""; position: absolute; left: -10%; right: -10%; bottom: 0; height: 300px; pointer-events: none;
+#zone::before { display: none; }
+.zgrid { content: ""; position: absolute; left: -10%; right: -10%; bottom: 0; height: 300px; pointer-events: none;
   background-image: linear-gradient(rgba(255,46,136,.28) 2px, transparent 2px), linear-gradient(90deg, rgba(255,46,136,.22) 2px, transparent 2px);
   background-size: 100% 46px, 90px 100%; transform: perspective(500px) rotateX(58deg); transform-origin: 50% 100%; opacity: .55; }
+.zgrid { position: absolute; }
 #zone::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 6px; background: linear-gradient(90deg, #FF2E88, #FFC861, #19E3D2); box-shadow: 0 0 24px rgba(255,46,136,.8); }
 /* trailer excerpts: postcard with a white border, slightly tilted (collage) */
 .zvideo { border-radius: 10px; border: 10px solid #fff; box-shadow: 0 26px 70px rgba(0,0,0,.6), 0 0 0 2px rgba(255,46,136,.6); background: #000; }
@@ -195,21 +197,28 @@
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
 </style>
-<div id="zone" style="height:880px;"><div class="zline" id="s20-s-z0" style="left:0;right:0;text-align:center;top:30px;font-size:96px;">COMMENTE</div><div class="big zstamp" id="s20-s-z1" style="left:370px;top:150px">GTA</div><div class="sm zcheck" id="s20-s-z2" style="left:60px;top:372px;width:960px"><span class="n">1</span><span>L&#x27;ambiance, <em>pas la marque</em></span><span class="ck" id="s20-s-z2-ck">✓</span></div><div class="sm zcheck" id="s20-s-z3" style="left:60px;top:474px;width:960px"><span class="n">2</span><span>Le contenu, <em>pas les produits</em></span><span class="ck" id="s20-s-z3-ck">✓</span></div><div class="sm zcheck" id="s20-s-z4" style="left:60px;top:576px;width:960px"><span class="n">3</span><span>Le jeu, <em>pas le logo</em></span><span class="ck" id="s20-s-z4-ck">✓</span></div><div class="ok zline" id="s20-s-z5" style="left:0;right:0;text-align:center;top:690px;font-size:48px;">✓ SANS AUCUN RISQUE</div></div>
+<div id="zone" style="height:880px;"><div class="zgrid" id="s20-s-grid"></div><div class="zline" id="s20-s-z0" style="left:0;right:0;text-align:center;top:30px;font-size:96px;">COMMENTE</div><div class="big zstamp" id="s20-s-z1" style="left:370px;top:150px">GTA</div><div class="sm zcheck" id="s20-s-z2" style="left:60px;top:372px;width:960px"><span class="n">1</span><span>L&#x27;ambiance, <em>pas la marque</em></span><span class="ck" id="s20-s-z2-ck">✓</span></div><div class="sm zcheck" id="s20-s-z3" style="left:60px;top:474px;width:960px"><span class="n">2</span><span>Le contenu, <em>pas les produits</em></span><span class="ck" id="s20-s-z3-ck">✓</span></div><div class="sm zcheck" id="s20-s-z4" style="left:60px;top:576px;width:960px"><span class="n">3</span><span>Le jeu, <em>pas le logo</em></span><span class="ck" id="s20-s-z4-ck">✓</span></div><div class="ok zline" id="s20-s-z5" style="left:0;right:0;text-align:center;top:690px;font-size:48px;">✓ SANS AUCUN RISQUE</div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
 (function () {
   const tl = gsap.timeline({ paused: true });
     tl.from("#s20-s-z0", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 0.113);
+  tl.to("#s20-s-z0", { y: -7, duration: 1.852, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.663);
   tl.from("#s20-s-z1", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 0.393);
+  tl.to("#s20-s-z1", { rotation: -3, duration: 0.1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.893);
+  tl.to("#s20-s-z1", { y: -10, duration: 1.712, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.943);
   tl.from("#s20-s-z2", { x: -300, opacity: 0, duration: 0.45, ease: "back.out(1.4)" }, 1.235);
   tl.from("#s20-s-z2-ck", { scale: 0, duration: 0.35, ease: "back.out(2.6)" }, 1.235);
+  tl.to("#s20-s-z2", { y: -7, duration: 1.291, yoyo: true, repeat: 1, ease: "sine.inOut" }, 1.785);
   tl.from("#s20-s-z3", { x: -300, opacity: 0, duration: 0.45, ease: "back.out(1.4)" }, 1.55);
   tl.from("#s20-s-z3-ck", { scale: 0, duration: 0.35, ease: "back.out(2.6)" }, 1.7);
+  tl.to("#s20-s-z3", { y: -7, duration: 1.133, yoyo: true, repeat: 1, ease: "sine.inOut" }, 2.1);
   tl.from("#s20-s-z4", { x: -300, opacity: 0, duration: 0.45, ease: "back.out(1.4)" }, 1.85);
   tl.from("#s20-s-z4-ck", { scale: 0, duration: 0.35, ease: "back.out(2.6)" }, 2);
+  tl.to("#s20-s-z4", { y: -7, duration: 0.983, yoyo: true, repeat: 1, ease: "sine.inOut" }, 2.4);
   tl.from("#s20-s-z5", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 3.32);
+  tl.fromTo("#s20-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 201px, 0px 0px", duration: 4.367, ease: "none" }, 0);
   tl.to({}, { duration: 4.367 }, 0);
   window.__timelines["s20-s"] = tl;
 })();

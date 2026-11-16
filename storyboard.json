@@ -61,7 +61,9 @@
       "text": "GTA",
       "x": 440,
       "y": 290,
-      "at": "w:GTA"
+      "at": "w:GTA",
+      "sfx": "pop",
+      "sfx_db": -11
      },
      {
       "type": "line",
@@ -85,7 +87,9 @@
       "text": "PUB REFUSÉE",
       "x": 190,
       "y": 460,
-      "at": "w:risquer"
+      "at": "w:risquer",
+      "sfx": "error",
+      "sfx_db": -19
      },
      {
       "type": "line",
@@ -160,7 +164,9 @@
       "text": "JEUDI 19.11",
       "x": 170,
       "y": 900,
-      "at": "w:novembre"
+      "at": "w:novembre",
+      "sfx": "ping",
+      "sfx_db": -7
      },
      {
       "type": "cam",
@@ -199,7 +205,9 @@
       "highlight_at": "w:boutique",
       "zoom_at": "w:dérivés",
       "zoom": 1.25,
-      "origin": "35% 80%"
+      "origin": "35% 80%",
+      "sfx": "click",
+      "sfx_db": -9
      },
      {
       "type": "line",
@@ -306,7 +314,9 @@
       "text": "© ROCKSTAR",
       "x": 150,
       "y": 900,
-      "at": "w:c'est"
+      "at": "w:c'est",
+      "sfx": "pop",
+      "sfx_db": -11
      },
      {
       "type": "cam",
@@ -382,7 +392,9 @@
       "text": "COMPTE BLOQUÉ",
       "x": 250,
       "y": 400,
-      "at": "w:bloqué"
+      "at": "w:bloqué",
+      "sfx": "impact-bass-1",
+      "sfx_db": -23
      }
     ],
     "no_intro": true
@@ -472,7 +484,9 @@
       "text": "PAS LA MARQUE",
       "x": 270,
       "y": 560,
-      "at": "w:Pas"
+      "at": "w:Pas",
+      "sfx": "error",
+      "sfx_db": -19
      }
     ],
     "no_intro": true
@@ -688,7 +702,9 @@
       "text": "C'EST L'ACTU",
       "x": 330,
       "y": 400,
-      "at": "w:actualités"
+      "at": "w:actualités",
+      "sfx": "pop",
+      "sfx_db": -11
      },
      {
       "type": "line",
@@ -920,7 +936,9 @@
       "x": 290,
       "y": 500,
       "at": "w:point",
-      "out_at": "w:différencier"
+      "out_at": "w:différencier",
+      "sfx": "pop",
+      "sfx_db": -11
      },
      {
       "type": "tag",
@@ -1003,7 +1021,9 @@
       "x": 170,
       "y": 880,
       "at": "w:gagner",
-      "out_at": "w:vrai"
+      "out_at": "w:vrai",
+      "sfx": "pop",
+      "sfx_db": -11
      },
      {
       "type": "card",
@@ -1131,7 +1151,9 @@
       "text": "PAS LEUR LOGO",
       "x": 545,
       "y": 820,
-      "at": "w:pas"
+      "at": "w:pas",
+      "sfx": "error",
+      "sfx_db": -19
      },
      {
       "type": "cam",
@@ -1215,7 +1237,9 @@
       "x": "center",
       "y": 500,
       "size": 80,
-      "at": "w:cadeaux"
+      "at": "w:cadeaux",
+      "sfx": "ping",
+      "sfx_db": -7
      }
     ],
     "no_intro": true
@@ -1269,7 +1293,9 @@
       "x": 370,
       "y": 150,
       "at": "w:GTA",
-      "class": "big"
+      "class": "big",
+      "sfx": "pop",
+      "sfx_db": -11
      },
      {
       "type": "check",
@@ -1280,7 +1306,9 @@
       "w": 960,
       "at": "w:checklist",
       "check_at": "w:checklist",
-      "class": "sm"
+      "class": "sm",
+      "sfx": "click-soft",
+      "sfx_db": -9
      },
      {
       "type": "check",
@@ -1322,5 +1350,6 @@
  "css": [
   "gta.css"
  ],
- "face_pos_s": "50% 52%"
+ "face_pos_s": "50% 52%",
+ "idle_motion": true
 }

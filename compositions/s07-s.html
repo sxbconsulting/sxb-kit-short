@@ -142,9 +142,11 @@
 #zone { background:
   radial-gradient(120% 60% at 50% 112%, rgba(255,90,120,.55), rgba(255,138,76,.18) 38%, transparent 62%),
   linear-gradient(180deg, #0E0624 0%, #1C0A3E 55%, #3A0F55 100%); color: #fff; font-family: "Anton", var(--font-display); }
-#zone::before { content: ""; position: absolute; left: -10%; right: -10%; bottom: 0; height: 300px; pointer-events: none;
+#zone::before { display: none; }
+.zgrid { content: ""; position: absolute; left: -10%; right: -10%; bottom: 0; height: 300px; pointer-events: none;
   background-image: linear-gradient(rgba(255,46,136,.28) 2px, transparent 2px), linear-gradient(90deg, rgba(255,46,136,.22) 2px, transparent 2px);
   background-size: 100% 46px, 90px 100%; transform: perspective(500px) rotateX(58deg); transform-origin: 50% 100%; opacity: .55; }
+.zgrid { position: absolute; }
 #zone::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 6px; background: linear-gradient(90deg, #FF2E88, #FFC861, #19E3D2); box-shadow: 0 0 24px rgba(255,46,136,.8); }
 /* trailer excerpts: postcard with a white border, slightly tilted (collage) */
 .zvideo { border-radius: 10px; border: 10px solid #fff; box-shadow: 0 26px 70px rgba(0,0,0,.6), 0 0 0 2px rgba(255,46,136,.6); background: #000; }
@@ -195,7 +197,7 @@
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
 </style>
-<div id="zone" style="height:880px;"><div class="zcheck" id="s07-s-z0" style="left:60px;top:30px;width:960px"><span class="n">#1</span><span><em>L&#x27;AMBIANCE</em>, pas la marque</span><span class="ck" id="s07-s-z0-ck">✓</span></div><div class="zphoto" id="s07-s-z1" style="left:110px;top:160px;width:280px;height:606px;transform:rotate(-3deg)"><img src="assets/mockups/boutique-avant.png" alt="" style="object-position:50% 50%"></div><div class="ztag" id="s07-s-z2" style="left:150px;top:120px"><span class="dot"></span>AVANT</div><div class="zline" id="s07-s-z3" style="left:455px;top:330px;font-size:130px;"><em>→</em></div><div class="zphoto" id="s07-s-z4" style="left:680px;top:160px;width:280px;height:606px;transform:rotate(3deg)"><img src="assets/mockups/boutique-apres.png" alt="" style="object-position:50% 50%"></div><div class="no zstamp" id="s07-s-z5" style="left:270px;top:560px">PAS LA MARQUE</div></div>
+<div id="zone" style="height:880px;"><div class="zgrid" id="s07-s-grid"></div><div class="zcheck" id="s07-s-z0" style="left:60px;top:30px;width:960px"><span class="n">#1</span><span><em>L&#x27;AMBIANCE</em>, pas la marque</span><span class="ck" id="s07-s-z0-ck">✓</span></div><div class="zphoto" id="s07-s-z1" style="left:110px;top:160px;width:280px;height:606px;transform:rotate(-3deg)"><img src="assets/mockups/boutique-avant.png" alt="" style="object-position:50% 50%"></div><div class="ztag" id="s07-s-z2" style="left:150px;top:120px"><span class="dot"></span>AVANT</div><div class="zline" id="s07-s-z3" style="left:455px;top:330px;font-size:130px;"><em>→</em></div><div class="zphoto" id="s07-s-z4" style="left:680px;top:160px;width:280px;height:606px;transform:rotate(3deg)"><img src="assets/mockups/boutique-apres.png" alt="" style="object-position:50% 50%"></div><div class="no zstamp" id="s07-s-z5" style="left:270px;top:560px">PAS LA MARQUE</div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
@@ -203,11 +205,17 @@ window.__timelines = window.__timelines || {};
   const tl = gsap.timeline({ paused: true });
     tl.from("#s07-s-z0", { x: -300, opacity: 0, duration: 0.45, ease: "back.out(1.4)" }, 0);
   tl.from("#s07-s-z0-ck", { scale: 0, duration: 0.35, ease: "back.out(2.6)" }, 3.394);
+  tl.to("#s07-s-z0", { y: -7, duration: 2.125, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.55);
   tl.from("#s07-s-z1", { y: 120, opacity: 0, rotation: -9, duration: 0.6, ease: "back.out(1.4)" }, 1.212);
+  tl.to("#s07-s-z1", { scale: 1.045, duration: 3.038, ease: "none" }, 1.762);
   tl.from("#s07-s-z2", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 2.133);
+  tl.to("#s07-s-z2", { y: -7, duration: 1.059, yoyo: true, repeat: 1, ease: "sine.inOut" }, 2.683);
   tl.from("#s07-s-z3", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 3.394);
+  tl.to("#s07-s-z3", { y: -7, duration: 0.428, yoyo: true, repeat: 1, ease: "sine.inOut" }, 3.944);
   tl.from("#s07-s-z4", { y: 120, opacity: 0, rotation: -3, duration: 0.6, ease: "back.out(1.4)" }, 3.394);
+  tl.to("#s07-s-z4", { scale: 1.045, duration: 0.856, ease: "none" }, 3.944);
   tl.from("#s07-s-z5", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 4.134);
+  tl.fromTo("#s07-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 221px, 0px 0px", duration: 4.8, ease: "none" }, 0);
   tl.to({}, { duration: 4.8 }, 0);
   window.__timelines["s07-s"] = tl;
 })();

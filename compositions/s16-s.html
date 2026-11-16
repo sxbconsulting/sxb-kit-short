@@ -142,9 +142,11 @@
 #zone { background:
   radial-gradient(120% 60% at 50% 112%, rgba(255,90,120,.55), rgba(255,138,76,.18) 38%, transparent 62%),
   linear-gradient(180deg, #0E0624 0%, #1C0A3E 55%, #3A0F55 100%); color: #fff; font-family: "Anton", var(--font-display); }
-#zone::before { content: ""; position: absolute; left: -10%; right: -10%; bottom: 0; height: 300px; pointer-events: none;
+#zone::before { display: none; }
+.zgrid { content: ""; position: absolute; left: -10%; right: -10%; bottom: 0; height: 300px; pointer-events: none;
   background-image: linear-gradient(rgba(255,46,136,.28) 2px, transparent 2px), linear-gradient(90deg, rgba(255,46,136,.22) 2px, transparent 2px);
   background-size: 100% 46px, 90px 100%; transform: perspective(500px) rotateX(58deg); transform-origin: 50% 100%; opacity: .55; }
+.zgrid { position: absolute; }
 #zone::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 6px; background: linear-gradient(90deg, #FF2E88, #FFC861, #19E3D2); box-shadow: 0 0 24px rgba(255,46,136,.8); }
 /* trailer excerpts: postcard with a white border, slightly tilted (collage) */
 .zvideo { border-radius: 10px; border: 10px solid #fff; box-shadow: 0 26px 70px rgba(0,0,0,.6), 0 0 0 2px rgba(255,46,136,.6); background: #000; }
@@ -195,7 +197,7 @@
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
 </style>
-<div id="zone" style="height:1920px;"><div class="zcheck" id="s16-s-z0" style="left:60px;top:160px;width:960px"><span class="n">#3</span><span><em>LE JEU</em> en concours</span><span class="ck" id="s16-s-z0-ck">✓</span></div><div class="zvideo" id="s16-s-z1" style="left:40px;top:330px;width:1000px;height:440px;"><video id="s16-s-z1-v" class="clip" src="assets/broll/gta-jetski.mp4" data-start="0.899" data-duration="1.604" data-media-start="0" data-track-index="41" muted playsinline style="width:100%;height:100%;object-fit:cover;object-position:50% 50%"></video></div><div class="credit zline" id="s16-s-z2" style="left:50px;top:792px;">Images : Rockstar Games — GTA VI Trailer 2</div><div class="big zstamp" id="s16-s-z3" style="left:170px;top:880px">À GAGNER</div><div class="zc" id="s16-s-z4" style="left:40px;top:360px;width:420px;"><div class="bar"></div><div class="ttl">LE VRAI JEU</div><div class="lab">ACHETÉ EN MAGASIN</div></div><div class="xl ztag" id="s16-s-z5" style="left:70px;top:660px"><span class="dot"></span>🛒 EN MAGASIN</div><div class="sun zline" id="s16-s-z6" style="left:484px;top:420px;font-size:110px;">OU</div><div class="zc" id="s16-s-z7" style="left:620px;top:360px;width:420px;"><div class="bar"></div><div class="ttl">SON CODE</div><div class="num" id="s16-s-z7-num" data-value="" data-suffix=" €">XXXX-XXXX</div></div><div class="big zstamp" id="s16-s-z8" style="left:70px;top:880px">JEU CONCOURS</div><div class="zcam" id="s16-s-z9" style="left:40px;top:1320px;width:410px;height:410px"><video id="s16-s-z9-v" class="clip" src="assets/speaker.mp4" data-start="0.017" data-duration="7.95" data-media-start="68.95" data-track-index="49" muted playsinline style="width:100%;height:100%;object-fit:cover;object-position:50% 46%;transform:scale(1);transform-origin:50% 46%"></video></div></div>
+<div id="zone" style="height:1920px;"><div class="zgrid" id="s16-s-grid"></div><div class="zcheck" id="s16-s-z0" style="left:60px;top:160px;width:960px"><span class="n">#3</span><span><em>LE JEU</em> en concours</span><span class="ck" id="s16-s-z0-ck">✓</span></div><div class="zvideo" id="s16-s-z1" style="left:40px;top:330px;width:1000px;height:440px;"><video id="s16-s-z1-v" class="clip" src="assets/broll/gta-jetski.mp4" data-start="0.899" data-duration="1.604" data-media-start="0" data-track-index="41" muted playsinline style="width:100%;height:100%;object-fit:cover;object-position:50% 50%"></video></div><div class="credit zline" id="s16-s-z2" style="left:50px;top:792px;">Images : Rockstar Games — GTA VI Trailer 2</div><div class="big zstamp" id="s16-s-z3" style="left:170px;top:880px">À GAGNER</div><div class="zc" id="s16-s-z4" style="left:40px;top:360px;width:420px;"><div class="bar"></div><div class="ttl">LE VRAI JEU</div><div class="lab">ACHETÉ EN MAGASIN</div></div><div class="xl ztag" id="s16-s-z5" style="left:70px;top:660px"><span class="dot"></span>🛒 EN MAGASIN</div><div class="sun zline" id="s16-s-z6" style="left:484px;top:420px;font-size:110px;">OU</div><div class="zc" id="s16-s-z7" style="left:620px;top:360px;width:420px;"><div class="bar"></div><div class="ttl">SON CODE</div><div class="num" id="s16-s-z7-num" data-value="" data-suffix=" €">XXXX-XXXX</div></div><div class="big zstamp" id="s16-s-z8" style="left:70px;top:880px">JEU CONCOURS</div><div class="zcam" id="s16-s-z9" style="left:40px;top:1320px;width:410px;height:410px"><video id="s16-s-z9-v" class="clip" src="assets/speaker.mp4" data-start="0.017" data-duration="7.95" data-media-start="68.95" data-track-index="49" muted playsinline style="width:100%;height:100%;object-fit:cover;object-position:50% 46%;transform:scale(1);transform-origin:50% 46%"></video></div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
@@ -203,17 +205,26 @@ window.__timelines = window.__timelines || {};
   const tl = gsap.timeline({ paused: true });
     tl.from("#s16-s-z0", { x: -300, opacity: 0, duration: 0.45, ease: "back.out(1.4)" }, 0.017);
   tl.from("#s16-s-z0-ck", { scale: 0, duration: 0.35, ease: "back.out(2.6)" }, 7.694);
+  tl.to("#s16-s-z0", { y: -7, duration: 3.7, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.567);
   tl.from("#s16-s-z1", { z: -900, opacity: 0, duration: 0.55, ease: "back.out(1.4)" }, 0.899);
+  tl.to("#s16-s-z1", { scale: 1.045, duration: 1.054, ease: "none" }, 1.449);
   tl.to("#s16-s-z1", { opacity: 0, duration: 0.25 }, 2.503);
   tl.from("#s16-s-z2", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 0.899);
+  tl.to("#s16-s-z2", { y: -7, duration: 0.527, yoyo: true, repeat: 1, ease: "sine.inOut" }, 1.449);
   tl.to("#s16-s-z2", { opacity: 0, duration: 0.25 }, 2.503);
   tl.from("#s16-s-z3", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 1.621);
   tl.to("#s16-s-z3", { opacity: 0, duration: 0.25 }, 2.503);
   tl.from("#s16-s-z4", { y: 90, opacity: 0, duration: 0.55, ease: "back.out(1.5)" }, 2.503);
+  tl.to("#s16-s-z4", { y: -7, duration: 2.457, yoyo: true, repeat: 1, ease: "sine.inOut" }, 3.053);
   tl.from("#s16-s-z5", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 3.826);
+  tl.to("#s16-s-z5", { y: -7, duration: 1.795, yoyo: true, repeat: 1, ease: "sine.inOut" }, 4.376);
   tl.from("#s16-s-z6", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 4.848);
+  tl.to("#s16-s-z6", { y: -7, duration: 1.284, yoyo: true, repeat: 1, ease: "sine.inOut" }, 5.398);
   tl.from("#s16-s-z7", { y: 90, opacity: 0, duration: 0.55, ease: "back.out(1.5)" }, 6.111);
+  tl.to("#s16-s-z7", { y: -7, duration: 0.653, yoyo: true, repeat: 1, ease: "sine.inOut" }, 6.661);
   tl.from("#s16-s-z8", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 7.694);
+  tl.to("#s16-s-z9", { y: -12, rotation: 1.5, duration: 1.233, yoyo: true, repeat: 5, ease: "sine.inOut" }, 0.567);
+  tl.fromTo("#s16-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 366px, 0px 0px", duration: 7.967, ease: "none" }, 0);
   tl.to({}, { duration: 7.967 }, 0);
   window.__timelines["s16-s"] = tl;
 })();

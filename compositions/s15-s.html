@@ -142,9 +142,11 @@
 #zone { background:
   radial-gradient(120% 60% at 50% 112%, rgba(255,90,120,.55), rgba(255,138,76,.18) 38%, transparent 62%),
   linear-gradient(180deg, #0E0624 0%, #1C0A3E 55%, #3A0F55 100%); color: #fff; font-family: "Anton", var(--font-display); }
-#zone::before { content: ""; position: absolute; left: -10%; right: -10%; bottom: 0; height: 300px; pointer-events: none;
+#zone::before { display: none; }
+.zgrid { content: ""; position: absolute; left: -10%; right: -10%; bottom: 0; height: 300px; pointer-events: none;
   background-image: linear-gradient(rgba(255,46,136,.28) 2px, transparent 2px), linear-gradient(90deg, rgba(255,46,136,.22) 2px, transparent 2px);
   background-size: 100% 46px, 90px 100%; transform: perspective(500px) rotateX(58deg); transform-origin: 50% 100%; opacity: .55; }
+.zgrid { position: absolute; }
 #zone::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 6px; background: linear-gradient(90deg, #FF2E88, #FFC861, #19E3D2); box-shadow: 0 0 24px rgba(255,46,136,.8); }
 /* trailer excerpts: postcard with a white border, slightly tilted (collage) */
 .zvideo { border-radius: 10px; border: 10px solid #fff; box-shadow: 0 26px 70px rgba(0,0,0,.6), 0 0 0 2px rgba(255,46,136,.6); background: #000; }
@@ -195,28 +197,39 @@
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
 </style>
-<div id="zone" style="height:880px;"><div class="zbadge" id="s15-s-z0" style="left:200px;top:60px">TOI</div><div class="zbadge" id="s15-s-z1" style="left:560px;top:60px">TON AUDIENCE</div><div class="zcheck" id="s15-s-z2" style="left:140px;top:200px;width:800px"><span class="n">✓</span><span>Mêmes <em>références</em></span><span class="ck" id="s15-s-z2-ck">✓</span></div><div class="zcheck" id="s15-s-z3" style="left:140px;top:340px;width:800px"><span class="n">✓</span><span>Mêmes <em>codes</em></span><span class="ck" id="s15-s-z3-ck">✓</span></div><div class="zstamp" id="s15-s-z4" style="left:290px;top:500px">POINT COMMUN</div><div class="dim ztag" id="s15-s-z5" style="left:80px;top:120px"><span class="dot"></span>CONCURRENT</div><div class="dim ztag" id="s15-s-z6" style="left:80px;top:280px"><span class="dot"></span>CONCURRENT</div><div class="dim ztag" id="s15-s-z7" style="left:80px;top:440px"><span class="dot"></span>CONCURRENT</div><div class="zstamp" id="s15-s-z8" style="left:560px;top:270px">TA MARQUE</div></div>
+<div id="zone" style="height:880px;"><div class="zgrid" id="s15-s-grid"></div><div class="zbadge" id="s15-s-z0" style="left:200px;top:60px">TOI</div><div class="zbadge" id="s15-s-z1" style="left:560px;top:60px">TON AUDIENCE</div><div class="zcheck" id="s15-s-z2" style="left:140px;top:200px;width:800px"><span class="n">✓</span><span>Mêmes <em>références</em></span><span class="ck" id="s15-s-z2-ck">✓</span></div><div class="zcheck" id="s15-s-z3" style="left:140px;top:340px;width:800px"><span class="n">✓</span><span>Mêmes <em>codes</em></span><span class="ck" id="s15-s-z3-ck">✓</span></div><div class="zstamp" id="s15-s-z4" style="left:290px;top:500px">POINT COMMUN</div><div class="dim ztag" id="s15-s-z5" style="left:80px;top:120px"><span class="dot"></span>CONCURRENT</div><div class="dim ztag" id="s15-s-z6" style="left:80px;top:280px"><span class="dot"></span>CONCURRENT</div><div class="dim ztag" id="s15-s-z7" style="left:80px;top:440px"><span class="dot"></span>CONCURRENT</div><div class="zstamp" id="s15-s-z8" style="left:560px;top:270px">TA MARQUE</div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
 (function () {
   const tl = gsap.timeline({ paused: true });
     tl.from("#s15-s-z0", { scale: 0, rotation: -30, duration: 0.45, ease: "back.out(2.4)" }, 0.182);
+  tl.to("#s15-s-z0", { rotation: 3, duration: 0.1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.682);
+  tl.to("#s15-s-z0", { y: -10, duration: 1.845, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.732);
   tl.to("#s15-s-z0", { opacity: 0, duration: 0.25 }, 4.423);
   tl.from("#s15-s-z1", { scale: 0, rotation: -30, duration: 0.45, ease: "back.out(2.4)" }, 0.422);
+  tl.to("#s15-s-z1", { rotation: 3, duration: 0.1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.922);
+  tl.to("#s15-s-z1", { y: -10, duration: 1.726, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.972);
   tl.to("#s15-s-z1", { opacity: 0, duration: 0.25 }, 4.423);
   tl.from("#s15-s-z2", { x: -300, opacity: 0, duration: 0.45, ease: "back.out(1.4)" }, 1.082);
   tl.from("#s15-s-z2-ck", { scale: 0, duration: 0.35, ease: "back.out(2.6)" }, 1.082);
+  tl.to("#s15-s-z2", { y: -7, duration: 1.395, yoyo: true, repeat: 1, ease: "sine.inOut" }, 1.632);
   tl.to("#s15-s-z2", { opacity: 0, duration: 0.25 }, 4.423);
   tl.from("#s15-s-z3", { x: -300, opacity: 0, duration: 0.45, ease: "back.out(1.4)" }, 2.182);
   tl.from("#s15-s-z3-ck", { scale: 0, duration: 0.35, ease: "back.out(2.6)" }, 2.182);
+  tl.to("#s15-s-z3", { y: -7, duration: 0.845, yoyo: true, repeat: 1, ease: "sine.inOut" }, 2.732);
   tl.to("#s15-s-z3", { opacity: 0, duration: 0.25 }, 4.423);
   tl.from("#s15-s-z4", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 3.162);
+  tl.to("#s15-s-z4", { rotation: -3, duration: 0.1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 3.662);
+  tl.to("#s15-s-z4", { y: -10, duration: 0.356, yoyo: true, repeat: 1, ease: "sine.inOut" }, 3.712);
   tl.to("#s15-s-z4", { opacity: 0, duration: 0.25 }, 4.423);
   tl.from("#s15-s-z5", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 4.423);
+  tl.to("#s15-s-z5", { y: -7, duration: 0.647, yoyo: true, repeat: 1, ease: "sine.inOut" }, 4.973);
   tl.from("#s15-s-z6", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 5.163);
+  tl.to("#s15-s-z6", { y: -7, duration: 0.277, yoyo: true, repeat: 1, ease: "sine.inOut" }, 5.713);
   tl.from("#s15-s-z7", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 5.583);
   tl.from("#s15-s-z8", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 5.723);
+  tl.fromTo("#s15-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 288px, 0px 0px", duration: 6.266, ease: "none" }, 0);
   tl.to({}, { duration: 6.266 }, 0);
   window.__timelines["s15-s"] = tl;
 })();

@@ -142,9 +142,11 @@
 #zone { background:
   radial-gradient(120% 60% at 50% 112%, rgba(255,90,120,.55), rgba(255,138,76,.18) 38%, transparent 62%),
   linear-gradient(180deg, #0E0624 0%, #1C0A3E 55%, #3A0F55 100%); color: #fff; font-family: "Anton", var(--font-display); }
-#zone::before { content: ""; position: absolute; left: -10%; right: -10%; bottom: 0; height: 300px; pointer-events: none;
+#zone::before { display: none; }
+.zgrid { content: ""; position: absolute; left: -10%; right: -10%; bottom: 0; height: 300px; pointer-events: none;
   background-image: linear-gradient(rgba(255,46,136,.28) 2px, transparent 2px), linear-gradient(90deg, rgba(255,46,136,.22) 2px, transparent 2px);
   background-size: 100% 46px, 90px 100%; transform: perspective(500px) rotateX(58deg); transform-origin: 50% 100%; opacity: .55; }
+.zgrid { position: absolute; }
 #zone::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 6px; background: linear-gradient(90deg, #FF2E88, #FFC861, #19E3D2); box-shadow: 0 0 24px rgba(255,46,136,.8); }
 /* trailer excerpts: postcard with a white border, slightly tilted (collage) */
 .zvideo { border-radius: 10px; border: 10px solid #fff; box-shadow: 0 26px 70px rgba(0,0,0,.6), 0 0 0 2px rgba(255,46,136,.6); background: #000; }
@@ -195,21 +197,28 @@
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
 </style>
-<div id="zone" style="height:880px;"><div class="zstamp" id="s05-s-z0" style="left:180px;top:260px">RISQUE JURIDIQUE</div><div class="zimg" id="s05-s-z1" style="left:40px;top:120px;width:1000px;"><div id="s05-s-z1-in" style="position:relative;transform-origin:0% 56%"><img src="assets/captures/meta/ip-overview.png" alt=""><div class="hl" id="s05-s-z1-hl0" style="left:34px;top:216px;width:300px;height:44px"></div></div></div><div class="credit zline" id="s05-s-z2" style="left:60px;top:590px;">Source : Meta — règles pub, propriété intellectuelle</div><div class="ztag" id="s05-s-z3" style="left:620px;top:640px"><span class="dot"></span>PUB REFUSÉE</div><div class="ztag" id="s05-s-z4" style="left:60px;top:640px"><span class="dot"></span>TOUT UN COMPTE</div><div class="no zstamp" id="s05-s-z5" style="left:250px;top:400px">COMPTE BLOQUÉ</div></div>
+<div id="zone" style="height:880px;"><div class="zgrid" id="s05-s-grid"></div><div class="zstamp" id="s05-s-z0" style="left:180px;top:260px">RISQUE JURIDIQUE</div><div class="zimg" id="s05-s-z1" style="left:40px;top:120px;width:1000px;"><div id="s05-s-z1-in" style="position:relative;transform-origin:0% 56%"><img src="assets/captures/meta/ip-overview.png" alt=""><div class="hl" id="s05-s-z1-hl0" style="left:34px;top:216px;width:300px;height:44px"></div></div></div><div class="credit zline" id="s05-s-z2" style="left:60px;top:590px;">Source : Meta — règles pub, propriété intellectuelle</div><div class="ztag" id="s05-s-z3" style="left:620px;top:640px"><span class="dot"></span>PUB REFUSÉE</div><div class="ztag" id="s05-s-z4" style="left:60px;top:640px"><span class="dot"></span>TOUT UN COMPTE</div><div class="no zstamp" id="s05-s-z5" style="left:250px;top:400px">COMPTE BLOQUÉ</div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
 (function () {
   const tl = gsap.timeline({ paused: true });
     tl.from("#s05-s-z0", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 0.114);
+  tl.to("#s05-s-z0", { rotation: -3, duration: 0.1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.614);
+  tl.to("#s05-s-z0", { y: -10, duration: 0.755, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.664);
   tl.to("#s05-s-z0", { opacity: 0, duration: 0.25 }, 2.175);
   tl.from("#s05-s-z1", { y: 80, opacity: 0, duration: 0.45, ease: "power3.out" }, 2.175);
   tl.to("#s05-s-z1-in", { scale: 2.0, x: 0, y: 0, duration: 0.7, ease: "power3.inOut" }, 3.155);
   tl.from("#s05-s-z1-hl0", { scaleX: 0, duration: 0.35, ease: "power3.out" }, 2.815);
+  tl.to("#s05-s-z1", { scale: 1.045, duration: 2.641, ease: "none" }, 2.725);
   tl.from("#s05-s-z2", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 2.175);
+  tl.to("#s05-s-z2", { y: -7, duration: 1.321, yoyo: true, repeat: 1, ease: "sine.inOut" }, 2.725);
   tl.from("#s05-s-z3", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 2.815);
+  tl.to("#s05-s-z3", { y: -7, duration: 1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 3.365);
   tl.from("#s05-s-z4", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 3.936);
+  tl.to("#s05-s-z4", { y: -7, duration: 0.44, yoyo: true, repeat: 1, ease: "sine.inOut" }, 4.486);
   tl.from("#s05-s-z5", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 4.916);
+  tl.fromTo("#s05-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 247px, 0px 0px", duration: 5.366, ease: "none" }, 0);
   tl.to({}, { duration: 5.366 }, 0);
   window.__timelines["s05-s"] = tl;
 })();

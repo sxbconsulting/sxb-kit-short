@@ -432,6 +432,24 @@ def zone_items(sid, z, t0, t1, tl):
             tl.append(f'tl.from("#{iid}", {{ opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }}, {at});')
         if it.get("instant") and len(tl) > n_tl and tl[n_tl].startswith(f'tl.from("#{iid}"'):
             del tl[n_tl]
+        if it.get("sfx"):   # a sound on the pop: absolute time, played by the host page (assets/sfx/<name>.wav)
+            SFX.append({"name": it["sfx"], "t": t0 + float(rel(it.get("sfx_at", it.get("at", t0)))), "db": float(it.get("sfx_db", -12))})
+        if sb.get("idle_motion"):   # life after the entrance: slow push-in, stamp knock, float, breathing bubble
+            a = float(at) + 0.55
+            end_rel = float(rel(it["out_at"])) if it.get("out_at") is not None else t1 - t0
+            life = end_rel - a
+            if life > 0.5:
+                if typ in ("video", "image", "photo"):
+                    tl.append(f'tl.to("#{iid}", {{ scale: 1.045, duration: {r3(life)}, ease: "none" }}, {r3(a)});')
+                elif typ in ("stamp", "badge"):
+                    rot0 = -6 if typ == "stamp" else 0   # absolute values (CSS base angle): a relative "+=" tween races the entrance
+                    tl.append(f'tl.to("#{iid}", {{ rotation: {rot0 + 3}, duration: 0.1, yoyo: true, repeat: 1, ease: "sine.inOut" }}, {r3(float(at) + 0.5)});')
+                    tl.append(f'tl.to("#{iid}", {{ y: -10, duration: {r3(life / 2)}, yoyo: true, repeat: 1, ease: "sine.inOut" }}, {r3(a)});')
+                elif typ in ("tag", "check", "card", "line"):
+                    tl.append(f'tl.to("#{iid}", {{ y: -7, duration: {r3(life / 2)}, yoyo: true, repeat: 1, ease: "sine.inOut" }}, {r3(a)});')
+                elif typ == "cam":
+                    n = max(1, int(life / 1.3))
+                    tl.append(f'tl.to("#{iid}", {{ y: -12, rotation: 1.5, duration: {r3(life / (n + 1))}, yoyo: true, repeat: {n}, ease: "sine.inOut" }}, {r3(a)});')
         if it.get("class") and items_html:   # style variant from the project stylesheet, e.g. "no", "neon", "credit"
             items_html[-1] = items_html[-1].replace('class="', f'class="{esc(it["class"])} ', 1) if f'id="{iid}"' in items_html[-1] else items_html[-1]
         if it.get("out_at") is not None:
@@ -494,7 +512,10 @@ def scene_html(sid, sc):
         zbg = f'background: linear-gradient(135deg, {brand.get("bg", "#F3F1EE")} 0%, {brand.get("bg", "#F3F1EE")} 55%, {brand.get("soft", "#FDEAE6")} 78%, {brand.get("soft2", "#F5C2C9")} 100%);' if z.get("gradient") else ""
         if not sb.get("zone_sheen", True):  # flat brand background, no white highlight at the top of the zone
             body.append('<style>#zone::after { display: none; }</style>')
-        body.append(f'<div id="zone" style="height:{zh}px;{zbg}">{"".join(items_html)}</div>')
+        grid = f'<div class="zgrid" id="{sid}-grid"></div>' if sb.get("idle_motion") else ""
+        if grid:   # the floor grid rolls toward the viewer (synthwave road), one cell per second
+            tl.append(f'tl.fromTo("#{sid}-grid", {{ backgroundPosition: "0px 0px, 0px 0px" }}, {{ backgroundPosition: "0px {round(46 * slot)}px, 0px 0px", duration: {r3(slot)}, ease: "none" }}, 0);')
+        body.append(f'<div id="zone" style="height:{zh}px;{zbg}">{grid}{"".join(items_html)}</div>')
         if z.get("in") is not None:
             tl.append(f'tl.fromTo("#zone", {{ clipPath: "inset(0px 0px 1040px 0px)" }}, {{ clipPath: "inset(0px 0px 0px 0px)", duration: 0.55, ease: "power4.inOut" }}, {rel(z["in"])});')
         elif not z.get("no_intro"):   # no_intro: the zone is already there on frame 0 (an opening)
@@ -663,6 +684,7 @@ def apply_lexicon(words):
     return out
 
 
+SFX = []     # {"name", "t", "db"}: sounds on pops, collected from the zone items ("sfx": "pop"), mixed by the host page
 kw_tl = []   # (id, start) of the keywords, animated by the host timeline
 cap_words = []   # (id, start, next_start, is_kw) of every caption word, for the word-by-word styles
 
@@ -818,6 +840,23 @@ def build():
                              else f'tl.from("#{wid}", {{ opacity: 0, y: 14, duration: 0.14, ease: "power3.out" }}, {a});')
         cap_tl = "\n      ".join(lines)
     CAP_TL = cap_tl
+    sfx_html = []
+    if SFX:
+        import shutil, subprocess as _sp
+        bank = Path(sb.get("sfx_bank", "~/sxb-sfx")).expanduser()
+        (ROOT / "assets" / "sfx").mkdir(parents=True, exist_ok=True)
+        for k, fx in enumerate(sorted(SFX, key=lambda f: f["t"])):
+            src = bank / f"{fx['name']}.wav"
+            if not src.exists():
+                raise SystemExit(f"sfx: {src} not found (python3 scripts/sfx-bank.py builds the bank)")
+            dst = ROOT / "assets" / "sfx" / src.name
+            if not dst.exists():
+                shutil.copy(src, dst)
+            dur = float(_sp.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(dst)]).decode().strip())
+            dur = min(dur, DURATION - fx["t"])
+            if dur > 0.05:
+                sfx_html.append(f'<audio id="sfx-{k}" class="clip" src="assets/sfx/{dst.name}" data-start="{r3(fx["t"])}" data-duration="{r3(dur)}" data-track-index="{11 + k % 6}" data-volume="{round(10 ** (fx["db"] / 20), 3)}"></audio>')
+        print(f"{len(sfx_html)} sfx → assets/sfx/")
     index = f"""<!doctype html>
 <html lang="{LANG}">
   <head>
@@ -850,6 +889,7 @@ def build():
       <!-- speaker: one clip per scene, same source, data-media-start = scene time -->
       {chr(10).join("      " + x for x in face_clips)}
       <audio id="voice" class="clip" src="{esc(AUDIO)}" data-start="0" data-duration="{r3(DURATION)}" data-track-index="10" data-volume="1"></audio>
+      {chr(10).join("      " + x for x in sfx_html)}
       <!-- scenes -->
       {chr(10).join("      " + x for x in scene_clips)}
       <!-- captions -->

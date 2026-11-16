@@ -142,9 +142,11 @@
 #zone { background:
   radial-gradient(120% 60% at 50% 112%, rgba(255,90,120,.55), rgba(255,138,76,.18) 38%, transparent 62%),
   linear-gradient(180deg, #0E0624 0%, #1C0A3E 55%, #3A0F55 100%); color: #fff; font-family: "Anton", var(--font-display); }
-#zone::before { content: ""; position: absolute; left: -10%; right: -10%; bottom: 0; height: 300px; pointer-events: none;
+#zone::before { display: none; }
+.zgrid { content: ""; position: absolute; left: -10%; right: -10%; bottom: 0; height: 300px; pointer-events: none;
   background-image: linear-gradient(rgba(255,46,136,.28) 2px, transparent 2px), linear-gradient(90deg, rgba(255,46,136,.22) 2px, transparent 2px);
   background-size: 100% 46px, 90px 100%; transform: perspective(500px) rotateX(58deg); transform-origin: 50% 100%; opacity: .55; }
+.zgrid { position: absolute; }
 #zone::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 6px; background: linear-gradient(90deg, #FF2E88, #FFC861, #19E3D2); box-shadow: 0 0 24px rgba(255,46,136,.8); }
 /* trailer excerpts: postcard with a white border, slightly tilted (collage) */
 .zvideo { border-radius: 10px; border: 10px solid #fff; box-shadow: 0 26px 70px rgba(0,0,0,.6), 0 0 0 2px rgba(255,46,136,.6); background: #000; }
@@ -195,18 +197,25 @@
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
 </style>
-<div id="zone" style="height:880px;"><div class="zline" id="s11-s-z0" style="left:0;right:0;text-align:center;top:60px;font-size:70px;">TA BOUTIQUE <em>ÉVOLUE</em> AVEC L&#x27;ACTU</div><div class="dim ztag" id="s11-s-z1" style="left:60px;top:280px"><span class="dot"></span>BLACK FRIDAY</div><div class="ztag" id="s11-s-z2" style="left:390px;top:280px"><span class="dot"></span>GTA 6 · 19/11</div><div class="dim ztag" id="s11-s-z3" style="left:770px;top:280px"><span class="dot"></span>NOËL</div><div class="zstamp" id="s11-s-z4" style="left:330px;top:400px">C&#x27;EST L&#x27;ACTU</div><div class="sun zline" id="s11-s-z5" style="left:0;right:0;text-align:center;top:620px;font-size:60px;">TON AUDIENCE EN PARLE</div></div>
+<div id="zone" style="height:880px;"><div class="zgrid" id="s11-s-grid"></div><div class="zline" id="s11-s-z0" style="left:0;right:0;text-align:center;top:60px;font-size:70px;">TA BOUTIQUE <em>ÉVOLUE</em> AVEC L&#x27;ACTU</div><div class="dim ztag" id="s11-s-z1" style="left:60px;top:280px"><span class="dot"></span>BLACK FRIDAY</div><div class="ztag" id="s11-s-z2" style="left:390px;top:280px"><span class="dot"></span>GTA 6 · 19/11</div><div class="dim ztag" id="s11-s-z3" style="left:770px;top:280px"><span class="dot"></span>NOËL</div><div class="zstamp" id="s11-s-z4" style="left:330px;top:400px">C&#x27;EST L&#x27;ACTU</div><div class="sun zline" id="s11-s-z5" style="left:0;right:0;text-align:center;top:620px;font-size:60px;">TON AUDIENCE EN PARLE</div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
 (function () {
   const tl = gsap.timeline({ paused: true });
     tl.from("#s11-s-z0", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 0.56);
+  tl.to("#s11-s-z0", { y: -7, duration: 2.395, yoyo: true, repeat: 1, ease: "sine.inOut" }, 1.11);
   tl.from("#s11-s-z1", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 1.261);
+  tl.to("#s11-s-z1", { y: -7, duration: 2.044, yoyo: true, repeat: 1, ease: "sine.inOut" }, 1.811);
   tl.from("#s11-s-z2", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 1.681);
+  tl.to("#s11-s-z2", { y: -7, duration: 1.834, yoyo: true, repeat: 1, ease: "sine.inOut" }, 2.231);
   tl.from("#s11-s-z3", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 2.382);
+  tl.to("#s11-s-z3", { y: -7, duration: 1.484, yoyo: true, repeat: 1, ease: "sine.inOut" }, 2.932);
   tl.from("#s11-s-z4", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 4.264);
+  tl.to("#s11-s-z4", { rotation: -3, duration: 0.1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 4.764);
+  tl.to("#s11-s-z4", { y: -10, duration: 0.543, yoyo: true, repeat: 1, ease: "sine.inOut" }, 4.814);
   tl.from("#s11-s-z5", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 5.365);
+  tl.fromTo("#s11-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 271px, 0px 0px", duration: 5.9, ease: "none" }, 0);
   tl.to({}, { duration: 5.9 }, 0);
   window.__timelines["s11-s"] = tl;
 })();

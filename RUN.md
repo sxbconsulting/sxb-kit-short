@@ -24,7 +24,7 @@ DA inspirée de GTA 6.
 - [x] 3. Sous-titres — validés (« Good on continue »)
 - [x] 4. Beats et assets — validés, extraits du trailer gardés (« ok garde les extraits »)
 - [x] 5. Ouverture — **A, le tampon** (« À »)
-- [ ] 6. Animatic → final — v1 : retour 1/3 « pas que du split, du plein écran avec ma tête en bas à gauche » → **v2** envoyée (`review/gate6-animatic-v2.mp4`)
+- [ ] 6. Animatic → final — retour 1/3 → v2 (plein écran + bulle) ; retour 2/3 → **v3** (sons parcimonieux + animation continue), envoyée (`review/gate6-animatic-v3.mp4`, rendu plein format `renders/animatic-v3.mp4`)
 - [ ] 7. Livraison
 
 ## Environnement de transcription (cloud)
@@ -134,3 +134,16 @@ Passe 2 : image 0 grise et vide dans les 3 (fondu d'entrée de la zone) → `no_
   bug `build-reel.py` : un sous-titre qui commence 0,01 s avant sa scène (scène arrondie à l'image) prenait la position de la scène
   précédente (« ET » sur le visage à 9,6 s) → choix de la scène à début + 0,06 s ; contrôle : 0 sous-titre mal placé, 0 débordement.
   17 jointures de format revues en pleine résolution, 0 extrait noir, −16,3 LUFS.
+
+### Retour 2/3 → v3
+
+« Ajoute avec beaucoup de parcimonie des sons quand des éléments pop + encore de l'animation. Pas de musique de fond, je m'en charge. »
+- Banque `~/sxb-sfx` (scripts/sfx-bank.py) : 20 sons Pixabay (licence Pixabay, usage commercial sans crédit) ; les 16 Mixkit sont
+  bloqués par le réseau de la session (assets.mixkit.co refusé) → pas de « shutter » ni « correct/wrong », remplacés par click / ping / error.
+- `build-reel.py` : `"sfx": "<nom>"` (+ `sfx_db`) sur un item de zone → `<audio>` posé au pop dans `index.html`, fichier copié dans
+  `assets/sfx/` (hors git). 14 sons sur 93 s : pop ×6 (tampons), error ×3 (interdits), ping ×2 (date, 3 cases cochées), click (capture
+  boutique), impact grave (« compte bloqué »), click-soft (checklist). Aucune musique.
+- `idle_motion` : push-in lent des captures / extraits / maquettes (×1,045), coup de tampon (rotation absolue −6° → −3° → −6°, un
+  « += » relatif faisait échouer le lint) puis flottement, flottement des tags / cases / cartes, bulle qui respire, grille néon qui défile (`.zgrid`).
+- Mesures sur le rendu (stéréo, voix soustraite) : pops / clicks ≈ −15 dB sous la voix, error / impact ≈ −11 dB, crête max −1,15 dBFS,
+  −16,3 LUFS intégré. 1er réglage refusé par la mesure : error et impact au niveau de la voix → baissés.
