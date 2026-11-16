@@ -1,0 +1,2442 @@
+[
+ {
+  "in": 1.36,
+  "out": 5.87,
+  "words": [
+   {
+    "text": "GTA",
+    "start": 1.746,
+    "end": 1.947
+   },
+   {
+    "text": "6",
+    "start": 2.107,
+    "end": 2.207
+   },
+   {
+    "text": "à",
+    "start": 2.248,
+    "end": 2.328
+   },
+   {
+    "text": "80",
+    "start": 2.368,
+    "end": 2.649
+   },
+   {
+    "text": "dollars",
+    "start": 2.849,
+    "end": 3.21
+   },
+   {
+    "text": "ou",
+    "start": 3.291,
+    "end": 3.371
+   },
+   {
+    "text": "à",
+    "start": 3.391,
+    "end": 3.451
+   },
+   {
+    "text": "100",
+    "start": 3.491,
+    "end": 3.612
+   },
+   {
+    "text": "dollars",
+    "start": 3.632,
+    "end": 3.872
+   },
+   {
+    "text": "Devine",
+    "start": 4.013,
+    "end": 4.334
+   },
+   {
+    "text": "lequel",
+    "start": 4.354,
+    "end": 4.595
+   },
+   {
+    "text": "se",
+    "start": 4.615,
+    "end": 4.675
+   },
+   {
+    "text": "précompte",
+    "start": 4.715,
+    "end": 4.976
+   },
+   {
+    "text": "le",
+    "start": 4.996,
+    "end": 5.056
+   },
+   {
+    "text": "plus",
+    "start": 5.076,
+    "end": 5.357
+   }
+  ],
+  "text": "GTA 6 à 80 dollars ou à 100 dollars Devine lequel se précompte le plus",
+  "norm": [
+   "gta",
+   "6",
+   "a",
+   "80",
+   "dollar",
+   "ou",
+   "a",
+   "100",
+   "dollar",
+   "devine",
+   "lequel",
+   "se",
+   "precompte",
+   "le",
+   "plu"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 6.69,
+  "out": 7.82,
+  "words": [
+   {
+    "text": "D'après",
+    "start": 6.762,
+    "end": 7.006
+   },
+   {
+    "text": "toi",
+    "start": 7.027,
+    "end": 7.169
+   },
+   {
+    "text": "est-ce",
+    "start": 7.19,
+    "end": 7.332
+   },
+   {
+    "text": "que",
+    "start": 7.353,
+    "end": 7.801
+   }
+  ],
+  "text": "D'après toi est-ce que",
+  "norm": [
+   "d'apre",
+   "toi",
+   "est",
+   "ce",
+   "que"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 8.83,
+  "out": 10.6,
+  "words": [
+   {
+    "text": "D'après",
+    "start": 9.31,
+    "end": 9.555
+   },
+   {
+    "text": "toi",
+    "start": 9.575,
+    "end": 10.269
+   }
+  ],
+  "text": "D'après toi",
+  "norm": [
+   "d'apre",
+   "toi"
+  ],
+  "keep": false,
+  "why": "false start"
+ },
+ {
+  "in": 10.32,
+  "out": 14.27,
+  "words": [
+   {
+    "text": "D'après",
+    "start": 10.452,
+    "end": 10.655
+   },
+   {
+    "text": "toi",
+    "start": 10.675,
+    "end": 10.756
+   },
+   {
+    "text": "est-ce",
+    "start": 10.776,
+    "end": 10.898
+   },
+   {
+    "text": "que",
+    "start": 10.918,
+    "end": 10.979
+   },
+   {
+    "text": "c'est",
+    "start": 10.999,
+    "end": 11.1
+   },
+   {
+    "text": "la",
+    "start": 11.121,
+    "end": 11.202
+   },
+   {
+    "text": "version",
+    "start": 11.222,
+    "end": 11.505
+   },
+   {
+    "text": "à",
+    "start": 11.526,
+    "end": 11.647
+   },
+   {
+    "text": "80",
+    "start": 11.667,
+    "end": 12.052
+   },
+   {
+    "text": "ou",
+    "start": 12.072,
+    "end": 12.133
+   },
+   {
+    "text": "à",
+    "start": 12.174,
+    "end": 12.214
+   },
+   {
+    "text": "100",
+    "start": 12.255,
+    "end": 12.396
+   },
+   {
+    "text": "dollars",
+    "start": 12.417,
+    "end": 12.579
+   },
+   {
+    "text": "qui",
+    "start": 12.599,
+    "end": 12.66
+   },
+   {
+    "text": "était",
+    "start": 12.68,
+    "end": 12.862
+   },
+   {
+    "text": "plus",
+    "start": 12.882,
+    "end": 13.044
+   },
+   {
+    "text": "précommandée",
+    "start": 13.065,
+    "end": 13.551
+   },
+   {
+    "text": "pour",
+    "start": 13.571,
+    "end": 13.672
+   },
+   {
+    "text": "GTA",
+    "start": 13.713,
+    "end": 13.895
+   },
+   {
+    "text": "6",
+    "start": 13.915,
+    "end": 13.976
+   }
+  ],
+  "text": "D'après toi est-ce que c'est la version à 80 ou à 100 dollars qui était plus précommandée pour GTA 6",
+  "norm": [
+   "d'apre",
+   "toi",
+   "est",
+   "ce",
+   "que",
+   "c'est",
+   "la",
+   "version",
+   "a",
+   "80",
+   "ou",
+   "a",
+   "100",
+   "dollar",
+   "qui",
+   "etait",
+   "plu",
+   "precommandee",
+   "pour",
+   "gta",
+   "6"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 15.74,
+  "out": 21.02,
+  "words": [
+   {
+    "text": "C'est",
+    "start": 15.791,
+    "end": 15.932
+   },
+   {
+    "text": "celle",
+    "start": 15.952,
+    "end": 16.133
+   },
+   {
+    "text": "à",
+    "start": 16.153,
+    "end": 16.253
+   },
+   {
+    "text": "100",
+    "start": 16.293,
+    "end": 16.474
+   },
+   {
+    "text": "dollars",
+    "start": 16.494,
+    "end": 17.017
+   },
+   {
+    "text": "Et",
+    "start": 17.097,
+    "end": 17.158
+   },
+   {
+    "text": "ce",
+    "start": 17.178,
+    "end": 17.238
+   },
+   {
+    "text": "n'est",
+    "start": 17.258,
+    "end": 17.359
+   },
+   {
+    "text": "pas",
+    "start": 17.379,
+    "end": 17.439
+   },
+   {
+    "text": "moi",
+    "start": 17.459,
+    "end": 17.519
+   },
+   {
+    "text": "qui",
+    "start": 17.539,
+    "end": 17.6
+   },
+   {
+    "text": "le",
+    "start": 17.62,
+    "end": 17.66
+   },
+   {
+    "text": "dis",
+    "start": 17.68,
+    "end": 17.76
+   },
+   {
+    "text": "c'est",
+    "start": 17.781,
+    "end": 17.901
+   },
+   {
+    "text": "le",
+    "start": 17.921,
+    "end": 18.022
+   },
+   {
+    "text": "patron",
+    "start": 18.062,
+    "end": 18.303
+   },
+   {
+    "text": "de",
+    "start": 18.323,
+    "end": 18.444
+   },
+   {
+    "text": "Tech2",
+    "start": 18.464,
+    "end": 18.805
+   },
+   {
+    "text": "qui",
+    "start": 18.826,
+    "end": 18.906
+   },
+   {
+    "text": "l'a",
+    "start": 18.926,
+    "end": 19.006
+   },
+   {
+    "text": "dit",
+    "start": 19.026,
+    "end": 19.187
+   },
+   {
+    "text": "sur",
+    "start": 19.227,
+    "end": 19.469
+   },
+   {
+    "text": "CNBC",
+    "start": 19.509,
+    "end": 20.031
+   },
+   {
+    "text": "en",
+    "start": 20.051,
+    "end": 20.112
+   },
+   {
+    "text": "août",
+    "start": 20.152,
+    "end": 20.654
+   }
+  ],
+  "text": "C'est celle à 100 dollars Et ce n'est pas moi qui le dis c'est le patron de Tech2 qui l'a dit sur CNBC en août",
+  "norm": [
+   "c'est",
+   "celle",
+   "a",
+   "100",
+   "dollar",
+   "et",
+   "ce",
+   "n'est",
+   "pas",
+   "moi",
+   "qui",
+   "le",
+   "dis",
+   "c'est",
+   "le",
+   "patron",
+   "de",
+   "tech2",
+   "qui",
+   "l'a",
+   "dit",
+   "sur",
+   "cnbc",
+   "en",
+   "aout"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 20.64,
+  "out": 26.86,
+  "words": [
+   {
+    "text": "Il",
+    "start": 20.671,
+    "end": 20.711
+   },
+   {
+    "text": "n'y",
+    "start": 20.731,
+    "end": 20.792
+   },
+   {
+    "text": "a",
+    "start": 20.812,
+    "end": 20.832
+   },
+   {
+    "text": "pas",
+    "start": 20.852,
+    "end": 20.932
+   },
+   {
+    "text": "de",
+    "start": 20.952,
+    "end": 20.993
+   },
+   {
+    "text": "chiffre",
+    "start": 21.013,
+    "end": 21.214
+   },
+   {
+    "text": "précis",
+    "start": 21.234,
+    "end": 21.937
+   },
+   {
+    "text": "juste",
+    "start": 21.957,
+    "end": 22.118
+   },
+   {
+    "text": "qu'il",
+    "start": 22.138,
+    "end": 22.259
+   },
+   {
+    "text": "y",
+    "start": 22.279,
+    "end": 22.299
+   },
+   {
+    "text": "a",
+    "start": 22.319,
+    "end": 22.339
+   },
+   {
+    "text": "eu",
+    "start": 22.359,
+    "end": 22.399
+   },
+   {
+    "text": "plus",
+    "start": 22.419,
+    "end": 22.6
+   },
+   {
+    "text": "de",
+    "start": 22.62,
+    "end": 22.741
+   },
+   {
+    "text": "précommande",
+    "start": 22.761,
+    "end": 23.304
+   },
+   {
+    "text": "que",
+    "start": 23.324,
+    "end": 23.424
+   },
+   {
+    "text": "l'édition",
+    "start": 23.444,
+    "end": 23.766
+   },
+   {
+    "text": "standard",
+    "start": 23.786,
+    "end": 24.55
+   },
+   {
+    "text": "Et",
+    "start": 24.59,
+    "end": 24.65
+   },
+   {
+    "text": "ça",
+    "start": 24.67,
+    "end": 24.771
+   },
+   {
+    "text": "tu",
+    "start": 24.791,
+    "end": 24.851
+   },
+   {
+    "text": "peux",
+    "start": 24.871,
+    "end": 24.952
+   },
+   {
+    "text": "le",
+    "start": 24.972,
+    "end": 25.032
+   },
+   {
+    "text": "copier",
+    "start": 25.052,
+    "end": 25.233
+   },
+   {
+    "text": "dans",
+    "start": 25.253,
+    "end": 25.354
+   },
+   {
+    "text": "ta",
+    "start": 25.374,
+    "end": 25.434
+   },
+   {
+    "text": "boutique",
+    "start": 25.454,
+    "end": 25.715
+   },
+   {
+    "text": "e-commerce",
+    "start": 25.735,
+    "end": 26.552
+   }
+  ],
+  "text": "Il n'y a pas de chiffre précis juste qu'il y a eu plus de précommande que l'édition standard Et ça tu peux le copier dans ta boutique e-commerce",
+  "norm": [
+   "il",
+   "n'y",
+   "a",
+   "pas",
+   "de",
+   "chiffre",
+   "preci",
+   "juste",
+   "qu'il",
+   "y",
+   "a",
+   "eu",
+   "plu",
+   "de",
+   "precommande",
+   "que",
+   "l'edition",
+   "standard",
+   "et",
+   "ca",
+   "tu",
+   "peux",
+   "le",
+   "copier",
+   "dan",
+   "ta",
+   "boutique",
+   "e",
+   "commerce"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 26.5,
+  "out": 27.32,
+  "words": [
+   {
+    "text": "Pense",
+    "start": 26.552,
+    "end": 26.718
+   },
+   {
+    "text": "à",
+    "start": 26.739,
+    "end": 26.78
+   },
+   {
+    "text": "la",
+    "start": 26.801,
+    "end": 26.863
+   },
+   {
+    "text": "boulangerie",
+    "start": 26.884,
+    "end": 27.216
+   }
+  ],
+  "text": "Pense à la boulangerie",
+  "norm": [
+   "pense",
+   "a",
+   "la",
+   "boulangerie"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 28.85,
+  "out": 35.9,
+  "words": [
+   {
+    "text": "Ils",
+    "start": 29.082,
+    "end": 29.142
+   },
+   {
+    "text": "vendent",
+    "start": 29.162,
+    "end": 29.926
+   },
+   {
+    "text": "la",
+    "start": 29.947,
+    "end": 30.027
+   },
+   {
+    "text": "baguette",
+    "start": 30.047,
+    "end": 30.55
+   },
+   {
+    "text": "le",
+    "start": 30.57,
+    "end": 30.67
+   },
+   {
+    "text": "pack",
+    "start": 30.691,
+    "end": 30.851
+   },
+   {
+    "text": "petit-déjeuner",
+    "start": 30.871,
+    "end": 31.495
+   },
+   {
+    "text": "la",
+    "start": 31.515,
+    "end": 31.595
+   },
+   {
+    "text": "formule",
+    "start": 31.615,
+    "end": 31.837
+   },
+   {
+    "text": "du",
+    "start": 31.857,
+    "end": 31.897
+   },
+   {
+    "text": "midi",
+    "start": 31.917,
+    "end": 32.46
+   },
+   {
+    "text": "Toi",
+    "start": 32.48,
+    "end": 33.666
+   },
+   {
+    "text": "tu",
+    "start": 33.686,
+    "end": 33.747
+   },
+   {
+    "text": "viens",
+    "start": 33.767,
+    "end": 33.907
+   },
+   {
+    "text": "pour",
+    "start": 33.928,
+    "end": 34.008
+   },
+   {
+    "text": "la",
+    "start": 34.048,
+    "end": 34.108
+   },
+   {
+    "text": "baguette",
+    "start": 34.129,
+    "end": 34.39
+   },
+   {
+    "text": "et",
+    "start": 34.43,
+    "end": 34.47
+   },
+   {
+    "text": "tu",
+    "start": 34.49,
+    "end": 34.551
+   },
+   {
+    "text": "repars",
+    "start": 34.571,
+    "end": 34.732
+   },
+   {
+    "text": "avec",
+    "start": 34.752,
+    "end": 35.013
+   },
+   {
+    "text": "toute",
+    "start": 35.033,
+    "end": 35.315
+   },
+   {
+    "text": "la",
+    "start": 35.335,
+    "end": 35.435
+   },
+   {
+    "text": "formule",
+    "start": 35.456,
+    "end": 35.918
+   }
+  ],
+  "text": "Ils vendent la baguette le pack petit-déjeuner la formule du midi Toi tu viens pour la baguette et tu repars avec toute la formule",
+  "norm": [
+   "ils",
+   "vendent",
+   "la",
+   "baguette",
+   "le",
+   "pack",
+   "petit",
+   "dejeuner",
+   "la",
+   "formule",
+   "du",
+   "midi",
+   "toi",
+   "tu",
+   "vien",
+   "pour",
+   "la",
+   "baguette",
+   "et",
+   "tu",
+   "repar",
+   "avec",
+   "toute",
+   "la",
+   "formule"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 37.51,
+  "out": 39.56,
+  "words": [
+   {
+    "text": "Toi",
+    "start": 37.561,
+    "end": 37.704
+   },
+   {
+    "text": "tu",
+    "start": 37.725,
+    "end": 37.766
+   },
+   {
+    "text": "viens",
+    "start": 37.786,
+    "end": 37.909
+   },
+   {
+    "text": "pour",
+    "start": 37.929,
+    "end": 38.011
+   },
+   {
+    "text": "la",
+    "start": 38.031,
+    "end": 38.092
+   },
+   {
+    "text": "baguette",
+    "start": 38.113,
+    "end": 38.317
+   },
+   {
+    "text": "et",
+    "start": 38.337,
+    "end": 38.378
+   },
+   {
+    "text": "tu",
+    "start": 38.399,
+    "end": 38.46
+   },
+   {
+    "text": "repars",
+    "start": 38.48,
+    "end": 38.623
+   },
+   {
+    "text": "avec",
+    "start": 38.644,
+    "end": 38.766
+   },
+   {
+    "text": "toute",
+    "start": 38.807,
+    "end": 38.95
+   },
+   {
+    "text": "une",
+    "start": 38.991,
+    "end": 39.093
+   },
+   {
+    "text": "formule",
+    "start": 39.113,
+    "end": 39.583
+   }
+  ],
+  "text": "Toi tu viens pour la baguette et tu repars avec toute une formule",
+  "norm": [
+   "toi",
+   "tu",
+   "vien",
+   "pour",
+   "la",
+   "baguette",
+   "et",
+   "tu",
+   "repar",
+   "avec",
+   "toute",
+   "une",
+   "formule"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 40.17,
+  "out": 41.9,
+  "words": [
+   {
+    "text": "Parce",
+    "start": 40.201,
+    "end": 40.324
+   },
+   {
+    "text": "que",
+    "start": 40.344,
+    "end": 40.447
+   },
+   {
+    "text": "ton",
+    "start": 40.467,
+    "end": 40.57
+   },
+   {
+    "text": "client",
+    "start": 40.59,
+    "end": 40.857
+   },
+   {
+    "text": "il",
+    "start": 40.877,
+    "end": 40.918
+   },
+   {
+    "text": "ne",
+    "start": 40.939,
+    "end": 40.98
+   },
+   {
+    "text": "cherche",
+    "start": 41.0,
+    "end": 41.266
+   },
+   {
+    "text": "pas",
+    "start": 41.287,
+    "end": 41.348
+   },
+   {
+    "text": "le",
+    "start": 41.369,
+    "end": 41.43
+   },
+   {
+    "text": "moins",
+    "start": 41.451,
+    "end": 41.553
+   },
+   {
+    "text": "cher",
+    "start": 41.574,
+    "end": 41.738
+   }
+  ],
+  "text": "Parce que ton client il ne cherche pas le moins cher",
+  "norm": [
+   "parce",
+   "que",
+   "ton",
+   "client",
+   "il",
+   "ne",
+   "cherche",
+   "pas",
+   "le",
+   "moin",
+   "cher"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 42.72,
+  "out": 45.14,
+  "words": [
+   {
+    "text": "il",
+    "start": 42.812,
+    "end": 42.933
+   },
+   {
+    "text": "cherche",
+    "start": 42.954,
+    "end": 43.197
+   },
+   {
+    "text": "la",
+    "start": 43.217,
+    "end": 43.298
+   },
+   {
+    "text": "version",
+    "start": 43.339,
+    "end": 43.542
+   },
+   {
+    "text": "qu'il",
+    "start": 43.562,
+    "end": 43.663
+   },
+   {
+    "text": "ne",
+    "start": 43.684,
+    "end": 43.724
+   },
+   {
+    "text": "regrettera",
+    "start": 43.745,
+    "end": 44.272
+   },
+   {
+    "text": "pas",
+    "start": 44.292,
+    "end": 44.475
+   },
+   {
+    "text": "d'avoir",
+    "start": 44.495,
+    "end": 44.779
+   },
+   {
+    "text": "prise",
+    "start": 44.799,
+    "end": 45.164
+   }
+  ],
+  "text": "il cherche la version qu'il ne regrettera pas d'avoir prise",
+  "norm": [
+   "il",
+   "cherche",
+   "la",
+   "version",
+   "qu'il",
+   "ne",
+   "regrettera",
+   "pas",
+   "d'avoir",
+   "prise"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 46.17,
+  "out": 48.36,
+  "words": [
+   {
+    "text": "Et",
+    "start": 46.364,
+    "end": 46.425
+   },
+   {
+    "text": "étant",
+    "start": 46.445,
+    "end": 46.547
+   },
+   {
+    "text": "donné",
+    "start": 46.567,
+    "end": 46.669
+   },
+   {
+    "text": "que",
+    "start": 46.689,
+    "end": 46.75
+   },
+   {
+    "text": "le",
+    "start": 46.771,
+    "end": 46.811
+   },
+   {
+    "text": "panier",
+    "start": 46.832,
+    "end": 47.035
+   },
+   {
+    "text": "moyen",
+    "start": 47.056,
+    "end": 47.239
+   },
+   {
+    "text": "en",
+    "start": 47.279,
+    "end": 47.32
+   },
+   {
+    "text": "France",
+    "start": 47.34,
+    "end": 47.544
+   },
+   {
+    "text": "est",
+    "start": 47.686,
+    "end": 47.747
+   },
+   {
+    "text": "en",
+    "start": 47.788,
+    "end": 47.869
+   },
+   {
+    "text": "baisse",
+    "start": 47.89,
+    "end": 48.154
+   }
+  ],
+  "text": "Et étant donné que le panier moyen en France est en baisse",
+  "norm": [
+   "et",
+   "etant",
+   "donne",
+   "que",
+   "le",
+   "panier",
+   "moyen",
+   "en",
+   "france",
+   "est",
+   "en",
+   "baisse"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 48.81,
+  "out": 50.32,
+  "words": [
+   {
+    "text": "Chaque",
+    "start": 49.043,
+    "end": 49.326
+   },
+   {
+    "text": "euro",
+    "start": 49.386,
+    "end": 49.891
+   },
+   {
+    "text": "compte",
+    "start": 49.911,
+    "end": 50.275
+   }
+  ],
+  "text": "Chaque euro compte",
+  "norm": [
+   "chaque",
+   "euro",
+   "compte"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 53.6,
+  "out": 56.63,
+  "words": [
+   {
+    "text": "Donc",
+    "start": 53.672,
+    "end": 53.773
+   },
+   {
+    "text": "d'abord",
+    "start": 53.793,
+    "end": 53.976
+   },
+   {
+    "text": "tu",
+    "start": 53.996,
+    "end": 54.037
+   },
+   {
+    "text": "vas",
+    "start": 54.057,
+    "end": 54.118
+   },
+   {
+    "text": "sur",
+    "start": 54.138,
+    "end": 54.219
+   },
+   {
+    "text": "ta",
+    "start": 54.26,
+    "end": 54.32
+   },
+   {
+    "text": "boutique",
+    "start": 54.341,
+    "end": 54.685
+   },
+   {
+    "text": "et",
+    "start": 54.726,
+    "end": 54.949
+   },
+   {
+    "text": "tu",
+    "start": 54.969,
+    "end": 55.071
+   },
+   {
+    "text": "construis",
+    "start": 55.091,
+    "end": 55.415
+   },
+   {
+    "text": "trois",
+    "start": 55.435,
+    "end": 55.74
+   },
+   {
+    "text": "offres",
+    "start": 55.8,
+    "end": 56.105
+   },
+   {
+    "text": "pas",
+    "start": 56.125,
+    "end": 56.246
+   },
+   {
+    "text": "une",
+    "start": 56.307,
+    "end": 56.652
+   }
+  ],
+  "text": "Donc d'abord tu vas sur ta boutique et tu construis trois offres pas une",
+  "norm": [
+   "donc",
+   "d'abord",
+   "tu",
+   "vas",
+   "sur",
+   "ta",
+   "boutique",
+   "et",
+   "tu",
+   "construi",
+   "troi",
+   "offre",
+   "pas",
+   "une"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 57.81,
+  "out": 65.48,
+  "words": [
+   {
+    "text": "Donc",
+    "start": 57.861,
+    "end": 57.962
+   },
+   {
+    "text": "déjà",
+    "start": 57.982,
+    "end": 58.444
+   },
+   {
+    "text": "tu",
+    "start": 58.464,
+    "end": 58.505
+   },
+   {
+    "text": "auras",
+    "start": 58.525,
+    "end": 58.987
+   },
+   {
+    "text": "le",
+    "start": 59.007,
+    "end": 59.108
+   },
+   {
+    "text": "produit",
+    "start": 59.128,
+    "end": 59.389
+   },
+   {
+    "text": "seul",
+    "start": 59.409,
+    "end": 59.812
+   },
+   {
+    "text": "après",
+    "start": 59.852,
+    "end": 60.375
+   },
+   {
+    "text": "un",
+    "start": 60.455,
+    "end": 60.636
+   },
+   {
+    "text": "pack",
+    "start": 60.656,
+    "end": 61.3
+   },
+   {
+    "text": "avec",
+    "start": 61.32,
+    "end": 61.581
+   },
+   {
+    "text": "pourquoi",
+    "start": 61.601,
+    "end": 61.883
+   },
+   {
+    "text": "pas",
+    "start": 61.903,
+    "end": 62.003
+   },
+   {
+    "text": "un",
+    "start": 62.043,
+    "end": 62.124
+   },
+   {
+    "text": "deuxième",
+    "start": 62.144,
+    "end": 62.446
+   },
+   {
+    "text": "acheté",
+    "start": 62.486,
+    "end": 63.129
+   },
+   {
+    "text": "avec",
+    "start": 63.17,
+    "end": 63.35
+   },
+   {
+    "text": "une",
+    "start": 63.391,
+    "end": 63.491
+   },
+   {
+    "text": "offre",
+    "start": 63.531,
+    "end": 63.954
+   },
+   {
+    "text": "et",
+    "start": 64.034,
+    "end": 64.195
+   },
+   {
+    "text": "le",
+    "start": 64.215,
+    "end": 64.296
+   },
+   {
+    "text": "pack",
+    "start": 64.336,
+    "end": 64.497
+   },
+   {
+    "text": "complet",
+    "start": 64.517,
+    "end": 64.778
+   },
+   {
+    "text": "avec",
+    "start": 64.818,
+    "end": 64.979
+   },
+   {
+    "text": "des",
+    "start": 64.999,
+    "end": 65.08
+   },
+   {
+    "text": "bonus",
+    "start": 65.1,
+    "end": 65.502
+   }
+  ],
+  "text": "Donc déjà tu auras le produit seul après un pack avec pourquoi pas un deuxième acheté avec une offre et le pack complet avec des bonus",
+  "norm": [
+   "donc",
+   "deja",
+   "tu",
+   "aura",
+   "le",
+   "produit",
+   "seul",
+   "apre",
+   "un",
+   "pack",
+   "avec",
+   "pourquoi",
+   "pas",
+   "un",
+   "deuxieme",
+   "achete",
+   "avec",
+   "une",
+   "offre",
+   "et",
+   "le",
+   "pack",
+   "complet",
+   "avec",
+   "des",
+   "bonu"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 70.96,
+  "out": 74.46,
+  "words": [
+   {
+    "text": "Et",
+    "start": 71.052,
+    "end": 71.112
+   },
+   {
+    "text": "surtout",
+    "start": 71.132,
+    "end": 71.314
+   },
+   {
+    "text": "dans",
+    "start": 71.334,
+    "end": 71.435
+   },
+   {
+    "text": "un",
+    "start": 71.455,
+    "end": 71.496
+   },
+   {
+    "text": "page",
+    "start": 71.516,
+    "end": 71.677
+   },
+   {
+    "text": "produit",
+    "start": 71.698,
+    "end": 72.142
+   },
+   {
+    "text": "mets",
+    "start": 72.182,
+    "end": 72.344
+   },
+   {
+    "text": "l'offre",
+    "start": 72.384,
+    "end": 72.626
+   },
+   {
+    "text": "du",
+    "start": 72.647,
+    "end": 72.707
+   },
+   {
+    "text": "milieu",
+    "start": 72.727,
+    "end": 72.929
+   },
+   {
+    "text": "en",
+    "start": 72.97,
+    "end": 73.01
+   },
+   {
+    "text": "avant",
+    "start": 73.05,
+    "end": 73.212
+   },
+   {
+    "text": "parce",
+    "start": 73.232,
+    "end": 73.353
+   },
+   {
+    "text": "que",
+    "start": 73.374,
+    "end": 73.434
+   },
+   {
+    "text": "c'est",
+    "start": 73.454,
+    "end": 73.575
+   },
+   {
+    "text": "souvent",
+    "start": 73.596,
+    "end": 73.798
+   },
+   {
+    "text": "celle",
+    "start": 73.838,
+    "end": 73.959
+   },
+   {
+    "text": "qu'on",
+    "start": 73.979,
+    "end": 74.08
+   },
+   {
+    "text": "choisit",
+    "start": 74.1,
+    "end": 74.484
+   }
+  ],
+  "text": "Et surtout dans un page produit mets l'offre du milieu en avant parce que c'est souvent celle qu'on choisit",
+  "norm": [
+   "et",
+   "surtout",
+   "dan",
+   "un",
+   "page",
+   "produit",
+   "met",
+   "l'offre",
+   "du",
+   "milieu",
+   "en",
+   "avant",
+   "parce",
+   "que",
+   "c'est",
+   "souvent",
+   "celle",
+   "qu'on",
+   "choisit"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 76.52,
+  "out": 82.39,
+  "words": [
+   {
+    "text": "Et",
+    "start": 76.551,
+    "end": 76.631
+   },
+   {
+    "text": "en",
+    "start": 76.652,
+    "end": 76.692
+   },
+   {
+    "text": "ce",
+    "start": 76.712,
+    "end": 76.752
+   },
+   {
+    "text": "qui",
+    "start": 76.772,
+    "end": 76.853
+   },
+   {
+    "text": "concerne",
+    "start": 76.873,
+    "end": 77.135
+   },
+   {
+    "text": "les",
+    "start": 77.155,
+    "end": 77.235
+   },
+   {
+    "text": "bonus",
+    "start": 77.255,
+    "end": 78.0
+   },
+   {
+    "text": "pars",
+    "start": 78.02,
+    "end": 78.262
+   },
+   {
+    "text": "sur",
+    "start": 78.282,
+    "end": 78.402
+   },
+   {
+    "text": "des",
+    "start": 78.423,
+    "end": 78.483
+   },
+   {
+    "text": "bonus",
+    "start": 78.503,
+    "end": 78.744
+   },
+   {
+    "text": "qui",
+    "start": 78.765,
+    "end": 78.865
+   },
+   {
+    "text": "te",
+    "start": 78.885,
+    "end": 79.006
+   },
+   {
+    "text": "coûtent",
+    "start": 79.026,
+    "end": 79.268
+   },
+   {
+    "text": "peu",
+    "start": 79.288,
+    "end": 79.65
+   },
+   {
+    "text": "mais",
+    "start": 79.67,
+    "end": 79.771
+   },
+   {
+    "text": "qui",
+    "start": 79.791,
+    "end": 79.912
+   },
+   {
+    "text": "valent",
+    "start": 79.932,
+    "end": 80.173
+   },
+   {
+    "text": "cher",
+    "start": 80.193,
+    "end": 80.596
+   },
+   {
+    "text": "pour",
+    "start": 80.616,
+    "end": 80.757
+   },
+   {
+    "text": "ton",
+    "start": 80.797,
+    "end": 80.918
+   },
+   {
+    "text": "consommateur",
+    "start": 80.938,
+    "end": 81.924
+   },
+   {
+    "text": "Que",
+    "start": 82.125,
+    "end": 82.206
+   },
+   {
+    "text": "ce",
+    "start": 82.226,
+    "end": 82.286
+   },
+   {
+    "text": "soit",
+    "start": 82.306,
+    "end": 82.141
+   }
+  ],
+  "text": "Et en ce qui concerne les bonus pars sur des bonus qui te coûtent peu mais qui valent cher pour ton consommateur Que ce soit",
+  "norm": [
+   "et",
+   "en",
+   "ce",
+   "qui",
+   "concerne",
+   "les",
+   "bonu",
+   "par",
+   "sur",
+   "des",
+   "bonu",
+   "qui",
+   "te",
+   "coutent",
+   "peu",
+   "mai",
+   "qui",
+   "valent",
+   "cher",
+   "pour",
+   "ton",
+   "consommateur",
+   "que",
+   "ce",
+   "soit"
+  ],
+  "keep": true,
+  "why": "end trimmed: « Que ce soit » repeated at the start of the next one",
+  "trim_out": 82.08
+ },
+ {
+  "in": 82.11,
+  "out": 83.38,
+  "words": [
+   {
+    "text": "que",
+    "start": 82.141,
+    "end": 82.266
+   },
+   {
+    "text": "ce",
+    "start": 82.286,
+    "end": 82.349
+   },
+   {
+    "text": "soit",
+    "start": 82.369,
+    "end": 82.452
+   },
+   {
+    "text": "un",
+    "start": 82.473,
+    "end": 82.535
+   },
+   {
+    "text": "guide",
+    "start": 82.556,
+    "end": 82.826
+   },
+   {
+    "text": "un",
+    "start": 82.847,
+    "end": 82.909
+   },
+   {
+    "text": "accès",
+    "start": 82.95,
+    "end": 83.407
+   }
+  ],
+  "text": "que ce soit un guide un accès",
+  "norm": [
+   "que",
+   "ce",
+   "soit",
+   "un",
+   "guide",
+   "un",
+   "acce"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 86.04,
+  "out": 90.48,
+  "words": [
+   {
+    "text": "Avec",
+    "start": 86.172,
+    "end": 86.313
+   },
+   {
+    "text": "ça",
+    "start": 86.333,
+    "end": 86.414
+   },
+   {
+    "text": "tu",
+    "start": 86.434,
+    "end": 86.474
+   },
+   {
+    "text": "auras",
+    "start": 86.515,
+    "end": 86.636
+   },
+   {
+    "text": "construit",
+    "start": 86.676,
+    "end": 87.261
+   },
+   {
+    "text": "une",
+    "start": 87.322,
+    "end": 87.423
+   },
+   {
+    "text": "offre",
+    "start": 87.463,
+    "end": 87.786
+   },
+   {
+    "text": "complète",
+    "start": 87.806,
+    "end": 88.572
+   },
+   {
+    "text": "qui",
+    "start": 88.593,
+    "end": 88.693
+   },
+   {
+    "text": "va",
+    "start": 88.714,
+    "end": 88.875
+   },
+   {
+    "text": "vraiment",
+    "start": 88.895,
+    "end": 89.742
+   },
+   {
+    "text": "pousser",
+    "start": 89.763,
+    "end": 90.509
+   }
+  ],
+  "text": "Avec ça tu auras construit une offre complète qui va vraiment pousser",
+  "norm": [
+   "avec",
+   "ca",
+   "tu",
+   "aura",
+   "construit",
+   "une",
+   "offre",
+   "complete",
+   "qui",
+   "va",
+   "vraiment",
+   "pousser"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 92.63,
+  "out": 97.28,
+  "words": [
+   {
+    "text": "Et",
+    "start": 92.843,
+    "end": 92.903
+   },
+   {
+    "text": "avec",
+    "start": 92.923,
+    "end": 93.065
+   },
+   {
+    "text": "ça",
+    "start": 93.085,
+    "end": 93.165
+   },
+   {
+    "text": "tu",
+    "start": 93.186,
+    "end": 93.226
+   },
+   {
+    "text": "auras",
+    "start": 93.246,
+    "end": 93.347
+   },
+   {
+    "text": "construit",
+    "start": 93.387,
+    "end": 93.63
+   },
+   {
+    "text": "une",
+    "start": 93.65,
+    "end": 93.71
+   },
+   {
+    "text": "offre",
+    "start": 93.751,
+    "end": 94.134
+   },
+   {
+    "text": "complète",
+    "start": 94.154,
+    "end": 95.022
+   },
+   {
+    "text": "qui",
+    "start": 95.042,
+    "end": 95.143
+   },
+   {
+    "text": "te",
+    "start": 95.183,
+    "end": 95.224
+   },
+   {
+    "text": "permettra",
+    "start": 95.244,
+    "end": 95.809
+   },
+   {
+    "text": "de",
+    "start": 95.829,
+    "end": 95.89
+   },
+   {
+    "text": "faire",
+    "start": 95.93,
+    "end": 96.091
+   },
+   {
+    "text": "monter",
+    "start": 96.132,
+    "end": 96.374
+   },
+   {
+    "text": "la",
+    "start": 96.394,
+    "end": 96.455
+   },
+   {
+    "text": "valeur",
+    "start": 96.475,
+    "end": 96.616
+   },
+   {
+    "text": "de",
+    "start": 96.636,
+    "end": 96.697
+   },
+   {
+    "text": "ton",
+    "start": 96.717,
+    "end": 96.838
+   },
+   {
+    "text": "panier",
+    "start": 96.858,
+    "end": 96.979
+   },
+   {
+    "text": "moyen",
+    "start": 96.999,
+    "end": 97.302
+   }
+  ],
+  "text": "Et avec ça tu auras construit une offre complète qui te permettra de faire monter la valeur de ton panier moyen",
+  "norm": [
+   "et",
+   "avec",
+   "ca",
+   "tu",
+   "aura",
+   "construit",
+   "une",
+   "offre",
+   "complete",
+   "qui",
+   "te",
+   "permettra",
+   "de",
+   "faire",
+   "monter",
+   "la",
+   "valeur",
+   "de",
+   "ton",
+   "panier",
+   "moyen"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 101.27,
+  "out": 107.23,
+  "words": [
+   {
+    "text": "Et",
+    "start": 101.321,
+    "end": 101.401
+   },
+   {
+    "text": "si",
+    "start": 101.421,
+    "end": 101.542
+   },
+   {
+    "text": "tu",
+    "start": 101.562,
+    "end": 101.642
+   },
+   {
+    "text": "veux",
+    "start": 101.662,
+    "end": 101.803
+   },
+   {
+    "text": "apprendre",
+    "start": 101.823,
+    "end": 102.084
+   },
+   {
+    "text": "l'e-commerce",
+    "start": 102.104,
+    "end": 102.425
+   },
+   {
+    "text": "un",
+    "start": 102.445,
+    "end": 102.505
+   },
+   {
+    "text": "peu",
+    "start": 102.525,
+    "end": 102.585
+   },
+   {
+    "text": "plus",
+    "start": 102.605,
+    "end": 102.766
+   },
+   {
+    "text": "chaque",
+    "start": 102.786,
+    "end": 103.007
+   },
+   {
+    "text": "jour",
+    "start": 103.027,
+    "end": 103.549
+   },
+   {
+    "text": "abonne-toi",
+    "start": 103.589,
+    "end": 104.351
+   },
+   {
+    "text": "Par",
+    "start": 104.371,
+    "end": 104.532
+   },
+   {
+    "text": "contre",
+    "start": 104.552,
+    "end": 104.893
+   },
+   {
+    "text": "si",
+    "start": 104.933,
+    "end": 105.174
+   },
+   {
+    "text": "tu",
+    "start": 105.194,
+    "end": 105.254
+   },
+   {
+    "text": "veux",
+    "start": 105.274,
+    "end": 105.395
+   },
+   {
+    "text": "être",
+    "start": 105.455,
+    "end": 105.575
+   },
+   {
+    "text": "accompagné",
+    "start": 105.595,
+    "end": 106.077
+   },
+   {
+    "text": "pas",
+    "start": 106.097,
+    "end": 106.197
+   },
+   {
+    "text": "à",
+    "start": 106.238,
+    "end": 106.298
+   },
+   {
+    "text": "pas",
+    "start": 106.318,
+    "end": 106.8
+   },
+   {
+    "text": "j'aime",
+    "start": 106.82,
+    "end": 107.241
+   }
+  ],
+  "text": "Et si tu veux apprendre l'e-commerce un peu plus chaque jour abonne-toi Par contre si tu veux être accompagné pas à pas j'aime",
+  "norm": [
+   "et",
+   "si",
+   "tu",
+   "veux",
+   "apprendre",
+   "l'e",
+   "commerce",
+   "un",
+   "peu",
+   "plu",
+   "chaque",
+   "jour",
+   "abonne",
+   "toi",
+   "par",
+   "contre",
+   "si",
+   "tu",
+   "veux",
+   "etre",
+   "accompagne",
+   "pas",
+   "a",
+   "pas",
+   "j'aime"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 110.54,
+  "out": 116.57,
+  "words": [
+   {
+    "text": "Maintenant",
+    "start": 110.611,
+    "end": 110.974
+   },
+   {
+    "text": "abonne-toi",
+    "start": 111.034,
+    "end": 111.397
+   },
+   {
+    "text": "pour",
+    "start": 111.437,
+    "end": 111.518
+   },
+   {
+    "text": "apprendre",
+    "start": 111.538,
+    "end": 111.74
+   },
+   {
+    "text": "l'e-commerce",
+    "start": 111.76,
+    "end": 112.102
+   },
+   {
+    "text": "un",
+    "start": 112.122,
+    "end": 112.163
+   },
+   {
+    "text": "peu",
+    "start": 112.183,
+    "end": 112.263
+   },
+   {
+    "text": "plus",
+    "start": 112.284,
+    "end": 112.445
+   },
+   {
+    "text": "chaque",
+    "start": 112.465,
+    "end": 112.646
+   },
+   {
+    "text": "jour",
+    "start": 112.666,
+    "end": 113.11
+   },
+   {
+    "text": "Et",
+    "start": 113.13,
+    "end": 113.21
+   },
+   {
+    "text": "si",
+    "start": 113.23,
+    "end": 113.311
+   },
+   {
+    "text": "tu",
+    "start": 113.331,
+    "end": 113.371
+   },
+   {
+    "text": "veux",
+    "start": 113.392,
+    "end": 113.472
+   },
+   {
+    "text": "être",
+    "start": 113.492,
+    "end": 113.573
+   },
+   {
+    "text": "accompagné",
+    "start": 113.593,
+    "end": 113.976
+   },
+   {
+    "text": "pas",
+    "start": 113.996,
+    "end": 114.097
+   },
+   {
+    "text": "à",
+    "start": 114.137,
+    "end": 114.197
+   },
+   {
+    "text": "pas",
+    "start": 114.218,
+    "end": 114.379
+   },
+   {
+    "text": "il",
+    "start": 114.419,
+    "end": 114.48
+   },
+   {
+    "text": "y",
+    "start": 114.52,
+    "end": 114.56
+   },
+   {
+    "text": "a",
+    "start": 114.58,
+    "end": 114.621
+   },
+   {
+    "text": "mon",
+    "start": 114.641,
+    "end": 114.802
+   },
+   {
+    "text": "bootcamp",
+    "start": 114.822,
+    "end": 115.205
+   },
+   {
+    "text": "e-commerce",
+    "start": 115.265,
+    "end": 115.749
+   },
+   {
+    "text": "spécialement",
+    "start": 115.769,
+    "end": 116.212
+   },
+   {
+    "text": "pour",
+    "start": 116.232,
+    "end": 116.333
+   },
+   {
+    "text": "ça",
+    "start": 116.353,
+    "end": 116.595
+   }
+  ],
+  "text": "Maintenant abonne-toi pour apprendre l'e-commerce un peu plus chaque jour Et si tu veux être accompagné pas à pas il y a mon bootcamp e-commerce spécialement pour ça",
+  "norm": [
+   "maintenant",
+   "abonne",
+   "toi",
+   "pour",
+   "apprendre",
+   "l'e",
+   "commerce",
+   "un",
+   "peu",
+   "plu",
+   "chaque",
+   "jour",
+   "et",
+   "si",
+   "tu",
+   "veux",
+   "etre",
+   "accompagne",
+   "pas",
+   "a",
+   "pas",
+   "il",
+   "y",
+   "a",
+   "mon",
+   "bootcamp",
+   "e",
+   "commerce",
+   "specialement",
+   "pour",
+   "ca"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 123.45,
+  "out": 127.01,
+  "words": [
+   {
+    "text": "Si",
+    "start": 123.562,
+    "end": 123.642
+   },
+   {
+    "text": "tu",
+    "start": 123.662,
+    "end": 123.723
+   },
+   {
+    "text": "commentes",
+    "start": 123.743,
+    "end": 124.025
+   },
+   {
+    "text": "Bootcamp",
+    "start": 124.186,
+    "end": 124.669
+   },
+   {
+    "text": "je",
+    "start": 124.79,
+    "end": 124.85
+   },
+   {
+    "text": "t'envoie",
+    "start": 124.87,
+    "end": 125.092
+   },
+   {
+    "text": "mon",
+    "start": 125.132,
+    "end": 125.253
+   },
+   {
+    "text": "modèle",
+    "start": 125.273,
+    "end": 125.535
+   },
+   {
+    "text": "d'offre",
+    "start": 125.555,
+    "end": 125.736
+   },
+   {
+    "text": "à",
+    "start": 125.756,
+    "end": 125.817
+   },
+   {
+    "text": "trois",
+    "start": 125.837,
+    "end": 126.038
+   },
+   {
+    "text": "niveaux",
+    "start": 126.058,
+    "end": 126.723
+   },
+   {
+    "text": "Allez",
+    "start": 126.763,
+    "end": 126.944
+   }
+  ],
+  "text": "Si tu commentes Bootcamp je t'envoie mon modèle d'offre à trois niveaux Allez",
+  "norm": [
+   "si",
+   "tu",
+   "commente",
+   "bootcamp",
+   "je",
+   "t'envoie",
+   "mon",
+   "modele",
+   "d'offre",
+   "a",
+   "troi",
+   "niveaux",
+   "allez"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 126.66,
+  "out": 127.49,
+  "words": [
+   {
+    "text": "Allez",
+    "start": 126.751,
+    "end": 127.074
+   },
+   {
+    "text": "ciao",
+    "start": 127.094,
+    "end": 127.215
+   }
+  ],
+  "text": "Allez ciao",
+  "norm": [
+   "allez",
+   "ciao"
+  ],
+  "keep": true,
+  "why": ""
+ }
+]

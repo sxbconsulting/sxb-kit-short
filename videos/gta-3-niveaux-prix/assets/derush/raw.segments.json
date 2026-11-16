@@ -1,0 +1,107 @@
+[
+ {
+  "name": "t01",
+  "in": 1.32,
+  "out": 5.4,
+  "why": "accroche"
+ },
+ {
+  "name": "t05",
+  "in": 15.7,
+  "out": 20.45,
+  "why": "fin avant « Il n'y a pas de… » (redit en t06)"
+ },
+ {
+  "name": "t06a",
+  "in": 20.6,
+  "out": 24.2
+ },
+ {
+  "name": "t06b",
+  "in": 24.38,
+  "out": 26.3,
+  "why": "pause « standard. / Et ça » réduite"
+ },
+ {
+  "name": "t07",
+  "in": 26.46,
+  "out": 27.32
+ },
+ {
+  "name": "t08a",
+  "in": 28.8,
+  "out": 32.24,
+  "why": "« Ils vendent la baguette… la formule du midi »"
+ },
+ {
+  "name": "t08b",
+  "in": 33.4,
+  "out": 35.88,
+  "why": "faux départ « Toi, tu viens de trouver » (32,5-33,2) retiré"
+ },
+ {
+  "name": "t10",
+  "in": 40.12,
+  "out": 41.88
+ },
+ {
+  "name": "t11",
+  "in": 42.66,
+  "out": 45.12
+ },
+ {
+  "name": "t12",
+  "in": 46.12,
+  "out": 48.36
+ },
+ {
+  "name": "t13",
+  "in": 48.8,
+  "out": 50.32
+ },
+ {
+  "name": "t14",
+  "in": 53.54,
+  "out": 56.58
+ },
+ {
+  "name": "t15",
+  "in": 57.76,
+  "out": 65.48
+ },
+ {
+  "name": "t16",
+  "in": 70.9,
+  "out": 74.45
+ },
+ {
+  "name": "t17",
+  "in": 76.46,
+  "out": 81.52,
+  "why": "fin avant le bruit 82,1"
+ },
+ {
+  "name": "t18",
+  "in": 82.08,
+  "out": 83.38,
+  "why": "« que ce soit un guide, un accès »"
+ },
+ {
+  "name": "t20",
+  "in": 92.66,
+  "out": 97.27,
+  "why": "retake complète de t19"
+ },
+ {
+  "name": "t22",
+  "in": 110.48,
+  "out": 116.58,
+  "why": "retake complète de t21 (qui finit sur « j'aime… »)"
+ },
+ {
+  "name": "t23",
+  "in": 123.42,
+  "out": 127.47,
+  "why": "t23+t24 : « …trois niveaux. Allez, ciao »"
+ }
+]
