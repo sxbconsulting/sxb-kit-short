@@ -4,7 +4,7 @@
 @font-face { font-family: "Kaushan Script"; src: url("assets/fonts/KaushanScript.ttf") format("truetype"); font-weight: 400 900; }
 @font-face { font-family: "Archivo"; src: url("assets/fonts/Archivo.ttf") format("truetype"); font-weight: 100 900; font-stretch: 62% 125%; }
 #zone { background:
-  radial-gradient(120% 60% at 50% 112%, rgba(255,90,120,.55), rgba(255,138,76,.18) 38%, transparent 62%),
+  radial-gradient(120% 60% at 50% 112%, rgba(255,90,120,.38), rgba(255,138,76,.12) 38%, transparent 62%),
   linear-gradient(180deg, #0E0624 0%, #1C0A3E 55%, #3A0F55 100%); color: #fff; font-family: "Anton", var(--font-display); }
 #zone::before { display: none; }
 .zgrid { content: ""; position: absolute; left: -10%; right: -10%; bottom: 0; height: 300px; pointer-events: none;

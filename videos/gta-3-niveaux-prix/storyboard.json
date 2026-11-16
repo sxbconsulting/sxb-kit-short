@@ -1,0 +1,790 @@
+{
+ "fps": 30,
+ "speaker": "assets/speaker.mp4",
+ "audio": "assets/reel-audio.wav",
+ "caption_style": "highlight",
+ "caption_font": "\"Anton\", \"Archivo\", sans-serif",
+ "caption_size": 86,
+ "caption_max_words": 3,
+ "caption_accent": "#FF2E88",
+ "caption_on_accent": "#FFFFFF",
+ "brand": {
+  "bg": "#14082A",
+  "ink": "#FFFFFF",
+  "accent": "#FF2E88",
+  "accent_ink": "#FFFFFF",
+  "font": "\"Anton\", \"Archivo\", sans-serif"
+ },
+ "locale": "fr-FR",
+ "freeze_tail": 0,
+ "css": [
+  "gta.css"
+ ],
+ "face_pos_s": "50% 52%",
+ "caption_extra_css": ".cap b, .cap em { --hl: 0; -webkit-text-stroke: calc(11px * (1 - var(--hl))) #0B0418; paint-order: stroke fill; }",
+ "idle_motion": true,
+ "id": "gta-3-niveaux-prix",
+ "title": "GTA 6 : 80 $ ou 100 $ ? Les 3 niveaux de prix",
+ "duration": 64.2,
+ "lexicon": {},
+ "keywords": [
+  "GTA",
+  "100",
+  "Take-Two",
+  "CNBC",
+  "boulangerie",
+  "formule",
+  "regrettera",
+  "baisse",
+  "trois",
+  "offres",
+  "milieu",
+  "bonus",
+  "panier",
+  "Bootcamp"
+ ],
+ "scenes": [
+  {
+   "layout": "S",
+   "start": 0.0,
+   "end": 3.852,
+   "cap_top": 790,
+   "kind": "hook",
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/captures/xbox/compare-editions.png",
+      "x": 140,
+      "y": 40,
+      "w": 800,
+      "at": 0.0,
+      "instant": true
+     },
+     {
+      "type": "badge",
+      "text": "80 $",
+      "x": 170,
+      "y": 300,
+      "at": "w:80"
+     },
+     {
+      "type": "badge",
+      "text": "100 $",
+      "x": 640,
+      "y": 300,
+      "at": "w:100"
+     },
+     {
+      "type": "line",
+      "text": "<em>?</em>",
+      "x": "center",
+      "y": 150,
+      "size": 230,
+      "at": "w:Devine"
+     }
+    ]
+   }
+  },
+  {
+   "layout": "S",
+   "start": 3.852,
+   "end": 5.253,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/captures/xbox/compare-editions.png",
+      "x": 140,
+      "y": 40,
+      "w": 800,
+      "at": 3.852,
+      "instant": true,
+      "highlights": [
+       [
+        400,
+        76,
+        370,
+        524
+       ]
+      ],
+      "highlight_at": "w:100"
+     },
+     {
+      "type": "stamp",
+      "text": "100 $ ✓",
+      "x": 560,
+      "y": 470,
+      "at": "w:100",
+      "sfx": "ping",
+      "sfx_db": -7
+     }
+    ]
+   }
+  },
+  {
+   "layout": "S",
+   "start": 5.253,
+   "end": 8.594,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/captures/cnbc/zelnick-crop.png",
+      "x": 560,
+      "y": 40,
+      "w": 480,
+      "at": "w:Et"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "STRAUSS ZELNICK",
+      "x": 40,
+      "y": 130,
+      "at": "w:patron"
+     },
+     {
+      "type": "tag",
+      "text": "PDG DE TAKE-TWO",
+      "x": 40,
+      "y": 260,
+      "at": "w:Take-Two"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "CNBC · 10/08/2026",
+      "x": 40,
+      "y": 430,
+      "at": "w:CNBC"
+     }
+    ]
+   }
+  },
+  {
+   "layout": "S",
+   "start": 8.594,
+   "end": 12.336,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "tag",
+      "class": "dim",
+      "text": "PAS DE CHIFFRE PRÉCIS",
+      "x": 290,
+      "y": 40,
+      "at": 8.594,
+      "instant": true
+     },
+     {
+      "type": "glass",
+      "dark": true,
+      "title": "ULTIMATE · 99,99 $",
+      "sub": "plus de précommandes",
+      "bars": [
+       95
+      ],
+      "x": 560,
+      "y": 150,
+      "w": 440,
+      "at": "w:plus"
+     },
+     {
+      "type": "glass",
+      "dark": true,
+      "title": "STANDARD · 79,99 $",
+      "sub": "édition de base",
+      "bars": [
+       45
+      ],
+      "x": 80,
+      "y": 150,
+      "w": 440,
+      "at": "w:standard."
+     }
+    ]
+   }
+  },
+  {
+   "layout": "F",
+   "start": 12.336,
+   "end": 14.116,
+   "cap_top": 1590,
+   "holdReason": "bascule vers la méthode : l'avatar porte l'appel à l'action",
+   "overlay": {
+    "items": [
+     {
+      "text": "COPIE ÇA",
+      "top": 250,
+      "size": 140,
+      "color": "#FF6FB5",
+      "at": "w:copier"
+     },
+     {
+      "text": "DANS TA BOUTIQUE",
+      "top": 430,
+      "size": 66,
+      "color": "#FFFFFF",
+      "at": "w:boutique",
+      "pop": "up"
+     }
+    ]
+   }
+  },
+  {
+   "layout": "S",
+   "start": 14.116,
+   "end": 20.9,
+   "cap_top": 1220,
+   "zone": {
+    "full": true,
+    "no_intro": true,
+    "items": [
+     {
+      "type": "photo",
+      "src": "assets/mockups/boulangerie.png",
+      "x": 70,
+      "y": 120,
+      "w": 470,
+      "h": 1017,
+      "rotate": -2,
+      "at": 14.116,
+      "instant": true
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "🥖 LA BASE",
+      "x": 570,
+      "y": 400,
+      "at": "w:baguette,"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "☕ + LE PACK",
+      "x": 570,
+      "y": 560,
+      "at": "w:pack"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "🥪 + LA FORMULE",
+      "x": 570,
+      "y": 720,
+      "at": "w:formule"
+     },
+     {
+      "type": "stamp",
+      "text": "TU REPARS AVEC TOUT",
+      "x": 330,
+      "y": 980,
+      "at": "w:repars",
+      "sfx": "pop",
+      "sfx_db": -11
+     },
+     {
+      "type": "cam",
+      "x": 40,
+      "y": 1320,
+      "w": 410,
+      "at": 14.116,
+      "instant": true
+     }
+    ]
+   }
+  },
+  {
+   "layout": "S",
+   "start": 20.9,
+   "end": 25.103,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "line",
+      "class": "no",
+      "text": "✗ LE MOINS CHER",
+      "x": "center",
+      "y": 170,
+      "size": 110,
+      "at": "w:moins",
+      "sfx": "error",
+      "sfx_db": -19
+     },
+     {
+      "type": "line",
+      "class": "ok",
+      "text": "✓ ZÉRO REGRET",
+      "x": "center",
+      "y": 400,
+      "size": 120,
+      "at": "w:regrettera"
+     }
+    ]
+   }
+  },
+  {
+   "layout": "S",
+   "start": 25.103,
+   "end": 28.885,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/captures/lsa/fevad-titre.png",
+      "x": 40,
+      "y": 30,
+      "w": 1000,
+      "at": 25.103,
+      "instant": true
+     },
+     {
+      "type": "big",
+      "value": 62,
+      "suffix": " €",
+      "label": "PANIER MOYEN 2025",
+      "y": 300,
+      "size": 190,
+      "at": "w:France,",
+      "count": 0.7
+     },
+     {
+      "type": "badge",
+      "text": "−3 %",
+      "x": 760,
+      "y": 330,
+      "at": "w:baisse,",
+      "sfx": "pop",
+      "sfx_db": -11
+     },
+     {
+      "type": "line",
+      "class": "credit",
+      "text": "Source : FEVAD, bilan 2025 (via LSA, 11/02/2026)",
+      "x": 60,
+      "y": 690,
+      "at": "w:France,"
+     },
+     {
+      "type": "line",
+      "class": "sun",
+      "text": "CHAQUE € COMPTE",
+      "x": "center",
+      "y": 600,
+      "size": 64,
+      "at": "w:compte."
+     }
+    ]
+   }
+  },
+  {
+   "layout": "F",
+   "start": 28.885,
+   "end": 31.867,
+   "cap_top": 1590,
+   "overlay": {
+    "items": [
+     {
+      "text": "SUR TA BOUTIQUE",
+      "top": 140,
+      "size": 56,
+      "color": "#FFC861",
+      "at": "w:boutique",
+      "pop": "up"
+     },
+     {
+      "text": "3 OFFRES",
+      "top": 230,
+      "size": 160,
+      "color": "#FF6FB5",
+      "at": "w:trois"
+     },
+     {
+      "text": "PAS 1",
+      "top": 440,
+      "size": 96,
+      "color": "#FFFFFF",
+      "at": "w:pas",
+      "strike_at": "w:une."
+     }
+    ]
+   }
+  },
+  {
+   "layout": "S",
+   "start": 31.867,
+   "end": 39.632,
+   "cap_top": 1220,
+   "zone": {
+    "full": true,
+    "no_intro": true,
+    "items": [
+     {
+      "type": "photo",
+      "src": "assets/mockups/offre-3-niveaux.png",
+      "x": 60,
+      "y": 120,
+      "w": 470,
+      "h": 1017,
+      "rotate": -2,
+      "at": 31.867,
+      "instant": true
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "① PRODUIT SEUL",
+      "x": 560,
+      "y": 300,
+      "at": "w:seul,"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "② LE PACK",
+      "x": 560,
+      "y": 460,
+      "at": "w:pack"
+     },
+     {
+      "type": "line",
+      "class": "sun",
+      "text": "+ 2E À −20 %",
+      "x": 600,
+      "y": 580,
+      "size": 46,
+      "at": "w:deuxième"
+     },
+     {
+      "type": "line",
+      "class": "ok",
+      "text": "✓",
+      "x": 960,
+      "y": 448,
+      "size": 70,
+      "at": "w:offre"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "③ COMPLET",
+      "x": 560,
+      "y": 680,
+      "at": "w:complet"
+     },
+     {
+      "type": "stamp",
+      "class": "big",
+      "text": "3 NIVEAUX",
+      "x": 150,
+      "y": 930,
+      "at": "w:bonus.",
+      "sfx": "pop",
+      "sfx_db": -11
+     },
+     {
+      "type": "cam",
+      "x": 40,
+      "y": 1320,
+      "w": 410,
+      "at": 31.867,
+      "instant": true
+     }
+    ]
+   }
+  },
+  {
+   "layout": "S",
+   "start": 39.632,
+   "end": 43.156,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/mockups/offre-3-niveaux.png",
+      "x": 330,
+      "y": 30,
+      "w": 420,
+      "h": 720,
+      "at": "w:Et",
+      "zoom_at": "w:milieu",
+      "zoom": 1.18,
+      "origin": "50% 50%"
+     },
+     {
+      "type": "badge",
+      "text": "LE PLUS CHOISI",
+      "x": 680,
+      "y": 360,
+      "at": "w:souvent",
+      "sfx": "ping",
+      "sfx_db": -7
+     },
+     {
+      "type": "tag",
+      "text": "MIS EN AVANT",
+      "x": 30,
+      "y": 150,
+      "at": "w:avant"
+     }
+    ]
+   }
+  },
+  {
+   "layout": "S",
+   "start": 43.156,
+   "end": 49.583,
+   "cap_top": 1220,
+   "zone": {
+    "full": true,
+    "no_intro": true,
+    "items": [
+     {
+      "type": "photo",
+      "src": "assets/mockups/bonus.png",
+      "x": 60,
+      "y": 120,
+      "w": 470,
+      "h": 1017,
+      "rotate": -2,
+      "at": 43.156,
+      "instant": true
+     },
+     {
+      "type": "line",
+      "class": "ok",
+      "text": "TE COÛTE PEU",
+      "x": 560,
+      "y": 300,
+      "size": 64,
+      "at": "w:peu"
+     },
+     {
+      "type": "line",
+      "class": "sun",
+      "text": "VAUT CHER",
+      "x": 560,
+      "y": 420,
+      "size": 76,
+      "at": "w:cher"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "📘 UN GUIDE",
+      "x": 560,
+      "y": 580,
+      "at": "w:guide,"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "🔑 UN ACCÈS",
+      "x": 560,
+      "y": 730,
+      "at": "w:accès."
+     },
+     {
+      "type": "cam",
+      "x": 40,
+      "y": 1320,
+      "w": 410,
+      "at": 43.156,
+      "instant": true
+     }
+    ]
+   }
+  },
+  {
+   "layout": "S",
+   "start": 49.583,
+   "end": 54.148,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "check",
+      "n": "1",
+      "text": "Le produit seul",
+      "x": 90,
+      "y": 50,
+      "w": 900,
+      "at": "w:construit",
+      "check_at": "w:construit"
+     },
+     {
+      "type": "check",
+      "n": "2",
+      "text": "Le pack <em>+ offre</em>",
+      "x": 90,
+      "y": 180,
+      "w": 900,
+      "at": "w:offre",
+      "check_at": "w:offre"
+     },
+     {
+      "type": "check",
+      "n": "3",
+      "text": "Le pack complet <em>+ bonus</em>",
+      "x": 90,
+      "y": 310,
+      "w": 900,
+      "at": "w:complète",
+      "check_at": "w:complète"
+     },
+     {
+      "type": "line",
+      "class": "ok",
+      "text": "PANIER MOYEN ↑",
+      "x": "center",
+      "y": 480,
+      "size": 120,
+      "at": "w:monter",
+      "sfx": "ping",
+      "sfx_db": -7
+     }
+    ]
+   }
+  },
+  {
+   "layout": "F",
+   "start": 54.148,
+   "end": 56.671,
+   "cap_top": 1590,
+   "overlay": {
+    "items": [
+     {
+      "text": "1 ASTUCE E-COM PAR JOUR",
+      "top": 250,
+      "size": 76,
+      "color": "#FFC861",
+      "at": "w:apprendre"
+     },
+     {
+      "text": "▶ S'ABONNER",
+      "top": 380,
+      "size": 110,
+      "color": "#FF2E88",
+      "at": "w:abonne-toi",
+      "underline_at": "w:abonne-toi"
+     }
+    ]
+   }
+  },
+  {
+   "layout": "S",
+   "start": 56.671,
+   "end": 60.235,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "line",
+      "text": "TU VEUX ÊTRE <em>ACCOMPAGNÉ</em> ?",
+      "x": "center",
+      "y": 60,
+      "size": 66,
+      "at": "w:accompagné"
+     },
+     {
+      "type": "card",
+      "title": "BOOTCAMP E-COMMERCE",
+      "label": "ACCOMPAGNEMENT PAS À PAS",
+      "x": 140,
+      "y": 220,
+      "w": 800,
+      "at": "w:Bootcamp",
+      "from": "up"
+     },
+     {
+      "type": "stamp",
+      "text": "PAS À PAS",
+      "x": 360,
+      "y": 520,
+      "at": "w:spécialement"
+     }
+    ]
+   }
+  },
+  {
+   "layout": "S",
+   "start": 60.235,
+   "end": 64.2,
+   "cap_top": 790,
+   "kind": "cta",
+   "holdReason": "écran de fin : le mot-clé et la promesse restent lisibles jusqu'au ciao",
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "line",
+      "text": "COMMENTE",
+      "x": "center",
+      "y": 30,
+      "size": 96,
+      "at": "w:commentes"
+     },
+     {
+      "type": "stamp",
+      "class": "big",
+      "text": "BOOTCAMP",
+      "x": 170,
+      "y": 140,
+      "at": "w:Bootcamp,",
+      "sfx": "pop",
+      "sfx_db": -11
+     },
+     {
+      "type": "line",
+      "class": "sun",
+      "text": "→ TON MODÈLE D'OFFRE À 3 NIVEAUX",
+      "x": "center",
+      "y": 420,
+      "size": 54,
+      "at": "w:modèle"
+     },
+     {
+      "type": "tag",
+      "text": "NIVEAU 1",
+      "x": 90,
+      "y": 540,
+      "at": "w:trois"
+     },
+     {
+      "type": "tag",
+      "text": "NIVEAU 2",
+      "x": 400,
+      "y": 540,
+      "at": "w:niveaux.",
+      "sfx": "click-soft",
+      "sfx_db": -9
+     },
+     {
+      "type": "tag",
+      "text": "NIVEAU 3",
+      "x": 710,
+      "y": 540,
+      "at": "w:niveaux."
+     }
+    ]
+   }
+  }
+ ]
+}

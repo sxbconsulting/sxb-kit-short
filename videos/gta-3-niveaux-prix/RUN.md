@@ -16,9 +16,9 @@ vérification en 2 passes avant chaque envoi.
 - [x] 1. Cadrage — sans objet (audio seul)
 - [x] 2. Dérush — validé (« ok pour tout »), t04 retirée, CTA BOOTCAMP confirmé
 - [x] 3. Sous-titres — style highlight GTA validé sur la vidéo 1, repris tel quel
-- [ ] 4. Beats et assets — proposés (`DESIGN.md`, `review/gate4-assets.png`)
-- [ ] 5. Ouverture
-- [ ] 6. Animatic → final
+- [x] 4. Beats et assets — validés (« A & go »), carte texte Bootcamp (pas de visuel fourni)
+- [x] 5. Ouverture — **A, le duel** (choisie sans rendu comparatif, à la demande de l'utilisateur)
+- [ ] 6. Animatic → final — v1 envoyée (`review/gate6-animatic-v1.mp4`)
 - [ ] 7. Livraison
 
 ## Gate 2 — dérush (méthode corrigée depuis la vidéo 1)
@@ -51,3 +51,13 @@ s'affiche sans prix en capture), interview CNBC 10/08/2026, bilan FEVAD 2025 (LS
 Trailer 2 : `gta-beach` (38,45–41,5, recoupé : une coupe à 38,37 détectée), `gta-logo-vi` (158,0–159,7). Maquettes `scripts/mockups-prix.mjs`
 (passe 1 : « PACK PETIT-DÉJ » sur 2 lignes → corrigé). Monde avatar : `assets/avatar-poses.json` (contrôle à blanc : « w:bonus, »
 tombait sur le 1er « bonus » → `bonus#2`).
+
+## Gate 6 — animatic v1
+
+16 scènes : S, F (« copie ça », « 3 offres », abonne-toi), 3 plein écran + bulle (boulangerie, 3 offres, bonus). 9 sons (ping, pop, error,
+click-soft) aux niveaux de la vidéo 1 : −15 à −16 dB sous la voix, error −11 dB. Validateurs : plan ok (écart max 2,0 s), footage ok,
+check 0 erreur, contraste 23/23. Rendu −16,3 LUFS.
+Vérif : 1er mot à 0,41 s → plage t01 démarre 0,1 s avant « GTA » (validateur : scène 1 sans ancre) et toutes les scènes recalées
+sur leur mot (−0,3 s) ; `build-reel.py` (ici et à la racine) : temps de scène à 4 décimales (« not frame aligned ») ; « ? » sur le
+badge 100 $ ; « + 2E À −20 % » et « ③ COMPLET + BONUS » qui se chevauchaient ; tags CNBC sur la capture → colonne à gauche ;
+zoom sur l'offre du milieu trop fort (texte coupé) → ×1,18 ; 4 scènes vides 0,5 s à leur début → premier élément dès l'image 0.

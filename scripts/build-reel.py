@@ -51,7 +51,7 @@ CAP_SIZE = int(sb.get("caption_size", 64))
 # ----------------------------------------------------------------------------- helpers
 
 def snap(t):
-    return round(round(float(t) * FPS) / FPS, 3)
+    return round(round(float(t) * FPS) / FPS, 4)   # 4 decimals: 3 can miss the frame by more than the validator tolerance
 
 
 def resolve_at(at, lo, hi):
@@ -925,7 +925,8 @@ def write_plan(scenes, caps):
         anchor = next((w for w in words if start - 0.15 <= w["start"] <= start + 0.2), None)
         if anchor is None:
             anchor = min(words, key=lambda w: abs(w["start"] - start)) if words else None
-        entry = {"id": sc["id"], "start": round(start, 3), "end": round(end, 3), "layout": LAYOUT_NATE.get(sc["layout"], "face"),
+        # 4 decimals: a frame-snapped time rounded to 3 decimals can miss the frame by 0.015 (validator tolerance 0.01)
+        entry = {"id": sc["id"], "start": round(start, 4), "end": round(end, 4), "layout": LAYOUT_NATE.get(sc["layout"], "face"),
                  "kind": sc.get("kind", "hook" if start == 0 else ("cta" if sc.get("keyword") else "beat")),
                  "anchor": anchor["text"] if anchor else "", "anchorTime": anchor["start"] if anchor else start}
         vids = [it for it in (sc.get("zone") or {}).get("items", []) if it.get("type") == "video"]

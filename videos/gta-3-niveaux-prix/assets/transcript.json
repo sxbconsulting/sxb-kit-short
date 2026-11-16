@@ -2,2005 +2,1991 @@
  "words": [
   {
    "text": "GTA",
-   "start": 0.412,
-   "end": 0.632,
-   "sourceStart": 1.745,
-   "sourceEnd": 1.965
+   "start": 0.111,
+   "end": 0.331,
+   "sourceStart": 1.744,
+   "sourceEnd": 1.964
   },
   {
    "text": "6",
-   "start": 0.652,
-   "end": 0.872,
-   "sourceStart": 1.985,
-   "sourceEnd": 2.205
+   "start": 0.471,
+   "end": 0.571,
+   "sourceStart": 2.104,
+   "sourceEnd": 2.204
   },
   {
    "text": "à",
-   "start": 0.912,
-   "end": 0.992,
-   "sourceStart": 2.245,
-   "sourceEnd": 2.325
+   "start": 0.611,
+   "end": 0.691,
+   "sourceStart": 2.244,
+   "sourceEnd": 2.324
   },
   {
    "text": "80",
-   "start": 1.353,
-   "end": 1.493,
-   "sourceStart": 2.686,
-   "sourceEnd": 2.826
+   "start": 0.731,
+   "end": 1.191,
+   "sourceStart": 2.364,
+   "sourceEnd": 2.824
   },
   {
    "text": "dollars",
-   "start": 1.513,
-   "end": 1.894,
-   "sourceStart": 2.846,
-   "sourceEnd": 3.227
+   "start": 1.211,
+   "end": 1.592,
+   "sourceStart": 2.844,
+   "sourceEnd": 3.225
   },
   {
    "text": "ou",
-   "start": 1.954,
-   "end": 2.034,
-   "sourceStart": 3.287,
-   "sourceEnd": 3.367
+   "start": 1.652,
+   "end": 1.732,
+   "sourceStart": 3.285,
+   "sourceEnd": 3.365
   },
   {
    "text": "à",
-   "start": 2.074,
-   "end": 2.114,
-   "sourceStart": 3.407,
-   "sourceEnd": 3.447
+   "start": 1.772,
+   "end": 1.812,
+   "sourceStart": 3.405,
+   "sourceEnd": 3.445
   },
   {
    "text": "100",
-   "start": 2.154,
-   "end": 2.274,
-   "sourceStart": 3.487,
-   "sourceEnd": 3.607
+   "start": 1.852,
+   "end": 1.972,
+   "sourceStart": 3.485,
+   "sourceEnd": 3.605
   },
   {
    "text": "dollars",
-   "start": 2.294,
-   "end": 2.535,
-   "sourceStart": 3.627,
-   "sourceEnd": 3.868
+   "start": 1.992,
+   "end": 2.232,
+   "sourceStart": 3.625,
+   "sourceEnd": 3.865
   },
   {
    "text": "Devine",
-   "start": 2.675,
-   "end": 2.995,
-   "sourceStart": 4.008,
-   "sourceEnd": 4.328
+   "start": 2.372,
+   "end": 2.692,
+   "sourceStart": 4.005,
+   "sourceEnd": 4.325
   },
   {
    "text": "lequel",
-   "start": 3.015,
-   "end": 3.256,
-   "sourceStart": 4.348,
-   "sourceEnd": 4.589
+   "start": 2.712,
+   "end": 2.952,
+   "sourceStart": 4.345,
+   "sourceEnd": 4.585
   },
   {
    "text": "se",
-   "start": 3.276,
-   "end": 3.356,
-   "sourceStart": 4.609,
-   "sourceEnd": 4.689
+   "start": 2.972,
+   "end": 3.052,
+   "sourceStart": 4.605,
+   "sourceEnd": 4.685
   },
   {
    "text": "précommande",
-   "start": 3.376,
-   "end": 3.636,
-   "sourceStart": 4.709,
-   "sourceEnd": 4.969
+   "start": 3.072,
+   "end": 3.332,
+   "sourceStart": 4.705,
+   "sourceEnd": 4.965
   },
   {
    "text": "le",
-   "start": 3.656,
-   "end": 3.696,
-   "sourceStart": 4.989,
-   "sourceEnd": 5.029
+   "start": 3.352,
+   "end": 3.392,
+   "sourceStart": 4.985,
+   "sourceEnd": 5.025
   },
   {
-   "text": "plus",
-   "start": 3.736,
-   "end": 4.057,
-   "sourceStart": 5.069,
-   "sourceEnd": 5.39
+   "text": "plus.",
+   "start": 3.432,
+   "end": 3.767,
+   "sourceStart": 5.065,
+   "sourceEnd": 5.4
   },
   {
    "text": "C'est",
-   "start": 4.157,
-   "end": 4.297,
-   "sourceStart": 15.79,
-   "sourceEnd": 15.93
+   "start": 3.852,
+   "end": 3.993,
+   "sourceStart": 15.785,
+   "sourceEnd": 15.926
   },
   {
    "text": "celle",
-   "start": 4.317,
-   "end": 4.497,
-   "sourceStart": 15.95,
-   "sourceEnd": 16.13
+   "start": 4.013,
+   "end": 4.193,
+   "sourceStart": 15.946,
+   "sourceEnd": 16.126
   },
   {
    "text": "à",
-   "start": 4.517,
-   "end": 4.618,
-   "sourceStart": 16.15,
-   "sourceEnd": 16.251
+   "start": 4.213,
+   "end": 4.313,
+   "sourceStart": 16.146,
+   "sourceEnd": 16.246
   },
   {
    "text": "100",
-   "start": 4.658,
-   "end": 4.838,
-   "sourceStart": 16.291,
-   "sourceEnd": 16.471
+   "start": 4.353,
+   "end": 4.533,
+   "sourceStart": 16.286,
+   "sourceEnd": 16.466
   },
   {
    "text": "dollars.",
-   "start": 4.858,
-   "end": 5.519,
-   "sourceStart": 16.491,
-   "sourceEnd": 17.152
+   "start": 4.553,
+   "end": 5.213,
+   "sourceStart": 16.486,
+   "sourceEnd": 17.146
   },
   {
    "text": "Et",
-   "start": 5.559,
-   "end": 5.599,
-   "sourceStart": 17.192,
-   "sourceEnd": 17.232
+   "start": 5.253,
+   "end": 5.293,
+   "sourceStart": 17.186,
+   "sourceEnd": 17.226
   },
   {
    "text": "c'est",
-   "start": 5.619,
-   "end": 5.719,
-   "sourceStart": 17.252,
-   "sourceEnd": 17.352
+   "start": 5.313,
+   "end": 5.413,
+   "sourceStart": 17.246,
+   "sourceEnd": 17.346
   },
   {
    "text": "pas",
-   "start": 5.739,
-   "end": 5.799,
-   "sourceStart": 17.372,
-   "sourceEnd": 17.432
+   "start": 5.433,
+   "end": 5.493,
+   "sourceStart": 17.366,
+   "sourceEnd": 17.426
   },
   {
    "text": "moi",
-   "start": 5.819,
-   "end": 5.879,
-   "sourceStart": 17.452,
-   "sourceEnd": 17.512
+   "start": 5.513,
+   "end": 5.573,
+   "sourceStart": 17.446,
+   "sourceEnd": 17.506
   },
   {
    "text": "qui",
-   "start": 5.899,
-   "end": 5.959,
-   "sourceStart": 17.532,
-   "sourceEnd": 17.592
+   "start": 5.593,
+   "end": 5.653,
+   "sourceStart": 17.526,
+   "sourceEnd": 17.586
   },
   {
    "text": "le",
-   "start": 5.979,
-   "end": 6.02,
-   "sourceStart": 17.612,
-   "sourceEnd": 17.653
+   "start": 5.673,
+   "end": 5.713,
+   "sourceStart": 17.606,
+   "sourceEnd": 17.646
   },
   {
    "text": "dis,",
-   "start": 6.04,
-   "end": 6.12,
-   "sourceStart": 17.673,
-   "sourceEnd": 17.753
+   "start": 5.733,
+   "end": 5.813,
+   "sourceStart": 17.666,
+   "sourceEnd": 17.746
   },
   {
    "text": "c'est",
-   "start": 6.14,
-   "end": 6.26,
-   "sourceStart": 17.773,
-   "sourceEnd": 17.893
+   "start": 5.833,
+   "end": 5.953,
+   "sourceStart": 17.766,
+   "sourceEnd": 17.886
   },
   {
    "text": "le",
-   "start": 6.28,
-   "end": 6.4,
-   "sourceStart": 17.913,
-   "sourceEnd": 18.033
+   "start": 5.973,
+   "end": 6.093,
+   "sourceStart": 17.906,
+   "sourceEnd": 18.026
   },
   {
    "text": "patron",
-   "start": 6.42,
-   "end": 6.68,
-   "sourceStart": 18.053,
-   "sourceEnd": 18.313
+   "start": 6.113,
+   "end": 6.373,
+   "sourceStart": 18.046,
+   "sourceEnd": 18.306
   },
   {
    "text": "de",
-   "start": 6.7,
-   "end": 6.801,
-   "sourceStart": 18.333,
-   "sourceEnd": 18.434
+   "start": 6.393,
+   "end": 6.493,
+   "sourceStart": 18.326,
+   "sourceEnd": 18.426
   },
   {
    "text": "Take-Two",
-   "start": 6.821,
-   "end": 7.161,
-   "sourceStart": 18.454,
-   "sourceEnd": 18.794
+   "start": 6.513,
+   "end": 6.854,
+   "sourceStart": 18.446,
+   "sourceEnd": 18.787
   },
   {
    "text": "qui",
-   "start": 7.181,
-   "end": 7.261,
-   "sourceStart": 18.814,
-   "sourceEnd": 18.894
+   "start": 6.874,
+   "end": 6.954,
+   "sourceStart": 18.807,
+   "sourceEnd": 18.887
   },
   {
    "text": "l'a",
-   "start": 7.281,
-   "end": 7.381,
-   "sourceStart": 18.914,
-   "sourceEnd": 19.014
+   "start": 6.974,
+   "end": 7.074,
+   "sourceStart": 18.907,
+   "sourceEnd": 19.007
   },
   {
    "text": "dit",
-   "start": 7.401,
-   "end": 7.542,
-   "sourceStart": 19.034,
-   "sourceEnd": 19.175
+   "start": 7.094,
+   "end": 7.234,
+   "sourceStart": 19.027,
+   "sourceEnd": 19.167
   },
   {
    "text": "sur",
-   "start": 7.582,
-   "end": 7.822,
-   "sourceStart": 19.215,
-   "sourceEnd": 19.455
+   "start": 7.254,
+   "end": 7.514,
+   "sourceStart": 19.187,
+   "sourceEnd": 19.447
   },
   {
    "text": "CNBC",
-   "start": 7.862,
-   "end": 8.383,
-   "sourceStart": 19.495,
-   "sourceEnd": 20.016
+   "start": 7.554,
+   "end": 8.074,
+   "sourceStart": 19.487,
+   "sourceEnd": 20.007
   },
   {
    "text": "en",
-   "start": 8.403,
-   "end": 8.483,
-   "sourceStart": 20.036,
-   "sourceEnd": 20.116
+   "start": 8.094,
+   "end": 8.174,
+   "sourceStart": 20.027,
+   "sourceEnd": 20.107
   },
   {
    "text": "août.",
-   "start": 8.503,
-   "end": 8.793,
-   "sourceStart": 20.136,
-   "sourceEnd": 20.426
-  },
-  {
-   "text": "Il",
-   "start": 8.793,
-   "end": 8.833,
-   "sourceStart": 20.426,
+   "start": 8.194,
+   "end": 8.533,
+   "sourceStart": 20.127,
    "sourceEnd": 20.466
   },
   {
-   "text": "n'y",
-   "start": 8.884,
-   "end": 8.944,
-   "sourceStart": 20.651,
-   "sourceEnd": 20.711
-  },
-  {
-   "text": "a",
-   "start": 8.984,
-   "end": 9.044,
-   "sourceStart": 20.751,
-   "sourceEnd": 20.811
+   "text": "Y'a",
+   "start": 8.594,
+   "end": 8.734,
+   "sourceStart": 20.661,
+   "sourceEnd": 20.801
   },
   {
    "text": "pas",
-   "start": 9.084,
-   "end": 9.164,
-   "sourceStart": 20.851,
-   "sourceEnd": 20.931
+   "start": 8.774,
+   "end": 8.854,
+   "sourceStart": 20.841,
+   "sourceEnd": 20.921
   },
   {
    "text": "de",
-   "start": 9.184,
-   "end": 9.224,
-   "sourceStart": 20.951,
-   "sourceEnd": 20.991
+   "start": 8.874,
+   "end": 8.914,
+   "sourceStart": 20.941,
+   "sourceEnd": 20.981
   },
   {
    "text": "chiffre",
-   "start": 9.244,
-   "end": 9.444,
-   "sourceStart": 21.011,
-   "sourceEnd": 21.211
+   "start": 8.934,
+   "end": 9.134,
+   "sourceStart": 21.001,
+   "sourceEnd": 21.201
   },
   {
    "text": "précis.",
-   "start": 9.464,
-   "end": 10.165,
-   "sourceStart": 21.231,
-   "sourceEnd": 21.932
+   "start": 9.154,
+   "end": 9.855,
+   "sourceStart": 21.221,
+   "sourceEnd": 21.922
   },
   {
    "text": "Juste",
-   "start": 10.185,
-   "end": 10.326,
-   "sourceStart": 21.952,
-   "sourceEnd": 22.093
+   "start": 9.875,
+   "end": 10.015,
+   "sourceStart": 21.942,
+   "sourceEnd": 22.082
   },
   {
    "text": "qu'il",
-   "start": 10.346,
-   "end": 10.446,
-   "sourceStart": 22.113,
-   "sourceEnd": 22.213
+   "start": 10.035,
+   "end": 10.135,
+   "sourceStart": 22.102,
+   "sourceEnd": 22.202
   },
   {
    "text": "y",
-   "start": 10.466,
-   "end": 10.506,
-   "sourceStart": 22.233,
-   "sourceEnd": 22.273
+   "start": 10.155,
+   "end": 10.195,
+   "sourceStart": 22.222,
+   "sourceEnd": 22.262
   },
   {
    "text": "a",
-   "start": 10.506,
-   "end": 10.546,
-   "sourceStart": 22.273,
-   "sourceEnd": 22.313
+   "start": 10.195,
+   "end": 10.235,
+   "sourceStart": 22.262,
+   "sourceEnd": 22.302
   },
   {
    "text": "eu",
-   "start": 10.586,
-   "end": 10.626,
-   "sourceStart": 22.353,
-   "sourceEnd": 22.393
+   "start": 10.275,
+   "end": 10.315,
+   "sourceStart": 22.342,
+   "sourceEnd": 22.382
   },
   {
    "text": "plus",
-   "start": 10.646,
-   "end": 10.826,
-   "sourceStart": 22.413,
-   "sourceEnd": 22.593
+   "start": 10.335,
+   "end": 10.515,
+   "sourceStart": 22.402,
+   "sourceEnd": 22.582
   },
   {
    "text": "de",
-   "start": 10.846,
-   "end": 10.967,
-   "sourceStart": 22.613,
-   "sourceEnd": 22.734
+   "start": 10.535,
+   "end": 10.655,
+   "sourceStart": 22.602,
+   "sourceEnd": 22.722
   },
   {
    "text": "précommande",
-   "start": 10.987,
-   "end": 11.527,
-   "sourceStart": 22.754,
-   "sourceEnd": 23.294
+   "start": 10.675,
+   "end": 11.215,
+   "sourceStart": 22.742,
+   "sourceEnd": 23.282
   },
   {
    "text": "que",
-   "start": 11.547,
-   "end": 11.648,
-   "sourceStart": 23.314,
-   "sourceEnd": 23.415
+   "start": 11.235,
+   "end": 11.335,
+   "sourceStart": 23.302,
+   "sourceEnd": 23.402
   },
   {
    "text": "l'édition",
-   "start": 11.668,
-   "end": 11.988,
-   "sourceStart": 23.435,
-   "sourceEnd": 23.755
+   "start": 11.355,
+   "end": 11.675,
+   "sourceStart": 23.422,
+   "sourceEnd": 23.742
   },
   {
    "text": "standard.",
-   "start": 12.028,
-   "end": 12.433,
-   "sourceStart": 23.795,
+   "start": 11.715,
+   "end": 12.133,
+   "sourceStart": 23.782,
    "sourceEnd": 24.2
   },
   {
    "text": "Et",
-   "start": 12.649,
-   "end": 12.689,
-   "sourceStart": 24.583,
-   "sourceEnd": 24.623
+   "start": 12.336,
+   "end": 12.376,
+   "sourceStart": 24.57,
+   "sourceEnd": 24.61
   },
   {
    "text": "ça,",
-   "start": 12.729,
-   "end": 12.809,
-   "sourceStart": 24.663,
-   "sourceEnd": 24.743
+   "start": 12.416,
+   "end": 12.496,
+   "sourceStart": 24.65,
+   "sourceEnd": 24.73
   },
   {
    "text": "tu",
-   "start": 12.829,
-   "end": 12.889,
-   "sourceStart": 24.763,
-   "sourceEnd": 24.823
+   "start": 12.516,
+   "end": 12.576,
+   "sourceStart": 24.75,
+   "sourceEnd": 24.81
   },
   {
    "text": "peux",
-   "start": 12.909,
-   "end": 13.009,
-   "sourceStart": 24.843,
-   "sourceEnd": 24.943
+   "start": 12.596,
+   "end": 12.696,
+   "sourceStart": 24.83,
+   "sourceEnd": 24.93
   },
   {
    "text": "le",
-   "start": 13.029,
-   "end": 13.09,
-   "sourceStart": 24.963,
-   "sourceEnd": 25.024
+   "start": 12.716,
+   "end": 12.776,
+   "sourceStart": 24.95,
+   "sourceEnd": 25.01
   },
   {
    "text": "copier",
-   "start": 13.11,
-   "end": 13.29,
-   "sourceStart": 25.044,
-   "sourceEnd": 25.224
+   "start": 12.796,
+   "end": 12.976,
+   "sourceStart": 25.03,
+   "sourceEnd": 25.21
   },
   {
    "text": "dans",
-   "start": 13.31,
-   "end": 13.41,
-   "sourceStart": 25.244,
-   "sourceEnd": 25.344
+   "start": 12.996,
+   "end": 13.096,
+   "sourceStart": 25.23,
+   "sourceEnd": 25.33
   },
   {
    "text": "ta",
-   "start": 13.43,
-   "end": 13.51,
-   "sourceStart": 25.364,
-   "sourceEnd": 25.444
+   "start": 13.116,
+   "end": 13.176,
+   "sourceStart": 25.35,
+   "sourceEnd": 25.41
   },
   {
    "text": "boutique",
-   "start": 13.53,
-   "end": 13.75,
-   "sourceStart": 25.464,
-   "sourceEnd": 25.684
+   "start": 13.196,
+   "end": 13.436,
+   "sourceStart": 25.43,
+   "sourceEnd": 25.67
   },
   {
    "text": "e-commerce.",
-   "start": 13.811,
-   "end": 14.367,
-   "sourceStart": 25.745,
+   "start": 13.496,
+   "end": 14.067,
+   "sourceStart": 25.73,
    "sourceEnd": 26.301
   },
   {
    "text": "Pense",
-   "start": 14.431,
-   "end": 14.632,
-   "sourceStart": 26.531,
-   "sourceEnd": 26.732
+   "start": 14.116,
+   "end": 14.316,
+   "sourceStart": 26.516,
+   "sourceEnd": 26.716
   },
   {
    "text": "à",
-   "start": 14.652,
-   "end": 14.692,
-   "sourceStart": 26.752,
-   "sourceEnd": 26.792
+   "start": 14.336,
+   "end": 14.376,
+   "sourceStart": 26.736,
+   "sourceEnd": 26.776
   },
   {
    "text": "la",
-   "start": 14.712,
-   "end": 14.772,
-   "sourceStart": 26.812,
-   "sourceEnd": 26.872
+   "start": 14.396,
+   "end": 14.456,
+   "sourceStart": 26.796,
+   "sourceEnd": 26.856
   },
   {
    "text": "boulangerie.",
-   "start": 14.792,
-   "end": 15.233,
-   "sourceStart": 26.892,
+   "start": 14.476,
+   "end": 14.933,
+   "sourceStart": 26.876,
    "sourceEnd": 27.333
   },
   {
    "text": "Ils",
-   "start": 15.513,
-   "end": 15.573,
-   "sourceStart": 29.08,
-   "sourceEnd": 29.14
+   "start": 15.197,
+   "end": 15.257,
+   "sourceStart": 29.064,
+   "sourceEnd": 29.124
   },
   {
    "text": "vendent.",
-   "start": 15.593,
-   "end": 16.214,
-   "sourceStart": 29.16,
-   "sourceEnd": 29.781
+   "start": 15.277,
+   "end": 15.877,
+   "sourceStart": 29.144,
+   "sourceEnd": 29.744
   },
   {
    "text": "La",
-   "start": 16.354,
-   "end": 16.434,
-   "sourceStart": 29.921,
-   "sourceEnd": 30.001
+   "start": 16.057,
+   "end": 16.137,
+   "sourceStart": 29.924,
+   "sourceEnd": 30.004
   },
   {
    "text": "baguette,",
-   "start": 16.454,
-   "end": 16.955,
-   "sourceStart": 30.021,
-   "sourceEnd": 30.522
+   "start": 16.157,
+   "end": 16.657,
+   "sourceStart": 30.024,
+   "sourceEnd": 30.524
   },
   {
    "text": "le",
-   "start": 16.975,
-   "end": 17.075,
-   "sourceStart": 30.542,
-   "sourceEnd": 30.642
+   "start": 16.678,
+   "end": 16.778,
+   "sourceStart": 30.545,
+   "sourceEnd": 30.645
   },
   {
    "text": "pack",
-   "start": 17.095,
-   "end": 17.255,
-   "sourceStart": 30.662,
-   "sourceEnd": 30.822
+   "start": 16.798,
+   "end": 16.958,
+   "sourceStart": 30.665,
+   "sourceEnd": 30.825
   },
   {
    "text": "petit-déjeuner,",
-   "start": 17.275,
-   "end": 17.895,
-   "sourceStart": 30.842,
-   "sourceEnd": 31.462
+   "start": 16.978,
+   "end": 17.598,
+   "sourceStart": 30.845,
+   "sourceEnd": 31.465
   },
   {
    "text": "la",
-   "start": 17.916,
-   "end": 17.996,
-   "sourceStart": 31.483,
-   "sourceEnd": 31.563
+   "start": 17.618,
+   "end": 17.678,
+   "sourceStart": 31.485,
+   "sourceEnd": 31.545
   },
   {
    "text": "formule",
-   "start": 18.016,
-   "end": 18.236,
-   "sourceStart": 31.583,
-   "sourceEnd": 31.803
+   "start": 17.718,
+   "end": 17.938,
+   "sourceStart": 31.585,
+   "sourceEnd": 31.805
   },
   {
    "text": "du",
-   "start": 18.256,
-   "end": 18.296,
-   "sourceStart": 31.823,
-   "sourceEnd": 31.863
+   "start": 17.958,
+   "end": 17.998,
+   "sourceStart": 31.825,
+   "sourceEnd": 31.865
   },
   {
    "text": "midi.",
-   "start": 18.316,
-   "end": 18.667,
-   "sourceStart": 31.883,
+   "start": 18.018,
+   "end": 18.367,
+   "sourceStart": 31.885,
    "sourceEnd": 32.234
   },
   {
    "text": "Toi,",
-   "start": 18.736,
-   "end": 18.896,
-   "sourceStart": 33.469,
-   "sourceEnd": 33.629
+   "start": 18.439,
+   "end": 18.599,
+   "sourceStart": 33.472,
+   "sourceEnd": 33.632
   },
   {
    "text": "tu",
-   "start": 18.916,
-   "end": 18.976,
-   "sourceStart": 33.649,
-   "sourceEnd": 33.709
+   "start": 18.619,
+   "end": 18.679,
+   "sourceStart": 33.652,
+   "sourceEnd": 33.712
   },
   {
    "text": "viens",
-   "start": 18.996,
-   "end": 19.117,
-   "sourceStart": 33.729,
-   "sourceEnd": 33.85
+   "start": 18.699,
+   "end": 18.819,
+   "sourceStart": 33.732,
+   "sourceEnd": 33.852
   },
   {
    "text": "pour",
-   "start": 19.137,
-   "end": 19.237,
-   "sourceStart": 33.87,
-   "sourceEnd": 33.97
+   "start": 18.839,
+   "end": 18.939,
+   "sourceStart": 33.872,
+   "sourceEnd": 33.972
   },
   {
    "text": "la",
-   "start": 19.277,
-   "end": 19.337,
-   "sourceStart": 34.01,
-   "sourceEnd": 34.07
+   "start": 18.959,
+   "end": 19.039,
+   "sourceStart": 33.992,
+   "sourceEnd": 34.072
   },
   {
    "text": "baguette",
-   "start": 19.357,
-   "end": 19.617,
-   "sourceStart": 34.09,
-   "sourceEnd": 34.35
+   "start": 19.059,
+   "end": 19.319,
+   "sourceStart": 34.092,
+   "sourceEnd": 34.352
   },
   {
    "text": "et",
-   "start": 19.657,
-   "end": 19.717,
-   "sourceStart": 34.39,
-   "sourceEnd": 34.45
+   "start": 19.359,
+   "end": 19.399,
+   "sourceStart": 34.392,
+   "sourceEnd": 34.432
   },
   {
    "text": "tu",
-   "start": 19.737,
-   "end": 19.777,
-   "sourceStart": 34.47,
-   "sourceEnd": 34.51
+   "start": 19.439,
+   "end": 19.479,
+   "sourceStart": 34.472,
+   "sourceEnd": 34.512
   },
   {
    "text": "repars",
-   "start": 19.797,
-   "end": 19.957,
-   "sourceStart": 34.53,
-   "sourceEnd": 34.69
+   "start": 19.499,
+   "end": 19.659,
+   "sourceStart": 34.532,
+   "sourceEnd": 34.692
   },
   {
    "text": "avec",
-   "start": 19.977,
-   "end": 20.238,
-   "sourceStart": 34.71,
-   "sourceEnd": 34.971
+   "start": 19.679,
+   "end": 19.94,
+   "sourceStart": 34.712,
+   "sourceEnd": 34.973
   },
   {
    "text": "toute",
-   "start": 20.258,
-   "end": 20.518,
-   "sourceStart": 34.991,
-   "sourceEnd": 35.251
+   "start": 19.96,
+   "end": 20.22,
+   "sourceStart": 34.993,
+   "sourceEnd": 35.253
   },
   {
    "text": "la",
-   "start": 20.538,
-   "end": 20.658,
-   "sourceStart": 35.271,
-   "sourceEnd": 35.391
+   "start": 20.24,
+   "end": 20.36,
+   "sourceStart": 35.273,
+   "sourceEnd": 35.393
   },
   {
    "text": "formule.",
-   "start": 20.678,
-   "end": 21.133,
-   "sourceStart": 35.411,
+   "start": 20.38,
+   "end": 20.833,
+   "sourceStart": 35.413,
    "sourceEnd": 35.866
   },
   {
    "text": "Parce",
-   "start": 21.198,
-   "end": 21.299,
-   "sourceStart": 40.198,
-   "sourceEnd": 40.299
+   "start": 20.9,
+   "end": 21.0,
+   "sourceStart": 40.2,
+   "sourceEnd": 40.3
   },
   {
    "text": "que",
-   "start": 21.319,
-   "end": 21.399,
-   "sourceStart": 40.319,
-   "sourceEnd": 40.399
+   "start": 21.02,
+   "end": 21.12,
+   "sourceStart": 40.32,
+   "sourceEnd": 40.42
   },
   {
    "text": "ton",
-   "start": 21.419,
-   "end": 21.539,
-   "sourceStart": 40.419,
-   "sourceEnd": 40.539
+   "start": 21.14,
+   "end": 21.24,
+   "sourceStart": 40.44,
+   "sourceEnd": 40.54
   },
   {
    "text": "client,",
-   "start": 21.559,
-   "end": 21.779,
-   "sourceStart": 40.559,
-   "sourceEnd": 40.779
+   "start": 21.26,
+   "end": 21.481,
+   "sourceStart": 40.56,
+   "sourceEnd": 40.781
   },
   {
    "text": "il",
-   "start": 21.799,
-   "end": 21.839,
-   "sourceStart": 40.799,
-   "sourceEnd": 40.839
+   "start": 21.501,
+   "end": 21.541,
+   "sourceStart": 40.801,
+   "sourceEnd": 40.841
   },
   {
    "text": "ne",
-   "start": 21.859,
-   "end": 21.939,
-   "sourceStart": 40.859,
-   "sourceEnd": 40.939
+   "start": 21.561,
+   "end": 21.641,
+   "sourceStart": 40.861,
+   "sourceEnd": 40.941
   },
   {
    "text": "cherche",
-   "start": 21.959,
-   "end": 22.219,
-   "sourceStart": 40.959,
-   "sourceEnd": 41.219
+   "start": 21.661,
+   "end": 21.921,
+   "sourceStart": 40.961,
+   "sourceEnd": 41.221
   },
   {
    "text": "pas",
-   "start": 22.239,
-   "end": 22.319,
-   "sourceStart": 41.239,
-   "sourceEnd": 41.319
+   "start": 21.941,
+   "end": 22.021,
+   "sourceStart": 41.241,
+   "sourceEnd": 41.321
   },
   {
    "text": "le",
-   "start": 22.339,
-   "end": 22.38,
-   "sourceStart": 41.339,
-   "sourceEnd": 41.38
+   "start": 22.041,
+   "end": 22.081,
+   "sourceStart": 41.341,
+   "sourceEnd": 41.381
   },
   {
    "text": "moins",
-   "start": 22.4,
-   "end": 22.52,
-   "sourceStart": 41.4,
-   "sourceEnd": 41.52
+   "start": 22.101,
+   "end": 22.221,
+   "sourceStart": 41.401,
+   "sourceEnd": 41.521
   },
   {
    "text": "cher.",
-   "start": 22.54,
-   "end": 22.867,
-   "sourceStart": 41.54,
+   "start": 22.241,
+   "end": 22.567,
+   "sourceStart": 41.541,
    "sourceEnd": 41.867
   },
   {
    "text": "Il",
-   "start": 22.98,
-   "end": 23.1,
-   "sourceStart": 42.78,
-   "sourceEnd": 42.9
+   "start": 22.681,
+   "end": 22.801,
+   "sourceStart": 42.781,
+   "sourceEnd": 42.901
   },
   {
    "text": "cherche",
-   "start": 23.14,
-   "end": 23.38,
-   "sourceStart": 42.94,
-   "sourceEnd": 43.18
+   "start": 22.841,
+   "end": 23.082,
+   "sourceStart": 42.941,
+   "sourceEnd": 43.182
   },
   {
    "text": "la",
-   "start": 23.4,
-   "end": 23.48,
-   "sourceStart": 43.2,
-   "sourceEnd": 43.28
+   "start": 23.102,
+   "end": 23.182,
+   "sourceStart": 43.202,
+   "sourceEnd": 43.282
   },
   {
    "text": "version",
-   "start": 23.5,
-   "end": 23.701,
-   "sourceStart": 43.3,
-   "sourceEnd": 43.501
+   "start": 23.202,
+   "end": 23.402,
+   "sourceStart": 43.302,
+   "sourceEnd": 43.502
   },
   {
    "text": "qu'il",
-   "start": 23.721,
-   "end": 23.821,
-   "sourceStart": 43.521,
-   "sourceEnd": 43.621
+   "start": 23.422,
+   "end": 23.522,
+   "sourceStart": 43.522,
+   "sourceEnd": 43.622
   },
   {
    "text": "ne",
-   "start": 23.841,
-   "end": 23.881,
-   "sourceStart": 43.641,
-   "sourceEnd": 43.681
+   "start": 23.542,
+   "end": 23.582,
+   "sourceStart": 43.642,
+   "sourceEnd": 43.682
   },
   {
    "text": "regrettera",
-   "start": 23.901,
-   "end": 24.441,
-   "sourceStart": 43.701,
-   "sourceEnd": 44.241
+   "start": 23.602,
+   "end": 24.142,
+   "sourceStart": 43.702,
+   "sourceEnd": 44.242
   },
   {
    "text": "pas",
-   "start": 24.461,
-   "end": 24.642,
-   "sourceStart": 44.261,
+   "start": 24.162,
+   "end": 24.342,
+   "sourceStart": 44.262,
    "sourceEnd": 44.442
   },
   {
    "text": "d'avoir",
-   "start": 24.662,
-   "end": 24.922,
+   "start": 24.362,
+   "end": 24.623,
    "sourceStart": 44.462,
-   "sourceEnd": 44.722
+   "sourceEnd": 44.723
   },
   {
    "text": "prise.",
-   "start": 24.942,
-   "end": 25.322,
-   "sourceStart": 44.742,
-   "sourceEnd": 45.122
+   "start": 24.643,
+   "end": 25.033,
+   "sourceStart": 44.743,
+   "sourceEnd": 45.133
   },
   {
    "text": "Et",
-   "start": 25.402,
-   "end": 25.502,
-   "sourceStart": 46.202,
-   "sourceEnd": 46.302
+   "start": 25.103,
+   "end": 25.183,
+   "sourceStart": 46.203,
+   "sourceEnd": 46.283
   },
   {
    "text": "étant",
-   "start": 25.542,
-   "end": 25.702,
-   "sourceStart": 46.342,
-   "sourceEnd": 46.502
+   "start": 25.203,
+   "end": 25.303,
+   "sourceStart": 46.303,
+   "sourceEnd": 46.403
   },
   {
    "text": "donné",
-   "start": 25.722,
-   "end": 25.823,
-   "sourceStart": 46.522,
-   "sourceEnd": 46.623
+   "start": 25.323,
+   "end": 25.503,
+   "sourceStart": 46.423,
+   "sourceEnd": 46.603
   },
   {
    "text": "que",
-   "start": 25.843,
-   "end": 25.923,
-   "sourceStart": 46.643,
-   "sourceEnd": 46.723
+   "start": 25.523,
+   "end": 25.583,
+   "sourceStart": 46.623,
+   "sourceEnd": 46.683
   },
   {
    "text": "le",
-   "start": 25.943,
-   "end": 25.983,
-   "sourceStart": 46.743,
+   "start": 25.603,
+   "end": 25.683,
+   "sourceStart": 46.703,
    "sourceEnd": 46.783
   },
   {
    "text": "panier",
-   "start": 26.003,
-   "end": 26.183,
+   "start": 25.703,
+   "end": 25.883,
    "sourceStart": 46.803,
    "sourceEnd": 46.983
   },
   {
    "text": "moyen",
-   "start": 26.203,
-   "end": 26.403,
+   "start": 25.903,
+   "end": 26.103,
    "sourceStart": 47.003,
    "sourceEnd": 47.203
   },
   {
    "text": "en",
-   "start": 26.423,
-   "end": 26.483,
+   "start": 26.123,
+   "end": 26.184,
    "sourceStart": 47.223,
-   "sourceEnd": 47.283
+   "sourceEnd": 47.284
   },
   {
    "text": "France,",
-   "start": 26.503,
-   "end": 26.703,
-   "sourceStart": 47.303,
-   "sourceEnd": 47.503
+   "start": 26.204,
+   "end": 26.404,
+   "sourceStart": 47.304,
+   "sourceEnd": 47.504
   },
   {
    "text": "il",
-   "start": 26.743,
-   "end": 26.803,
-   "sourceStart": 47.543,
-   "sourceEnd": 47.603
+   "start": 26.444,
+   "end": 26.504,
+   "sourceStart": 47.544,
+   "sourceEnd": 47.604
   },
   {
    "text": "est",
-   "start": 26.823,
-   "end": 26.884,
-   "sourceStart": 47.623,
+   "start": 26.524,
+   "end": 26.584,
+   "sourceStart": 47.624,
    "sourceEnd": 47.684
   },
   {
    "text": "en",
-   "start": 26.904,
-   "end": 27.004,
+   "start": 26.604,
+   "end": 26.704,
    "sourceStart": 47.704,
    "sourceEnd": 47.804
   },
   {
    "text": "baisse,",
-   "start": 27.024,
-   "end": 27.567,
+   "start": 26.724,
+   "end": 27.267,
    "sourceStart": 47.824,
    "sourceEnd": 48.367
   },
   {
    "text": "chaque",
-   "start": 27.764,
-   "end": 28.065,
+   "start": 27.464,
+   "end": 27.765,
    "sourceStart": 48.997,
    "sourceEnd": 49.298
   },
   {
    "text": "euro",
-   "start": 28.125,
-   "end": 28.625,
+   "start": 27.825,
+   "end": 28.325,
    "sourceStart": 49.358,
    "sourceEnd": 49.858
   },
   {
    "text": "compte.",
-   "start": 28.645,
-   "end": 29.1,
+   "start": 28.345,
+   "end": 28.8,
    "sourceStart": 49.878,
    "sourceEnd": 50.333
   },
   {
    "text": "Donc",
-   "start": 29.186,
-   "end": 29.306,
-   "sourceStart": 53.619,
-   "sourceEnd": 53.739
+   "start": 28.885,
+   "end": 29.005,
+   "sourceStart": 53.618,
+   "sourceEnd": 53.738
   },
   {
    "text": "d'abord,",
-   "start": 29.326,
-   "end": 29.506,
-   "sourceStart": 53.759,
-   "sourceEnd": 53.939
+   "start": 29.025,
+   "end": 29.205,
+   "sourceStart": 53.758,
+   "sourceEnd": 53.938
   },
   {
    "text": "tu",
-   "start": 29.526,
-   "end": 29.566,
-   "sourceStart": 53.959,
-   "sourceEnd": 53.999
+   "start": 29.225,
+   "end": 29.265,
+   "sourceStart": 53.958,
+   "sourceEnd": 53.998
   },
   {
    "text": "vas",
-   "start": 29.586,
-   "end": 29.646,
-   "sourceStart": 54.019,
+   "start": 29.285,
+   "end": 29.346,
+   "sourceStart": 54.018,
    "sourceEnd": 54.079
   },
   {
    "text": "sur",
-   "start": 29.666,
-   "end": 29.746,
+   "start": 29.366,
+   "end": 29.446,
    "sourceStart": 54.099,
    "sourceEnd": 54.179
   },
   {
    "text": "ta",
-   "start": 29.786,
-   "end": 29.846,
-   "sourceStart": 54.219,
+   "start": 29.466,
+   "end": 29.546,
+   "sourceStart": 54.199,
    "sourceEnd": 54.279
   },
   {
    "text": "boutique",
-   "start": 29.866,
-   "end": 30.206,
+   "start": 29.566,
+   "end": 29.906,
    "sourceStart": 54.299,
    "sourceEnd": 54.639
   },
   {
    "text": "et",
-   "start": 30.267,
-   "end": 30.487,
-   "sourceStart": 54.7,
-   "sourceEnd": 54.92
+   "start": 29.946,
+   "end": 30.166,
+   "sourceStart": 54.679,
+   "sourceEnd": 54.899
   },
   {
    "text": "tu",
-   "start": 30.507,
-   "end": 30.587,
-   "sourceStart": 54.94,
-   "sourceEnd": 55.02
+   "start": 30.186,
+   "end": 30.286,
+   "sourceStart": 54.919,
+   "sourceEnd": 55.019
   },
   {
    "text": "construis",
-   "start": 30.607,
-   "end": 30.947,
-   "sourceStart": 55.04,
-   "sourceEnd": 55.38
+   "start": 30.306,
+   "end": 30.646,
+   "sourceStart": 55.039,
+   "sourceEnd": 55.379
   },
   {
    "text": "trois",
-   "start": 30.967,
-   "end": 31.247,
-   "sourceStart": 55.4,
+   "start": 30.666,
+   "end": 30.947,
+   "sourceStart": 55.399,
    "sourceEnd": 55.68
   },
   {
    "text": "offres,",
-   "start": 31.307,
-   "end": 31.608,
+   "start": 31.007,
+   "end": 31.307,
    "sourceStart": 55.74,
-   "sourceEnd": 56.041
+   "sourceEnd": 56.04
   },
   {
    "text": "pas",
-   "start": 31.628,
-   "end": 31.748,
-   "sourceStart": 56.061,
-   "sourceEnd": 56.181
+   "start": 31.327,
+   "end": 31.447,
+   "sourceStart": 56.06,
+   "sourceEnd": 56.18
   },
   {
    "text": "une.",
-   "start": 31.808,
-   "end": 32.088,
-   "sourceStart": 56.241,
-   "sourceEnd": 56.521
+   "start": 31.507,
+   "end": 31.807,
+   "sourceStart": 56.24,
+   "sourceEnd": 56.54
   },
   {
    "text": "Donc",
-   "start": 32.168,
-   "end": 32.288,
-   "sourceStart": 57.802,
-   "sourceEnd": 57.922
+   "start": 31.867,
+   "end": 32.007,
+   "sourceStart": 57.801,
+   "sourceEnd": 57.941
   },
   {
    "text": "déjà,",
-   "start": 32.328,
-   "end": 32.789,
-   "sourceStart": 57.962,
-   "sourceEnd": 58.423
+   "start": 32.027,
+   "end": 32.488,
+   "sourceStart": 57.961,
+   "sourceEnd": 58.422
   },
   {
    "text": "tu",
-   "start": 32.809,
-   "end": 32.849,
-   "sourceStart": 58.443,
-   "sourceEnd": 58.483
+   "start": 32.508,
+   "end": 32.548,
+   "sourceStart": 58.442,
+   "sourceEnd": 58.482
   },
   {
    "text": "auras",
-   "start": 32.869,
-   "end": 33.309,
-   "sourceStart": 58.503,
-   "sourceEnd": 58.943
+   "start": 32.568,
+   "end": 33.008,
+   "sourceStart": 58.502,
+   "sourceEnd": 58.942
   },
   {
    "text": "le",
-   "start": 33.349,
-   "end": 33.449,
-   "sourceStart": 58.983,
-   "sourceEnd": 59.083
+   "start": 33.028,
+   "end": 33.148,
+   "sourceStart": 58.962,
+   "sourceEnd": 59.082
   },
   {
    "text": "produit",
-   "start": 33.469,
-   "end": 33.73,
-   "sourceStart": 59.103,
-   "sourceEnd": 59.364
+   "start": 33.168,
+   "end": 33.428,
+   "sourceStart": 59.102,
+   "sourceEnd": 59.362
   },
   {
    "text": "seul,",
-   "start": 33.75,
-   "end": 34.15,
-   "sourceStart": 59.384,
-   "sourceEnd": 59.784
+   "start": 33.448,
+   "end": 33.828,
+   "sourceStart": 59.382,
+   "sourceEnd": 59.762
   },
   {
    "text": "après",
-   "start": 34.19,
-   "end": 34.711,
-   "sourceStart": 59.824,
-   "sourceEnd": 60.345
+   "start": 33.888,
+   "end": 34.409,
+   "sourceStart": 59.822,
+   "sourceEnd": 60.343
   },
   {
    "text": "un",
-   "start": 34.791,
-   "end": 34.951,
-   "sourceStart": 60.425,
-   "sourceEnd": 60.585
+   "start": 34.489,
+   "end": 34.649,
+   "sourceStart": 60.423,
+   "sourceEnd": 60.583
   },
   {
    "text": "pack",
-   "start": 34.991,
-   "end": 35.611,
-   "sourceStart": 60.625,
-   "sourceEnd": 61.245
+   "start": 34.669,
+   "end": 35.309,
+   "sourceStart": 60.603,
+   "sourceEnd": 61.243
   },
   {
    "text": "avec",
-   "start": 35.651,
-   "end": 35.892,
-   "sourceStart": 61.285,
-   "sourceEnd": 61.526
+   "start": 35.349,
+   "end": 35.589,
+   "sourceStart": 61.283,
+   "sourceEnd": 61.523
   },
   {
    "text": "pourquoi",
-   "start": 35.932,
-   "end": 36.192,
-   "sourceStart": 61.566,
-   "sourceEnd": 61.826
+   "start": 35.61,
+   "end": 35.89,
+   "sourceStart": 61.544,
+   "sourceEnd": 61.824
   },
   {
    "text": "pas",
-   "start": 36.212,
-   "end": 36.332,
-   "sourceStart": 61.846,
-   "sourceEnd": 61.966
+   "start": 35.91,
+   "end": 36.03,
+   "sourceStart": 61.844,
+   "sourceEnd": 61.964
   },
   {
    "text": "un",
-   "start": 36.372,
-   "end": 36.452,
-   "sourceStart": 62.006,
-   "sourceEnd": 62.086
+   "start": 36.05,
+   "end": 36.15,
+   "sourceStart": 61.984,
+   "sourceEnd": 62.084
   },
   {
    "text": "deuxième",
-   "start": 36.472,
-   "end": 36.772,
-   "sourceStart": 62.106,
-   "sourceEnd": 62.406
+   "start": 36.17,
+   "end": 36.47,
+   "sourceStart": 62.104,
+   "sourceEnd": 62.404
   },
   {
    "text": "acheté",
-   "start": 36.812,
-   "end": 37.453,
-   "sourceStart": 62.446,
-   "sourceEnd": 63.087
+   "start": 36.49,
+   "end": 37.15,
+   "sourceStart": 62.424,
+   "sourceEnd": 63.084
   },
   {
    "text": "avec",
-   "start": 37.493,
-   "end": 37.673,
-   "sourceStart": 63.127,
-   "sourceEnd": 63.307
+   "start": 37.17,
+   "end": 37.371,
+   "sourceStart": 63.104,
+   "sourceEnd": 63.305
   },
   {
    "text": "une",
-   "start": 37.713,
-   "end": 37.813,
-   "sourceStart": 63.347,
-   "sourceEnd": 63.447
+   "start": 37.411,
+   "end": 37.511,
+   "sourceStart": 63.345,
+   "sourceEnd": 63.445
   },
   {
    "text": "offre",
-   "start": 37.853,
-   "end": 38.274,
-   "sourceStart": 63.487,
-   "sourceEnd": 63.908
+   "start": 37.551,
+   "end": 37.971,
+   "sourceStart": 63.485,
+   "sourceEnd": 63.905
   },
   {
    "text": "et",
-   "start": 38.334,
-   "end": 38.514,
-   "sourceStart": 63.968,
-   "sourceEnd": 64.148
+   "start": 38.031,
+   "end": 38.211,
+   "sourceStart": 63.965,
+   "sourceEnd": 64.145
   },
   {
    "text": "le",
-   "start": 38.534,
-   "end": 38.614,
-   "sourceStart": 64.168,
-   "sourceEnd": 64.248
+   "start": 38.231,
+   "end": 38.311,
+   "sourceStart": 64.165,
+   "sourceEnd": 64.245
   },
   {
    "text": "pack",
-   "start": 38.634,
-   "end": 38.814,
-   "sourceStart": 64.268,
-   "sourceEnd": 64.448
+   "start": 38.331,
+   "end": 38.511,
+   "sourceStart": 64.265,
+   "sourceEnd": 64.445
   },
   {
    "text": "complet",
-   "start": 38.834,
-   "end": 39.094,
-   "sourceStart": 64.468,
-   "sourceEnd": 64.728
+   "start": 38.531,
+   "end": 38.792,
+   "sourceStart": 64.465,
+   "sourceEnd": 64.726
   },
   {
    "text": "avec",
-   "start": 39.114,
-   "end": 39.275,
-   "sourceStart": 64.748,
-   "sourceEnd": 64.909
+   "start": 38.812,
+   "end": 38.972,
+   "sourceStart": 64.746,
+   "sourceEnd": 64.906
   },
   {
    "text": "des",
-   "start": 39.295,
-   "end": 39.375,
-   "sourceStart": 64.929,
-   "sourceEnd": 65.009
+   "start": 38.992,
+   "end": 39.072,
+   "sourceStart": 64.926,
+   "sourceEnd": 65.006
   },
   {
    "text": "bonus.",
-   "start": 39.395,
-   "end": 39.755,
-   "sourceStart": 65.029,
-   "sourceEnd": 65.389
+   "start": 39.092,
+   "end": 39.533,
+   "sourceStart": 65.026,
+   "sourceEnd": 65.467
   },
   {
    "text": "Et",
-   "start": 39.915,
-   "end": 39.995,
-   "sourceStart": 70.982,
-   "sourceEnd": 71.062
+   "start": 39.632,
+   "end": 39.712,
+   "sourceStart": 70.999,
+   "sourceEnd": 71.079
   },
   {
    "text": "surtout,",
-   "start": 40.036,
-   "end": 40.236,
-   "sourceStart": 71.103,
-   "sourceEnd": 71.303
+   "start": 39.732,
+   "end": 39.932,
+   "sourceStart": 71.099,
+   "sourceEnd": 71.299
   },
   {
    "text": "dans",
-   "start": 40.256,
-   "end": 40.336,
-   "sourceStart": 71.323,
-   "sourceEnd": 71.403
+   "start": 39.952,
+   "end": 40.033,
+   "sourceStart": 71.319,
+   "sourceEnd": 71.4
   },
   {
    "text": "ta",
-   "start": 40.356,
-   "end": 40.396,
-   "sourceStart": 71.423,
-   "sourceEnd": 71.463
+   "start": 40.053,
+   "end": 40.093,
+   "sourceStart": 71.42,
+   "sourceEnd": 71.46
   },
   {
    "text": "page",
-   "start": 40.416,
-   "end": 40.556,
-   "sourceStart": 71.483,
-   "sourceEnd": 71.623
+   "start": 40.113,
+   "end": 40.253,
+   "sourceStart": 71.48,
+   "sourceEnd": 71.62
   },
   {
    "text": "produit,",
-   "start": 40.576,
-   "end": 41.037,
-   "sourceStart": 71.643,
-   "sourceEnd": 72.104
+   "start": 40.273,
+   "end": 40.733,
+   "sourceStart": 71.64,
+   "sourceEnd": 72.1
   },
   {
    "text": "mets",
-   "start": 41.077,
-   "end": 41.238,
-   "sourceStart": 72.144,
-   "sourceEnd": 72.305
+   "start": 40.773,
+   "end": 40.934,
+   "sourceStart": 72.14,
+   "sourceEnd": 72.301
   },
   {
    "text": "l'offre",
-   "start": 41.258,
-   "end": 41.498,
-   "sourceStart": 72.325,
-   "sourceEnd": 72.565
+   "start": 40.954,
+   "end": 41.214,
+   "sourceStart": 72.321,
+   "sourceEnd": 72.581
   },
   {
    "text": "du",
-   "start": 41.518,
-   "end": 41.598,
-   "sourceStart": 72.585,
-   "sourceEnd": 72.665
+   "start": 41.234,
+   "end": 41.294,
+   "sourceStart": 72.601,
+   "sourceEnd": 72.661
   },
   {
    "text": "milieu",
-   "start": 41.618,
-   "end": 41.819,
-   "sourceStart": 72.685,
-   "sourceEnd": 72.886
+   "start": 41.314,
+   "end": 41.514,
+   "sourceStart": 72.681,
+   "sourceEnd": 72.881
   },
   {
    "text": "en",
-   "start": 41.839,
-   "end": 41.899,
-   "sourceStart": 72.906,
-   "sourceEnd": 72.966
+   "start": 41.534,
+   "end": 41.594,
+   "sourceStart": 72.901,
+   "sourceEnd": 72.961
   },
   {
    "text": "avant",
-   "start": 41.939,
-   "end": 42.099,
-   "sourceStart": 73.006,
-   "sourceEnd": 73.166
+   "start": 41.634,
+   "end": 41.794,
+   "sourceStart": 73.001,
+   "sourceEnd": 73.161
   },
   {
    "text": "parce",
-   "start": 42.119,
-   "end": 42.219,
-   "sourceStart": 73.186,
-   "sourceEnd": 73.286
+   "start": 41.814,
+   "end": 41.935,
+   "sourceStart": 73.181,
+   "sourceEnd": 73.302
   },
   {
    "text": "que",
-   "start": 42.24,
-   "end": 42.32,
-   "sourceStart": 73.307,
-   "sourceEnd": 73.387
+   "start": 41.955,
+   "end": 42.015,
+   "sourceStart": 73.322,
+   "sourceEnd": 73.382
   },
   {
    "text": "c'est",
-   "start": 42.34,
-   "end": 42.46,
-   "sourceStart": 73.407,
-   "sourceEnd": 73.527
+   "start": 42.035,
+   "end": 42.155,
+   "sourceStart": 73.402,
+   "sourceEnd": 73.522
   },
   {
    "text": "souvent",
-   "start": 42.48,
-   "end": 42.66,
-   "sourceStart": 73.547,
-   "sourceEnd": 73.727
+   "start": 42.175,
+   "end": 42.375,
+   "sourceStart": 73.542,
+   "sourceEnd": 73.742
   },
   {
    "text": "celle",
-   "start": 42.68,
-   "end": 42.781,
-   "sourceStart": 73.747,
-   "sourceEnd": 73.848
+   "start": 42.415,
+   "end": 42.515,
+   "sourceStart": 73.782,
+   "sourceEnd": 73.882
   },
   {
    "text": "qu'on",
-   "start": 42.801,
-   "end": 42.941,
-   "sourceStart": 73.868,
-   "sourceEnd": 74.008
+   "start": 42.535,
+   "end": 42.635,
+   "sourceStart": 73.902,
+   "sourceEnd": 74.002
   },
   {
    "text": "choisit.",
-   "start": 42.961,
-   "end": 43.4,
-   "sourceStart": 74.028,
-   "sourceEnd": 74.467
+   "start": 42.655,
+   "end": 42.876,
+   "sourceStart": 74.022,
+   "sourceEnd": 74.243
   },
   {
    "text": "Et",
-   "start": 43.462,
-   "end": 43.502,
-   "sourceStart": 76.529,
-   "sourceEnd": 76.569
+   "start": 43.076,
+   "end": 43.1,
+   "sourceStart": 74.443,
+   "sourceEnd": 74.467
   },
   {
    "text": "en",
-   "start": 43.522,
-   "end": 43.562,
-   "sourceStart": 76.589,
-   "sourceEnd": 76.629
+   "start": 43.156,
+   "end": 43.216,
+   "sourceStart": 76.523,
+   "sourceEnd": 76.583
   },
   {
    "text": "ce",
-   "start": 43.582,
-   "end": 43.622,
-   "sourceStart": 76.649,
-   "sourceEnd": 76.689
+   "start": 43.236,
+   "end": 43.316,
+   "sourceStart": 76.603,
+   "sourceEnd": 76.683
   },
   {
    "text": "qui",
-   "start": 43.642,
-   "end": 43.742,
-   "sourceStart": 76.709,
-   "sourceEnd": 76.809
+   "start": 43.336,
+   "end": 43.436,
+   "sourceStart": 76.703,
+   "sourceEnd": 76.803
   },
   {
    "text": "concerne",
-   "start": 43.762,
-   "end": 44.023,
-   "sourceStart": 76.829,
-   "sourceEnd": 77.09
+   "start": 43.456,
+   "end": 43.717,
+   "sourceStart": 76.823,
+   "sourceEnd": 77.084
   },
   {
    "text": "les",
-   "start": 44.043,
-   "end": 44.123,
-   "sourceStart": 77.11,
-   "sourceEnd": 77.19
+   "start": 43.737,
+   "end": 43.817,
+   "sourceStart": 77.104,
+   "sourceEnd": 77.184
   },
   {
    "text": "bonus,",
-   "start": 44.143,
-   "end": 44.884,
-   "sourceStart": 77.21,
-   "sourceEnd": 77.951
+   "start": 43.837,
+   "end": 44.578,
+   "sourceStart": 77.204,
+   "sourceEnd": 77.945
   },
   {
    "text": "pars",
-   "start": 44.904,
-   "end": 45.145,
-   "sourceStart": 77.971,
-   "sourceEnd": 78.212
+   "start": 44.598,
+   "end": 44.838,
+   "sourceStart": 77.965,
+   "sourceEnd": 78.205
   },
   {
    "text": "sur",
-   "start": 45.165,
-   "end": 45.265,
-   "sourceStart": 78.232,
-   "sourceEnd": 78.332
+   "start": 44.858,
+   "end": 44.958,
+   "sourceStart": 78.225,
+   "sourceEnd": 78.325
   },
   {
    "text": "des",
-   "start": 45.285,
-   "end": 45.365,
-   "sourceStart": 78.352,
-   "sourceEnd": 78.432
+   "start": 44.998,
+   "end": 45.058,
+   "sourceStart": 78.365,
+   "sourceEnd": 78.425
   },
   {
    "text": "bonus",
-   "start": 45.385,
-   "end": 45.626,
-   "sourceStart": 78.452,
-   "sourceEnd": 78.693
+   "start": 45.078,
+   "end": 45.318,
+   "sourceStart": 78.445,
+   "sourceEnd": 78.685
   },
   {
    "text": "qui",
-   "start": 45.646,
-   "end": 45.746,
-   "sourceStart": 78.713,
-   "sourceEnd": 78.813
+   "start": 45.338,
+   "end": 45.438,
+   "sourceStart": 78.705,
+   "sourceEnd": 78.805
   },
   {
    "text": "te",
-   "start": 45.766,
-   "end": 45.886,
-   "sourceStart": 78.833,
-   "sourceEnd": 78.953
+   "start": 45.458,
+   "end": 45.579,
+   "sourceStart": 78.825,
+   "sourceEnd": 78.946
   },
   {
    "text": "coûtent",
-   "start": 45.906,
-   "end": 46.147,
-   "sourceStart": 78.973,
-   "sourceEnd": 79.214
+   "start": 45.599,
+   "end": 45.839,
+   "sourceStart": 78.966,
+   "sourceEnd": 79.206
   },
   {
    "text": "peu",
-   "start": 46.167,
-   "end": 46.527,
-   "sourceStart": 79.234,
-   "sourceEnd": 79.594
+   "start": 45.859,
+   "end": 46.219,
+   "sourceStart": 79.226,
+   "sourceEnd": 79.586
   },
   {
    "text": "mais",
-   "start": 46.547,
-   "end": 46.648,
-   "sourceStart": 79.614,
-   "sourceEnd": 79.715
+   "start": 46.239,
+   "end": 46.339,
+   "sourceStart": 79.606,
+   "sourceEnd": 79.706
   },
   {
    "text": "qui",
-   "start": 46.668,
-   "end": 46.788,
-   "sourceStart": 79.735,
-   "sourceEnd": 79.855
+   "start": 46.359,
+   "end": 46.48,
+   "sourceStart": 79.726,
+   "sourceEnd": 79.847
   },
   {
    "text": "valent",
-   "start": 46.808,
-   "end": 47.048,
-   "sourceStart": 79.875,
-   "sourceEnd": 80.115
+   "start": 46.5,
+   "end": 46.74,
+   "sourceStart": 79.867,
+   "sourceEnd": 80.107
   },
   {
    "text": "cher",
-   "start": 47.068,
-   "end": 47.449,
-   "sourceStart": 80.135,
-   "sourceEnd": 80.516
+   "start": 46.76,
+   "end": 47.16,
+   "sourceStart": 80.127,
+   "sourceEnd": 80.527
   },
   {
    "text": "pour",
-   "start": 47.489,
-   "end": 47.649,
-   "sourceStart": 80.556,
-   "sourceEnd": 80.716
+   "start": 47.18,
+   "end": 47.341,
+   "sourceStart": 80.547,
+   "sourceEnd": 80.708
   },
   {
    "text": "ton",
-   "start": 47.669,
-   "end": 47.79,
-   "sourceStart": 80.736,
-   "sourceEnd": 80.857
+   "start": 47.361,
+   "end": 47.501,
+   "sourceStart": 80.728,
+   "sourceEnd": 80.868
   },
   {
    "text": "consommateur.",
-   "start": 47.81,
-   "end": 48.391,
-   "sourceStart": 80.877,
-   "sourceEnd": 81.458
+   "start": 47.521,
+   "end": 48.081,
+   "sourceStart": 80.888,
+   "sourceEnd": 81.448
   },
   {
    "text": "Que",
-   "start": 48.427,
-   "end": 48.467,
-   "sourceStart": 81.494,
+   "start": 48.141,
+   "end": 48.167,
+   "sourceStart": 81.508,
    "sourceEnd": 81.534
   },
   {
    "text": "ce",
-   "start": 48.531,
-   "end": 48.611,
-   "sourceStart": 82.131,
-   "sourceEnd": 82.211
+   "start": 48.222,
+   "end": 48.302,
+   "sourceStart": 82.122,
+   "sourceEnd": 82.202
   },
   {
    "text": "soit",
-   "start": 48.631,
-   "end": 48.751,
-   "sourceStart": 82.231,
-   "sourceEnd": 82.351
+   "start": 48.322,
+   "end": 48.442,
+   "sourceStart": 82.222,
+   "sourceEnd": 82.342
   },
   {
    "text": "un",
-   "start": 48.791,
-   "end": 48.872,
-   "sourceStart": 82.391,
-   "sourceEnd": 82.472
+   "start": 48.482,
+   "end": 48.562,
+   "sourceStart": 82.382,
+   "sourceEnd": 82.462
   },
   {
    "text": "guide,",
-   "start": 48.892,
-   "end": 49.132,
-   "sourceStart": 82.492,
-   "sourceEnd": 82.732
+   "start": 48.582,
+   "end": 48.842,
+   "sourceStart": 82.482,
+   "sourceEnd": 82.742
   },
   {
    "text": "un",
-   "start": 49.172,
-   "end": 49.232,
-   "sourceStart": 82.772,
-   "sourceEnd": 82.832
+   "start": 48.862,
+   "end": 48.922,
+   "sourceStart": 82.762,
+   "sourceEnd": 82.822
   },
   {
    "text": "accès.",
-   "start": 49.272,
-   "end": 49.767,
-   "sourceStart": 82.872,
+   "start": 48.962,
+   "end": 49.467,
+   "sourceStart": 82.862,
    "sourceEnd": 83.367
   },
   {
    "text": "Et",
-   "start": 49.893,
-   "end": 49.934,
-   "sourceStart": 92.793,
-   "sourceEnd": 92.834
+   "start": 49.583,
+   "end": 49.643,
+   "sourceStart": 92.783,
+   "sourceEnd": 92.843
   },
   {
    "text": "avec",
-   "start": 49.974,
-   "end": 50.094,
-   "sourceStart": 92.874,
-   "sourceEnd": 92.994
+   "start": 49.663,
+   "end": 49.783,
+   "sourceStart": 92.863,
+   "sourceEnd": 92.983
   },
   {
    "text": "ça,",
-   "start": 50.114,
-   "end": 50.214,
-   "sourceStart": 93.014,
-   "sourceEnd": 93.114
+   "start": 49.803,
+   "end": 49.903,
+   "sourceStart": 93.003,
+   "sourceEnd": 93.103
   },
   {
    "text": "tu",
-   "start": 50.234,
-   "end": 50.274,
-   "sourceStart": 93.134,
-   "sourceEnd": 93.174
+   "start": 49.923,
+   "end": 49.963,
+   "sourceStart": 93.123,
+   "sourceEnd": 93.163
   },
   {
    "text": "auras",
-   "start": 50.294,
-   "end": 50.414,
-   "sourceStart": 93.194,
-   "sourceEnd": 93.314
+   "start": 49.983,
+   "end": 50.104,
+   "sourceStart": 93.183,
+   "sourceEnd": 93.304
   },
   {
    "text": "construit",
-   "start": 50.434,
-   "end": 50.675,
-   "sourceStart": 93.334,
-   "sourceEnd": 93.575
+   "start": 50.124,
+   "end": 50.364,
+   "sourceStart": 93.324,
+   "sourceEnd": 93.564
   },
   {
    "text": "une",
-   "start": 50.695,
-   "end": 50.755,
-   "sourceStart": 93.595,
-   "sourceEnd": 93.655
+   "start": 50.384,
+   "end": 50.444,
+   "sourceStart": 93.584,
+   "sourceEnd": 93.644
   },
   {
    "text": "offre",
-   "start": 50.775,
-   "end": 51.176,
-   "sourceStart": 93.675,
-   "sourceEnd": 94.076
+   "start": 50.484,
+   "end": 50.864,
+   "sourceStart": 93.684,
+   "sourceEnd": 94.064
   },
   {
    "text": "complète",
-   "start": 51.196,
-   "end": 52.057,
-   "sourceStart": 94.096,
-   "sourceEnd": 94.957
+   "start": 50.884,
+   "end": 51.745,
+   "sourceStart": 94.084,
+   "sourceEnd": 94.945
   },
   {
    "text": "qui",
-   "start": 52.077,
-   "end": 52.178,
-   "sourceStart": 94.977,
-   "sourceEnd": 95.078
+   "start": 51.765,
+   "end": 51.866,
+   "sourceStart": 94.965,
+   "sourceEnd": 95.066
   },
   {
    "text": "te",
-   "start": 52.218,
-   "end": 52.258,
-   "sourceStart": 95.118,
-   "sourceEnd": 95.158
+   "start": 51.906,
+   "end": 51.946,
+   "sourceStart": 95.106,
+   "sourceEnd": 95.146
   },
   {
    "text": "permettra",
-   "start": 52.278,
-   "end": 52.839,
-   "sourceStart": 95.178,
-   "sourceEnd": 95.739
+   "start": 51.966,
+   "end": 52.546,
+   "sourceStart": 95.166,
+   "sourceEnd": 95.746
   },
   {
    "text": "de",
-   "start": 52.859,
-   "end": 52.919,
-   "sourceStart": 95.759,
-   "sourceEnd": 95.819
+   "start": 52.566,
+   "end": 52.606,
+   "sourceStart": 95.766,
+   "sourceEnd": 95.806
   },
   {
    "text": "faire",
-   "start": 52.939,
-   "end": 53.139,
-   "sourceStart": 95.839,
-   "sourceEnd": 96.039
+   "start": 52.646,
+   "end": 52.827,
+   "sourceStart": 95.846,
+   "sourceEnd": 96.027
   },
   {
    "text": "monter",
-   "start": 53.159,
-   "end": 53.4,
-   "sourceStart": 96.059,
-   "sourceEnd": 96.3
+   "start": 52.847,
+   "end": 53.087,
+   "sourceStart": 96.047,
+   "sourceEnd": 96.287
   },
   {
    "text": "la",
-   "start": 53.42,
-   "end": 53.48,
-   "sourceStart": 96.32,
-   "sourceEnd": 96.38
+   "start": 53.127,
+   "end": 53.167,
+   "sourceStart": 96.327,
+   "sourceEnd": 96.367
   },
   {
    "text": "valeur",
-   "start": 53.5,
-   "end": 53.66,
-   "sourceStart": 96.4,
-   "sourceEnd": 96.56
+   "start": 53.187,
+   "end": 53.347,
+   "sourceStart": 96.387,
+   "sourceEnd": 96.547
   },
   {
    "text": "de",
-   "start": 53.68,
-   "end": 53.72,
-   "sourceStart": 96.58,
-   "sourceEnd": 96.62
+   "start": 53.367,
+   "end": 53.407,
+   "sourceStart": 96.567,
+   "sourceEnd": 96.607
   },
   {
    "text": "ton",
-   "start": 53.74,
-   "end": 53.821,
-   "sourceStart": 96.64,
-   "sourceEnd": 96.721
+   "start": 53.427,
+   "end": 53.487,
+   "sourceStart": 96.627,
+   "sourceEnd": 96.687
   },
   {
    "text": "panier",
-   "start": 53.841,
-   "end": 54.001,
-   "sourceStart": 96.741,
-   "sourceEnd": 96.901
+   "start": 53.507,
+   "end": 53.688,
+   "sourceStart": 96.707,
+   "sourceEnd": 96.888
   },
   {
    "text": "moyen.",
-   "start": 54.021,
-   "end": 54.367,
-   "sourceStart": 96.921,
+   "start": 53.708,
+   "end": 54.067,
+   "sourceStart": 96.908,
    "sourceEnd": 97.267
   },
   {
    "text": "Maintenant,",
-   "start": 54.462,
-   "end": 54.822,
-   "sourceStart": 110.562,
-   "sourceEnd": 110.922
+   "start": 54.148,
+   "end": 54.528,
+   "sourceStart": 110.548,
+   "sourceEnd": 110.928
   },
   {
    "text": "abonne-toi",
-   "start": 54.903,
-   "end": 55.263,
-   "sourceStart": 111.003,
-   "sourceEnd": 111.363
+   "start": 54.589,
+   "end": 54.949,
+   "sourceStart": 110.989,
+   "sourceEnd": 111.349
   },
   {
    "text": "pour",
-   "start": 55.283,
-   "end": 55.363,
-   "sourceStart": 111.383,
-   "sourceEnd": 111.463
+   "start": 55.009,
+   "end": 55.089,
+   "sourceStart": 111.409,
+   "sourceEnd": 111.489
   },
   {
    "text": "apprendre",
-   "start": 55.383,
-   "end": 55.584,
-   "sourceStart": 111.483,
-   "sourceEnd": 111.684
+   "start": 55.109,
+   "end": 55.289,
+   "sourceStart": 111.509,
+   "sourceEnd": 111.689
   },
   {
    "text": "l'e-commerce",
-   "start": 55.604,
-   "end": 55.944,
-   "sourceStart": 111.704,
-   "sourceEnd": 112.044
+   "start": 55.309,
+   "end": 55.63,
+   "sourceStart": 111.709,
+   "sourceEnd": 112.03
   },
   {
    "text": "un",
-   "start": 55.965,
-   "end": 56.005,
-   "sourceStart": 112.065,
-   "sourceEnd": 112.105
+   "start": 55.65,
+   "end": 55.69,
+   "sourceStart": 112.05,
+   "sourceEnd": 112.09
   },
   {
    "text": "peu",
-   "start": 56.025,
-   "end": 56.105,
-   "sourceStart": 112.125,
-   "sourceEnd": 112.205
+   "start": 55.71,
+   "end": 55.79,
+   "sourceStart": 112.11,
+   "sourceEnd": 112.19
   },
   {
    "text": "plus",
-   "start": 56.125,
-   "end": 56.285,
-   "sourceStart": 112.225,
-   "sourceEnd": 112.385
+   "start": 55.81,
+   "end": 55.97,
+   "sourceStart": 112.21,
+   "sourceEnd": 112.37
   },
   {
    "text": "chaque",
-   "start": 56.305,
-   "end": 56.506,
-   "sourceStart": 112.405,
-   "sourceEnd": 112.606
+   "start": 55.99,
+   "end": 56.19,
+   "sourceStart": 112.39,
+   "sourceEnd": 112.59
   },
   {
    "text": "jour.",
-   "start": 56.526,
-   "end": 56.966,
-   "sourceStart": 112.626,
-   "sourceEnd": 113.066
+   "start": 56.21,
+   "end": 56.651,
+   "sourceStart": 112.61,
+   "sourceEnd": 113.051
   },
   {
    "text": "Et",
-   "start": 56.986,
-   "end": 57.046,
-   "sourceStart": 113.086,
-   "sourceEnd": 113.146
+   "start": 56.671,
+   "end": 56.751,
+   "sourceStart": 113.071,
+   "sourceEnd": 113.151
   },
   {
    "text": "si",
-   "start": 57.087,
-   "end": 57.127,
-   "sourceStart": 113.187,
-   "sourceEnd": 113.227
+   "start": 56.771,
+   "end": 56.831,
+   "sourceStart": 113.171,
+   "sourceEnd": 113.231
   },
   {
    "text": "tu",
-   "start": 57.147,
-   "end": 57.187,
-   "sourceStart": 113.247,
-   "sourceEnd": 113.287
+   "start": 56.851,
+   "end": 56.891,
+   "sourceStart": 113.251,
+   "sourceEnd": 113.291
   },
   {
    "text": "veux",
-   "start": 57.207,
-   "end": 57.287,
-   "sourceStart": 113.307,
-   "sourceEnd": 113.387
+   "start": 56.911,
+   "end": 56.991,
+   "sourceStart": 113.311,
+   "sourceEnd": 113.391
   },
   {
    "text": "être",
-   "start": 57.307,
-   "end": 57.407,
-   "sourceStart": 113.407,
-   "sourceEnd": 113.507
+   "start": 57.011,
+   "end": 57.091,
+   "sourceStart": 113.411,
+   "sourceEnd": 113.491
   },
   {
    "text": "accompagné",
-   "start": 57.427,
-   "end": 57.828,
-   "sourceStart": 113.527,
-   "sourceEnd": 113.928
+   "start": 57.111,
+   "end": 57.512,
+   "sourceStart": 113.511,
+   "sourceEnd": 113.912
   },
   {
    "text": "pas",
-   "start": 57.848,
-   "end": 57.928,
-   "sourceStart": 113.948,
-   "sourceEnd": 114.028
+   "start": 57.532,
+   "end": 57.632,
+   "sourceStart": 113.932,
+   "sourceEnd": 114.032
   },
   {
    "text": "à",
-   "start": 57.968,
-   "end": 58.048,
-   "sourceStart": 114.068,
-   "sourceEnd": 114.148
+   "start": 57.672,
+   "end": 57.732,
+   "sourceStart": 114.072,
+   "sourceEnd": 114.132
   },
   {
    "text": "pas,",
-   "start": 58.068,
-   "end": 58.229,
-   "sourceStart": 114.168,
-   "sourceEnd": 114.329
+   "start": 57.752,
+   "end": 57.912,
+   "sourceStart": 114.152,
+   "sourceEnd": 114.312
   },
   {
    "text": "il",
-   "start": 58.249,
-   "end": 58.329,
-   "sourceStart": 114.349,
-   "sourceEnd": 114.429
+   "start": 57.952,
+   "end": 58.012,
+   "sourceStart": 114.352,
+   "sourceEnd": 114.412
   },
   {
    "text": "y",
-   "start": 58.349,
-   "end": 58.389,
-   "sourceStart": 114.449,
-   "sourceEnd": 114.489
+   "start": 58.052,
+   "end": 58.092,
+   "sourceStart": 114.452,
+   "sourceEnd": 114.492
   },
   {
    "text": "a",
-   "start": 58.409,
-   "end": 58.449,
-   "sourceStart": 114.509,
-   "sourceEnd": 114.549
+   "start": 58.092,
+   "end": 58.132,
+   "sourceStart": 114.492,
+   "sourceEnd": 114.532
   },
   {
    "text": "mon",
-   "start": 58.469,
-   "end": 58.649,
-   "sourceStart": 114.569,
-   "sourceEnd": 114.749
+   "start": 58.152,
+   "end": 58.333,
+   "sourceStart": 114.552,
+   "sourceEnd": 114.733
   },
   {
    "text": "Bootcamp",
-   "start": 58.669,
-   "end": 59.03,
-   "sourceStart": 114.769,
-   "sourceEnd": 115.13
+   "start": 58.353,
+   "end": 58.713,
+   "sourceStart": 114.753,
+   "sourceEnd": 115.113
   },
   {
    "text": "e-commerce",
-   "start": 59.09,
-   "end": 59.571,
-   "sourceStart": 115.19,
-   "sourceEnd": 115.671
+   "start": 58.753,
+   "end": 59.254,
+   "sourceStart": 115.153,
+   "sourceEnd": 115.654
   },
   {
    "text": "spécialement",
-   "start": 59.611,
-   "end": 60.032,
-   "sourceStart": 115.711,
-   "sourceEnd": 116.132
+   "start": 59.294,
+   "end": 59.734,
+   "sourceStart": 115.694,
+   "sourceEnd": 116.134
   },
   {
    "text": "pour",
-   "start": 60.052,
-   "end": 60.152,
-   "sourceStart": 116.152,
-   "sourceEnd": 116.252
+   "start": 59.754,
+   "end": 59.854,
+   "sourceStart": 116.154,
+   "sourceEnd": 116.254
   },
   {
    "text": "ça.",
-   "start": 60.192,
-   "end": 60.467,
-   "sourceStart": 116.292,
+   "start": 59.874,
+   "end": 60.167,
+   "sourceStart": 116.274,
    "sourceEnd": 116.567
   },
   {
    "text": "Si",
-   "start": 60.553,
-   "end": 60.633,
-   "sourceStart": 123.519,
-   "sourceEnd": 123.599
+   "start": 60.235,
+   "end": 60.315,
+   "sourceStart": 123.501,
+   "sourceEnd": 123.581
   },
   {
    "text": "tu",
-   "start": 60.653,
-   "end": 60.733,
-   "sourceStart": 123.619,
-   "sourceEnd": 123.699
+   "start": 60.335,
+   "end": 60.415,
+   "sourceStart": 123.601,
+   "sourceEnd": 123.681
   },
   {
    "text": "commentes",
-   "start": 60.753,
-   "end": 61.134,
-   "sourceStart": 123.719,
-   "sourceEnd": 124.1
+   "start": 60.435,
+   "end": 60.835,
+   "sourceStart": 123.701,
+   "sourceEnd": 124.101
   },
   {
    "text": "Bootcamp,",
-   "start": 61.174,
-   "end": 61.775,
-   "sourceStart": 124.14,
-   "sourceEnd": 124.741
+   "start": 60.855,
+   "end": 61.456,
+   "sourceStart": 124.121,
+   "sourceEnd": 124.722
   },
   {
    "text": "je",
-   "start": 61.795,
-   "end": 61.835,
-   "sourceStart": 124.761,
-   "sourceEnd": 124.801
+   "start": 61.476,
+   "end": 61.516,
+   "sourceStart": 124.742,
+   "sourceEnd": 124.782
   },
   {
    "text": "t'envoie",
-   "start": 61.855,
-   "end": 62.076,
-   "sourceStart": 124.821,
-   "sourceEnd": 125.042
+   "start": 61.536,
+   "end": 61.756,
+   "sourceStart": 124.802,
+   "sourceEnd": 125.022
   },
   {
    "text": "mon",
-   "start": 62.096,
-   "end": 62.236,
-   "sourceStart": 125.062,
-   "sourceEnd": 125.202
+   "start": 61.776,
+   "end": 61.917,
+   "sourceStart": 125.042,
+   "sourceEnd": 125.183
   },
   {
    "text": "modèle",
-   "start": 62.256,
-   "end": 62.516,
-   "sourceStart": 125.222,
-   "sourceEnd": 125.482
+   "start": 61.937,
+   "end": 62.197,
+   "sourceStart": 125.203,
+   "sourceEnd": 125.463
   },
   {
    "text": "d'offre",
-   "start": 62.536,
-   "end": 62.737,
-   "sourceStart": 125.502,
-   "sourceEnd": 125.703
+   "start": 62.217,
+   "end": 62.417,
+   "sourceStart": 125.483,
+   "sourceEnd": 125.683
   },
   {
    "text": "à",
-   "start": 62.757,
-   "end": 62.797,
-   "sourceStart": 125.723,
-   "sourceEnd": 125.763
+   "start": 62.437,
+   "end": 62.477,
+   "sourceStart": 125.703,
+   "sourceEnd": 125.743
   },
   {
-   "text": "3",
-   "start": 62.917,
-   "end": 63.037,
-   "sourceStart": 125.883,
-   "sourceEnd": 126.003
+   "text": "trois",
+   "start": 62.517,
+   "end": 62.717,
+   "sourceStart": 125.783,
+   "sourceEnd": 125.983
   },
   {
    "text": "niveaux.",
-   "start": 63.057,
-   "end": 63.719,
-   "sourceStart": 126.023,
-   "sourceEnd": 126.685
+   "start": 62.737,
+   "end": 63.398,
+   "sourceStart": 126.003,
+   "sourceEnd": 126.664
   },
   {
    "text": "Allez,",
-   "start": 63.759,
-   "end": 64.079,
-   "sourceStart": 126.725,
-   "sourceEnd": 127.045
+   "start": 63.438,
+   "end": 63.759,
+   "sourceStart": 126.704,
+   "sourceEnd": 127.025
   },
   {
    "text": "ciao",
-   "start": 64.099,
-   "end": 64.24,
-   "sourceStart": 127.065,
-   "sourceEnd": 127.206
+   "start": 63.779,
+   "end": 64.019,
+   "sourceStart": 127.045,
+   "sourceEnd": 127.285
   }
  ],
- "text": "GTA 6 à 80 dollars ou à 100 dollars Devine lequel se précommande le plus C'est celle à 100 dollars. Et c'est pas moi qui le dis, c'est le patron de Take-Two qui l'a dit sur CNBC en août. Il n'y a pas de chiffre précis. Juste qu'il y a eu plus de précommande que l'édition standard. Et ça, tu peux le copier dans ta boutique e-commerce. Pense à la boulangerie. Ils vendent. La baguette, le pack petit-déjeuner, la formule du midi. Toi, tu viens pour la baguette et tu repars avec toute la formule. Parce que ton client, il ne cherche pas le moins cher. Il cherche la version qu'il ne regrettera pas d'avoir prise. Et étant donné que le panier moyen en France, il est en baisse, chaque euro compte. Donc d'abord, tu vas sur ta boutique et tu construis trois offres, pas une. Donc déjà, tu auras le produit seul, après un pack avec pourquoi pas un deuxième acheté avec une offre et le pack complet avec des bonus. Et surtout, dans ta page produit, mets l'offre du milieu en avant parce que c'est souvent celle qu'on choisit. Et en ce qui concerne les bonus, pars sur des bonus qui te coûtent peu mais qui valent cher pour ton consommateur. Que ce soit un guide, un accès. Et avec ça, tu auras construit une offre complète qui te permettra de faire monter la valeur de ton panier moyen. Maintenant, abonne-toi pour apprendre l'e-commerce un peu plus chaque jour. Et si tu veux être accompagné pas à pas, il y a mon Bootcamp e-commerce spécialement pour ça. Si tu commentes Bootcamp, je t'envoie mon modèle d'offre à 3 niveaux. Allez, ciao",
+ "text": "GTA 6 à 80 dollars ou à 100 dollars Devine lequel se précommande le plus. C'est celle à 100 dollars. Et c'est pas moi qui le dis, c'est le patron de Take-Two qui l'a dit sur CNBC en août. Y'a pas de chiffre précis. Juste qu'il y a eu plus de précommande que l'édition standard. Et ça, tu peux le copier dans ta boutique e-commerce. Pense à la boulangerie. Ils vendent. La baguette, le pack petit-déjeuner, la formule du midi. Toi, tu viens pour la baguette et tu repars avec toute la formule. Parce que ton client, il ne cherche pas le moins cher. Il cherche la version qu'il ne regrettera pas d'avoir prise. Et étant donné que le panier moyen en France, il est en baisse, chaque euro compte. Donc d'abord, tu vas sur ta boutique et tu construis trois offres, pas une. Donc déjà, tu auras le produit seul, après un pack avec pourquoi pas un deuxième acheté avec une offre et le pack complet avec des bonus. Et surtout, dans ta page produit, mets l'offre du milieu en avant parce que c'est souvent celle qu'on choisit. Et en ce qui concerne les bonus, pars sur des bonus qui te coûtent peu mais qui valent cher pour ton consommateur. Que ce soit un guide, un accès. Et avec ça, tu auras construit une offre complète qui te permettra de faire monter la valeur de ton panier moyen. Maintenant, abonne-toi pour apprendre l'e-commerce un peu plus chaque jour. Et si tu veux être accompagné pas à pas, il y a mon Bootcamp e-commerce spécialement pour ça. Si tu commentes Bootcamp, je t'envoie mon modèle d'offre à trois niveaux. Allez, ciao",
  "breaks": [
-  4.067,
-  8.833,
-  12.433,
-  14.367,
-  15.233,
-  18.667,
-  21.133,
-  22.867,
-  25.333,
-  27.567,
-  29.1,
-  32.133,
-  39.833,
-  43.4,
-  48.467,
-  49.767,
-  54.367,
-  60.467
+  3.767,
+  8.533,
+  12.133,
+  14.067,
+  14.933,
+  18.367,
+  20.833,
+  22.567,
+  25.033,
+  27.267,
+  28.8,
+  31.833,
+  39.533,
+  43.1,
+  48.167,
+  49.467,
+  54.067,
+  60.167
  ]
 }

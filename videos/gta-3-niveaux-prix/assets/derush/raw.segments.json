@@ -1,9 +1,9 @@
 [
  {
   "name": "t01",
-  "in": 1.32,
+  "in": 1.64,
   "out": 5.4,
-  "why": "accroche"
+  "why": "accroche, démarre 0,1 s avant « GTA » (1,74)"
  },
  {
   "name": "t05",
