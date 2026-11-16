@@ -20,7 +20,7 @@ DA inspirée de GTA 6.
 ## Gates
 
 - [x] 1. Cadrage — sans objet (audio seul), 1080×1920
-- [ ] 2. Dérush — liste proposée, en attente du ok
+- [x] 2. Dérush — liste validée (21 prises), montage coupé 103,3 s en écoute (`review/gate2-cut.mp4`)
 - [ ] 3. Sous-titres
 - [ ] 4. Beats et assets
 - [ ] 5. Ouverture
@@ -50,7 +50,11 @@ Proposition dans `/tmp/.../scratchpad/segments.v1.json` (appliquée à `raw.segm
 | t27 | fin coupée avant « Allez » | doublé par t28 « Allez ciao » |
 | t16, t29 | retirées | vides |
 
-À confirmer : t27, WhisperX entend « **commande** GTA » ; c'est sûrement « **commente** GTA » (CTA mot-clé) → `lexicon`.
+Confirmé par l'utilisateur : t27 = « **commente** GTA » (WhisperX entend « commande ») → `lexicon` {"commande": "commente"}.
+
+Après le ok, recalages fins pour retirer les mots doublés aux jointures : t06 out 38,09 (avant « Que »), t12 out 83,56 (avant « que »),
+t14 out 97,91 (avant « qui »). `scripts/clean-transcript.py` (après `stage.py`) retire du transcript les mots hors des plages gardées
+et les doublons de prises qui se chevauchent. Résultat : 103,3 s, 373 mots.
 
 ## Avatar — 16 poses (Google Drive, dossier partagé `1JkWMvBgWIWD39o05crLqM7veO003anYP`)
 
