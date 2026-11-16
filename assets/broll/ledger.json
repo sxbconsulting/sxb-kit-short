@@ -1,0 +1,146 @@
+[
+ {
+  "sourceSceneId": "gta-sunset-dock",
+  "asset": "assets/broll/gta-sunset-dock.mp4",
+  "sha256": "a8e04e041410fd38715ec3893a64566c8c78594accff7e72a00af40ce27700ab",
+  "sourceStart": 0.0,
+  "sourceEnd": 2.9,
+  "duration": 2.9,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 81.7,
+   "out": 84.6,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "les palmiers, l'ambiance : coucher de soleil sur le ponton",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub.",
+  "addedAt": "2026-11-16T16:07:45"
+ },
+ {
+  "sourceSceneId": "gta-neon-club",
+  "asset": "assets/broll/gta-neon-club.mp4",
+  "sha256": "5329d29550ba181d78e84749cf6ef467e918d67bdfe3664d7ad5be6506c95d38",
+  "sourceStart": 0.0,
+  "sourceEnd": 2.9,
+  "duration": 2.9,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 100.0,
+   "out": 102.9,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "les néons : club violet",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub.",
+  "addedAt": "2026-11-16T16:07:49"
+ },
+ {
+  "sourceSceneId": "gta-logo-vi",
+  "asset": "assets/broll/gta-logo-vi.mp4",
+  "sha256": "1a9945d35bd48742321d6fdfd011ddc588da47d054c24fb0adcee087105ee952",
+  "sourceStart": 0.0,
+  "sourceEnd": 3.4,
+  "duration": 3.4,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 158.0,
+   "out": 161.4,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "le nom, les logos (ce qui est à eux) puis barré : leur logo, toujours pas",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub.",
+  "addedAt": "2026-11-16T16:08:00"
+ },
+ {
+  "sourceSceneId": "gta-skyline",
+  "asset": "assets/broll/gta-skyline.mp4",
+  "sha256": "77633b1047b8f26ce29c09377a808833ae78882597d32eaa7439cac405ef2a5d",
+  "sourceStart": 0.0,
+  "sourceEnd": 3.167,
+  "duration": 3.167,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 34.8,
+   "out": 37.95,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "nourris-toi de l'ambiance à la GTA : skyline, palmiers, autoroute",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub.",
+  "addedAt": "2026-11-16T16:08:37"
+ },
+ {
+  "sourceSceneId": "gta-neon-sign",
+  "asset": "assets/broll/gta-neon-sign.mp4",
+  "sha256": "d7358c88f4b10d4a77cff54678faede8f348db69518a512ed26de01409f5270f",
+  "sourceStart": 0.0,
+  "sourceEnd": 1.9,
+  "duration": 1.9,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 127.05,
+   "out": 128.9,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "l'univers de Vice City : enseignes néon rose",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub.",
+  "addedAt": "2026-11-16T16:08:40"
+ },
+ {
+  "sourceSceneId": "gta-sunset-city",
+  "asset": "assets/broll/gta-sunset-city.mp4",
+  "sha256": "1ccb245480d73f376e80109ae670829bcf885c96dd3c197f813f566afabea064",
+  "sourceStart": 0.0,
+  "sourceEnd": 2.2,
+  "duration": 2.2,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 153.6,
+   "out": 155.8,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "on va comprendre la référence : la ville au coucher de soleil",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub.",
+  "addedAt": "2026-11-16T16:08:44"
+ },
+ {
+  "sourceSceneId": "gta-vice-aerial",
+  "asset": "assets/broll/gta-vice-aerial.mp4",
+  "sha256": "10d0d5a1a003bcb195b081522057d692b93420ab5bc1bfa67116fe87e1f99729",
+  "sourceStart": 0.0,
+  "sourceEnd": 1.5,
+  "duration": 1.5,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 6.6,
+   "out": 8.08,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "GTA 6 sort jeudi : Vice City vue du ciel",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub.",
+  "addedAt": "2026-11-16T16:09:08"
+ },
+ {
+  "sourceSceneId": "gta-jetski",
+  "asset": "assets/broll/gta-jetski.mp4",
+  "sha256": "d3443533b9003cebb45ee36b5a587d0569b47c9147393aa540ce4a026c9cfc9f",
+  "sourceStart": 0.0,
+  "sourceEnd": 1.7,
+  "duration": 1.7,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 140.1,
+   "out": 141.78,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "si ta cible joue : action en jeu",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court (≤ 3 s) cité avec crédit à l'écran, dans une vidéo d'actualité/analyse organique. NE PAS sponsoriser ce reel en pub.",
+  "addedAt": "2026-11-16T16:09:10"
+ }
+]

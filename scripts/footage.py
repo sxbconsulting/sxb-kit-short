@@ -29,6 +29,7 @@ ap.add_argument("--from", dest="t_in", type=float, default=None, help="start in 
 ap.add_argument("--to", dest="t_out", type=float, default=None, help="end in the source, seconds")
 ap.add_argument("--why", default="", help="what this shot proves in the beat plan")
 ap.add_argument("--rights", default="", help="own footage | licensed | screen capture of our product | quoted with credit")
+ap.add_argument("--source-url", default="", help="public URL of a local file downloaded elsewhere (written in the ledger's provenance)")
 ap.add_argument("--fps", type=int, default=30)
 args = ap.parse_args()
 
@@ -82,7 +83,7 @@ rows.append({
     "sourceEnd": dur,
     "duration": dur,
     "provenance": {"source": src, "file": str(source_file.relative_to(ROOT)) if source_file.is_relative_to(ROOT) else str(source_file),
-                   "in": t_in, "out": t_out},
+                   "in": t_in, "out": t_out, **({"url": args.source_url} if args.source_url else {})},
     "why": args.why,
     "rights": args.rights,
     "addedAt": datetime.datetime.now().isoformat(timespec="seconds"),

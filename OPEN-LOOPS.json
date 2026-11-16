@@ -1,0 +1,47 @@
+{
+ "opening": {
+  "benefit": "Profiter de la sortie de GTA 6 pour vendre sans se faire bloquer son compte pub",
+  "evidenceBy3": "« Mettre GTA sur ton produit… dans tes publicités » posé à l'écran et à l'oral avant 3 s, la sanction arrive à 6,2 s",
+  "payoffTime": 85.61
+ },
+ "loops": [
+  {
+   "id": "risk",
+   "question": "Pourquoi mettre GTA sur son produit ferait risquer son compte pub ?",
+   "object": "Tampon rouge « PUB REFUSÉE » sur le t-shirt",
+   "setup": 6.21,
+   "updates": [
+    {
+     "time": 9.7,
+     "state": "La boutique Rockstar : ces produits sont à eux"
+    }
+   ],
+   "closure": 22.48,
+   "resolution": "Règle Meta surlignée « Ads may be rejected or removed » puis badge « COMPTE BLOQUÉ »",
+   "supportingSpeech": "tout un compte publicitaire qui va être bloqué"
+  },
+  {
+   "id": "main",
+   "question": "Alors comment surfer sur GTA 6 quand même pour sa marque ?",
+   "object": "Trois cases vides #1 #2 #3",
+   "setup": 24.84,
+   "updates": [
+    {
+     "time": 25.62,
+     "state": "#1 L'AMBIANCE"
+    },
+    {
+     "time": 48.59,
+     "state": "#2 TON CONTENU"
+    },
+    {
+     "time": 68.95,
+     "state": "#3 JEU CONCOURS"
+    }
+   ],
+   "closure": 85.61,
+   "resolution": "Les trois cases cochées, l'objectif posé : attirer des clients, pas des chasseurs de cadeaux",
+   "supportingSpeech": "L'objectif c'est attirer des clients, pas des chasseurs de cadeaux"
+  }
+ ]
+}
