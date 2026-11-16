@@ -51,3 +51,9 @@ Proposition dans `/tmp/.../scratchpad/segments.v1.json` (appliquée à `raw.segm
 | t16, t29 | retirées | vides |
 
 À confirmer : t27, WhisperX entend « **commande** GTA » ; c'est sûrement « **commente** GTA » (CTA mot-clé) → `lexicon`.
+
+## Avatar — 16 poses (Google Drive, dossier partagé `1JkWMvBgWIWD39o05crLqM7veO003anYP`)
+
+Téléchargées dans `assets/brand/avatar/src/`, détourées (contour blanc du sticker gardé) dans `assets/brand/avatar/<pose>.png`, hors git :
+pouce, neutre, reflexion, ok, reflexion-2, coeur, pointe, appelle, neutre-rondes, poing, poings, peace, double-pouce,
+double-pouce-langue, mains-jointes, surpris.
