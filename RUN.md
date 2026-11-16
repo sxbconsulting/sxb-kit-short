@@ -21,9 +21,9 @@ DA inspirée de GTA 6.
 
 - [x] 1. Cadrage — sans objet (audio seul), 1080×1920
 - [x] 2. Dérush — v2 92,7 s validée (« continue la suite »)
-- [ ] 3. Sous-titres — brouillon envoyé (`review/gate3-sous-titres.mp4`), en attente du ok
-- [ ] 4. Beats et assets
-- [ ] 5. Ouverture
+- [x] 3. Sous-titres — validés (« Good on continue »)
+- [x] 4. Beats et assets — validés, extraits du trailer gardés (« ok garde les extraits »)
+- [ ] 5. Ouverture — A / B / C rendues (`review/openings/`, storyboards dans `openings/`), en attente du choix
 - [ ] 6. Animatic → final
 - [ ] 7. Livraison
 
@@ -94,3 +94,18 @@ double-pouce-langue, mains-jointes, surpris.
   mot dit ; −16,3 LUFS / −1,3 dBTP ; `npm run check` 0 erreur, contraste 15/15.
 - Faits vérifiés pour la gate 4 : sortie le jeudi 19 novembre 2026 (newswire Rockstar), boutique « GTA VI Collection » du Rockstar
   Store (t-shirts, casquettes, Zippo Vice City). yt-dlp atteint la chaîne Rockstar Games (« Grand Theft Auto VI Trailer 1 »).
+
+## Gate 4 — beats et assets (validés)
+
+Voir `DESIGN.md` (shortlist, 18 beats), `OPEN-LOOPS.json`, `REFERENCE-ANALYSIS.md`, `assets/broll/ledger.json`.
+Captures via Firecrawl (rockstargames.com et le CDN Rockstar sont bloqués par le réseau de la session). Trailer 2 depuis le post X
+officiel (YouTube : anti-robot). 8 extraits, chacun vérifié sans coupe interne (détection de scène), logo coupé avant « May 26, 2026 ».
+Droits : © Rockstar/Take-Two, extraits courts crédités, usage organique uniquement — ne pas sponsoriser ce reel (dit à l'utilisateur, il garde les extraits).
+
+## Gate 5 — ouvertures
+
+`gta.css` (zone S au look Vice City : fond nuit + lueur + grille néon, cartes postales à liseré blanc, tampons Anton, variantes
+`no` / `neon` / `credit` / `ok`). `build-reel.py` : items de zone `class`, `instant` (pas d'animation d'entrée), `zone.no_intro`.
+Vérif passe 1 : surlignage Meta coupé (« rejected or re… ») et zoom trop tardif (B), C muet avant 2,5 s → corrigés.
+Passe 2 : image 0 grise et vide dans les 3 (fondu d'entrée de la zone) → `no_intro` + premier élément `instant` ; lint 0 erreur
+(@font-face ajoutés dans gta.css). 3 rendus de 7,3 s + `review/openings/comparatif-ABC.mp4`.

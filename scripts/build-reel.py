@@ -296,6 +296,7 @@ def zone_items(sid, z, t0, t1, tl):
     for j, it in enumerate(z.get("items", [])):
         iid = f"{sid}-z{j}"
         typ = it.get("type", "line")
+        n_tl = len(tl)   # "instant": true drops this item's entry tween, so it is already on screen (frame 0 of an opening)
         at = rel(it.get("at", t0))
         x, y = it.get("x", 60), it.get("y", 120)
         if typ == "card":
@@ -425,6 +426,10 @@ def zone_items(sid, z, t0, t1, tl):
             pos = 'left:0;right:0;text-align:center;' if x == "center" else f'left:{x}px;'
             items_html.append(f'<div class="zline" id="{iid}" style="{pos}top:{y}px;{"font-size:" + str(it["size"]) + "px;" if it.get("size") else ""}{"color:" + it["color"] + ";" if it.get("color") else ""}{"font-weight:" + str(it["weight"]) + ";" if it.get("weight") else ""}{"letter-spacing:" + it["tracking"] + ";" if it.get("tracking") else ""}">{rich(it["text"])}</div>')
             tl.append(f'tl.from("#{iid}", {{ opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }}, {at});')
+        if it.get("instant") and len(tl) > n_tl and tl[n_tl].startswith(f'tl.from("#{iid}"'):
+            del tl[n_tl]
+        if it.get("class") and items_html:   # style variant from the project stylesheet, e.g. "no", "neon", "credit"
+            items_html[-1] = items_html[-1].replace('class="', f'class="{esc(it["class"])} ', 1) if f'id="{iid}"' in items_html[-1] else items_html[-1]
         if it.get("out_at") is not None:
             tl.append(f'tl.to("#{iid}", {{ opacity: 0, duration: 0.25 }}, {rel(it["out_at"])});')
     return items_html
@@ -488,7 +493,7 @@ def scene_html(sid, sc):
         body.append(f'<div id="zone" style="height:{zh}px;{zbg}">{"".join(items_html)}</div>')
         if z.get("in") is not None:
             tl.append(f'tl.fromTo("#zone", {{ clipPath: "inset(0px 0px 1040px 0px)" }}, {{ clipPath: "inset(0px 0px 0px 0px)", duration: 0.55, ease: "power4.inOut" }}, {rel(z["in"])});')
-        else:
+        elif not z.get("no_intro"):   # no_intro: the zone is already there on frame 0 (an opening)
             tl.append(f'tl.from("#zone", {{ y: -40, opacity: 0, duration: 0.35, ease: "power3.out" }}, 0);')
         if z.get("out") is not None:
             tl.append(f'tl.to("#zone", {{ opacity: 0, duration: 0.3, ease: "power2.in" }}, {rel(z["out"])});')

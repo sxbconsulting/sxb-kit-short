@@ -1,0 +1,111 @@
+{
+ "id": "opening-a",
+ "title": "GTA 6 : surfer sur la hype sans risque",
+ "duration": 7.31,
+ "fps": 30,
+ "speaker": "assets/speaker.mp4",
+ "audio": "assets/reel-audio.wav",
+ "caption_style": "highlight",
+ "caption_font": "\"Anton\", \"Archivo\", sans-serif",
+ "caption_size": 92,
+ "caption_max_words": 3,
+ "caption_accent": "#FF2E88",
+ "caption_on_accent": "#FFFFFF",
+ "keywords": [
+  "GTA",
+  "Rockstar",
+  "risque",
+  "juridique",
+  "bloqué",
+  "ambiance",
+  "néons",
+  "palmiers",
+  "contenu",
+  "concours",
+  "clients",
+  "checklist",
+  "commente",
+  "Vice"
+ ],
+ "lexicon": {
+  "commande": "commente",
+  "t'emmètra": "te permettra"
+ },
+ "brand": {
+  "bg": "#14082A",
+  "ink": "#FFFFFF",
+  "accent": "#FF2E88",
+  "accent_ink": "#FFFFFF",
+  "font": "\"Anton\", \"Archivo\", sans-serif"
+ },
+ "locale": "fr-FR",
+ "freeze_tail": 0,
+ "face_pos_f": "50% 50%",
+ "scenes": [
+  {
+   "layout": "S",
+   "start": 0,
+   "end": 7.31,
+   "cap_top": 790,
+   "zone": {
+    "items": [
+     {
+      "type": "logo",
+      "src": "assets/brand/tee-generique.png",
+      "x": 250,
+      "y": 70,
+      "w": 580,
+      "at": 0,
+      "instant": true
+     },
+     {
+      "type": "stamp",
+      "text": "GTA",
+      "x": 440,
+      "y": 290,
+      "at": "w:GTA"
+     },
+     {
+      "type": "line",
+      "class": "credit",
+      "text": "Sponsorisé · Ta boutique",
+      "x": 60,
+      "y": 40,
+      "size": 30,
+      "at": "w:publicités"
+     },
+     {
+      "type": "badge",
+      "text": "HYPE GTA 6",
+      "x": 690,
+      "y": 140,
+      "at": "w:hype"
+     },
+     {
+      "type": "stamp",
+      "class": "no",
+      "text": "PUB REFUSÉE",
+      "x": 190,
+      "y": 460,
+      "at": "w:risquer"
+     },
+     {
+      "type": "line",
+      "class": "no",
+      "text": "COMPTE PUB EN DANGER",
+      "x": "center",
+      "y": 640,
+      "size": 64,
+      "at": "w:compte"
+     }
+    ],
+    "no_intro": true
+   }
+  }
+ ],
+ "caption_extra_css": ".cap b, .cap em { --hl: 0; -webkit-text-stroke: calc(11px * (1 - var(--hl))) #0B0418; paint-order: stroke fill; }",
+ "css": [
+  "gta.css"
+ ],
+ "face_pos_s": "50% 52%"
+}

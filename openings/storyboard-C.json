@@ -1,0 +1,107 @@
+{
+ "id": "opening-c",
+ "title": "GTA 6 : surfer sur la hype sans risque",
+ "duration": 7.31,
+ "fps": 30,
+ "speaker": "assets/speaker.mp4",
+ "audio": "assets/reel-audio.wav",
+ "caption_style": "highlight",
+ "caption_font": "\"Anton\", \"Archivo\", sans-serif",
+ "caption_size": 92,
+ "caption_max_words": 3,
+ "caption_accent": "#FF2E88",
+ "caption_on_accent": "#FFFFFF",
+ "keywords": [
+  "GTA",
+  "Rockstar",
+  "risque",
+  "juridique",
+  "bloqué",
+  "ambiance",
+  "néons",
+  "palmiers",
+  "contenu",
+  "concours",
+  "clients",
+  "checklist",
+  "commente",
+  "Vice"
+ ],
+ "lexicon": {
+  "commande": "commente",
+  "t'emmètra": "te permettra"
+ },
+ "brand": {
+  "bg": "#14082A",
+  "ink": "#FFFFFF",
+  "accent": "#FF2E88",
+  "accent_ink": "#FFFFFF",
+  "font": "\"Anton\", \"Archivo\", sans-serif"
+ },
+ "locale": "fr-FR",
+ "freeze_tail": 0,
+ "face_pos_f": "50% 50%",
+ "scenes": [
+  {
+   "layout": "S",
+   "start": 0,
+   "end": 7.31,
+   "cap_top": 790,
+   "zone": {
+    "items": [
+     {
+      "type": "line",
+      "text": "GTA SUR TON PRODUIT, <em>DANS TES PUBS</em> ?",
+      "x": "center",
+      "y": 50,
+      "size": 54,
+      "at": 0,
+      "instant": true
+     },
+     {
+      "type": "video",
+      "src": "assets/broll/gta-logo-vi.mp4",
+      "x": 90,
+      "y": 150,
+      "w": 900,
+      "h": 506,
+      "at": 0,
+      "from": "far",
+      "instant": true
+     },
+     {
+      "type": "line",
+      "class": "credit",
+      "text": "Images : Rockstar Games — GTA VI Trailer 2",
+      "x": 100,
+      "y": 680,
+      "at": 0.3
+     },
+     {
+      "type": "line",
+      "class": "no",
+      "text": "X",
+      "x": "center",
+      "y": 60,
+      "size": 560,
+      "at": "w:risquer"
+     },
+     {
+      "type": "stamp",
+      "class": "no",
+      "text": "INTERDIT EN PUB",
+      "x": 230,
+      "y": 540,
+      "at": "w:compte"
+     }
+    ],
+    "no_intro": true
+   }
+  }
+ ],
+ "caption_extra_css": ".cap b, .cap em { --hl: 0; -webkit-text-stroke: calc(11px * (1 - var(--hl))) #0B0418; paint-order: stroke fill; }",
+ "css": [
+  "gta.css"
+ ],
+ "face_pos_s": "50% 52%"
+}
