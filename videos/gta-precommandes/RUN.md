@@ -11,8 +11,8 @@ Brief : « tu peux t'attaquer à cette vidéo » — même méthode et même DA 
 - [x] 3. Sous-titres — style highlight GTA validé (vidéos 1-2)
 - [x] 4. Beats et assets — enchaînés sur « passe à la suite » (pas de validation séparée)
 - [x] 5. Ouverture — choisie par l'agent : logo VI + compteur 7 700 000 + « PAS ENCORE SORTI » (à valider dans l'animatic)
-- [ ] 6. Animatic → final — retour 1/3 « dernier travail sur le dynamisme » → **v2** envoyée (`review/gate6-animatic-v2.mp4`)
-- [ ] 7. Livraison
+- [x] 6. Animatic → final — v2 livrée en alternative A/B de la variation hook (« Excellent »)
+- [x] 7. Livraison — `renders/gta-precommandes.mp4` (SHA-256 48b536c4…), `VERIFY.md`, `legende.md`
 
 ## Gate 2 — dérush
 

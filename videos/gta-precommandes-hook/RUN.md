@@ -21,3 +21,8 @@ L'ancienne scène F « VENDRE / AVANT D'EXISTER » (11 s) est retirée (redite d
 sur « marque » → surpris sur « GTA »).
 Vérif : passe 1 tampon qui débordait à droite, image 0 sans texte → corrigés ; passe 2 (rendu) décodage OK, −16,7 LUFS,
 0 sous-titre mal placé, extraits non noirs, plan + footage ok, check 0 erreur.
+
+## Livraison
+
+- [x] 6. Animatic → final — validé (« Excellent »)
+- [x] 7. Livraison — `renders/gta-precommandes-hook.mp4` (SHA-256 4a210d88…), `VERIFY.md`, `legende.md`
