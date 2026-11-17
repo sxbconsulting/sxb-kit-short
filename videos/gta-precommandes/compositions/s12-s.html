@@ -196,6 +196,10 @@
   box-shadow: 0 0 0 5px #FF2E88, 0 0 40px rgba(255,46,136,.6), 0 24px 60px rgba(0,0,0,.6); }
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
+/* fx2: light sweep across stamps */
+.zstamp { overflow: hidden; }
+.zstamp .shine { position: absolute; top: -20%; bottom: -20%; left: 0; width: 34%; transform: skewX(-20deg);
+  background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.75), rgba(255,255,255,0)); pointer-events: none; }
 </style>
 <div id="zone" style="height:880px;"><div class="zgrid" id="s12-s-grid"></div><div class="zline" id="s12-s-z0" style="left:0;right:0;text-align:center;top:40px;font-size:80px;">DU CONTENU <em>EN VOLUME</em></div><div class="xl ztag" id="s12-s-z1" style="left:60px;top:230px"><span class="dot"></span>LUN</div><div class="xl ztag" id="s12-s-z2" style="left:260px;top:230px"><span class="dot"></span>MAR</div><div class="xl ztag" id="s12-s-z3" style="left:460px;top:230px"><span class="dot"></span>MER</div><div class="xl ztag" id="s12-s-z4" style="left:660px;top:230px"><span class="dot"></span>JEU</div><div class="xl ztag" id="s12-s-z5" style="left:860px;top:230px"><span class="dot"></span>VEN</div><div class="sun zline" id="s12-s-z6" style="left:0;right:0;text-align:center;top:400px;font-size:110px;">TOUS LES JOURS</div><div class="ok zline" id="s12-s-z7" style="left:0;right:0;text-align:center;top:600px;font-size:54px;">→ LE PLUS DE MONDE POSSIBLE</div></div>
 </div>
@@ -218,6 +222,7 @@ window.__timelines = window.__timelines || {};
   tl.to("#s12-s-z6", { y: -7, duration: 0.556, yoyo: true, repeat: 1, ease: "sine.inOut" }, 4.688);
   tl.from("#s12-s-z7", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 5.183);
   tl.fromTo("#s12-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 267px, 0px 0px", duration: 5.8, ease: "none" }, 0);
+  tl.fromTo("#zone", { scale: 1 }, { scale: 1.03, duration: 5.8, ease: "none" }, 0);
   tl.to({}, { duration: 5.8 }, 0);
   window.__timelines["s12-s"] = tl;
 })();

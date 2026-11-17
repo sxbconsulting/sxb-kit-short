@@ -196,8 +196,12 @@
   box-shadow: 0 0 0 5px #FF2E88, 0 0 40px rgba(255,46,136,.6), 0 24px 60px rgba(0,0,0,.6); }
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
+/* fx2: light sweep across stamps */
+.zstamp { overflow: hidden; }
+.zstamp .shine { position: absolute; top: -20%; bottom: -20%; left: 0; width: 34%; transform: skewX(-20deg);
+  background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.75), rgba(255,255,255,0)); pointer-events: none; }
 </style>
-<div id="zone" style="height:880px;"><div class="zgrid" id="s03-s-grid"></div><div class="zimg" id="s03-s-z0" style="left:560px;top:40px;width:480px;"><div id="s03-s-z0-in" style="position:relative;transform-origin:50% 50%"><img src="assets/captures/cnbc/zelnick-crop.png" alt=""></div></div><div class="xl ztag" id="s03-s-z1" style="left:40px;top:130px"><span class="dot"></span>TAKE-TWO</div><div class="zbadge" id="s03-s-z2" style="left:40px;top:360px">PDG : STRAUSS ZELNICK</div><div class="ztag" id="s03-s-z3" style="left:40px;top:270px"><span class="dot"></span>PAS DE CHIFFRE OFFICIEL</div><div class="zstamp" id="s03-s-z4" style="left:130px;top:650px">AU-DELÀ DES ATTENTES</div></div>
+<div id="zone" style="height:880px;"><div class="zgrid" id="s03-s-grid"></div><div class="zimg" id="s03-s-z0" style="left:560px;top:40px;width:480px;"><div id="s03-s-z0-in" style="position:relative;transform-origin:50% 50%"><img src="assets/captures/cnbc/zelnick-crop.png" alt=""></div></div><div class="xl ztag" id="s03-s-z1" style="left:40px;top:130px"><span class="dot"></span>TAKE-TWO</div><div class="zbadge" id="s03-s-z2" style="left:40px;top:360px">PDG : STRAUSS ZELNICK</div><div class="ztag" id="s03-s-z3" style="left:40px;top:270px"><span class="dot"></span>PAS DE CHIFFRE OFFICIEL</div><div class="zstamp" id="s03-s-z4" style="left:130px;top:650px">AU-DELÀ DES ATTENTES<span class="shine" id="s03-s-z4-sh"></span></div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
@@ -212,11 +216,13 @@ window.__timelines = window.__timelines || {};
   tl.from("#s03-s-z3", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 0.886);
   tl.to("#s03-s-z3", { y: -7, duration: 0.815, yoyo: true, repeat: 1, ease: "sine.inOut" }, 1.436);
   tl.from("#s03-s-z4", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 1.431);
+  tl.fromTo("#s03-s-z4-sh", { xPercent: -120 }, { xPercent: 320, duration: 0.55, ease: "power2.inOut" }, 1.731);
   tl.to("#zone", { x: 9, duration: 0.035, yoyo: true, repeat: 3, ease: "none" }, 1.551);
   tl.set("#zone", { x: 0 }, 1.701);
   tl.to("#s03-s-z4", { rotation: -3, duration: 0.1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 1.931);
   tl.to("#s03-s-z4", { y: -10, duration: 0.543, yoyo: true, repeat: 1, ease: "sine.inOut" }, 1.981);
   tl.fromTo("#s03-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 141px, 0px 0px", duration: 3.067, ease: "none" }, 0);
+  tl.fromTo("#zone", { scale: 1 }, { scale: 1.03, duration: 3.067, ease: "none" }, 0);
   tl.to({}, { duration: 3.067 }, 0);
   window.__timelines["s03-s"] = tl;
 })();

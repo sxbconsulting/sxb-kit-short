@@ -196,8 +196,12 @@
   box-shadow: 0 0 0 5px #FF2E88, 0 0 40px rgba(255,46,136,.6), 0 24px 60px rgba(0,0,0,.6); }
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
+/* fx2: light sweep across stamps */
+.zstamp { overflow: hidden; }
+.zstamp .shine { position: absolute; top: -20%; bottom: -20%; left: 0; width: 34%; transform: skewX(-20deg);
+  background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.75), rgba(255,255,255,0)); pointer-events: none; }
 </style>
-<div id="zone" style="height:880px;"><div class="zgrid" id="s07-s-grid"></div><div class="zimg" id="s07-s-z0" style="left:300px;top:20px;width:480px;height:760px;"><div id="s07-s-z0-in" style="position:relative;transform-origin:50% 60%"><img src="assets/mockups/preco-page.png" alt=""></div></div><div class="zstamp" id="s07-s-z1" style="left:30px;top:120px">100 % PRÉCOMMANDE</div><div class="zbadge" id="s07-s-z2" style="left:700px;top:420px">STOCK LIMITÉ</div><div class="xl ztag" id="s07-s-z3" style="left:40px;top:560px"><span class="dot"></span>POUR POUSSER À L&#x27;ACHAT</div><div class="ok zline" id="s07-s-z4" style="left:0;right:0;text-align:center;top:700px;font-size:56px;">→ TU TESTES L&#x27;ATTRACTION</div></div>
+<div id="zone" style="height:880px;"><div class="zgrid" id="s07-s-grid"></div><div class="zimg" id="s07-s-z0" style="left:300px;top:20px;width:480px;height:760px;"><div id="s07-s-z0-in" style="position:relative;transform-origin:50% 60%"><img src="assets/mockups/preco-page.png" alt=""></div></div><div class="zstamp" id="s07-s-z1" style="left:30px;top:120px">100 % PRÉCOMMANDE<span class="shine" id="s07-s-z1-sh"></span></div><div class="zbadge" id="s07-s-z2" style="left:700px;top:420px">STOCK LIMITÉ</div><div class="xl ztag" id="s07-s-z3" style="left:40px;top:560px"><span class="dot"></span>POUR POUSSER À L&#x27;ACHAT</div><div class="ok zline" id="s07-s-z4" style="left:0;right:0;text-align:center;top:700px;font-size:56px;">→ TU TESTES L&#x27;ATTRACTION</div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
@@ -206,6 +210,7 @@ window.__timelines = window.__timelines || {};
     tl.to("#s07-s-z0-in", { scale: 1.35, x: 0, y: 0, duration: 0.7, ease: "power3.inOut" }, 3.791);
   tl.to("#s07-s-z0", { scale: 1.045, duration: 6.783, ease: "none" }, 0.55);
   tl.from("#s07-s-z1", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 1.341);
+  tl.fromTo("#s07-s-z1-sh", { xPercent: -120 }, { xPercent: 320, duration: 0.55, ease: "power2.inOut" }, 1.641);
   tl.to("#zone", { x: 9, duration: 0.035, yoyo: true, repeat: 3, ease: "none" }, 1.461);
   tl.set("#zone", { x: 0 }, 1.611);
   tl.to("#s07-s-z1", { rotation: -3, duration: 0.1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 1.841);
@@ -217,6 +222,7 @@ window.__timelines = window.__timelines || {};
   tl.to("#s07-s-z3", { y: -7, duration: 0.804, yoyo: true, repeat: 1, ease: "sine.inOut" }, 5.726);
   tl.from("#s07-s-z4", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 6.421);
   tl.fromTo("#s07-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 337px, 0px 0px", duration: 7.333, ease: "none" }, 0);
+  tl.fromTo("#zone", { scale: 1 }, { scale: 1.03, duration: 7.333, ease: "none" }, 0);
   tl.to({}, { duration: 7.333 }, 0);
   window.__timelines["s07-s"] = tl;
 })();

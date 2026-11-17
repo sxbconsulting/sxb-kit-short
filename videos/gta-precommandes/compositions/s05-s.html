@@ -196,8 +196,12 @@
   box-shadow: 0 0 0 5px #FF2E88, 0 0 40px rgba(255,46,136,.6), 0 24px 60px rgba(0,0,0,.6); }
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
+/* fx2: light sweep across stamps */
+.zstamp { overflow: hidden; }
+.zstamp .shine { position: absolute; top: -20%; bottom: -20%; left: 0; width: 34%; transform: skewX(-20deg);
+  background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.75), rgba(255,255,255,0)); pointer-events: none; }
 </style>
-<div id="zone" style="height:1920px;"><div class="zgrid" id="s05-s-grid"></div><div class="zline" id="s05-s-z0" style="left:0;right:0;text-align:center;top:110px;font-size:100px;"><em>2</em> OPTIONS</div><div class="zphoto" id="s05-s-z1" style="left:60px;top:260px;width:430px;height:931px;transform:rotate(-2deg)"><img src="assets/mockups/preco-page.png" alt="" style="object-position:50% 50%"></div><div class="xl ztag" id="s05-s-z2" style="left:520px;top:360px"><span class="dot"></span>① PRÉCOMMANDE</div><div class="xl ztag" id="s05-s-z3" style="left:520px;top:560px"><span class="dot"></span>PRODUIT SIMPLE</div><div class="xl ztag" id="s05-s-z4" style="left:520px;top:720px"><span class="dot"></span>AUDIENCE DÉJÀ LÀ</div><div class="zcam" id="s05-s-z5" style="left:40px;top:1320px;width:410px;height:410px"><video id="s05-s-z5-v" class="clip" src="assets/speaker.mp4" data-start="0" data-duration="4.633" data-media-start="14.833" data-track-index="45" muted playsinline style="width:100%;height:100%;object-fit:cover;object-position:50% 46%;transform:scale(1);transform-origin:50% 46%"></video></div></div>
+<div id="zone" style="height:1920px;"><div class="zgrid" id="s05-s-grid"></div><div class="zline" id="s05-s-z0" style="left:0;right:0;text-align:center;top:110px;font-size:100px;"><em>2</em> OPTIONS</div><div class="zphoto" id="s05-s-z1" style="left:60px;top:260px;width:430px;height:931px;transform:rotate(-2deg)"><img src="assets/mockups/preco-page.png" alt="" style="object-position:50% 50%"></div><div class="xl ztag" id="s05-s-z2" style="left:520px;top:360px"><span class="dot"></span>① PRÉCOMMANDE</div><div class="xl ztag" id="s05-s-z3" style="left:520px;top:560px"><span class="dot"></span>PRODUIT SIMPLE</div><div class="xl ztag" id="s05-s-z4" style="left:520px;top:720px"><span class="dot"></span>AUDIENCE DÉJÀ LÀ</div><div class="zcam" id="s05-s-z5" style="left:70px;top:1320px;width:410px;height:410px"><video id="s05-s-z5-v" class="clip" src="assets/speaker.mp4" data-start="0" data-duration="4.633" data-media-start="14.833" data-track-index="45" muted playsinline style="width:100%;height:100%;object-fit:cover;object-position:50% 46%;transform:scale(1);transform-origin:50% 46%"></video></div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
@@ -212,8 +216,11 @@ window.__timelines = window.__timelines || {};
   tl.from("#s05-s-z3", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 3.36);
   tl.to("#s05-s-z3", { y: -7, duration: 0.362, yoyo: true, repeat: 1, ease: "sine.inOut" }, 3.91);
   tl.from("#s05-s-z4", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 4.176);
+  tl.fromTo("#s05-s-z5", { scale: 1 }, { scale: 1.14, duration: 0.08, ease: "power2.out", immediateRender: false }, 1.679);
+  tl.to("#s05-s-z5", { scale: 1, duration: 0.4, ease: "power3.out" }, 1.759);
   tl.to("#s05-s-z5", { y: -12, rotation: 1.5, duration: 1.021, yoyo: true, repeat: 3, ease: "sine.inOut" }, 0.55);
   tl.fromTo("#s05-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 213px, 0px 0px", duration: 4.633, ease: "none" }, 0);
+  tl.fromTo("#zone", { scale: 1 }, { scale: 1.03, duration: 4.633, ease: "none" }, 0);
   tl.to({}, { duration: 4.633 }, 0);
   window.__timelines["s05-s"] = tl;
 })();

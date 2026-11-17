@@ -196,6 +196,10 @@
   box-shadow: 0 0 0 5px #FF2E88, 0 0 40px rgba(255,46,136,.6), 0 24px 60px rgba(0,0,0,.6); }
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
+/* fx2: light sweep across stamps */
+.zstamp { overflow: hidden; }
+.zstamp .shine { position: absolute; top: -20%; bottom: -20%; left: 0; width: 34%; transform: skewX(-20deg);
+  background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.75), rgba(255,255,255,0)); pointer-events: none; }
 </style>
 <div id="zone" style="height:880px;"><div class="zgrid" id="s16-s-grid"></div><div class="zline" id="s16-s-z0" style="left:0;right:0;text-align:center;top:60px;font-size:66px;">UN PROJET <em>QUI S&#x27;Y PRÊTE</em> ?</div><div class="zc" id="s16-s-z1" style="left:140px;top:220px;width:800px;"><div class="bar"></div><div class="ttl">JE T&#x27;AIDE À PRÉPARER</div><div class="lab">TA CAMPAGNE</div></div><div class="dim ztag" id="s16-s-z2" style="left:340px;top:560px"><span class="dot"></span>COMMENTE PRÉCO</div></div>
 </div>
@@ -209,6 +213,7 @@ window.__timelines = window.__timelines || {};
   tl.from("#s16-s-z2", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 2.586);
   tl.to("#s16-s-z2", { y: -7, duration: 0.365, yoyo: true, repeat: 1, ease: "sine.inOut" }, 3.136);
   tl.fromTo("#s16-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 178px, 0px 0px", duration: 3.867, ease: "none" }, 0);
+  tl.fromTo("#zone", { scale: 1 }, { scale: 1.03, duration: 3.867, ease: "none" }, 0);
   tl.to({}, { duration: 3.867 }, 0);
   window.__timelines["s16-s"] = tl;
 })();

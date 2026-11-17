@@ -134,19 +134,19 @@
 </style>
 <div id="root" data-composition-id="s11-f" data-width="1080" data-height="1920">
 <style>#root { --ov-accent: #FF2E88; --ov-font: "Anton", "Archivo", sans-serif; }</style>
-<div class="ov" id="s11-f-ov0" style="top:190px;text-align:center;font-size:80px;color:#FFFFFF;"><span class="it inline">LE NERF DE LA GUERRE</span></div>
-<div class="ov" id="s11-f-ov1" style="top:300px;text-align:center;font-size:104px;color:#FF6FB5;"><span class="it inline">LA COMMUNICATION</span></div>
-<div class="ov" id="s11-f-ov2" style="top:460px;text-align:center;font-size:60px;color:#FF3B3B;"><span class="it inline">PERSONNE NE VOIT = 0 VENTE</span></div>
+<div class="ov" id="s11-f-ov0" style="top:190px;text-align:center;font-size:80px;color:#FFFFFF;"><span class="it inline"><span class="kw" style="display:inline-block">LE</span> <span class="kw" style="display:inline-block">NERF</span> <span class="kw" style="display:inline-block">DE</span> <span class="kw" style="display:inline-block">LA</span> <span class="kw" style="display:inline-block">GUERRE</span></span></div>
+<div class="ov" id="s11-f-ov1" style="top:300px;text-align:center;font-size:104px;color:#FF6FB5;"><span class="it inline"><span class="kw" style="display:inline-block">LA</span> <span class="kw" style="display:inline-block">COMMUNICATION</span></span></div>
+<div class="ov" id="s11-f-ov2" style="top:460px;text-align:center;font-size:60px;color:#FF3B3B;"><span class="it inline"><span class="kw" style="display:inline-block">PERSONNE</span> <span class="kw" style="display:inline-block">NE</span> <span class="kw" style="display:inline-block">VOIT</span> <span class="kw" style="display:inline-block">=</span> <span class="kw" style="display:inline-block">0</span> <span class="kw" style="display:inline-block">VENTE</span></span></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
 (function () {
   const tl = gsap.timeline({ paused: true });
-    tl.from("#s11-f-ov0", { opacity: 0, scale: 0.6, duration: 0.32, ease: "back.out(2.2)", transformOrigin: "50% 50%" }, 0.904);
+    tl.from("#s11-f-ov0 .kw", { y: -70, opacity: 0, rotation: -6, scale: 1.3, duration: 0.34, ease: "back.out(2.4)", stagger: 0.07 }, 0.904);
   tl.to("#s11-f-ov0", { scale: 1.06, y: -8, duration: 3.296, ease: "sine.inOut" }, 1.304);
-  tl.from("#s11-f-ov1", { opacity: 0, y: 24, duration: 0.28, ease: "power3.out" }, 1.85);
+  tl.from("#s11-f-ov1 .kw", { y: -70, opacity: 0, rotation: -6, scale: 1.3, duration: 0.34, ease: "back.out(2.4)", stagger: 0.07 }, 1.85);
   tl.to("#s11-f-ov1", { scale: 1.06, y: -8, duration: 2.35, ease: "sine.inOut" }, 2.25);
-  tl.from("#s11-f-ov2", { opacity: 0, y: 24, duration: 0.28, ease: "power3.out" }, 3.279);
+  tl.from("#s11-f-ov2 .kw", { y: -70, opacity: 0, rotation: -6, scale: 1.3, duration: 0.34, ease: "back.out(2.4)", stagger: 0.07 }, 3.279);
   tl.to("#s11-f-ov2", { scale: 1.06, y: -8, duration: 0.921, ease: "sine.inOut" }, 3.679);
   tl.to({}, { duration: 4.6 }, 0);
   window.__timelines["s11-f"] = tl;

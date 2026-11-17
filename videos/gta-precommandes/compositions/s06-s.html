@@ -196,8 +196,12 @@
   box-shadow: 0 0 0 5px #FF2E88, 0 0 40px rgba(255,46,136,.6), 0 24px 60px rgba(0,0,0,.6); }
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
+/* fx2: light sweep across stamps */
+.zstamp { overflow: hidden; }
+.zstamp .shine { position: absolute; top: -20%; bottom: -20%; left: 0; width: 34%; transform: skewX(-20deg);
+  background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.75), rgba(255,255,255,0)); pointer-events: none; }
 </style>
-<div id="zone" style="height:1920px;"><div class="zgrid" id="s06-s-grid"></div><div class="zphoto" id="s06-s-z0" style="left:560px;top:180px;width:440px;height:952px;transform:rotate(2deg)"><img src="assets/mockups/preco-mail.png" alt="" style="object-position:50% 50%"></div><div class="xl ztag" id="s06-s-z1" style="left:60px;top:320px"><span class="dot"></span>📧 UN MAIL</div><div class="xl ztag" id="s06-s-z2" style="left:60px;top:480px"><span class="dot"></span>📱 TES CONTENUS</div><div class="zstamp" id="s06-s-z3" style="left:40px;top:700px">NOUVEAU PRODUIT</div><div class="zcam" id="s06-s-z4" style="left:40px;top:1320px;width:410px;height:410px"><video id="s06-s-z4-v" class="clip" src="assets/speaker.mp4" data-start="0" data-duration="4.9" data-media-start="19.467" data-track-index="44" muted playsinline style="width:100%;height:100%;object-fit:cover;object-position:50% 46%;transform:scale(1);transform-origin:50% 46%"></video></div></div>
+<div id="zone" style="height:1920px;"><div class="zgrid" id="s06-s-grid"></div><div class="zphoto" id="s06-s-z0" style="left:560px;top:180px;width:440px;height:952px;transform:rotate(2deg)"><img src="assets/mockups/preco-mail.png" alt="" style="object-position:50% 50%"></div><div class="xl ztag" id="s06-s-z1" style="left:60px;top:320px"><span class="dot"></span>📧 UN MAIL</div><div class="xl ztag" id="s06-s-z2" style="left:60px;top:480px"><span class="dot"></span>📱 TES CONTENUS</div><div class="zstamp" id="s06-s-z3" style="left:40px;top:700px">NOUVEAU PRODUIT<span class="shine" id="s06-s-z3-sh"></span></div><div class="zcam" id="s06-s-z4" style="left:70px;top:1320px;width:410px;height:410px"><video id="s06-s-z4-v" class="clip" src="assets/speaker.mp4" data-start="0" data-duration="4.9" data-media-start="19.467" data-track-index="44" muted playsinline style="width:100%;height:100%;object-fit:cover;object-position:50% 46%;transform:scale(1);transform-origin:50% 46%"></video></div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
@@ -209,10 +213,12 @@ window.__timelines = window.__timelines || {};
   tl.from("#s06-s-z2", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 2.507);
   tl.to("#s06-s-z2", { y: -7, duration: 0.922, yoyo: true, repeat: 1, ease: "sine.inOut" }, 3.057);
   tl.from("#s06-s-z3", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 4.053);
+  tl.fromTo("#s06-s-z3-sh", { xPercent: -120 }, { xPercent: 320, duration: 0.55, ease: "power2.inOut" }, 4.353);
   tl.to("#zone", { x: 9, duration: 0.035, yoyo: true, repeat: 3, ease: "none" }, 4.173);
   tl.set("#zone", { x: 0 }, 4.323);
   tl.to("#s06-s-z4", { y: -12, rotation: 1.5, duration: 1.088, yoyo: true, repeat: 3, ease: "sine.inOut" }, 0.55);
   tl.fromTo("#s06-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 225px, 0px 0px", duration: 4.9, ease: "none" }, 0);
+  tl.fromTo("#zone", { scale: 1 }, { scale: 1.03, duration: 4.9, ease: "none" }, 0);
   tl.to({}, { duration: 4.9 }, 0);
   window.__timelines["s06-s"] = tl;
 })();

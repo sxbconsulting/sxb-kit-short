@@ -196,6 +196,10 @@
   box-shadow: 0 0 0 5px #FF2E88, 0 0 40px rgba(255,46,136,.6), 0 24px 60px rgba(0,0,0,.6); }
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
+/* fx2: light sweep across stamps */
+.zstamp { overflow: hidden; }
+.zstamp .shine { position: absolute; top: -20%; bottom: -20%; left: 0; width: 34%; transform: skewX(-20deg);
+  background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.75), rgba(255,255,255,0)); pointer-events: none; }
 </style>
 <div id="zone" style="height:880px;"><div class="zgrid" id="s08-s-grid"></div><div class="zline" id="s08-s-z0" style="left:60px;top:40px;font-size:96px;">OPTION <em>2</em></div><div class="zcheck" id="s08-s-z1" style="left:90px;top:190px;width:900px"><span class="n">€</span><span>Financer <em>la production</em></span><span class="ck" id="s08-s-z1-ck">✓</span></div><div class="zcheck" id="s08-s-z2" style="left:90px;top:320px;width:900px"><span class="n">♥</span><span>Construire <em>ta 1re communauté</em></span><span class="ck" id="s08-s-z2-ck">✓</span></div><div class="zimg" id="s08-s-z3" style="left:140px;top:470px;width:800px;"><div id="s08-s-z3-in" style="position:relative;transform-origin:50% 50%"><img src="assets/captures/ulule/home-crop.png" alt=""></div></div><div class="zbadge" id="s08-s-z4" style="left:620px;top:40px">→ CAMPAGNE ULULE</div></div>
 </div>
@@ -217,6 +221,7 @@ window.__timelines = window.__timelines || {};
   tl.to("#s08-s-z4", { rotation: 3, duration: 0.1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 4.202);
   tl.to("#s08-s-z4", { y: -10, duration: 0.741, yoyo: true, repeat: 1, ease: "sine.inOut" }, 4.252);
   tl.fromTo("#s08-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 264px, 0px 0px", duration: 5.733, ease: "none" }, 0);
+  tl.fromTo("#zone", { scale: 1 }, { scale: 1.03, duration: 5.733, ease: "none" }, 0);
   tl.to({}, { duration: 5.733 }, 0);
   window.__timelines["s08-s"] = tl;
 })();

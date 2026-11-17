@@ -36,6 +36,7 @@ def kw_norm(t):
 
 
 KEYWORDS = [kw_norm(k) for k in sb.get("keywords", [])]
+KW_TIMES = sorted(w["start"] for w in transcript.get("words", []) if kw_norm(w["text"]) in KEYWORDS)   # fx2: punches on the bubble
 LOCALE = sb.get("locale", "en-US")   # number formatting in count-ups: "40 825" in fr-FR, "40,825" in en-US
 LANG = sb.get("lang", LOCALE.split("-")[0])
 CAP_TOP = {"C": 850, "B": 940, "D": 1690, "F": 1500, "S": 780, "Y": 930}
@@ -318,8 +319,11 @@ def zone_items(sid, z, t0, t1, tl):
             items_html.append(f'<div class="zbadge" id="{iid}" style="left:{x}px;top:{y}px">{esc(it["text"])}</div>')
             tl.append(f'tl.from("#{iid}", {{ scale: 0, rotation: -30, duration: 0.45, ease: "back.out(2.4)" }}, {at});')
         elif typ == "stamp":
-            items_html.append(f'<div class="zstamp" id="{iid}" style="left:{x}px;top:{y}px">{esc(it["text"])}</div>')
+            shine = f'<span class="shine" id="{iid}-sh"></span>' if sb.get("fx2") else ""
+            items_html.append(f'<div class="zstamp" id="{iid}" style="left:{x}px;top:{y}px">{esc(it["text"])}{shine}</div>')
             tl.append(f'tl.from("#{iid}", {{ scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }}, {at});')
+            if shine:   # a light sweep across the stamp right after it lands
+                tl.append(f'tl.fromTo("#{iid}-sh", {{ xPercent: -120 }}, {{ xPercent: 320, duration: 0.55, ease: "power2.inOut" }}, {r3(float(at) + 0.3)});')
         elif typ == "image":
             hls = "".join(f'<div class="hl" id="{iid}-hl{k}" style="left:{h[0]}px;top:{h[1]}px;width:{h[2]}px;height:{h[3]}px"></div>' for k, h in enumerate(it.get("highlights", [])))
             items_html.append(f'<div class="zimg" id="{iid}" style="left:{x}px;top:{y}px;width:{it.get("w", 960)}px;{"height:" + str(it["h"]) + "px;" if it.get("h") else ""}"><div id="{iid}-in" style="position:relative;transform-origin:{it.get("origin", "50% 50%")}"><img src="{esc(it["src"])}" alt="">{hls}</div></div>')
@@ -340,6 +344,13 @@ def zone_items(sid, z, t0, t1, tl):
             size = it.get("w", 380)
             items_html.append(f'<div class="zcam" id="{iid}" style="left:{x}px;top:{y}px;width:{size}px;height:{size}px"><video id="{iid}-v" class="clip" src="{esc(SPEAKER)}" data-start="{at}" data-duration="{r3(t1 - t0 - float(at))}" data-media-start="{r3(t0 + float(at))}" data-track-index="{40 + j}" muted playsinline style="width:100%;height:100%;object-fit:cover;object-position:{it.get("pos", "50% 46%")};transform:scale({it.get("zoom", 1)});transform-origin:{it.get("pos", "50% 46%")}"></video></div>')
             tl.append(f'tl.from("#{iid}", {{ scale: 0.4, opacity: 0, duration: 0.4, ease: "back.out(2)" }}, {at});')
+            if sb.get("fx2"):   # the bubble kicks on keywords (scale only: idle motion writes y / rotation)
+                last = -9
+                for kt in KW_TIMES:
+                    if t0 + float(at) + 0.5 <= kt <= t1 - 0.6 and kt - last >= 1.2:
+                        tl.append(f'tl.fromTo("#{iid}", {{ scale: 1 }}, {{ scale: 1.14, duration: 0.08, ease: "power2.out", immediateRender: false }}, {r3(kt - t0 - 0.02)});')
+                        tl.append(f'tl.to("#{iid}", {{ scale: 1, duration: 0.4, ease: "power3.out" }}, {r3(kt - t0 + 0.06)});')
+                        last = kt
         elif typ == "glass":
             ico = f'<div class="ico">{esc(it["icon"])}</div>' if it.get("icon") else ""
             ttl = f'<div class="ttl">{rich(it["title"])}</div>' if it.get("title") else ""
@@ -519,6 +530,8 @@ def scene_html(sid, sc):
         if grid:   # the floor grid rolls toward the viewer (synthwave road), one cell per second
             tl.append(f'tl.fromTo("#{sid}-grid", {{ backgroundPosition: "0px 0px, 0px 0px" }}, {{ backgroundPosition: "0px {round(46 * slot)}px, 0px 0px", duration: {r3(slot)}, ease: "none" }}, 0);')
         body.append(f'<div id="zone" style="height:{zh}px;{zbg}">{grid}{"".join(items_html)}</div>')
+        if sb.get("fx2"):   # slow push-in of the whole screen zone (scale only: the stamp shake writes x)
+            tl.append(f'tl.fromTo("#zone", {{ scale: 1 }}, {{ scale: 1.03, duration: {r3(t1 - t0)}, ease: "none" }}, 0);')
         if z.get("in") is not None:
             tl.append(f'tl.fromTo("#zone", {{ clipPath: "inset(0px 0px 1040px 0px)" }}, {{ clipPath: "inset(0px 0px 0px 0px)", duration: 0.55, ease: "power4.inOut" }}, {rel(z["in"])});')
         elif not z.get("no_intro"):   # no_intro: the zone is already there on frame 0 (an opening)
@@ -613,9 +626,14 @@ def scene_html(sid, sc):
                     deco += f'<span class="ul" id="{iid}-ul"></span>'
                 label = f'<span class="lab">{esc(it["label"])}</span>' if it.get("label") else ""
                 pad = f'padding-left:{it["left"]}px;' if it.get("left") else ""
+                kinetic = sb.get("fx2") and "<" not in it["text"] and not it.get("check")
+                if kinetic:   # every word drops in on its own
+                    inner = " ".join(f'<span class="kw" style="display:inline-block">{esc(wd)}</span>' for wd in it["text"].split())
                 html.append(f'<div class="ov" id="{iid}" style="top:{it.get("top", 300)}px;text-align:{it.get("align", "center")};{style}{pad}"><span class="it inline">{inner}{deco}</span>{label}</div>')
                 pop = it.get("pop", "scale")
-                if pop == "scale":
+                if kinetic:
+                    tl.append(f'tl.from("#{iid} .kw", {{ y: -70, opacity: 0, rotation: -6, scale: 1.3, duration: 0.34, ease: "back.out(2.4)", stagger: 0.07 }}, {r3(max(0, at))});')
+                elif pop == "scale":
                     tl.append(f'tl.from("#{iid}", {{ opacity: 0, scale: 0.6, duration: 0.32, ease: "back.out(2.2)", transformOrigin: "50% 50%" }}, {r3(max(0, at))});')
                 else:
                     tl.append(f'tl.from("#{iid}", {{ opacity: 0, y: 24, duration: 0.28, ease: "power3.out" }}, {r3(max(0, at))});')
@@ -835,11 +853,12 @@ def build():
                 else f'tl.from("#{kid}", {{ opacity: 0, y: 8, duration: 0.12, ease: "power2.out" }}, {r3(max(0, kstart - 0.03))});') for kid, kstart, is_kw in kw_tl])
     elif CAP_STYLE in ("highlight", "karaoke", "editorial"):
         starts = [r3(float(re.search(r"data-start=\"([0-9.]+)\"", c).group(1))) for c in caps]
-        lines = [f'tl.from("#cap-{i} span", {{ scale: 0.94, opacity: 0, duration: 0.16, ease: "power3.out", transformOrigin: "50% 100%" }}, {t});' for i, t in enumerate(starts, 1)]
+        cap_in = '{ scale: 0.7, y: 26, opacity: 0, duration: 0.22, ease: "back.out(2.6)", transformOrigin: "50% 100%" }' if sb.get("fx2") else '{ scale: 0.94, opacity: 0, duration: 0.16, ease: "power3.out", transformOrigin: "50% 100%" }'
+        lines = [f'tl.from("#cap-{i} span", {cap_in}, {t});' for i, t in enumerate(starts, 1)]
         for wid, ws, nxt, is_kw in cap_words:
             a, b = r3(max(0, ws - 0.03)), r3(max(0, nxt - 0.03))
             if CAP_STYLE == "highlight":          # aplat accent sous le mot dit, puis retour au blanc
-                lines.append(f'tl.set("#{wid}", {{ backgroundColor: "{CAP_ACCENT}", color: "{CAP_ON_ACCENT}", textShadow: "none", scale: 1.06, "--hl": 1 }}, {a});')
+                lines.append(f'tl.set("#{wid}", {{ backgroundColor: "{CAP_ACCENT}", color: "{CAP_ON_ACCENT}", textShadow: "none", scale: {1.14 if sb.get("fx2") else 1.06}, "--hl": 1 }}, {a});')
                 lines.append(f'tl.set("#{wid}", {{ backgroundColor: "rgba(0,0,0,0)", color: "{CAP_ACCENT if is_kw else "#fff"}", textShadow: "0 4px 14px rgba(0,0,0,.6)", scale: 1, "--hl": 0 }}, {b});')
             elif CAP_STYLE == "karaoke":          # gris → accent pendant le mot → blanc une fois dit
                 lines.append(f'tl.set("#{wid}", {{ color: "{CAP_ACCENT}" }}, {a});')
@@ -849,6 +868,10 @@ def build():
                              else f'tl.from("#{wid}", {{ opacity: 0, y: 14, duration: 0.14, ease: "power3.out" }}, {a});')
         cap_tl = "\n      ".join(lines)
     extra_tl, wipe_html = [], []
+    if sb.get("fx2"):   # slow camera push on the speaker for each face clip (the wrapper; the punch layer is inside)
+        for fsid, fa, fb, flay in FACE_WINDOWS:
+            origin = "50% 100%" if flay == "S" else "50% 45%"
+            extra_tl.append(f'tl.fromTo("#{fsid}-face-wrap", {{ scale: 1 }}, {{ scale: 1.05, duration: {r3(fb - fa)}, ease: "none", transformOrigin: "{origin}" }}, {r3(fa)});')
     pc = sb.get("punch")
     if pc:   # zoom cut on the speaker on keywords: 1 → zoom in 0.08 s, back to 1 over 0.45 s; min gap between two punches
         last = -9

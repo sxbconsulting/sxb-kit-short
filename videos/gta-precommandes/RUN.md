@@ -11,7 +11,7 @@ Brief : « tu peux t'attaquer à cette vidéo » — même méthode et même DA 
 - [x] 3. Sous-titres — style highlight GTA validé (vidéos 1-2)
 - [x] 4. Beats et assets — enchaînés sur « passe à la suite » (pas de validation séparée)
 - [x] 5. Ouverture — choisie par l'agent : logo VI + compteur 7 700 000 + « PAS ENCORE SORTI » (à valider dans l'animatic)
-- [ ] 6. Animatic → final — v1 envoyée (`review/gate6-animatic-v1.mp4`)
+- [ ] 6. Animatic → final — retour 1/3 « dernier travail sur le dynamisme » → **v2** envoyée (`review/gate6-animatic-v2.mp4`)
 - [ ] 7. Livraison
 
 ## Gate 2 — dérush
@@ -53,3 +53,12 @@ Extrait `gta-logo-vi` (vidéo 2). Maquettes `scripts/mockups-preco.mjs` : page d
 Passe 1 : stamp sur le crédit, stamp sur la capture CNBC, « ULULE » caché, surlignage 1 ligne sur 2, tags sur 2 lignes qui se
 chevauchaient, trous d'animation à 9,4 / 38,6 / 42,6 / 46,5 s → corrigés. Passe 2 (rendu) : 3 scènes vides au début → titre dès la
 coupe ; −16,7 LUFS, crête −1,5 dBTP, 0 sous-titre mal placé, extrait non noir.
+
+### Retour 1/3 → v2 « un dernier travail sur le dynamisme & l'animation »
+
+`"fx2": true` (nouveau, `build-reel.py` racine + projet) : sous-titres qui rebondissent (back.out, y 26), mot dit ×1,14 ;
+typo cinétique sur les titres des scènes F (chaque mot tombe, stagger 0,07 s) ; travelling lent sur l'avatar (cadre ×1,05 par plan,
+la couche punch reste dedans) et sur la zone écran (×1,03) ; reflet lumineux sur chaque tampon (`.shine`, gta.css du projet) ;
+punch ×1,14 de la bulle sur les mots-clés (scènes plein écran). Bulle décalée à x 70 (le punch la coupait au bord gauche).
+Vérif : captures aux instants des effets (11,83 / 52,7 mots qui tombent, 75,6 reflet, 16,58 bulle), rendu complet, décodage OK,
+−16,7 LUFS / −1,5 dBTP, 0 sous-titre mal placé, plan + footage ok, check 0 erreur.

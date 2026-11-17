@@ -134,22 +134,22 @@
 </style>
 <div id="root" data-composition-id="s04-f" data-width="1080" data-height="1920">
 <style>#root { --ov-accent: #FF2E88; --ov-font: "Anton", "Archivo", sans-serif; }</style>
-<div class="ov" id="s04-f-ov0" style="top:110px;text-align:center;font-size:56px;color:#FFC861;"><span class="it inline">ILS ONT RÉUSSI À</span></div>
-<div class="ov" id="s04-f-ov1" style="top:200px;text-align:center;font-size:130px;color:#FFFFFF;"><span class="it inline">VENDRE</span></div>
-<div class="ov" id="s04-f-ov2" style="top:350px;text-align:center;font-size:96px;color:#FF6FB5;"><span class="it inline">AVANT D&#x27;EXISTER</span></div>
-<div class="ov" id="s04-f-ov3" style="top:480px;text-align:center;font-size:64px;color:#FFC861;"><span class="it inline">TA MARQUE AUSSI</span></div>
+<div class="ov" id="s04-f-ov0" style="top:110px;text-align:center;font-size:56px;color:#FFC861;"><span class="it inline"><span class="kw" style="display:inline-block">ILS</span> <span class="kw" style="display:inline-block">ONT</span> <span class="kw" style="display:inline-block">RÉUSSI</span> <span class="kw" style="display:inline-block">À</span></span></div>
+<div class="ov" id="s04-f-ov1" style="top:200px;text-align:center;font-size:130px;color:#FFFFFF;"><span class="it inline"><span class="kw" style="display:inline-block">VENDRE</span></span></div>
+<div class="ov" id="s04-f-ov2" style="top:350px;text-align:center;font-size:96px;color:#FF6FB5;"><span class="it inline"><span class="kw" style="display:inline-block">AVANT</span> <span class="kw" style="display:inline-block">D&#x27;EXISTER</span></span></div>
+<div class="ov" id="s04-f-ov3" style="top:480px;text-align:center;font-size:64px;color:#FFC861;"><span class="it inline"><span class="kw" style="display:inline-block">TA</span> <span class="kw" style="display:inline-block">MARQUE</span> <span class="kw" style="display:inline-block">AUSSI</span></span></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
 (function () {
   const tl = gsap.timeline({ paused: true });
-    tl.from("#s04-f-ov0", { opacity: 0, y: 24, duration: 0.28, ease: "power3.out" }, 0.417);
+    tl.from("#s04-f-ov0 .kw", { y: -70, opacity: 0, rotation: -6, scale: 1.3, duration: 0.34, ease: "back.out(2.4)", stagger: 0.07 }, 0.417);
   tl.to("#s04-f-ov0", { scale: 1.06, y: -8, duration: 2.983, ease: "sine.inOut" }, 0.817);
-  tl.from("#s04-f-ov1", { opacity: 0, scale: 0.6, duration: 0.32, ease: "back.out(2.2)", transformOrigin: "50% 50%" }, 0.781);
+  tl.from("#s04-f-ov1 .kw", { y: -70, opacity: 0, rotation: -6, scale: 1.3, duration: 0.34, ease: "back.out(2.4)", stagger: 0.07 }, 0.781);
   tl.to("#s04-f-ov1", { scale: 1.06, y: -8, duration: 2.619, ease: "sine.inOut" }, 1.181);
-  tl.from("#s04-f-ov2", { opacity: 0, y: 24, duration: 0.28, ease: "power3.out" }, 1.772);
+  tl.from("#s04-f-ov2 .kw", { y: -70, opacity: 0, rotation: -6, scale: 1.3, duration: 0.34, ease: "back.out(2.4)", stagger: 0.07 }, 1.772);
   tl.to("#s04-f-ov2", { scale: 1.06, y: -8, duration: 1.628, ease: "sine.inOut" }, 2.172);
-  tl.from("#s04-f-ov3", { opacity: 0, y: 24, duration: 0.28, ease: "power3.out" }, 2.561);
+  tl.from("#s04-f-ov3 .kw", { y: -70, opacity: 0, rotation: -6, scale: 1.3, duration: 0.34, ease: "back.out(2.4)", stagger: 0.07 }, 2.561);
   tl.to("#s04-f-ov3", { scale: 1.06, y: -8, duration: 0.839, ease: "sine.inOut" }, 2.961);
   tl.to({}, { duration: 3.8 }, 0);
   window.__timelines["s04-f"] = tl;

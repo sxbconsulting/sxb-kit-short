@@ -196,8 +196,12 @@
   box-shadow: 0 0 0 5px #FF2E88, 0 0 40px rgba(255,46,136,.6), 0 24px 60px rgba(0,0,0,.6); }
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
+/* fx2: light sweep across stamps */
+.zstamp { overflow: hidden; }
+.zstamp .shine { position: absolute; top: -20%; bottom: -20%; left: 0; width: 34%; transform: skewX(-20deg);
+  background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.75), rgba(255,255,255,0)); pointer-events: none; }
 </style>
-<div id="zone" style="height:880px;"><div class="zgrid" id="s15-s-grid"></div><div class="zline" id="s15-s-z0" style="left:0;right:0;text-align:center;top:20px;font-size:96px;">COMMENTE</div><div class="big zstamp" id="s15-s-z1" style="left:290px;top:170px">PRÉCO</div><div class="sun zline" id="s15-s-z2" style="left:0;right:0;text-align:center;top:420px;font-size:52px;">→ MA GRILLE POUR GÉRER TES PRÉCOS</div><div class="xl ztag" id="s15-s-z3" style="left:110px;top:560px"><span class="dot"></span>TA BOUTIQUE</div><div class="xl ztag" id="s15-s-z4" style="left:640px;top:560px"><span class="dot"></span>ULULE</div></div>
+<div id="zone" style="height:880px;"><div class="zgrid" id="s15-s-grid"></div><div class="zline" id="s15-s-z0" style="left:0;right:0;text-align:center;top:20px;font-size:96px;">COMMENTE</div><div class="big zstamp" id="s15-s-z1" style="left:290px;top:170px">PRÉCO<span class="shine" id="s15-s-z1-sh"></span></div><div class="sun zline" id="s15-s-z2" style="left:0;right:0;text-align:center;top:420px;font-size:52px;">→ MA GRILLE POUR GÉRER TES PRÉCOS</div><div class="xl ztag" id="s15-s-z3" style="left:110px;top:560px"><span class="dot"></span>TA BOUTIQUE</div><div class="xl ztag" id="s15-s-z4" style="left:640px;top:560px"><span class="dot"></span>ULULE</div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
@@ -206,6 +210,7 @@ window.__timelines = window.__timelines || {};
     tl.from("#s15-s-z0", { opacity: 0, y: 16, duration: 0.3, ease: "power2.out" }, 0.078);
   tl.to("#s15-s-z0", { y: -7, duration: 2.619, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.628);
   tl.from("#s15-s-z1", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 0.421);
+  tl.fromTo("#s15-s-z1-sh", { xPercent: -120 }, { xPercent: 320, duration: 0.55, ease: "power2.inOut" }, 0.721);
   tl.to("#zone", { x: 9, duration: 0.035, yoyo: true, repeat: 3, ease: "none" }, 0.541);
   tl.set("#zone", { x: 0 }, 0.691);
   tl.to("#s15-s-z1", { rotation: -3, duration: 0.1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 0.921);
@@ -216,6 +221,7 @@ window.__timelines = window.__timelines || {};
   tl.to("#s15-s-z3", { y: -7, duration: 0.516, yoyo: true, repeat: 1, ease: "sine.inOut" }, 4.834);
   tl.from("#s15-s-z4", { y: 26, opacity: 0, scale: 0.9, duration: 0.4, ease: "back.out(2)" }, 5.411);
   tl.fromTo("#s15-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 270px, 0px 0px", duration: 5.867, ease: "none" }, 0);
+  tl.fromTo("#zone", { scale: 1 }, { scale: 1.03, duration: 5.867, ease: "none" }, 0);
   tl.to({}, { duration: 5.867 }, 0);
   window.__timelines["s15-s"] = tl;
 })();

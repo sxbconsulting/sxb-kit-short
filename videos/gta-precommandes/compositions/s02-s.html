@@ -196,6 +196,10 @@
   box-shadow: 0 0 0 5px #FF2E88, 0 0 40px rgba(255,46,136,.6), 0 24px 60px rgba(0,0,0,.6); }
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
+/* fx2: light sweep across stamps */
+.zstamp { overflow: hidden; }
+.zstamp .shine { position: absolute; top: -20%; bottom: -20%; left: 0; width: 34%; transform: skewX(-20deg);
+  background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.75), rgba(255,255,255,0)); pointer-events: none; }
 </style>
 <div id="zone" style="height:880px;"><div class="zgrid" id="s02-s-grid"></div><div class="zimg" id="s02-s-z0" style="left:40px;top:40px;width:1000px;"><div id="s02-s-z0-in" style="position:relative;transform-origin:50% 50%"><img src="assets/captures/tbreak/crop.png" alt=""><div class="hl" id="s02-s-z0-hl0" style="left:222px;top:474px;width:560px;height:52px"></div></div></div><div class="xl ztag" id="s02-s-z1" style="left:110px;top:650px"><span class="dot"></span>ESTIMATION SENSOR TOWER</div><div class="zbadge" id="s02-s-z2" style="left:720px;top:560px">03/11/2026</div></div>
 </div>
@@ -211,6 +215,7 @@ window.__timelines = window.__timelines || {};
   tl.to("#s02-s-z2", { rotation: 3, duration: 0.1, yoyo: true, repeat: 1, ease: "sine.inOut" }, 2.649);
   tl.to("#s02-s-z2", { y: -10, duration: 0.267, yoyo: true, repeat: 1, ease: "sine.inOut" }, 2.699);
   tl.fromTo("#s02-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 149px, 0px 0px", duration: 3.233, ease: "none" }, 0);
+  tl.fromTo("#zone", { scale: 1 }, { scale: 1.03, duration: 3.233, ease: "none" }, 0);
   tl.to({}, { duration: 3.233 }, 0);
   window.__timelines["s02-s"] = tl;
 })();

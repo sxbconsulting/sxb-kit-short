@@ -196,8 +196,12 @@
   box-shadow: 0 0 0 5px #FF2E88, 0 0 40px rgba(255,46,136,.6), 0 24px 60px rgba(0,0,0,.6); }
 .ztag.xl { font-size: 56px; padding: 18px 34px; }
 .ztag.xl .dot { width: 18px; height: 18px; }
+/* fx2: light sweep across stamps */
+.zstamp { overflow: hidden; }
+.zstamp .shine { position: absolute; top: -20%; bottom: -20%; left: 0; width: 34%; transform: skewX(-20deg);
+  background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.75), rgba(255,255,255,0)); pointer-events: none; }
 </style>
-<div id="zone" style="height:880px;"><div class="zgrid" id="s01-s-grid"></div><div class="zvideo" id="s01-s-z0" style="left:90px;top:40px;width:900px;height:396px;"><video id="s01-s-z0-v" class="clip" src="assets/broll/gta-logo-vi.mp4" data-start="0" data-duration="4.733" data-media-start="0" data-track-index="40" muted playsinline style="width:100%;height:100%;object-fit:cover;object-position:50% 50%"></video></div><div class="credit zline" id="s01-s-z1" style="left:100px;top:452px;">Images : Rockstar Games — GTA VI Trailer 2</div><div class="zbig" id="s01-s-z2" style="top:500px;font-size:150px;"><span id="s01-s-z2-t" style="display:inline-block;position:relative;padding:0 30px">0</span><div style="font-size:30px;letter-spacing:.14em;color:#8F8B85;margin-top:18px;font-weight:700">PRÉCOMMANDES</div></div><div class="no zstamp" id="s01-s-z3" style="left:230px;top:170px">PAS ENCORE SORTI</div></div>
+<div id="zone" style="height:880px;"><div class="zgrid" id="s01-s-grid"></div><div class="zvideo" id="s01-s-z0" style="left:90px;top:40px;width:900px;height:396px;"><video id="s01-s-z0-v" class="clip" src="assets/broll/gta-logo-vi.mp4" data-start="0" data-duration="4.733" data-media-start="0" data-track-index="40" muted playsinline style="width:100%;height:100%;object-fit:cover;object-position:50% 50%"></video></div><div class="credit zline" id="s01-s-z1" style="left:100px;top:452px;">Images : Rockstar Games — GTA VI Trailer 2</div><div class="zbig" id="s01-s-z2" style="top:500px;font-size:150px;"><span id="s01-s-z2-t" style="display:inline-block;position:relative;padding:0 30px">0</span><div style="font-size:30px;letter-spacing:.14em;color:#8F8B85;margin-top:18px;font-weight:700">PRÉCOMMANDES</div></div><div class="no zstamp" id="s01-s-z3" style="left:230px;top:170px">PAS ENCORE SORTI<span class="shine" id="s01-s-z3-sh"></span></div></div>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
@@ -209,9 +213,11 @@ window.__timelines = window.__timelines || {};
   tl.from("#s01-s-z2", { scale: 0.6, opacity: 0, duration: 0.4, ease: "back.out(2)" }, 1.543);
   (function(){ const el = document.getElementById("s01-s-z2-t").childNodes[0]; const o = { v: 0 }; tl.to(o, { v: 7700000, duration: 0.8, ease: "power2.out", onUpdate: () => { el.textContent = Math.round(o.v).toLocaleString("fr-FR").replace(/ | /g, " ") + ""; } }, 1.543); })();
   tl.from("#s01-s-z3", { scale: 1.8, opacity: 0, rotation: -14, duration: 0.32, ease: "power4.out" }, 4.365);
+  tl.fromTo("#s01-s-z3-sh", { xPercent: -120 }, { xPercent: 320, duration: 0.55, ease: "power2.inOut" }, 4.665);
   tl.to("#zone", { x: 9, duration: 0.035, yoyo: true, repeat: 3, ease: "none" }, 4.485);
   tl.set("#zone", { x: 0 }, 4.635);
   tl.fromTo("#s01-s-grid", { backgroundPosition: "0px 0px, 0px 0px" }, { backgroundPosition: "0px 218px, 0px 0px", duration: 4.733, ease: "none" }, 0);
+  tl.fromTo("#zone", { scale: 1 }, { scale: 1.03, duration: 4.733, ease: "none" }, 0);
   tl.to({}, { duration: 4.733 }, 0);
   window.__timelines["s01-s"] = tl;
 })();
