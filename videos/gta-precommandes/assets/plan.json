@@ -1,0 +1,4010 @@
+{
+ "duration": 84.433,
+ "fps": 30,
+ "scenes": [
+  {
+   "id": "s01-s",
+   "start": 0.0,
+   "end": 4.7333,
+   "layout": "broll-split",
+   "kind": "broll/gta-logo-vi",
+   "anchor": "GTA",
+   "anchorTime": 0.132
+  },
+  {
+   "id": "s02-s",
+   "start": 4.7333,
+   "end": 7.9667,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Ça,",
+   "anchorTime": 4.741
+  },
+  {
+   "id": "s03-s",
+   "start": 7.9667,
+   "end": 11.0333,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "De",
+   "anchorTime": 7.965
+  },
+  {
+   "id": "s04-f",
+   "start": 11.0333,
+   "end": 14.8333,
+   "layout": "face",
+   "kind": "beat",
+   "anchor": "Dis-toi",
+   "anchorTime": 11.045,
+   "holdReason": "la promesse, l'avatar porte la conviction"
+  },
+  {
+   "id": "s05-s",
+   "start": 14.8333,
+   "end": 19.4667,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Tu",
+   "anchorTime": 14.831
+  },
+  {
+   "id": "s06-s",
+   "start": 19.4667,
+   "end": 24.3667,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "que",
+   "anchorTime": 19.464
+  },
+  {
+   "id": "s07-s",
+   "start": 24.3667,
+   "end": 31.7,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "et",
+   "anchorTime": 24.363
+  },
+  {
+   "id": "s08-s",
+   "start": 31.7,
+   "end": 37.4333,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Numéro",
+   "anchorTime": 31.691
+  },
+  {
+   "id": "s09-s",
+   "start": 37.4333,
+   "end": 45.3667,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Ulule,",
+   "anchorTime": 37.427
+  },
+  {
+   "id": "s10-s",
+   "start": 45.3667,
+   "end": 50.7333,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Mais",
+   "anchorTime": 45.364
+  },
+  {
+   "id": "s11-f",
+   "start": 50.7333,
+   "end": 55.3333,
+   "layout": "face",
+   "kind": "beat",
+   "anchor": "Parce",
+   "anchorTime": 50.731,
+   "holdReason": "face only, the viewer follows the speech"
+  },
+  {
+   "id": "s12-s",
+   "start": 55.3333,
+   "end": 61.1333,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Il",
+   "anchorTime": 55.331
+  },
+  {
+   "id": "s13-s",
+   "start": 61.1333,
+   "end": 71.3,
+   "layout": "split",
+   "kind": "beat",
+   "anchor": "Et",
+   "anchorTime": 61.131
+  },
+  {
+   "id": "s14-f",
+   "start": 71.3,
+   "end": 74.7,
+   "layout": "face",
+   "kind": "beat",
+   "anchor": "Et",
+   "anchorTime": 71.298,
+   "holdReason": "face only, the viewer follows the speech"
+  },
+  {
+   "id": "s15-s",
+   "start": 74.7,
+   "end": 80.5667,
+   "layout": "split",
+   "kind": "cta",
+   "anchor": "et",
+   "anchorTime": 74.698
+  },
+  {
+   "id": "s16-s",
+   "start": 80.5667,
+   "end": 84.4333,
+   "layout": "split",
+   "kind": "cta",
+   "anchor": "Et",
+   "anchorTime": 80.564,
+   "holdReason": "fin : la proposition reste lisible jusqu'au ciao"
+  }
+ ],
+ "events": [
+  {
+   "time": 0.0,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "0"
+  },
+  {
+   "time": 0.0,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "0"
+  },
+  {
+   "time": 0.132,
+   "type": "caption-emphasis",
+   "visual": "s01-s",
+   "anchor": "GTA"
+  },
+  {
+   "time": 1.543,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "w:7,7"
+  },
+  {
+   "time": 1.543,
+   "type": "caption-emphasis",
+   "visual": "s01-s",
+   "anchor": "7,7"
+  },
+  {
+   "time": 2.37,
+   "type": "caption-emphasis",
+   "visual": "s01-s",
+   "anchor": "millions"
+  },
+  {
+   "time": 2.874,
+   "type": "caption-emphasis",
+   "visual": "s01-s",
+   "anchor": "précommandes"
+  },
+  {
+   "time": 4.365,
+   "type": "overlay-pop",
+   "visual": "s01-s",
+   "anchor": "w:sorti."
+  },
+  {
+   "time": 4.74,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "4.74"
+  },
+  {
+   "time": 5.532,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "w:Sensor"
+  },
+  {
+   "time": 5.532,
+   "type": "caption-emphasis",
+   "visual": "s02-s",
+   "anchor": "Sensor"
+  },
+  {
+   "time": 6.882,
+   "type": "overlay-pop",
+   "visual": "s02-s",
+   "anchor": "w:novembre"
+  },
+  {
+   "time": 7.96,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "7.96"
+  },
+  {
+   "time": 8.389,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:Take-Two"
+  },
+  {
+   "time": 8.389,
+   "type": "caption-emphasis",
+   "visual": "s03-s",
+   "anchor": "Take-Two"
+  },
+  {
+   "time": 8.692,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:dit"
+  },
+  {
+   "time": 8.853,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:juste"
+  },
+  {
+   "time": 9.398,
+   "type": "overlay-pop",
+   "visual": "s03-s",
+   "anchor": "w:dépasse"
+  },
+  {
+   "time": 11.45,
+   "type": "overlay-pop",
+   "visual": "s04-f",
+   "anchor": "w:réussi"
+  },
+  {
+   "time": 11.814,
+   "type": "overlay-pop",
+   "visual": "s04-f",
+   "anchor": "w:vendre"
+  },
+  {
+   "time": 12.805,
+   "type": "overlay-pop",
+   "visual": "s04-f",
+   "anchor": "w:existe."
+  },
+  {
+   "time": 13.594,
+   "type": "overlay-pop",
+   "visual": "s04-f",
+   "anchor": "w:marque"
+  },
+  {
+   "time": 14.83,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "14.83"
+  },
+  {
+   "time": 14.83,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "14.83"
+  },
+  {
+   "time": 15.533,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:Option"
+  },
+  {
+   "time": 16.246,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:page"
+  },
+  {
+   "time": 16.532,
+   "type": "caption-emphasis",
+   "visual": "s05-s",
+   "anchor": "précommande"
+  },
+  {
+   "time": 18.193,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:simple"
+  },
+  {
+   "time": 19.009,
+   "type": "overlay-pop",
+   "visual": "s05-s",
+   "anchor": "w:audience."
+  },
+  {
+   "time": 19.46,
+   "type": "overlay-pop",
+   "visual": "s06-s",
+   "anchor": "19.46"
+  },
+  {
+   "time": 19.46,
+   "type": "overlay-pop",
+   "visual": "s06-s",
+   "anchor": "19.46"
+  },
+  {
+   "time": 20.388,
+   "type": "overlay-pop",
+   "visual": "s06-s",
+   "anchor": "w:mail"
+  },
+  {
+   "time": 21.974,
+   "type": "overlay-pop",
+   "visual": "s06-s",
+   "anchor": "w:contenus,"
+  },
+  {
+   "time": 23.52,
+   "type": "overlay-pop",
+   "visual": "s06-s",
+   "anchor": "w:nouveau"
+  },
+  {
+   "time": 24.36,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "24.36"
+  },
+  {
+   "time": 25.708,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:uniquement"
+  },
+  {
+   "time": 26.371,
+   "type": "caption-emphasis",
+   "visual": "s07-s",
+   "anchor": "précommandes"
+  },
+  {
+   "time": 28.158,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:stock"
+  },
+  {
+   "time": 29.543,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:pousser"
+  },
+  {
+   "time": 30.788,
+   "type": "overlay-pop",
+   "visual": "s07-s",
+   "anchor": "w:voir"
+  },
+  {
+   "time": 31.69,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "31.69"
+  },
+  {
+   "time": 32.654,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:financer"
+  },
+  {
+   "time": 33.857,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:construire"
+  },
+  {
+   "time": 35.402,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:conseille"
+  },
+  {
+   "time": 36.204,
+   "type": "overlay-pop",
+   "visual": "s08-s",
+   "anchor": "w:campagne"
+  },
+  {
+   "time": 36.204,
+   "type": "caption-emphasis",
+   "visual": "s08-s",
+   "anchor": "campagne"
+  },
+  {
+   "time": 36.685,
+   "type": "caption-emphasis",
+   "visual": "s08-s",
+   "anchor": "Ulule."
+  },
+  {
+   "time": 37.427,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:Ulule,"
+  },
+  {
+   "time": 37.427,
+   "type": "caption-emphasis",
+   "visual": "s08-s",
+   "anchor": "Ulule,"
+  },
+  {
+   "time": 37.43,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "37.43"
+  },
+  {
+   "time": 37.43,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "37.43"
+  },
+  {
+   "time": 38.611,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:crowdfunding"
+  },
+  {
+   "time": 39.433,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:français"
+  },
+  {
+   "time": 41.098,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:mettre"
+  },
+  {
+   "time": 42.642,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:surtout"
+  },
+  {
+   "time": 44.367,
+   "type": "overlay-pop",
+   "visual": "s09-s",
+   "anchor": "w:l'argent"
+  },
+  {
+   "time": 45.36,
+   "type": "overlay-pop",
+   "visual": "s10-s",
+   "anchor": "45.36"
+  },
+  {
+   "time": 45.947,
+   "type": "caption-emphasis",
+   "visual": "s10-s",
+   "anchor": "Ulule,"
+  },
+  {
+   "time": 46.26,
+   "type": "overlay-pop",
+   "visual": "s10-s",
+   "anchor": "w:tout"
+  },
+  {
+   "time": 46.489,
+   "type": "caption-emphasis",
+   "visual": "s10-s",
+   "anchor": "rien."
+  },
+  {
+   "time": 48.413,
+   "type": "overlay-pop",
+   "visual": "s10-s",
+   "anchor": "w:financé"
+  },
+  {
+   "time": 49.564,
+   "type": "overlay-pop",
+   "visual": "s10-s",
+   "anchor": "w:rembourser"
+  },
+  {
+   "time": 51.637,
+   "type": "overlay-pop",
+   "visual": "s11-f",
+   "anchor": "w:nerf"
+  },
+  {
+   "time": 52.583,
+   "type": "overlay-pop",
+   "visual": "s11-f",
+   "anchor": "w:communication."
+  },
+  {
+   "time": 52.583,
+   "type": "caption-emphasis",
+   "visual": "s11-f",
+   "anchor": "communication."
+  },
+  {
+   "time": 53.529,
+   "type": "caption-emphasis",
+   "visual": "s11-f",
+   "anchor": "précommande"
+  },
+  {
+   "time": 54.012,
+   "type": "overlay-pop",
+   "visual": "s11-f",
+   "anchor": "w:personne"
+  },
+  {
+   "time": 55.019,
+   "type": "caption-emphasis",
+   "visual": "s11-f",
+   "anchor": "rien."
+  },
+  {
+   "time": 55.33,
+   "type": "overlay-pop",
+   "visual": "s12-s",
+   "anchor": "55.33"
+  },
+  {
+   "time": 57.18,
+   "type": "caption-emphasis",
+   "visual": "s12-s",
+   "anchor": "volume"
+  },
+  {
+   "time": 57.662,
+   "type": "overlay-pop",
+   "visual": "s12-s",
+   "anchor": "w:tous"
+  },
+  {
+   "time": 57.843,
+   "type": "overlay-pop",
+   "visual": "s12-s",
+   "anchor": "w:les"
+  },
+  {
+   "time": 58.004,
+   "type": "overlay-pop",
+   "visual": "s12-s",
+   "anchor": "w:jours"
+  },
+  {
+   "time": 58.587,
+   "type": "overlay-pop",
+   "visual": "s12-s",
+   "anchor": "w:pour"
+  },
+  {
+   "time": 59.089,
+   "type": "overlay-pop",
+   "visual": "s12-s",
+   "anchor": "w:pouvoir"
+  },
+  {
+   "time": 59.471,
+   "type": "overlay-pop",
+   "visual": "s12-s",
+   "anchor": "w:montrer"
+  },
+  {
+   "time": 60.516,
+   "type": "overlay-pop",
+   "visual": "s12-s",
+   "anchor": "w:monde"
+  },
+  {
+   "time": 61.13,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "61.13"
+  },
+  {
+   "time": 61.834,
+   "type": "caption-emphasis",
+   "visual": "s13-s",
+   "anchor": "trois"
+  },
+  {
+   "time": 63.079,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "w:date"
+  },
+  {
+   "time": 63.841,
+   "type": "caption-emphasis",
+   "visual": "s13-s",
+   "anchor": "honnête,"
+  },
+  {
+   "time": 64.443,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "w:seuil"
+  },
+  {
+   "time": 65.627,
+   "type": "caption-emphasis",
+   "visual": "s13-s",
+   "anchor": "30"
+  },
+  {
+   "time": 66.53,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "w:dessous"
+  },
+  {
+   "time": 68.717,
+   "type": "overlay-pop",
+   "visual": "s13-s",
+   "anchor": "w:passer"
+  },
+  {
+   "time": 69.479,
+   "type": "caption-emphasis",
+   "visual": "s13-s",
+   "anchor": "fournisseur"
+  },
+  {
+   "time": 71.661,
+   "type": "overlay-pop",
+   "visual": "s14-f",
+   "anchor": "w:apprendre"
+  },
+  {
+   "time": 74.084,
+   "type": "overlay-pop",
+   "visual": "s14-f",
+   "anchor": "w:abonne-toi."
+  },
+  {
+   "time": 74.084,
+   "type": "underline",
+   "visual": "s14-f",
+   "anchor": "w:abonne-toi."
+  },
+  {
+   "time": 74.778,
+   "type": "overlay-pop",
+   "visual": "s15-s",
+   "anchor": "w:commente"
+  },
+  {
+   "time": 75.121,
+   "type": "overlay-pop",
+   "visual": "s15-s",
+   "anchor": "w:préco"
+  },
+  {
+   "time": 75.121,
+   "type": "caption-emphasis",
+   "visual": "s15-s",
+   "anchor": "préco"
+  },
+  {
+   "time": 76.308,
+   "type": "overlay-pop",
+   "visual": "s15-s",
+   "anchor": "w:grille"
+  },
+  {
+   "time": 78.381,
+   "type": "caption-emphasis",
+   "visual": "s15-s",
+   "anchor": "précommandes"
+  },
+  {
+   "time": 78.984,
+   "type": "overlay-pop",
+   "visual": "s15-s",
+   "anchor": "w:boutique"
+  },
+  {
+   "time": 80.111,
+   "type": "overlay-pop",
+   "visual": "s15-s",
+   "anchor": "w:d'Ulule."
+  },
+  {
+   "time": 80.111,
+   "type": "caption-emphasis",
+   "visual": "s15-s",
+   "anchor": "d'Ulule."
+  },
+  {
+   "time": 80.56,
+   "type": "overlay-pop",
+   "visual": "s16-s",
+   "anchor": "80.56"
+  },
+  {
+   "time": 82.35,
+   "type": "overlay-pop",
+   "visual": "s16-s",
+   "anchor": "w:t'aider"
+  },
+  {
+   "time": 83.153,
+   "type": "overlay-pop",
+   "visual": "s16-s",
+   "anchor": "w:campagne."
+  },
+  {
+   "time": 83.153,
+   "type": "caption-emphasis",
+   "visual": "s16-s",
+   "anchor": "campagne."
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.132,
+   "end": 0.797,
+   "words": [
+    {
+     "text": "GTA",
+     "start": 0.132,
+     "end": 0.354,
+     "sourceStart": 8.199,
+     "sourceEnd": 8.421
+    },
+    {
+     "text": "6",
+     "start": 0.394,
+     "end": 0.696,
+     "sourceStart": 8.461,
+     "sourceEnd": 8.763
+    },
+    {
+     "text": "a",
+     "start": 0.757,
+     "end": 0.797,
+     "sourceStart": 8.824,
+     "sourceEnd": 8.864
+    }
+   ]
+  },
+  {
+   "start": 0.817,
+   "end": 1.503,
+   "words": [
+    {
+     "text": "vendu",
+     "start": 0.817,
+     "end": 1.16,
+     "sourceStart": 8.884,
+     "sourceEnd": 9.227
+    },
+    {
+     "text": "plus",
+     "start": 1.18,
+     "end": 1.321,
+     "sourceStart": 9.247,
+     "sourceEnd": 9.388
+    },
+    {
+     "text": "de",
+     "start": 1.341,
+     "end": 1.503,
+     "sourceStart": 9.408,
+     "sourceEnd": 9.57
+    }
+   ]
+  },
+  {
+   "start": 1.543,
+   "end": 2.853,
+   "words": [
+    {
+     "text": "7,7",
+     "start": 1.543,
+     "end": 2.349,
+     "sourceStart": 9.61,
+     "sourceEnd": 10.416
+    },
+    {
+     "text": "millions",
+     "start": 2.37,
+     "end": 2.773,
+     "sourceStart": 10.437,
+     "sourceEnd": 10.84
+    },
+    {
+     "text": "de",
+     "start": 2.793,
+     "end": 2.853,
+     "sourceStart": 10.86,
+     "sourceEnd": 10.92
+    }
+   ]
+  },
+  {
+   "start": 2.874,
+   "end": 3.599,
+   "words": [
+    {
+     "text": "précommandes",
+     "start": 2.874,
+     "end": 3.458,
+     "sourceStart": 10.941,
+     "sourceEnd": 11.525
+    },
+    {
+     "text": "et",
+     "start": 3.478,
+     "end": 3.539,
+     "sourceStart": 11.545,
+     "sourceEnd": 11.606
+    },
+    {
+     "text": "le",
+     "start": 3.559,
+     "end": 3.599,
+     "sourceStart": 11.626,
+     "sourceEnd": 11.666
+    }
+   ]
+  },
+  {
+   "start": 3.62,
+   "end": 4.023,
+   "words": [
+    {
+     "text": "jeu",
+     "start": 3.62,
+     "end": 3.7,
+     "sourceStart": 11.687,
+     "sourceEnd": 11.767
+    },
+    {
+     "text": "n'est",
+     "start": 3.72,
+     "end": 3.841,
+     "sourceStart": 11.787,
+     "sourceEnd": 11.908
+    },
+    {
+     "text": "même",
+     "start": 3.861,
+     "end": 4.023,
+     "sourceStart": 11.928,
+     "sourceEnd": 12.09
+    }
+   ]
+  },
+  {
+   "start": 4.043,
+   "end": 4.667,
+   "words": [
+    {
+     "text": "pas",
+     "start": 4.043,
+     "end": 4.124,
+     "sourceStart": 12.11,
+     "sourceEnd": 12.191
+    },
+    {
+     "text": "encore",
+     "start": 4.144,
+     "end": 4.325,
+     "sourceStart": 12.211,
+     "sourceEnd": 12.392
+    },
+    {
+     "text": "sorti.",
+     "start": 4.365,
+     "end": 4.667,
+     "sourceStart": 12.432,
+     "sourceEnd": 12.734
+    }
+   ]
+  },
+  {
+   "start": 4.741,
+   "end": 4.956,
+   "words": [
+    {
+     "text": "Ça,",
+     "start": 4.741,
+     "end": 4.806,
+     "sourceStart": 15.241,
+     "sourceEnd": 15.306
+    },
+    {
+     "text": "c'est",
+     "start": 4.827,
+     "end": 4.956,
+     "sourceStart": 15.327,
+     "sourceEnd": 15.456
+    }
+   ]
+  },
+  {
+   "start": 4.978,
+   "end": 5.3,
+   "words": [
+    {
+     "text": "un",
+     "start": 4.978,
+     "end": 5.021,
+     "sourceStart": 15.478,
+     "sourceEnd": 15.521
+    },
+    {
+     "text": "chiffre",
+     "start": 5.064,
+     "end": 5.3,
+     "sourceStart": 15.564,
+     "sourceEnd": 15.8
+    }
+   ]
+  },
+  {
+   "start": 5.371,
+   "end": 5.512,
+   "words": [
+    {
+     "text": "de",
+     "start": 5.371,
+     "end": 5.512,
+     "sourceStart": 16.404,
+     "sourceEnd": 16.545
+    }
+   ]
+  },
+  {
+   "start": 5.532,
+   "end": 5.875,
+   "words": [
+    {
+     "text": "Sensor",
+     "start": 5.532,
+     "end": 5.875,
+     "sourceStart": 16.565,
+     "sourceEnd": 16.908
+    }
+   ]
+  },
+  {
+   "start": 5.895,
+   "end": 6.559,
+   "words": [
+    {
+     "text": "Tower",
+     "start": 5.895,
+     "end": 6.257,
+     "sourceStart": 16.928,
+     "sourceEnd": 17.29
+    },
+    {
+     "text": "qui",
+     "start": 6.277,
+     "end": 6.378,
+     "sourceStart": 17.31,
+     "sourceEnd": 17.411
+    },
+    {
+     "text": "date",
+     "start": 6.398,
+     "end": 6.559,
+     "sourceStart": 17.431,
+     "sourceEnd": 17.592
+    }
+   ]
+  },
+  {
+   "start": 6.6,
+   "end": 7.123,
+   "words": [
+    {
+     "text": "du",
+     "start": 6.6,
+     "end": 6.68,
+     "sourceStart": 17.633,
+     "sourceEnd": 17.713
+    },
+    {
+     "text": "3",
+     "start": 6.761,
+     "end": 6.861,
+     "sourceStart": 17.794,
+     "sourceEnd": 17.894
+    },
+    {
+     "text": "novembre",
+     "start": 6.882,
+     "end": 7.123,
+     "sourceStart": 17.915,
+     "sourceEnd": 18.156
+    }
+   ]
+  },
+  {
+   "start": 7.143,
+   "end": 7.244,
+   "words": [
+    {
+     "text": "2026.",
+     "start": 7.143,
+     "end": 7.244,
+     "sourceStart": 18.176,
+     "sourceEnd": 18.277
+    }
+   ]
+  },
+  {
+   "start": 7.965,
+   "end": 8.369,
+   "words": [
+    {
+     "text": "De",
+     "start": 7.965,
+     "end": 8.025,
+     "sourceStart": 21.899,
+     "sourceEnd": 21.959
+    },
+    {
+     "text": "son",
+     "start": 8.066,
+     "end": 8.147,
+     "sourceStart": 22.0,
+     "sourceEnd": 22.081
+    },
+    {
+     "text": "côté,",
+     "start": 8.167,
+     "end": 8.369,
+     "sourceStart": 22.101,
+     "sourceEnd": 22.303
+    }
+   ]
+  },
+  {
+   "start": 8.389,
+   "end": 9.136,
+   "words": [
+    {
+     "text": "Take-Two",
+     "start": 8.389,
+     "end": 8.671,
+     "sourceStart": 22.323,
+     "sourceEnd": 22.605
+    },
+    {
+     "text": "dit",
+     "start": 8.692,
+     "end": 8.833,
+     "sourceStart": 22.626,
+     "sourceEnd": 22.767
+    },
+    {
+     "text": "juste",
+     "start": 8.853,
+     "end": 9.136,
+     "sourceStart": 22.787,
+     "sourceEnd": 23.07
+    }
+   ]
+  },
+  {
+   "start": 9.156,
+   "end": 9.701,
+   "words": [
+    {
+     "text": "que",
+     "start": 9.156,
+     "end": 9.257,
+     "sourceStart": 23.09,
+     "sourceEnd": 23.191
+    },
+    {
+     "text": "ça",
+     "start": 9.277,
+     "end": 9.358,
+     "sourceStart": 23.211,
+     "sourceEnd": 23.292
+    },
+    {
+     "text": "dépasse",
+     "start": 9.398,
+     "end": 9.701,
+     "sourceStart": 23.332,
+     "sourceEnd": 23.635
+    }
+   ]
+  },
+  {
+   "start": 9.721,
+   "end": 10.347,
+   "words": [
+    {
+     "text": "de",
+     "start": 9.721,
+     "end": 9.822,
+     "sourceStart": 23.655,
+     "sourceEnd": 23.756
+    },
+    {
+     "text": "loin",
+     "start": 9.842,
+     "end": 10.145,
+     "sourceStart": 23.776,
+     "sourceEnd": 24.079
+    },
+    {
+     "text": "toutes",
+     "start": 10.185,
+     "end": 10.347,
+     "sourceStart": 24.119,
+     "sourceEnd": 24.281
+    }
+   ]
+  },
+  {
+   "start": 10.387,
+   "end": 10.933,
+   "words": [
+    {
+     "text": "ses",
+     "start": 10.387,
+     "end": 10.468,
+     "sourceStart": 24.321,
+     "sourceEnd": 24.402
+    },
+    {
+     "text": "attentes.",
+     "start": 10.508,
+     "end": 10.933,
+     "sourceStart": 24.442,
+     "sourceEnd": 24.867
+    }
+   ]
+  },
+  {
+   "start": 11.045,
+   "end": 11.429,
+   "words": [
+    {
+     "text": "Dis-toi",
+     "start": 11.045,
+     "end": 11.207,
+     "sourceStart": 25.879,
+     "sourceEnd": 26.041
+    },
+    {
+     "text": "qu'ils",
+     "start": 11.227,
+     "end": 11.348,
+     "sourceStart": 26.061,
+     "sourceEnd": 26.182
+    },
+    {
+     "text": "ont",
+     "start": 11.369,
+     "end": 11.429,
+     "sourceStart": 26.203,
+     "sourceEnd": 26.263
+    }
+   ]
+  },
+  {
+   "start": 11.45,
+   "end": 12.016,
+   "words": [
+    {
+     "text": "réussi",
+     "start": 11.45,
+     "end": 11.632,
+     "sourceStart": 26.284,
+     "sourceEnd": 26.466
+    },
+    {
+     "text": "à",
+     "start": 11.672,
+     "end": 11.773,
+     "sourceStart": 26.506,
+     "sourceEnd": 26.607
+    },
+    {
+     "text": "vendre",
+     "start": 11.814,
+     "end": 12.016,
+     "sourceStart": 26.648,
+     "sourceEnd": 26.85
+    }
+   ]
+  },
+  {
+   "start": 12.056,
+   "end": 12.421,
+   "words": [
+    {
+     "text": "un",
+     "start": 12.056,
+     "end": 12.137,
+     "sourceStart": 26.89,
+     "sourceEnd": 26.971
+    },
+    {
+     "text": "jeu",
+     "start": 12.158,
+     "end": 12.259,
+     "sourceStart": 26.992,
+     "sourceEnd": 27.093
+    },
+    {
+     "text": "avant",
+     "start": 12.279,
+     "end": 12.421,
+     "sourceStart": 27.113,
+     "sourceEnd": 27.255
+    }
+   ]
+  },
+  {
+   "start": 12.461,
+   "end": 13.25,
+   "words": [
+    {
+     "text": "même",
+     "start": 12.461,
+     "end": 12.582,
+     "sourceStart": 27.295,
+     "sourceEnd": 27.416
+    },
+    {
+     "text": "qu'il",
+     "start": 12.623,
+     "end": 12.765,
+     "sourceStart": 27.457,
+     "sourceEnd": 27.599
+    },
+    {
+     "text": "existe.",
+     "start": 12.805,
+     "end": 13.25,
+     "sourceStart": 27.639,
+     "sourceEnd": 28.084
+    }
+   ]
+  },
+  {
+   "start": 13.29,
+   "end": 13.816,
+   "words": [
+    {
+     "text": "Et",
+     "start": 13.29,
+     "end": 13.371,
+     "sourceStart": 28.124,
+     "sourceEnd": 28.205
+    },
+    {
+     "text": "ta",
+     "start": 13.392,
+     "end": 13.574,
+     "sourceStart": 28.226,
+     "sourceEnd": 28.408
+    },
+    {
+     "text": "marque",
+     "start": 13.594,
+     "end": 13.816,
+     "sourceStart": 28.428,
+     "sourceEnd": 28.65
+    }
+   ]
+  },
+  {
+   "start": 13.837,
+   "end": 14.444,
+   "words": [
+    {
+     "text": "e-commerce",
+     "start": 13.837,
+     "end": 14.14,
+     "sourceStart": 28.671,
+     "sourceEnd": 28.974
+    },
+    {
+     "text": "peut",
+     "start": 14.16,
+     "end": 14.241,
+     "sourceStart": 28.994,
+     "sourceEnd": 29.075
+    },
+    {
+     "text": "faire",
+     "start": 14.262,
+     "end": 14.444,
+     "sourceStart": 29.096,
+     "sourceEnd": 29.278
+    }
+   ]
+  },
+  {
+   "start": 14.464,
+   "end": 14.8,
+   "words": [
+    {
+     "text": "pareil.",
+     "start": 14.464,
+     "end": 14.8,
+     "sourceStart": 29.298,
+     "sourceEnd": 29.634
+    }
+   ]
+  },
+  {
+   "start": 14.831,
+   "end": 14.933,
+   "words": [
+    {
+     "text": "Tu",
+     "start": 14.831,
+     "end": 14.872,
+     "sourceStart": 29.998,
+     "sourceEnd": 30.039
+    },
+    {
+     "text": "as",
+     "start": 14.892,
+     "end": 14.933,
+     "sourceStart": 30.059,
+     "sourceEnd": 30.1
+    }
+   ]
+  },
+  {
+   "start": 14.954,
+   "end": 15.4,
+   "words": [
+    {
+     "text": "deux",
+     "start": 14.954,
+     "end": 15.036,
+     "sourceStart": 30.121,
+     "sourceEnd": 30.203
+    },
+    {
+     "text": "options.",
+     "start": 15.118,
+     "end": 15.4,
+     "sourceStart": 30.285,
+     "sourceEnd": 30.567
+    }
+   ]
+  },
+  {
+   "start": 15.533,
+   "end": 16.226,
+   "words": [
+    {
+     "text": "Option",
+     "start": 15.533,
+     "end": 15.798,
+     "sourceStart": 31.433,
+     "sourceEnd": 31.698
+    },
+    {
+     "text": "1,",
+     "start": 15.879,
+     "end": 16.083,
+     "sourceStart": 31.779,
+     "sourceEnd": 31.983
+    },
+    {
+     "text": "une",
+     "start": 16.124,
+     "end": 16.226,
+     "sourceStart": 32.024,
+     "sourceEnd": 32.126
+    }
+   ]
+  },
+  {
+   "start": 16.246,
+   "end": 16.919,
+   "words": [
+    {
+     "text": "page",
+     "start": 16.246,
+     "end": 16.409,
+     "sourceStart": 32.146,
+     "sourceEnd": 32.309
+    },
+    {
+     "text": "de",
+     "start": 16.43,
+     "end": 16.511,
+     "sourceStart": 32.33,
+     "sourceEnd": 32.411
+    },
+    {
+     "text": "précommande",
+     "start": 16.532,
+     "end": 16.919,
+     "sourceStart": 32.432,
+     "sourceEnd": 32.819
+    }
+   ]
+  },
+  {
+   "start": 16.94,
+   "end": 17.367,
+   "words": [
+    {
+     "text": "sur",
+     "start": 16.94,
+     "end": 17.041,
+     "sourceStart": 32.84,
+     "sourceEnd": 32.941
+    },
+    {
+     "text": "ta",
+     "start": 17.062,
+     "end": 17.123,
+     "sourceStart": 32.962,
+     "sourceEnd": 33.023
+    },
+    {
+     "text": "boutique.",
+     "start": 17.164,
+     "end": 17.367,
+     "sourceStart": 33.064,
+     "sourceEnd": 33.267
+    }
+   ]
+  },
+  {
+   "start": 17.581,
+   "end": 18.03,
+   "words": [
+    {
+     "text": "Si",
+     "start": 17.581,
+     "end": 17.663,
+     "sourceStart": 33.914,
+     "sourceEnd": 33.996
+    },
+    {
+     "text": "ton",
+     "start": 17.683,
+     "end": 17.785,
+     "sourceStart": 34.016,
+     "sourceEnd": 34.118
+    },
+    {
+     "text": "produit",
+     "start": 17.806,
+     "end": 18.03,
+     "sourceStart": 34.139,
+     "sourceEnd": 34.363
+    }
+   ]
+  },
+  {
+   "start": 18.05,
+   "end": 18.54,
+   "words": [
+    {
+     "text": "est",
+     "start": 18.05,
+     "end": 18.152,
+     "sourceStart": 34.383,
+     "sourceEnd": 34.485
+    },
+    {
+     "text": "simple",
+     "start": 18.193,
+     "end": 18.478,
+     "sourceStart": 34.526,
+     "sourceEnd": 34.811
+    },
+    {
+     "text": "et",
+     "start": 18.499,
+     "end": 18.54,
+     "sourceStart": 34.832,
+     "sourceEnd": 34.873
+    }
+   ]
+  },
+  {
+   "start": 18.56,
+   "end": 18.743,
+   "words": [
+    {
+     "text": "que",
+     "start": 18.56,
+     "end": 18.621,
+     "sourceStart": 34.893,
+     "sourceEnd": 34.954
+    },
+    {
+     "text": "tu",
+     "start": 18.642,
+     "end": 18.682,
+     "sourceStart": 34.975,
+     "sourceEnd": 35.015
+    },
+    {
+     "text": "as",
+     "start": 18.703,
+     "end": 18.743,
+     "sourceStart": 35.036,
+     "sourceEnd": 35.076
+    }
+   ]
+  },
+  {
+   "start": 18.764,
+   "end": 19.433,
+   "words": [
+    {
+     "text": "déjà",
+     "start": 18.764,
+     "end": 18.886,
+     "sourceStart": 35.097,
+     "sourceEnd": 35.219
+    },
+    {
+     "text": "une",
+     "start": 18.907,
+     "end": 18.968,
+     "sourceStart": 35.24,
+     "sourceEnd": 35.301
+    },
+    {
+     "text": "audience.",
+     "start": 19.009,
+     "end": 19.433,
+     "sourceStart": 35.342,
+     "sourceEnd": 35.766
+    }
+   ]
+  },
+  {
+   "start": 19.464,
+   "end": 19.765,
+   "words": [
+    {
+     "text": "que",
+     "start": 19.464,
+     "end": 19.524,
+     "sourceStart": 40.798,
+     "sourceEnd": 40.858
+    },
+    {
+     "text": "ce",
+     "start": 19.544,
+     "end": 19.625,
+     "sourceStart": 40.878,
+     "sourceEnd": 40.959
+    },
+    {
+     "text": "soit",
+     "start": 19.665,
+     "end": 19.765,
+     "sourceStart": 40.999,
+     "sourceEnd": 41.099
+    }
+   ]
+  },
+  {
+   "start": 19.805,
+   "end": 20.367,
+   "words": [
+    {
+     "text": "au",
+     "start": 19.805,
+     "end": 19.866,
+     "sourceStart": 41.139,
+     "sourceEnd": 41.2
+    },
+    {
+     "text": "travers",
+     "start": 19.886,
+     "end": 20.187,
+     "sourceStart": 41.22,
+     "sourceEnd": 41.521
+    },
+    {
+     "text": "d'un",
+     "start": 20.207,
+     "end": 20.367,
+     "sourceStart": 41.541,
+     "sourceEnd": 41.701
+    }
+   ]
+  },
+  {
+   "start": 20.388,
+   "end": 21.572,
+   "words": [
+    {
+     "text": "mail",
+     "start": 20.388,
+     "end": 20.869,
+     "sourceStart": 41.722,
+     "sourceEnd": 42.203
+    },
+    {
+     "text": "ou",
+     "start": 20.95,
+     "end": 21.452,
+     "sourceStart": 42.284,
+     "sourceEnd": 42.786
+    },
+    {
+     "text": "de",
+     "start": 21.472,
+     "end": 21.572,
+     "sourceStart": 42.806,
+     "sourceEnd": 42.906
+    }
+   ]
+  },
+  {
+   "start": 21.592,
+   "end": 22.355,
+   "words": [
+    {
+     "text": "différents",
+     "start": 21.592,
+     "end": 21.954,
+     "sourceStart": 42.926,
+     "sourceEnd": 43.288
+    },
+    {
+     "text": "contenus,",
+     "start": 21.974,
+     "end": 22.275,
+     "sourceStart": 43.308,
+     "sourceEnd": 43.609
+    },
+    {
+     "text": "tu",
+     "start": 22.295,
+     "end": 22.355,
+     "sourceStart": 43.629,
+     "sourceEnd": 43.689
+    }
+   ]
+  },
+  {
+   "start": 22.375,
+   "end": 23.098,
+   "words": [
+    {
+     "text": "vas",
+     "start": 22.375,
+     "end": 22.435,
+     "sourceStart": 43.709,
+     "sourceEnd": 43.769
+    },
+    {
+     "text": "pouvoir",
+     "start": 22.456,
+     "end": 22.877,
+     "sourceStart": 43.79,
+     "sourceEnd": 44.211
+    },
+    {
+     "text": "mettre",
+     "start": 22.897,
+     "end": 23.098,
+     "sourceStart": 44.231,
+     "sourceEnd": 44.432
+    }
+   ]
+  },
+  {
+   "start": 23.138,
+   "end": 23.5,
+   "words": [
+    {
+     "text": "en",
+     "start": 23.138,
+     "end": 23.198,
+     "sourceStart": 44.472,
+     "sourceEnd": 44.532
+    },
+    {
+     "text": "avant",
+     "start": 23.239,
+     "end": 23.419,
+     "sourceStart": 44.573,
+     "sourceEnd": 44.753
+    },
+    {
+     "text": "ce",
+     "start": 23.439,
+     "end": 23.5,
+     "sourceStart": 44.773,
+     "sourceEnd": 44.834
+    }
+   ]
+  },
+  {
+   "start": 23.52,
+   "end": 24.564,
+   "words": [
+    {
+     "text": "nouveau",
+     "start": 23.52,
+     "end": 23.741,
+     "sourceStart": 44.854,
+     "sourceEnd": 45.075
+    },
+    {
+     "text": "produit",
+     "start": 23.761,
+     "end": 24.303,
+     "sourceStart": 45.095,
+     "sourceEnd": 45.637
+    },
+    {
+     "text": "et",
+     "start": 24.363,
+     "end": 24.564,
+     "sourceStart": 45.697,
+     "sourceEnd": 45.898
+    }
+   ]
+  },
+  {
+   "start": 24.584,
+   "end": 25.186,
+   "words": [
+    {
+     "text": "leur",
+     "start": 24.584,
+     "end": 24.744,
+     "sourceStart": 45.918,
+     "sourceEnd": 46.078
+    },
+    {
+     "text": "dire",
+     "start": 24.764,
+     "end": 24.945,
+     "sourceStart": 46.098,
+     "sourceEnd": 46.279
+    },
+    {
+     "text": "que",
+     "start": 24.965,
+     "end": 25.186,
+     "sourceStart": 46.299,
+     "sourceEnd": 46.52
+    }
+   ]
+  },
+  {
+   "start": 25.206,
+   "end": 26.23,
+   "words": [
+    {
+     "text": "c'est",
+     "start": 25.206,
+     "end": 25.307,
+     "sourceStart": 46.54,
+     "sourceEnd": 46.641
+    },
+    {
+     "text": "ouvert",
+     "start": 25.327,
+     "end": 25.648,
+     "sourceStart": 46.661,
+     "sourceEnd": 46.982
+    },
+    {
+     "text": "uniquement",
+     "start": 25.708,
+     "end": 26.23,
+     "sourceStart": 47.042,
+     "sourceEnd": 47.564
+    }
+   ]
+  },
+  {
+   "start": 26.29,
+   "end": 27.294,
+   "words": [
+    {
+     "text": "aux",
+     "start": 26.29,
+     "end": 26.351,
+     "sourceStart": 47.624,
+     "sourceEnd": 47.685
+    },
+    {
+     "text": "précommandes",
+     "start": 26.371,
+     "end": 26.953,
+     "sourceStart": 47.705,
+     "sourceEnd": 48.287
+    },
+    {
+     "text": "avec",
+     "start": 26.993,
+     "end": 27.294,
+     "sourceStart": 48.327,
+     "sourceEnd": 48.628
+    }
+   ]
+  },
+  {
+   "start": 27.395,
+   "end": 28.399,
+   "words": [
+    {
+     "text": "éventuellement",
+     "start": 27.395,
+     "end": 28.017,
+     "sourceStart": 48.729,
+     "sourceEnd": 49.351
+    },
+    {
+     "text": "un",
+     "start": 28.077,
+     "end": 28.138,
+     "sourceStart": 49.411,
+     "sourceEnd": 49.472
+    },
+    {
+     "text": "stock",
+     "start": 28.158,
+     "end": 28.399,
+     "sourceStart": 49.492,
+     "sourceEnd": 49.733
+    }
+   ]
+  },
+  {
+   "start": 28.419,
+   "end": 29.523,
+   "words": [
+    {
+     "text": "limité",
+     "start": 28.419,
+     "end": 29.141,
+     "sourceStart": 49.753,
+     "sourceEnd": 50.475
+    },
+    {
+     "text": "pour",
+     "start": 29.161,
+     "end": 29.322,
+     "sourceStart": 50.495,
+     "sourceEnd": 50.656
+    },
+    {
+     "text": "les",
+     "start": 29.342,
+     "end": 29.523,
+     "sourceStart": 50.676,
+     "sourceEnd": 50.857
+    }
+   ]
+  },
+  {
+   "start": 29.543,
+   "end": 30.587,
+   "words": [
+    {
+     "text": "pousser",
+     "start": 29.543,
+     "end": 29.864,
+     "sourceStart": 50.877,
+     "sourceEnd": 51.198
+    },
+    {
+     "text": "à",
+     "start": 30.145,
+     "end": 30.185,
+     "sourceStart": 51.479,
+     "sourceEnd": 51.519
+    },
+    {
+     "text": "l'achat",
+     "start": 30.205,
+     "end": 30.587,
+     "sourceStart": 51.539,
+     "sourceEnd": 51.921
+    }
+   ]
+  },
+  {
+   "start": 30.627,
+   "end": 30.989,
+   "words": [
+    {
+     "text": "et",
+     "start": 30.627,
+     "end": 30.748,
+     "sourceStart": 51.961,
+     "sourceEnd": 52.082
+    },
+    {
+     "text": "voir",
+     "start": 30.788,
+     "end": 30.888,
+     "sourceStart": 52.122,
+     "sourceEnd": 52.222
+    },
+    {
+     "text": "s'il",
+     "start": 30.908,
+     "end": 30.989,
+     "sourceStart": 52.242,
+     "sourceEnd": 52.323
+    }
+   ]
+  },
+  {
+   "start": 31.009,
+   "end": 31.129,
+   "words": [
+    {
+     "text": "y",
+     "start": 31.009,
+     "end": 31.049,
+     "sourceStart": 52.343,
+     "sourceEnd": 52.383
+    },
+    {
+     "text": "a",
+     "start": 31.049,
+     "end": 31.089,
+     "sourceStart": 52.383,
+     "sourceEnd": 52.423
+    },
+    {
+     "text": "de",
+     "start": 31.089,
+     "end": 31.129,
+     "sourceStart": 52.423,
+     "sourceEnd": 52.463
+    }
+   ]
+  },
+  {
+   "start": 31.149,
+   "end": 31.6,
+   "words": [
+    {
+     "text": "l'attraction.",
+     "start": 31.149,
+     "end": 31.6,
+     "sourceStart": 52.483,
+     "sourceEnd": 52.934
+    }
+   ]
+  },
+  {
+   "start": 31.691,
+   "end": 32.353,
+   "words": [
+    {
+     "text": "Numéro",
+     "start": 31.691,
+     "end": 31.952,
+     "sourceStart": 57.324,
+     "sourceEnd": 57.585
+    },
+    {
+     "text": "2,",
+     "start": 31.972,
+     "end": 32.233,
+     "sourceStart": 57.605,
+     "sourceEnd": 57.866
+    },
+    {
+     "text": "si",
+     "start": 32.253,
+     "end": 32.353,
+     "sourceStart": 57.886,
+     "sourceEnd": 57.986
+    }
+   ]
+  },
+  {
+   "start": 32.373,
+   "end": 33.015,
+   "words": [
+    {
+     "text": "tu",
+     "start": 32.373,
+     "end": 32.453,
+     "sourceStart": 58.006,
+     "sourceEnd": 58.086
+    },
+    {
+     "text": "dois",
+     "start": 32.473,
+     "end": 32.614,
+     "sourceStart": 58.106,
+     "sourceEnd": 58.247
+    },
+    {
+     "text": "financer",
+     "start": 32.654,
+     "end": 33.015,
+     "sourceStart": 58.287,
+     "sourceEnd": 58.648
+    }
+   ]
+  },
+  {
+   "start": 33.115,
+   "end": 33.837,
+   "words": [
+    {
+     "text": "la",
+     "start": 33.115,
+     "end": 33.175,
+     "sourceStart": 58.748,
+     "sourceEnd": 58.808
+    },
+    {
+     "text": "production",
+     "start": 33.216,
+     "end": 33.617,
+     "sourceStart": 58.849,
+     "sourceEnd": 59.25
+    },
+    {
+     "text": "ou",
+     "start": 33.777,
+     "end": 33.837,
+     "sourceStart": 59.41,
+     "sourceEnd": 59.47
+    }
+   ]
+  },
+  {
+   "start": 33.857,
+   "end": 34.8,
+   "words": [
+    {
+     "text": "construire",
+     "start": 33.857,
+     "end": 34.178,
+     "sourceStart": 59.49,
+     "sourceEnd": 59.811
+    },
+    {
+     "text": "ta",
+     "start": 34.319,
+     "end": 34.499,
+     "sourceStart": 59.952,
+     "sourceEnd": 60.132
+    },
+    {
+     "text": "première",
+     "start": 34.519,
+     "end": 34.8,
+     "sourceStart": 60.152,
+     "sourceEnd": 60.433
+    }
+   ]
+  },
+  {
+   "start": 34.82,
+   "end": 35.382,
+   "words": [
+    {
+     "text": "communauté,",
+     "start": 34.82,
+     "end": 35.181,
+     "sourceStart": 60.453,
+     "sourceEnd": 60.814
+    },
+    {
+     "text": "je",
+     "start": 35.221,
+     "end": 35.261,
+     "sourceStart": 60.854,
+     "sourceEnd": 60.894
+    },
+    {
+     "text": "te",
+     "start": 35.281,
+     "end": 35.382,
+     "sourceStart": 60.914,
+     "sourceEnd": 61.015
+    }
+   ]
+  },
+  {
+   "start": 35.402,
+   "end": 35.943,
+   "words": [
+    {
+     "text": "conseille",
+     "start": 35.402,
+     "end": 35.622,
+     "sourceStart": 61.035,
+     "sourceEnd": 61.255
+    },
+    {
+     "text": "de",
+     "start": 35.642,
+     "end": 35.703,
+     "sourceStart": 61.275,
+     "sourceEnd": 61.336
+    },
+    {
+     "text": "partir",
+     "start": 35.723,
+     "end": 35.943,
+     "sourceStart": 61.356,
+     "sourceEnd": 61.576
+    }
+   ]
+  },
+  {
+   "start": 35.983,
+   "end": 36.585,
+   "words": [
+    {
+     "text": "sur",
+     "start": 35.983,
+     "end": 36.084,
+     "sourceStart": 61.616,
+     "sourceEnd": 61.717
+    },
+    {
+     "text": "une",
+     "start": 36.104,
+     "end": 36.184,
+     "sourceStart": 61.737,
+     "sourceEnd": 61.817
+    },
+    {
+     "text": "campagne",
+     "start": 36.204,
+     "end": 36.585,
+     "sourceStart": 61.837,
+     "sourceEnd": 62.218
+    }
+   ]
+  },
+  {
+   "start": 36.685,
+   "end": 37.347,
+   "words": [
+    {
+     "text": "Ulule.",
+     "start": 36.685,
+     "end": 37.347,
+     "sourceStart": 62.318,
+     "sourceEnd": 62.98
+    }
+   ]
+  },
+  {
+   "start": 37.427,
+   "end": 38.129,
+   "words": [
+    {
+     "text": "Ulule,",
+     "start": 37.427,
+     "end": 37.748,
+     "sourceStart": 63.06,
+     "sourceEnd": 63.381
+    },
+    {
+     "text": "c'est",
+     "start": 37.768,
+     "end": 37.989,
+     "sourceStart": 63.401,
+     "sourceEnd": 63.622
+    },
+    {
+     "text": "une",
+     "start": 38.029,
+     "end": 38.129,
+     "sourceStart": 63.662,
+     "sourceEnd": 63.762
+    }
+   ]
+  },
+  {
+   "start": 38.15,
+   "end": 39.413,
+   "words": [
+    {
+     "text": "plateforme",
+     "start": 38.15,
+     "end": 38.41,
+     "sourceStart": 63.783,
+     "sourceEnd": 64.043
+    },
+    {
+     "text": "de",
+     "start": 38.43,
+     "end": 38.591,
+     "sourceStart": 64.063,
+     "sourceEnd": 64.224
+    },
+    {
+     "text": "crowdfunding",
+     "start": 38.611,
+     "end": 39.413,
+     "sourceStart": 64.244,
+     "sourceEnd": 65.046
+    }
+   ]
+  },
+  {
+   "start": 39.433,
+   "end": 40.376,
+   "words": [
+    {
+     "text": "français",
+     "start": 39.433,
+     "end": 40.075,
+     "sourceStart": 65.066,
+     "sourceEnd": 65.708
+    },
+    {
+     "text": "qui",
+     "start": 40.115,
+     "end": 40.235,
+     "sourceStart": 65.748,
+     "sourceEnd": 65.868
+    },
+    {
+     "text": "te",
+     "start": 40.276,
+     "end": 40.376,
+     "sourceStart": 65.909,
+     "sourceEnd": 66.009
+    }
+   ]
+  },
+  {
+   "start": 40.396,
+   "end": 41.298,
+   "words": [
+    {
+     "text": "permettra",
+     "start": 40.396,
+     "end": 40.978,
+     "sourceStart": 66.029,
+     "sourceEnd": 66.611
+    },
+    {
+     "text": "de",
+     "start": 40.998,
+     "end": 41.078,
+     "sourceStart": 66.631,
+     "sourceEnd": 66.711
+    },
+    {
+     "text": "mettre",
+     "start": 41.098,
+     "end": 41.298,
+     "sourceStart": 66.731,
+     "sourceEnd": 66.931
+    }
+   ]
+  },
+  {
+   "start": 41.319,
+   "end": 41.76,
+   "words": [
+    {
+     "text": "en",
+     "start": 41.319,
+     "end": 41.379,
+     "sourceStart": 66.952,
+     "sourceEnd": 67.012
+    },
+    {
+     "text": "avant",
+     "start": 41.439,
+     "end": 41.619,
+     "sourceStart": 67.072,
+     "sourceEnd": 67.252
+    },
+    {
+     "text": "ton",
+     "start": 41.639,
+     "end": 41.76,
+     "sourceStart": 67.272,
+     "sourceEnd": 67.393
+    }
+   ]
+  },
+  {
+   "start": 41.8,
+   "end": 42.883,
+   "words": [
+    {
+     "text": "projet",
+     "start": 41.8,
+     "end": 42.422,
+     "sourceStart": 67.433,
+     "sourceEnd": 68.055
+    },
+    {
+     "text": "et",
+     "start": 42.462,
+     "end": 42.622,
+     "sourceStart": 68.095,
+     "sourceEnd": 68.255
+    },
+    {
+     "text": "surtout",
+     "start": 42.642,
+     "end": 42.883,
+     "sourceStart": 68.275,
+     "sourceEnd": 68.516
+    }
+   ]
+  },
+  {
+   "start": 42.903,
+   "end": 42.983,
+   "words": [
+    {
+     "text": "de",
+     "start": 42.903,
+     "end": 42.983,
+     "sourceStart": 68.536,
+     "sourceEnd": 68.616
+    }
+   ]
+  },
+  {
+   "start": 43.505,
+   "end": 44.628,
+   "words": [
+    {
+     "text": "récolter",
+     "start": 43.505,
+     "end": 44.247,
+     "sourceStart": 69.138,
+     "sourceEnd": 69.88
+    },
+    {
+     "text": "de",
+     "start": 44.267,
+     "end": 44.347,
+     "sourceStart": 69.9,
+     "sourceEnd": 69.98
+    },
+    {
+     "text": "l'argent",
+     "start": 44.367,
+     "end": 44.628,
+     "sourceStart": 70.0,
+     "sourceEnd": 70.261
+    }
+   ]
+  },
+  {
+   "start": 44.648,
+   "end": 45.333,
+   "words": [
+    {
+     "text": "pour",
+     "start": 44.648,
+     "end": 44.748,
+     "sourceStart": 70.281,
+     "sourceEnd": 70.381
+    },
+    {
+     "text": "le",
+     "start": 44.768,
+     "end": 44.829,
+     "sourceStart": 70.401,
+     "sourceEnd": 70.462
+    },
+    {
+     "text": "financer.",
+     "start": 44.849,
+     "end": 45.333,
+     "sourceStart": 70.482,
+     "sourceEnd": 70.966
+    }
+   ]
+  },
+  {
+   "start": 45.364,
+   "end": 45.906,
+   "words": [
+    {
+     "text": "Mais",
+     "start": 45.364,
+     "end": 45.447,
+     "sourceStart": 73.331,
+     "sourceEnd": 73.414
+    },
+    {
+     "text": "attention,",
+     "start": 45.468,
+     "end": 45.781,
+     "sourceStart": 73.435,
+     "sourceEnd": 73.748
+    },
+    {
+     "text": "sur",
+     "start": 45.801,
+     "end": 45.906,
+     "sourceStart": 73.768,
+     "sourceEnd": 73.873
+    }
+   ]
+  },
+  {
+   "start": 45.947,
+   "end": 46.364,
+   "words": [
+    {
+     "text": "Ulule,",
+     "start": 45.947,
+     "end": 46.093,
+     "sourceStart": 73.914,
+     "sourceEnd": 74.06
+    },
+    {
+     "text": "c'est",
+     "start": 46.114,
+     "end": 46.239,
+     "sourceStart": 74.081,
+     "sourceEnd": 74.206
+    },
+    {
+     "text": "tout",
+     "start": 46.26,
+     "end": 46.364,
+     "sourceStart": 74.227,
+     "sourceEnd": 74.331
+    }
+   ]
+  },
+  {
+   "start": 46.405,
+   "end": 46.614,
+   "words": [
+    {
+     "text": "ou",
+     "start": 46.405,
+     "end": 46.468,
+     "sourceStart": 74.372,
+     "sourceEnd": 74.435
+    },
+    {
+     "text": "rien.",
+     "start": 46.489,
+     "end": 46.614,
+     "sourceStart": 74.456,
+     "sourceEnd": 74.581
+    }
+   ]
+  },
+  {
+   "start": 46.718,
+   "end": 47.243,
+   "words": [
+    {
+     "text": "Si",
+     "start": 46.718,
+     "end": 46.819,
+     "sourceStart": 75.184,
+     "sourceEnd": 75.285
+    },
+    {
+     "text": "ton",
+     "start": 46.839,
+     "end": 46.94,
+     "sourceStart": 75.305,
+     "sourceEnd": 75.406
+    },
+    {
+     "text": "objectif",
+     "start": 46.981,
+     "end": 47.243,
+     "sourceStart": 75.447,
+     "sourceEnd": 75.709
+    }
+   ]
+  },
+  {
+   "start": 47.263,
+   "end": 47.808,
+   "words": [
+    {
+     "text": "n'est",
+     "start": 47.263,
+     "end": 47.384,
+     "sourceStart": 75.729,
+     "sourceEnd": 75.85
+    },
+    {
+     "text": "pas",
+     "start": 47.404,
+     "end": 47.485,
+     "sourceStart": 75.87,
+     "sourceEnd": 75.951
+    },
+    {
+     "text": "atteint,",
+     "start": 47.525,
+     "end": 47.808,
+     "sourceStart": 75.991,
+     "sourceEnd": 76.274
+    }
+   ]
+  },
+  {
+   "start": 47.828,
+   "end": 48.272,
+   "words": [
+    {
+     "text": "le",
+     "start": 47.828,
+     "end": 47.929,
+     "sourceStart": 76.294,
+     "sourceEnd": 76.395
+    },
+    {
+     "text": "projet",
+     "start": 47.969,
+     "end": 48.151,
+     "sourceStart": 76.435,
+     "sourceEnd": 76.617
+    },
+    {
+     "text": "n'est",
+     "start": 48.171,
+     "end": 48.272,
+     "sourceStart": 76.637,
+     "sourceEnd": 76.738
+    }
+   ]
+  },
+  {
+   "start": 48.292,
+   "end": 49.12,
+   "words": [
+    {
+     "text": "pas",
+     "start": 48.292,
+     "end": 48.393,
+     "sourceStart": 76.758,
+     "sourceEnd": 76.859
+    },
+    {
+     "text": "financé",
+     "start": 48.413,
+     "end": 48.918,
+     "sourceStart": 76.879,
+     "sourceEnd": 77.384
+    },
+    {
+     "text": "et",
+     "start": 48.978,
+     "end": 49.12,
+     "sourceStart": 77.444,
+     "sourceEnd": 77.586
+    }
+   ]
+  },
+  {
+   "start": 49.14,
+   "end": 49.523,
+   "words": [
+    {
+     "text": "tu",
+     "start": 49.14,
+     "end": 49.221,
+     "sourceStart": 77.606,
+     "sourceEnd": 77.687
+    },
+    {
+     "text": "dois",
+     "start": 49.241,
+     "end": 49.362,
+     "sourceStart": 77.707,
+     "sourceEnd": 77.828
+    },
+    {
+     "text": "donc",
+     "start": 49.382,
+     "end": 49.523,
+     "sourceStart": 77.848,
+     "sourceEnd": 77.989
+    }
+   ]
+  },
+  {
+   "start": 49.564,
+   "end": 50.7,
+   "words": [
+    {
+     "text": "rembourser",
+     "start": 49.564,
+     "end": 50.129,
+     "sourceStart": 78.03,
+     "sourceEnd": 78.595
+    },
+    {
+     "text": "les",
+     "start": 50.169,
+     "end": 50.29,
+     "sourceStart": 78.635,
+     "sourceEnd": 78.756
+    },
+    {
+     "text": "personnes.",
+     "start": 50.31,
+     "end": 50.7,
+     "sourceStart": 78.776,
+     "sourceEnd": 79.166
+    }
+   ]
+  },
+  {
+   "start": 50.731,
+   "end": 51.073,
+   "words": [
+    {
+     "text": "Parce",
+     "start": 50.731,
+     "end": 50.852,
+     "sourceStart": 85.164,
+     "sourceEnd": 85.285
+    },
+    {
+     "text": "que",
+     "start": 50.872,
+     "end": 50.932,
+     "sourceStart": 85.305,
+     "sourceEnd": 85.365
+    },
+    {
+     "text": "dans",
+     "start": 50.952,
+     "end": 51.073,
+     "sourceStart": 85.385,
+     "sourceEnd": 85.506
+    }
+   ]
+  },
+  {
+   "start": 51.093,
+   "end": 51.456,
+   "words": [
+    {
+     "text": "tous",
+     "start": 51.093,
+     "end": 51.194,
+     "sourceStart": 85.526,
+     "sourceEnd": 85.627
+    },
+    {
+     "text": "les",
+     "start": 51.214,
+     "end": 51.295,
+     "sourceStart": 85.647,
+     "sourceEnd": 85.728
+    },
+    {
+     "text": "cas,",
+     "start": 51.315,
+     "end": 51.456,
+     "sourceStart": 85.748,
+     "sourceEnd": 85.889
+    }
+   ]
+  },
+  {
+   "start": 51.476,
+   "end": 51.879,
+   "words": [
+    {
+     "text": "le",
+     "start": 51.476,
+     "end": 51.597,
+     "sourceStart": 85.909,
+     "sourceEnd": 86.03
+    },
+    {
+     "text": "nerf",
+     "start": 51.637,
+     "end": 51.798,
+     "sourceStart": 86.07,
+     "sourceEnd": 86.231
+    },
+    {
+     "text": "de",
+     "start": 51.818,
+     "end": 51.879,
+     "sourceStart": 86.251,
+     "sourceEnd": 86.312
+    }
+   ]
+  },
+  {
+   "start": 51.899,
+   "end": 52.281,
+   "words": [
+    {
+     "text": "la",
+     "start": 51.899,
+     "end": 51.959,
+     "sourceStart": 86.332,
+     "sourceEnd": 86.392
+    },
+    {
+     "text": "guerre,",
+     "start": 51.979,
+     "end": 52.18,
+     "sourceStart": 86.412,
+     "sourceEnd": 86.613
+    },
+    {
+     "text": "ça",
+     "start": 52.221,
+     "end": 52.281,
+     "sourceStart": 86.654,
+     "sourceEnd": 86.714
+    }
+   ]
+  },
+  {
+   "start": 52.301,
+   "end": 52.563,
+   "words": [
+    {
+     "text": "va",
+     "start": 52.301,
+     "end": 52.342,
+     "sourceStart": 86.734,
+     "sourceEnd": 86.775
+    },
+    {
+     "text": "être",
+     "start": 52.362,
+     "end": 52.462,
+     "sourceStart": 86.795,
+     "sourceEnd": 86.895
+    },
+    {
+     "text": "la",
+     "start": 52.482,
+     "end": 52.563,
+     "sourceStart": 86.915,
+     "sourceEnd": 86.996
+    }
+   ]
+  },
+  {
+   "start": 52.583,
+   "end": 53.107,
+   "words": [
+    {
+     "text": "communication.",
+     "start": 52.583,
+     "end": 53.107,
+     "sourceStart": 87.016,
+     "sourceEnd": 87.54
+    }
+   ]
+  },
+  {
+   "start": 53.127,
+   "end": 53.872,
+   "words": [
+    {
+     "text": "Parce",
+     "start": 53.127,
+     "end": 53.227,
+     "sourceStart": 87.56,
+     "sourceEnd": 87.66
+    },
+    {
+     "text": "qu'une",
+     "start": 53.247,
+     "end": 53.509,
+     "sourceStart": 87.68,
+     "sourceEnd": 87.942
+    },
+    {
+     "text": "précommande",
+     "start": 53.529,
+     "end": 53.872,
+     "sourceStart": 87.962,
+     "sourceEnd": 88.305
+    }
+   ]
+  },
+  {
+   "start": 53.892,
+   "end": 54.415,
+   "words": [
+    {
+     "text": "que",
+     "start": 53.892,
+     "end": 53.992,
+     "sourceStart": 88.325,
+     "sourceEnd": 88.425
+    },
+    {
+     "text": "personne",
+     "start": 54.012,
+     "end": 54.314,
+     "sourceStart": 88.445,
+     "sourceEnd": 88.747
+    },
+    {
+     "text": "ne",
+     "start": 54.335,
+     "end": 54.415,
+     "sourceStart": 88.768,
+     "sourceEnd": 88.848
+    }
+   ]
+  },
+  {
+   "start": 54.435,
+   "end": 54.999,
+   "words": [
+    {
+     "text": "voit",
+     "start": 54.435,
+     "end": 54.717,
+     "sourceStart": 88.868,
+     "sourceEnd": 89.15
+    },
+    {
+     "text": "ne",
+     "start": 54.737,
+     "end": 54.838,
+     "sourceStart": 89.17,
+     "sourceEnd": 89.271
+    },
+    {
+     "text": "vend",
+     "start": 54.858,
+     "end": 54.999,
+     "sourceStart": 89.291,
+     "sourceEnd": 89.432
+    }
+   ]
+  },
+  {
+   "start": 55.019,
+   "end": 55.3,
+   "words": [
+    {
+     "text": "rien.",
+     "start": 55.019,
+     "end": 55.3,
+     "sourceStart": 89.452,
+     "sourceEnd": 89.733
+    }
+   ]
+  },
+  {
+   "start": 55.331,
+   "end": 56.376,
+   "words": [
+    {
+     "text": "Il",
+     "start": 55.331,
+     "end": 56.075,
+     "sourceStart": 91.864,
+     "sourceEnd": 92.608
+    },
+    {
+     "text": "va",
+     "start": 56.095,
+     "end": 56.155,
+     "sourceStart": 92.628,
+     "sourceEnd": 92.688
+    },
+    {
+     "text": "falloir",
+     "start": 56.175,
+     "end": 56.376,
+     "sourceStart": 92.708,
+     "sourceEnd": 92.909
+    }
+   ]
+  },
+  {
+   "start": 56.396,
+   "end": 57.039,
+   "words": [
+    {
+     "text": "produire",
+     "start": 56.396,
+     "end": 56.678,
+     "sourceStart": 92.929,
+     "sourceEnd": 93.211
+    },
+    {
+     "text": "du",
+     "start": 56.698,
+     "end": 56.778,
+     "sourceStart": 93.231,
+     "sourceEnd": 93.311
+    },
+    {
+     "text": "contenu",
+     "start": 56.798,
+     "end": 57.039,
+     "sourceStart": 93.331,
+     "sourceEnd": 93.572
+    }
+   ]
+  },
+  {
+   "start": 57.079,
+   "end": 57.823,
+   "words": [
+    {
+     "text": "en",
+     "start": 57.079,
+     "end": 57.16,
+     "sourceStart": 93.612,
+     "sourceEnd": 93.693
+    },
+    {
+     "text": "volume",
+     "start": 57.18,
+     "end": 57.642,
+     "sourceStart": 93.713,
+     "sourceEnd": 94.175
+    },
+    {
+     "text": "tous",
+     "start": 57.662,
+     "end": 57.823,
+     "sourceStart": 94.195,
+     "sourceEnd": 94.356
+    }
+   ]
+  },
+  {
+   "start": 57.843,
+   "end": 59.069,
+   "words": [
+    {
+     "text": "les",
+     "start": 57.843,
+     "end": 57.984,
+     "sourceStart": 94.376,
+     "sourceEnd": 94.517
+    },
+    {
+     "text": "jours",
+     "start": 58.004,
+     "end": 58.567,
+     "sourceStart": 94.537,
+     "sourceEnd": 95.1
+    },
+    {
+     "text": "pour",
+     "start": 58.587,
+     "end": 59.069,
+     "sourceStart": 95.12,
+     "sourceEnd": 95.602
+    }
+   ]
+  },
+  {
+   "start": 59.089,
+   "end": 60.074,
+   "words": [
+    {
+     "text": "pouvoir",
+     "start": 59.089,
+     "end": 59.27,
+     "sourceStart": 95.622,
+     "sourceEnd": 95.803
+    },
+    {
+     "text": "la",
+     "start": 59.29,
+     "end": 59.431,
+     "sourceStart": 95.823,
+     "sourceEnd": 95.964
+    },
+    {
+     "text": "montrer",
+     "start": 59.471,
+     "end": 60.074,
+     "sourceStart": 96.004,
+     "sourceEnd": 96.607
+    }
+   ]
+  },
+  {
+   "start": 60.114,
+   "end": 60.496,
+   "words": [
+    {
+     "text": "à",
+     "start": 60.114,
+     "end": 60.235,
+     "sourceStart": 96.647,
+     "sourceEnd": 96.768
+    },
+    {
+     "text": "plus",
+     "start": 60.255,
+     "end": 60.416,
+     "sourceStart": 96.788,
+     "sourceEnd": 96.949
+    },
+    {
+     "text": "de",
+     "start": 60.436,
+     "end": 60.496,
+     "sourceStart": 96.969,
+     "sourceEnd": 97.029
+    }
+   ]
+  },
+  {
+   "start": 60.516,
+   "end": 61.1,
+   "words": [
+    {
+     "text": "monde",
+     "start": 60.516,
+     "end": 60.677,
+     "sourceStart": 97.049,
+     "sourceEnd": 97.21
+    },
+    {
+     "text": "possible.",
+     "start": 60.697,
+     "end": 61.1,
+     "sourceStart": 97.23,
+     "sourceEnd": 97.633
+    }
+   ]
+  },
+  {
+   "start": 61.131,
+   "end": 61.573,
+   "words": [
+    {
+     "text": "Et",
+     "start": 61.131,
+     "end": 61.191,
+     "sourceStart": 98.198,
+     "sourceEnd": 98.258
+    },
+    {
+     "text": "après,",
+     "start": 61.211,
+     "end": 61.372,
+     "sourceStart": 98.278,
+     "sourceEnd": 98.439
+    },
+    {
+     "text": "ensuite,",
+     "start": 61.392,
+     "end": 61.573,
+     "sourceStart": 98.459,
+     "sourceEnd": 98.64
+    }
+   ]
+  },
+  {
+   "start": 61.593,
+   "end": 61.814,
+   "words": [
+    {
+     "text": "il",
+     "start": 61.593,
+     "end": 61.633,
+     "sourceStart": 98.66,
+     "sourceEnd": 98.7
+    },
+    {
+     "text": "y",
+     "start": 61.653,
+     "end": 61.693,
+     "sourceStart": 98.72,
+     "sourceEnd": 98.76
+    },
+    {
+     "text": "aura",
+     "start": 61.693,
+     "end": 61.814,
+     "sourceStart": 98.76,
+     "sourceEnd": 98.881
+    }
+   ]
+  },
+  {
+   "start": 61.834,
+   "end": 62.818,
+   "words": [
+    {
+     "text": "trois",
+     "start": 61.834,
+     "end": 62.055,
+     "sourceStart": 98.901,
+     "sourceEnd": 99.122
+    },
+    {
+     "text": "règles",
+     "start": 62.075,
+     "end": 62.356,
+     "sourceStart": 99.142,
+     "sourceEnd": 99.423
+    },
+    {
+     "text": "simples.",
+     "start": 62.376,
+     "end": 62.818,
+     "sourceStart": 99.443,
+     "sourceEnd": 99.885
+    }
+   ]
+  },
+  {
+   "start": 62.938,
+   "end": 63.299,
+   "words": [
+    {
+     "text": "une",
+     "start": 62.938,
+     "end": 63.059,
+     "sourceStart": 100.304,
+     "sourceEnd": 100.425
+    },
+    {
+     "text": "date",
+     "start": 63.079,
+     "end": 63.239,
+     "sourceStart": 100.445,
+     "sourceEnd": 100.605
+    },
+    {
+     "text": "de",
+     "start": 63.259,
+     "end": 63.299,
+     "sourceStart": 100.625,
+     "sourceEnd": 100.665
+    }
+   ]
+  },
+  {
+   "start": 63.319,
+   "end": 64.423,
+   "words": [
+    {
+     "text": "livraison",
+     "start": 63.319,
+     "end": 63.801,
+     "sourceStart": 100.685,
+     "sourceEnd": 101.167
+    },
+    {
+     "text": "honnête,",
+     "start": 63.841,
+     "end": 64.323,
+     "sourceStart": 101.207,
+     "sourceEnd": 101.689
+    },
+    {
+     "text": "un",
+     "start": 64.363,
+     "end": 64.423,
+     "sourceStart": 101.729,
+     "sourceEnd": 101.789
+    }
+   ]
+  },
+  {
+   "start": 64.443,
+   "end": 65.286,
+   "words": [
+    {
+     "text": "seuil",
+     "start": 64.443,
+     "end": 64.724,
+     "sourceStart": 101.809,
+     "sourceEnd": 102.09
+    },
+    {
+     "text": "minimum,",
+     "start": 64.744,
+     "end": 65.185,
+     "sourceStart": 102.11,
+     "sourceEnd": 102.551
+    },
+    {
+     "text": "par",
+     "start": 65.205,
+     "end": 65.286,
+     "sourceStart": 102.571,
+     "sourceEnd": 102.652
+    }
+   ]
+  },
+  {
+   "start": 65.306,
+   "end": 66.409,
+   "words": [
+    {
+     "text": "exemple",
+     "start": 65.306,
+     "end": 65.567,
+     "sourceStart": 102.672,
+     "sourceEnd": 102.933
+    },
+    {
+     "text": "30",
+     "start": 65.627,
+     "end": 65.868,
+     "sourceStart": 102.993,
+     "sourceEnd": 103.234
+    },
+    {
+     "text": "commandes,",
+     "start": 65.888,
+     "end": 66.409,
+     "sourceStart": 103.254,
+     "sourceEnd": 103.775
+    }
+   ]
+  },
+  {
+   "start": 66.449,
+   "end": 66.931,
+   "words": [
+    {
+     "text": "en",
+     "start": 66.449,
+     "end": 66.51,
+     "sourceStart": 103.815,
+     "sourceEnd": 103.876
+    },
+    {
+     "text": "dessous",
+     "start": 66.53,
+     "end": 66.75,
+     "sourceStart": 103.896,
+     "sourceEnd": 104.116
+    },
+    {
+     "text": "tu",
+     "start": 66.77,
+     "end": 66.931,
+     "sourceStart": 104.136,
+     "sourceEnd": 104.297
+    }
+   ]
+  },
+  {
+   "start": 66.951,
+   "end": 68.255,
+   "words": [
+    {
+     "text": "rembourses,",
+     "start": 66.951,
+     "end": 67.633,
+     "sourceStart": 104.317,
+     "sourceEnd": 104.999
+    },
+    {
+     "text": "et",
+     "start": 67.693,
+     "end": 67.874,
+     "sourceStart": 105.059,
+     "sourceEnd": 105.24
+    },
+    {
+     "text": "surtout",
+     "start": 67.894,
+     "end": 68.255,
+     "sourceStart": 105.26,
+     "sourceEnd": 105.621
+    }
+   ]
+  },
+  {
+   "start": 68.295,
+   "end": 68.998,
+   "words": [
+    {
+     "text": "après,",
+     "start": 68.295,
+     "end": 68.697,
+     "sourceStart": 105.661,
+     "sourceEnd": 106.063
+    },
+    {
+     "text": "passer",
+     "start": 68.717,
+     "end": 68.917,
+     "sourceStart": 106.083,
+     "sourceEnd": 106.283
+    },
+    {
+     "text": "les",
+     "start": 68.937,
+     "end": 68.998,
+     "sourceStart": 106.303,
+     "sourceEnd": 106.364
+    }
+   ]
+  },
+  {
+   "start": 69.018,
+   "end": 69.459,
+   "words": [
+    {
+     "text": "commandes",
+     "start": 69.018,
+     "end": 69.198,
+     "sourceStart": 106.384,
+     "sourceEnd": 106.564
+    },
+    {
+     "text": "chez",
+     "start": 69.218,
+     "end": 69.299,
+     "sourceStart": 106.584,
+     "sourceEnd": 106.665
+    },
+    {
+     "text": "ton",
+     "start": 69.319,
+     "end": 69.459,
+     "sourceStart": 106.685,
+     "sourceEnd": 106.825
+    }
+   ]
+  },
+  {
+   "start": 69.479,
+   "end": 70.282,
+   "words": [
+    {
+     "text": "fournisseur",
+     "start": 69.479,
+     "end": 70.081,
+     "sourceStart": 106.845,
+     "sourceEnd": 107.447
+    },
+    {
+     "text": "dès",
+     "start": 70.121,
+     "end": 70.202,
+     "sourceStart": 107.487,
+     "sourceEnd": 107.568
+    },
+    {
+     "text": "que",
+     "start": 70.222,
+     "end": 70.282,
+     "sourceStart": 107.588,
+     "sourceEnd": 107.648
+    }
+   ]
+  },
+  {
+   "start": 70.302,
+   "end": 70.783,
+   "words": [
+    {
+     "text": "tu",
+     "start": 70.302,
+     "end": 70.342,
+     "sourceStart": 107.668,
+     "sourceEnd": 107.708
+    },
+    {
+     "text": "as",
+     "start": 70.362,
+     "end": 70.402,
+     "sourceStart": 107.728,
+     "sourceEnd": 107.768
+    },
+    {
+     "text": "l'objectif",
+     "start": 70.422,
+     "end": 70.783,
+     "sourceStart": 107.788,
+     "sourceEnd": 108.149
+    }
+   ]
+  },
+  {
+   "start": 70.803,
+   "end": 71.267,
+   "words": [
+    {
+     "text": "qui",
+     "start": 70.803,
+     "end": 70.884,
+     "sourceStart": 108.169,
+     "sourceEnd": 108.25
+    },
+    {
+     "text": "est",
+     "start": 70.904,
+     "end": 70.964,
+     "sourceStart": 108.27,
+     "sourceEnd": 108.33
+    },
+    {
+     "text": "atteint.",
+     "start": 70.984,
+     "end": 71.267,
+     "sourceStart": 108.35,
+     "sourceEnd": 108.633
+    }
+   ]
+  },
+  {
+   "start": 71.298,
+   "end": 71.48,
+   "words": [
+    {
+     "text": "Et",
+     "start": 71.298,
+     "end": 71.359,
+     "sourceStart": 125.564,
+     "sourceEnd": 125.625
+    },
+    {
+     "text": "si",
+     "start": 71.379,
+     "end": 71.419,
+     "sourceStart": 125.645,
+     "sourceEnd": 125.685
+    },
+    {
+     "text": "tu",
+     "start": 71.439,
+     "end": 71.48,
+     "sourceStart": 125.705,
+     "sourceEnd": 125.746
+    }
+   ]
+  },
+  {
+   "start": 71.5,
+   "end": 71.884,
+   "words": [
+    {
+     "text": "veux",
+     "start": 71.5,
+     "end": 71.581,
+     "sourceStart": 125.766,
+     "sourceEnd": 125.847
+    },
+    {
+     "text": "en",
+     "start": 71.601,
+     "end": 71.641,
+     "sourceStart": 125.867,
+     "sourceEnd": 125.907
+    },
+    {
+     "text": "apprendre",
+     "start": 71.661,
+     "end": 71.884,
+     "sourceStart": 125.927,
+     "sourceEnd": 126.15
+    }
+   ]
+  },
+  {
+   "start": 71.924,
+   "end": 72.509,
+   "words": [
+    {
+     "text": "toujours",
+     "start": 71.924,
+     "end": 72.227,
+     "sourceStart": 126.19,
+     "sourceEnd": 126.493
+    },
+    {
+     "text": "un",
+     "start": 72.287,
+     "end": 72.368,
+     "sourceStart": 126.553,
+     "sourceEnd": 126.634
+    },
+    {
+     "text": "peu",
+     "start": 72.388,
+     "end": 72.509,
+     "sourceStart": 126.654,
+     "sourceEnd": 126.775
+    }
+   ]
+  },
+  {
+   "start": 72.53,
+   "end": 73.277,
+   "words": [
+    {
+     "text": "plus",
+     "start": 72.53,
+     "end": 72.671,
+     "sourceStart": 126.796,
+     "sourceEnd": 126.937
+    },
+    {
+     "text": "sur",
+     "start": 72.711,
+     "end": 72.792,
+     "sourceStart": 126.977,
+     "sourceEnd": 127.058
+    },
+    {
+     "text": "l'e-commerce",
+     "start": 72.832,
+     "end": 73.277,
+     "sourceStart": 127.098,
+     "sourceEnd": 127.543
+    }
+   ]
+  },
+  {
+   "start": 73.297,
+   "end": 74.667,
+   "words": [
+    {
+     "text": "avec",
+     "start": 73.297,
+     "end": 73.418,
+     "sourceStart": 127.563,
+     "sourceEnd": 127.684
+    },
+    {
+     "text": "l'actu,",
+     "start": 73.458,
+     "end": 74.024,
+     "sourceStart": 127.724,
+     "sourceEnd": 128.29
+    },
+    {
+     "text": "abonne-toi.",
+     "start": 74.084,
+     "end": 74.667,
+     "sourceStart": 128.35,
+     "sourceEnd": 128.933
+    }
+   ]
+  },
+  {
+   "start": 74.698,
+   "end": 75.543,
+   "words": [
+    {
+     "text": "et",
+     "start": 74.698,
+     "end": 74.758,
+     "sourceStart": 145.264,
+     "sourceEnd": 145.324
+    },
+    {
+     "text": "commente",
+     "start": 74.778,
+     "end": 75.1,
+     "sourceStart": 145.344,
+     "sourceEnd": 145.666
+    },
+    {
+     "text": "préco",
+     "start": 75.121,
+     "end": 75.543,
+     "sourceStart": 145.687,
+     "sourceEnd": 146.109
+    }
+   ]
+  },
+  {
+   "start": 75.563,
+   "end": 75.805,
+   "words": [
+    {
+     "text": "pour",
+     "start": 75.563,
+     "end": 75.664,
+     "sourceStart": 146.129,
+     "sourceEnd": 146.23
+    },
+    {
+     "text": "que",
+     "start": 75.684,
+     "end": 75.744,
+     "sourceStart": 146.25,
+     "sourceEnd": 146.31
+    },
+    {
+     "text": "je",
+     "start": 75.765,
+     "end": 75.805,
+     "sourceStart": 146.331,
+     "sourceEnd": 146.371
+    }
+   ]
+  },
+  {
+   "start": 75.825,
+   "end": 76.851,
+   "words": [
+    {
+     "text": "t'envoie",
+     "start": 75.825,
+     "end": 76.107,
+     "sourceStart": 146.391,
+     "sourceEnd": 146.673
+    },
+    {
+     "text": "ma",
+     "start": 76.147,
+     "end": 76.288,
+     "sourceStart": 146.713,
+     "sourceEnd": 146.854
+    },
+    {
+     "text": "grille",
+     "start": 76.308,
+     "end": 76.851,
+     "sourceStart": 146.874,
+     "sourceEnd": 147.417
+    }
+   ]
+  },
+  {
+   "start": 76.871,
+   "end": 77.878,
+   "words": [
+    {
+     "text": "pour",
+     "start": 76.871,
+     "end": 77.032,
+     "sourceStart": 147.437,
+     "sourceEnd": 147.598
+    },
+    {
+     "text": "t'aider",
+     "start": 77.073,
+     "end": 77.374,
+     "sourceStart": 147.639,
+     "sourceEnd": 147.94
+    },
+    {
+     "text": "à",
+     "start": 77.837,
+     "end": 77.878,
+     "sourceStart": 148.403,
+     "sourceEnd": 148.444
+    }
+   ]
+  },
+  {
+   "start": 77.918,
+   "end": 78.743,
+   "words": [
+    {
+     "text": "gérer",
+     "start": 77.918,
+     "end": 78.22,
+     "sourceStart": 148.484,
+     "sourceEnd": 148.786
+    },
+    {
+     "text": "tes",
+     "start": 78.24,
+     "end": 78.361,
+     "sourceStart": 148.806,
+     "sourceEnd": 148.927
+    },
+    {
+     "text": "précommandes",
+     "start": 78.381,
+     "end": 78.743,
+     "sourceStart": 148.947,
+     "sourceEnd": 149.309
+    }
+   ]
+  },
+  {
+   "start": 78.763,
+   "end": 79.387,
+   "words": [
+    {
+     "text": "sur",
+     "start": 78.763,
+     "end": 78.864,
+     "sourceStart": 149.329,
+     "sourceEnd": 149.43
+    },
+    {
+     "text": "ta",
+     "start": 78.884,
+     "end": 78.964,
+     "sourceStart": 149.45,
+     "sourceEnd": 149.53
+    },
+    {
+     "text": "boutique",
+     "start": 78.984,
+     "end": 79.387,
+     "sourceStart": 149.55,
+     "sourceEnd": 149.953
+    }
+   ]
+  },
+  {
+   "start": 79.447,
+   "end": 80.091,
+   "words": [
+    {
+     "text": "ou",
+     "start": 79.447,
+     "end": 79.709,
+     "sourceStart": 150.013,
+     "sourceEnd": 150.275
+    },
+    {
+     "text": "au",
+     "start": 79.749,
+     "end": 79.789,
+     "sourceStart": 150.315,
+     "sourceEnd": 150.355
+    },
+    {
+     "text": "travers",
+     "start": 79.83,
+     "end": 80.091,
+     "sourceStart": 150.396,
+     "sourceEnd": 150.657
+    }
+   ]
+  },
+  {
+   "start": 80.111,
+   "end": 80.533,
+   "words": [
+    {
+     "text": "d'Ulule.",
+     "start": 80.111,
+     "end": 80.533,
+     "sourceStart": 150.677,
+     "sourceEnd": 151.099
+    }
+   ]
+  },
+  {
+   "start": 80.564,
+   "end": 80.725,
+   "words": [
+    {
+     "text": "Et",
+     "start": 80.564,
+     "end": 80.604,
+     "sourceStart": 152.631,
+     "sourceEnd": 152.671
+    },
+    {
+     "text": "si",
+     "start": 80.624,
+     "end": 80.664,
+     "sourceStart": 152.691,
+     "sourceEnd": 152.731
+    },
+    {
+     "text": "tu",
+     "start": 80.684,
+     "end": 80.725,
+     "sourceStart": 152.751,
+     "sourceEnd": 152.792
+    }
+   ]
+  },
+  {
+   "start": 80.745,
+   "end": 81.146,
+   "words": [
+    {
+     "text": "as",
+     "start": 80.745,
+     "end": 80.805,
+     "sourceStart": 152.812,
+     "sourceEnd": 152.872
+    },
+    {
+     "text": "vraiment",
+     "start": 80.825,
+     "end": 81.066,
+     "sourceStart": 152.892,
+     "sourceEnd": 153.133
+    },
+    {
+     "text": "un",
+     "start": 81.106,
+     "end": 81.146,
+     "sourceStart": 153.173,
+     "sourceEnd": 153.213
+    }
+   ]
+  },
+  {
+   "start": 81.186,
+   "end": 81.608,
+   "words": [
+    {
+     "text": "projet",
+     "start": 81.186,
+     "end": 81.367,
+     "sourceStart": 153.253,
+     "sourceEnd": 153.434
+    },
+    {
+     "text": "qui",
+     "start": 81.387,
+     "end": 81.487,
+     "sourceStart": 153.454,
+     "sourceEnd": 153.554
+    },
+    {
+     "text": "s'y",
+     "start": 81.507,
+     "end": 81.608,
+     "sourceStart": 153.574,
+     "sourceEnd": 153.675
+    }
+   ]
+  },
+  {
+   "start": 81.648,
+   "end": 82.069,
+   "words": [
+    {
+     "text": "prête,",
+     "start": 81.648,
+     "end": 81.868,
+     "sourceStart": 153.715,
+     "sourceEnd": 153.935
+    },
+    {
+     "text": "moi,",
+     "start": 81.888,
+     "end": 81.989,
+     "sourceStart": 153.955,
+     "sourceEnd": 154.056
+    },
+    {
+     "text": "je",
+     "start": 82.009,
+     "end": 82.069,
+     "sourceStart": 154.076,
+     "sourceEnd": 154.136
+    }
+   ]
+  },
+  {
+   "start": 82.089,
+   "end": 82.651,
+   "words": [
+    {
+     "text": "peux",
+     "start": 82.089,
+     "end": 82.169,
+     "sourceStart": 154.156,
+     "sourceEnd": 154.236
+    },
+    {
+     "text": "même",
+     "start": 82.189,
+     "end": 82.33,
+     "sourceStart": 154.256,
+     "sourceEnd": 154.397
+    },
+    {
+     "text": "t'aider",
+     "start": 82.35,
+     "end": 82.651,
+     "sourceStart": 154.417,
+     "sourceEnd": 154.718
+    }
+   ]
+  },
+  {
+   "start": 82.691,
+   "end": 83.113,
+   "words": [
+    {
+     "text": "à",
+     "start": 82.691,
+     "end": 82.731,
+     "sourceStart": 154.758,
+     "sourceEnd": 154.798
+    },
+    {
+     "text": "préparer",
+     "start": 82.751,
+     "end": 83.012,
+     "sourceStart": 154.818,
+     "sourceEnd": 155.079
+    },
+    {
+     "text": "ta",
+     "start": 83.052,
+     "end": 83.113,
+     "sourceStart": 155.119,
+     "sourceEnd": 155.18
+    }
+   ]
+  },
+  {
+   "start": 83.153,
+   "end": 83.533,
+   "words": [
+    {
+     "text": "campagne.",
+     "start": 83.153,
+     "end": 83.533,
+     "sourceStart": 155.22,
+     "sourceEnd": 155.6
+    }
+   ]
+  },
+  {
+   "start": 83.584,
+   "end": 84.095,
+   "words": [
+    {
+     "text": "Allez,",
+     "start": 83.584,
+     "end": 83.952,
+     "sourceStart": 156.084,
+     "sourceEnd": 156.452
+    },
+    {
+     "text": "ciao",
+     "start": 83.972,
+     "end": 84.095,
+     "sourceStart": 156.472,
+     "sourceEnd": 156.595
+    }
+   ]
+  }
+ ]
+}

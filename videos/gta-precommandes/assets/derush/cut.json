@@ -1,6 +1,6 @@
 {
- "text": "GTA 6 a vendu plus de 7,7 1 000 000 de précommandes et le jeu n'est même pas encore sorti. Ça, c'est un chiffre officiel de Sensor Tower qui date du 3 novembre 2026. De son côté, TechTo dit juste que ça dépasse de loin toutes ses attentes. Dis-toi qu'ils ont réussi à vendre un jeu avant même qu'il existe. Et ta marque e-commerce peut faire pareil. Tu as deux options. Option 1, une page de précommande sur ta boutique. Si ton produit est simple et que tu as déjà une audience. que ce soit au travers d'un mail ou de différents contenus, tu vas pouvoir mettre en avant ce nouveau produit et leur dire que c'est ouvert uniquement aux précommandes avec éventuellement un stock limité pour les pousser à l'achat et voir s'il y a de l'attraction. Numéro 2, si tu dois financer la production ou construire la première communauté, je te conseille de partir sur une campagne Ulule. Ulule, c'est une plateforme de crowdfunding français qui te permettra de mettre en avant ton projet et surtout de récolter de l'argent pour le financer. Mais attention, sur l'une, c'est tout ou rien. Si ton objectif n'est pas atteint, le projet n'est pas financé et tu dois donc rembourser les personnes. Parce que dans tous les cas, le nerf de la guerre, ça va être la communication. Parce qu'une précommande que personne ne voit ne vend rien. Donc, il va falloir produire du contenu en volume tous les jours pour pouvoir la montrer à plus de monde possible. Et après, ensuite, il y aura trois règles simples. une date de livraison honnête, un seuil minimum, par exemple 30 commandes, en dessous tu rembourses, et surtout après, passez les commandes de ton fournisseur dès que tu as l'objectif qui est atteint. Et si tu veux en apprendre toujours un peu plus sur l'e-commerce avec l'actu, abonne-toi. et commandes préco pour que je t'envoie ma grille pour t'aider à gérer tes précommandes sur ta boutique ou au travers du LUL. Et si tu as vraiment un projet qui s'y prête, moi je peux même t'aider à préparer ta campagne. Allez, ciao !",
- "audio_duration_secs": 84.894,
+ "text": "GTA 6 a vendu plus de 7,7 1 000 000 de précommandes et le jeu n'est même pas encore sorti. Ça, c'est un chiffre. de Sensor Tower qui date du 3 novembre 2026. De son côté, TechTo dit juste que ça dépasse de loin toutes ses attentes. Dis-toi qu'ils ont réussi à vendre un jeu avant même qu'il existe. Et ta marque e-commerce peut faire pareil. Tu as deux options. Option 1, une page de précommande sur ta boutique. Si ton produit est simple et que tu as déjà une audience. que ce soit au travers d'un mail ou de différents contenus, tu vas pouvoir mettre en avant ce nouveau produit et leur dire que c'est ouvert uniquement aux précommandes avec éventuellement un stock limité pour les pousser à l'achat et voir s'il y a de l'attraction. Numéro 2, si tu dois financer la production ou construire ta première communauté, je te conseille de partir sur une campagne Ulule. Ulule, c'est une plateforme de crowdfunding français qui te permettra de mettre en avant ton projet et surtout de récolter de l'argent pour le financer. Mais attention, sur l'une, c'est tout ou rien. Si ton objectif n'est pas atteint, le projet n'est pas financé et tu dois donc rembourser les personnes. Parce que dans tous les cas, le nerf de la guerre, ça va être la communication. Parce qu'une précommande que personne ne voit ne vend rien. Donc, il va falloir produire du contenu en volume tous les jours pour pouvoir la montrer à plus de monde possible. Et après, ensuite, il y aura trois règles simples. une date de livraison honnête, un seuil minimum, par exemple 30 commandes, en dessous tu rembourses, et surtout après, passez les commandes chez ton fournisseur dès que tu as l'objectif qui est atteint. Et si tu veux en apprendre toujours un peu plus sur l'e-commerce avec l'actu, abonne-toi. Et commandes préco pour que je t'envoie ma grille pour t'aider à gérer tes précommandes sur ta boutique ou au travers du LUL. Et si tu as vraiment un projet qui s'y prête, moi, je peux même t'aider à préparer ta campagne. Allez, ciao !",
+ "audio_duration_secs": 84.36,
  "language": "fr",
  "model": "whisperx/large-v3-turbo",
  "words": [
@@ -132,2382 +132,2375 @@
   },
   {
    "text": "Ça,",
-   "start": 4.738,
-   "end": 4.799,
+   "start": 4.741,
+   "end": 4.806,
    "segment": 1,
    "type": "word"
   },
   {
    "text": "c'est",
-   "start": 4.819,
-   "end": 4.939,
+   "start": 4.827,
+   "end": 4.956,
    "segment": 1,
    "type": "word"
   },
   {
    "text": "un",
-   "start": 4.959,
-   "end": 5.0,
+   "start": 4.978,
+   "end": 5.021,
    "segment": 1,
    "type": "word"
   },
   {
-   "text": "chiffre",
-   "start": 5.02,
-   "end": 5.261,
-   "segment": 1,
-   "type": "word"
-  },
-  {
-   "text": "officiel",
-   "start": 5.281,
-   "end": 5.884,
+   "text": "chiffre.",
+   "start": 5.064,
+   "end": 5.322,
    "segment": 1,
    "type": "word"
   },
   {
    "text": "de",
-   "start": 5.904,
-   "end": 6.045,
-   "segment": 1,
+   "start": 5.371,
+   "end": 5.512,
+   "segment": 2,
    "type": "word"
   },
   {
    "text": "Sensor",
-   "start": 6.065,
-   "end": 6.407,
-   "segment": 1,
+   "start": 5.532,
+   "end": 5.875,
+   "segment": 2,
    "type": "word"
   },
   {
    "text": "Tower",
-   "start": 6.427,
-   "end": 6.789,
-   "segment": 1,
+   "start": 5.895,
+   "end": 6.257,
+   "segment": 2,
    "type": "word"
   },
   {
    "text": "qui",
-   "start": 6.809,
-   "end": 6.93,
-   "segment": 1,
+   "start": 6.277,
+   "end": 6.378,
+   "segment": 2,
    "type": "word"
   },
   {
    "text": "date",
-   "start": 6.95,
-   "end": 7.11,
-   "segment": 1,
+   "start": 6.398,
+   "end": 6.559,
+   "segment": 2,
    "type": "word"
   },
   {
    "text": "du",
-   "start": 7.131,
-   "end": 7.211,
-   "segment": 1,
+   "start": 6.6,
+   "end": 6.68,
+   "segment": 2,
    "type": "word"
   },
   {
    "text": "3",
-   "start": 7.291,
-   "end": 7.412,
-   "segment": 1,
+   "start": 6.761,
+   "end": 6.861,
+   "segment": 2,
    "type": "word"
   },
   {
    "text": "novembre",
-   "start": 7.432,
-   "end": 7.673,
-   "segment": 1,
+   "start": 6.882,
+   "end": 7.123,
+   "segment": 2,
    "type": "word"
   },
   {
    "text": "2026.",
-   "start": 7.693,
-   "end": 7.814,
-   "segment": 1,
+   "start": 7.143,
+   "end": 7.244,
+   "segment": 2,
    "type": "word"
   },
   {
    "text": "De",
-   "start": 8.499,
-   "end": 8.559,
-   "segment": 2,
+   "start": 7.965,
+   "end": 8.025,
+   "segment": 3,
    "type": "word"
   },
   {
    "text": "son",
-   "start": 8.6,
-   "end": 8.681,
-   "segment": 2,
+   "start": 8.066,
+   "end": 8.147,
+   "segment": 3,
    "type": "word"
   },
   {
    "text": "côté,",
-   "start": 8.701,
-   "end": 8.903,
-   "segment": 2,
+   "start": 8.167,
+   "end": 8.369,
+   "segment": 3,
    "type": "word"
   },
   {
    "text": "TechTo",
-   "start": 8.923,
-   "end": 9.205,
-   "segment": 2,
+   "start": 8.389,
+   "end": 8.671,
+   "segment": 3,
    "type": "word"
   },
   {
    "text": "dit",
-   "start": 9.226,
-   "end": 9.367,
-   "segment": 2,
+   "start": 8.692,
+   "end": 8.833,
+   "segment": 3,
    "type": "word"
   },
   {
    "text": "juste",
-   "start": 9.387,
-   "end": 9.67,
-   "segment": 2,
+   "start": 8.853,
+   "end": 9.136,
+   "segment": 3,
    "type": "word"
   },
   {
    "text": "que",
-   "start": 9.69,
-   "end": 9.791,
-   "segment": 2,
+   "start": 9.156,
+   "end": 9.257,
+   "segment": 3,
    "type": "word"
   },
   {
    "text": "ça",
-   "start": 9.811,
-   "end": 9.892,
-   "segment": 2,
+   "start": 9.277,
+   "end": 9.358,
+   "segment": 3,
    "type": "word"
   },
   {
    "text": "dépasse",
-   "start": 9.932,
-   "end": 10.235,
-   "segment": 2,
+   "start": 9.398,
+   "end": 9.701,
+   "segment": 3,
    "type": "word"
   },
   {
    "text": "de",
-   "start": 10.255,
-   "end": 10.356,
-   "segment": 2,
+   "start": 9.721,
+   "end": 9.822,
+   "segment": 3,
    "type": "word"
   },
   {
    "text": "loin",
-   "start": 10.376,
-   "end": 10.679,
-   "segment": 2,
+   "start": 9.842,
+   "end": 10.145,
+   "segment": 3,
    "type": "word"
   },
   {
    "text": "toutes",
-   "start": 10.719,
-   "end": 10.881,
-   "segment": 2,
+   "start": 10.185,
+   "end": 10.347,
+   "segment": 3,
    "type": "word"
   },
   {
    "text": "ses",
-   "start": 10.921,
-   "end": 11.002,
-   "segment": 2,
+   "start": 10.387,
+   "end": 10.468,
+   "segment": 3,
    "type": "word"
   },
   {
    "text": "attentes.",
-   "start": 11.042,
-   "end": 11.486,
-   "segment": 2,
+   "start": 10.508,
+   "end": 10.952,
+   "segment": 3,
    "type": "word"
   },
   {
    "text": "Dis-toi",
-   "start": 11.579,
-   "end": 11.741,
-   "segment": 3,
+   "start": 11.045,
+   "end": 11.207,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "qu'ils",
-   "start": 11.761,
-   "end": 11.882,
-   "segment": 3,
+   "start": 11.227,
+   "end": 11.348,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "ont",
-   "start": 11.903,
-   "end": 11.963,
-   "segment": 3,
+   "start": 11.369,
+   "end": 11.429,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "réussi",
-   "start": 11.984,
-   "end": 12.166,
-   "segment": 3,
+   "start": 11.45,
+   "end": 11.632,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "à",
-   "start": 12.206,
-   "end": 12.307,
-   "segment": 3,
+   "start": 11.672,
+   "end": 11.773,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "vendre",
-   "start": 12.348,
-   "end": 12.55,
-   "segment": 3,
+   "start": 11.814,
+   "end": 12.016,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "un",
-   "start": 12.59,
-   "end": 12.671,
-   "segment": 3,
+   "start": 12.056,
+   "end": 12.137,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "jeu",
-   "start": 12.692,
-   "end": 12.793,
-   "segment": 3,
+   "start": 12.158,
+   "end": 12.259,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "avant",
-   "start": 12.813,
-   "end": 12.955,
-   "segment": 3,
+   "start": 12.279,
+   "end": 12.421,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "même",
-   "start": 12.995,
-   "end": 13.116,
-   "segment": 3,
+   "start": 12.461,
+   "end": 12.582,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "qu'il",
-   "start": 13.157,
-   "end": 13.299,
-   "segment": 3,
+   "start": 12.623,
+   "end": 12.765,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "existe.",
-   "start": 13.339,
-   "end": 13.784,
-   "segment": 3,
+   "start": 12.805,
+   "end": 13.25,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "Et",
-   "start": 13.824,
-   "end": 13.905,
-   "segment": 3,
+   "start": 13.29,
+   "end": 13.371,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "ta",
-   "start": 13.926,
-   "end": 14.108,
-   "segment": 3,
+   "start": 13.392,
+   "end": 13.574,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "marque",
-   "start": 14.128,
-   "end": 14.35,
-   "segment": 3,
+   "start": 13.594,
+   "end": 13.816,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "e-commerce",
-   "start": 14.371,
-   "end": 14.674,
-   "segment": 3,
+   "start": 13.837,
+   "end": 14.14,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "peut",
-   "start": 14.694,
-   "end": 14.775,
-   "segment": 3,
+   "start": 14.16,
+   "end": 14.241,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "faire",
-   "start": 14.796,
-   "end": 14.978,
-   "segment": 3,
+   "start": 14.262,
+   "end": 14.444,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "pareil.",
-   "start": 14.998,
-   "end": 15.362,
-   "segment": 3,
+   "start": 14.464,
+   "end": 14.828,
+   "segment": 4,
    "type": "word"
   },
   {
    "text": "Tu",
-   "start": 15.364,
-   "end": 15.405,
-   "segment": 4,
+   "start": 14.831,
+   "end": 14.872,
+   "segment": 5,
    "type": "word"
   },
   {
    "text": "as",
-   "start": 15.425,
-   "end": 15.466,
-   "segment": 4,
+   "start": 14.892,
+   "end": 14.933,
+   "segment": 5,
    "type": "word"
   },
   {
    "text": "deux",
-   "start": 15.487,
-   "end": 15.569,
-   "segment": 4,
+   "start": 14.954,
+   "end": 15.036,
+   "segment": 5,
    "type": "word"
   },
   {
    "text": "options.",
-   "start": 15.651,
-   "end": 15.938,
-   "segment": 4,
+   "start": 15.118,
+   "end": 15.405,
+   "segment": 5,
    "type": "word"
   },
   {
    "text": "Option",
-   "start": 16.066,
-   "end": 16.331,
-   "segment": 5,
+   "start": 15.533,
+   "end": 15.798,
+   "segment": 6,
    "type": "word"
   },
   {
    "text": "1,",
-   "start": 16.412,
-   "end": 16.616,
-   "segment": 5,
+   "start": 15.879,
+   "end": 16.083,
+   "segment": 6,
    "type": "word"
   },
   {
    "text": "une",
-   "start": 16.657,
-   "end": 16.759,
-   "segment": 5,
+   "start": 16.124,
+   "end": 16.226,
+   "segment": 6,
    "type": "word"
   },
   {
    "text": "page",
-   "start": 16.779,
-   "end": 16.942,
-   "segment": 5,
+   "start": 16.246,
+   "end": 16.409,
+   "segment": 6,
    "type": "word"
   },
   {
    "text": "de",
-   "start": 16.963,
-   "end": 17.044,
-   "segment": 5,
+   "start": 16.43,
+   "end": 16.511,
+   "segment": 6,
    "type": "word"
   },
   {
    "text": "précommande",
-   "start": 17.065,
-   "end": 17.452,
-   "segment": 5,
+   "start": 16.532,
+   "end": 16.919,
+   "segment": 6,
    "type": "word"
   },
   {
    "text": "sur",
-   "start": 17.473,
-   "end": 17.574,
-   "segment": 5,
+   "start": 16.94,
+   "end": 17.041,
+   "segment": 6,
    "type": "word"
   },
   {
    "text": "ta",
-   "start": 17.595,
-   "end": 17.676,
-   "segment": 5,
+   "start": 17.062,
+   "end": 17.123,
+   "segment": 6,
    "type": "word"
   },
   {
    "text": "boutique.",
-   "start": 17.697,
-   "end": 17.921,
-   "segment": 5,
+   "start": 17.164,
+   "end": 17.388,
+   "segment": 6,
    "type": "word"
   },
   {
    "text": "Si",
-   "start": 18.114,
-   "end": 18.196,
-   "segment": 6,
+   "start": 17.581,
+   "end": 17.663,
+   "segment": 7,
    "type": "word"
   },
   {
    "text": "ton",
-   "start": 18.216,
-   "end": 18.318,
-   "segment": 6,
+   "start": 17.683,
+   "end": 17.785,
+   "segment": 7,
    "type": "word"
   },
   {
    "text": "produit",
-   "start": 18.339,
-   "end": 18.563,
-   "segment": 6,
+   "start": 17.806,
+   "end": 18.03,
+   "segment": 7,
    "type": "word"
   },
   {
    "text": "est",
-   "start": 18.583,
-   "end": 18.685,
-   "segment": 6,
+   "start": 18.05,
+   "end": 18.152,
+   "segment": 7,
    "type": "word"
   },
   {
    "text": "simple",
-   "start": 18.726,
-   "end": 19.011,
-   "segment": 6,
+   "start": 18.193,
+   "end": 18.478,
+   "segment": 7,
    "type": "word"
   },
   {
    "text": "et",
-   "start": 19.032,
-   "end": 19.073,
-   "segment": 6,
+   "start": 18.499,
+   "end": 18.54,
+   "segment": 7,
    "type": "word"
   },
   {
    "text": "que",
-   "start": 19.093,
-   "end": 19.154,
-   "segment": 6,
+   "start": 18.56,
+   "end": 18.621,
+   "segment": 7,
    "type": "word"
   },
   {
    "text": "tu",
-   "start": 19.175,
-   "end": 19.215,
-   "segment": 6,
+   "start": 18.642,
+   "end": 18.682,
+   "segment": 7,
    "type": "word"
   },
   {
    "text": "as",
-   "start": 19.236,
-   "end": 19.276,
-   "segment": 6,
+   "start": 18.703,
+   "end": 18.743,
+   "segment": 7,
    "type": "word"
   },
   {
    "text": "déjà",
-   "start": 19.297,
-   "end": 19.419,
-   "segment": 6,
+   "start": 18.764,
+   "end": 18.886,
+   "segment": 7,
    "type": "word"
   },
   {
    "text": "une",
-   "start": 19.44,
-   "end": 19.501,
-   "segment": 6,
+   "start": 18.907,
+   "end": 18.968,
+   "segment": 7,
    "type": "word"
   },
   {
    "text": "audience.",
-   "start": 19.542,
-   "end": 19.99,
-   "segment": 6,
+   "start": 19.009,
+   "end": 19.457,
+   "segment": 7,
    "type": "word"
   },
   {
    "text": "que",
-   "start": 19.998,
-   "end": 20.058,
-   "segment": 7,
+   "start": 19.464,
+   "end": 19.524,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "ce",
-   "start": 20.078,
-   "end": 20.158,
-   "segment": 7,
+   "start": 19.544,
+   "end": 19.625,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "soit",
-   "start": 20.198,
-   "end": 20.299,
-   "segment": 7,
+   "start": 19.665,
+   "end": 19.765,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "au",
-   "start": 20.339,
-   "end": 20.399,
-   "segment": 7,
+   "start": 19.805,
+   "end": 19.866,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "travers",
-   "start": 20.419,
-   "end": 20.72,
-   "segment": 7,
+   "start": 19.886,
+   "end": 20.187,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "d'un",
-   "start": 20.74,
-   "end": 20.9,
-   "segment": 7,
+   "start": 20.207,
+   "end": 20.367,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "mail",
-   "start": 20.92,
-   "end": 21.401,
-   "segment": 7,
+   "start": 20.388,
+   "end": 20.869,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "ou",
-   "start": 21.482,
-   "end": 21.983,
-   "segment": 7,
+   "start": 20.95,
+   "end": 21.452,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "de",
-   "start": 22.003,
-   "end": 22.103,
-   "segment": 7,
+   "start": 21.472,
+   "end": 21.572,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "différents",
-   "start": 22.123,
-   "end": 22.484,
-   "segment": 7,
+   "start": 21.592,
+   "end": 21.954,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "contenus,",
-   "start": 22.504,
-   "end": 22.805,
-   "segment": 7,
+   "start": 21.974,
+   "end": 22.275,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "tu",
-   "start": 22.825,
-   "end": 22.885,
-   "segment": 7,
+   "start": 22.295,
+   "end": 22.355,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "vas",
-   "start": 22.905,
-   "end": 22.965,
-   "segment": 7,
+   "start": 22.375,
+   "end": 22.435,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "pouvoir",
-   "start": 22.985,
-   "end": 23.406,
-   "segment": 7,
+   "start": 22.456,
+   "end": 22.877,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "mettre",
-   "start": 23.426,
-   "end": 23.627,
-   "segment": 7,
+   "start": 22.897,
+   "end": 23.098,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "en",
-   "start": 23.667,
-   "end": 23.727,
-   "segment": 7,
+   "start": 23.138,
+   "end": 23.198,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "avant",
-   "start": 23.767,
-   "end": 23.948,
-   "segment": 7,
+   "start": 23.239,
+   "end": 23.419,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "ce",
-   "start": 23.968,
-   "end": 24.028,
-   "segment": 7,
+   "start": 23.439,
+   "end": 23.5,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "nouveau",
-   "start": 24.048,
-   "end": 24.269,
-   "segment": 7,
+   "start": 23.52,
+   "end": 23.741,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "produit",
-   "start": 24.289,
-   "end": 24.83,
-   "segment": 7,
+   "start": 23.761,
+   "end": 24.303,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "et",
-   "start": 24.89,
-   "end": 25.091,
-   "segment": 7,
+   "start": 24.363,
+   "end": 24.564,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "leur",
-   "start": 25.111,
-   "end": 25.271,
-   "segment": 7,
+   "start": 24.584,
+   "end": 24.744,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "dire",
-   "start": 25.291,
-   "end": 25.472,
-   "segment": 7,
+   "start": 24.764,
+   "end": 24.945,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "que",
-   "start": 25.492,
-   "end": 25.712,
-   "segment": 7,
+   "start": 24.965,
+   "end": 25.186,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "c'est",
-   "start": 25.732,
-   "end": 25.832,
-   "segment": 7,
+   "start": 25.206,
+   "end": 25.307,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "ouvert",
-   "start": 25.852,
-   "end": 26.173,
-   "segment": 7,
+   "start": 25.327,
+   "end": 25.648,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "uniquement",
-   "start": 26.233,
-   "end": 26.755,
-   "segment": 7,
+   "start": 25.708,
+   "end": 26.23,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "aux",
-   "start": 26.815,
-   "end": 26.875,
-   "segment": 7,
+   "start": 26.29,
+   "end": 26.351,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "précommandes",
-   "start": 26.895,
-   "end": 27.476,
-   "segment": 7,
+   "start": 26.371,
+   "end": 26.953,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "avec",
-   "start": 27.517,
-   "end": 27.817,
-   "segment": 7,
+   "start": 26.993,
+   "end": 27.294,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "éventuellement",
-   "start": 27.918,
-   "end": 28.539,
-   "segment": 7,
+   "start": 27.395,
+   "end": 28.017,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "un",
-   "start": 28.599,
-   "end": 28.659,
-   "segment": 7,
+   "start": 28.077,
+   "end": 28.138,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "stock",
-   "start": 28.679,
-   "end": 28.92,
-   "segment": 7,
+   "start": 28.158,
+   "end": 28.399,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "limité",
-   "start": 28.94,
-   "end": 29.662,
-   "segment": 7,
+   "start": 28.419,
+   "end": 29.141,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "pour",
-   "start": 29.682,
-   "end": 29.842,
-   "segment": 7,
+   "start": 29.161,
+   "end": 29.322,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "les",
-   "start": 29.862,
-   "end": 30.043,
-   "segment": 7,
+   "start": 29.342,
+   "end": 29.523,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "pousser",
-   "start": 30.063,
-   "end": 30.384,
-   "segment": 7,
+   "start": 29.543,
+   "end": 29.864,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "à",
-   "start": 30.664,
-   "end": 30.704,
-   "segment": 7,
+   "start": 30.145,
+   "end": 30.185,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "l'achat",
-   "start": 30.724,
-   "end": 31.105,
-   "segment": 7,
+   "start": 30.205,
+   "end": 30.587,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "et",
-   "start": 31.146,
-   "end": 31.266,
-   "segment": 7,
+   "start": 30.627,
+   "end": 30.748,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "voir",
-   "start": 31.306,
-   "end": 31.406,
-   "segment": 7,
+   "start": 30.788,
+   "end": 30.888,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "s'il",
-   "start": 31.426,
-   "end": 31.506,
-   "segment": 7,
+   "start": 30.908,
+   "end": 30.989,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "y",
-   "start": 31.526,
-   "end": 31.547,
-   "segment": 7,
+   "start": 31.009,
+   "end": 31.029,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "a",
-   "start": 31.567,
-   "end": 31.587,
-   "segment": 7,
+   "start": 31.049,
+   "end": 31.069,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "de",
-   "start": 31.607,
-   "end": 31.647,
-   "segment": 7,
+   "start": 31.089,
+   "end": 31.129,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "l'attraction.",
-   "start": 31.667,
-   "end": 32.148,
-   "segment": 7,
+   "start": 31.149,
+   "end": 31.631,
+   "segment": 8,
    "type": "word"
   },
   {
    "text": "Numéro",
-   "start": 32.204,
-   "end": 32.485,
-   "segment": 8,
+   "start": 31.691,
+   "end": 31.952,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "2,",
-   "start": 32.505,
-   "end": 32.766,
-   "segment": 8,
+   "start": 31.972,
+   "end": 32.233,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "si",
-   "start": 32.786,
-   "end": 32.886,
-   "segment": 8,
+   "start": 32.253,
+   "end": 32.353,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "tu",
-   "start": 32.906,
-   "end": 32.966,
-   "segment": 8,
+   "start": 32.373,
+   "end": 32.453,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "dois",
-   "start": 32.986,
-   "end": 33.147,
-   "segment": 8,
+   "start": 32.473,
+   "end": 32.614,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "financer",
-   "start": 33.187,
-   "end": 33.568,
-   "segment": 8,
+   "start": 32.654,
+   "end": 33.015,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "la",
-   "start": 33.648,
-   "end": 33.708,
-   "segment": 8,
+   "start": 33.115,
+   "end": 33.175,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "production",
-   "start": 33.749,
-   "end": 34.31,
-   "segment": 8,
+   "start": 33.216,
+   "end": 33.617,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "ou",
-   "start": 34.33,
-   "end": 34.37,
-   "segment": 8,
+   "start": 33.777,
+   "end": 33.837,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "construire",
-   "start": 34.39,
-   "end": 34.711,
-   "segment": 8,
+   "start": 33.857,
+   "end": 34.178,
+   "segment": 9,
    "type": "word"
   },
   {
-   "text": "la",
-   "start": 34.932,
-   "end": 35.032,
-   "segment": 8,
+   "text": "ta",
+   "start": 34.319,
+   "end": 34.499,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "première",
-   "start": 35.052,
-   "end": 35.333,
-   "segment": 8,
+   "start": 34.519,
+   "end": 34.8,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "communauté,",
-   "start": 35.353,
-   "end": 35.714,
-   "segment": 8,
+   "start": 34.82,
+   "end": 35.181,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "je",
-   "start": 35.754,
-   "end": 35.794,
-   "segment": 8,
+   "start": 35.221,
+   "end": 35.261,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "te",
-   "start": 35.814,
-   "end": 35.915,
-   "segment": 8,
+   "start": 35.281,
+   "end": 35.382,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "conseille",
-   "start": 35.935,
-   "end": 36.155,
-   "segment": 8,
+   "start": 35.402,
+   "end": 35.622,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "de",
-   "start": 36.175,
-   "end": 36.236,
-   "segment": 8,
+   "start": 35.642,
+   "end": 35.703,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "partir",
-   "start": 36.256,
-   "end": 36.476,
-   "segment": 8,
+   "start": 35.723,
+   "end": 35.943,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "sur",
-   "start": 36.516,
-   "end": 36.617,
-   "segment": 8,
+   "start": 35.983,
+   "end": 36.084,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "une",
-   "start": 36.637,
-   "end": 36.717,
-   "segment": 8,
+   "start": 36.104,
+   "end": 36.184,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "campagne",
-   "start": 36.737,
-   "end": 37.118,
-   "segment": 8,
+   "start": 36.204,
+   "end": 36.585,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "Ulule.",
-   "start": 37.198,
-   "end": 37.88,
-   "segment": 8,
+   "start": 36.685,
+   "end": 37.347,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "Ulule,",
-   "start": 37.96,
-   "end": 38.301,
-   "segment": 8,
+   "start": 37.427,
+   "end": 37.748,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "c'est",
-   "start": 38.322,
-   "end": 38.522,
-   "segment": 8,
+   "start": 37.768,
+   "end": 37.989,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "une",
-   "start": 38.562,
-   "end": 38.642,
-   "segment": 8,
+   "start": 38.029,
+   "end": 38.129,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "plateforme",
-   "start": 38.662,
-   "end": 38.943,
-   "segment": 8,
+   "start": 38.15,
+   "end": 38.41,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "de",
-   "start": 38.963,
-   "end": 39.124,
-   "segment": 8,
+   "start": 38.43,
+   "end": 38.591,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "crowdfunding",
-   "start": 39.144,
-   "end": 39.946,
-   "segment": 8,
+   "start": 38.611,
+   "end": 39.413,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "français",
-   "start": 39.966,
-   "end": 40.608,
-   "segment": 8,
+   "start": 39.433,
+   "end": 40.075,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "qui",
-   "start": 40.648,
-   "end": 40.789,
-   "segment": 8,
+   "start": 40.115,
+   "end": 40.235,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "te",
-   "start": 40.809,
-   "end": 40.909,
-   "segment": 8,
+   "start": 40.276,
+   "end": 40.376,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "permettra",
-   "start": 40.929,
-   "end": 41.511,
-   "segment": 8,
+   "start": 40.396,
+   "end": 40.978,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "de",
-   "start": 41.531,
-   "end": 41.611,
-   "segment": 8,
+   "start": 40.998,
+   "end": 41.078,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "mettre",
-   "start": 41.631,
-   "end": 41.831,
-   "segment": 8,
+   "start": 41.098,
+   "end": 41.298,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "en",
-   "start": 41.852,
-   "end": 41.912,
-   "segment": 8,
+   "start": 41.319,
+   "end": 41.379,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "avant",
-   "start": 41.972,
-   "end": 42.152,
-   "segment": 8,
+   "start": 41.439,
+   "end": 41.619,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "ton",
-   "start": 42.172,
-   "end": 42.293,
-   "segment": 8,
+   "start": 41.639,
+   "end": 41.76,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "projet",
-   "start": 42.333,
-   "end": 42.955,
-   "segment": 8,
+   "start": 41.8,
+   "end": 42.422,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "et",
-   "start": 42.995,
-   "end": 43.155,
-   "segment": 8,
+   "start": 42.462,
+   "end": 42.622,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "surtout",
-   "start": 43.175,
-   "end": 43.516,
-   "segment": 8,
+   "start": 42.642,
+   "end": 42.883,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "de",
-   "start": 43.757,
-   "end": 43.978,
-   "segment": 8,
+   "start": 42.903,
+   "end": 42.983,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "récolter",
-   "start": 44.038,
-   "end": 44.78,
-   "segment": 8,
+   "start": 43.505,
+   "end": 44.247,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "de",
-   "start": 44.8,
-   "end": 44.88,
-   "segment": 8,
+   "start": 44.267,
+   "end": 44.347,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "l'argent",
-   "start": 44.9,
-   "end": 45.161,
-   "segment": 8,
+   "start": 44.367,
+   "end": 44.628,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "pour",
-   "start": 45.181,
-   "end": 45.281,
-   "segment": 8,
+   "start": 44.648,
+   "end": 44.748,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "le",
-   "start": 45.301,
-   "end": 45.362,
-   "segment": 8,
+   "start": 44.768,
+   "end": 44.829,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "financer.",
-   "start": 45.382,
-   "end": 45.883,
-   "segment": 8,
+   "start": 44.849,
+   "end": 45.35,
+   "segment": 9,
    "type": "word"
   },
   {
    "text": "Mais",
-   "start": 45.898,
-   "end": 45.98,
-   "segment": 9,
+   "start": 45.364,
+   "end": 45.447,
+   "segment": 10,
    "type": "word"
   },
   {
    "text": "attention,",
-   "start": 46.001,
-   "end": 46.309,
-   "segment": 9,
+   "start": 45.468,
+   "end": 45.781,
+   "segment": 10,
    "type": "word"
   },
   {
    "text": "sur",
-   "start": 46.33,
-   "end": 46.433,
-   "segment": 9,
+   "start": 45.801,
+   "end": 45.906,
+   "segment": 10,
    "type": "word"
   },
   {
    "text": "l'une,",
-   "start": 46.474,
-   "end": 46.618,
-   "segment": 9,
+   "start": 45.947,
+   "end": 46.093,
+   "segment": 10,
    "type": "word"
   },
   {
    "text": "c'est",
-   "start": 46.638,
-   "end": 46.762,
-   "segment": 9,
+   "start": 46.114,
+   "end": 46.239,
+   "segment": 10,
    "type": "word"
   },
   {
    "text": "tout",
-   "start": 46.782,
-   "end": 46.885,
-   "segment": 9,
+   "start": 46.26,
+   "end": 46.364,
+   "segment": 10,
    "type": "word"
   },
   {
    "text": "ou",
-   "start": 46.926,
-   "end": 46.988,
-   "segment": 9,
+   "start": 46.405,
+   "end": 46.468,
+   "segment": 10,
    "type": "word"
   },
   {
    "text": "rien.",
-   "start": 47.008,
-   "end": 47.132,
-   "segment": 9,
+   "start": 46.489,
+   "end": 46.614,
+   "segment": 10,
    "type": "word"
   },
   {
    "text": "Si",
-   "start": 47.251,
-   "end": 47.352,
-   "segment": 10,
+   "start": 46.718,
+   "end": 46.819,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "ton",
-   "start": 47.372,
-   "end": 47.473,
-   "segment": 10,
+   "start": 46.839,
+   "end": 46.94,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "objectif",
-   "start": 47.514,
-   "end": 47.796,
-   "segment": 10,
+   "start": 46.981,
+   "end": 47.243,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "n'est",
-   "start": 47.816,
-   "end": 47.917,
-   "segment": 10,
+   "start": 47.263,
+   "end": 47.384,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "pas",
-   "start": 47.937,
-   "end": 48.018,
-   "segment": 10,
+   "start": 47.404,
+   "end": 47.485,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "atteint,",
-   "start": 48.058,
-   "end": 48.341,
-   "segment": 10,
+   "start": 47.525,
+   "end": 47.808,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "le",
-   "start": 48.361,
-   "end": 48.462,
-   "segment": 10,
+   "start": 47.828,
+   "end": 47.929,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "projet",
-   "start": 48.502,
-   "end": 48.684,
-   "segment": 10,
+   "start": 47.969,
+   "end": 48.151,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "n'est",
-   "start": 48.704,
-   "end": 48.805,
-   "segment": 10,
+   "start": 48.171,
+   "end": 48.272,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "pas",
-   "start": 48.825,
-   "end": 48.926,
-   "segment": 10,
+   "start": 48.292,
+   "end": 48.393,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "financé",
-   "start": 48.946,
-   "end": 49.451,
-   "segment": 10,
+   "start": 48.413,
+   "end": 48.918,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "et",
-   "start": 49.511,
-   "end": 49.653,
-   "segment": 10,
+   "start": 48.978,
+   "end": 49.12,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "tu",
-   "start": 49.673,
-   "end": 49.754,
-   "segment": 10,
+   "start": 49.14,
+   "end": 49.221,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "dois",
-   "start": 49.794,
-   "end": 49.895,
-   "segment": 10,
+   "start": 49.241,
+   "end": 49.362,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "donc",
-   "start": 49.915,
-   "end": 50.077,
-   "segment": 10,
+   "start": 49.382,
+   "end": 49.523,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "rembourser",
-   "start": 50.097,
-   "end": 50.662,
-   "segment": 10,
+   "start": 49.564,
+   "end": 50.129,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "les",
-   "start": 50.702,
-   "end": 50.823,
-   "segment": 10,
+   "start": 50.169,
+   "end": 50.29,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "personnes.",
-   "start": 50.843,
-   "end": 51.247,
-   "segment": 10,
+   "start": 50.31,
+   "end": 50.714,
+   "segment": 11,
    "type": "word"
   },
   {
    "text": "Parce",
-   "start": 51.264,
-   "end": 51.385,
-   "segment": 11,
+   "start": 50.731,
+   "end": 50.852,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "que",
-   "start": 51.405,
-   "end": 51.465,
-   "segment": 11,
+   "start": 50.872,
+   "end": 50.932,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "dans",
-   "start": 51.485,
-   "end": 51.606,
-   "segment": 11,
+   "start": 50.952,
+   "end": 51.073,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "tous",
-   "start": 51.626,
-   "end": 51.727,
-   "segment": 11,
+   "start": 51.093,
+   "end": 51.194,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "les",
-   "start": 51.747,
-   "end": 51.828,
-   "segment": 11,
+   "start": 51.214,
+   "end": 51.295,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "cas,",
-   "start": 51.848,
-   "end": 51.969,
-   "segment": 11,
+   "start": 51.315,
+   "end": 51.456,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "le",
-   "start": 52.009,
-   "end": 52.13,
-   "segment": 11,
+   "start": 51.476,
+   "end": 51.597,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "nerf",
-   "start": 52.17,
-   "end": 52.331,
-   "segment": 11,
+   "start": 51.637,
+   "end": 51.798,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "de",
-   "start": 52.351,
-   "end": 52.412,
-   "segment": 11,
+   "start": 51.818,
+   "end": 51.879,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "la",
-   "start": 52.432,
-   "end": 52.492,
-   "segment": 11,
+   "start": 51.899,
+   "end": 51.959,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "guerre,",
-   "start": 52.512,
-   "end": 52.713,
-   "segment": 11,
+   "start": 51.979,
+   "end": 52.18,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "ça",
-   "start": 52.754,
-   "end": 52.814,
-   "segment": 11,
+   "start": 52.221,
+   "end": 52.281,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "va",
-   "start": 52.834,
-   "end": 52.875,
-   "segment": 11,
+   "start": 52.301,
+   "end": 52.342,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "être",
-   "start": 52.895,
-   "end": 52.995,
-   "segment": 11,
+   "start": 52.362,
+   "end": 52.462,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "la",
-   "start": 53.015,
-   "end": 53.096,
-   "segment": 11,
+   "start": 52.482,
+   "end": 52.563,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "communication.",
-   "start": 53.136,
-   "end": 53.64,
-   "segment": 11,
+   "start": 52.583,
+   "end": 53.107,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "Parce",
-   "start": 53.66,
-   "end": 53.76,
-   "segment": 11,
+   "start": 53.127,
+   "end": 53.227,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "qu'une",
-   "start": 53.78,
-   "end": 54.042,
-   "segment": 11,
+   "start": 53.247,
+   "end": 53.509,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "précommande",
-   "start": 54.062,
-   "end": 54.405,
-   "segment": 11,
+   "start": 53.529,
+   "end": 53.872,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "que",
-   "start": 54.425,
-   "end": 54.525,
-   "segment": 11,
+   "start": 53.892,
+   "end": 53.992,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "personne",
-   "start": 54.545,
-   "end": 54.847,
-   "segment": 11,
+   "start": 54.012,
+   "end": 54.314,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "ne",
-   "start": 54.868,
-   "end": 54.948,
-   "segment": 11,
+   "start": 54.335,
+   "end": 54.415,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "voit",
-   "start": 54.968,
-   "end": 55.25,
-   "segment": 11,
+   "start": 54.435,
+   "end": 54.717,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "ne",
-   "start": 55.29,
-   "end": 55.371,
-   "segment": 11,
+   "start": 54.737,
+   "end": 54.838,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "vend",
-   "start": 55.391,
-   "end": 55.532,
-   "segment": 11,
+   "start": 54.858,
+   "end": 54.999,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "rien.",
-   "start": 55.552,
-   "end": 55.854,
-   "segment": 11,
+   "start": 55.019,
+   "end": 55.321,
+   "segment": 12,
    "type": "word"
   },
   {
    "text": "Donc,",
-   "start": 55.924,
-   "end": 56.527,
-   "segment": 12,
+   "start": 55.331,
+   "end": 55.532,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "il",
-   "start": 56.547,
-   "end": 56.608,
-   "segment": 12,
+   "start": 56.014,
+   "end": 56.075,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "va",
-   "start": 56.628,
-   "end": 56.688,
-   "segment": 12,
+   "start": 56.095,
+   "end": 56.155,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "falloir",
-   "start": 56.708,
-   "end": 56.909,
-   "segment": 12,
+   "start": 56.175,
+   "end": 56.376,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "produire",
-   "start": 56.929,
-   "end": 57.211,
-   "segment": 12,
+   "start": 56.396,
+   "end": 56.678,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "du",
-   "start": 57.231,
-   "end": 57.311,
-   "segment": 12,
+   "start": 56.698,
+   "end": 56.778,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "contenu",
-   "start": 57.331,
-   "end": 57.592,
-   "segment": 12,
+   "start": 56.798,
+   "end": 57.039,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "en",
-   "start": 57.612,
-   "end": 57.693,
-   "segment": 12,
+   "start": 57.079,
+   "end": 57.16,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "volume",
-   "start": 57.713,
-   "end": 58.175,
-   "segment": 12,
+   "start": 57.18,
+   "end": 57.642,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "tous",
-   "start": 58.195,
-   "end": 58.356,
-   "segment": 12,
+   "start": 57.662,
+   "end": 57.823,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "les",
-   "start": 58.376,
-   "end": 58.517,
-   "segment": 12,
+   "start": 57.843,
+   "end": 57.984,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "jours",
-   "start": 58.537,
-   "end": 59.1,
-   "segment": 12,
+   "start": 58.004,
+   "end": 58.567,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "pour",
-   "start": 59.12,
-   "end": 59.602,
-   "segment": 12,
+   "start": 58.587,
+   "end": 59.069,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "pouvoir",
-   "start": 59.622,
-   "end": 59.803,
-   "segment": 12,
+   "start": 59.089,
+   "end": 59.27,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "la",
-   "start": 59.823,
-   "end": 59.964,
-   "segment": 12,
+   "start": 59.29,
+   "end": 59.431,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "montrer",
-   "start": 60.004,
-   "end": 60.607,
-   "segment": 12,
+   "start": 59.471,
+   "end": 60.074,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "à",
-   "start": 60.647,
-   "end": 60.768,
-   "segment": 12,
+   "start": 60.114,
+   "end": 60.235,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "plus",
-   "start": 60.788,
-   "end": 60.949,
-   "segment": 12,
+   "start": 60.255,
+   "end": 60.416,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "de",
-   "start": 60.969,
-   "end": 61.029,
-   "segment": 12,
+   "start": 60.436,
+   "end": 60.496,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "monde",
-   "start": 61.049,
-   "end": 61.21,
-   "segment": 12,
+   "start": 60.516,
+   "end": 60.677,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "possible.",
-   "start": 61.23,
-   "end": 61.652,
-   "segment": 12,
+   "start": 60.697,
+   "end": 61.119,
+   "segment": 13,
    "type": "word"
   },
   {
    "text": "Et",
-   "start": 61.664,
-   "end": 61.725,
-   "segment": 13,
+   "start": 61.131,
+   "end": 61.191,
+   "segment": 14,
    "type": "word"
   },
   {
    "text": "après,",
-   "start": 61.745,
-   "end": 61.907,
-   "segment": 13,
+   "start": 61.211,
+   "end": 61.372,
+   "segment": 14,
    "type": "word"
   },
   {
    "text": "ensuite,",
-   "start": 61.928,
-   "end": 62.11,
-   "segment": 13,
+   "start": 61.392,
+   "end": 61.573,
+   "segment": 14,
    "type": "word"
   },
   {
    "text": "il",
-   "start": 62.131,
-   "end": 62.171,
-   "segment": 13,
+   "start": 61.593,
+   "end": 61.633,
+   "segment": 14,
    "type": "word"
   },
   {
    "text": "y",
-   "start": 62.191,
-   "end": 62.212,
-   "segment": 13,
+   "start": 61.653,
+   "end": 61.673,
+   "segment": 14,
    "type": "word"
   },
   {
    "text": "aura",
-   "start": 62.232,
-   "end": 62.354,
-   "segment": 13,
+   "start": 61.693,
+   "end": 61.814,
+   "segment": 14,
    "type": "word"
   },
   {
    "text": "trois",
-   "start": 62.374,
-   "end": 62.597,
-   "segment": 13,
+   "start": 61.834,
+   "end": 62.055,
+   "segment": 14,
    "type": "word"
   },
   {
    "text": "règles",
-   "start": 62.617,
-   "end": 62.901,
-   "segment": 13,
+   "start": 62.075,
+   "end": 62.356,
+   "segment": 14,
    "type": "word"
   },
   {
    "text": "simples.",
-   "start": 62.922,
-   "end": 63.368,
-   "segment": 13,
+   "start": 62.376,
+   "end": 62.818,
+   "segment": 14,
    "type": "word"
   },
   {
    "text": "une",
-   "start": 63.471,
-   "end": 63.592,
-   "segment": 14,
+   "start": 62.938,
+   "end": 63.059,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "date",
-   "start": 63.612,
-   "end": 63.772,
-   "segment": 14,
+   "start": 63.079,
+   "end": 63.239,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "de",
-   "start": 63.792,
-   "end": 63.832,
-   "segment": 14,
+   "start": 63.259,
+   "end": 63.299,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "livraison",
-   "start": 63.872,
-   "end": 64.334,
-   "segment": 14,
+   "start": 63.319,
+   "end": 63.801,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "honnête,",
-   "start": 64.374,
-   "end": 64.856,
-   "segment": 14,
+   "start": 63.841,
+   "end": 64.323,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "un",
-   "start": 64.896,
-   "end": 64.956,
-   "segment": 14,
+   "start": 64.363,
+   "end": 64.423,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "seuil",
-   "start": 64.976,
-   "end": 65.257,
-   "segment": 14,
+   "start": 64.443,
+   "end": 64.724,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "minimum,",
-   "start": 65.277,
-   "end": 65.718,
-   "segment": 14,
+   "start": 64.744,
+   "end": 65.185,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "par",
-   "start": 65.738,
-   "end": 65.819,
-   "segment": 14,
+   "start": 65.205,
+   "end": 65.286,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "exemple",
-   "start": 65.839,
-   "end": 66.1,
-   "segment": 14,
+   "start": 65.306,
+   "end": 65.567,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "30",
-   "start": 66.16,
-   "end": 66.401,
-   "segment": 14,
+   "start": 65.627,
+   "end": 65.868,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "commandes,",
-   "start": 66.421,
-   "end": 66.942,
-   "segment": 14,
+   "start": 65.888,
+   "end": 66.409,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "en",
-   "start": 66.982,
-   "end": 67.043,
-   "segment": 14,
+   "start": 66.449,
+   "end": 66.51,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "dessous",
-   "start": 67.063,
-   "end": 67.283,
-   "segment": 14,
+   "start": 66.53,
+   "end": 66.75,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "tu",
-   "start": 67.324,
-   "end": 67.404,
-   "segment": 14,
+   "start": 66.77,
+   "end": 66.931,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "rembourses,",
-   "start": 67.424,
-   "end": 68.166,
-   "segment": 14,
+   "start": 66.951,
+   "end": 67.633,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "et",
-   "start": 68.226,
-   "end": 68.407,
-   "segment": 14,
+   "start": 67.693,
+   "end": 67.874,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "surtout",
-   "start": 68.427,
-   "end": 68.788,
-   "segment": 14,
+   "start": 67.894,
+   "end": 68.255,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "après,",
-   "start": 68.828,
-   "end": 69.23,
-   "segment": 14,
+   "start": 68.295,
+   "end": 68.697,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "passez",
-   "start": 69.25,
-   "end": 69.45,
-   "segment": 14,
+   "start": 68.717,
+   "end": 68.917,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "les",
-   "start": 69.47,
-   "end": 69.531,
-   "segment": 14,
+   "start": 68.937,
+   "end": 68.998,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "commandes",
-   "start": 69.551,
-   "end": 69.751,
-   "segment": 14,
+   "start": 69.018,
+   "end": 69.198,
+   "segment": 15,
    "type": "word"
   },
   {
-   "text": "de",
-   "start": 69.771,
-   "end": 69.832,
-   "segment": 14,
+   "text": "chez",
+   "start": 69.218,
+   "end": 69.299,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "ton",
-   "start": 69.852,
-   "end": 69.992,
-   "segment": 14,
+   "start": 69.319,
+   "end": 69.459,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "fournisseur",
-   "start": 70.012,
-   "end": 70.614,
-   "segment": 14,
+   "start": 69.479,
+   "end": 70.081,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "dès",
-   "start": 70.654,
-   "end": 70.755,
-   "segment": 14,
+   "start": 70.121,
+   "end": 70.202,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "que",
-   "start": 70.775,
-   "end": 70.835,
-   "segment": 14,
+   "start": 70.222,
+   "end": 70.282,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "tu",
-   "start": 70.855,
-   "end": 70.895,
-   "segment": 14,
+   "start": 70.302,
+   "end": 70.342,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "as",
-   "start": 70.915,
-   "end": 70.955,
-   "segment": 14,
+   "start": 70.362,
+   "end": 70.402,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "l'objectif",
-   "start": 70.975,
-   "end": 71.336,
-   "segment": 14,
+   "start": 70.422,
+   "end": 70.783,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "qui",
-   "start": 71.357,
-   "end": 71.417,
-   "segment": 14,
+   "start": 70.803,
+   "end": 70.884,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "est",
-   "start": 71.437,
-   "end": 71.497,
-   "segment": 14,
+   "start": 70.904,
+   "end": 70.964,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "atteint.",
-   "start": 71.517,
-   "end": 71.818,
-   "segment": 14,
+   "start": 70.984,
+   "end": 71.285,
+   "segment": 15,
    "type": "word"
   },
   {
    "text": "Et",
-   "start": 71.851,
-   "end": 71.892,
-   "segment": 15,
+   "start": 71.298,
+   "end": 71.359,
+   "segment": 16,
    "type": "word"
   },
   {
    "text": "si",
-   "start": 71.912,
-   "end": 71.972,
-   "segment": 15,
+   "start": 71.379,
+   "end": 71.419,
+   "segment": 16,
    "type": "word"
   },
   {
    "text": "tu",
-   "start": 71.993,
-   "end": 72.033,
-   "segment": 15,
+   "start": 71.439,
+   "end": 71.48,
+   "segment": 16,
    "type": "word"
   },
   {
    "text": "veux",
-   "start": 72.053,
-   "end": 72.134,
-   "segment": 15,
+   "start": 71.5,
+   "end": 71.581,
+   "segment": 16,
    "type": "word"
   },
   {
    "text": "en",
-   "start": 72.154,
-   "end": 72.194,
-   "segment": 15,
+   "start": 71.601,
+   "end": 71.641,
+   "segment": 16,
    "type": "word"
   },
   {
    "text": "apprendre",
-   "start": 72.215,
-   "end": 72.417,
-   "segment": 15,
+   "start": 71.661,
+   "end": 71.884,
+   "segment": 16,
    "type": "word"
   },
   {
    "text": "toujours",
-   "start": 72.457,
-   "end": 72.76,
-   "segment": 15,
+   "start": 71.924,
+   "end": 72.227,
+   "segment": 16,
    "type": "word"
   },
   {
    "text": "un",
-   "start": 72.82,
-   "end": 72.901,
-   "segment": 15,
+   "start": 72.287,
+   "end": 72.368,
+   "segment": 16,
    "type": "word"
   },
   {
    "text": "peu",
-   "start": 72.921,
-   "end": 73.042,
-   "segment": 15,
+   "start": 72.388,
+   "end": 72.509,
+   "segment": 16,
    "type": "word"
   },
   {
    "text": "plus",
-   "start": 73.063,
-   "end": 73.204,
-   "segment": 15,
+   "start": 72.53,
+   "end": 72.671,
+   "segment": 16,
    "type": "word"
   },
   {
    "text": "sur",
-   "start": 73.244,
-   "end": 73.325,
-   "segment": 15,
+   "start": 72.711,
+   "end": 72.792,
+   "segment": 16,
    "type": "word"
   },
   {
    "text": "l'e-commerce",
-   "start": 73.365,
-   "end": 73.81,
-   "segment": 15,
+   "start": 72.832,
+   "end": 73.277,
+   "segment": 16,
    "type": "word"
   },
   {
    "text": "avec",
-   "start": 73.83,
-   "end": 73.951,
-   "segment": 15,
+   "start": 73.297,
+   "end": 73.418,
+   "segment": 16,
    "type": "word"
   },
   {
    "text": "l'actu,",
-   "start": 73.991,
-   "end": 74.557,
-   "segment": 15,
+   "start": 73.458,
+   "end": 74.024,
+   "segment": 16,
    "type": "word"
   },
   {
    "text": "abonne-toi.",
-   "start": 74.617,
-   "end": 75.223,
-   "segment": 15,
-   "type": "word"
-  },
-  {
-   "text": "et",
-   "start": 75.231,
-   "end": 75.291,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "commandes",
-   "start": 75.311,
-   "end": 75.633,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "préco",
-   "start": 75.654,
-   "end": 76.076,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "pour",
-   "start": 76.096,
-   "end": 76.197,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "que",
-   "start": 76.217,
-   "end": 76.277,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "je",
-   "start": 76.298,
-   "end": 76.338,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "t'envoie",
-   "start": 76.358,
-   "end": 76.64,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "ma",
-   "start": 76.68,
-   "end": 76.821,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "grille",
-   "start": 76.841,
-   "end": 77.384,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "pour",
-   "start": 77.404,
-   "end": 77.565,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "t'aider",
-   "start": 77.606,
-   "end": 78.33,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "à",
-   "start": 78.37,
-   "end": 78.411,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "gérer",
-   "start": 78.451,
-   "end": 78.753,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "tes",
-   "start": 78.773,
-   "end": 78.894,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "précommandes",
-   "start": 78.914,
-   "end": 79.276,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "sur",
-   "start": 79.296,
-   "end": 79.397,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "ta",
-   "start": 79.417,
-   "end": 79.497,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "boutique",
-   "start": 79.517,
-   "end": 79.92,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "ou",
-   "start": 79.98,
-   "end": 80.262,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "au",
-   "start": 80.282,
-   "end": 80.322,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "travers",
-   "start": 80.363,
-   "end": 80.624,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "du",
-   "start": 80.644,
-   "end": 80.725,
-   "segment": 16,
-   "type": "word"
-  },
-  {
-   "text": "LUL.",
-   "start": 80.765,
-   "end": 81.087,
+   "start": 74.084,
+   "end": 74.69,
    "segment": 16,
    "type": "word"
   },
   {
    "text": "Et",
-   "start": 81.098,
-   "end": 81.138,
+   "start": 74.698,
+   "end": 74.758,
    "segment": 17,
    "type": "word"
   },
   {
-   "text": "si",
-   "start": 81.158,
-   "end": 81.198,
+   "text": "commandes",
+   "start": 74.778,
+   "end": 75.1,
    "segment": 17,
    "type": "word"
   },
   {
-   "text": "tu",
-   "start": 81.218,
-   "end": 81.259,
+   "text": "préco",
+   "start": 75.121,
+   "end": 75.543,
    "segment": 17,
    "type": "word"
   },
   {
-   "text": "as",
-   "start": 81.279,
-   "end": 81.339,
+   "text": "pour",
+   "start": 75.563,
+   "end": 75.664,
    "segment": 17,
    "type": "word"
   },
   {
-   "text": "vraiment",
-   "start": 81.359,
-   "end": 81.6,
-   "segment": 17,
-   "type": "word"
-  },
-  {
-   "text": "un",
-   "start": 81.64,
-   "end": 81.68,
-   "segment": 17,
-   "type": "word"
-  },
-  {
-   "text": "projet",
-   "start": 81.72,
-   "end": 81.901,
-   "segment": 17,
-   "type": "word"
-  },
-  {
-   "text": "qui",
-   "start": 81.921,
-   "end": 82.021,
-   "segment": 17,
-   "type": "word"
-  },
-  {
-   "text": "s'y",
-   "start": 82.041,
-   "end": 82.142,
-   "segment": 17,
-   "type": "word"
-  },
-  {
-   "text": "prête,",
-   "start": 82.182,
-   "end": 82.382,
-   "segment": 17,
-   "type": "word"
-  },
-  {
-   "text": "moi",
-   "start": 82.402,
-   "end": 82.463,
+   "text": "que",
+   "start": 75.684,
+   "end": 75.744,
    "segment": 17,
    "type": "word"
   },
   {
    "text": "je",
-   "start": 82.483,
-   "end": 82.523,
+   "start": 75.765,
+   "end": 75.805,
    "segment": 17,
    "type": "word"
   },
   {
-   "text": "peux",
-   "start": 82.543,
-   "end": 82.623,
+   "text": "t'envoie",
+   "start": 75.825,
+   "end": 76.107,
    "segment": 17,
    "type": "word"
   },
   {
-   "text": "même",
-   "start": 82.643,
-   "end": 82.864,
+   "text": "ma",
+   "start": 76.147,
+   "end": 76.288,
+   "segment": 17,
+   "type": "word"
+  },
+  {
+   "text": "grille",
+   "start": 76.308,
+   "end": 76.851,
+   "segment": 17,
+   "type": "word"
+  },
+  {
+   "text": "pour",
+   "start": 76.871,
+   "end": 77.032,
    "segment": 17,
    "type": "word"
   },
   {
    "text": "t'aider",
-   "start": 82.884,
-   "end": 83.185,
+   "start": 77.073,
+   "end": 77.374,
    "segment": 17,
    "type": "word"
   },
   {
    "text": "à",
-   "start": 83.225,
-   "end": 83.265,
+   "start": 77.837,
+   "end": 77.878,
    "segment": 17,
    "type": "word"
   },
   {
-   "text": "préparer",
-   "start": 83.285,
-   "end": 83.546,
+   "text": "gérer",
+   "start": 77.918,
+   "end": 78.22,
+   "segment": 17,
+   "type": "word"
+  },
+  {
+   "text": "tes",
+   "start": 78.24,
+   "end": 78.361,
+   "segment": 17,
+   "type": "word"
+  },
+  {
+   "text": "précommandes",
+   "start": 78.381,
+   "end": 78.743,
+   "segment": 17,
+   "type": "word"
+  },
+  {
+   "text": "sur",
+   "start": 78.763,
+   "end": 78.864,
    "segment": 17,
    "type": "word"
   },
   {
    "text": "ta",
-   "start": 83.586,
-   "end": 83.647,
+   "start": 78.884,
+   "end": 78.964,
    "segment": 17,
+   "type": "word"
+  },
+  {
+   "text": "boutique",
+   "start": 78.984,
+   "end": 79.387,
+   "segment": 17,
+   "type": "word"
+  },
+  {
+   "text": "ou",
+   "start": 79.447,
+   "end": 79.709,
+   "segment": 17,
+   "type": "word"
+  },
+  {
+   "text": "au",
+   "start": 79.749,
+   "end": 79.789,
+   "segment": 17,
+   "type": "word"
+  },
+  {
+   "text": "travers",
+   "start": 79.83,
+   "end": 80.091,
+   "segment": 17,
+   "type": "word"
+  },
+  {
+   "text": "du",
+   "start": 80.111,
+   "end": 80.192,
+   "segment": 17,
+   "type": "word"
+  },
+  {
+   "text": "LUL.",
+   "start": 80.232,
+   "end": 80.554,
+   "segment": 17,
+   "type": "word"
+  },
+  {
+   "text": "Et",
+   "start": 80.564,
+   "end": 80.604,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "si",
+   "start": 80.624,
+   "end": 80.664,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "tu",
+   "start": 80.684,
+   "end": 80.725,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "as",
+   "start": 80.745,
+   "end": 80.805,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "vraiment",
+   "start": 80.825,
+   "end": 81.066,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "un",
+   "start": 81.106,
+   "end": 81.146,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "projet",
+   "start": 81.186,
+   "end": 81.367,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "qui",
+   "start": 81.387,
+   "end": 81.487,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "s'y",
+   "start": 81.507,
+   "end": 81.608,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "prête,",
+   "start": 81.648,
+   "end": 81.868,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "moi,",
+   "start": 81.888,
+   "end": 81.989,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "je",
+   "start": 82.009,
+   "end": 82.069,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "peux",
+   "start": 82.089,
+   "end": 82.169,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "même",
+   "start": 82.189,
+   "end": 82.33,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "t'aider",
+   "start": 82.35,
+   "end": 82.651,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "à",
+   "start": 82.691,
+   "end": 82.731,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "préparer",
+   "start": 82.751,
+   "end": 83.012,
+   "segment": 18,
+   "type": "word"
+  },
+  {
+   "text": "ta",
+   "start": 83.052,
+   "end": 83.113,
+   "segment": 18,
    "type": "word"
   },
   {
    "text": "campagne.",
-   "start": 83.687,
-   "end": 84.068,
-   "segment": 17,
+   "start": 83.153,
+   "end": 83.534,
+   "segment": 18,
    "type": "word"
   },
   {
    "text": "Allez,",
-   "start": 84.118,
-   "end": 84.486,
-   "segment": 18,
+   "start": 83.584,
+   "end": 83.952,
+   "segment": 19,
    "type": "word"
   },
   {
    "text": "ciao",
-   "start": 84.506,
-   "end": 84.629,
-   "segment": 18,
+   "start": 83.972,
+   "end": 84.095,
+   "segment": 19,
    "type": "word"
   },
   {
    "text": "!",
-   "start": 84.854,
-   "end": 84.874,
-   "segment": 18,
+   "start": 84.32,
+   "end": 84.34,
+   "segment": 19,
    "type": "word"
   }
  ]

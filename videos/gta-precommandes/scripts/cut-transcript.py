@@ -15,6 +15,8 @@ def src(t):
 fixes_path = A / "derush/cut-fixes.json"   # {"heard": "right"} — ASR mistakes fixed in the transcript itself (the lexicon is 1 word → 1 word)
 fixes = {k.lower(): v for k, v in json.loads(fixes_path.read_text()).items()} if fixes_path.exists() else {}
 def fix(t):
+    if "=" + t in fixes:   # "=chiffre.": exact text, punctuation included
+        return fixes["=" + t]
     core = t.strip(" .,?!;:…"); return t.replace(core, fixes[core.lower()]) if core.lower() in fixes else t
 def keep_of(t):
     return next((k for k in keeps if k["start"] - 0.01 <= t < k["end"]), min(keeps, key=lambda k: abs(k["start"] - t)))

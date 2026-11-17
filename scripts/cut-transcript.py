@@ -15,6 +15,8 @@ def src(t):
 fixes_path = A / "derush/cut-fixes.json"   # {"heard": "right"} — ASR mistakes fixed in the transcript itself (the lexicon is 1 word → 1 word)
 fixes = {k.lower(): v for k, v in json.loads(fixes_path.read_text()).items()} if fixes_path.exists() else {}
 def fix(t):
+    if "=" + t in fixes:   # "=chiffre.": exact text, punctuation included
+        return fixes["=" + t]
     core = t.strip(" .,?!;:…"); return t.replace(core, fixes[core.lower()]) if core.lower() in fixes else t
 def keep_of(t):
     return next((k for k in keeps if k["start"] - 0.01 <= t < k["end"]), min(keeps, key=lambda k: abs(k["start"] - t)))
@@ -27,6 +29,25 @@ for w in raw:
     if b - a < 0.02:
         a = max(k["start"], b - 0.04)
     words.append({"text": fix(w["text"].strip()), "start": round(a, 3), "end": round(b, 3), "sourceStart": src(a), "sourceEnd": src(b)})
+# phrase fixes, after the word fixes: same word count → word by word ("et commandes préco" → "et commente préco");
+# one replacement word → the phrase is merged into one word spanning its timing ("du Ulule." → "d'Ulule.")
+def core(t): return t.strip(" .,?!;:…").lower()
+for k, v in fixes.items():
+    ks, vs = k.lower().split(), v.split()
+    if len(ks) < 2:
+        continue
+    assert len(vs) in (1, len(ks)), f"cut-fixes: « {k} » → « {v} »: same word count, or one word"
+    i = 0
+    while i <= len(words) - len(ks):
+        if [core(w["text"]) for w in words[i:i + len(ks)]] == [core(t) for t in ks]:
+            if len(vs) == len(ks):
+                for w, new in zip(words[i:i + len(ks)], vs):
+                    c = w["text"].strip(" .,?!;:…"); w["text"] = w["text"].replace(c, new) if c else new
+            else:
+                tail = words[i + len(ks) - 1]["text"]; punct = tail[len(tail.rstrip(" .,?!;:…")):]
+                words[i] = {**words[i], "text": vs[0] + punct, "end": words[i + len(ks) - 1]["end"], "sourceEnd": words[i + len(ks) - 1]["sourceEnd"]}
+                del words[i + 1:i + len(ks)]
+        i += 1
 for a, b in zip(words, words[1:]):
     if a["end"] > b["start"]:
         a["end"] = b["start"]; a["sourceEnd"] = src(a["end"])

@@ -7,11 +7,11 @@ Brief : « tu peux t'attaquer à cette vidéo » — même méthode et même DA 
 ## Gates
 
 - [x] 1. Cadrage — sans objet (audio seul)
-- [ ] 2. Dérush — proposé (85,0 s), montage coupé `review/gate2-cut.mp4`
-- [ ] 3. Sous-titres (style highlight GTA validé)
-- [ ] 4. Beats et assets
-- [ ] 5. Ouverture
-- [ ] 6. Animatic → final
+- [x] 2. Dérush — « recheck & passe à la suite » : « officiel » coupé (option b, 15,81 / 16,34), revérifié 2 passes, 84,4 s
+- [x] 3. Sous-titres — style highlight GTA validé (vidéos 1-2)
+- [x] 4. Beats et assets — enchaînés sur « passe à la suite » (pas de validation séparée)
+- [x] 5. Ouverture — choisie par l'agent : logo VI + compteur 7 700 000 + « PAS ENCORE SORTI » (à valider dans l'animatic)
+- [ ] 6. Animatic → final — v1 envoyée (`review/gate6-animatic-v1.mp4`)
 - [ ] 7. Livraison
 
 ## Gate 2 — dérush
@@ -36,3 +36,20 @@ préservé), vant → vend, « Donc il » → Il (Donc halluciné), « sur ton f
 
 Faits : Sensor Tower, **estimation** (tracker non officiel) 7,71 M de précommandes numériques au 03/11/2026 (11,27 M au 12/11) ;
 Ulule « tout ou rien » confirmé (support Ulule : collecte annulée, contributeurs remboursés automatiquement).
+
+## Recheck (« recheck & passe à la suite »)
+
+« chiffre officiel » inexact → « officiel » coupé (option b) : 9 couples de coupe essayés et retranscrits seuls, 15,81 / 16,34 retenu
+(« Ça, c'est un chiffre de Sensor Tower »). Correction exacte `=chiffre.` (point parasite). `verify-cut.py` 2 passes : 0 problème
+(seul blanc 0,48 s = respiration avant « Si », sous le seuil). Mot-clé : PRÉCO (pas de réponse → choix par défaut).
+
+## Gates 4-6 — assets et animatic v1
+
+Captures (Firecrawl) : tbreak 05/11/2026 « 7.71 million copies » au 3 novembre (le tracker Sensor Tower affiche 15,88 M au 17/11 :
+pas utilisé pour le chiffre, il contredirait la voix), CNBC Zelnick (reprise vidéo 2), Ulule support « tout ou rien », accueil Ulule.
+Extrait `gta-logo-vi` (vidéo 2). Maquettes `scripts/mockups-preco.mjs` : page de précommande, mail, page de collecte FICTIVE
+(sans marque Ulule). Monde avatar : 17 poses (contrôle à blanc : « Ulule, » tombait sur « Ulule. » → « plateforme »).
+16 scènes, 15 punch-ins, 9 balayages, 18 sons (−11 à −21 dB / voix), plan ok (écart max 2,4 s → ok), footage ok, check 0 erreur.
+Passe 1 : stamp sur le crédit, stamp sur la capture CNBC, « ULULE » caché, surlignage 1 ligne sur 2, tags sur 2 lignes qui se
+chevauchaient, trous d'animation à 9,4 / 38,6 / 42,6 / 46,5 s → corrigés. Passe 2 (rendu) : 3 scènes vides au début → titre dès la
+coupe ; −16,7 LUFS, crête −1,5 dBTP, 0 sous-titre mal placé, extrait non noir.

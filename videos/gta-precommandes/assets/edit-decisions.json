@@ -1,5 +1,5 @@
 {
- "duration": 84.967,
+ "duration": 84.433,
  "fps": 30,
  "keeps": [
   {
@@ -10,111 +10,117 @@
   },
   {
    "sourceStart": 15.167,
-   "sourceEnd": 18.867,
+   "sourceEnd": 15.8,
    "start": 4.667,
-   "end": 8.367
+   "end": 5.3
+  },
+  {
+   "sourceStart": 16.333,
+   "sourceEnd": 18.867,
+   "start": 5.3,
+   "end": 7.833
   },
   {
    "sourceStart": 21.767,
    "sourceEnd": 24.867,
-   "start": 8.367,
-   "end": 11.467
+   "start": 7.833,
+   "end": 10.933
   },
   {
    "sourceStart": 25.767,
    "sourceEnd": 29.633,
-   "start": 11.467,
-   "end": 15.333
+   "start": 10.933,
+   "end": 14.8
   },
   {
    "sourceStart": 29.967,
    "sourceEnd": 30.567,
-   "start": 15.333,
-   "end": 15.933
+   "start": 14.8,
+   "end": 15.4
   },
   {
    "sourceStart": 31.3,
    "sourceEnd": 33.267,
-   "start": 15.933,
-   "end": 17.9
+   "start": 15.4,
+   "end": 17.367
   },
   {
    "sourceStart": 33.7,
    "sourceEnd": 35.767,
-   "start": 17.9,
-   "end": 19.967
+   "start": 17.367,
+   "end": 19.433
   },
   {
    "sourceStart": 40.767,
    "sourceEnd": 52.933,
-   "start": 19.967,
-   "end": 32.133
+   "start": 19.433,
+   "end": 31.6
   },
   {
    "sourceStart": 57.233,
    "sourceEnd": 70.967,
-   "start": 32.133,
-   "end": 45.867
+   "start": 31.6,
+   "end": 45.333
   },
   {
    "sourceStart": 73.3,
    "sourceEnd": 74.633,
-   "start": 45.867,
-   "end": 47.2
+   "start": 45.333,
+   "end": 46.667
   },
   {
    "sourceStart": 75.133,
    "sourceEnd": 79.167,
-   "start": 47.2,
-   "end": 51.233
+   "start": 46.667,
+   "end": 50.7
   },
   {
    "sourceStart": 85.133,
    "sourceEnd": 89.733,
-   "start": 51.233,
-   "end": 55.833
+   "start": 50.7,
+   "end": 55.3
   },
   {
    "sourceStart": 91.833,
    "sourceEnd": 97.633,
-   "start": 55.833,
-   "end": 61.633
+   "start": 55.3,
+   "end": 61.1
   },
   {
    "sourceStart": 98.167,
    "sourceEnd": 99.933,
-   "start": 61.633,
-   "end": 63.4
+   "start": 61.1,
+   "end": 62.867
   },
   {
    "sourceStart": 100.233,
    "sourceEnd": 108.633,
-   "start": 63.4,
-   "end": 71.8
+   "start": 62.867,
+   "end": 71.267
   },
   {
    "sourceStart": 125.533,
    "sourceEnd": 128.933,
-   "start": 71.8,
-   "end": 75.2
+   "start": 71.267,
+   "end": 74.667
   },
   {
    "sourceStart": 145.233,
    "sourceEnd": 151.1,
-   "start": 75.2,
-   "end": 81.067
+   "start": 74.667,
+   "end": 80.533
   },
   {
    "sourceStart": 152.6,
    "sourceEnd": 155.6,
-   "start": 81.067,
-   "end": 84.067
+   "start": 80.533,
+   "end": 83.533
   },
   {
    "sourceStart": 156.033,
    "sourceEnd": 156.933,
-   "start": 84.067,
-   "end": 84.967
+   "start": 83.533,
+   "end": 84.433
   }
  ],
  "removals": [
@@ -126,6 +132,11 @@
   {
    "sourceStart": 12.733,
    "sourceEnd": 15.167,
+   "reason": "silence or retake (takes.py)"
+  },
+  {
+   "sourceStart": 15.8,
+   "sourceEnd": 16.333,
    "reason": "silence or retake (takes.py)"
   },
   {

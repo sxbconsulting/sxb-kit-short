@@ -5,10 +5,16 @@
   "out": 12.72
  },
  {
-  "name": "t02",
+  "name": "t02a",
   "in": 15.16,
+  "out": 15.81,
+  "why": "« Ça, c'est un chiffre »"
+ },
+ {
+  "name": "t02b",
+  "in": 16.34,
   "out": 18.86,
-  "why": "faux départ « Ça, c'est un chiffre officiel. » retiré"
+  "why": "« officiel » retiré (inexact : estimation Sensor Tower)"
  },
  {
   "name": "t03",

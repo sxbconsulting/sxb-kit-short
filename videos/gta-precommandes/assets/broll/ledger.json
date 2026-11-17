@@ -1,0 +1,20 @@
+[
+ {
+  "sourceSceneId": "gta-logo-vi",
+  "asset": "assets/broll/gta-logo-vi.mp4",
+  "sha256": "69c908ce113a0190d7255d9fcb7d5d5ff6d5fde21c95a6fe633d76b20253dbd5",
+  "sourceStart": 0.0,
+  "sourceEnd": 1.7,
+  "duration": 1.7,
+  "provenance": {
+   "source": "assets/broll/src/x-trailer2.mp4",
+   "file": "assets/broll/src/x-trailer2.mp4",
+   "in": 158.0,
+   "out": 159.7,
+   "url": "https://x.com/RockstarGames/status/1919746311382851812"
+  },
+  "why": "accroche : le titre GTA VI qui s'allume",
+  "rights": "© Rockstar Games / Take-Two — Grand Theft Auto VI Trailer 2 (post officiel X, 06/05/2025). Extrait court crédité à l'écran, vidéo organique d'analyse. NE PAS sponsoriser ce reel en pub.",
+  "addedAt": "2026-11-16T19:50:03"
+ }
+]
