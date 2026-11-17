@@ -1,0 +1,931 @@
+{
+ "fps": 30,
+ "speaker": "assets/speaker.mp4",
+ "audio": "assets/reel-audio.wav",
+ "caption_style": "highlight",
+ "caption_font": "\"Anton\", \"Archivo\", sans-serif",
+ "caption_size": 86,
+ "caption_max_words": 3,
+ "caption_accent": "#FF2E88",
+ "caption_on_accent": "#FFFFFF",
+ "brand": {
+  "bg": "#14082A",
+  "ink": "#FFFFFF",
+  "accent": "#FF2E88",
+  "accent_ink": "#FFFFFF",
+  "font": "\"Anton\", \"Archivo\", sans-serif"
+ },
+ "locale": "fr-FR",
+ "freeze_tail": 0,
+ "css": [
+  "gta.css"
+ ],
+ "face_pos_s": "50% 52%",
+ "caption_extra_css": ".cap b, .cap em { --hl: 0; -webkit-text-stroke: calc(11px * (1 - var(--hl))) #0B0418; paint-order: stroke fill; }",
+ "idle_motion": true,
+ "punch": {
+  "zoom": 1.12,
+  "min_gap": 1.4
+ },
+ "wipes": {
+  "sfx": "whoosh-short",
+  "sfx_db": -20
+ },
+ "shake_on_stamp": true,
+ "id": "gta-precommandes-hook",
+ "title": "GTA 6 : vendre avant même que le jeu existe",
+ "duration": 84.433,
+ "lexicon": {},
+ "keywords": [
+  "GTA",
+  "7,7",
+  "millions",
+  "Sensor",
+  "Take-Two",
+  "précommande",
+  "précommandes",
+  "Ulule",
+  "rien.",
+  "communication.",
+  "volume",
+  "trois",
+  "honnête,",
+  "30",
+  "fournisseur",
+  "préco",
+  "campagne."
+ ],
+ "scenes": [
+  {
+   "layout": "S",
+   "start": 0,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "video",
+      "src": "assets/broll/gta-logo-vi.mp4",
+      "x": 90,
+      "y": 40,
+      "w": 900,
+      "h": 396,
+      "at": 0,
+      "instant": true
+     },
+     {
+      "type": "line",
+      "class": "credit",
+      "text": "Images : Rockstar Games — GTA VI Trailer 2",
+      "x": 100,
+      "y": 452,
+      "at": 0,
+      "instant": true
+     },
+     {
+      "type": "line",
+      "text": "VENDRE UN JEU",
+      "x": "center",
+      "y": 500,
+      "size": 104,
+      "at": 0,
+      "instant": true
+     },
+     {
+      "type": "stamp",
+      "class": "",
+      "text": "QUI N'EXISTE PAS",
+      "x": 230,
+      "y": 170,
+      "at": "w:existe.",
+      "sfx": "pop",
+      "sfx_db": -11
+     },
+     {
+      "type": "line",
+      "class": "sun",
+      "text": "→ TA MARQUE AUSSI",
+      "x": "center",
+      "y": 640,
+      "size": 80,
+      "at": "w:marque"
+     }
+    ]
+   },
+   "kind": "hook",
+   "end": 4.0
+  },
+  {
+   "layout": "S",
+   "start": 4.0,
+   "end": 8.61,
+   "cap_top": 1220,
+   "zone": {
+    "full": true,
+    "no_intro": true,
+    "items": [
+     {
+      "type": "video",
+      "src": "assets/broll/gta-beach.mp4",
+      "x": 40,
+      "y": 150,
+      "w": 1000,
+      "h": 440,
+      "at": 4.0,
+      "instant": true
+     },
+     {
+      "type": "line",
+      "class": "credit",
+      "text": "Images : Rockstar Games — GTA VI Trailer 2",
+      "x": 50,
+      "y": 612,
+      "at": 4.0,
+      "instant": true
+     },
+     {
+      "type": "big",
+      "value": 7700000,
+      "suffix": "",
+      "label": "PRÉCOMMANDES",
+      "y": 690,
+      "size": 170,
+      "at": "w:7,7",
+      "count": 0.8
+     },
+     {
+      "type": "stamp",
+      "class": "no",
+      "text": "PAS ENCORE SORTI",
+      "x": 250,
+      "y": 290,
+      "at": "w:sorti.",
+      "sfx": "pop",
+      "sfx_db": -11
+     },
+     {
+      "type": "cam",
+      "x": 70,
+      "y": 1320,
+      "w": 410,
+      "at": 4.0,
+      "instant": true
+     }
+    ]
+   }
+  },
+  {
+   "layout": "S",
+   "start": 8.61,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/captures/tbreak/crop.png",
+      "x": 40,
+      "y": 40,
+      "w": 1000,
+      "at": 8.61,
+      "instant": true,
+      "highlights": [
+       [
+        222,
+        474,
+        560,
+        52
+       ]
+      ],
+      "highlight_at": "w:Sensor"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "ESTIMATION SENSOR TOWER",
+      "x": 110,
+      "y": 650,
+      "at": "w:Sensor"
+     },
+     {
+      "type": "badge",
+      "text": "03/11/2026",
+      "x": 720,
+      "y": 560,
+      "at": "w:novembre"
+     }
+    ]
+   },
+   "end": 11.83
+  },
+  {
+   "layout": "S",
+   "start": 11.83,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/captures/cnbc/zelnick-crop.png",
+      "x": 560,
+      "y": 40,
+      "w": 480,
+      "at": 11.83,
+      "instant": true
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "TAKE-TWO",
+      "x": 40,
+      "y": 130,
+      "at": "w:Take-Two"
+     },
+     {
+      "type": "badge",
+      "text": "PDG : STRAUSS ZELNICK",
+      "x": 40,
+      "y": 360,
+      "at": "w:dit"
+     },
+     {
+      "type": "tag",
+      "text": "PAS DE CHIFFRE OFFICIEL",
+      "x": 40,
+      "y": 270,
+      "at": "w:juste"
+     },
+     {
+      "type": "stamp",
+      "text": "AU-DELÀ DES ATTENTES",
+      "x": 130,
+      "y": 650,
+      "at": "w:dépasse",
+      "sfx": "pop",
+      "sfx_db": -11
+     }
+    ]
+   },
+   "end": 14.83
+  },
+  {
+   "layout": "S",
+   "start": 14.83,
+   "cap_top": 1220,
+   "zone": {
+    "full": true,
+    "no_intro": true,
+    "items": [
+     {
+      "type": "line",
+      "text": "<em>2</em> OPTIONS",
+      "x": "center",
+      "y": 110,
+      "size": 100,
+      "at": 14.83
+     },
+     {
+      "type": "photo",
+      "src": "assets/mockups/preco-page.png",
+      "x": 60,
+      "y": 260,
+      "w": 430,
+      "h": 931,
+      "rotate": -2,
+      "at": "w:page"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "① PRÉCOMMANDE",
+      "x": 520,
+      "y": 360,
+      "at": "w:Option"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "PRODUIT SIMPLE",
+      "x": 520,
+      "y": 560,
+      "at": "w:simple"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "AUDIENCE DÉJÀ LÀ",
+      "x": 520,
+      "y": 720,
+      "at": "w:audience."
+     },
+     {
+      "type": "cam",
+      "x": 70,
+      "y": 1320,
+      "w": 410,
+      "at": 14.83,
+      "instant": true
+     }
+    ]
+   },
+   "end": 19.46
+  },
+  {
+   "layout": "S",
+   "start": 19.46,
+   "cap_top": 1220,
+   "zone": {
+    "full": true,
+    "no_intro": true,
+    "items": [
+     {
+      "type": "photo",
+      "src": "assets/mockups/preco-mail.png",
+      "x": 560,
+      "y": 180,
+      "w": 440,
+      "h": 952,
+      "rotate": 2,
+      "at": 19.46,
+      "instant": true
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "📧 UN MAIL",
+      "x": 60,
+      "y": 320,
+      "at": "w:mail"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "📱 TES CONTENUS",
+      "x": 60,
+      "y": 480,
+      "at": "w:contenus,"
+     },
+     {
+      "type": "stamp",
+      "text": "NOUVEAU PRODUIT",
+      "x": 40,
+      "y": 700,
+      "at": "w:nouveau",
+      "sfx": "pop",
+      "sfx_db": -11
+     },
+     {
+      "type": "cam",
+      "x": 70,
+      "y": 1320,
+      "w": 410,
+      "at": 19.46,
+      "instant": true
+     }
+    ]
+   },
+   "end": 24.36
+  },
+  {
+   "layout": "S",
+   "start": 24.36,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/mockups/preco-page.png",
+      "x": 300,
+      "y": 20,
+      "w": 480,
+      "h": 760,
+      "at": 24.36,
+      "instant": true,
+      "zoom_at": "w:stock",
+      "zoom": 1.35,
+      "origin": "50% 60%"
+     },
+     {
+      "type": "stamp",
+      "text": "100 % PRÉCOMMANDE",
+      "x": 30,
+      "y": 120,
+      "at": "w:uniquement"
+     },
+     {
+      "type": "badge",
+      "text": "STOCK LIMITÉ",
+      "x": 700,
+      "y": 420,
+      "at": "w:stock"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "POUR POUSSER À L'ACHAT",
+      "x": 40,
+      "y": 560,
+      "at": "w:pousser"
+     },
+     {
+      "type": "line",
+      "class": "ok",
+      "text": "→ TU TESTES L'ATTRACTION",
+      "x": "center",
+      "y": 700,
+      "size": 56,
+      "at": "w:voir",
+      "sfx": "ping",
+      "sfx_db": -7
+     }
+    ]
+   },
+   "end": 31.69
+  },
+  {
+   "layout": "S",
+   "start": 31.69,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "line",
+      "text": "OPTION <em>2</em>",
+      "x": 60,
+      "y": 40,
+      "size": 96,
+      "at": 31.69
+     },
+     {
+      "type": "check",
+      "n": "€",
+      "text": "Financer <em>la production</em>",
+      "x": 90,
+      "y": 190,
+      "w": 900,
+      "at": "w:financer",
+      "check_at": "w:production"
+     },
+     {
+      "type": "check",
+      "n": "♥",
+      "text": "Construire <em>ta 1re communauté</em>",
+      "x": 90,
+      "y": 320,
+      "w": 900,
+      "at": "w:construire",
+      "check_at": "w:communauté,"
+     },
+     {
+      "type": "image",
+      "src": "assets/captures/ulule/home-crop.png",
+      "x": 140,
+      "y": 470,
+      "w": 800,
+      "at": "w:campagne"
+     },
+     {
+      "type": "badge",
+      "text": "→ CAMPAGNE ULULE",
+      "x": 620,
+      "y": 40,
+      "at": "w:conseille"
+     }
+    ]
+   },
+   "end": 37.43
+  },
+  {
+   "layout": "S",
+   "start": 37.43,
+   "cap_top": 1220,
+   "zone": {
+    "full": true,
+    "no_intro": true,
+    "items": [
+     {
+      "type": "photo",
+      "src": "assets/mockups/collecte.png",
+      "x": 60,
+      "y": 160,
+      "w": 440,
+      "h": 952,
+      "rotate": -2,
+      "at": 37.43,
+      "instant": true
+     },
+     {
+      "type": "line",
+      "text": "<em>ULULE</em>",
+      "x": 560,
+      "y": 140,
+      "size": 90,
+      "at": "w:Ulule,"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "🇫🇷 CROWDFUNDING",
+      "x": 530,
+      "y": 300,
+      "at": "w:crowdfunding"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "100 % FRANÇAIS",
+      "x": 530,
+      "y": 420,
+      "at": "w:français"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "⬆ TON PROJET",
+      "x": 530,
+      "y": 540,
+      "at": "w:mettre"
+     },
+     {
+      "type": "stamp",
+      "text": "TU RÉCOLTES",
+      "x": 540,
+      "y": 690,
+      "at": "w:surtout",
+      "sfx": "pop",
+      "sfx_db": -11
+     },
+     {
+      "type": "badge",
+      "text": "💶 POUR LE FINANCER",
+      "x": 540,
+      "y": 860,
+      "at": "w:l'argent"
+     },
+     {
+      "type": "cam",
+      "x": 70,
+      "y": 1320,
+      "w": 410,
+      "at": 37.43,
+      "instant": true
+     }
+    ]
+   },
+   "end": 45.36
+  },
+  {
+   "layout": "S",
+   "start": 45.36,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "image",
+      "src": "assets/captures/ulule/tout-ou-rien-crop.png",
+      "x": 40,
+      "y": 40,
+      "w": 1000,
+      "at": 45.36,
+      "instant": true,
+      "highlights": [
+       [
+        180,
+        230,
+        800,
+        95
+       ]
+      ],
+      "highlight_at": "w:objectif"
+     },
+     {
+      "type": "stamp",
+      "class": "big",
+      "text": "TOUT OU RIEN",
+      "x": 120,
+      "y": 420,
+      "at": "w:tout",
+      "sfx": "error",
+      "sfx_db": -19
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "PROJET NON FINANCÉ",
+      "x": 300,
+      "y": 610,
+      "at": "w:financé"
+     },
+     {
+      "type": "line",
+      "class": "no",
+      "text": "PAS ATTEINT = TU REMBOURSES",
+      "x": "center",
+      "y": 720,
+      "size": 56,
+      "at": "w:rembourser"
+     }
+    ]
+   },
+   "end": 50.73
+  },
+  {
+   "layout": "F",
+   "start": 50.73,
+   "cap_top": 1590,
+   "overlay": {
+    "items": [
+     {
+      "text": "LE NERF DE LA GUERRE",
+      "top": 190,
+      "size": 80,
+      "color": "#FFFFFF",
+      "at": "w:nerf"
+     },
+     {
+      "text": "LA COMMUNICATION",
+      "top": 300,
+      "size": 104,
+      "color": "#FF6FB5",
+      "at": "w:communication.",
+      "pop": "up"
+     },
+     {
+      "text": "PERSONNE NE VOIT = 0 VENTE",
+      "top": 460,
+      "size": 60,
+      "color": "#FF3B3B",
+      "at": "w:personne",
+      "pop": "up"
+     }
+    ]
+   },
+   "end": 55.33
+  },
+  {
+   "layout": "S",
+   "start": 55.33,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "line",
+      "text": "DU CONTENU <em>EN VOLUME</em>",
+      "x": "center",
+      "y": 40,
+      "size": 80,
+      "at": 55.33,
+      "instant": true
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "LUN",
+      "x": 60,
+      "y": 230,
+      "at": "w:tous"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "MAR",
+      "x": 260,
+      "y": 230,
+      "at": "w:les"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "MER",
+      "x": 460,
+      "y": 230,
+      "at": "w:jours"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "JEU",
+      "x": 660,
+      "y": 230,
+      "at": "w:pour"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "VEN",
+      "x": 860,
+      "y": 230,
+      "at": "w:pouvoir"
+     },
+     {
+      "type": "line",
+      "class": "sun",
+      "text": "TOUS LES JOURS",
+      "x": "center",
+      "y": 400,
+      "size": 110,
+      "at": "w:montrer"
+     },
+     {
+      "type": "line",
+      "class": "ok",
+      "text": "→ LE PLUS DE MONDE POSSIBLE",
+      "x": "center",
+      "y": 600,
+      "size": 54,
+      "at": "w:monde"
+     }
+    ]
+   },
+   "end": 61.13
+  },
+  {
+   "layout": "S",
+   "start": 61.13,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "line",
+      "text": "<em>3</em> RÈGLES SIMPLES",
+      "x": "center",
+      "y": 30,
+      "size": 90,
+      "at": 61.13,
+      "instant": true
+     },
+     {
+      "type": "check",
+      "n": "1",
+      "text": "Une date de livraison <em>honnête</em>",
+      "x": 60,
+      "y": 180,
+      "w": 960,
+      "at": "w:date",
+      "check_at": "w:honnête,"
+     },
+     {
+      "type": "check",
+      "n": "2",
+      "text": "Un seuil : <em>30 commandes</em> min.",
+      "x": 60,
+      "y": 330,
+      "w": 960,
+      "at": "w:seuil",
+      "check_at": "w:commandes,"
+     },
+     {
+      "type": "tag",
+      "class": "dim",
+      "text": "EN DESSOUS → TU REMBOURSES",
+      "x": 250,
+      "y": 460,
+      "at": "w:dessous"
+     },
+     {
+      "type": "check",
+      "n": "3",
+      "text": "Fournisseur <em>une fois l'objectif atteint</em>",
+      "x": 60,
+      "y": 560,
+      "w": 960,
+      "at": "w:passer",
+      "check_at": "w:atteint.",
+      "sfx": "ping",
+      "sfx_db": -7
+     }
+    ]
+   },
+   "end": 71.3
+  },
+  {
+   "layout": "F",
+   "start": 71.3,
+   "cap_top": 1590,
+   "overlay": {
+    "items": [
+     {
+      "text": "L'E-COM AVEC L'ACTU",
+      "top": 250,
+      "size": 76,
+      "color": "#FFC861",
+      "at": "w:apprendre"
+     },
+     {
+      "text": "▶ S'ABONNER",
+      "top": 380,
+      "size": 110,
+      "color": "#FF2E88",
+      "at": "w:abonne-toi.",
+      "underline_at": "w:abonne-toi."
+     }
+    ]
+   },
+   "end": 74.7
+  },
+  {
+   "layout": "S",
+   "start": 74.7,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "line",
+      "text": "COMMENTE",
+      "x": "center",
+      "y": 20,
+      "size": 96,
+      "at": "w:commente"
+     },
+     {
+      "type": "stamp",
+      "class": "big",
+      "text": "PRÉCO",
+      "x": 290,
+      "y": 170,
+      "at": "w:préco",
+      "sfx": "pop",
+      "sfx_db": -11
+     },
+     {
+      "type": "line",
+      "class": "sun",
+      "text": "→ MA GRILLE POUR GÉRER TES PRÉCOS",
+      "x": "center",
+      "y": 420,
+      "size": 52,
+      "at": "w:grille"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "TA BOUTIQUE",
+      "x": 110,
+      "y": 560,
+      "at": "w:boutique"
+     },
+     {
+      "type": "tag",
+      "class": "xl",
+      "text": "ULULE",
+      "x": 640,
+      "y": 560,
+      "at": "w:d'Ulule.",
+      "sfx": "click-soft",
+      "sfx_db": -9
+     }
+    ]
+   },
+   "kind": "cta",
+   "end": 80.56
+  },
+  {
+   "layout": "S",
+   "start": 80.56,
+   "cap_top": 790,
+   "zone": {
+    "no_intro": true,
+    "items": [
+     {
+      "type": "line",
+      "text": "UN PROJET <em>QUI S'Y PRÊTE</em> ?",
+      "x": "center",
+      "y": 60,
+      "size": 66,
+      "at": 80.56,
+      "instant": true
+     },
+     {
+      "type": "card",
+      "title": "JE T'AIDE À PRÉPARER",
+      "label": "TA CAMPAGNE",
+      "x": 140,
+      "y": 220,
+      "w": 800,
+      "at": "w:t'aider",
+      "from": "up"
+     },
+     {
+      "type": "tag",
+      "class": "dim",
+      "text": "COMMENTE PRÉCO",
+      "x": 340,
+      "y": 560,
+      "at": "w:campagne."
+     }
+    ]
+   },
+   "kind": "cta",
+   "holdReason": "fin : la proposition reste lisible jusqu'au ciao",
+   "end": 84.433
+  }
+ ],
+ "fx2": true
+}

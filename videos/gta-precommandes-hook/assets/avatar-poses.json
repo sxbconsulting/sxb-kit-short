@@ -1,0 +1,77 @@
+{
+ "avatar_dir": "assets/brand/avatar",
+ "poses": [
+  {
+   "pose": "pointe",
+   "at": 0
+  },
+  {
+   "pose": "double-pouce",
+   "at": "w:marque"
+  },
+  {
+   "pose": "surpris",
+   "at": "w:GTA"
+  },
+  {
+   "pose": "ok",
+   "at": "w:Ça,"
+  },
+  {
+   "pose": "neutre-rondes",
+   "at": "w:Take-Two"
+  },
+  {
+   "pose": "peace",
+   "at": "w:deux"
+  },
+  {
+   "pose": "appelle",
+   "at": "w:mail"
+  },
+  {
+   "pose": "ok",
+   "at": "w:uniquement"
+  },
+  {
+   "pose": "poing",
+   "at": "w:Numéro"
+  },
+  {
+   "pose": "pouce",
+   "at": "w:plateforme"
+  },
+  {
+   "pose": "surpris",
+   "at": "w:attention,"
+  },
+  {
+   "pose": "reflexion-2",
+   "at": "w:nerf"
+  },
+  {
+   "pose": "poings",
+   "at": "w:volume"
+  },
+  {
+   "pose": "ok",
+   "at": "w:trois"
+  },
+  {
+   "pose": "double-pouce-langue",
+   "at": "w:abonne-toi."
+  },
+  {
+   "pose": "appelle",
+   "at": "w:commente"
+  },
+  {
+   "pose": "coeur",
+   "at": "w:projet#3"
+  },
+  {
+   "pose": "mains-jointes",
+   "at": "w:Allez,"
+  }
+ ]
+}

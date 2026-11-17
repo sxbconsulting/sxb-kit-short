@@ -1,0 +1,2593 @@
+[
+ {
+  "in": 8.13,
+  "out": 12.75,
+  "words": [
+   {
+    "text": "GTA",
+    "start": 8.201,
+    "end": 8.423
+   },
+   {
+    "text": "6",
+    "start": 8.463,
+    "end": 8.765
+   },
+   {
+    "text": "a",
+    "start": 8.825,
+    "end": 8.865
+   },
+   {
+    "text": "vendu",
+    "start": 8.885,
+    "end": 9.227
+   },
+   {
+    "text": "plus",
+    "start": 9.247,
+    "end": 9.388
+   },
+   {
+    "text": "de",
+    "start": 9.408,
+    "end": 10.112
+   },
+   {
+    "text": "7,7",
+    "start": 10.133,
+    "end": 10.394
+   },
+   {
+    "text": "1 000 000",
+    "start": 10.434,
+    "end": 10.837
+   },
+   {
+    "text": "de",
+    "start": 10.857,
+    "end": 10.917
+   },
+   {
+    "text": "précommandes",
+    "start": 10.937,
+    "end": 11.521
+   },
+   {
+    "text": "et",
+    "start": 11.541,
+    "end": 11.601
+   },
+   {
+    "text": "le",
+    "start": 11.621,
+    "end": 11.662
+   },
+   {
+    "text": "jeu",
+    "start": 11.682,
+    "end": 11.762
+   },
+   {
+    "text": "n'est",
+    "start": 11.782,
+    "end": 11.903
+   },
+   {
+    "text": "même",
+    "start": 11.923,
+    "end": 12.084
+   },
+   {
+    "text": "pas",
+    "start": 12.104,
+    "end": 12.185
+   },
+   {
+    "text": "encore",
+    "start": 12.205,
+    "end": 12.386
+   },
+   {
+    "text": "sorti",
+    "start": 12.426,
+    "end": 12.768
+   }
+  ],
+  "text": "GTA 6 a vendu plus de 7,7 1 000 000 de précommandes et le jeu n'est même pas encore sorti",
+  "norm": [
+   "gta",
+   "6",
+   "a",
+   "vendu",
+   "plu",
+   "de",
+   "7",
+   "7",
+   "1",
+   "000",
+   "000",
+   "de",
+   "precommande",
+   "et",
+   "le",
+   "jeu",
+   "n'est",
+   "meme",
+   "pas",
+   "encore",
+   "sorti"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 13.58,
+  "out": 18.89,
+  "words": [
+   {
+    "text": "Ça",
+    "start": 13.671,
+    "end": 14.215
+   },
+   {
+    "text": "c'est",
+    "start": 14.457,
+    "end": 15.465
+   },
+   {
+    "text": "un",
+    "start": 15.485,
+    "end": 15.525
+   },
+   {
+    "text": "chiffre",
+    "start": 15.565,
+    "end": 15.787
+   },
+   {
+    "text": "officiel",
+    "start": 15.827,
+    "end": 16.412
+   },
+   {
+    "text": "de",
+    "start": 16.432,
+    "end": 16.573
+   },
+   {
+    "text": "Sensor",
+    "start": 16.613,
+    "end": 16.935
+   },
+   {
+    "text": "Tower",
+    "start": 16.976,
+    "end": 17.338
+   },
+   {
+    "text": "qui",
+    "start": 17.359,
+    "end": 17.459
+   },
+   {
+    "text": "date",
+    "start": 17.479,
+    "end": 17.641
+   },
+   {
+    "text": "du",
+    "start": 17.661,
+    "end": 17.741
+   },
+   {
+    "text": "3",
+    "start": 17.842,
+    "end": 17.923
+   },
+   {
+    "text": "novembre",
+    "start": 17.943,
+    "end": 18.205
+   },
+   {
+    "text": "2026",
+    "start": 18.225,
+    "end": 18.326
+   }
+  ],
+  "text": "Ça c'est un chiffre officiel de Sensor Tower qui date du 3 novembre 2026",
+  "norm": [
+   "ca",
+   "c'est",
+   "un",
+   "chiffre",
+   "officiel",
+   "de",
+   "sensor",
+   "tower",
+   "qui",
+   "date",
+   "du",
+   "3",
+   "novembre",
+   "2026"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 21.83,
+  "out": 24.89,
+  "words": [
+   {
+    "text": "De",
+    "start": 21.922,
+    "end": 21.982
+   },
+   {
+    "text": "son",
+    "start": 22.003,
+    "end": 22.104
+   },
+   {
+    "text": "côté",
+    "start": 22.124,
+    "end": 22.306
+   },
+   {
+    "text": "TechTo",
+    "start": 22.326,
+    "end": 22.609
+   },
+   {
+    "text": "dit",
+    "start": 22.63,
+    "end": 22.791
+   },
+   {
+    "text": "juste",
+    "start": 22.812,
+    "end": 23.095
+   },
+   {
+    "text": "que",
+    "start": 23.115,
+    "end": 23.196
+   },
+   {
+    "text": "ça",
+    "start": 23.236,
+    "end": 23.317
+   },
+   {
+    "text": "dépasse",
+    "start": 23.358,
+    "end": 23.641
+   },
+   {
+    "text": "de",
+    "start": 23.661,
+    "end": 23.762
+   },
+   {
+    "text": "loin",
+    "start": 23.803,
+    "end": 24.126
+   },
+   {
+    "text": "toutes",
+    "start": 24.146,
+    "end": 24.308
+   },
+   {
+    "text": "ses",
+    "start": 24.349,
+    "end": 24.43
+   },
+   {
+    "text": "attentes",
+    "start": 24.47,
+    "end": 24.915
+   }
+  ],
+  "text": "De son côté TechTo dit juste que ça dépasse de loin toutes ses attentes",
+  "norm": [
+   "de",
+   "son",
+   "cote",
+   "techto",
+   "dit",
+   "juste",
+   "que",
+   "ca",
+   "depasse",
+   "de",
+   "loin",
+   "toute",
+   "ses",
+   "attente"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 25.84,
+  "out": 30.27,
+  "words": [
+   {
+    "text": "Dis-toi",
+    "start": 25.871,
+    "end": 26.073
+   },
+   {
+    "text": "qu'ils",
+    "start": 26.093,
+    "end": 26.214
+   },
+   {
+    "text": "ont",
+    "start": 26.234,
+    "end": 26.295
+   },
+   {
+    "text": "réussi",
+    "start": 26.315,
+    "end": 26.497
+   },
+   {
+    "text": "à",
+    "start": 26.537,
+    "end": 26.618
+   },
+   {
+    "text": "vendre",
+    "start": 26.658,
+    "end": 26.86
+   },
+   {
+    "text": "un",
+    "start": 26.921,
+    "end": 26.981
+   },
+   {
+    "text": "jeu",
+    "start": 27.001,
+    "end": 27.102
+   },
+   {
+    "text": "avant",
+    "start": 27.123,
+    "end": 27.284
+   },
+   {
+    "text": "même",
+    "start": 27.304,
+    "end": 27.446
+   },
+   {
+    "text": "qu'il",
+    "start": 27.466,
+    "end": 27.607
+   },
+   {
+    "text": "existe",
+    "start": 27.647,
+    "end": 28.092
+   },
+   {
+    "text": "Et",
+    "start": 28.152,
+    "end": 28.233
+   },
+   {
+    "text": "ta",
+    "start": 28.253,
+    "end": 28.415
+   },
+   {
+    "text": "marque",
+    "start": 28.455,
+    "end": 28.657
+   },
+   {
+    "text": "e-commerce",
+    "start": 28.677,
+    "end": 28.98
+   },
+   {
+    "text": "peut",
+    "start": 29.0,
+    "end": 29.081
+   },
+   {
+    "text": "faire",
+    "start": 29.101,
+    "end": 29.283
+   },
+   {
+    "text": "pareil",
+    "start": 29.303,
+    "end": 30.03
+   },
+   {
+    "text": "T'as",
+    "start": 30.05,
+    "end": 30.131
+   },
+   {
+    "text": "deux",
+    "start": 30.151,
+    "end": 30.001
+   }
+  ],
+  "text": "Dis-toi qu'ils ont réussi à vendre un jeu avant même qu'il existe Et ta marque e-commerce peut faire pareil T'as deux",
+  "norm": [
+   "dis",
+   "toi",
+   "qu'il",
+   "ont",
+   "reussi",
+   "a",
+   "vendre",
+   "un",
+   "jeu",
+   "avant",
+   "meme",
+   "qu'il",
+   "existe",
+   "et",
+   "ta",
+   "marque",
+   "e",
+   "commerce",
+   "peut",
+   "faire",
+   "pareil",
+   "t'a",
+   "deux"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 29.97,
+  "out": 30.62,
+  "words": [
+   {
+    "text": "Tu",
+    "start": 30.001,
+    "end": 30.041
+   },
+   {
+    "text": "as",
+    "start": 30.062,
+    "end": 30.122
+   },
+   {
+    "text": "deux",
+    "start": 30.143,
+    "end": 30.244
+   },
+   {
+    "text": "options",
+    "start": 30.305,
+    "end": 30.608
+   }
+  ],
+  "text": "Tu as deux options",
+  "norm": [
+   "tu",
+   "as",
+   "deux",
+   "option"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 31.36,
+  "out": 35.78,
+  "words": [
+   {
+    "text": "Option",
+    "start": 31.471,
+    "end": 31.713
+   },
+   {
+    "text": "1",
+    "start": 31.793,
+    "end": 31.994
+   },
+   {
+    "text": "une",
+    "start": 32.035,
+    "end": 32.135
+   },
+   {
+    "text": "page",
+    "start": 32.175,
+    "end": 32.316
+   },
+   {
+    "text": "de",
+    "start": 32.336,
+    "end": 32.417
+   },
+   {
+    "text": "précommande",
+    "start": 32.457,
+    "end": 32.819
+   },
+   {
+    "text": "sur",
+    "start": 32.839,
+    "end": 32.939
+   },
+   {
+    "text": "ta",
+    "start": 32.96,
+    "end": 33.04
+   },
+   {
+    "text": "boutique",
+    "start": 33.06,
+    "end": 33.925
+   },
+   {
+    "text": "Si",
+    "start": 33.945,
+    "end": 34.045
+   },
+   {
+    "text": "ton",
+    "start": 34.066,
+    "end": 34.166
+   },
+   {
+    "text": "produit",
+    "start": 34.186,
+    "end": 34.387
+   },
+   {
+    "text": "est",
+    "start": 34.407,
+    "end": 34.528
+   },
+   {
+    "text": "simple",
+    "start": 34.548,
+    "end": 34.85
+   },
+   {
+    "text": "et",
+    "start": 34.87,
+    "end": 34.91
+   },
+   {
+    "text": "que",
+    "start": 34.93,
+    "end": 34.991
+   },
+   {
+    "text": "tu",
+    "start": 35.011,
+    "end": 35.051
+   },
+   {
+    "text": "as",
+    "start": 35.071,
+    "end": 35.111
+   },
+   {
+    "text": "déjà",
+    "start": 35.131,
+    "end": 35.232
+   },
+   {
+    "text": "une",
+    "start": 35.252,
+    "end": 35.332
+   },
+   {
+    "text": "audience",
+    "start": 35.353,
+    "end": 35.795
+   }
+  ],
+  "text": "Option 1 une page de précommande sur ta boutique Si ton produit est simple et que tu as déjà une audience",
+  "norm": [
+   "option",
+   "1",
+   "une",
+   "page",
+   "de",
+   "precommande",
+   "sur",
+   "ta",
+   "boutique",
+   "si",
+   "ton",
+   "produit",
+   "est",
+   "simple",
+   "et",
+   "que",
+   "tu",
+   "as",
+   "deja",
+   "une",
+   "audience"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 40.82,
+  "out": 52.97,
+  "words": [
+   {
+    "text": "que",
+    "start": 40.851,
+    "end": 40.911
+   },
+   {
+    "text": "ce",
+    "start": 40.931,
+    "end": 41.012
+   },
+   {
+    "text": "soit",
+    "start": 41.032,
+    "end": 41.152
+   },
+   {
+    "text": "au",
+    "start": 41.172,
+    "end": 41.233
+   },
+   {
+    "text": "travers",
+    "start": 41.253,
+    "end": 41.554
+   },
+   {
+    "text": "d'un",
+    "start": 41.574,
+    "end": 41.735
+   },
+   {
+    "text": "mail",
+    "start": 41.755,
+    "end": 42.257
+   },
+   {
+    "text": "ou",
+    "start": 42.317,
+    "end": 42.819
+   },
+   {
+    "text": "de",
+    "start": 42.859,
+    "end": 42.94
+   },
+   {
+    "text": "différents",
+    "start": 42.96,
+    "end": 43.321
+   },
+   {
+    "text": "contenus",
+    "start": 43.341,
+    "end": 43.663
+   },
+   {
+    "text": "tu",
+    "start": 43.683,
+    "end": 43.723
+   },
+   {
+    "text": "vas",
+    "start": 43.743,
+    "end": 43.803
+   },
+   {
+    "text": "pouvoir",
+    "start": 43.823,
+    "end": 44.245
+   },
+   {
+    "text": "mettre",
+    "start": 44.265,
+    "end": 44.486
+   },
+   {
+    "text": "en",
+    "start": 44.506,
+    "end": 44.566
+   },
+   {
+    "text": "avant",
+    "start": 44.606,
+    "end": 44.787
+   },
+   {
+    "text": "ce",
+    "start": 44.807,
+    "end": 44.868
+   },
+   {
+    "text": "nouveau",
+    "start": 44.888,
+    "end": 45.109
+   },
+   {
+    "text": "produit",
+    "start": 45.149,
+    "end": 45.671
+   },
+   {
+    "text": "et",
+    "start": 45.731,
+    "end": 45.932
+   },
+   {
+    "text": "leur",
+    "start": 45.972,
+    "end": 46.113
+   },
+   {
+    "text": "dire",
+    "start": 46.133,
+    "end": 46.334
+   },
+   {
+    "text": "que",
+    "start": 46.354,
+    "end": 46.474
+   },
+   {
+    "text": "c'est",
+    "start": 46.514,
+    "end": 46.655
+   },
+   {
+    "text": "ouvert",
+    "start": 46.675,
+    "end": 47.016
+   },
+   {
+    "text": "uniquement",
+    "start": 47.097,
+    "end": 47.599
+   },
+   {
+    "text": "aux",
+    "start": 47.659,
+    "end": 47.739
+   },
+   {
+    "text": "précommandes",
+    "start": 47.759,
+    "end": 48.322
+   },
+   {
+    "text": "avec",
+    "start": 48.362,
+    "end": 48.683
+   },
+   {
+    "text": "éventuellement",
+    "start": 48.764,
+    "end": 49.386
+   },
+   {
+    "text": "un",
+    "start": 49.446,
+    "end": 49.507
+   },
+   {
+    "text": "stock",
+    "start": 49.527,
+    "end": 49.768
+   },
+   {
+    "text": "limité",
+    "start": 49.788,
+    "end": 50.531
+   },
+   {
+    "text": "pour",
+    "start": 50.551,
+    "end": 50.712
+   },
+   {
+    "text": "les",
+    "start": 50.732,
+    "end": 50.912
+   },
+   {
+    "text": "pousser",
+    "start": 50.932,
+    "end": 51.314
+   },
+   {
+    "text": "à",
+    "start": 51.495,
+    "end": 51.575
+   },
+   {
+    "text": "l'achat",
+    "start": 51.595,
+    "end": 51.977
+   },
+   {
+    "text": "et",
+    "start": 52.017,
+    "end": 52.137
+   },
+   {
+    "text": "voir",
+    "start": 52.158,
+    "end": 52.318
+   },
+   {
+    "text": "s'il",
+    "start": 52.338,
+    "end": 52.419
+   },
+   {
+    "text": "y",
+    "start": 52.439,
+    "end": 52.459
+   },
+   {
+    "text": "a",
+    "start": 52.479,
+    "end": 52.499
+   },
+   {
+    "text": "de",
+    "start": 52.519,
+    "end": 52.559
+   },
+   {
+    "text": "l'attraction",
+    "start": 52.579,
+    "end": 53.001
+   }
+  ],
+  "text": "que ce soit au travers d'un mail ou de différents contenus tu vas pouvoir mettre en avant ce nouveau produit et leur dire que c'est ouvert uniquement aux précommandes avec éventuellement un stock limité pour les pousser à l'achat et voir s'il y a de l'attraction",
+  "norm": [
+   "que",
+   "ce",
+   "soit",
+   "au",
+   "traver",
+   "d'un",
+   "mail",
+   "ou",
+   "de",
+   "different",
+   "contenu",
+   "tu",
+   "vas",
+   "pouvoir",
+   "mettre",
+   "en",
+   "avant",
+   "ce",
+   "nouveau",
+   "produit",
+   "et",
+   "leur",
+   "dire",
+   "que",
+   "c'est",
+   "ouvert",
+   "uniquement",
+   "aux",
+   "precommande",
+   "avec",
+   "eventuellement",
+   "un",
+   "stock",
+   "limite",
+   "pour",
+   "les",
+   "pousser",
+   "a",
+   "l'achat",
+   "et",
+   "voir",
+   "s'il",
+   "y",
+   "a",
+   "de",
+   "l'attraction"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 57.28,
+  "out": 71.31,
+  "words": [
+   {
+    "text": "Numéro",
+    "start": 57.371,
+    "end": 57.631
+   },
+   {
+    "text": "2",
+    "start": 57.651,
+    "end": 57.912
+   },
+   {
+    "text": "si",
+    "start": 57.932,
+    "end": 58.032
+   },
+   {
+    "text": "tu",
+    "start": 58.052,
+    "end": 58.112
+   },
+   {
+    "text": "dois",
+    "start": 58.132,
+    "end": 58.312
+   },
+   {
+    "text": "financer",
+    "start": 58.332,
+    "end": 58.713
+   },
+   {
+    "text": "la",
+    "start": 58.793,
+    "end": 58.853
+   },
+   {
+    "text": "production",
+    "start": 58.873,
+    "end": 59.293
+   },
+   {
+    "text": "ou",
+    "start": 59.453,
+    "end": 59.514
+   },
+   {
+    "text": "construire",
+    "start": 59.534,
+    "end": 59.854
+   },
+   {
+    "text": "ta",
+    "start": 59.994,
+    "end": 60.174
+   },
+   {
+    "text": "première",
+    "start": 60.194,
+    "end": 60.475
+   },
+   {
+    "text": "communauté",
+    "start": 60.495,
+    "end": 60.855
+   },
+   {
+    "text": "je",
+    "start": 60.895,
+    "end": 60.935
+   },
+   {
+    "text": "te",
+    "start": 60.955,
+    "end": 61.055
+   },
+   {
+    "text": "conseille",
+    "start": 61.075,
+    "end": 61.296
+   },
+   {
+    "text": "de",
+    "start": 61.316,
+    "end": 61.376
+   },
+   {
+    "text": "partir",
+    "start": 61.396,
+    "end": 61.616
+   },
+   {
+    "text": "sur",
+    "start": 61.656,
+    "end": 61.756
+   },
+   {
+    "text": "une",
+    "start": 61.776,
+    "end": 61.856
+   },
+   {
+    "text": "campagne",
+    "start": 61.876,
+    "end": 62.257
+   },
+   {
+    "text": "Ulule",
+    "start": 62.337,
+    "end": 63.018
+   },
+   {
+    "text": "Ulule",
+    "start": 63.098,
+    "end": 63.418
+   },
+   {
+    "text": "c'est",
+    "start": 63.438,
+    "end": 63.638
+   },
+   {
+    "text": "une",
+    "start": 63.678,
+    "end": 63.778
+   },
+   {
+    "text": "plateforme",
+    "start": 63.798,
+    "end": 64.079
+   },
+   {
+    "text": "de",
+    "start": 64.099,
+    "end": 64.259
+   },
+   {
+    "text": "crowdfunding",
+    "start": 64.279,
+    "end": 65.08
+   },
+   {
+    "text": "français",
+    "start": 65.1,
+    "end": 65.761
+   },
+   {
+    "text": "qui",
+    "start": 65.781,
+    "end": 65.901
+   },
+   {
+    "text": "te",
+    "start": 65.941,
+    "end": 66.021
+   },
+   {
+    "text": "permettra",
+    "start": 66.041,
+    "end": 66.642
+   },
+   {
+    "text": "de",
+    "start": 66.662,
+    "end": 66.742
+   },
+   {
+    "text": "mettre",
+    "start": 66.762,
+    "end": 66.962
+   },
+   {
+    "text": "en",
+    "start": 66.982,
+    "end": 67.042
+   },
+   {
+    "text": "avant",
+    "start": 67.102,
+    "end": 67.282
+   },
+   {
+    "text": "ton",
+    "start": 67.302,
+    "end": 67.443
+   },
+   {
+    "text": "projet",
+    "start": 67.463,
+    "end": 68.083
+   },
+   {
+    "text": "et",
+    "start": 68.123,
+    "end": 68.284
+   },
+   {
+    "text": "surtout",
+    "start": 68.304,
+    "end": 68.564
+   },
+   {
+    "text": "de",
+    "start": 68.884,
+    "end": 69.105
+   },
+   {
+    "text": "récolter",
+    "start": 69.145,
+    "end": 69.905
+   },
+   {
+    "text": "de",
+    "start": 69.925,
+    "end": 70.006
+   },
+   {
+    "text": "l'argent",
+    "start": 70.026,
+    "end": 70.286
+   },
+   {
+    "text": "pour",
+    "start": 70.306,
+    "end": 70.406
+   },
+   {
+    "text": "le",
+    "start": 70.426,
+    "end": 70.486
+   },
+   {
+    "text": "financer",
+    "start": 70.506,
+    "end": 71.267
+   }
+  ],
+  "text": "Numéro 2 si tu dois financer la production ou construire ta première communauté je te conseille de partir sur une campagne Ulule Ulule c'est une plateforme de crowdfunding français qui te permettra de mettre en avant ton projet et surtout de récolter de l'argent pour le financer",
+  "norm": [
+   "numero",
+   "2",
+   "si",
+   "tu",
+   "doi",
+   "financer",
+   "la",
+   "production",
+   "ou",
+   "construire",
+   "ta",
+   "premiere",
+   "communaute",
+   "je",
+   "te",
+   "conseille",
+   "de",
+   "partir",
+   "sur",
+   "une",
+   "campagne",
+   "ulule",
+   "ulule",
+   "c'est",
+   "une",
+   "plateforme",
+   "de",
+   "crowdfunding",
+   "francai",
+   "qui",
+   "te",
+   "permettra",
+   "de",
+   "mettre",
+   "en",
+   "avant",
+   "ton",
+   "projet",
+   "et",
+   "surtout",
+   "de",
+   "recolter",
+   "de",
+   "l'argent",
+   "pour",
+   "le",
+   "financer"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 72.11,
+  "out": 75.35,
+  "words": [
+   {
+    "text": "Mais",
+    "start": 72.181,
+    "end": 72.262
+   },
+   {
+    "text": "attention",
+    "start": 72.282,
+    "end": 72.705
+   },
+   {
+    "text": "c'est",
+    "start": 72.725,
+    "end": 72.866
+   },
+   {
+    "text": "sur",
+    "start": 72.907,
+    "end": 73.028
+   },
+   {
+    "text": "Ulule",
+    "start": 73.088,
+    "end": 73.35
+   },
+   {
+    "text": "Mais",
+    "start": 73.37,
+    "end": 73.451
+   },
+   {
+    "text": "attention",
+    "start": 73.471,
+    "end": 73.793
+   },
+   {
+    "text": "sur",
+    "start": 73.813,
+    "end": 73.914
+   },
+   {
+    "text": "Ulule",
+    "start": 73.975,
+    "end": 74.116
+   },
+   {
+    "text": "c'est",
+    "start": 74.136,
+    "end": 74.237
+   },
+   {
+    "text": "tout",
+    "start": 74.257,
+    "end": 74.357
+   },
+   {
+    "text": "ou",
+    "start": 74.398,
+    "end": 74.458
+   },
+   {
+    "text": "rien",
+    "start": 74.478,
+    "end": 74.841
+   }
+  ],
+  "text": "Mais attention c'est sur Ulule Mais attention sur Ulule c'est tout ou rien",
+  "norm": [
+   "mai",
+   "attention",
+   "c'est",
+   "sur",
+   "ulule",
+   "mai",
+   "attention",
+   "sur",
+   "ulule",
+   "c'est",
+   "tout",
+   "ou",
+   "rien"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 75.13,
+  "out": 79.18,
+  "words": [
+   {
+    "text": "Si",
+    "start": 75.221,
+    "end": 75.322
+   },
+   {
+    "text": "ton",
+    "start": 75.342,
+    "end": 75.443
+   },
+   {
+    "text": "objectif",
+    "start": 75.484,
+    "end": 75.766
+   },
+   {
+    "text": "n'est",
+    "start": 75.786,
+    "end": 75.907
+   },
+   {
+    "text": "pas",
+    "start": 75.927,
+    "end": 76.008
+   },
+   {
+    "text": "atteint",
+    "start": 76.028,
+    "end": 76.331
+   },
+   {
+    "text": "le",
+    "start": 76.351,
+    "end": 76.452
+   },
+   {
+    "text": "projet",
+    "start": 76.472,
+    "end": 76.653
+   },
+   {
+    "text": "n'est",
+    "start": 76.673,
+    "end": 76.794
+   },
+   {
+    "text": "pas",
+    "start": 76.815,
+    "end": 76.895
+   },
+   {
+    "text": "financé",
+    "start": 76.915,
+    "end": 77.44
+   },
+   {
+    "text": "et",
+    "start": 77.48,
+    "end": 77.641
+   },
+   {
+    "text": "tu",
+    "start": 77.661,
+    "end": 77.742
+   },
+   {
+    "text": "dois",
+    "start": 77.762,
+    "end": 77.883
+   },
+   {
+    "text": "donc",
+    "start": 77.903,
+    "end": 78.045
+   },
+   {
+    "text": "rembourser",
+    "start": 78.065,
+    "end": 78.629
+   },
+   {
+    "text": "les",
+    "start": 78.67,
+    "end": 78.811
+   },
+   {
+    "text": "personnes",
+    "start": 78.831,
+    "end": 79.194
+   }
+  ],
+  "text": "Si ton objectif n'est pas atteint le projet n'est pas financé et tu dois donc rembourser les personnes",
+  "norm": [
+   "si",
+   "ton",
+   "objectif",
+   "n'est",
+   "pas",
+   "atteint",
+   "le",
+   "projet",
+   "n'est",
+   "pas",
+   "finance",
+   "et",
+   "tu",
+   "doi",
+   "donc",
+   "rembourser",
+   "les",
+   "personne"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 85.18,
+  "out": 89.76,
+  "words": [
+   {
+    "text": "Parce",
+    "start": 85.211,
+    "end": 85.332
+   },
+   {
+    "text": "que",
+    "start": 85.352,
+    "end": 85.412
+   },
+   {
+    "text": "dans",
+    "start": 85.453,
+    "end": 85.553
+   },
+   {
+    "text": "tous",
+    "start": 85.574,
+    "end": 85.674
+   },
+   {
+    "text": "les",
+    "start": 85.694,
+    "end": 85.775
+   },
+   {
+    "text": "cas",
+    "start": 85.795,
+    "end": 85.936
+   },
+   {
+    "text": "le",
+    "start": 85.956,
+    "end": 86.077
+   },
+   {
+    "text": "nerf",
+    "start": 86.118,
+    "end": 86.279
+   },
+   {
+    "text": "de",
+    "start": 86.299,
+    "end": 86.359
+   },
+   {
+    "text": "la",
+    "start": 86.379,
+    "end": 86.44
+   },
+   {
+    "text": "guerre",
+    "start": 86.46,
+    "end": 86.661
+   },
+   {
+    "text": "ça",
+    "start": 86.702,
+    "end": 86.762
+   },
+   {
+    "text": "va",
+    "start": 86.782,
+    "end": 86.823
+   },
+   {
+    "text": "être",
+    "start": 86.843,
+    "end": 86.944
+   },
+   {
+    "text": "la",
+    "start": 86.964,
+    "end": 87.044
+   },
+   {
+    "text": "communication",
+    "start": 87.085,
+    "end": 87.588
+   },
+   {
+    "text": "Parce",
+    "start": 87.608,
+    "end": 87.709
+   },
+   {
+    "text": "qu'une",
+    "start": 87.729,
+    "end": 87.991
+   },
+   {
+    "text": "précommande",
+    "start": 88.011,
+    "end": 88.354
+   },
+   {
+    "text": "que",
+    "start": 88.374,
+    "end": 88.475
+   },
+   {
+    "text": "personne",
+    "start": 88.495,
+    "end": 88.797
+   },
+   {
+    "text": "ne",
+    "start": 88.817,
+    "end": 88.898
+   },
+   {
+    "text": "voit",
+    "start": 88.918,
+    "end": 89.2
+   },
+   {
+    "text": "ne",
+    "start": 89.22,
+    "end": 89.321
+   },
+   {
+    "text": "vend",
+    "start": 89.361,
+    "end": 89.482
+   },
+   {
+    "text": "rien",
+    "start": 89.502,
+    "end": 89.784
+   }
+  ],
+  "text": "Parce que dans tous les cas le nerf de la guerre ça va être la communication Parce qu'une précommande que personne ne voit ne vend rien",
+  "norm": [
+   "parce",
+   "que",
+   "dan",
+   "tou",
+   "les",
+   "cas",
+   "le",
+   "nerf",
+   "de",
+   "la",
+   "guerre",
+   "ca",
+   "va",
+   "etre",
+   "la",
+   "communication",
+   "parce",
+   "qu'une",
+   "precommande",
+   "que",
+   "personne",
+   "ne",
+   "voit",
+   "ne",
+   "vend",
+   "rien"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 90.42,
+  "out": 91.3,
+  "words": [
+   {
+    "text": "Donc",
+    "start": 90.451,
+    "end": 90.592
+   },
+   {
+    "text": "il",
+    "start": 90.612,
+    "end": 90.673
+   },
+   {
+    "text": "faudra",
+    "start": 90.693,
+    "end": 90.875
+   },
+   {
+    "text": "une",
+    "start": 90.895,
+    "end": 91.177
+   }
+  ],
+  "text": "Donc il faudra une",
+  "norm": [
+   "donc",
+   "il",
+   "faudra",
+   "une"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 91.87,
+  "out": 97.66,
+  "words": [
+   {
+    "text": "Il",
+    "start": 92.607,
+    "end": 92.647
+   },
+   {
+    "text": "va",
+    "start": 92.667,
+    "end": 92.748
+   },
+   {
+    "text": "falloir",
+    "start": 92.768,
+    "end": 92.97
+   },
+   {
+    "text": "produire",
+    "start": 92.99,
+    "end": 93.272
+   },
+   {
+    "text": "du",
+    "start": 93.293,
+    "end": 93.353
+   },
+   {
+    "text": "contenu",
+    "start": 93.373,
+    "end": 93.635
+   },
+   {
+    "text": "en",
+    "start": 93.676,
+    "end": 93.756
+   },
+   {
+    "text": "volume",
+    "start": 93.777,
+    "end": 94.22
+   },
+   {
+    "text": "tous",
+    "start": 94.24,
+    "end": 94.422
+   },
+   {
+    "text": "les",
+    "start": 94.442,
+    "end": 94.563
+   },
+   {
+    "text": "jours",
+    "start": 94.583,
+    "end": 95.168
+   },
+   {
+    "text": "pour",
+    "start": 95.188,
+    "end": 95.672
+   },
+   {
+    "text": "pouvoir",
+    "start": 95.692,
+    "end": 95.854
+   },
+   {
+    "text": "la",
+    "start": 95.894,
+    "end": 96.015
+   },
+   {
+    "text": "montrer",
+    "start": 96.055,
+    "end": 96.56
+   },
+   {
+    "text": "à",
+    "start": 96.701,
+    "end": 96.822
+   },
+   {
+    "text": "plus",
+    "start": 96.842,
+    "end": 97.003
+   },
+   {
+    "text": "de",
+    "start": 97.044,
+    "end": 97.104
+   },
+   {
+    "text": "monde",
+    "start": 97.124,
+    "end": 97.286
+   },
+   {
+    "text": "possible",
+    "start": 97.306,
+    "end": 97.689
+   }
+  ],
+  "text": "Il va falloir produire du contenu en volume tous les jours pour pouvoir la montrer à plus de monde possible",
+  "norm": [
+   "il",
+   "va",
+   "falloir",
+   "produire",
+   "du",
+   "contenu",
+   "en",
+   "volume",
+   "tou",
+   "les",
+   "jour",
+   "pour",
+   "pouvoir",
+   "la",
+   "montrer",
+   "a",
+   "plu",
+   "de",
+   "monde",
+   "possible"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 98.21,
+  "out": 100.65,
+  "words": [
+   {
+    "text": "après",
+    "start": 98.342,
+    "end": 98.484
+   },
+   {
+    "text": "ensuite",
+    "start": 98.504,
+    "end": 98.686
+   },
+   {
+    "text": "il",
+    "start": 98.707,
+    "end": 98.747
+   },
+   {
+    "text": "y",
+    "start": 98.767,
+    "end": 98.788
+   },
+   {
+    "text": "aura",
+    "start": 98.808,
+    "end": 98.929
+   },
+   {
+    "text": "trois",
+    "start": 98.95,
+    "end": 99.193
+   },
+   {
+    "text": "règles",
+    "start": 99.213,
+    "end": 99.476
+   },
+   {
+    "text": "simples",
+    "start": 99.517,
+    "end": 100.286
+   },
+   {
+    "text": "une",
+    "start": 100.367,
+    "end": 100.489
+   },
+   {
+    "text": "date",
+    "start": 100.509,
+    "end": 100.59
+   },
+   {
+    "text": "de",
+    "start": 100.61,
+    "end": 100.361
+   }
+  ],
+  "text": "après ensuite il y aura trois règles simples une date de",
+  "norm": [
+   "apre",
+   "ensuite",
+   "il",
+   "y",
+   "aura",
+   "troi",
+   "regle",
+   "simple",
+   "une",
+   "date",
+   "de"
+  ],
+  "keep": true,
+  "why": "end trimmed: « une date de » repeated at the start of the next one",
+  "trim_out": 100.32
+ },
+ {
+  "in": 100.27,
+  "out": 108.65,
+  "words": [
+   {
+    "text": "une",
+    "start": 100.361,
+    "end": 100.482
+   },
+   {
+    "text": "date",
+    "start": 100.502,
+    "end": 100.662
+   },
+   {
+    "text": "de",
+    "start": 100.682,
+    "end": 100.723
+   },
+   {
+    "text": "livraison",
+    "start": 100.743,
+    "end": 101.224
+   },
+   {
+    "text": "honnête",
+    "start": 101.264,
+    "end": 101.746
+   },
+   {
+    "text": "un",
+    "start": 101.786,
+    "end": 101.847
+   },
+   {
+    "text": "seuil",
+    "start": 101.867,
+    "end": 102.148
+   },
+   {
+    "text": "minimum",
+    "start": 102.188,
+    "end": 102.609
+   },
+   {
+    "text": "par",
+    "start": 102.629,
+    "end": 102.71
+   },
+   {
+    "text": "exemple",
+    "start": 102.73,
+    "end": 102.991
+   },
+   {
+    "text": "30",
+    "start": 103.051,
+    "end": 103.292
+   },
+   {
+    "text": "commandes",
+    "start": 103.312,
+    "end": 103.854
+   },
+   {
+    "text": "en",
+    "start": 103.874,
+    "end": 103.934
+   },
+   {
+    "text": "dessous",
+    "start": 103.954,
+    "end": 104.175
+   },
+   {
+    "text": "tu",
+    "start": 104.195,
+    "end": 104.356
+   },
+   {
+    "text": "rembourses",
+    "start": 104.376,
+    "end": 105.058
+   },
+   {
+    "text": "et",
+    "start": 105.118,
+    "end": 105.299
+   },
+   {
+    "text": "surtout",
+    "start": 105.319,
+    "end": 105.68
+   },
+   {
+    "text": "après",
+    "start": 105.72,
+    "end": 106.122
+   },
+   {
+    "text": "passez",
+    "start": 106.142,
+    "end": 106.343
+   },
+   {
+    "text": "les",
+    "start": 106.363,
+    "end": 106.423
+   },
+   {
+    "text": "commandes",
+    "start": 106.443,
+    "end": 106.684
+   },
+   {
+    "text": "chez",
+    "start": 106.704,
+    "end": 106.804
+   },
+   {
+    "text": "ton",
+    "start": 106.824,
+    "end": 106.885
+   },
+   {
+    "text": "fournisseur",
+    "start": 106.905,
+    "end": 107.507
+   },
+   {
+    "text": "dès",
+    "start": 107.547,
+    "end": 107.627
+   },
+   {
+    "text": "que",
+    "start": 107.647,
+    "end": 107.708
+   },
+   {
+    "text": "tu",
+    "start": 107.728,
+    "end": 107.768
+   },
+   {
+    "text": "as",
+    "start": 107.788,
+    "end": 107.828
+   },
+   {
+    "text": "l'objectif",
+    "start": 107.848,
+    "end": 108.229
+   },
+   {
+    "text": "qui",
+    "start": 108.249,
+    "end": 108.33
+   },
+   {
+    "text": "est",
+    "start": 108.35,
+    "end": 108.41
+   },
+   {
+    "text": "atteint",
+    "start": 108.43,
+    "end": 108.671
+   }
+  ],
+  "text": "une date de livraison honnête un seuil minimum par exemple 30 commandes en dessous tu rembourses et surtout après passez les commandes chez ton fournisseur dès que tu as l'objectif qui est atteint",
+  "norm": [
+   "une",
+   "date",
+   "de",
+   "livraison",
+   "honnete",
+   "un",
+   "seuil",
+   "minimum",
+   "par",
+   "exemple",
+   "30",
+   "commande",
+   "en",
+   "dessou",
+   "tu",
+   "rembourse",
+   "et",
+   "surtout",
+   "apre",
+   "passez",
+   "les",
+   "commande",
+   "chez",
+   "ton",
+   "fournisseur",
+   "des",
+   "que",
+   "tu",
+   "as",
+   "l'objectif",
+   "qui",
+   "est",
+   "atteint"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 123.39,
+  "out": 124.76,
+  "words": [
+   {
+    "text": "Et",
+    "start": 123.483,
+    "end": 123.545
+   },
+   {
+    "text": "si",
+    "start": 123.587,
+    "end": 123.69
+   },
+   {
+    "text": "tu",
+    "start": 123.711,
+    "end": 124.394
+   },
+   {
+    "text": "veux",
+    "start": 124.415,
+    "end": 124.421
+   }
+  ],
+  "text": "Et si tu veux",
+  "norm": [
+   "et",
+   "si",
+   "tu",
+   "veux"
+  ],
+  "keep": false,
+  "why": "contained in the next one"
+ },
+ {
+  "in": 124.37,
+  "out": 128.99,
+  "words": [
+   {
+    "text": "Et",
+    "start": 124.421,
+    "end": 124.522
+   },
+   {
+    "text": "si",
+    "start": 124.542,
+    "end": 124.663
+   },
+   {
+    "text": "tu",
+    "start": 124.683,
+    "end": 124.763
+   },
+   {
+    "text": "veux",
+    "start": 124.783,
+    "end": 124.884
+   },
+   {
+    "text": "en",
+    "start": 125.065,
+    "end": 125.93
+   },
+   {
+    "text": "apprendre",
+    "start": 125.97,
+    "end": 126.232
+   },
+   {
+    "text": "toujours",
+    "start": 126.252,
+    "end": 126.554
+   },
+   {
+    "text": "un",
+    "start": 126.614,
+    "end": 126.694
+   },
+   {
+    "text": "peu",
+    "start": 126.715,
+    "end": 126.835
+   },
+   {
+    "text": "plus",
+    "start": 126.855,
+    "end": 126.996
+   },
+   {
+    "text": "sur",
+    "start": 127.036,
+    "end": 127.117
+   },
+   {
+    "text": "l'e-commerce",
+    "start": 127.137,
+    "end": 127.6
+   },
+   {
+    "text": "avec",
+    "start": 127.62,
+    "end": 127.741
+   },
+   {
+    "text": "l'actu",
+    "start": 127.761,
+    "end": 128.344
+   },
+   {
+    "text": "abonne-toi",
+    "start": 128.404,
+    "end": 129.008
+   }
+  ],
+  "text": "Et si tu veux en apprendre toujours un peu plus sur l'e-commerce avec l'actu abonne-toi",
+  "norm": [
+   "et",
+   "si",
+   "tu",
+   "veux",
+   "en",
+   "apprendre",
+   "toujour",
+   "un",
+   "peu",
+   "plu",
+   "sur",
+   "l'e",
+   "commerce",
+   "avec",
+   "l'actu",
+   "abonne",
+   "toi"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 134.71,
+  "out": 139.83,
+  "words": [
+   {
+    "text": "commande",
+    "start": 134.761,
+    "end": 135.121
+   },
+   {
+    "text": "préco",
+    "start": 135.161,
+    "end": 135.662
+   },
+   {
+    "text": "pour",
+    "start": 135.682,
+    "end": 135.782
+   },
+   {
+    "text": "que",
+    "start": 135.802,
+    "end": 135.882
+   },
+   {
+    "text": "je",
+    "start": 135.902,
+    "end": 135.942
+   },
+   {
+    "text": "t'envoie",
+    "start": 135.962,
+    "end": 136.183
+   },
+   {
+    "text": "également",
+    "start": 136.203,
+    "end": 136.463
+   },
+   {
+    "text": "la",
+    "start": 136.503,
+    "end": 136.643
+   },
+   {
+    "text": "grille",
+    "start": 136.663,
+    "end": 136.903
+   },
+   {
+    "text": "qui",
+    "start": 136.923,
+    "end": 137.003
+   },
+   {
+    "text": "te",
+    "start": 137.023,
+    "end": 137.063
+   },
+   {
+    "text": "permettra",
+    "start": 137.083,
+    "end": 137.744
+   },
+   {
+    "text": "de",
+    "start": 137.764,
+    "end": 137.824
+   },
+   {
+    "text": "lancer",
+    "start": 137.844,
+    "end": 138.125
+   },
+   {
+    "text": "ta",
+    "start": 138.165,
+    "end": 138.265
+   },
+   {
+    "text": "précommande",
+    "start": 138.285,
+    "end": 138.725
+   },
+   {
+    "text": "de",
+    "start": 138.745,
+    "end": 138.805
+   },
+   {
+    "text": "la",
+    "start": 138.825,
+    "end": 138.905
+   },
+   {
+    "text": "boutique",
+    "start": 138.925,
+    "end": 139.466
+   }
+  ],
+  "text": "commande préco pour que je t'envoie également la grille qui te permettra de lancer ta précommande de la boutique",
+  "norm": [
+   "commande",
+   "preco",
+   "pour",
+   "que",
+   "je",
+   "t'envoie",
+   "egalement",
+   "la",
+   "grille",
+   "qui",
+   "te",
+   "permettra",
+   "de",
+   "lancer",
+   "ta",
+   "precommande",
+   "de",
+   "la",
+   "boutique"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 144.89,
+  "out": 151.13,
+  "words": [
+   {
+    "text": "Et",
+    "start": 145.302,
+    "end": 145.382
+   },
+   {
+    "text": "commandes",
+    "start": 145.402,
+    "end": 145.723
+   },
+   {
+    "text": "préco",
+    "start": 145.743,
+    "end": 146.164
+   },
+   {
+    "text": "pour",
+    "start": 146.184,
+    "end": 146.284
+   },
+   {
+    "text": "que",
+    "start": 146.304,
+    "end": 146.364
+   },
+   {
+    "text": "je",
+    "start": 146.384,
+    "end": 146.424
+   },
+   {
+    "text": "t'envoie",
+    "start": 146.444,
+    "end": 146.725
+   },
+   {
+    "text": "ma",
+    "start": 146.765,
+    "end": 146.925
+   },
+   {
+    "text": "grille",
+    "start": 146.945,
+    "end": 147.466
+   },
+   {
+    "text": "pour",
+    "start": 147.486,
+    "end": 147.647
+   },
+   {
+    "text": "t'aider",
+    "start": 147.687,
+    "end": 148.388
+   },
+   {
+    "text": "à",
+    "start": 148.428,
+    "end": 148.488
+   },
+   {
+    "text": "gérer",
+    "start": 148.529,
+    "end": 148.729
+   },
+   {
+    "text": "tes",
+    "start": 148.849,
+    "end": 148.969
+   },
+   {
+    "text": "précommandes",
+    "start": 148.99,
+    "end": 149.35
+   },
+   {
+    "text": "sur",
+    "start": 149.37,
+    "end": 149.471
+   },
+   {
+    "text": "ta",
+    "start": 149.511,
+    "end": 149.571
+   },
+   {
+    "text": "boutique",
+    "start": 149.591,
+    "end": 149.992
+   },
+   {
+    "text": "ou",
+    "start": 150.052,
+    "end": 150.332
+   },
+   {
+    "text": "au",
+    "start": 150.352,
+    "end": 150.392
+   },
+   {
+    "text": "travers",
+    "start": 150.433,
+    "end": 150.693
+   },
+   {
+    "text": "du",
+    "start": 150.713,
+    "end": 150.793
+   },
+   {
+    "text": "LUL",
+    "start": 150.833,
+    "end": 151.114
+   }
+  ],
+  "text": "Et commandes préco pour que je t'envoie ma grille pour t'aider à gérer tes précommandes sur ta boutique ou au travers du LUL",
+  "norm": [
+   "et",
+   "commande",
+   "preco",
+   "pour",
+   "que",
+   "je",
+   "t'envoie",
+   "ma",
+   "grille",
+   "pour",
+   "t'aider",
+   "a",
+   "gerer",
+   "tes",
+   "precommande",
+   "sur",
+   "ta",
+   "boutique",
+   "ou",
+   "au",
+   "traver",
+   "du",
+   "lul"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 152.66,
+  "out": 155.61,
+  "words": [
+   {
+    "text": "Et",
+    "start": 152.691,
+    "end": 152.752
+   },
+   {
+    "text": "si",
+    "start": 152.772,
+    "end": 152.812
+   },
+   {
+    "text": "tu",
+    "start": 152.833,
+    "end": 152.873
+   },
+   {
+    "text": "as",
+    "start": 152.893,
+    "end": 152.934
+   },
+   {
+    "text": "vraiment",
+    "start": 152.974,
+    "end": 153.217
+   },
+   {
+    "text": "un",
+    "start": 153.238,
+    "end": 153.298
+   },
+   {
+    "text": "projet",
+    "start": 153.319,
+    "end": 153.521
+   },
+   {
+    "text": "qui",
+    "start": 153.541,
+    "end": 153.643
+   },
+   {
+    "text": "s'y",
+    "start": 153.663,
+    "end": 153.764
+   },
+   {
+    "text": "prête",
+    "start": 153.784,
+    "end": 154.027
+   },
+   {
+    "text": "moi",
+    "start": 154.048,
+    "end": 154.129
+   },
+   {
+    "text": "je",
+    "start": 154.149,
+    "end": 154.189
+   },
+   {
+    "text": "peux",
+    "start": 154.21,
+    "end": 154.291
+   },
+   {
+    "text": "même",
+    "start": 154.311,
+    "end": 154.493
+   },
+   {
+    "text": "t'aider",
+    "start": 154.513,
+    "end": 154.817
+   },
+   {
+    "text": "à",
+    "start": 154.837,
+    "end": 154.878
+   },
+   {
+    "text": "préparer",
+    "start": 154.898,
+    "end": 155.182
+   },
+   {
+    "text": "ta",
+    "start": 155.222,
+    "end": 155.283
+   },
+   {
+    "text": "campagne",
+    "start": 155.323,
+    "end": 155.587
+   }
+  ],
+  "text": "Et si tu as vraiment un projet qui s'y prête moi je peux même t'aider à préparer ta campagne",
+  "norm": [
+   "et",
+   "si",
+   "tu",
+   "as",
+   "vraiment",
+   "un",
+   "projet",
+   "qui",
+   "s'y",
+   "prete",
+   "moi",
+   "je",
+   "peux",
+   "meme",
+   "t'aider",
+   "a",
+   "preparer",
+   "ta",
+   "campagne"
+  ],
+  "keep": true,
+  "why": ""
+ },
+ {
+  "in": 156.09,
+  "out": 156.95,
+  "words": [
+   {
+    "text": "Allez",
+    "start": 156.162,
+    "end": 156.528
+   },
+   {
+    "text": "ciao",
+    "start": 156.548,
+    "end": 156.711
+   }
+  ],
+  "text": "Allez ciao",
+  "norm": [
+   "allez",
+   "ciao"
+  ],
+  "keep": true,
+  "why": ""
+ }
+]

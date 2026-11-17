@@ -1,0 +1,111 @@
+[
+ {
+  "name": "t04",
+  "in": 25.78,
+  "out": 29.62,
+  "why": "HOOK (variation) : « Dis-toi qu'ils ont réussi à vendre un jeu avant même qu'il existe. Et ta marque e-commerce peut faire pareil. »"
+ },
+ {
+  "name": "t01",
+  "in": 8.08,
+  "out": 12.72
+ },
+ {
+  "name": "t02a",
+  "in": 15.16,
+  "out": 15.81,
+  "why": "« Ça, c'est un chiffre »"
+ },
+ {
+  "name": "t02b",
+  "in": 16.34,
+  "out": 18.86,
+  "why": "« officiel » retiré (inexact : estimation Sensor Tower)"
+ },
+ {
+  "name": "t03",
+  "in": 21.78,
+  "out": 24.86
+ },
+ {
+  "name": "t05",
+  "in": 29.98,
+  "out": 30.58,
+  "why": "« Tu as deux options »"
+ },
+ {
+  "name": "t06a",
+  "in": 31.3,
+  "out": 33.27
+ },
+ {
+  "name": "t06b",
+  "in": 33.7,
+  "out": 35.76,
+  "why": "pause réduite, garde « Si » (33,74)"
+ },
+ {
+  "name": "t07",
+  "in": 40.76,
+  "out": 52.95
+ },
+ {
+  "name": "t08",
+  "in": 57.24,
+  "out": 70.98
+ },
+ {
+  "name": "t09",
+  "in": 73.3,
+  "out": 74.62,
+  "why": "bafouillage « Mais attention, c'est sur Ulule, » retiré"
+ },
+ {
+  "name": "t10",
+  "in": 75.12,
+  "out": 79.17
+ },
+ {
+  "name": "t11",
+  "in": 85.12,
+  "out": 89.72
+ },
+ {
+  "name": "t13",
+  "in": 91.82,
+  "out": 97.64,
+  "why": "t12 « Donc il faudra une… » retiré"
+ },
+ {
+  "name": "t14",
+  "in": 98.16,
+  "out": 99.92
+ },
+ {
+  "name": "t15",
+  "in": 100.22,
+  "out": 108.64
+ },
+ {
+  "name": "t17",
+  "in": 125.52,
+  "out": 128.95,
+  "why": "faux départs « Et si tu veux (en apprendre)… » retirés"
+ },
+ {
+  "name": "t19",
+  "in": 145.22,
+  "out": 151.11,
+  "why": "t18 refaite en t19"
+ },
+ {
+  "name": "t20",
+  "in": 152.6,
+  "out": 155.6
+ },
+ {
+  "name": "t21",
+  "in": 156.04,
+  "out": 156.93
+ }
+]
